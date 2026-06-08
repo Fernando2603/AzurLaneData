@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -3
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "id": 201770,
+  "name": "2026伯利欣根活动 神光之网 子弹命中效果",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 20,
+  "last_effect": ""
+}

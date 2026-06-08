@@ -1,0 +1,58 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onRear",
+        "onCenter"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 190010
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 190011,
+        "quota": 3,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 190012,
+        "hpUpperBound": 0.5,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 190010,
+  "id": 190010,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

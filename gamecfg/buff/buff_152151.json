@@ -1,0 +1,51 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "MOSKVA"
+        ],
+        "skill_id": 152151
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 152151,
+  "name": "致命伤害监听",
+  "init_effect": "",
+  "id": 152151,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

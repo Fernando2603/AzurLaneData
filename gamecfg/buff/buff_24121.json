@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行18次攻击，触发全弹发射-逸仙I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1,
+          2
+        ],
+        "countType": 24120,
+        "countTarget": 18
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 24120,
+        "skill_id": 24121
+      }
+    }
+  ],
+  "desc": "主炮每进行18次攻击，触发全弹发射-逸仙I",
+  "picture": "",
+  "icon": 20100,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 24121,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

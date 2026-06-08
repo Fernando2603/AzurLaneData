@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddReloadRequirement",
+      "arg_list": {
+        "type": 23,
+        "number": -0.3
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponReady"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "desc": "准备速度提高一轮-30%",
+  "picture": "",
+  "icon": 15860,
+  "name": "",
+  "init_effect": "",
+  "id": 15862,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

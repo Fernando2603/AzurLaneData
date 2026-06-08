@@ -1,0 +1,88 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 1,
+        "countType": 115240
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 115241
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 115242
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 115240,
+        "skill_id": 115241
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 115241,
+        "skill_id": 115241
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 115242,
+        "skill_id": 115241
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 115240,
+  "id": 115240,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 3,
+  "time": 0,
+  "last_effect": ""
+}

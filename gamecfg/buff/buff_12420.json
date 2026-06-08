@@ -1,0 +1,47 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 12421
+      }
+    },
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 12421,
+        "quota": 8,
+        "killer": "self"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 12420,
+  "id": 12420,
+  "name": "伦敦改",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,67 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 1019265
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 1019262
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 1019262,
+        "time": 15
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 19264
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19260,
+  "id": 1019260,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,25 @@
+{
+  "color": "blue",
+  "desc_get": "无敌撤退",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8524
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 8523,
+  "name": "无敌撤退",
+  "init_effect": "",
+  "id": 8523,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

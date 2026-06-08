@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311067
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311068
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "hpUpperBound": 0.8,
+        "count": 1
+      }
+    }
+  ],
+  "desc": "第一阶段开始",
+  "picture": "",
+  "icon": 100002,
+  "name": "第一阶段",
+  "init_effect": "",
+  "id": 100002,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

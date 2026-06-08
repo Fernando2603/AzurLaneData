@@ -1,0 +1,40 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1,
+          2
+        ],
+        "countType": 30530,
+        "countTarget": 22
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30530,
+        "skill_id": 30531
+      }
+    }
+  ],
+  "desc": "主炮每进行22次攻击，触发专属弹幕I",
+  "picture": "",
+  "icon": 30530,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 30531,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

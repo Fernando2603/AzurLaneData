@@ -1,0 +1,31 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "skill_id": 200430,
+        "maxTargetNumber": 0,
+        "ship_type_list": [
+          12
+        ]
+      }
+    }
+  ],
+  "desc": "定期回复周围友军血量",
+  "picture": "",
+  "name": "2023俾斯麦Z活动 女灶神meta 维修光环",
+  "init_effect": "",
+  "id": 200431,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

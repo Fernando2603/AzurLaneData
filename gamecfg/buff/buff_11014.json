@@ -1,0 +1,41 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 11011,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 11016
+      }
+    }
+  ],
+  "desc": "受到致命伤害时不会阵亡，5秒内回避所有伤害",
+  "picture": "",
+  "icon": 11014,
+  "name": "铁底湾之夜",
+  "init_effect": "",
+  "id": 11014,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

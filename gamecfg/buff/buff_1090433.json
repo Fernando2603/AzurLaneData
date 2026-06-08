@@ -1,0 +1,37 @@
+{
+  "color": "blue",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1090431
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 4040,
+  "name": "吸引火力·妙高",
+  "init_effect": "",
+  "id": 1090433,
+  "stack": 2,
+  "time": 8,
+  "last_effect": ""
+}

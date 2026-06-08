@@ -1,0 +1,47 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -8000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 17821,
+        "quota": 4,
+        "time": 0.4
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          17826
+        ]
+      }
+    }
+  ],
+  "desc": "减速回复",
+  "picture": "",
+  "icon": 17825,
+  "name": "减速",
+  "init_effect": "",
+  "id": 17825,
+  "stack": 1,
+  "time": 2,
+  "last_effect": "Darkness"
+}

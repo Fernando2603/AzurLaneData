@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 600014
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 600026,
+        "time": 27
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 600014,
+        "time": 25
+      }
+    }
+  ],
+  "desc": "",
+  "id": 600025,
+  "name": "",
+  "icon": 600025,
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

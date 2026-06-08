@@ -1,0 +1,62 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 1,
+        "buff_id": 10541,
+        "nationality": 1,
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": 1,
+        "skill_id": 10540,
+        "check_target": "TargetNationalityFriendly"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 3,
+        "nationality": 1,
+        "skill_id": 10541,
+        "check_target": "TargetNationalityFriendly"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 10540,
+  "id": 10540,
+  "name": "皇家同盟",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

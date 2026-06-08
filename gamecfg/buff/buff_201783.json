@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onTakeHealing"
+      ],
+      "type": "BattleBuffHealingCorrupt",
+      "arg_list": {
+        "corruptRate": 1,
+        "damageRate": 0
+      }
+    },
+    {
+      "trigger": [
+        "onTakeHealing"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201783,
+        "target": "TargetHarmNearest"
+      }
+    }
+  ],
+  "id": 201783,
+  "name": "2026伯利欣根活动 EX 治疗窃取",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

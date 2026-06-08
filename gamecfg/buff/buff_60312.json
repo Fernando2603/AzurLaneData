@@ -1,0 +1,53 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeTakeDamage"
+      ],
+      "type": "BattleBuffFixDamage",
+      "arg_list": {
+        "target": "TargetSelf",
+        "value": 1,
+        "time": 0,
+        "rant": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeTakeDamage"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 60312
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "countType": 60312,
+        "count": 1
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60310,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 60312,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

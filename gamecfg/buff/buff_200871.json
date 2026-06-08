@@ -1,0 +1,46 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 1000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 66,
+        "attr": "luck"
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 295006
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200871,
+  "name": "2024异世界冒险 英灵效果 明石",
+  "init_effect": "",
+  "id": 200871,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

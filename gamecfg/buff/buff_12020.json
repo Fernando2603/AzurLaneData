@@ -1,0 +1,35 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 12021,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRetreat"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 12021,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 12020,
+  "name": "潜母放飞自带飞机",
+  "init_effect": "",
+  "id": 12020,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

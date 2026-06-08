@@ -1,0 +1,58 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 15032,
+        "ship_tag_list": [
+          "AdalbertLeader"
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 15038,
+        "ship_tag_list": [
+          "AdalbertLeader"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 15030,
+  "name": "",
+  "init_effect": "",
+  "id": 15025,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

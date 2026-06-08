@@ -1,0 +1,59 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "cloakExpose": 36,
+        "exposeGroup": 1,
+        "dotType": 1,
+        "number": 404,
+        "attr": "cannonPower",
+        "time": 3,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 61,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "持续伤害",
+  "picture": "",
+  "icon": 151590,
+  "name": "特殊起火",
+  "init_effect": "",
+  "id": 151605,
+  "stack": 1,
+  "time": 10.1,
+  "last_effect": "zhuoshao"
+}

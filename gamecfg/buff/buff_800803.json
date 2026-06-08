@@ -1,0 +1,72 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 800802,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 800803,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 800805,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "U556meta_yueding"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 800807
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 800800,
+  "id": 800803,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

@@ -1,0 +1,51 @@
+{
+  "last_effect_cld_scale": true,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAura",
+      "arg_list": {
+        "cld_data": {
+          "box": {
+            "range": 3
+          }
+        },
+        "buff_id": 201510
+      }
+    }
+  ],
+  "last_effect_stack_list": [
+    "None",
+    "qinshibuff4",
+    "qinshibuff4",
+    "qinshibuff3",
+    "qinshibuff3",
+    "qinshibuff3",
+    "qinshibuff3",
+    "qinshibuff3",
+    "qinshibuff3",
+    "qinshibuff3"
+  ],
+  "id": 201509,
+  "name": "2025信标BOSS 夕立meta 点燃带来的减伤（附带特效用于显示点燃单位存在个数）",
+  "init_effect": "",
+  "picture": "",
+  "stack": 10,
+  "time": 0,
+  "last_effect": "None"
+}

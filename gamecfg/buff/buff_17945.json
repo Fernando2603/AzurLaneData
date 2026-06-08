@@ -1,0 +1,42 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "MJDE1AIM"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 17940,
+  "name": "",
+  "init_effect": "",
+  "id": 17945,
+  "stack": 1,
+  "time": 1.5,
+  "last_effect": ""
+}

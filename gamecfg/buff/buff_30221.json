@@ -1,0 +1,59 @@
+{
+  "1": {
+    "desc": "战斗开始时，若队伍中存在其他μ兵装舰船，自身主炮效率提高5%；主炮每进行9次攻击，触发专属弹幕-欧根亲王(μ兵装)I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 2,
+        "ship_tag_list": [
+          "μ"
+        ],
+        "skill_id": 30223
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30220,
+        "countTarget": 9
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30220,
+        "skill_id": 30221
+      }
+    }
+  ],
+  "desc": "战斗开始时，若队伍中存在其他μ兵装舰船，自身主炮效率提高5%；主炮每进行9次攻击，触发专属弹幕-欧根亲王(μ兵装)I",
+  "picture": "",
+  "icon": 30220,
+  "name": "",
+  "init_effect": "",
+  "id": 30221,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

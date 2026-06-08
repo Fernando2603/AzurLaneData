@@ -1,0 +1,67 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16680
+      }
+    },
+    {
+      "trigger": [
+        "onBulletHitBefore"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16681,
+        "target": "TargetSelf",
+        "quota": 1,
+        "rant": 1500
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30000,
+        "skill_id": 16682
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30010,
+        "skill_id": 16683
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 16680,
+  "name": "",
+  "init_effect": "",
+  "id": 16680,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

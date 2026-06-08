@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 401
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          1090314
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 1090310,
+  "name": "",
+  "init_effect": "",
+  "id": 1090315,
+  "stack": 1,
+  "time": 6,
+  "last_effect": "Darkness"
+}

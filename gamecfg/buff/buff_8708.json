@@ -1,0 +1,34 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8709
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8709,
+        "time": 23
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "英系V2 U81潜行猎杀",
+  "init_effect": "",
+  "id": 8708,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

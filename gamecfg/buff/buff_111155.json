@@ -1,0 +1,47 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "damageRatioBullet",
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddReloadRequirement",
+      "arg_list": {
+        "type": 23,
+        "number": -0.2
+      }
+    }
+  ],
+  "desc": "加射速和减伤害",
+  "id": 111155,
+  "name": "春菜加射速和减伤害",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

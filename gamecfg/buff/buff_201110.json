@@ -1,0 +1,33 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "buff_id": 201111,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "FLAG"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201110,
+  "name": "2024天城航母活动 EX 三阶段结界",
+  "init_effect": "",
+  "id": 201110,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

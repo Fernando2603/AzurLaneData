@@ -1,0 +1,37 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200135
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 200137,
+        "attr": "isInvincible",
+        "number": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200137,
+  "name": "2022莱莎联动EX 极天·黑洞 蓄力成功",
+  "init_effect": "",
+  "id": 200137,
+  "stack": 1,
+  "time": 4,
+  "last_effect": ""
+}

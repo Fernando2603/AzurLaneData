@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAura",
+      "arg_list": {
+        "cld_data": {
+          "box": {
+            "range": 500
+          }
+        },
+        "buff_id": 201800
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 201800
+      }
+    }
+  ],
+  "id": 201799,
+  "name": "2026信标BOSS 布里斯托尔meta 灯下之影",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": "bulisituoer_alter_miwu"
+}

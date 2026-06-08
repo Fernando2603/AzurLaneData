@@ -1,0 +1,63 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetHarmNearest",
+        "buff_id": 201237
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffCease",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAdditiveSpeed",
+      "arg_list": {
+        "force": 0.6,
+        "singularity": {
+          "x": -20,
+          "z": 50
+        }
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201231,
+  "name": "2024春节共斗 牵引",
+  "init_effect": "",
+  "id": 201231,
+  "stack": 1,
+  "time": 23,
+  "last_effect": "xuanyun"
+}

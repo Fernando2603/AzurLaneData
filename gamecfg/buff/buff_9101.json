@@ -1,0 +1,26 @@
+{
+  "color": "yellow",
+  "desc_get": "每隔20秒，有25%的概率发动，提高全队5.0%(满级25.0%)伤害，持续8秒，同技能效果不叠加",
+  "desc": "每隔20秒，有25%的概率发动，提高全队$1伤害，持续8秒，同技能效果不叠加",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 9102,
+        "time": 20
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 9100,
+  "name": "强袭号令-LV9",
+  "init_effect": "",
+  "id": 9101,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

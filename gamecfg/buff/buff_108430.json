@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 108430,
+        "countTarget": 3
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 108431,
+        "countType": 108430
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108430,
+  "name": "",
+  "init_effect": "",
+  "id": 108430,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

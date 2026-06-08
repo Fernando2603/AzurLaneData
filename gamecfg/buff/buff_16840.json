@@ -1,0 +1,61 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "skill_id": 16840
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "pop": []
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 16842,
+        "ship_tag_list": [
+          "Zara-Class"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.9,
+        "quota": 1,
+        "skill_id": 16841
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 16840,
+  "id": 16840,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,29 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201498,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    }
+  ],
+  "id": 201497,
+  "name": "2025马塞纳活动 剧情战 触发器",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

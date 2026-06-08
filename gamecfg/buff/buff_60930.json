@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 60931,
+        "ship_tag_list": [
+          "yunxianzhiyuan"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60930,
+  "name": "",
+  "init_effect": "",
+  "id": 60930,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

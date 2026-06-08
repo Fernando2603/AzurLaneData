@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200864,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 295005
+      }
+    }
+  ],
+  "desc": "",
+  "limit": [],
+  "picture": "",
+  "icon": 200864,
+  "name": "2024异世界冒险 英灵效果 TB",
+  "init_effect": "",
+  "id": 200864,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

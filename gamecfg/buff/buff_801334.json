@@ -1,0 +1,53 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 801330,
+        "attr": "perfectDodge",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801333
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801334,
+        "time": 1,
+        "initialCD": true
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "完全闪避",
+  "picture": "",
+  "icon": 801330,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 801334,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

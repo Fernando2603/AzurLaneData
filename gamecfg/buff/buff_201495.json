@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSetBattleUnitType",
+      "arg_list": {
+        "value": -99
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetSpectreUnit",
+          "TargetAllHelp"
+        ],
+        "buff_id": 201489,
+        "exceptCaster": true
+      }
+    }
+  ],
+  "id": 201495,
+  "name": "2025马塞纳活动 EX 黑形态沉睡",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

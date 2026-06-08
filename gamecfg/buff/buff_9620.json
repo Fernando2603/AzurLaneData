@@ -1,0 +1,33 @@
+{
+  "color": "yellow",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 9622
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetPlayerFlagShip",
+        "buff_id": 9621
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 9620,
+  "name": "海雾我方生效buff+挂载敌方buff",
+  "init_effect": "",
+  "id": 9620,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

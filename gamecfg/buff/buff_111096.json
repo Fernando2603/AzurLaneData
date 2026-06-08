@@ -1,0 +1,65 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 111097,
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetPlayerVanguardFleet"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 111098,
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetPlayerMainFleet"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 111093
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 111090,
+  "name": "",
+  "init_effect": "",
+  "id": 111096,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

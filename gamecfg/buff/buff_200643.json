@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200642
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 200644
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200644
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200643,
+  "name": "2023海盗活动 EX逃课机制",
+  "init_effect": "",
+  "id": 200643,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

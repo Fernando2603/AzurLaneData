@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发全弹发射-威奇塔II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 20250,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 20250,
+        "skill_id": 20252
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发全弹发射-威奇塔II",
+  "picture": "",
+  "icon": 20200,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 20252,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

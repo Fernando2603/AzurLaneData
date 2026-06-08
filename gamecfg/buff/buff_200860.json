@@ -1,0 +1,45 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.15,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200861
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 295002
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200860,
+  "name": "2024异世界冒险 英灵效果 皇家财富号",
+  "init_effect": "",
+  "id": 200860,
+  "stack": 1,
+  "time": 58,
+  "last_effect": ""
+}

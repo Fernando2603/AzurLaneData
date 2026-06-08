@@ -1,0 +1,58 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          12090
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 32,
+        "skill_id": 12092
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 12091,
+        "time": 8,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "副炮",
+  "picture": "",
+  "icon": 12090,
+  "name": "小齐柏林1",
+  "init_effect": "",
+  "id": 12093,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

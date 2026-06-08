@@ -1,0 +1,49 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 152024
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": 6,
+        "skill_id": 152021,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 152020,
+  "id": 152021,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

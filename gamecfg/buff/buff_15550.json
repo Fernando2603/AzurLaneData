@@ -1,0 +1,47 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Impero"
+        ],
+        "skill_id": 15382,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 15383,
+        "ship_tag_list": [
+          "Impero"
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 15550,
+  "name": "",
+  "init_effect": "",
+  "id": 15550,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

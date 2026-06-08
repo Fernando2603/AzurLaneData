@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29470,
+        "countTarget": 9
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29470,
+        "skill_id": 29471
+      }
+    }
+  ],
+  "desc": "主武器每进行9次攻击，触发专属弹幕-希佩尔海军上将μI",
+  "picture": "",
+  "icon": 29470,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29471,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

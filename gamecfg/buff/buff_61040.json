@@ -1,0 +1,44 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 61042,
+        "quota": 1,
+        "time": 5
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "skill_id": 61040,
+        "ship_tag_list": [
+          "Same_Nationality"
+        ],
+        "maxTargetNumber": 0,
+        "time": 5
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61040,
+  "name": "",
+  "init_effect": "",
+  "id": 61040,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

@@ -1,0 +1,132 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200503,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 200504
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 200504,
+        "quota": 1,
+        "skill_id": 200504
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 200505
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 200505,
+        "quota": 1,
+        "skill_id": 200505
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 4,
+        "countType": 200506
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 200506,
+        "quota": 1,
+        "skill_id": 200506
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 5,
+        "countType": 200507
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 200507,
+        "quota": 1,
+        "skill_id": 200507
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 6,
+        "countType": 200502
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200507,
+        "quota": 1,
+        "countType": 200502
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200506,
+  "name": "2023古立特联动复刻 TSS4 公主 一阶段",
+  "init_effect": "",
+  "picture": "",
+  "stack": 99,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 12,
+        "countType": 201393
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201394,
+        "countType": 201393
+      }
+    }
+  ],
+  "id": 201393,
+  "name": "2025狮UR活动 塞壬支援 最大召唤数量上限",
+  "init_effect": "",
+  "picture": "",
+  "stack": 99,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,45 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201743,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201744,
+        "quota": 1,
+        "time": 4
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201743,
+        "quota": 1,
+        "time": 8
+      }
+    }
+  ],
+  "id": 201745,
+  "name": "2026DOA三期 EX普通 召唤激光发射器",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 30,
+  "last_effect": ""
+}

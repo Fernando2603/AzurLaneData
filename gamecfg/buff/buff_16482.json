@@ -1,0 +1,77 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 16483
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 16483
+      }
+    },
+    {
+      "trigger": [
+        "onFleetAttrUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16485,
+        "fleetAttr": "yuanchou=3",
+        "fleetAttrDelta": ">0"
+      }
+    },
+    {
+      "trigger": [
+        "onFleetAttrUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16486,
+        "fleetAttr": "yuanchou=6",
+        "fleetAttrDelta": ">0"
+      }
+    },
+    {
+      "trigger": [
+        "onFleetAttrUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16487,
+        "fleetAttr": "yuanchou=9",
+        "fleetAttrDelta": ">0"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 16480,
+  "name": "",
+  "init_effect": "",
+  "id": 16482,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

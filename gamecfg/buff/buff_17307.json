@@ -1,0 +1,92 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "laffeybot2"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 17440,
+        "ship_tag_list": [
+          "Laffey II"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onSink"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 17441,
+        "ship_tag_list": [
+          "Laffey II"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 17441,
+        "ship_tag_list": [
+          "Laffey II"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 17301
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 17300,
+  "id": 17302,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

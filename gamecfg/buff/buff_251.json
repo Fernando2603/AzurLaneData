@@ -1,0 +1,54 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.12,
+        "attr": "damageRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.06,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 251,
+  "name": "制空权劣势",
+  "init_effect": "",
+  "id": 251,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

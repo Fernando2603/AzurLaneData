@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发全弹发射-西北风级"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 25031,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 25031,
+        "skill_id": 25031
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发全弹发射-西北风级",
+  "picture": "",
+  "icon": 20000,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 25031,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

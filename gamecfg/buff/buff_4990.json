@@ -1,0 +1,65 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 4981,
+        "attr": "dodgeRateExtra",
+        "number": 0.35
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 4981,
+        "attr": "injureRatioByAir",
+        "number": -0.35
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 62,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 63,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "提高闪避",
+  "picture": "",
+  "icon": 4990,
+  "name": "烟雾弹",
+  "init_effect": "",
+  "id": 4990,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,37 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "target": "TargetSelf",
+        "attr": "luck",
+        "number": 4
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.5,
+        "quota": 1,
+        "skill_id": 110350
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110350,
+  "name": "",
+  "init_effect": "",
+  "id": 110350,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

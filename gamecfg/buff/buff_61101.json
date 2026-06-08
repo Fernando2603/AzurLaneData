@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": 2
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.02,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61100,
+  "name": "",
+  "init_effect": "",
+  "id": 61101,
+  "stack": 1,
+  "time": 20,
+  "last_effect": ""
+}

@@ -1,0 +1,34 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "KlaudiaSPW"
+        ],
+        "skill_id": 60281,
+        "rant": 5000
+      }
+    }
+  ],
+  "desc": "道具发动",
+  "picture": "",
+  "icon": 60280,
+  "name": "",
+  "init_effect": "",
+  "id": 60281,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

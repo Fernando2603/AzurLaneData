@@ -1,0 +1,51 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1000,
+        "attr": "antiSubPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "accuracyToShipType_8"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "accuracyToShipType_17"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 902160,
+  "name": "恬静的午后",
+  "init_effect": "jinengchufared",
+  "id": 902160,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

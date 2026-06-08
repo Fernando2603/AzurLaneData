@@ -1,0 +1,87 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "range": [
+          [
+            0,
+            0.6
+          ],
+          [
+            0.6,
+            1
+          ]
+        ],
+        "time": 0.5,
+        "skill_id_list": [
+          201201,
+          201202
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "range": [
+          [
+            0,
+            0.6
+          ],
+          [
+            0.6,
+            1
+          ]
+        ],
+        "time": 1,
+        "skill_id_list": [
+          201201,
+          201202
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201203,
+        "time": 2
+      }
+    },
+    {
+      "trigger": [
+        "onTeammateShipDying"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 201202
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201201,
+  "name": "2024鲁梅活动 怪群",
+  "init_effect": "",
+  "id": 201201,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

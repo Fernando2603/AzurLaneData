@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -3
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -500,
+        "attr": "attackRating"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201150,
+  "name": "2024风帆二期活动 海上风暴",
+  "init_effect": "",
+  "id": 201150,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

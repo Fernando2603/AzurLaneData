@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60680,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60680,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 60680,
+  "name": "",
+  "init_effect": "",
+  "id": 60680,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

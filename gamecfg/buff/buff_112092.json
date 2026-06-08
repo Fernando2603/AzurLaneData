@@ -1,0 +1,76 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          112091
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "random_skill_tag": "YUMIAITEMSKILL"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112155,
+        "ship_tag_list": [
+          "Yumia_TimeCompression"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 65,
+        "skill_id": 112091,
+        "maxTargetNumber": 0,
+        "check_target": "TargetHarmNearest"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 65,
+        "minTargetNumber": 1,
+        "skill_id": 112090,
+        "check_target": "TargetHarmNearest"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 112090,
+  "name": "",
+  "init_effect": "",
+  "id": 112092,
+  "stack": 1,
+  "time": 0.7,
+  "last_effect": ""
+}

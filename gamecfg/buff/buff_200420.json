@@ -1,0 +1,52 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.03,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.03,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -300,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -100,
+        "attr": "attackRating"
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200420,
+  "name": "2023俾斯麦Z活动 侵蚀等级5 重度不良效果",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": "qinshibuff3"
+}

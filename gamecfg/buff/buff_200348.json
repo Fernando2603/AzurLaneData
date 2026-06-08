@@ -1,0 +1,33 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200349,
+        "ship_tag_list": [
+          "Implacable-Class"
+        ],
+        "isBuffStackByCheckTarget": true
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200348,
+  "name": "2023英系活动 剧情战1 定时触发弹幕",
+  "init_effect": "",
+  "id": 200348,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

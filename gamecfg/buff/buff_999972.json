@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.3,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.3,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "desc": "",
+  "id": 999971,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 3,
+  "time": 0,
+  "last_effect": "ATK"
+}

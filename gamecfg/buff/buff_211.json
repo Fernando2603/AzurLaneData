@@ -1,0 +1,46 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "danyaokuifa"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          2192
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 211,
+  "name": "弹药匮乏",
+  "init_effect": "",
+  "id": 211,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

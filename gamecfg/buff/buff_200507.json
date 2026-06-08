@@ -1,0 +1,55 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200502,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200503,
+          200505,
+          200506
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8831
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200509
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200507,
+  "name": "2023古立特联动复刻 TSS4 公主 一阶段结束",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

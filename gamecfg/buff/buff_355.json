@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -800,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "enemyantiAirPowerDownTag"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 356
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 355,
+  "name": "防空降低",
+  "init_effect": "",
+  "id": 355,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

@@ -1,0 +1,67 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddProficiency",
+      "arg_list": {
+        "number": 0.1,
+        "label": [
+          "DB"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddProficiency",
+      "arg_list": {
+        "number": 0.1,
+        "label": [
+          "TB"
+        ]
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "shipInfoScene": {
+    "equip": [
+      {
+        "number": 10,
+        "label": [
+          "DB"
+        ],
+        "check_label": [
+          "DB"
+        ]
+      },
+      {
+        "number": 10,
+        "label": [
+          "TB"
+        ],
+        "check_label": [
+          "TB"
+        ]
+      }
+    ]
+  },
+  "picture": "",
+  "icon": 902140,
+  "name": "航空演训",
+  "init_effect": "jinengchufared",
+  "id": 902140,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

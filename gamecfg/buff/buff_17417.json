@@ -1,0 +1,44 @@
+{
+  "color": "yellow",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 17428,
+        "ship_tag_list": [
+          "Flasher_debuff"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          17417
+        ]
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 17410,
+  "name": "",
+  "init_effect": "",
+  "id": 17417,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

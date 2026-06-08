@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAircraftCreate"
+      ],
+      "type": "BattleBuffAddAircraftAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "cri"
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "cri"
+      }
+    }
+  ],
+  "desc": "-宏伟光辉的四元素伤害 暴击下降-雷",
+  "picture": "",
+  "icon": 112170,
+  "name": "",
+  "init_effect": "",
+  "id": 112173,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "Darkness"
+}

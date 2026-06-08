@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200475,
+        "ship_tag_list": [
+          "skull"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200474,
+  "name": "2023黑阿尔及利亚 监听点燃有TAG的敌人",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0.2,
+  "last_effect": ""
+}

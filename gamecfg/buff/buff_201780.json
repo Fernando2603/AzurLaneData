@@ -1,0 +1,62 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "maxHPRatio": 0.3
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          201779
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8692,
+        "target": "TargetHarmFarthest"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200364
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.8,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "id": 201780,
+  "name": "2026伯利欣根活动 EX 转阶段",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 3,
+  "last_effect": "bossbomb"
+}

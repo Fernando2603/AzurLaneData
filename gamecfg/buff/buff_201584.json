@@ -1,0 +1,46 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "maxHPRatio": 0.3,
+        "countTarget": 1,
+        "countType": 201561
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 201561,
+        "quota": 1,
+        "skill_id": 201564
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201564,
+        "quota": 1,
+        "countType": 201561
+      }
+    }
+  ],
+  "id": 201584,
+  "name": "2025约战联动 飞船组件升级 白鹰LV2",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

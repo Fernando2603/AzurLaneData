@@ -1,0 +1,45 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onWeaponSteday"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 101052,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "count": 1
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "使得主炮的子弹暴击率提高100%",
+  "picture": "",
+  "icon": 101051,
+  "name": "十字缔结",
+  "init_effect": "jinengchufared",
+  "id": 101051,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

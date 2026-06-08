@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_type_list": [
+          8
+        ],
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 151371,
+        "nationality": 4,
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151370,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 151370,
+  "id": 151370,
+  "name": "狼群战术-U552",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

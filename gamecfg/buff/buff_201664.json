@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 201658,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetSpectreUnit",
+          "TargetShipTag"
+        ],
+        "buff_id": 201665,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    }
+  ],
+  "id": 201664,
+  "name": "2025列克星敦II活动 EX 与变形BOSS生命共享",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200175,
+        "maxTargetNumber": 1,
+        "check_target": "TargetAllHarm"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "target": "TargetSelf",
+        "skill_id": 200176,
+        "check_target": "TargetAllHarm"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200176,
+  "name": "2022莱莎联动 战斗BUFF 输出弹幕LV3",
+  "init_effect": "",
+  "id": 200176,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

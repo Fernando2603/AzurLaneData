@@ -1,0 +1,70 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112152
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "repeat_count": 2,
+        "buff_id": 112091
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112153,
+        "ship_tag_list": [
+          "Yumia_Skill2_NO_Plus"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112154,
+        "ship_tag_list": [
+          "Yumia_Skill2_Plus"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 112110,
+  "name": "",
+  "init_effect": "",
+  "id": 112151,
+  "stack": 10,
+  "time": 1,
+  "last_effect": ""
+}

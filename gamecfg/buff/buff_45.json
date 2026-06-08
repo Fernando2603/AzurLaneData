@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "loadSpeed"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "desc": "每堆叠1层，伤害、装填提高5%",
+  "limit": [],
+  "picture": "",
+  "icon": 45,
+  "name": "游刃有余",
+  "init_effect": "",
+  "id": 45,
+  "stack": 5,
+  "time": 0,
+  "last_effect": ""
+}

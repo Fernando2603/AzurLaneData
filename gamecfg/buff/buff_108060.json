@@ -1,0 +1,47 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "buff_id": 108061
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.3,
+        "quota": 1,
+        "skill_id": 108060,
+        "time": 10
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108060,
+  "name": "",
+  "init_effect": "",
+  "id": 108060,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

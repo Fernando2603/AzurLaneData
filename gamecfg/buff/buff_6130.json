@@ -1,0 +1,46 @@
+{
+  "1": {
+    "desc": "被击沉时恢复全队其他角色耐久10.0%"
+  },
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSink"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6130,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onSink"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "Pearl's-Tears"
+      }
+    }
+  ],
+  "desc": "被击沉时恢复全队其他角色耐久10%",
+  "picture": "",
+  "icon": 6130,
+  "name": "珍珠之泪",
+  "init_effect": "",
+  "id": 6130,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

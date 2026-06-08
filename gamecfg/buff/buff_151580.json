@@ -1,0 +1,73 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151580,
+        "ship_tag_list": [
+          "AirDominance_lower"
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 12021,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 151581
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRetreat"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 12021,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 151580,
+  "id": 151580,
+  "name": "I404-1",
+  "init_effect": "jinengchufared",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

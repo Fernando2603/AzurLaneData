@@ -1,0 +1,71 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "hpUpperBound": 1,
+        "countTarget": 5,
+        "countType": 14030
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 14032,
+        "countType": 14030,
+        "quota": 1,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "hpUpperBound": 1,
+        "countTarget": 1,
+        "countType": 14031
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 14031,
+        "countType": 14031,
+        "quota": 5,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "爆发弹幕",
+  "desc_get": "",
+  "icon": 14030,
+  "id": 14030,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

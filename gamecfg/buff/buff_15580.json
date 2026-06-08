@@ -1,0 +1,69 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 15581
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_type_list": [
+          3,
+          18,
+          19
+        ],
+        "quota": 1,
+        "check_target": [
+          "TargetPlayerVanguardFleet",
+          "TargetShipType"
+        ],
+        "buff_id": 15582,
+        "maxTargetNumber": 0
+      }
+    },
+    {
+      "trigger": [
+        "onLeader"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 3,
+        "buff_id": 15583,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 15580,
+  "name": "",
+  "init_effect": "",
+  "id": 15580,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

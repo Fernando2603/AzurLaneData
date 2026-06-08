@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29460,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29460,
+        "skill_id": 29462
+      }
+    }
+  ],
+  "desc": "主武器每进行8次攻击，触发专属弹幕-谢菲尔德μII",
+  "picture": "",
+  "icon": 29460,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29462,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,97 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "buff_id": 19841
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAura",
+      "arg_list": {
+        "cld_data": {
+          "box": {
+            "range": 80
+          }
+        },
+        "buff_id": 19842,
+        "friendly_fire": false
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Napoli-40E"
+        ],
+        "skill_id": 19841
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "skill_id": 19842,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Napoli-40E"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 19840,
+        "time": 1,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19840,
+  "id": 19840,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

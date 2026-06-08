@@ -1,0 +1,43 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 300,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 300,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60820,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 60821,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

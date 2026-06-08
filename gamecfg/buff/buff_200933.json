@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200932
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200933,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200933,
+  "name": "2024阿尔萨斯活动 辉光之城-绽放 触发弹幕",
+  "init_effect": "",
+  "id": 200933,
+  "stack": 1,
+  "time": 0.5,
+  "last_effect": ""
+}

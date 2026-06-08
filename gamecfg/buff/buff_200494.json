@@ -1,0 +1,34 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200495
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200495,
+        "time": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "2023古立特联动复刻 TSS2 宝多六花 古立特修正光线回血",
+  "init_effect": "",
+  "stack": 1,
+  "id": 200494,
+  "time": 2.1,
+  "last_effect": ""
+}

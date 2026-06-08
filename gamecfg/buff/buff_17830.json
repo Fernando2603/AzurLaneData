@@ -1,0 +1,55 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetAllFoe"
+        ],
+        "buff_id": 17831
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 17834
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 17835,
+        "time": 20
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 17830,
+  "name": "",
+  "init_effect": "",
+  "id": 17830,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

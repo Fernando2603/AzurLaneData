@@ -1,0 +1,34 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200824,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200440
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200824,
+  "name": "2024异世界冒险 啾莱姆王召唤有翼啾莱姆 初始位置随机",
+  "init_effect": "",
+  "id": 200824,
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

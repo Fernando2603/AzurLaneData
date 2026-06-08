@@ -1,0 +1,41 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 10000,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 10000,
+        "attr": "torpedoPower"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "战斗对象的血量下降到X%时，炮击、雷击上升Y%",
+  "picture": "",
+  "icon": 73500,
+  "name": "濒死爆发",
+  "init_effect": "",
+  "id": 73501,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

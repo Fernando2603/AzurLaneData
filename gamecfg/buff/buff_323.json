@@ -1,0 +1,58 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -4000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "naximofubeilianjiansu"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 2,
+        "number": 23,
+        "attr": "airPower",
+        "time": 3.5,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "flood"
+      }
+    }
+  ],
+  "desc": "4s减速",
+  "picture": "",
+  "icon": 323,
+  "name": "苏俄冰锥减速",
+  "init_effect": "",
+  "id": 323,
+  "stack": 1,
+  "time": 4,
+  "last_effect": "Darkness"
+}

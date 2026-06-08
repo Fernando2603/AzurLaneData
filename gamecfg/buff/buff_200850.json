@@ -1,0 +1,56 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 42,
+        "skill_id": 200847
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 42,
+        "skill_id": 200848
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200850,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200851
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200850,
+  "name": "2024异世界冒险 剧情战 终结技",
+  "init_effect": "",
+  "id": 200850,
+  "stack": 1,
+  "time": 44,
+  "last_effect": ""
+}

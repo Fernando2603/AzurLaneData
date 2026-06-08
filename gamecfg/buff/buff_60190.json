@@ -1,0 +1,39 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 60191,
+        "nationality": 109,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "skill_id": 60190,
+        "tag": "ITEMSKILL60190"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60190,
+  "name": "",
+  "init_effect": "",
+  "id": 60190,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

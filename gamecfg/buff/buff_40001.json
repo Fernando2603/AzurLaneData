@@ -1,0 +1,27 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 25,
+        "quota": 1,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1,
+        "skill_id": 40000
+      }
+    }
+  ],
+  "desc": "该入口提供战外挂载到战内",
+  "picture": "",
+  "icon": 40000,
+  "name": "指挥喵触发特殊弹幕",
+  "init_effect": "",
+  "id": 40001,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

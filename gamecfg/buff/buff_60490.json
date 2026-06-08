@@ -1,0 +1,50 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Senran"
+        ],
+        "skill_id": 60496
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Senran"
+        ],
+        "skill_id": 60490
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60490,
+  "name": "",
+  "init_effect": "",
+  "id": 60490,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

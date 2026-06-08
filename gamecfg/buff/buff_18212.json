@@ -1,0 +1,65 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 182122,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 18213
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 30,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1,
+        "countType": 182122,
+        "skill_id": 18213,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 30,
+        "check_target": "TargetHarmNearest",
+        "skill_id": 18214,
+        "countType": 182122,
+        "maxTargetNumber": 0,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "吾妻特殊弹幕II-4次-30距离净空跨射-不净空平射",
+  "picture": "",
+  "icon": 18210,
+  "name": "吾妻特殊弹幕II",
+  "init_effect": "",
+  "id": 18212,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

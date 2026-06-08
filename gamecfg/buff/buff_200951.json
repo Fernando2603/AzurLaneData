@@ -1,0 +1,49 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200952,
+        "ship_tag_list": [
+          "StrangeDeviceD"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "buff_id": 200763,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "StrangeDeviceD"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200951,
+  "name": "2024 阿尔萨斯活动EX 开场检测",
+  "init_effect": "",
+  "id": 200951,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

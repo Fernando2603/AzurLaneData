@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onTakeHealing"
+      ],
+      "type": "BattleBuffHealingCorrupt",
+      "arg_list": {
+        "corruptRate": 1,
+        "damageRate": 1
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "buff_id": 201178,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "id": 201177,
+  "name": "2024大凤meta 领域",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

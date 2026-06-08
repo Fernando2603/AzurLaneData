@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200986,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 25,
+        "skill_id": 200986
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200986,
+  "name": "2024匹兹堡活动B 冻雨打击支援",
+  "init_effect": "",
+  "id": 200986,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

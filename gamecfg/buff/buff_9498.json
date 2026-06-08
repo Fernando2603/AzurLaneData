@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    }
+  ],
+  "desc": "定身效果(无法移动)",
+  "picture": "",
+  "icon": 9498,
+  "name": "古立特-鱼雷定身",
+  "init_effect": "",
+  "id": 9498,
+  "stack": 1,
+  "time": 0.5,
+  "last_effect": ""
+}

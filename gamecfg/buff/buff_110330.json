@@ -1,0 +1,35 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onTorpedoWeaponBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "cri"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "target": "TargetSelf",
+        "attr": "luck",
+        "number": 12
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110330,
+  "name": "",
+  "init_effect": "",
+  "id": 110330,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

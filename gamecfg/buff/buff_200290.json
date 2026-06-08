@@ -1,0 +1,60 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "buff_id": 200291,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "failed"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "failed"
+        ],
+        "skill_id": 200284
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200291,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200290,
+  "name": "2023英系活动 EX 第二波 检查是否有命中",
+  "init_effect": "",
+  "id": 200290,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

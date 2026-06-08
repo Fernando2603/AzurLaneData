@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 19430,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19430,
+        "skill_id": 19433
+      }
+    }
+  ],
+  "desc": "主炮每进行4次攻击，触发弹幕",
+  "picture": "",
+  "icon": 19430,
+  "name": "",
+  "init_effect": "",
+  "id": 19434,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

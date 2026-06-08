@@ -1,0 +1,46 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8714,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -3000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8717,
+        "time": 2,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "id": 8716,
+  "name": "2020英系活动 清除者 魔炮弹条及减速",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

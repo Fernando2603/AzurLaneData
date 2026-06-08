@@ -1,0 +1,34 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.15,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 902230,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 902230,
+  "name": "飓风的加护",
+  "init_effect": "",
+  "id": 902230,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

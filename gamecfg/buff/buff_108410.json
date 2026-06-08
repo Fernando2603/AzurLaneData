@@ -1,0 +1,56 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "AccessFlash"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 108417,
+        "quota": 1,
+        "time": 3
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1500,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1500,
+        "attr": "torpedoPower"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108410,
+  "name": "",
+  "init_effect": "",
+  "id": 108410,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

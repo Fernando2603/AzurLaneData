@@ -1,0 +1,58 @@
+{
+  "1": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 10,
+          "label": [
+            "DD",
+            "MG"
+          ]
+        }
+      ]
+    }
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 29521,
+        "label": [
+          "DD",
+          "MG"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 29522,
+        "label": [
+          "CL",
+          "MG"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 29520,
+  "id": 29521,
+  "name": "专属弹幕-里诺",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

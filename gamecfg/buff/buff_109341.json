@@ -1,0 +1,37 @@
+{
+  "color": "blue",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.05,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 109340,
+  "name": "",
+  "init_effect": "",
+  "id": 109340,
+  "stack": 1,
+  "time": 50,
+  "last_effect": ""
+}

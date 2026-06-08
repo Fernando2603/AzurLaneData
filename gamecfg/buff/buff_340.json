@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 341
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 341
+      }
+    },
+    {
+      "trigger": [
+        "onManualMissileFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 341
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 340,
+  "name": "航母空袭降低隐蔽恢复",
+  "init_effect": "",
+  "id": 340,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

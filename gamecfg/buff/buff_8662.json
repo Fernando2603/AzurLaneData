@@ -1,0 +1,63 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8662,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.2,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8663,
+        "time": 15,
+        "quota": 1
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8662,
+  "name": "黛朵",
+  "init_effect": "jinengchufared",
+  "id": 8662,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

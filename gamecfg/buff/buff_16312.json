@@ -1,0 +1,64 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.02,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16311
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 4,
+        "countType": 16312
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          16310
+        ],
+        "countType": 16312
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 16310,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 16312,
+  "stack": 6,
+  "time": 0,
+  "last_effect": ""
+}

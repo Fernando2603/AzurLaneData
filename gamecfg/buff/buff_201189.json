@@ -1,0 +1,74 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "arg_list": {
+        "effect": "shield05",
+        "count": 2,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(3, 0.75, 4.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              1.02,
+              0,
+              1.22
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "bulletType": 3,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 140, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onStack",
+        "onUpdate"
+      ]
+    },
+    {
+      "arg_list": {
+        "effect": "shield05",
+        "count": 2,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_3_0)\n\treturn Vector3(3, 0.75, -0.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              1.02,
+              0,
+              1.22
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "bulletType": 3,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, -140, 0)\nend"
+      },
+      "id": 2,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onStack",
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201189,
+  "name": "2024鲁梅活动 重巡护盾",
+  "init_effect": "",
+  "id": 201189,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

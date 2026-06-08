@@ -1,0 +1,108 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "BAIYANLIAO"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 150958,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 150954,
+        "ship_tag_list": [
+          "Raffaello"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 150958
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 150959,
+        "countType": 150958
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 150956,
+        "nationality": [
+          6
+        ],
+        "countType": 150958
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 150950,
+  "id": 150958,
+  "name": "",
+  "last_effect_stack_list": {
+    "2": "lafeier_tiaosepan_02",
+    "3": "lafeier_tiaosepan_03"
+  },
+  "init_effect": "",
+  "picture": "",
+  "stack": 3,
+  "time": 10,
+  "last_effect": "lafeier_tiaosepan_01"
+}

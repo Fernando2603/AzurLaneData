@@ -1,0 +1,53 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.25,
+        "attr": "dodgeRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "C14_highlight"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "lockAimBias"
+      }
+    }
+  ],
+  "blink": [
+    0.8,
+    0.8,
+    0.8,
+    0.3,
+    0.3
+  ],
+  "desc": "回避率降低",
+  "picture": "",
+  "icon": 5040,
+  "name": "照明弹",
+  "init_effect": "",
+  "id": 5040,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "EVDdowm"
+}

@@ -1,0 +1,35 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200194,
+        "quota": 1,
+        "target": "TargetHelpLeastHP"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 200164
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200194,
+  "name": "2022莱莎联动 战斗BUFF 损管效果LV3 旗舰控制回血",
+  "init_effect": "",
+  "id": 200194,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

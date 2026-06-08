@@ -1,0 +1,48 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 11770,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffShiftBullet",
+      "arg_list": {
+        "index": [
+          4
+        ],
+        "bullet_id": 19969
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 11770,
+  "id": 11770,
+  "name": "Terror Field",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

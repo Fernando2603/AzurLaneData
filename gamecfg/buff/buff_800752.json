@@ -1,0 +1,41 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 800753
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 800750,
+  "name": "META拉·加利索尼埃锤子buff",
+  "init_effect": "",
+  "id": 800752,
+  "stack": 1,
+  "time": 0.5,
+  "last_effect": "Darkness"
+}

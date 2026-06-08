@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "DOAXVV"
+        ],
+        "skill_id": 61080
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61080,
+  "name": "写真看板-检查阵营",
+  "init_effect": "",
+  "id": 61080,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

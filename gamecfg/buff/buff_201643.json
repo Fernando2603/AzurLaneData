@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "id": 201643,
+  "name": "2025信标BOSS 约克城meta 周期性降低防空与机动",
+  "init_effect": "",
+  "picture": "",
+  "stack": 99,
+  "time": 0,
+  "last_effect": ""
+}

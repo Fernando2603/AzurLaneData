@@ -1,0 +1,34 @@
+{
+  "color": "blue",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "smokeboom"
+        ],
+        "time": 0.1,
+        "skill_id": 151560
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 151560,
+  "name": "",
+  "init_effect": "",
+  "id": 151562,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

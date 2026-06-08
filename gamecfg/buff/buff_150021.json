@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "buff_id": 150023,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Judgemented"
+        ]
+      }
+    }
+  ],
+  "desc": "检查是否审判过",
+  "picture": "",
+  "icon": 150020,
+  "name": "",
+  "init_effect": "",
+  "id": 150021,
+  "stack": 1,
+  "time": 0.1,
+  "last_effect": ""
+}

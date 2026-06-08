@@ -1,0 +1,35 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 9501
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineAid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 9501
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 9500,
+  "name": "魔方活性",
+  "init_effect": "",
+  "id": 9500,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "killer": "self",
+        "skill_id": 151422,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "killer": "child",
+        "skill_id": 151422,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151420,
+  "name": "",
+  "init_effect": "",
+  "id": 151422,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

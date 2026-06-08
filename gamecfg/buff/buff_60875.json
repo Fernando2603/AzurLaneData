@@ -1,0 +1,40 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddReloadRequirement",
+      "arg_list": {
+        "type": "airAssist",
+        "number": -0.2
+      }
+    },
+    {
+      "trigger": [
+        "onAirAssistReady"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "首轮航空时间减少",
+  "picture": "",
+  "icon": 60870,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 60875,
+  "stack": 1,
+  "time": 60,
+  "last_effect": ""
+}

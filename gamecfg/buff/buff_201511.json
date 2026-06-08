@@ -1,0 +1,42 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "time": 0.1,
+        "buff_id": 201512
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 201513
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          201513
+        ]
+      }
+    }
+  ],
+  "id": 201511,
+  "name": "2025白凤UR活动 EX 烟雾玉烟雾效果",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

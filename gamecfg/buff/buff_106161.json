@@ -1,0 +1,55 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddReloadRequirement",
+      "arg_list": {
+        "type": "airAssist",
+        "number": -0.5
+      }
+    },
+    {
+      "trigger": [
+        "onAirAssistReady"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 2
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 106163
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 106160,
+  "id": 106161,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

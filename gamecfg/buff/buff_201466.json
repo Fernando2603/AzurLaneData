@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201466,
+        "quota": 7,
+        "time": 0.2
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200440
+      }
+    }
+  ],
+  "desc": "",
+  "id": 201466,
+  "name": "2025优米雅联动 EX困难 小怪发射器2",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

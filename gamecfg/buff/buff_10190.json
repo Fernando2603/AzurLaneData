@@ -1,0 +1,48 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.2,
+        "quota": 1,
+        "skill_id": 10190
+      }
+    },
+    {
+      "trigger": [
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 10191
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 10190,
+  "id": 10190,
+  "name": "复仇打击",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Health"
+}

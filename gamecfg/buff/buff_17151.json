@@ -1,0 +1,56 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 17151,
+        "time": 1,
+        "initialCD": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -6000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 17152,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "回复效果",
+  "picture": "",
+  "icon": 17150,
+  "name": "回复效果",
+  "init_effect": "",
+  "id": 17151,
+  "stack": 1,
+  "time": 3,
+  "last_effect": "Health"
+}

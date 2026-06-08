@@ -1,0 +1,76 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 17690,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countType": 17690,
+        "maxHPRatio": 0.25
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 17690,
+        "quota": 1,
+        "skill_id": 17691
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "skill_id": 17692
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 17690,
+  "id": 17690,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

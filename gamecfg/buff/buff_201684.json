@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201684,
+        "quota": 1,
+        "time": 2
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 3347011
+      }
+    }
+  ],
+  "id": 201684,
+  "name": "2025列克星敦II活动 剧情战7 提尔瑞特武器",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

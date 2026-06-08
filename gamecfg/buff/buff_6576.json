@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffShiftBullet",
+      "arg_list": {
+        "index": [
+          3
+        ],
+        "bullet_id": 1840
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6570,
+  "name": "",
+  "init_effect": "",
+  "id": 6572,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

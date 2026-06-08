@@ -1,0 +1,42 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 630072
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200894,
+  "name": "2024愚人节 金布里机甲激光",
+  "init_effect": "",
+  "id": 200894,
+  "stack": 1,
+  "time": 2.5,
+  "last_effect": ""
+}

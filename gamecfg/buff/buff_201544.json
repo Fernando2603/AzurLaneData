@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200280
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200280
+      }
+    }
+  ],
+  "id": 201544,
+  "name": "2025风帆三期EX 莱姆号 空袭监听内置CD",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

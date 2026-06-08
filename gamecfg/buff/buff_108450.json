@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "AccessFlash"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 108451,
+        "quota": 1,
+        "time": 15
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108450,
+  "name": "",
+  "init_effect": "",
+  "id": 108450,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

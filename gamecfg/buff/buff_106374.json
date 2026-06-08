@@ -1,0 +1,37 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp"
+        ],
+        "buff_id": 106379,
+        "repeat_count": -1
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 106378
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106370,
+  "name": "",
+  "init_effect": "",
+  "id": 106374,
+  "stack": 99,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeTakeDamage"
+      ],
+      "type": "BattleBuffFixDamage",
+      "arg_list": {
+        "target": "TargetSelf",
+        "value": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 10000,
+        "attr": "igniteReduce"
+      }
+    }
+  ],
+  "id": 201539,
+  "name": "2025风帆三期EX 莱姆号 无敌护盾",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0.2,
+  "last_effect": "wudihudun"
+}

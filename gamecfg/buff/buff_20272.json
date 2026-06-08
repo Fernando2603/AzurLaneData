@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发全弹发射-得梅因级II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 20270,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 20270,
+        "skill_id": 20272
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发全弹发射-得梅因级II",
+  "picture": "",
+  "icon": 20200,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 20272,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

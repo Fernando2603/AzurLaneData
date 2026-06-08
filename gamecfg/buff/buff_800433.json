@@ -1,0 +1,59 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 800433
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          800432
+        ],
+        "countType": 800433
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 800430,
+  "name": "",
+  "init_effect": "",
+  "id": 800433,
+  "stack": 3,
+  "time": 0,
+  "last_effect": ""
+}

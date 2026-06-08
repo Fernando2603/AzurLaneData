@@ -1,0 +1,42 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 801952,
+        "attr": "isInvincible",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "isInvincible_1"
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801950,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 801952,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

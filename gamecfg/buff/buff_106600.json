@@ -1,0 +1,41 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.02,
+        "attr": "cri"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "DOA3ZHUZI"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106600,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 106600,
+  "stack": 1,
+  "time": 45,
+  "last_effect": ""
+}

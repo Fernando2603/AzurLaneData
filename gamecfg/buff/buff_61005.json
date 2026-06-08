@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 401,
+        "ship_type_list": [
+          5,
+          10
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61000,
+  "name": "对战列航战破甲",
+  "init_effect": "",
+  "id": 61005,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

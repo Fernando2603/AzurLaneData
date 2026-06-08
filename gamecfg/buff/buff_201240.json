@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201240,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200280
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 201241
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201240,
+  "name": "2025拉斐尔活动 战车 适应性装甲",
+  "init_effect": "",
+  "id": 201240,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

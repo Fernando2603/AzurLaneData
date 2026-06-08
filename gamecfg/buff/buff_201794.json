@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          201789,
+          201792,
+          201793
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetHarmNearest",
+        "buff_id": 201795
+      }
+    }
+  ],
+  "id": 201794,
+  "name": "2026信标BOSS 布里斯托尔meta 维度追猎 监听无敌消失",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0.5,
+  "last_effect": ""
+}

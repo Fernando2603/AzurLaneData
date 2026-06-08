@@ -1,0 +1,49 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "GRIDUP2"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "GRIDSABER"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 6901,
+        "ship_tag_list": [
+          "RIKKA"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "古立特圣剑",
+  "picture": "",
+  "icon": 6900,
+  "name": "",
+  "init_effect": "",
+  "id": 6900,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

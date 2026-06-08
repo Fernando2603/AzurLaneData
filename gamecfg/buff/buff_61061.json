@@ -1,0 +1,42 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.01,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.03,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "伤害、受伤提高",
+  "picture": "",
+  "icon": 61061,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 61061,
+  "stack": 1,
+  "time": 20,
+  "last_effect": ""
+}

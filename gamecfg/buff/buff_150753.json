@@ -1,0 +1,47 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "fulici60"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          150754
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -6000,
+        "add": 0
+      }
+    }
+  ],
+  "desc": "6s减速",
+  "picture": "",
+  "icon": 150750,
+  "name": "减速",
+  "init_effect": "",
+  "id": 150753,
+  "stack": 1,
+  "time": 6,
+  "last_effect": "Darkness"
+}

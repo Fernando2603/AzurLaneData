@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 2,
+        "number": 10,
+        "attr": "airPower",
+        "time": 3,
+        "k": 0.2
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "flood"
+      }
+    }
+  ],
+  "desc": "可畏进水持续伤害",
+  "picture": "",
+  "icon": 321,
+  "name": "减速进水9秒",
+  "init_effect": "",
+  "id": 321,
+  "stack": 1,
+  "time": 9.1,
+  "last_effect": "Darkness"
+}

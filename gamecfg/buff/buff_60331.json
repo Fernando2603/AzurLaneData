@@ -1,0 +1,40 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60334,
+        "ship_tag_list": [
+          "QE"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "QE_REST"
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 60330,
+  "name": "茶歇",
+  "init_effect": "",
+  "id": 60331,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,74 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerMainFleet",
+        "buff_id": 151631
+      }
+    },
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 151632
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onBulletHitBefore"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 3,
+        "skill_id": 151630,
+        "time": 5,
+        "rant": 1500
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Shiratsuyu_ava"
+        ],
+        "skill_id": 151631
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151630,
+  "name": "",
+  "init_effect": "",
+  "id": 151630,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

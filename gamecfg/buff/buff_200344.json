@@ -1,0 +1,102 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 5,
+        "attr": "hammerDamageRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "hammerDamagePrevent"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffNewAI",
+      "arg_list": {
+        "ai_onAttach": 75025
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200345,
+        "quota": 1,
+        "time": 4
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 1,
+        "attr": "immuneAreaLimit",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "immuneMaxAreaLimit"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200345
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200344,
+        "quota": 1,
+        "time": 6.5
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200344,
+  "name": "2023英系活动 审判机甲-战争 战争突刺！",
+  "init_effect": "",
+  "id": 200344,
+  "stack": 1,
+  "time": 7,
+  "last_effect": ""
+}

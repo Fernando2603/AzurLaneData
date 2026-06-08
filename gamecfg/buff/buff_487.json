@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "enemyantiAirPowerDownTag"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 488
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 487,
+  "name": "",
+  "init_effect": "",
+  "id": 487,
+  "stack": 1,
+  "time": 6,
+  "last_effect": "Darkness"
+}

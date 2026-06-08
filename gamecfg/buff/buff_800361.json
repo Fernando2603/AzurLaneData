@@ -1,0 +1,41 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1000,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1000,
+        "attr": "antiAirPower"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "提高雷击属性",
+  "picture": "",
+  "icon": 800360,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 800361,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

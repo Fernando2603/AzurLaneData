@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 10,
+        "skill_id": 999980
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 999980,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 999980,
+  "name": "教程 自动跨射",
+  "init_effect": "",
+  "id": 999980,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

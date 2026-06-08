@@ -1,0 +1,128 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 110011,
+        "ship_tag_list": [
+          "Senran"
+        ],
+        "isBuffStackByCheckTarget": true
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 110016,
+        "ship_tag_list": [
+          "Senran"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "cri",
+        "index": [
+          110010
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 110013,
+        "time": 12
+      }
+    },
+    {
+      "trigger": [
+        "onBulletKill"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "ship_tag_list": [
+          "Asuka_spw"
+        ],
+        "initialCD": true,
+        "killer_weapon_id": [
+          163630,
+          163620
+        ],
+        "buff_id": 110025,
+        "time": 10,
+        "maxTargetNumber": 0
+      }
+    },
+    {
+      "trigger": [
+        "onBulletKill"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "killer_weapon_id": [
+          163630,
+          163620
+        ],
+        "ship_tag_list": [
+          "Asuka_spw"
+        ],
+        "initialCD": true,
+        "minTargetNumber": 1,
+        "buff_id": 110035,
+        "time": 10,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 110010,
+  "id": 110010,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

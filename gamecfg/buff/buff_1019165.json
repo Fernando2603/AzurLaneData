@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "ZZY"
+      }
+    },
+    {
+      "trigger": [
+        "onSink"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetNearest"
+        ],
+        "buff_id": 1019166
+      }
+    }
+  ],
+  "desc": "标记-Enemy",
+  "picture": "",
+  "icon": 19160,
+  "name": "",
+  "init_effect": "",
+  "id": 1019165,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Darkness"
+}

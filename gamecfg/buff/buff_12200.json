@@ -1,0 +1,52 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 12200
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerByType",
+        "buff_id": 12201,
+        "shipType": 4
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerByType",
+        "buff_id": 12201,
+        "shipType": 5
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 12200,
+  "id": 12200,
+  "name": "尽职守护",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

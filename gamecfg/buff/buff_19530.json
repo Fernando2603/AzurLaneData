@@ -1,0 +1,63 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 19531
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 1,
+        "nationality": 2,
+        "skill_id": 19530,
+        "exceptCaster": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 19530,
+        "label": [
+          "HMS"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19530,
+  "id": 19530,
+  "name": "盛绽之威光",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

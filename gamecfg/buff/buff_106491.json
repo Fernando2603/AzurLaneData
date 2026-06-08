@@ -1,0 +1,94 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 106497,
+        "ship_tag_list": [
+          "Elise"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAirAssistReady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 106492,
+        "ship_tag_list": [
+          "Elise"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAirAssistReady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 106493
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponReady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 106492,
+        "ship_tag_list": [
+          "Elise"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponReady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 106493
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 106490,
+  "id": 106491,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

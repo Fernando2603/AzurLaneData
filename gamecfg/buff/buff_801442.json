@@ -1,0 +1,45 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "airPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "antiAirPower"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "航空、防空提高",
+  "picture": "",
+  "icon": 801440,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 801442,
+  "stack": 3,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,32 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200880,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200879,
+  "name": "2024异世界冒险 英灵效果 黑企业",
+  "init_effect": "",
+  "id": 200879,
+  "stack": 1,
+  "time": 0.1,
+  "last_effect": ""
+}

@@ -1,0 +1,55 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-Z47I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30280,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30280,
+        "skill_id": 30281
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30285,
+        "countTarget": 30
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-Z47I",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-Z47I",
+  "icon": 30280,
+  "id": 30281,
+  "name": "专属弹幕-Z47I",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

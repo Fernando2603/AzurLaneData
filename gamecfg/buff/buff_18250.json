@@ -1,0 +1,64 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.5,
+        "quota": 2,
+        "skill_id": 18250,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.5,
+        "quota": 2,
+        "buff_id": 18252,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame",
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 18252,
+        "hpUpperBound": 1,
+        "quota": 1,
+        "hpLowerBound": 0.5
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 18250,
+  "id": 18250,
+  "name": "加斯科涅高血量小回复",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    }
+  ],
+  "desc": "自爆船冲撞自杀buff停止",
+  "picture": "",
+  "icon": 999802,
+  "name": "自爆船冲撞自杀buff停止",
+  "init_effect": "gantanhao",
+  "id": 999802,
+  "stack": 1,
+  "time": 4,
+  "last_effect": ""
+}

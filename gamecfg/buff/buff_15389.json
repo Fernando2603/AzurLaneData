@@ -1,0 +1,51 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 15381,
+        "ship_tag_list": [
+          "noImpero"
+        ],
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerMainFleet",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerMainFleet",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 15381,
+        "time": 20,
+        "ship_tag_list": [
+          "noImpero"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 15389,
+  "name": "",
+  "init_effect": "",
+  "id": 15389,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

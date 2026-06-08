@@ -1,0 +1,50 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStack",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffShield",
+      "arg_list": {
+        "casterMaxHPRatio": 0.01
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 13302,
+        "target": "TargetSelf",
+        "effectAttachData": [
+          "BattleBuffShield<=0"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200842,
+        "target": "TargetSelf",
+        "effectAttachData": [
+          "BattleBuffShield>0"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200842,
+  "name": "2024异世界冒险 剧情战 圣女贞德前排护盾",
+  "init_effect": "",
+  "id": 200842,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "Shield"
+}

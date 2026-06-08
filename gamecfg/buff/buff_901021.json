@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletHitBefore"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 901027
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 901020,
+  "name": "",
+  "init_effect": "",
+  "id": 901021,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

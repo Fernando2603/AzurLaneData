@@ -1,0 +1,33 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "add": 3
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 106480
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106480,
+  "name": "",
+  "init_effect": "",
+  "id": 106480,
+  "stack": 1,
+  "time": 20,
+  "last_effect": ""
+}

@@ -1,0 +1,52 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 11090,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetShipType"
+        ],
+        "buff_id": 11091,
+        "ship_type_list": [
+          1,
+          2,
+          20,
+          21
+        ]
+      }
+    }
+  ],
+  "desc": "在场时，敌方所有驱逐舰、巡洋舰的回避率降低10%（20%）",
+  "desc_get": "在场时，敌方所有驱逐舰、巡洋舰的回避率降低10%（20%）",
+  "icon": 11090,
+  "id": 11090,
+  "name": "曙光",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

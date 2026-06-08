@@ -1,0 +1,43 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 109223,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "elfadd"
+      }
+    }
+  ],
+  "desc": "回复效果",
+  "picture": "",
+  "icon": 109220,
+  "name": "回复效果",
+  "init_effect": "",
+  "id": 109223,
+  "stack": 1,
+  "time": 3,
+  "last_effect": "jingling_guang"
+}

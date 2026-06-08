@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行6次攻击，触发全弹发射-库尔斯克II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 26310,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 26310,
+        "skill_id": 26312
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发全弹发射-库尔斯克II",
+  "picture": "",
+  "icon": 20200,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 26312,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

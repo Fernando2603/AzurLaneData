@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30120,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30120,
+        "skill_id": 30122
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发",
+  "picture": "",
+  "icon": 30120,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 30122,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

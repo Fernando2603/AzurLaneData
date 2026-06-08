@@ -1,0 +1,47 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "killer": "self",
+        "count": 0
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "killer": "self",
+        "skill_id": 11690,
+        "time": 1,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 11690,
+  "id": 11690,
+  "name": "湖之都的蛮牛",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

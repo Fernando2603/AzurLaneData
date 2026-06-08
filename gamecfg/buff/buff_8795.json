@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 8796,
+        "exceptCaster": true
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 8797
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 9,
+  "name": "",
+  "init_effect": "",
+  "id": 8795,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "zhihuiRing02"
+}

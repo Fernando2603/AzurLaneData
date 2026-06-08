@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 151504
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 151502,
+        "quota": 1,
+        "time": 30
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151500,
+  "name": "",
+  "init_effect": "",
+  "id": 151503,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

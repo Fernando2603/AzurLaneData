@@ -1,0 +1,74 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_tag_list": [
+          "ArizonaMETA"
+        ],
+        "buff_id": 800652,
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.3,
+        "skill_id": 800655
+      }
+    },
+    {
+      "trigger": [
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countType": 800650,
+        "maxHPRatio": 0.3
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 800650,
+        "skill_id": 800655
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 800651,
+  "id": 800651,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

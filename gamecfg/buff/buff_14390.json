@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeAircraftDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "killer": "child",
+        "countType": 14390,
+        "countTarget": 3
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 14390,
+        "countType": 14390
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 14391
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 14390,
+  "name": "",
+  "init_effect": "",
+  "id": 14390,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

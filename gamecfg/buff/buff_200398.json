@@ -1,0 +1,46 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_tag_list": [
+          "bisimaiztihuan"
+        ],
+        "buff_id": 200400,
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 200399,
+        "ship_tag_list": [
+          "bisimaiztihuan"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200398,
+  "name": "2023俾斯麦Z活动 侵蚀等级1 不良效果",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

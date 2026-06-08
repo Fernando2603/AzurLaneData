@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "shufuzhiyan"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          801532
+        ]
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 801530,
+  "name": "",
+  "init_effect": "",
+  "id": 801533,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "xipeiermeta_shufu"
+}

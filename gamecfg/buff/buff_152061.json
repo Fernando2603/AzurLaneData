@@ -1,0 +1,40 @@
+{
+  "color": "",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          152060
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 1,
+        "buff_id": 152065,
+        "exceptCaster": true,
+        "nationality": 7
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 152060,
+  "name": "",
+  "init_effect": "",
+  "id": 152061,
+  "stack": 1,
+  "time": 0.5,
+  "last_effect": ""
+}

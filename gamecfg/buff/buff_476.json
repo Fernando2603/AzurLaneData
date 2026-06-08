@@ -1,0 +1,53 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 60280
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -300,
+        "attr": "airPower"
+      }
+    }
+  ],
+  "desc": "降智",
+  "picture": "",
+  "icon": 476,
+  "name": "",
+  "init_effect": "",
+  "id": 476,
+  "stack": 1,
+  "time": 30,
+  "last_effect": "Darkness"
+}

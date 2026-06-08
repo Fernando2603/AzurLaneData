@@ -1,0 +1,36 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.3,
+        "attr": "injureRatioByAir"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 902340,
+  "name": "飓风的掠夺",
+  "init_effect": "",
+  "id": 902340,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,202 @@
+{
+  "1": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 15,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "2": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 16.6,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "3": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 18.2,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "4": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 19.8,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "5": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 21.4,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "6": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 23,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "7": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 24.6,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "8": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 26.4,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "9": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 28.2,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "10": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 30,
+          "label": [
+            "AA"
+          ],
+          "check_label": [
+            "HMS"
+          ]
+        }
+      ]
+    }
+  },
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 15700
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "nationality": 2,
+        "skill_id": 15701,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 15702,
+        "label": [
+          "HMS"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 15700,
+  "name": "",
+  "init_effect": "",
+  "id": 15700,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

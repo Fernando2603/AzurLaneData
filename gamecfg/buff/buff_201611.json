@@ -1,0 +1,42 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201611,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 3335011
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 201612,
+        "quota": 1,
+        "time": 2
+      }
+    }
+  ],
+  "id": 201611,
+  "name": "2025约战联动 角色支援 鸢一折纸",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

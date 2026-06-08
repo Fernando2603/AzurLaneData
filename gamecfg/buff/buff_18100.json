@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 30,
+        "skill_id": 18100
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 18100,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "每隔30秒，生成护盾，由内往外分为三组，由内往外各层的护盾分别阻挡6发，8发，14发子弹，护盾持续$1秒",
+  "desc_get": "每隔30秒，生成护盾，由内往外分为三组，由内往外各层的护盾分别阻挡6发，8发，14发子弹，护盾持续8秒(满级18秒)",
+  "icon": 18100,
+  "id": 18100,
+  "name": "全方位装甲 +",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

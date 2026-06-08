@@ -1,0 +1,71 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          60333
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60336,
+        "quota": 1
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60330,
+        "ship_tag_list": [
+          "QE_REST"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 60330
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "countType": 60330,
+        "buff_id": 60332
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60330,
+  "name": "开会处理",
+  "init_effect": "",
+  "id": 60336,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

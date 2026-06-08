@@ -1,0 +1,34 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 109360,
+        "rant": 5000
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 109360,
+  "name": "",
+  "init_effect": "",
+  "id": 109360,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

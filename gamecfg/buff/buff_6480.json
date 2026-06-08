@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Anshan-Class"
+        ],
+        "skill_id": 6480
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6480,
+  "name": "",
+  "init_effect": "",
+  "id": 6480,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,74 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 999967,
+        "ship_tag_list": [
+          "999999"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 999967
+      }
+    },
+    {
+      "trigger": [
+        "onBulletHitBefore"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "countType": 999957,
+        "count": 1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 999965,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.5,
+    0.7,
+    0.6,
+    0.3
+  ],
+  "desc": "",
+  "id": 999964,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

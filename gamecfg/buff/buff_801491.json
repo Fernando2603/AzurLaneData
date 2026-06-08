@@ -1,0 +1,46 @@
+{
+  "color": "blue",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801492
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 801492,
+        "quota": 1,
+        "time": 0.2
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801493,
+        "quota": 1,
+        "time": 8
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 801490,
+  "name": "",
+  "init_effect": "",
+  "id": 801491,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

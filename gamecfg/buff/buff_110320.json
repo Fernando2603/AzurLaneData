@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "target": "TargetSelf",
+        "attr": "luck",
+        "number": 6
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "skill_id": 110320
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110320,
+  "name": "",
+  "init_effect": "",
+  "id": 110320,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

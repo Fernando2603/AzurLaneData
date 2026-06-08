@@ -1,0 +1,61 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112112,
+        "ship_tag_list": [
+          "Yumia_Skill2_Lit"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112113,
+        "ship_tag_list": [
+          "Yumia_Skill2_Lit"
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          112123
+        ]
+      }
+    }
+  ],
+  "desc": "优米雅武技对中重分支",
+  "picture": "",
+  "icon": 112110,
+  "name": "",
+  "init_effect": "",
+  "id": 112115,
+  "stack": 2,
+  "time": 0.1,
+  "last_effect": ""
+}

@@ -1,0 +1,70 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 109070,
+        "time": 8
+      }
+    },
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 109071
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": {
+        "displayID": 109080
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 109052,
+        "skill_id": 109081
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          109052
+        ],
+        "countType": 109052
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 109080,
+  "name": "",
+  "init_effect": "",
+  "id": 109080,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

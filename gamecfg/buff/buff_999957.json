@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletHitBefore"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 4,
+        "countType": 999957
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "countType": 999957,
+        "count": 1
+      }
+    }
+  ],
+  "desc": "",
+  "id": 999957,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": "jihuo"
+}

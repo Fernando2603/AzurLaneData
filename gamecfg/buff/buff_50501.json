@@ -1,0 +1,30 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "cloak": 0,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipType",
+          "TargetCloakState"
+        ],
+        "skill_id": 50500,
+        "maxTargetNumber": 0
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 50500,
+  "name": "敌方BOSS 对全航母后排额外攻击",
+  "init_effect": "",
+  "id": 50501,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

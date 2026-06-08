@@ -1,0 +1,82 @@
+{
+  "1": {
+    "time": 5
+  },
+  "2": {
+    "time": 6
+  },
+  "3": {
+    "time": 7
+  },
+  "4": {
+    "time": 8
+  },
+  "5": {
+    "time": 9
+  },
+  "6": {
+    "time": 10
+  },
+  "7": {
+    "time": 11
+  },
+  "8": {
+    "time": 12
+  },
+  "9": {
+    "time": 13
+  },
+  "10": {
+    "time": 15
+  },
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "currentHPRatio": 0.9999,
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 112074,
+        "attr": "isInvincible",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "isInvincible_1"
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "无敌",
+  "picture": "",
+  "icon": 112060,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 112074,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 801930,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 801930,
+        "skill_id": 801932
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801930,
+  "name": "",
+  "init_effect": "",
+  "id": 801932,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

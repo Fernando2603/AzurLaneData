@@ -1,0 +1,49 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 11970,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 11970,
+        "quota": 4,
+        "skill_id": 11970
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发增益效果",
+  "picture": "",
+  "icon": 11970,
+  "name": "战意提升",
+  "init_effect": "",
+  "id": 11970,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

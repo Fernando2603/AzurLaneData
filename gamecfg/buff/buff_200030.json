@@ -1,0 +1,57 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200030,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200031,
+        "quota": 1,
+        "time": 1.5
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200031,
+        "quota": 1,
+        "time": 2.5
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200031,
+        "quota": 1,
+        "time": 3.5
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200030,
+  "name": "2022布吕歇尔SP活动 EX 女武神突刺",
+  "init_effect": "",
+  "id": 200030,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

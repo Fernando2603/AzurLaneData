@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.2,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onTakeHealing"
+      ],
+      "type": "BattleBuffHealingCorrupt",
+      "arg_list": {
+        "corruptRate": 0.5,
+        "damageRate": 0
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201067,
+  "name": "黑长门 海域状态 月亏效果",
+  "init_effect": "",
+  "id": 201067,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "changmen_alter_sign01"
+}

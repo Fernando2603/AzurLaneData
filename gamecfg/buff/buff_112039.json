@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 112039
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 112012,
+        "quota": 1,
+        "countType": 112039
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 112030,
+  "name": "",
+  "init_effect": "",
+  "id": 112039,
+  "stack": 2,
+  "time": 0,
+  "last_effect": ""
+}

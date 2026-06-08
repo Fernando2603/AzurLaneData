@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201063
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201064
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 201069
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201062,
+  "name": "黑长门 海域状态",
+  "init_effect": "",
+  "id": 201062,
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

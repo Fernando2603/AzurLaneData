@@ -1,0 +1,44 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.03,
+        "attr": "cri",
+        "index": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAircraftCreate"
+      ],
+      "type": "BattleBuffAddAircraftAttr",
+      "arg_list": {
+        "number": 0.03,
+        "attr": "cri",
+        "index": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61080,
+  "name": "写真看板-暴击率提高",
+  "init_effect": "",
+  "id": 61081,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,34 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 7500
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 7500,
+        "time": 5
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 7500,
+  "name": "黑企业剧情战斗技能",
+  "init_effect": "",
+  "id": 7501,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

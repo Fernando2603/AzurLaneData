@@ -1,0 +1,77 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 15431
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 15433
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 15435
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddAttrBloodrage",
+      "arg_list": {
+        "threshold": 1,
+        "attr": "damageRatioBullet",
+        "value": -10
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddAttrBloodrage",
+      "arg_list": {
+        "threshold": 1,
+        "attr": "injureRatio",
+        "value": -9
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 15430,
+  "id": 15430,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

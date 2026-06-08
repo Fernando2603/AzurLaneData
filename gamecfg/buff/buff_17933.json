@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 17933
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          17932
+        ],
+        "countType": 17933
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 17930,
+  "name": "",
+  "init_effect": "",
+  "id": 17933,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

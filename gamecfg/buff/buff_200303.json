@@ -1,0 +1,62 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200303,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "skill_id": 200304,
+        "ship_tag_list": [
+          "devil"
+        ],
+        "maxTargetNumber": 0,
+        "time": 3
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "devil"
+        ],
+        "time": 3,
+        "skill_id": 200305
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200303,
+  "name": "2022美系活动EX 恶魔开幕弹形态2",
+  "init_effect": "",
+  "id": 200303,
+  "stack": 1,
+  "time": 3.2,
+  "last_effect": ""
+}

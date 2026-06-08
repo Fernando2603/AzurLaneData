@@ -1,0 +1,51 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 150753,
+        "ship_tag_list": [
+          "xiyinxiaoguo"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "buff_id": 150755,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "xiyinxiaoguo"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 150750,
+  "name": "",
+  "init_effect": "",
+  "id": 150752,
+  "stack": 99,
+  "time": 3,
+  "last_effect": "Darkness"
+}

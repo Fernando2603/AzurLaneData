@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetFleetIndex",
+        "buff_id": 201608,
+        "fleetPos": "Leader"
+      }
+    },
+    {
+      "trigger": [
+        "onShieldBroken"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201607,
+        "shieldBuffID": 201608
+      }
+    }
+  ],
+  "id": 201607,
+  "name": "2025约战联动 角色支援 夜刀神十香",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

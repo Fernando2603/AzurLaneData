@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 109190
+      }
+    },
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 109191
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": {
+        "displayID": 109190
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 109190,
+  "name": "",
+  "init_effect": "",
+  "id": 109190,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

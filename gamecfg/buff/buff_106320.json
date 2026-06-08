@@ -1,0 +1,83 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm"
+        ],
+        "buff_id": 106321
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffFixRange",
+      "arg_list": {
+        "index": [
+          2
+        ],
+        "bulletRange": 80,
+        "weaponRange": 80
+      }
+    },
+    {
+      "arg_list": {
+        "buff_id": 106322
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 2,
+        "nationality": 106,
+        "time": 16,
+        "skill_id": 106321
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": "TargetNationalityFriendly",
+        "skill_id": 106322,
+        "nationality": 106,
+        "time": 16,
+        "maxTargetNumber": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106320,
+  "name": "",
+  "init_effect": "",
+  "id": 106320,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

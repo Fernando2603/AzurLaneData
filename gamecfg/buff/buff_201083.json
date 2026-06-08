@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201083
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201085
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201083,
+  "name": "2024天城航母活动 B3 赤城meta 灵体召唤",
+  "init_effect": "",
+  "id": 201083,
+  "stack": 1,
+  "time": 0.1,
+  "last_effect": ""
+}

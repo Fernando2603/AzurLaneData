@@ -1,0 +1,57 @@
+{
+  "color": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -500,
+        "attr": "dodgeRate"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -500,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "enemyantiAirPowerDownTag"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60890,
+  "name": "",
+  "init_effect": "",
+  "id": 60898,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "Darkness"
+}

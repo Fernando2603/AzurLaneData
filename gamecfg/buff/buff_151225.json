@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151225,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 151221,
+        "quota": 8,
+        "time": 0.2
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151220,
+  "name": "",
+  "init_effect": "",
+  "id": 151225,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

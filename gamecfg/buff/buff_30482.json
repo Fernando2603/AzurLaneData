@@ -1,0 +1,70 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "minTargetNumber": 2,
+        "nationality": 4,
+        "ship_type_list": [
+          8
+        ],
+        "skill_id": 30483
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRetreat",
+        "onSubmarineFreeSpecial"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 30482,
+        "ship_tag_list": [
+          "U552BOOST"
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRetreat",
+        "onSubmarineFreeSpecial"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "U552BOOST"
+        ],
+        "skill_id": 30486,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 30480,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 30482,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

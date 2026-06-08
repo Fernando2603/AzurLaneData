@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletHit"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "weaponType": 23,
+        "buff_id": 15485,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 15484
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 15480,
+  "name": "",
+  "init_effect": "",
+  "id": 15482,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

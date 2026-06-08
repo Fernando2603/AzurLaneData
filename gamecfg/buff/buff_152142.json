@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "Frostmark"
+      }
+    },
+    {
+      "trigger": [
+        "onSink"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 152141
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 152140,
+  "name": "",
+  "init_effect": "",
+  "id": 152142,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Darkness"
+}

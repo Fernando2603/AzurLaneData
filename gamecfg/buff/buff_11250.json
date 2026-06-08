@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 11251,
+        "time": 20
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 11251,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "存活时，队伍中曾参与萨沃岛海战的角色(鸟海、古鹰、加古、青叶、衣笠、天龙、夕张、夕凪)炮击、雷击、命中提高$1",
+  "desc_get": "存活时，队伍中曾参与萨沃岛海战的角色(鸟海、古鹰、加古、青叶、衣笠、天龙、夕张、夕凪)炮击、雷击、命中提高$1",
+  "icon": 11250,
+  "id": 11250,
+  "name": "萨沃岛突袭",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

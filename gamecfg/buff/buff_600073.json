@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.4,
+        "attr": "dodgeRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.2,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "zhongdu"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 600073,
+  "name": "",
+  "init_effect": "",
+  "id": 600073,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Darkness"
+}

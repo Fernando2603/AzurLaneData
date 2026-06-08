@@ -1,0 +1,43 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-{namecode:22}II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29130,
+        "countTarget": 10,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29130,
+        "skill_id": 29132
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-{namecode:22}II",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-{namecode:22}II",
+  "icon": 29130,
+  "id": 29132,
+  "name": "专属弹幕-{namecode:22}II",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

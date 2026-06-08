@@ -1,0 +1,37 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 8819,
+        "rant": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 8819,
+        "time": 20,
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8819,
+  "name": "2020德系活动D2 五航战支援",
+  "init_effect": "",
+  "id": 8819,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

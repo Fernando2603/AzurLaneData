@@ -1,0 +1,56 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineFloat"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6650,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          6653
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onSubDetected"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6651,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onSubUnDetected"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          6654
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6650,
+  "name": "",
+  "init_effect": "",
+  "id": 6652,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

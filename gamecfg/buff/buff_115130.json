@@ -1,0 +1,52 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 115131
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "CRI_TAG_EHC_stuned",
+        "bulletID": 180016
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "CRI_TAG_EHC_stuned",
+        "bulletID": 180017
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 115130,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 115130,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

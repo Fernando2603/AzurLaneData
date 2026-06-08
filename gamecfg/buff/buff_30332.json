@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-法戈II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30330,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30330,
+        "skill_id": 30332
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-法戈II",
+  "picture": "",
+  "icon": 30330,
+  "name": "专属弹幕-法戈II",
+  "init_effect": "",
+  "id": 30332,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

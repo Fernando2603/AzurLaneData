@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 800763,
+        "ship_tag_list": [
+          "jialisuoniye_adjudgement"
+        ]
+      }
+    }
+  ],
+  "desc": "标记-MetaLaGalissonnièreEnhance",
+  "picture": "",
+  "icon": 800760,
+  "name": "",
+  "init_effect": "",
+  "id": 800762,
+  "stack": 1,
+  "time": 0.1,
+  "last_effect": "Darkness"
+}

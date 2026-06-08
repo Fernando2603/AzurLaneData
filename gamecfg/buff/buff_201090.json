@@ -1,0 +1,45 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "dodgeRate"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 2000,
+        "attr": "igniteReduce"
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201091
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201090,
+  "name": "2024天城航母活动 世界切片：苍红",
+  "init_effect": "",
+  "id": 201090,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

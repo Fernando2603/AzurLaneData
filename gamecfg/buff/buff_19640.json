@@ -1,0 +1,62 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": 3
+      }
+    },
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 19641
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 19640,
+        "label": [
+          "FFNF"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19640,
+  "id": 19640,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

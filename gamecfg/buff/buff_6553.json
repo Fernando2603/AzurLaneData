@@ -1,0 +1,36 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffShiftBarrage",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "barrage_id": 1304
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponReady"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6550,
+  "name": "",
+  "init_effect": "",
+  "id": 6553,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -4000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "naximofubeilianjiansu"
+      }
+    }
+  ],
+  "desc": "喀琅施塔得降值",
+  "picture": "",
+  "icon": 450,
+  "name": "降值",
+  "init_effect": "",
+  "id": 451,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "Darkness"
+}

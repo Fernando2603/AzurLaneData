@@ -1,0 +1,59 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "skill_id": 800760
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffOrb",
+      "arg_list": {
+        "index": [
+          800760
+        ],
+        "buff_id": 800762,
+        "rant": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 800761
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 800760,
+  "id": 800760,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

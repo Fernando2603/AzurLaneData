@@ -1,0 +1,33 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 60401,
+        "ship_type_list": [
+          1,
+          20,
+          21
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60400,
+  "name": "",
+  "init_effect": "",
+  "id": 60400,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

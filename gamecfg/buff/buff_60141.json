@@ -1,0 +1,42 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "RyzaBoost"
+        ],
+        "time": 15,
+        "skill_id": 60140
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 60170
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60140,
+  "name": "",
+  "init_effect": "",
+  "id": 60141,
+  "stack": 1,
+  "time": 20,
+  "last_effect": ""
+}

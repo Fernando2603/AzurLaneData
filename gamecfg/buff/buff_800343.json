@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          800341
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 800341
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 800343,
+  "name": "内置CD处理",
+  "init_effect": "",
+  "id": 800343,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

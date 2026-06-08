@@ -1,0 +1,40 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200920,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 25,
+        "skill_id": 200920
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200924,
+  "name": "2024阿尔萨斯活动 死神之桥 攻击",
+  "init_effect": "",
+  "id": 200924,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 401,
+        "ship_type_list": [
+          1,
+          2,
+          20,
+          21
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 400,
+  "name": "穿甲对驱逐、轻巡破甲",
+  "init_effect": "",
+  "id": 471,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

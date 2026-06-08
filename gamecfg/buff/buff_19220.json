@@ -1,0 +1,49 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 85,
+        "quota": 1,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1,
+        "skill_id": 19223
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 19223,
+        "hpUpperBound": 1,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19220,
+  "id": 19220,
+  "name": "腓特烈弹幕技能",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

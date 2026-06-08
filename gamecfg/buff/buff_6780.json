@@ -1,0 +1,48 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 4,
+        "countType": 6780
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 6780,
+        "skill_id": 6780
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "damageRatioBullet",
+        "index": [
+          1
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6780,
+  "name": "",
+  "init_effect": "",
+  "id": 6780,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

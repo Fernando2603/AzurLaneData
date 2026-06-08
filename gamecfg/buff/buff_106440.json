@@ -1,0 +1,45 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -2
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1000,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 106440
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106440,
+  "name": "",
+  "init_effect": "",
+  "id": 106440,
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

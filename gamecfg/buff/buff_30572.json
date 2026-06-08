@@ -1,0 +1,40 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30570,
+        "countTarget": 10,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30570,
+        "skill_id": 30572
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕",
+  "picture": "",
+  "icon": 30570,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 30572,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

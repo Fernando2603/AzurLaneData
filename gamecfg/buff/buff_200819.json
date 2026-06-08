@@ -1,0 +1,34 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSetBattleUnitType",
+      "arg_list": {
+        "value": -100
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeTakeDamage"
+      ],
+      "type": "BattleBuffFixDamage",
+      "arg_list": {
+        "target": "TargetSelf",
+        "value": 0
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200819,
+  "name": "2024罗德尼meta 终结技",
+  "init_effect": "",
+  "id": 200819,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "heiluodeni_shadow"
+}

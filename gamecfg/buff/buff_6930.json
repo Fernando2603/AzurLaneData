@@ -1,0 +1,45 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "ship_type_list": [
+          2,
+          3,
+          18
+        ],
+        "quota": 1,
+        "check_target": [
+          "TargetPlayerLeaderShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "skill_id": 6930
+      }
+    },
+    {
+      "trigger": [
+        "onInitGame"
+      ],
+      "type": "BattleBuffDiva",
+      "arg_list": {
+        "bgm_list": [
+          "ssss-az-battle"
+        ]
+      }
+    }
+  ],
+  "desc": "戴拿爆能加农",
+  "picture": "",
+  "icon": 6900,
+  "name": "",
+  "init_effect": "",
+  "id": 6930,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

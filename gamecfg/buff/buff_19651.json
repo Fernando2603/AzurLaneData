@@ -1,0 +1,75 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 19650,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 19651,
+        "countTarget": 16
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19650,
+        "skill_id": 19651
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19650,
+        "quota": 1,
+        "skill_id": 19653
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19651,
+        "quota": 1,
+        "skill_id": 19654
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发弹幕",
+  "picture": "",
+  "icon": 19650,
+  "name": "",
+  "init_effect": "",
+  "id": 19651,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

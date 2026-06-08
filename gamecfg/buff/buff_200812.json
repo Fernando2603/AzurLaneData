@@ -1,0 +1,36 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200788,
+        "quota": 1,
+        "time": 1.1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200790,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200812,
+  "name": "2024罗德尼meta 提示语2",
+  "init_effect": "",
+  "id": 200812,
+  "stack": 1,
+  "time": 1.2,
+  "last_effect": ""
+}

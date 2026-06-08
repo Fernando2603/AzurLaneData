@@ -1,0 +1,87 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSink"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllFoe",
+          "TargetFatalDamageSrc"
+        ],
+        "buff_id": 150957,
+        "repeat_count": -1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -500,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 150948
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 150949,
+        "countType": 150948
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "HEIYANLIAO"
+      }
+    }
+  ],
+  "desc": "黑颜料",
+  "desc_get": "",
+  "icon": 150940,
+  "id": 150948,
+  "name": "",
+  "last_effect_stack_list": {
+    "2": "lafeier_tiaosepan_05",
+    "3": "lafeier_tiaosepan_06"
+  },
+  "init_effect": "",
+  "picture": "",
+  "stack": 3,
+  "time": 10,
+  "last_effect": "lafeier_tiaosepan_04"
+}

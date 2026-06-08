@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200002,
+        "time": 12,
+        "quota": 1
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 10021,
+        "time": 10
+      }
+    }
+  ],
+  "desc": "己方战斗中得到跨射炮击弹幕支援",
+  "id": 200001,
+  "name": "2022意大利活动 飞空战舰支援B面",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

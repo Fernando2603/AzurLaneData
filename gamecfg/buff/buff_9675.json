@@ -1,0 +1,54 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "group": 8003,
+        "mul": 5000,
+        "add": 0
+      }
+    },
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 32,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(2, 1, 0)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "box": [
+              4,
+              14,
+              12
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 9575,
+  "name": "14-顶盾冲锋",
+  "init_effect": "",
+  "id": 9575,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

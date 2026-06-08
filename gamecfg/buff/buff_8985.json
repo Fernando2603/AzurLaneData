@@ -1,0 +1,60 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 8986,
+        "ship_tag_list": [
+          "BOSS"
+        ],
+        "check_target": [
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 8986,
+        "ship_tag_list": [
+          "BOSS"
+        ],
+        "check_target": [
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 8987,
+        "ship_tag_list": [
+          "BOSS"
+        ],
+        "check_target": [
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "icon": 8985,
+  "id": 8985,
+  "name": "黑反击BOSS战 监听BUFF",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

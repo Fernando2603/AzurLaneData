@@ -1,0 +1,117 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerVanguardFleet",
+        "buff_id": 15991
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "skill_id": 15991,
+        "maxTargetNumber": 2,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 3,
+        "buff_id": 15993,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet"
+        ],
+        "minTargetNumber": 2,
+        "skill_id": 15994,
+        "maxTargetNumber": 2,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet"
+        ],
+        "minTargetNumber": 2,
+        "skill_id": 15991,
+        "maxTargetNumber": 2,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 15990,
+        "quota": 1,
+        "time": 2
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 10,
+        "skill_id": 15990
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 15990,
+  "id": 15990,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

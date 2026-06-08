@@ -1,0 +1,35 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200132,
+        "hpUpperBound": 0.01
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffLockHealth",
+      "arg_list": {
+        "value": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200131,
+  "name": "2022莱莎联动EX 属性支配血量监听",
+  "init_effect": "",
+  "id": 200131,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

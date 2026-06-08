@@ -1,0 +1,49 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200529,
+        "nationality": [
+          99
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": [
+          99
+        ],
+        "skill_id": 200530,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "2023克莱蒙梭活动 教皇下属蛋船 孢子爆炸效果",
+  "init_effect": "",
+  "stack": 99,
+  "id": 200529,
+  "time": 1,
+  "last_effect": ""
+}

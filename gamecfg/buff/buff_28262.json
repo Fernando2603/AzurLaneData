@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发全弹发射-伏波II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 28260,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 28260,
+        "skill_id": 28262
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发全弹发射-伏波II",
+  "picture": "",
+  "icon": 20000,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 28262,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.05,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200903,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200903,
+  "name": "2024偶像活动三期 花青素Cyanidin组合 BUFF",
+  "init_effect": "",
+  "id": 200903,
+  "stack": 1,
+  "time": 13,
+  "last_effect": ""
+}

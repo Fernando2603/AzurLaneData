@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 12444,
+        "quota": 8,
+        "killer": "self"
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "countType": 12440,
+        "count": 1
+      }
+    }
+  ],
+  "desc": "触发器",
+  "picture": "",
+  "icon": 12440,
+  "name": "",
+  "init_effect": "",
+  "id": 12443,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

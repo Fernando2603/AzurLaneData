@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发全弹发射-鞍山级II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 24010,
+        "countTarget": 10,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 24016,
+        "countType": 24010
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发全弹发射-鞍山级II",
+  "picture": "",
+  "icon": 20000,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 24012,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

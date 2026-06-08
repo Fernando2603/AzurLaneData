@@ -1,0 +1,813 @@
+{
+  "1": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 100,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 5000
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 5000
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "2": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 200,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 5500
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 5500
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "3": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 300,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 6000
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 6000
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "4": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 400,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 6500
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 6500
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "5": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 500,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 7000
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 7000
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "6": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 600,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 7500
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 7500
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "7": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 700,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 8000
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 8000
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "8": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 800,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 8500
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 8500
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "9": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 900,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 9000
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 9000
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "10": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "Hito_Shuziku"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 1000,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "skill_id": 106396,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "maxTargetNumber": 0,
+          "rant": 10000
+        }
+      },
+      {
+        "trigger": [
+          "onChargeWeaponFire"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "Shizuku_fox"
+          ],
+          "skill_id": 106397,
+          "rant": 10000
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 10,
+          "skill_id": 106391
+        }
+      }
+    ]
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "Hito_Shuziku"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 100,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 106396,
+        "ship_tag_list": [
+          "Shizuku_fox"
+        ],
+        "maxTargetNumber": 0,
+        "rant": 5000
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Shizuku_fox"
+        ],
+        "skill_id": 106397,
+        "rant": 5000
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 10,
+        "skill_id": 106391
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106390,
+  "name": "",
+  "init_effect": "",
+  "id": 106391,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

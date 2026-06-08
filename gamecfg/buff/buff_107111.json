@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 107112,
+        "quota": 1,
+        "time": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 107110,
+  "name": "定身",
+  "init_effect": "",
+  "id": 107111,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

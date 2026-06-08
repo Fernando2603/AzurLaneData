@@ -1,0 +1,51 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "buff_id": 201340,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "buff_id": 201341,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire",
+        "onManualMissileFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "buff_id": 201342,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    }
+  ],
+  "id": 201339,
+  "name": "2025医院活动 探索计数 2层效果",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

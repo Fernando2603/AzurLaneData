@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 2,
+        "number": 10,
+        "attr": "torpedoPower",
+        "time": 3,
+        "k": 0.7
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "flood"
+      }
+    }
+  ],
+  "desc": "10s DOT",
+  "picture": "",
+  "icon": 16603,
+  "name": "",
+  "init_effect": "",
+  "id": 16603,
+  "stack": 1,
+  "time": 10,
+  "last_effect": ""
+}

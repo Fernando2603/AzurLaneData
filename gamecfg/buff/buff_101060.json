@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 115,
+        "skill_id": 101060
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "delay": 125,
+        "count": 0
+      }
+    }
+  ],
+  "desc": "战斗开始115秒后触发，发射超强弹幕，每场战斗只能触发1次",
+  "desc_get": "战斗开始115秒后触发，发射超强弹幕，每场战斗只能触发1次",
+  "icon": 101060,
+  "id": 101060,
+  "name": "胜利刺穿",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 13880,
+  "name": "定身",
+  "init_effect": "",
+  "id": 1013889,
+  "stack": 1,
+  "time": 3,
+  "last_effect": "Darkness"
+}

@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200771,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "skill_id": 200771
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200771,
+  "name": "2024同盟活动A 极寒 冰风暴",
+  "init_effect": "",
+  "id": 200771,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

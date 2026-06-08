@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1000,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.15,
+        "attr": "criDamage",
+        "index": [
+          1
+        ]
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 10310,
+  "name": "",
+  "init_effect": "",
+  "id": 902311,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

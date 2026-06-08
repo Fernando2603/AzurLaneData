@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "time": 0.1,
+        "buff_id": 200216
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200217
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200217
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200215,
+  "name": "黑亚利桑那 扩散的哀伤",
+  "init_effect": "",
+  "id": 200215,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

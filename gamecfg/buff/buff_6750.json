@@ -1,0 +1,33 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6750
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "USDC"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6750,
+  "name": "白鹰精英损管",
+  "init_effect": "",
+  "id": 6750,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,35 @@
+{
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.6,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 8671
+      }
+    }
+  ],
+  "picture": "",
+  "name": "水面减伤护盾",
+  "init_effect": "",
+  "id": 8674,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

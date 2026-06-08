@@ -1,0 +1,63 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311072
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311073
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311074
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311075
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "hpUpperBound": 0.5,
+        "count": 1
+      }
+    }
+  ],
+  "desc": "第二阶段开始",
+  "picture": "",
+  "icon": 100003,
+  "name": "第二阶段",
+  "init_effect": "",
+  "id": 100003,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

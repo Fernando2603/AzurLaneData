@@ -1,0 +1,47 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.15,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.2,
+        "attr": "injureRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.2,
+        "attr": "injureRatioByBulletTorpedo"
+      }
+    }
+  ],
+  "desc": "航空易伤",
+  "picture": "",
+  "icon": 2120,
+  "name": "2019年2月世界BOSS三阶段易伤",
+  "init_effect": "",
+  "id": 8605,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Darkness"
+}

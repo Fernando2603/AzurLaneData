@@ -1,0 +1,26 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 73501,
+        "quota": 1,
+        "hpUpperBound": 0.3
+      }
+    }
+  ],
+  "desc": "战斗对象的血量下降到X%时，炮击、雷击上升Y%",
+  "picture": "",
+  "icon": 73500,
+  "name": "濒死爆发",
+  "init_effect": "",
+  "id": 73500,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

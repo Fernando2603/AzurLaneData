@@ -1,0 +1,71 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 10,
+        "quota": 1,
+        "skill_id": 15100
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 15102,
+        "quota": 1,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onFoeAircraftDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "inside": 1,
+        "countType": 15100,
+        "countTarget": 2
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 15103,
+        "countType": 15100
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 15100,
+  "id": 15100,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-马赛曲II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30080,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30080,
+        "skill_id": 30082
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-马赛曲II",
+  "desc_get": "主炮每进行8次攻击，触发专属弹幕-马赛曲II",
+  "icon": 30080,
+  "id": 30082,
+  "name": "专属弹幕-马赛曲II",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

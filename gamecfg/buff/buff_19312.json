@@ -1,0 +1,53 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 6,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(3, -1.8, 0.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 19310,
+  "name": "",
+  "init_effect": "",
+  "id": 19312,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

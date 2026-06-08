@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 600024,
+        "exceptCaster": true
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDeath",
+      "arg_list": {
+        "time": 0.1
+      }
+    }
+  ],
+  "desc": "",
+  "id": 600023,
+  "name": "",
+  "icon": 600023,
+  "picture": "",
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

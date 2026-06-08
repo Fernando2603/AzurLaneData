@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6460,
+        "attrLowerBound": 2,
+        "attrUpperBound": 4,
+        "attrInterval": "armorType"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6461,
+        "attrLowerBound": 0,
+        "attrUpperBound": 3,
+        "attrInterval": "armorType"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6460,
+  "name": "",
+  "init_effect": "",
+  "id": 6460,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

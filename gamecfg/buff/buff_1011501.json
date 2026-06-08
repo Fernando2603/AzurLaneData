@@ -1,0 +1,43 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onCombo"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1011501,
+        "index": [
+          1
+        ],
+        "time": 1,
+        "lowerBound": 1
+      }
+    },
+    {
+      "trigger": [
+        "onCombo"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "buff_id_list": [
+          1011502
+        ],
+        "upperBound": 0
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 11500,
+  "name": "",
+  "init_effect": "",
+  "id": 1011501,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

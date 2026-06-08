@@ -1,0 +1,57 @@
+{
+  "1": {
+    "desc": "太原技能"
+  },
+  "2": {
+    "desc": "太原技能"
+  },
+  "3": {
+    "desc": "太原技能"
+  },
+  "4": {
+    "desc": "太原技能"
+  },
+  "5": {
+    "desc": "太原技能"
+  },
+  "6": {
+    "desc": "太原技能"
+  },
+  "7": {
+    "desc": "太原技能"
+  },
+  "8": {
+    "desc": "太原技能"
+  },
+  "9": {
+    "desc": "太原技能"
+  },
+  "10": {
+    "desc": "太原技能"
+  },
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 6,
+        "skill_id": 17560,
+        "quota": 1,
+        "check_target": "TargetAllHelp"
+      }
+    }
+  ],
+  "desc": "出击时，若队伍中舰娘编队为满员6人，自身炮击、装填提高10%（25%），机动提高4%（10%）",
+  "desc_get": "出击时，若队伍中舰娘编队为满员6人，自身炮击、装填提高10%（25%），机动提高4%（10%）",
+  "icon": 11070,
+  "id": 17560,
+  "name": "太原技能",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

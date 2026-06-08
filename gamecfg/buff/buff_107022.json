@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          2
+        ],
+        "countType": 107022,
+        "countTarget": 1
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 107022,
+        "skill_id": 107021
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 107020,
+  "name": "",
+  "init_effect": "",
+  "id": 107022,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

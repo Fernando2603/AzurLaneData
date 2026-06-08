@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 111014
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "xiyinxiaoguo"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 111010,
+  "name": "吸引附加BUFF",
+  "init_effect": "",
+  "id": 111013,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

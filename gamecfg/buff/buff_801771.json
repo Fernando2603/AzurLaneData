@@ -1,0 +1,68 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 801772,
+        "ship_tag_list": [
+          "GloriousMETA"
+        ],
+        "dhpGreaterMaxhp": -0.015
+      }
+    },
+    {
+      "trigger": [
+        "onDamageConclude"
+      ],
+      "type": "BattleBuffReflectDamage",
+      "arg_list": {
+        "reflectRate": 0.05,
+        "reflectTarget": {
+          "target_choise": [
+            "TargetAllFoe",
+            "TargetHarmNearest"
+          ]
+        },
+        "valve": 0.015
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "qiangweikeyin"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 801770,
+  "id": 801771,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": "guangrongmeta1"
+}

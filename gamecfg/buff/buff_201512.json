@@ -1,0 +1,62 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -3
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201511,
+        "stack_require": "==10"
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201512,
+        "stack_require": "==9"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "id": 201512,
+  "name": "2025白凤UR活动 EX 烟雾玉烟雾效果",
+  "init_effect": "",
+  "picture": "",
+  "stack": 10,
+  "time": 0,
+  "last_effect": ""
+}

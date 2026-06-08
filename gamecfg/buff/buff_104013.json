@@ -1,0 +1,46 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -400,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -400,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -400,
+        "attr": "airPower"
+      }
+    }
+  ],
+  "desc": "敌方属性下降4%",
+  "picture": "",
+  "icon": 104010,
+  "name": "爱碳光波-II",
+  "init_effect": "",
+  "id": 104013,
+  "stack": 1,
+  "time": 10,
+  "last_effect": "Darkness"
+}

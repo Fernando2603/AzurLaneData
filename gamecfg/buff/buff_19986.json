@@ -1,0 +1,82 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          19981,
+          19982,
+          19983,
+          19984,
+          19985
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 19982
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "skill_id": 19986,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "KansasEX"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "KansasEX"
+        ],
+        "skill_id": 20007
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 19980,
+  "name": "",
+  "init_effect": "",
+  "id": 19986,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

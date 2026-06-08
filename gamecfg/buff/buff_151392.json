@@ -1,0 +1,106 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "target": "TargetSelf",
+        "attr": "luck",
+        "number": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.04,
+        "attr": "cri",
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.04,
+        "attr": "criDamage",
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "xingyunganzhi"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 1,
+        "countType": 151391
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 151392
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 151393
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151390,
+  "name": "",
+  "init_effect": "",
+  "id": 151392,
+  "stack": 3,
+  "time": 0,
+  "last_effect": ""
+}

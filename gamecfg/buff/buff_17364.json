@@ -1,0 +1,50 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          17362
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          17363
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 17363,
+        "quota": 4
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 17364,
+  "name": "内置CD+最大触发次数处理",
+  "init_effect": "",
+  "id": 17364,
+  "stack": 5,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,58 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 802160,
+        "time": 20
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "DMG_TAG_EHC_KölnMETA_1"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "DMG_TAG_EHC_KölnMETA_2"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "DMG_TAG_EHC_KölnMETA_3"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 802160,
+  "name": "",
+  "init_effect": "",
+  "id": 802161,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,49 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "accuracyRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -9500,
+        "attr": "loadSpeed"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 79110,
+        "time": 1.5,
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8661,
+  "name": "残废buff装填命中下降",
+  "init_effect": "",
+  "id": 79110,
+  "stack": 1,
+  "time": 15,
+  "last_effect": "hunluan"
+}

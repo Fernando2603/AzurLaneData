@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    }
+  ],
+  "desc": "定身效果(无法移动)",
+  "picture": "",
+  "icon": 60029,
+  "name": "测试-定身",
+  "init_effect": "jiasuBUFF",
+  "id": 60029,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "SPD"
+}

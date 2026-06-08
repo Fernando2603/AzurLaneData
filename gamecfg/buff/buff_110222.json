@@ -1,0 +1,43 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "minTargetNumber": 0,
+        "skill_id": 110220,
+        "maxTargetNumber": 0,
+        "check_target_gap": [
+          {
+            "target": [
+              "TargetAllHelp"
+            ]
+          },
+          {
+            "target": [
+              "TargetShipTag"
+            ],
+            "arg": {
+              "ship_tag_list": [
+                "SRSPW"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110220,
+  "name": "",
+  "init_effect": "",
+  "id": 110222,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,56 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "quota": 1,
+        "buff_id": 150981
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 150982
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "quota": 1,
+        "buff_id": 150982
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 150980,
+  "id": 150980,
+  "name": "危机等级上升！",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,65 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 22255,
+        "countTarget": 6
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 22255,
+        "countType": 22255,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Suzuya"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "countType": 22255,
+        "ship_tag_list": [
+          "Suzuya"
+        ],
+        "skill_id": 22257
+      }
+    }
+  ],
+  "desc": "主炮每进行6次攻击，触发全弹发射-{namecode:57}级{namecode:59}型I",
+  "picture": "",
+  "icon": 20200,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 22255,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

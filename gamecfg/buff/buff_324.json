@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -150,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "naximofubeilianjiansu"
+      }
+    }
+  ],
+  "desc": "4s减速",
+  "picture": "",
+  "icon": 323,
+  "name": "塔什干ICELF子弹减速",
+  "init_effect": "",
+  "id": 323,
+  "stack": 10,
+  "time": 4,
+  "last_effect": "Darkness"
+}

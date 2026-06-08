@@ -1,0 +1,47 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "armor_type": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipArmor"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 409,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "armor_type": 2,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipArmor"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 409,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 400,
+  "name": "穿甲对轻、中甲破甲",
+  "init_effect": "",
+  "id": 408,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

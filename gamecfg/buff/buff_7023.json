@@ -1,0 +1,42 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffNewAI",
+      "arg_list": {
+        "ai_onAttach": 80004
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDeath",
+      "arg_list": {
+        "maxX": 55
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 7023,
+        "attr": "immuneMaxAreaLimit",
+        "number": 1
+      }
+    }
+  ],
+  "desc": "序章俾斯麦撤退",
+  "picture": "",
+  "icon": 7023,
+  "name": "序章俾斯麦撤退",
+  "init_effect": "",
+  "id": 7023,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

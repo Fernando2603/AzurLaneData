@@ -1,0 +1,37 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 114110,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 45,
+        "minTargetNumber": 1,
+        "skill_id": 114111,
+        "check_target": "TargetHarmNearest"
+      }
+    }
+  ],
+  "desc": "每10秒，触发光明之风",
+  "picture": "",
+  "icon": 114110,
+  "name": "光明之风",
+  "init_effect": "",
+  "id": 114110,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

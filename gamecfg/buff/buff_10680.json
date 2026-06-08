@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 10680,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": [
+          "TargetNationalityFriendly"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 10682,
+        "nationality": 4,
+        "isBuffStackByCheckTarget": true
+      }
+    }
+  ],
+  "desc": "降低舰队中所有铁血阵营角色受到的伤害$1",
+  "desc_get": "降低舰队中所有铁血阵营角色受到的伤害5.0%(满级15.0%)",
+  "icon": 10680,
+  "id": 10680,
+  "name": "铁血之翼",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

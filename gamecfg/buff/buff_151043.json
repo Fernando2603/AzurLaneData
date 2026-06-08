@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onShieldBroken"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151044,
+        "shieldBuffID": 151042
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 151042,
+        "time": 1,
+        "initialCD": true
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151040,
+  "name": "",
+  "init_effect": "",
+  "id": 151043,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

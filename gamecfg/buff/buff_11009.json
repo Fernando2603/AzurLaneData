@@ -1,0 +1,44 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          4,
+          5
+        ],
+        "skill_id": 11009
+      }
+    },
+    {
+      "trigger": [
+        "onSink"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 11009,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 11000,
+  "name": "",
+  "init_effect": "",
+  "id": 11009,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

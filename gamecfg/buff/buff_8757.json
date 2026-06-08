@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "BOSS-5"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 730006
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8757,
+  "name": "中飞联动一阶段安装武器4",
+  "init_effect": "",
+  "id": 8757,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

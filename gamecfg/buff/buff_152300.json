@@ -1,0 +1,69 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 152300,
+        "type": [
+          3
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "type": [
+          11
+        ],
+        "skill_id": 152302,
+        "index": [
+          1
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame",
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 152304,
+        "hpUpperBound": 0.3,
+        "hpLowerBound": 0,
+        "hpSigned": 0
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 152300,
+  "id": 152300,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

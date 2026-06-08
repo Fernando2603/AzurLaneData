@@ -1,0 +1,57 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "time": 8,
+        "skill_id_list": [
+          15170,
+          15171
+        ]
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 15175
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 15170,
+  "id": 15170,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

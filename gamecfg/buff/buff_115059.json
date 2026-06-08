@@ -1,0 +1,46 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 1,
+        "number": 0,
+        "attr": "cannonPower",
+        "time": 1,
+        "k": 0.1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 61,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "五河琴里特殊点燃",
+  "picture": "",
+  "icon": 115050,
+  "name": "",
+  "init_effect": "",
+  "id": 115059,
+  "stack": 1,
+  "time": 10.1,
+  "last_effect": "zhuoshao"
+}

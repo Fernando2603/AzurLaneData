@@ -1,0 +1,35 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 9728,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 30,
+        "skill_id": 9728
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 9728,
+  "name": "主线16章召唤烟幕发生蛋船",
+  "init_effect": "",
+  "id": 9728,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

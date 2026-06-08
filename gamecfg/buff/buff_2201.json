@@ -1,0 +1,57 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 2201,
+        "weapon_group": [
+          11200,
+          11220,
+          11240
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 2200,
+        "weapon_group": [
+          11200,
+          11220,
+          11240
+        ],
+        "check_weapon": true,
+        "maxWeaponNumber": 0
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 2200,
+  "id": 2201,
+  "name": "比洛克西通用技能",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

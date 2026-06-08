@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 14931,
+        "time": 20
+      }
+    },
+    {
+      "trigger": [
+        "onBulletHit"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "weaponType": 2,
+        "buff_id": 14935,
+        "index": [
+          1
+        ],
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 14930,
+  "id": 14930,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

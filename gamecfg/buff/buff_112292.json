@@ -1,0 +1,62 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 112292,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Yumia_Advent"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Yumia_Advent"
+        ],
+        "skill_id": 112291
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112261
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 112280,
+  "name": "",
+  "init_effect": "",
+  "id": 112292,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

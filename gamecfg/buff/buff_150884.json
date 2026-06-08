@@ -1,0 +1,50 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id_list": [
+          150882,
+          150883,
+          150884
+        ],
+        "range": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.2,
+            0.4
+          ],
+          [
+            0.4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 150881
+      }
+    }
+  ],
+  "desc": "冒险结果判定",
+  "picture": "",
+  "icon": 17470,
+  "name": "冒险结果判定",
+  "init_effect": "",
+  "id": 17475,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

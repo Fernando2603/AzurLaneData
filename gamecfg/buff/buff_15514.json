@@ -1,0 +1,45 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onShieldBroken"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 15513,
+        "shieldBuffID": 15516
+      }
+    },
+    {
+      "trigger": [
+        "onShieldBroken"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          15516
+        ],
+        "shieldBuffID": 15516
+      }
+    }
+  ],
+  "desc": "监听器",
+  "picture": "",
+  "icon": 15514,
+  "name": "破盾监听--永久",
+  "init_effect": "",
+  "id": 15514,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

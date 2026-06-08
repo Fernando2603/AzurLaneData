@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 3,
+        "skill_id": 1011712
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -2
+      }
+    }
+  ],
+  "desc": "杜尔拉汗-回复效果",
+  "picture": "",
+  "icon": 11710,
+  "name": "杜尔拉汗-回复效果",
+  "init_effect": "",
+  "id": 1011712,
+  "stack": 1,
+  "time": 16,
+  "last_effect": "Health"
+}

@@ -1,0 +1,59 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onLeader"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 19181
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCollide"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          2
+        ],
+        "countType": 19180,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19180,
+        "skill_id": 19180
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19180,
+  "id": 19180,
+  "name": "北风2",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

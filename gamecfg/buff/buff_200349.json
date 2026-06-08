@@ -1,0 +1,50 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200348,
+        "quota": 1,
+        "time": 22
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200349,
+        "quota": 1,
+        "time": 24
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 200350,
+        "time": 26,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200349,
+  "name": "2023英系活动 剧情战1 定时触发弹幕",
+  "init_effect": "",
+  "id": 200349,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

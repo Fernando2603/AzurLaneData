@@ -1,0 +1,1154 @@
+{
+  "1": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -100,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -100,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -100,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -100,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -100,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "2": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -120,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -120,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -120,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -120,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -120,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "3": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -140,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -140,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -140,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -140,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -140,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "4": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -160,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -160,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -160,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -160,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -160,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "5": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -180,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -180,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -180,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -180,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -180,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "6": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -200,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -200,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -200,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -200,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -200,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "7": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -220,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -220,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -220,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -220,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -220,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "8": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -240,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -240,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -240,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -240,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -240,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "9": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -270,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -270,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -270,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -270,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -270,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "10": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -300,
+          "attr": "cannonPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -300,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -300,
+          "attr": "airPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -300,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddTag",
+        "arg_list": {
+          "tag": "enemyantiAirPowerDownTag"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": -300,
+          "attr": "dodgeRate"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv1"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "quota": 1,
+          "check_target": [
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "tianchengcv2"
+          ],
+          "skill_id": 150460
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            150464
+          ]
+        }
+      }
+    ]
+  },
+  "color": "red",
+  "effect_list": [],
+  "desc": "",
+  "desc_get": "",
+  "icon": 150460,
+  "id": 150463,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

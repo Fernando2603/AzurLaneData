@@ -1,0 +1,49 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 19914,
+        "attr": "perfectDodge",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 19914,
+        "attr": "isInvincible",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "isInvincible_1"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 19910,
+  "name": "",
+  "init_effect": "",
+  "id": 19914,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

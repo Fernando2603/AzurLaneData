@@ -1,0 +1,46 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.3,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -2000,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.25,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "黑声望 沉寂二阶段BUFF",
+  "init_effect": "DEF",
+  "id": 200045,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

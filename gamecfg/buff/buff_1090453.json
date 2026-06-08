@@ -1,0 +1,93 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          4971,
+          4972,
+          4973,
+          4974,
+          4975,
+          4976,
+          4977,
+          4978,
+          4979,
+          4980
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          4981,
+          4982,
+          4983,
+          4984,
+          4985,
+          4986,
+          4987,
+          4988,
+          4989,
+          4990
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 1090454
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 62,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 63,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "提高闪避",
+  "picture": "",
+  "icon": 2120,
+  "name": "烟雾-清除效果",
+  "init_effect": "",
+  "id": 1090453,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

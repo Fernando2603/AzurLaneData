@@ -1,0 +1,48 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffOverrideBullet",
+      "arg_list": {
+        "override": {
+          "diverFilter": [
+            2
+          ]
+        },
+        "bullet_type": 3
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineDive"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 9041,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 9040,
+  "name": "U556切换模式",
+  "init_effect": "",
+  "id": 9040,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

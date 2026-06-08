@@ -1,0 +1,48 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ],
+        "minTargetNumber": 1,
+        "nationality": 8,
+        "time": 30,
+        "skill_id": 6970
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ],
+        "minTargetNumber": 1,
+        "nationality": 9,
+        "time": 30,
+        "skill_id": 6970
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6970,
+  "name": "",
+  "init_effect": "",
+  "id": 6970,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

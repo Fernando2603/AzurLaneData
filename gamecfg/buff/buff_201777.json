@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201763,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 3396302
+      }
+    }
+  ],
+  "id": 201777,
+  "name": "2026伯利欣根活动 剧情战6 触发终结技",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 20,
+  "last_effect": ""
+}

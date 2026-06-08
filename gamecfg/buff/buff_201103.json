@@ -1,0 +1,36 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201104,
+        "quota": 1,
+        "hpUpperBound": 0.5
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffLockHealth",
+      "arg_list": {
+        "target": "TargetSelf",
+        "value": 0.5
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201103,
+  "name": "2024天城航母活动 EX 一阶段转场",
+  "init_effect": "",
+  "id": 201103,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-埃姆登I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29840,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29840,
+        "skill_id": 29841
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-埃姆登I",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-埃姆登I",
+  "icon": 29840,
+  "id": 29841,
+  "name": "专属弹幕-埃姆登I",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

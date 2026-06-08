@@ -1,0 +1,76 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onOverHealing",
+        "onUpdate",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffOverHealingShield",
+      "arg_list": {
+        "shield_rate": 0.5,
+        "shield_tag_list": [
+          "Albion_shield"
+        ],
+        "shield_duration": 5
+      }
+    },
+    {
+      "trigger": [
+        "onOverHealing"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 16174,
+        "ship_tag_list": [
+          "Albion_shield"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "ship_tag_list": [
+          "Albion_shield"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "maxTargetNumber": 0,
+        "buff_id_list": [
+          16174
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 16170,
+  "id": 16170,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

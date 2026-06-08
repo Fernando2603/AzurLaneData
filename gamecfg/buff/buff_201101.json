@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201102,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 2,
+        "skill_id": 201102
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201101,
+  "name": "2024天城航母活动 苍红之炎 支援弹幕 灼烧效果",
+  "init_effect": "",
+  "id": 201101,
+  "stack": 1,
+  "time": 8.5,
+  "last_effect": "cangyanzhuoshao"
+}

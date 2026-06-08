@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 403
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "countType": 403,
+        "buff_id": 404
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 400,
+  "name": "被icelf命中10次时触发破甲",
+  "init_effect": "",
+  "id": 403,
+  "stack": 10,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,62 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "fleetAttr": "ReisalinAP>=10",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 109050,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "APSkillBoost"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "fleetAttr": "ReisalinAP>=10",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "APSkillBoost"
+        ],
+        "skill_id": 109055
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 109050,
+  "name": "",
+  "init_effect": "",
+  "id": 109051,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

@@ -1,0 +1,53 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_type_list": [
+          8
+        ],
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 12411,
+        "nationality": 4,
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 12410
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 12410,
+  "id": 12410,
+  "name": "狼群战术-U101",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

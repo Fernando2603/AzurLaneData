@@ -1,0 +1,34 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetHarmNearest",
+        "buff_id": 78131
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 78130,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 9290,
+  "name": "白龙剧情战 触发龙宫机关-回复技能 buff1：找到最近我方单位，为其添加buff2",
+  "init_effect": "",
+  "id": 78130,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

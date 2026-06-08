@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.04,
+        "attr": "injureRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "xiefeipojia"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 800682,
+  "name": "META谢菲尔德破甲buff",
+  "init_effect": "",
+  "id": 800682,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "zidan_lingxingsuipian_donghua"
+}

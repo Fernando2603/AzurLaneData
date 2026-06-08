@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发全弹发射-新奥尔良级II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 20240,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 20240,
+        "skill_id": 20242
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发全弹发射-新奥尔良级II",
+  "picture": "",
+  "icon": 20200,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 20242,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201118,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 0.2,
+        "skill_id": 201118
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201118,
+  "name": "2024天城航母活动 EX 我方触发支援大招 真伤",
+  "init_effect": "",
+  "id": 201118,
+  "stack": 1,
+  "time": 4,
+  "last_effect": "cangyanzhuoshao"
+}

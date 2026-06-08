@@ -1,0 +1,34 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "ship_type_list": [
+          4,
+          5,
+          10
+        ],
+        "quota": 1,
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "skill_id": 40220
+      }
+    }
+  ],
+  "desc": "该入口提供战外挂载到战内",
+  "picture": "",
+  "icon": 40220,
+  "name": "",
+  "init_effect": "",
+  "id": 40220,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

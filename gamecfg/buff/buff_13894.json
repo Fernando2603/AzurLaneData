@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          13892
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          13893
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 13892
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 13894,
+  "name": "定身触发",
+  "init_effect": "",
+  "id": 13894,
+  "stack": 1,
+  "time": 7,
+  "last_effect": "Darkness"
+}

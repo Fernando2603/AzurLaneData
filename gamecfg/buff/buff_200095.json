@@ -1,0 +1,35 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200096,
+        "hpUpperBound": 0.01
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffLockHealth",
+      "arg_list": {
+        "value": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200095,
+  "name": "2022围剿小斯佩 甜品运输船被打爆后出现甜品子弹",
+  "init_effect": "",
+  "id": 200095,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

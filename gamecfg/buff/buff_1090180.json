@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 1090181
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1090180,
+        "rant": 5000
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1090180,
+        "rant": 5000
+      }
+    }
+  ],
+  "desc": "自身炮击提高$1",
+  "desc_get": "自身炮击提高10.0%(满级20.0%)",
+  "icon": 2070,
+  "id": 1090180,
+  "name": "火力覆盖",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

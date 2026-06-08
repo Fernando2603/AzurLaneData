@@ -1,0 +1,59 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 17073,
+        "nationality": [
+          3
+        ],
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetNationality"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "nationality": [
+          3
+        ],
+        "buff_id": 17072,
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetNationality"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 17070,
+  "id": 17077,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

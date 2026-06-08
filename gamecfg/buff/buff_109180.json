@@ -1,0 +1,53 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "elfadd"
+        ],
+        "time": 1,
+        "skill_id": 109180
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 109181,
+        "quota": 3,
+        "time": 10
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 109180,
+  "name": "",
+  "init_effect": "",
+  "id": 109180,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

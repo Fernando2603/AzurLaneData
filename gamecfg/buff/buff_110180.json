@@ -1,0 +1,85 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 110189
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 110170
+      }
+    },
+    {
+      "trigger": [
+        "onFleetAttrUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 110182,
+        "fleetAttr": "huohun=5",
+        "fleetAttrDelta": ">0"
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 110181
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 110173
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          110181
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110180,
+  "name": "",
+  "init_effect": "",
+  "id": 110180,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

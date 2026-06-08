@@ -1,0 +1,95 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "qiershazhiqijian"
+        ],
+        "skill_id": 19680
+      },
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "pop": {
+        "castCV": "skill",
+        "displayID": 19684,
+        "painting": 1,
+        "trigger": [
+          "onAttach"
+        ],
+        "aniEffect": {
+          "effect": "jineng",
+          "offset": [
+            0,
+            -2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "qiershazhishangliaojian"
+        ],
+        "skill_id": 19684
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "qiershazhixialiaojian"
+        ],
+        "skill_id": 19685
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19687,
+  "id": 19687,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

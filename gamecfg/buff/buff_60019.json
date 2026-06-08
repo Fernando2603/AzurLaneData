@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60011,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "desc": "死亡原子弹",
+  "picture": "",
+  "icon": 60019,
+  "name": "测试-印第安纳波利斯-技能触发被动",
+  "init_effect": "",
+  "id": 60019,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

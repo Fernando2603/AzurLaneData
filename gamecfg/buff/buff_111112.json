@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "xiaoan"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 111112,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 111100,
+  "name": "护甲判别",
+  "init_effect": "",
+  "id": 111112,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

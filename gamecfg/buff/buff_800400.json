@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 800400,
+        "label": [
+          "IJN"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 800401,
+        "label": [
+          "IJN"
+        ],
+        "check_weapon": true,
+        "maxWeaponNumber": 0
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 800400,
+  "name": "",
+  "init_effect": "",
+  "id": 800400,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

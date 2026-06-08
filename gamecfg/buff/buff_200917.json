@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSetBattleUnitType",
+      "arg_list": {
+        "value": -100
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200917,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200918,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200917,
+  "name": "2024阿尔萨斯活动 潜艇功能",
+  "init_effect": "",
+  "id": 200917,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

@@ -1,0 +1,45 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 8894
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8894
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 8897,
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8897,
+  "name": "黑海伦娜 领域全体敌人获得易伤效果",
+  "init_effect": "",
+  "id": 8897,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

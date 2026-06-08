@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行16次攻击，触发专属弹幕-莫加多尔II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30260,
+        "countTarget": 16,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30260,
+        "skill_id": 30262
+      }
+    }
+  ],
+  "desc": "主炮每进行16次攻击，触发专属弹幕-莫加多尔II",
+  "picture": "",
+  "icon": 30260,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 30262,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

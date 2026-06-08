@@ -1,0 +1,49 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 12861,
+        "minTargetNumber": 3,
+        "check_target": "TargetPlayerMainFleet"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 12921,
+        "maxTargetNumber": 2,
+        "check_target": "TargetPlayerMainFleet"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 12860,
+  "id": 12860,
+  "name": "龙凤1",
+  "init_effect": "",
+  "picture": "",
+  "stack": 2,
+  "time": 0,
+  "last_effect": ""
+}

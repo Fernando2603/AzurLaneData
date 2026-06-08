@@ -1,0 +1,47 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 200037
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200038,
+        "countType": 200037
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.25,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200037,
+  "name": "黑声望蓄力主炮 成功次数监听",
+  "init_effect": "",
+  "id": 200037,
+  "stack": 99,
+  "time": 0,
+  "last_effect": ""
+}

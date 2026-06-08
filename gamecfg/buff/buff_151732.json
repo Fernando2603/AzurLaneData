@@ -1,0 +1,58 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151733,
+        "ship_tag_list": [
+          "maoxian_sp"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151732,
+        "ship_tag_list": [
+          "maoxian_sp"
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 10000,
+        "add": 0
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151730,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 151732,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

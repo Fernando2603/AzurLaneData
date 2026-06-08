@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 61031,
+        "ship_tag_list": [
+          "ChaoHo"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61030,
+  "name": "",
+  "init_effect": "",
+  "id": 61030,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

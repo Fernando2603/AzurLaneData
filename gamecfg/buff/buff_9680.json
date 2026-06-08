@@ -1,0 +1,38 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm"
+        ],
+        "skill_id": 9677,
+        "maxTargetNumber": 0,
+        "time": 5
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 9678
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 9680,
+  "name": "",
+  "init_effect": "",
+  "id": 9680,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

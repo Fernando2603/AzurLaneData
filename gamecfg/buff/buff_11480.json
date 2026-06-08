@@ -1,0 +1,56 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onTeammateHpRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "targetMaxHPRatio": 0.2,
+        "hpUpperBound": 0.2,
+        "quota": 1,
+        "exceptCaster": true,
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet",
+          "TargetHelpLeastHP"
+        ],
+        "skill_id": 11480,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 11484,
+        "time": 20
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 11480,
+  "id": 11480,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

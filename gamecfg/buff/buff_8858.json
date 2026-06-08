@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8840
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffRegisterWaveFlags",
+      "arg_list": {
+        "flags": [
+          8842
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8858,
+  "name": "毛系V2 璀璨余晖FLAG",
+  "init_effect": "",
+  "id": 8858,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

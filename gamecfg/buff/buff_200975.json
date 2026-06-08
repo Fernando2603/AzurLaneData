@@ -1,0 +1,58 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffRegisterWaveFlags",
+      "arg_list": {
+        "flags": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 200719
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200765,
+        "quota": 1,
+        "time": 0.1
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200975,
+        "quota": 1,
+        "time": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200975,
+  "name": "2024 斯特拉斯堡活动EX 开场检测",
+  "init_effect": "",
+  "id": 200975,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

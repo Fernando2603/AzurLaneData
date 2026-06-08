@@ -1,0 +1,78 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 800635,
+        "dungeonTypeList": [
+          98,
+          99
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 800630,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 800631,
+        "countType": 800630,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Fortune_meta_Berserker"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "countType": 800630,
+        "ship_tag_list": [
+          "Fortune_meta_Berserker"
+        ],
+        "skill_id": 800622
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 800630,
+  "name": "",
+  "init_effect": "",
+  "id": 800635,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

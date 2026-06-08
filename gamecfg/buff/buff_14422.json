@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          14420
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 14420
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 14422,
+  "name": "内置CD",
+  "init_effect": "",
+  "id": 14422,
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

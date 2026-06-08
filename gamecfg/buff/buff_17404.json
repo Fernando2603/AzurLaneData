@@ -1,0 +1,33 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "number": -30
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 17403,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 17400,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 17404,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

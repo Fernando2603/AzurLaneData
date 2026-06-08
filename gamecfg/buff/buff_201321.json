@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -6
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "attackRating"
+      }
+    }
+  ],
+  "id": 201321,
+  "name": "2025医院活动 奇怪响声",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 6,
+  "last_effect": "xuanyun"
+}

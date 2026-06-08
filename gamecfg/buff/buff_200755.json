@@ -1,0 +1,48 @@
+{
+  "last_effect_cld_scale": true,
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeTakeDamage"
+      ],
+      "type": "BattleBuffFixDamage",
+      "arg_list": {
+        "target": "TargetSelf",
+        "value": 1
+      }
+    },
+    {
+      "trigger": [
+        "onWeaonInterrupt"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200756
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAura",
+      "arg_list": {
+        "cld_data": {
+          "box": {
+            "range": 27
+          }
+        },
+        "buff_id": 200454
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 200755,
+  "id": 200755,
+  "name": "2023 关岛活动EX 次数盾",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": "ATdun_full"
+}

@@ -1,0 +1,49 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 20,
+        "countType": 60900
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 60903,
+        "quota": 1,
+        "countType": 60900
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 60900,
+        "quota": 1,
+        "skill_id": 60900
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60900,
+  "name": "地狱立方体",
+  "init_effect": "",
+  "id": 60901,
+  "stack": 20,
+  "time": 0,
+  "last_effect": ""
+}

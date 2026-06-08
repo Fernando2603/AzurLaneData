@@ -1,0 +1,436 @@
+{
+  "101": {
+    "npc_birthplace": 1010001,
+    "delegationCamera": "RoleDelegationCamera101",
+    "tool_list": "",
+    "commission_slot": [
+      10101,
+      10102,
+      10103,
+      10104
+    ],
+    "id": 101,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_farm",
+    "locked_obj": 0,
+    "unlock_type": 2,
+    "unlocked_obj": 0,
+    "map_id": 1001,
+    "name": "Faircrop Fields",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_farm",
+    "seed_list": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008
+    ],
+    "gathering_slot": [],
+    "interactionType": 0,
+    "behaviourTree": "island/nodecanvas/system/system_farm_place"
+  },
+  "102": {
+    "commission_slot": [
+      10201,
+      10202,
+      10203,
+      10204
+    ],
+    "delegationCamera": "RoleDelegationCamera102",
+    "tool_list": "",
+    "locked_obj": 0,
+    "id": 102,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_pasture",
+    "unlock_type": 1,
+    "map_id": 1001,
+    "unlocked_obj": 0,
+    "npc_birthplace": 10010040,
+    "name": "Laidback Ranch",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_pasture",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 0,
+    "behaviourTree": "island/nodecanvas/system/system_pasture_place"
+  },
+  "201": {
+    "commission_slot": [
+      20101,
+      20102,
+      20103
+    ],
+    "delegationCamera": "RoleDelegationCamera201",
+    "tool_list": "",
+    "locked_obj": 0,
+    "id": 201,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_fish",
+    "unlock_type": 1,
+    "map_id": 1002,
+    "unlocked_obj": 0,
+    "npc_birthplace": 0,
+    "name": "Manjuu Fish Hatchery",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_fish",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 0,
+    "behaviourTree": "island/nodecanvas/system/system_fish_place"
+  },
+  "401": {
+    "commission_slot": [
+      40101,
+      40102,
+      40103,
+      40104
+    ],
+    "delegationCamera": "RoleDelegationCamera401",
+    "tool_list": [
+      10006,
+      10010,
+      10011
+    ],
+    "locked_obj": 0,
+    "id": 401,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_mine",
+    "unlock_type": 2,
+    "map_id": 1004,
+    "unlocked_obj": 0,
+    "npc_birthplace": 10040022,
+    "name": "Rockheap Mine",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_mine",
+    "seed_list": "",
+    "gathering_slot": [
+      40101,
+      40102,
+      40103,
+      40104
+    ],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_mine_place"
+  },
+  "402": {
+    "commission_slot": [
+      40201,
+      40202,
+      40203,
+      40204
+    ],
+    "delegationCamera": "RoleDelegationCamera402",
+    "tool_list": [
+      10007,
+      10012,
+      10013
+    ],
+    "locked_obj": 0,
+    "id": 402,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_felling",
+    "unlock_type": 2,
+    "map_id": 1004,
+    "unlocked_obj": 0,
+    "npc_birthplace": 10040002,
+    "name": "Verdant Woods",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_felling",
+    "seed_list": "",
+    "gathering_slot": [
+      40201,
+      40202,
+      40203,
+      40204
+    ],
+    "interactionType": 0,
+    "behaviourTree": "island/nodecanvas/system/system_felling_place"
+  },
+  "501": {
+    "npc_birthplace": 1010005,
+    "delegationCamera": "RoleDelegationCamera501",
+    "tool_list": "",
+    "commission_slot": [
+      50101,
+      50102,
+      50103,
+      50104
+    ],
+    "id": 501,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_orchard",
+    "locked_obj": 0,
+    "unlock_type": 1,
+    "unlocked_obj": 0,
+    "map_id": 1005,
+    "name": "Sweetscent Orchard",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_orchard",
+    "seed_list": [
+      1101,
+      1102,
+      1103,
+      1104,
+      1105,
+      1106,
+      1107,
+      1108,
+      1109
+    ],
+    "gathering_slot": [],
+    "interactionType": 0,
+    "behaviourTree": "island/nodecanvas/system/system_orchard_place"
+  },
+  "502": {
+    "npc_birthplace": 1010006,
+    "delegationCamera": "RoleDelegationCamera502",
+    "tool_list": "",
+    "commission_slot": [
+      50201,
+      50202
+    ],
+    "id": 502,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_garden",
+    "locked_obj": 0,
+    "unlock_type": 1,
+    "unlocked_obj": 0,
+    "map_id": 1005,
+    "name": "Newsprout Nursery",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_garden",
+    "seed_list": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205,
+      1206,
+      1207,
+      1210,
+      1211
+    ],
+    "gathering_slot": [],
+    "interactionType": 0,
+    "behaviourTree": "island/nodecanvas/system/system_garden_place"
+  },
+  "601": {
+    "commission_slot": [
+      60101,
+      60102
+    ],
+    "delegationCamera": "RoleDelegationCamera601",
+    "tool_list": "",
+    "locked_obj": 10060046,
+    "id": 601,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_cook",
+    "unlock_type": 1,
+    "map_id": 1006,
+    "unlocked_obj": 10060050,
+    "npc_birthplace": 10060001,
+    "name": "Golden Koi Restaurant",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_cook",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_cook_place"
+  },
+  "602": {
+    "commission_slot": [
+      60201,
+      60202
+    ],
+    "delegationCamera": "RoleDelegationCamera602",
+    "tool_list": "",
+    "locked_obj": 10060047,
+    "id": 602,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_cook",
+    "unlock_type": 1,
+    "map_id": 1006,
+    "unlocked_obj": 10060051,
+    "npc_birthplace": 0,
+    "name": "Polar Bear Teahouse",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_cook",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_cook_place"
+  },
+  "603": {
+    "commission_slot": [
+      60301,
+      60302
+    ],
+    "delegationCamera": "RoleDelegationCamera603",
+    "tool_list": "",
+    "locked_obj": 10060048,
+    "id": 603,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_cook",
+    "unlock_type": 1,
+    "map_id": 1006,
+    "unlocked_obj": 10060052,
+    "npc_birthplace": 0,
+    "name": "Manjuu Eatery",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_cook",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_cook_place"
+  },
+  "604": {
+    "commission_slot": [
+      60401,
+      60402
+    ],
+    "delegationCamera": "RoleDelegationCamera604",
+    "tool_list": "",
+    "locked_obj": 10060049,
+    "id": 604,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_cook",
+    "unlock_type": 1,
+    "map_id": 1006,
+    "unlocked_obj": 10060053,
+    "npc_birthplace": 0,
+    "name": "Fin-'n'-Feather Grill",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_cook",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_cook_place"
+  },
+  "702": {
+    "commission_slot": [
+      70201,
+      70202
+    ],
+    "delegationCamera": "",
+    "tool_list": "",
+    "locked_obj": 0,
+    "id": 702,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_technology",
+    "unlock_type": 0,
+    "map_id": 1007,
+    "unlocked_obj": 0,
+    "npc_birthplace": 10070004,
+    "name": "Island Technologies",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_technology",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 0,
+    "behaviourTree": "island/nodecanvas/system/system_technology_place"
+  },
+  "703": {
+    "commission_slot": [
+      70301,
+      70302
+    ],
+    "delegationCamera": "RoleDelegationCamera703",
+    "tool_list": "",
+    "locked_obj": 10070033,
+    "id": 703,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_factory",
+    "unlock_type": 1,
+    "map_id": 1007,
+    "unlocked_obj": 10070013,
+    "npc_birthplace": 1010010,
+    "name": "Lumber Processing",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_factory",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_factory_place"
+  },
+  "704": {
+    "commission_slot": [
+      70401,
+      70402
+    ],
+    "delegationCamera": "RoleDelegationCamera704",
+    "tool_list": "",
+    "locked_obj": 10070034,
+    "id": 704,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_factory",
+    "unlock_type": 2,
+    "map_id": 1007,
+    "unlocked_obj": 10070014,
+    "npc_birthplace": 0,
+    "name": "Machinery Production",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_factory",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_factory_place"
+  },
+  "705": {
+    "commission_slot": [
+      70501,
+      70502
+    ],
+    "delegationCamera": "RoleDelegationCamera705",
+    "tool_list": "",
+    "locked_obj": 10070035,
+    "id": 705,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_factory",
+    "unlock_type": 2,
+    "map_id": 1007,
+    "unlocked_obj": 10070015,
+    "npc_birthplace": 0,
+    "name": "Electronic Production",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_factory",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_factory_place"
+  },
+  "706": {
+    "commission_slot": [
+      70601,
+      70602
+    ],
+    "delegationCamera": "RoleDelegationCamera706",
+    "tool_list": "",
+    "locked_obj": 10070036,
+    "id": 706,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_factory",
+    "unlock_type": 2,
+    "map_id": 1007,
+    "unlocked_obj": 10070016,
+    "npc_birthplace": 0,
+    "name": "Arts & Crafts Production",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_factory",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_factory_place"
+  },
+  "901": {
+    "commission_slot": [
+      90101,
+      90102
+    ],
+    "delegationCamera": "RoleDelegationCamera901",
+    "tool_list": "",
+    "locked_obj": 0,
+    "id": 901,
+    "npcbehaviourTree": "island/nodecanvas/system/system_npc_coffeeshop",
+    "unlock_type": 2,
+    "map_id": 1009,
+    "unlocked_obj": 0,
+    "npc_birthplace": 10090008,
+    "name": "Café Manjuu",
+    "chickenbehaviourTree": "island/nodecanvas/system/system_chicken_coffeeshop",
+    "seed_list": "",
+    "gathering_slot": [],
+    "interactionType": 1,
+    "behaviourTree": "island/nodecanvas/system/system_mall_place"
+  },
+  "all": [
+    101,
+    102,
+    201,
+    401,
+    402,
+    501,
+    502,
+    601,
+    602,
+    603,
+    604,
+    702,
+    703,
+    704,
+    705,
+    706,
+    901
+  ]
+}

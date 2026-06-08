@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          201306
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201303,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201306
+      }
+    }
+  ],
+  "desc": "",
+  "id": 201303,
+  "name": "2025拉斐尔活动 剧情战触发 极性偏转",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0.1,
+  "last_effect": ""
+}

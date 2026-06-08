@@ -1,0 +1,43 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "time": 1,
+        "buff_id": 60861
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "skill_id": 60860,
+        "tag": "YUMIAITEMSKILL60860"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60868
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60860,
+  "name": "宏伟光辉",
+  "init_effect": "",
+  "id": 60869,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

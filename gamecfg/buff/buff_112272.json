@@ -1,0 +1,49 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 35,
+        "skill_id": 112271,
+        "maxTargetNumber": 0,
+        "check_target": "TargetHarmNearest"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 35,
+        "minTargetNumber": 1,
+        "skill_id": 112272,
+        "check_target": "TargetHarmNearest"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112273,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 112270,
+  "name": "",
+  "init_effect": "",
+  "id": 112272,
+  "stack": 1,
+  "time": 0.7,
+  "last_effect": ""
+}

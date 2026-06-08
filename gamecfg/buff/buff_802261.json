@@ -1,0 +1,47 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "DATA857MARK"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 10,
+        "number": 42,
+        "attr": "cannonPower",
+        "time": 1,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -500,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "desc": "标记&DOT",
+  "picture": "",
+  "icon": 802260,
+  "name": "",
+  "init_effect": "",
+  "id": 802261,
+  "stack": 1,
+  "time": 8,
+  "last_effect": "lanhuozhuoshao"
+}

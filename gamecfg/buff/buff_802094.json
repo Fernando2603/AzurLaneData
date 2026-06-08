@@ -1,0 +1,47 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "killer": "self",
+        "countType": 802090,
+        "countTarget": 3
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 802092,
+        "countType": 802090
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 802090,
+  "id": 802094,
+  "name": "击破计数器1",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

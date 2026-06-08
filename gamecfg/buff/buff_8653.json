@@ -1,0 +1,41 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8655,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "伤害降低",
+  "picture": "",
+  "icon": 8653,
+  "name": "boss mio",
+  "init_effect": "jinengchufablue",
+  "id": 8653,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

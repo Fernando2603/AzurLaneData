@@ -1,0 +1,62 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id_list": [
+          151662,
+          151663,
+          151664,
+          151665,
+          151666
+        ],
+        "range": [
+          [
+            0,
+            0.2
+          ],
+          [
+            0.2,
+            0.4
+          ],
+          [
+            0.4,
+            0.6
+          ],
+          [
+            0.6,
+            0.8
+          ],
+          [
+            0.8,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 151667,
+        "rant": 1000
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151660,
+  "name": "",
+  "init_effect": "",
+  "id": 151662,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

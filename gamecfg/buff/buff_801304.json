@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 801302,
+        "skill_id": 801302
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          801303
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801300,
+  "name": "",
+  "init_effect": "",
+  "id": 801304,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,98 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onBombBulletBang"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "displacement_convert_dynamic": {
+          "base": 20,
+          "check_caster": [
+            "TargetSelf"
+          ],
+          "max": 1,
+          "rate": 0.02
+        },
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoBulletBang"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "displacement_convert_dynamic": {
+          "base": 20,
+          "check_caster": [
+            "TargetSelf"
+          ],
+          "max": 1,
+          "rate": 0.02
+        },
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCollideBefore"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "displacement_convert_dynamic": {
+          "base": 20,
+          "check_caster": [
+            "TargetSelf"
+          ],
+          "max": 1,
+          "rate": 0.02
+        },
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAura",
+      "arg_list": {
+        "cld_data": {
+          "box": {
+            "range": 500
+          }
+        },
+        "buff_id": 201743
+      }
+    }
+  ],
+  "id": 201742,
+  "name": "2026DOA三期活动 EX 距离增减伤机制",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

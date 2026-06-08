@@ -1,0 +1,39 @@
+{
+  "effect_list": [
+    {
+      "arg_list": {
+        "cld_list": [
+          {
+            "offset": [
+              2,
+              0,
+              -2
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "count": 10,
+        "do_when_hit": "intercept",
+        "bulletType": 1
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "盾墙",
+  "picture": "",
+  "icon": 60049,
+  "name": "测试-盾墙",
+  "init_effect": "",
+  "id": 60049,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Shield"
+}

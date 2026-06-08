@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAura",
+      "arg_list": {
+        "cld_data": {
+          "box": {
+            "range": 500
+          }
+        },
+        "buff_id": 201642
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetHarmNearest",
+        "buff_id": 201643,
+        "time": 5
+      }
+    }
+  ],
+  "id": 201641,
+  "name": "2025信标BOSS 约克城meta 周期性降低防空与机动",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

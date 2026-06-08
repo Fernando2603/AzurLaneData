@@ -1,0 +1,37 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          800665
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200203,
+        "time": 12,
+        "rant": 5000
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200208,
+  "name": "黑亚利桑那 替换meta",
+  "init_effect": "",
+  "id": 200208,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

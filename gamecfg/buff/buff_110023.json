@@ -1,0 +1,49 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 110021,
+        "target": "TargetSelf",
+        "maxTargetNumber": 1,
+        "check_target": "TargetAllHarm"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "target": "TargetSelf",
+        "skill_id": 110022,
+        "check_target": "TargetAllHarm"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 110020,
+  "id": 110023,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0.5,
+  "last_effect": ""
+}

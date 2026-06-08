@@ -1,0 +1,36 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.3,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.3,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 263,
+  "name": "战术分析",
+  "init_effect": "",
+  "id": 263,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

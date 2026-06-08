@@ -1,0 +1,100 @@
+{
+  "effect_list": [
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 9999,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(2, -1.8, 5.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              2,
+              0,
+              0
+            ],
+            "box": [
+              4,
+              6,
+              15
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 120, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    },
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 9999,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_3_0)\n\treturn Vector3(3.5, -1.8, 0.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              2,
+              0,
+              0
+            ],
+            "box": [
+              4,
+              6,
+              15
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, 192, 0)\nend"
+      },
+      "id": 2,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    },
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 9999,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_5_0)\n\treturn Vector3(1.5, -1.8, -4.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              2,
+              0,
+              0
+            ],
+            "box": [
+              4,
+              6,
+              15
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_6_0)\n\treturn Vector3(0, 238, 0)\nend"
+      },
+      "id": 3,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 999980,
+  "name": "肉鸽引导1 平射护盾",
+  "init_effect": "",
+  "id": 999981,
+  "stack": 1,
+  "time": 999,
+  "last_effect": ""
+}

@@ -1,0 +1,49 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200975,
+        "ship_tag_list": [
+          "LittleBeaverBadge"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "buff_id": 200763,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "LittleBeaverBadge"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200973,
+  "name": "2024 斯特拉斯堡活动EX 开场检测",
+  "init_effect": "",
+  "id": 200973,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29510,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29510,
+        "skill_id": 29511
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-恰巴耶夫I",
+  "picture": "",
+  "icon": 29510,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29511,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

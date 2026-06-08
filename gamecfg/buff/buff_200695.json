@@ -1,0 +1,34 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200845,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 3139728
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200695,
+  "name": "2024异世界冒险 剧情战 腓特烈·卡尔激光",
+  "init_effect": "",
+  "id": 200695,
+  "stack": 1,
+  "time": 10,
+  "last_effect": ""
+}

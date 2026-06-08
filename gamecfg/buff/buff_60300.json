@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Ting An"
+        ],
+        "skill_id": 60300
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60300,
+  "name": "",
+  "init_effect": "",
+  "id": 60300,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

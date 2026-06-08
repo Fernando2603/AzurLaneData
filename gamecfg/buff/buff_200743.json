@@ -1,0 +1,44 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffLockHealth",
+      "arg_list": {
+        "value": 0.5
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200743,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200440
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200743,
+  "name": "2023关岛活动EX 二阶段半血时转三阶段",
+  "init_effect": "",
+  "id": 200743,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

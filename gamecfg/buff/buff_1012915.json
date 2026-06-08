@@ -1,0 +1,51 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 1012910
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "countType": 1012910,
+        "range": [
+          [
+            0,
+            0.06
+          ],
+          [
+            0.06,
+            1
+          ]
+        ],
+        "skill_id_list": [
+          1012913,
+          1012916
+        ]
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 12910,
+  "name": "六驱精锐·{namecode:12} +",
+  "init_effect": "",
+  "id": 1012915,
+  "stack": 2,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,60 @@
+{
+  "effect_list": [
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 6,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(3, -1.8, 0.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": 5
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 14862,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 14862,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.8,
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "AR-1"
+        ],
+        "skill_id": 50110
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 50110,
+  "name": "可被维修目标·监控自身血量",
+  "init_effect": "",
+  "id": 50110,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 151839
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onFoeAircraftDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "inside": 1,
+        "ship_tag_list": [
+          "Pasadena_FlyNOTCoolDown"
+        ],
+        "maxTargetNumber": 0,
+        "skill_id": 151830
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 151830,
+  "id": 151830,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

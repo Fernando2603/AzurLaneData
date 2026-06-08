@@ -1,0 +1,104 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "label": [
+          "SN",
+          "MG"
+        ],
+        "skill_id": 14200,
+        "index": [
+          1
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "label": [
+          "KMS",
+          "MG"
+        ],
+        "skill_id": 14200,
+        "index": [
+          1
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "label": [
+          "AP",
+          "MG"
+        ],
+        "skill_id": 14201,
+        "index": [
+          1
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "killer": "self",
+        "countType": 14200,
+        "countTarget": 2
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 14200,
+        "quota": 1,
+        "skill_id": 14202
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 14200,
+  "name": "",
+  "init_effect": "",
+  "id": 14200,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

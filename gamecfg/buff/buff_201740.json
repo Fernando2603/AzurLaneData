@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "damageRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onTorpedoWeaponBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioByBulletTorpedo"
+      }
+    }
+  ],
+  "id": 201740,
+  "name": "2026DOA三期活动 EX 先锋舰队额外增伤",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

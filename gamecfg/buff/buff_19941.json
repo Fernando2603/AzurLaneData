@@ -1,0 +1,63 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffOverrideBullet",
+      "arg_list": {
+        "override": {
+          "ignoreShield": true
+        },
+        "index": [
+          1
+        ],
+        "bullet_type": 1
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 19941,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19941,
+        "skill_id": 19941
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 19940,
+  "name": "",
+  "init_effect": "",
+  "id": 19941,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

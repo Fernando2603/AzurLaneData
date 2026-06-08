@@ -1,0 +1,43 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "killer": "self",
+        "count": 0
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "killer": "self",
+        "skill_id": 902180,
+        "time": 1,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 902180,
+  "name": "精准狩猎",
+  "init_effect": "jinengchufared",
+  "id": 902180,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

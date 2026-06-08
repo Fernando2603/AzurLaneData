@@ -1,0 +1,78 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "buff_id": 16521,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "check_target": [
+          "TargetShipTypeFriendly"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "buff_id": 16522,
+        "maxTargetNumber": 1,
+        "check_target": [
+          "TargetShipTypeFriendly"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 16523
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16522,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 16520,
+  "name": "",
+  "init_effect": "",
+  "id": 16520,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

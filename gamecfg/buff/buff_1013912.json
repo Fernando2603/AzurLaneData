@@ -1,0 +1,47 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioBullet",
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffOrb",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "buff_id": 1013913,
+        "rant": 10000
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "1号位置装备发射的子弹伤害提高+附加减速",
+  "picture": "",
+  "icon": 13910,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 1013912,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

@@ -1,0 +1,36 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "init_effect": "",
+  "picture": "",
+  "name": "2026伯利欣根活动 恶念残影 亡语效果 大规模",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201750,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201753,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "id": 201753,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

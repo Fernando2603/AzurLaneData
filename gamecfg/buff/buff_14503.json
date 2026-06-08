@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 14503,
+        "attr": "perfectDodge",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 14503,
+        "attr": "immuneDirectHit",
+        "number": 1
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "无敌",
+  "picture": "",
+  "icon": 14503,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 14503,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

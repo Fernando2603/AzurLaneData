@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 10,
+        "number": 100,
+        "attr": "cannonPower",
+        "time": 1,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "haichouhit"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151990,
+  "name": "",
+  "init_effect": "",
+  "id": 151991,
+  "stack": 1,
+  "time": 6.1,
+  "last_effect": "Darkness"
+}

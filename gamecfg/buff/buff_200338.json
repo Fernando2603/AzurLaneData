@@ -1,0 +1,66 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetNationalityFriendly"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200339,
+        "nationality": 2,
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200339,
+        "ship_tag_list": [
+          "HunterMETA"
+        ],
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200339,
+        "ship_tag_list": [
+          "Sheffield.META"
+        ],
+        "isBuffStackByCheckTarget": true
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200338,
+  "name": "2023英系活动 信仰加护-Royal",
+  "init_effect": "",
+  "id": 200338,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

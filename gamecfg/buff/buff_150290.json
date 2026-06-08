@@ -1,0 +1,78 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 150293,
+        "quota": 1
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 150290,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onBulletHit"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "buff_id": 150299
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 150291,
+        "time": 30
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 150291
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 150290,
+  "name": "",
+  "init_effect": "",
+  "id": 150290,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

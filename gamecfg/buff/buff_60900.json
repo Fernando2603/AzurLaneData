@@ -1,0 +1,31 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60907,
+        "ship_tag_list": [
+          "Yumia"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60900,
+  "name": "地狱立方体",
+  "init_effect": "",
+  "id": 60900,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

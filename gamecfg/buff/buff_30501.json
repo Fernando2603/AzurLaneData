@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30500,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30500,
+        "skill_id": 30501
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-迪米特里·顿斯科伊I",
+  "picture": "",
+  "icon": 30500,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 30501,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

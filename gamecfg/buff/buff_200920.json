@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSetBattleUnitType",
+      "arg_list": {
+        "value": -99
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200921
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200920,
+  "name": "2024阿尔萨斯活动 死神之桥 本体",
+  "init_effect": "",
+  "id": 200920,
+  "stack": 1,
+  "time": 12,
+  "last_effect": ""
+}

@@ -1,0 +1,37 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "cri",
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1,
+        "countType": 13260,
+        "delay": 6
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 13260,
+  "name": "",
+  "init_effect": "",
+  "id": 13263,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

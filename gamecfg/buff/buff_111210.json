@@ -1,0 +1,51 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 2,
+        "ship_tag_list": [
+          "Deviluke"
+        ],
+        "time": 18,
+        "skill_id": 111210
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "skill_id": 111211,
+        "ship_tag_list": [
+          "Deviluke"
+        ],
+        "maxTargetNumber": 1,
+        "time": 18
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 111210,
+  "name": "",
+  "init_effect": "",
+  "id": 111210,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

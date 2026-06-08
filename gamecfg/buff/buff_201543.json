@@ -1,0 +1,57 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201542,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201543,
+        "quota": 1,
+        "time": 5
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201542,
+        "quota": 1,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201543,
+        "quota": 1,
+        "time": 15
+      }
+    }
+  ],
+  "id": 201543,
+  "name": "2025风帆三期EX 莱姆号 EX困难 召唤激光发射器",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 30,
+  "last_effect": ""
+}

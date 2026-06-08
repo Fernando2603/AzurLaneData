@@ -1,0 +1,53 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-那不勒斯II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30311,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30311,
+        "skill_id": 30312
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19840,
+        "skill_id": 30314
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-那不勒斯II",
+  "desc_get": "主炮每进行8次攻击，触发专属弹幕-那不勒斯II",
+  "icon": 30310,
+  "id": 30312,
+  "name": "专属弹幕-那不勒斯II",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

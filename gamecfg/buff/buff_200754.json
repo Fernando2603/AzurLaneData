@@ -1,0 +1,35 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200754,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 0.4,
+        "skill_id": 200754
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200754,
+  "name": "2023关岛活动D2 召唤物2",
+  "init_effect": "",
+  "id": 200754,
+  "stack": 1,
+  "time": 1.5,
+  "last_effect": ""
+}

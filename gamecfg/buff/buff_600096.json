@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "sheshouzuozhimang"
+        ],
+        "skill_id": 600086
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 600096,
+  "name": "",
+  "init_effect": "",
+  "id": 600096,
+  "stack": 99,
+  "time": 3,
+  "last_effect": ""
+}

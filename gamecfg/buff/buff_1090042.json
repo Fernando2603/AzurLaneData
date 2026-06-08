@@ -1,0 +1,71 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          1090045
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCollide"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "weaponType": 3,
+        "countType": 1090041,
+        "countTarget": 4,
+        "index": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 1090043,
+        "countType": 1090041
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRetreat"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1090042,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "一阶段弹幕",
+  "picture": "",
+  "icon": 1090040,
+  "name": "",
+  "init_effect": "",
+  "id": 1090042,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,67 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "MAP_A"
+        ],
+        "skill_id": 201091
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "MAP_C"
+        ],
+        "skill_id": 201092
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "MAP_SP"
+        ],
+        "skill_id": 201093
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201093,
+  "name": "2024天城航母活动 世界切片：苍红 支援弹幕",
+  "init_effect": "",
+  "id": 201093,
+  "stack": 1,
+  "time": 10,
+  "last_effect": ""
+}

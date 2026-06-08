@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          16103
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "xiaosipei-"
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 16100,
+  "name": "",
+  "init_effect": "",
+  "id": 16104,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

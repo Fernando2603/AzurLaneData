@@ -1,0 +1,34 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 5,
+        "skill_id": 999983
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 999983,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 999983,
+  "name": "教程 自动速射",
+  "init_effect": "",
+  "id": 999983,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

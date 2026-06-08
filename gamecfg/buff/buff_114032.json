@@ -1,0 +1,35 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          311
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffHOT",
+      "arg_list": {
+        "time": 1,
+        "maxHPRatio": 0.01
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 114020,
+  "name": "",
+  "init_effect": "",
+  "id": 114032,
+  "stack": 1,
+  "time": 5.1,
+  "last_effect": "Health"
+}

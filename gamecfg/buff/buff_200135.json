@@ -1,0 +1,45 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.8,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onWeaponSuccess"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200137
+      }
+    },
+    {
+      "trigger": [
+        "onWeaonInterrupt"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200136
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200135,
+  "name": "2022莱莎联动EX 极天·黑洞 蓄力期间监听",
+  "init_effect": "",
+  "id": 200135,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

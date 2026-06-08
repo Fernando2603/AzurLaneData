@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行12次攻击，触发专属弹幕-马德格堡"
+  },
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29770,
+        "countTarget": 12
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29770,
+        "skill_id": 29771
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 29770,
+  "id": 29771,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

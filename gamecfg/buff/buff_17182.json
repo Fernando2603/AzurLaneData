@@ -1,0 +1,42 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 10000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "MCretreat"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 17182
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 17180,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 17182,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "number": 999999,
+        "dotType": 1,
+        "time": 0.1,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200440
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200606,
+  "name": "2023云仙活动 剧情战 BOSS剧情杀",
+  "init_effect": "",
+  "id": 200606,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

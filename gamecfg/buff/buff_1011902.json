@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1011901,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          1011903
+        ]
+      }
+    }
+  ],
+  "desc": "敌方效果",
+  "picture": "",
+  "icon": 11900,
+  "name": "",
+  "init_effect": "",
+  "id": 1011902,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

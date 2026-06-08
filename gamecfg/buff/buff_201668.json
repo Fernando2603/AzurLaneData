@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201668,
+        "quota": 1,
+        "time": 15
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 201669
+      }
+    }
+  ],
+  "id": 201668,
+  "name": "2025列克星敦II活动 剧情战1流程",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 27,
+  "last_effect": ""
+}

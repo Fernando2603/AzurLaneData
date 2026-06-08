@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311077
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewWeapon",
+      "arg_list": {
+        "weapon_id": 311078
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "hpUpperBound": 0.2,
+        "count": 1
+      }
+    }
+  ],
+  "desc": "第三阶段开始",
+  "picture": "",
+  "icon": 100004,
+  "name": "第三阶段",
+  "init_effect": "",
+  "id": 100004,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

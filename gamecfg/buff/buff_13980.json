@@ -1,0 +1,56 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 13980
+      }
+    },
+    {
+      "trigger": [
+        "onFoeAircraftDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "inside": 1,
+        "countType": 13980,
+        "countTarget": 3
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 13982,
+        "countType": 13980
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 13980,
+  "id": 13980,
+  "name": "空之戍卫",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

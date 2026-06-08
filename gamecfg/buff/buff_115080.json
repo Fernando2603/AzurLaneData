@@ -1,0 +1,39 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          115081
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame",
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 115080,
+        "hpUpperBound": 0.7,
+        "quota": 1,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 115080,
+  "name": "",
+  "init_effect": "",
+  "id": 115080,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

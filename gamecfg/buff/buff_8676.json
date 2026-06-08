@@ -1,0 +1,34 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8677
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8677,
+        "time": 20
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "构建者护盾",
+  "init_effect": "",
+  "id": 8676,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

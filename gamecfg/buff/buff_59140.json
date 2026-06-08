@@ -1,0 +1,28 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "targetMaxHPRatio": 1,
+        "check_target": "TargetSelf",
+        "minTargetNumber": 1,
+        "skill_id": 59140,
+        "time": 15,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "战斗对象登场后，每15秒对全体在场舰队造成5%伤害",
+  "picture": "",
+  "icon": 59140,
+  "name": "毁灭",
+  "init_effect": "",
+  "id": 59140,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

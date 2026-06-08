@@ -1,0 +1,40 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "yumia_skill2_taget_fin"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "armor_type": 1,
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipArmor"
+        ],
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
+        "skill_id": 112149
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 112110,
+  "name": "",
+  "init_effect": "",
+  "id": 112149,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

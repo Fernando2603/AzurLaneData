@@ -1,0 +1,44 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "immuneMaxAreaLimit"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8720
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8720,
+        "time": 41
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "2020英系活动 EX清除者 魔炮弹条及鱼雷护盾",
+  "init_effect": "",
+  "id": 8719,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,61 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 100,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 100,
+        "attr": "dodgeRate"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove",
+        "onStack"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 100,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          106374
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106370,
+  "name": "",
+  "init_effect": "",
+  "id": 106372,
+  "stack": 99,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 300,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 800165,
+        "dungeonTypeList": [
+          98,
+          99
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 800160,
+  "name": "",
+  "init_effect": "",
+  "id": 800165,
+  "stack": 1,
+  "time": 50,
+  "last_effect": ""
+}

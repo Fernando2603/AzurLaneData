@@ -1,0 +1,50 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixRange",
+      "arg_list": {
+        "bulletRangeOffset": -35
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "group": {
+          "level": 10,
+          "id": 300
+        },
+        "mul": -5000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 10,
+        "attr": "damageEnhanceProjectile"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8661,
+  "name": "超重",
+  "init_effect": "",
+  "id": 79010,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

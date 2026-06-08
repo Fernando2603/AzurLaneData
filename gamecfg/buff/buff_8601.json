@@ -1,0 +1,47 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 10,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatioByBulletTorpedo"
+      }
+    }
+  ],
+  "desc": "航空易伤",
+  "picture": "",
+  "icon": 2120,
+  "name": "航空易伤",
+  "init_effect": "",
+  "id": 8601,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Darkness"
+}

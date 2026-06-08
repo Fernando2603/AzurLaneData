@@ -1,0 +1,51 @@
+{
+  "last_effect_bound_bone": "lamp",
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAura",
+      "arg_list": {
+        "cld_data": {
+          "angle": 60,
+          "box": {
+            "range": 55
+          }
+        },
+        "buff_id": 9650
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "aimBiasDecaySpeedRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "C14_highlight"
+      }
+    }
+  ],
+  "desc": "",
+  "last_effect_cld_scale": true,
+  "icon": 9700,
+  "id": 9700,
+  "picture": "",
+  "name": "探照灯",
+  "init_effect": "",
+  "last_effect": "suligao_tanzhaodeng_stg",
+  "stack": 1,
+  "time": 0,
+  "last_effect_cld_angle": true
+}

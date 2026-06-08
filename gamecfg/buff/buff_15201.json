@@ -1,0 +1,41 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1500,
+        "attr": "igniteReduce"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 3,
+        "attr": "igniteShorten"
+      }
+    }
+  ],
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "desc": "点燃抗性处理",
+  "picture": "",
+  "icon": 15200,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 15201,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

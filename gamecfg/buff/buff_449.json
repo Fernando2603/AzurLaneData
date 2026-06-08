@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 2,
+        "number": 10,
+        "attr": "airPower",
+        "time": 3,
+        "k": 0.3
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "flood"
+      }
+    }
+  ],
+  "desc": "伏尔加技能鱼雷进水",
+  "picture": "",
+  "icon": 449,
+  "name": "进水",
+  "init_effect": "",
+  "id": 449,
+  "stack": 1,
+  "time": 12.1,
+  "last_effect": ""
+}

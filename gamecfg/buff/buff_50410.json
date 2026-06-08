@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 50410,
+        "time": 20
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 50410,
+        "quota": 1,
+        "time": 2
+      }
+    }
+  ],
+  "desc": "队友护盾",
+  "picture": "",
+  "icon": 50410,
+  "name": "敌方指挥舰——护盾",
+  "init_effect": "",
+  "id": 50410,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

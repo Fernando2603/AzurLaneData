@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -350,
+        "attr": "loadSpeed"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -350,
+        "attr": "attackRating"
+      }
+    }
+  ],
+  "desc": "装填、命中降低",
+  "picture": "",
+  "icon": 60701,
+  "name": "",
+  "init_effect": "",
+  "id": 60701,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Darkness"
+}

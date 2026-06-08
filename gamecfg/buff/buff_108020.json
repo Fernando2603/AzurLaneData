@@ -1,0 +1,55 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "buff_id": 108021
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "time": 30,
+        "buff_id": 108025
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 108022,
+        "quota": 1,
+        "time": 5
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108020,
+  "name": "",
+  "init_effect": "",
+  "id": 108020,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

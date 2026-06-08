@@ -1,0 +1,36 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 200289
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200290,
+        "countType": 200289
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200289,
+  "name": "2023英系活动 EX 第二波 攻击计数",
+  "init_effect": "",
+  "id": 200289,
+  "stack": 99,
+  "time": 20,
+  "last_effect": ""
+}

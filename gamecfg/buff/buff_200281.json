@@ -1,0 +1,49 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 200281
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200285,
+        "countType": 200281
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 200281,
+        "buff_id_list": [
+          200283
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200281,
+  "name": "2023英系活动 EX 发射器死亡反馈计数",
+  "init_effect": "",
+  "id": 200281,
+  "stack": 99,
+  "time": 0,
+  "last_effect": ""
+}

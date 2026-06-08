@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 10,
+        "skill_id": 200872
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 295007
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200872,
+  "name": "2024异世界冒险 英灵效果 伊丽莎白",
+  "init_effect": "",
+  "id": 200872,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

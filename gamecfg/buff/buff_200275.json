@@ -1,0 +1,79 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -2,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 10000,
+        "attr": "igniteReduce"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -1,
+        "attr": "hammerDamageRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "hammerDamagePrevent"
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200279,
+        "hpUpperBound": 0.01
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffLockHealth",
+      "arg_list": {
+        "value": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200275,
+  "name": "2023英系活动 EX 引导发射器减伤",
+  "init_effect": "",
+  "id": 200275,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

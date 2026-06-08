@@ -1,0 +1,47 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.01,
+        "attr": "dodgeRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.8,
+        "quota": 1,
+        "skill_id": 61050
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "hpUpperBound": 0.8,
+        "count": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61050,
+  "name": "",
+  "init_effect": "",
+  "id": 61050,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

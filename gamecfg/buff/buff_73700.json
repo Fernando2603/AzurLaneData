@@ -1,0 +1,27 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.3,
+        "quota": 1,
+        "buff_id": 73701,
+        "hpLowerBound": 0
+      }
+    }
+  ],
+  "desc": "战斗对象的血量下降到X%时，每Y秒回复自身Z%血量，持续M秒",
+  "picture": "",
+  "icon": 73700,
+  "name": "濒死再生",
+  "init_effect": "",
+  "id": 73700,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

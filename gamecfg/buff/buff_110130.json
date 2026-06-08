@@ -1,0 +1,92 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 110130
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 110131
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 110132
+      }
+    },
+    {
+      "trigger": [
+        "onBulletHit"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "weaponType": 23,
+        "buff_id": 110133,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 110134
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerVanguardFleet",
+        "buff_id": 110135
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerFlagShip",
+        "buff_id": 110136
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110130,
+  "name": "",
+  "init_effect": "",
+  "id": 110130,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "FLMarkava"
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "hpUpperBound": 0.6
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 19730,
+  "name": "",
+  "init_effect": "",
+  "id": 19733,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

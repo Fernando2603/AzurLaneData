@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -3000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "WVBB"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 16940,
+  "name": "",
+  "init_effect": "",
+  "id": 16949,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "Darkness"
+}

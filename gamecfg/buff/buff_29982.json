@@ -1,0 +1,45 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 29983,
+        "label": [
+          "DD",
+          "MG"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 29984,
+        "label": [
+          "DD",
+          "MG"
+        ],
+        "check_weapon": true,
+        "maxWeaponNumber": 0
+      }
+    }
+  ],
+  "desc": "主炮类型检查",
+  "picture": "",
+  "icon": 29980,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29982,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

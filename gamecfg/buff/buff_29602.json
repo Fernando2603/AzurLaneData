@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行16次攻击，触发专属弹幕-凉月II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29600,
+        "countTarget": 16,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29600,
+        "skill_id": 29602
+      }
+    }
+  ],
+  "desc": "主炮每进行16次攻击，触发专属弹幕-凉月II",
+  "picture": "",
+  "icon": 29600,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 29602,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

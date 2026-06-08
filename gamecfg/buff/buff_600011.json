@@ -1,0 +1,51 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 600022
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 600012,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 600011,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onTeammateShipDying"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 600013
+      }
+    }
+  ],
+  "desc": "",
+  "id": 600011,
+  "name": "",
+  "icon": 600011,
+  "picture": "",
+  "stack": 1,
+  "time": 10.1,
+  "last_effect": ""
+}

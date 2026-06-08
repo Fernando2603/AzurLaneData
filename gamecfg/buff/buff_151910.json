@@ -1,0 +1,74 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "skill_id": 151910,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "quota": 4,
+        "ship_tag_list": [
+          "Lexington-Class"
+        ]
+      },
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffCastSkill",
+      "pop": {
+        "trigger": [
+          "onAllInStrikeSteady"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151910,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "quota": 4,
+        "ship_tag_list": [
+          "Essex-Class"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151911,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 151910,
+  "id": 151910,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

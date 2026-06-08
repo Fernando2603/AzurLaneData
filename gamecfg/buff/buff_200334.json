@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200335
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200335,
+        "time": 20
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200334,
+  "name": "2023英系活动 圣堂统御装置-稳定 定时触发",
+  "init_effect": "",
+  "id": 200334,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

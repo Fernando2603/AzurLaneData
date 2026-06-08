@@ -1,0 +1,50 @@
+{
+  "last_effect_cld_scale": true,
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.95,
+        "attr": "accuracyRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -2500,
+        "attr": "loadSpeed"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 78133,
+        "time": 2,
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 9297,
+  "id": 78133,
+  "name": "白龙剧情战 触发龙宫机关-屏障技能 buff4：屏障效果",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 25,
+  "last_effect": "Darkness"
+}

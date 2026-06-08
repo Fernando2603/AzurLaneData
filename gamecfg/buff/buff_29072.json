@@ -1,0 +1,43 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-勇敢II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29070,
+        "countTarget": 10,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29070,
+        "skill_id": 29072
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-勇敢II",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-勇敢II",
+  "icon": 29000,
+  "id": 29072,
+  "name": "专属弹幕-勇敢II",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

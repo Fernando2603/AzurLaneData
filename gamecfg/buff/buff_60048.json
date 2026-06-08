@@ -1,0 +1,26 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate",
+        "onOtherBuffRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 60028,
+        "time": 10,
+        "removedBuffID_enterCD": 60049
+      }
+    }
+  ],
+  "desc": "盾墙",
+  "picture": "",
+  "icon": 60048,
+  "name": "测试-盾墙-触发",
+  "init_effect": "Health",
+  "id": 60048,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

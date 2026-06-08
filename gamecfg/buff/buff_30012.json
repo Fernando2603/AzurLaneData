@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30010,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30010,
+        "skill_id": 30013
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-奥托II",
+  "picture": "",
+  "icon": 30000,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 30012,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

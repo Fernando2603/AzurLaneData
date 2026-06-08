@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-旧金山II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29710,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29710,
+        "skill_id": 29712
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-旧金山II",
+  "desc_get": "主炮每进行8次攻击，触发专属弹幕-旧金山II",
+  "icon": 29710,
+  "id": 29712,
+  "name": "专属弹幕-旧金山II",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

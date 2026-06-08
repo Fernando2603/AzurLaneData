@@ -1,0 +1,46 @@
+{
+  "color": "blue",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151719
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 100,
+        "attr": "dodgeRate"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151710
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 151710,
+  "name": "",
+  "init_effect": "",
+  "id": 151719,
+  "stack": 10,
+  "time": 0,
+  "last_effect": ""
+}

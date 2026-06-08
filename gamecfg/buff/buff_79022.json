@@ -1,0 +1,26 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "currentHPRatio": 0.005,
+        "attr": "cannonPower",
+        "number": 5,
+        "dotType": 1,
+        "time": 0.5,
+        "k": 0.3
+      }
+    }
+  ],
+  "desc": "剧毒持续伤害",
+  "id": 79022,
+  "name": "毒伤",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 4,
+  "last_effect": "poison_buff"
+}

@@ -1,0 +1,47 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          106393
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 106394
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 106393,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106390,
+  "name": "",
+  "init_effect": "",
+  "id": 106397,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

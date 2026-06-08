@@ -1,0 +1,30 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 6991,
+        "nationality": 3
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6990,
+  "name": "",
+  "init_effect": "",
+  "id": 6990,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

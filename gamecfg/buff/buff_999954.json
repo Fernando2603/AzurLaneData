@@ -1,0 +1,40 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onTeammateShipDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 999954,
+        "ship_type_list": [
+          3
+        ],
+        "maxTargetNumber": 0,
+        "check_target": "TargetShipTypeFriendly"
+      }
+    },
+    {
+      "trigger": [
+        "onTeammateShipDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 999955,
+        "ship_type_list": [
+          2
+        ],
+        "maxTargetNumber": 0,
+        "check_target": "TargetShipTypeFriendly"
+      }
+    }
+  ],
+  "desc": "",
+  "id": 999954,
+  "name": "增援2",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

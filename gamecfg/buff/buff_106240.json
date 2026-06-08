@@ -1,0 +1,45 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onLeader"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 106241,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRear",
+        "onCenter"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 106060
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 106060,
+  "name": "",
+  "init_effect": "",
+  "id": 106240,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

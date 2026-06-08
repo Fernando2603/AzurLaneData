@@ -1,0 +1,45 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffNewAI",
+      "arg_list": {
+        "ai_onAttach": 75026
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200346,
+        "quota": 10,
+        "time": 0.2
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          200346
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200345,
+  "name": "2023英系活动 审判机甲-战争 战争突刺！",
+  "init_effect": "",
+  "id": 200345,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

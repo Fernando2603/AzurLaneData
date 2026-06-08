@@ -1,0 +1,51 @@
+{
+  "color": "blue",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "buff_id": 29763,
+        "ship_type_list": [
+          1,
+          20,
+          21
+        ],
+        "check_target": [
+          "TargetShipTypeFriendly"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_type_list": [
+          1,
+          20,
+          21
+        ],
+        "buff_id": 29764,
+        "maxTargetNumber": 1,
+        "check_target": [
+          "TargetShipTypeFriendly"
+        ]
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 29760,
+  "name": "",
+  "init_effect": "",
+  "id": 29761,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

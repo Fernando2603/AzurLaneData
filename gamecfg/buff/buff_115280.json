@@ -1,0 +1,114 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 115280,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 115281,
+        "time": 5
+      }
+    },
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetEntityUnit",
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "kuangsanfenshen"
+        ],
+        "skill_id": 115154
+      },
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "pop": {
+        "castCV": "skill",
+        "displayID": 115160,
+        "painting": 1,
+        "trigger": [
+          "onBeforeFatalDamage"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onFinishGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetEntityUnit",
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 115240,
+        "ship_tag_list": [
+          "kuangsanfenshen"
+        ],
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "arg_list": {
+        "skill_id": 115240,
+        "fleetAttrConsume": {
+          "attrName": "kuangsanshijian",
+          "value": 5
+        },
+        "target": "TargetSelf"
+      },
+      "trigger": [
+        "onFinishGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "pop": {
+        "castCV": "skill",
+        "displayID": 115160,
+        "painting": 1,
+        "trigger": [
+          "onFinishGame"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 115150,
+  "name": "",
+  "init_effect": "",
+  "id": 115280,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

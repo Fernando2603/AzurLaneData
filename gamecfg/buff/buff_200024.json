@@ -1,0 +1,70 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          4,
+          5,
+          10,
+          13
+        ],
+        "skill_id": 200024
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "skill_id": 200023
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200025,
+        "ship_type_list": [
+          10
+        ]
+      }
+    }
+  ],
+  "desc": "战斗中我方旗舰获得一次预装填效果",
+  "id": 200024,
+  "name": "2022意大利活动 尤利安之视",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

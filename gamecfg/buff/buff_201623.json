@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201623,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "skill_id": 201624
+      }
+    }
+  ],
+  "id": 201623,
+  "name": "2025约战联动 角色支援 时崎狂三",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 30,
+  "last_effect": ""
+}

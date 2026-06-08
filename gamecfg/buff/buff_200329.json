@@ -1,0 +1,36 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200325,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200328,
+        "quota": 1,
+        "time": 0.5
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200329,
+  "name": "2023英系活动 圣堂统御装置-失控 波动效果",
+  "init_effect": "",
+  "id": 200329,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "Bodongquan01"
+}

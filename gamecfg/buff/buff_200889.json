@@ -1,0 +1,37 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.7,
+        "quota": 1,
+        "skill_id": 200889
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200890,
+        "time": 0.2
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200889,
+  "name": "2024异世界冒险 英灵效果 净化者",
+  "init_effect": "",
+  "id": 200889,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,58 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetPlayerMainFleet",
+        "buff_id": 151012
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onFoeAircraftDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "inside": 1,
+        "countType": 151010,
+        "countTarget": 2
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 151010,
+        "quota": 3,
+        "skill_id": 151013
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151010,
+  "name": "",
+  "init_effect": "",
+  "id": 151010,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

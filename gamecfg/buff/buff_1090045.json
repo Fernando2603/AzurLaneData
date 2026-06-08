@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCollide"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "weaponType": 3,
+        "countType": 1090040,
+        "countTarget": 2,
+        "index": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 1090042,
+        "countType": 1090040
+      }
+    }
+  ],
+  "desc": "一阶段弹幕触发器",
+  "picture": "",
+  "icon": 1090040,
+  "name": "",
+  "init_effect": "",
+  "id": 1090045,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

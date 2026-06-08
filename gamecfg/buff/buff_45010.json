@@ -1,0 +1,31 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onFlagShip",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
+        ],
+        "buff_id": 45011,
+        "ship_type_list": [
+          4,
+          5
+        ]
+      }
+    }
+  ],
+  "desc": "战列战巡的子弹暴击率提高3%",
+  "picture": "",
+  "icon": 45010,
+  "name": "指挥喵天赋-一发入魂",
+  "init_effect": "jinengchufared",
+  "id": 45010,
+  "stack": 2,
+  "time": 0,
+  "last_effect": ""
+}

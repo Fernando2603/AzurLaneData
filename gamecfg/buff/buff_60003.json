@@ -1,0 +1,40 @@
+{
+  "1": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffSetAttr",
+        "arg_list": {
+          "attr": "TargetChoise",
+          "value": "farthest"
+        }
+      }
+    ],
+    "desc": "被击沉时，给同屏敌方角色造成一次巨大伤害"
+  },
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSetAttr",
+      "arg_list": {
+        "attr": "TargetChoise",
+        "value": "farthest"
+      }
+    }
+  ],
+  "desc": "测试目标选择-航母飞机后排优先",
+  "picture": "",
+  "icon": 60003,
+  "name": "测试目标选择-航母飞机后排优先",
+  "init_effect": "",
+  "id": 60003,
+  "stack": 1,
+  "time": 60,
+  "last_effect": "caisedian"
+}

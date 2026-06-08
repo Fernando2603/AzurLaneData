@@ -1,0 +1,72 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 17730,
+        "countTarget": 20
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 17730,
+        "skill_id": 17730
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 17731,
+        "countTarget": 40
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 17734,
+        "countType": 17731
+      }
+    }
+  ],
+  "desc": "主炮每进行20次攻击，触发增益效果",
+  "picture": "",
+  "icon": 17730,
+  "name": "清扫工作",
+  "init_effect": "",
+  "id": 17730,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

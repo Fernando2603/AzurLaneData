@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 802223
+      },
+      "trigger": [
+        "onAirAssistReady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onAirAssistReady"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "desc": "下次空袭加载完成时6s双倍伤害",
+  "picture": "",
+  "icon": 802220,
+  "name": "",
+  "init_effect": "",
+  "id": 802222,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

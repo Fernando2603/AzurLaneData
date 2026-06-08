@@ -1,0 +1,68 @@
+{
+  "1": {
+    "desc": "主炮每进行6次攻击，触发全弹发射-宁海级II-强化版"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 24110,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 24113,
+        "countType": 24110,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "WithYATSEN-ATKMode"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "countType": 24110,
+        "ship_tag_list": [
+          "WithYATSEN-ATKMode"
+        ],
+        "skill_id": 24114
+      }
+    }
+  ],
+  "desc": "主炮每进行4次攻击，触发全弹发射-宁海级II-强化版",
+  "picture": "",
+  "icon": 20100,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 24114,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

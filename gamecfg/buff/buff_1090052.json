@@ -1,0 +1,63 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1090051,
+        "nationality": 3,
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetPlayerVanguardFleet",
+          "TargetHelpLeastHPRatio",
+          "TargetNationalityFriendly"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": 3,
+        "skill_id": 1090052,
+        "check_target": [
+          "TargetPlayerVanguardFleet",
+          "TargetHelpLeastHPRatio",
+          "TargetNationalityFriendly"
+        ]
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 1090020,
+  "name": "火力全开-长良",
+  "init_effect": "jinengchufared",
+  "id": 1090052,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

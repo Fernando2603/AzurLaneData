@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 10,
+        "skill_id": 9672
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "delay": 11,
+        "count": 0
+      }
+    }
+  ],
+  "desc": "照明弹首次施放延迟时间",
+  "picture": "",
+  "icon": 9672,
+  "name": "我方夜战照明弹(循环施放)",
+  "init_effect": "",
+  "id": 9672,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,58 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "cloakExpose": 36,
+        "exposeGroup": 1,
+        "dotType": 1,
+        "number": 186,
+        "attr": "cannonPower",
+        "time": 1.5,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 61,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 800871,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "持续伤害",
+  "picture": "",
+  "icon": 800871,
+  "name": "起火",
+  "init_effect": "",
+  "id": 800871,
+  "stack": 1,
+  "time": 8,
+  "last_effect": "aierjiliya_zihuoanrao"
+}

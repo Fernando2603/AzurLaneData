@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": 9,
+        "skill_id": 60520,
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetNationality"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "Cross-Brooch"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60520,
+  "name": "",
+  "init_effect": "",
+  "id": 60520,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

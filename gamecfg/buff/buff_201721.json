@@ -1,0 +1,105 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "11": [],
+  "12": [],
+  "13": [],
+  "14": [],
+  "15": [],
+  "init_effect": "",
+  "picture": "",
+  "name": "2026信标BOSS 雷根斯堡meta 初始释放印记",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ],
+        "buff_id": 201723,
+        "ceilAttr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ],
+        "buff_id": 201724,
+        "ceilAttr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ],
+        "buff_id": 201725,
+        "ceilAttr": "airPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ],
+        "buff_id": 201726,
+        "ceilAttr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ],
+        "buff_id": 201727,
+        "ceilAttr": "dodgeRate"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 201722
+      }
+    }
+  ],
+  "id": 201721,
+  "stack": 1,
+  "time": 0.5,
+  "last_effect": ""
+}

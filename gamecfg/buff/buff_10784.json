@@ -1,0 +1,41 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id_list": [
+          10781,
+          10782,
+          10783
+        ],
+        "range": [
+          [
+            0,
+            0.3
+          ],
+          [
+            0.3,
+            0.6
+          ],
+          [
+            0.6,
+            1
+          ]
+        ]
+      }
+    }
+  ],
+  "desc": "随机buff触发器",
+  "picture": "",
+  "icon": 10784,
+  "name": "随机buff触发器",
+  "init_effect": "",
+  "id": 10784,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

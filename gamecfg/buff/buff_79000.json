@@ -1,0 +1,26 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 79001,
+        "hpLowerBound": 0.99,
+        "hpOutInterval": true
+      }
+    }
+  ],
+  "desc": "战斗对象的血量下降到X%时，召唤特殊怪物",
+  "picture": "",
+  "icon": 73500,
+  "name": "血量召唤",
+  "init_effect": "",
+  "id": 79000,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,50 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.2,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffCease",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": []
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "stuned"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200955,
+  "name": "2024威奇塔meta 锁链定身+易伤",
+  "init_effect": "",
+  "id": 200955,
+  "stack": 2,
+  "time": 0.2,
+  "last_effect": "yujin_suolian_tie"
+}

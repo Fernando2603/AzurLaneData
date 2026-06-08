@@ -1,0 +1,48 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "skill_id": 801180
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "CRI_TAG_EHC_MetaVampireskill",
+        "index": [
+          801180
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801180,
+  "name": "",
+  "init_effect": "",
+  "id": 801180,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

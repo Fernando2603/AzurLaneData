@@ -1,0 +1,52 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "buff_id": 201242,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "buff_id": 201243,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "buff_id": 201244,
+        "ship_tag_list": [
+          "BOSS"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201241,
+  "name": "2025拉斐尔活动 战车 适应性装甲",
+  "init_effect": "",
+  "id": 201241,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

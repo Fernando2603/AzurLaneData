@@ -1,0 +1,64 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1000,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "killer": "self",
+        "skill_id": 902180,
+        "time": 1,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 902180
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "提升命中",
+  "picture": "",
+  "icon": 902180,
+  "name": "精准狩猎",
+  "init_effect": "jinengchufared",
+  "id": 902181,
+  "stack": 1,
+  "time": 12,
+  "last_effect": ""
+}

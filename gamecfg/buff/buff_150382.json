@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -1,
+        "attr": "oxyAtkDuration"
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineFloat"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 150383
+      }
+    }
+  ],
+  "desc": "鲱鱼2技能",
+  "picture": "",
+  "name": "",
+  "init_effect": "",
+  "id": 150382,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,65 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 19212,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 19213
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 30,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1,
+        "countType": 19212,
+        "skill_id": 19213,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "range": 30,
+        "check_target": "TargetHarmNearest",
+        "skill_id": 19214,
+        "countType": 19212,
+        "maxTargetNumber": 0,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "吾妻特殊弹幕II",
+  "picture": "",
+  "icon": 19210,
+  "name": "吾妻特殊弹幕II",
+  "init_effect": "",
+  "id": 19212,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

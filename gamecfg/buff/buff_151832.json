@@ -1,0 +1,62 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "inside": 1,
+        "countType": 151830,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "countType": 151830,
+        "range": [
+          [
+            0,
+            0.33
+          ],
+          [
+            0.33,
+            0.66
+          ],
+          [
+            0.66,
+            0.99
+          ],
+          [
+            0.99,
+            1
+          ]
+        ],
+        "skill_id_list": [
+          151831,
+          151832,
+          151833,
+          151834
+        ]
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 151830,
+  "name": "",
+  "init_effect": "",
+  "id": 151832,
+  "stack": 5,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8948
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffRegisterWaveFlags",
+      "arg_list": {
+        "flags": [
+          8945
+        ]
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 8945,
+  "name": "公海舰队活动 塔干扰-旋涡",
+  "init_effect": "",
+  "id": 8945,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

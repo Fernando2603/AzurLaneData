@@ -1,0 +1,32 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "targetMaxHPRatio": 0.99,
+        "group": {
+          "level": 2,
+          "id": 6100
+        },
+        "check_target": "TargetSelf",
+        "minTargetNumber": 1,
+        "skill_id": 6110,
+        "time": 15,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "每15秒0.6%缓慢回复耐久，同类效果取最大值，不可叠加",
+  "picture": "",
+  "icon": 6110,
+  "name": "维修工具T2",
+  "init_effect": "",
+  "id": 6110,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

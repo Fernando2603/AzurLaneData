@@ -1,0 +1,110 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 15660,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpperConsort"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 15662,
+        "ship_type_list": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpperConsort"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetPlayerFlagShip",
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 15663,
+        "ship_type_list": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onLowerConsort"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 15662,
+        "ship_type_list": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onLowerConsort"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetPlayerFlagShip",
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 15663,
+        "ship_type_list": [
+          4,
+          5
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 15660,
+  "name": "",
+  "init_effect": "",
+  "id": 15660,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

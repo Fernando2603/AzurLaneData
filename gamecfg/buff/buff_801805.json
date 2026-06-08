@@ -1,0 +1,70 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "cloakExpose": 36,
+        "exposeGroup": 1,
+        "dotType": 1,
+        "number": 100,
+        "attr": "cannonPower",
+        "time": 1,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -3000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "kawakaze_hit"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 61,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "持续伤害",
+  "picture": "",
+  "icon": 801805,
+  "name": "二刀流·夕照",
+  "init_effect": "",
+  "id": 801805,
+  "stack": 1,
+  "time": 5,
+  "last_effect": "zhuoshao"
+}

@@ -1,0 +1,78 @@
+{
+  "last_effect_cld_scale": true,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "SHIELD"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate",
+        "onRemove",
+        "onAttach",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffBarrier",
+      "arg_list": {
+        "cld_data": {
+          "offset": [
+            0,
+            4,
+            0
+          ],
+          "box": {
+            "range": 28
+          }
+        },
+        "durability": 300
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 9497,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 9508,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 9512,
+        "time": 1,
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "AT·FIELD",
+  "icon": 9525,
+  "id": 9525,
+  "name": "2022公海舰队b3 精英构建者反击护盾",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 12.1,
+  "last_effect": "ATdun_full"
+}

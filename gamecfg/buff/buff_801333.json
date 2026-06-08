@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "KasumiSkillTarget"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 801335
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 801330,
+  "name": "",
+  "init_effect": "",
+  "id": 801333,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

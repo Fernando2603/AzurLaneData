@@ -1,0 +1,625 @@
+{
+  "1": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 100,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.01,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "2": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 200,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.02,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "3": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 300,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.03,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "4": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 400,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.04,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "5": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 500,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.05,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "6": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 600,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.06,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "7": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 700,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.07,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "8": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 800,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.08,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "9": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 900,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.09,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "quota": 1,
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "10": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach"
+        ],
+        "type": "BattleBuffCleanse",
+        "arg_list": {
+          "buff_id_list": [
+            112032
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 1000,
+          "attr": "antiAirPower"
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttr",
+        "arg_list": {
+          "number": -0.1,
+          "attr": "injureRatio"
+        }
+      },
+      {
+        "trigger": [
+          "onUpdate"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "target": "TargetSelf",
+          "check_target": [
+            "TargetSelf",
+            "TargetShipTag"
+          ],
+          "minTargetNumber": 1,
+          "ship_tag_list": [
+            "BRS_burst"
+          ],
+          "skill_id": 112031
+        }
+      }
+    ]
+  },
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          112032
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 100,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.01,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "BRS_burst"
+        ],
+        "skill_id": 112031
+      }
+    }
+  ],
+  "desc": "提高防空属性",
+  "picture": "",
+  "icon": 112030,
+  "name": "",
+  "init_effect": "jinengchufablue",
+  "id": 112031,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

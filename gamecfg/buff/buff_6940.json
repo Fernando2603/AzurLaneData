@@ -1,0 +1,86 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "quota": 1,
+        "check_target": [
+          "TargetPlayerFlagShip",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "skill_id": 6940
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_type_list": [
+          1,
+          2,
+          3,
+          18,
+          19,
+          20,
+          23
+        ],
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 6942
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 6942,
+        "ship_tag_list": [
+          "SSSS"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onInitGame"
+      ],
+      "type": "BattleBuffDiva",
+      "arg_list": {
+        "bgm_list": [
+          "ssss-az-battle-boss"
+        ]
+      }
+    }
+  ],
+  "desc": "煌翼炎龙",
+  "picture": "",
+  "icon": 6900,
+  "name": "",
+  "init_effect": "",
+  "id": 6940,
+  "stack": 1,
+  "time": 30,
+  "last_effect": ""
+}

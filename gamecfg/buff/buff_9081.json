@@ -1,0 +1,32 @@
+{
+  "color": "yellow",
+  "desc_get": "在队伍中时降低旗舰受到的伤害15.0%(满级25.0%)",
+  "desc": "在队伍中时降低旗舰受到的伤害$1",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 9081
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerFlagShip",
+        "buff_id": 9080
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 9080,
+  "name": "旗舰掩护-LV8",
+  "init_effect": "",
+  "id": 9081,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

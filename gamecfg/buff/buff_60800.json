@@ -1,0 +1,34 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "MemphisOrigin"
+        ],
+        "time": 20,
+        "skill_id": 60800
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60800,
+  "name": "",
+  "init_effect": "",
+  "id": 60800,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

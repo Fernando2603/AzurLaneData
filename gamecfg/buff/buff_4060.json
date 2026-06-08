@@ -1,0 +1,102 @@
+{
+  "1": {
+    "time": 5
+  },
+  "2": {
+    "time": 6
+  },
+  "3": {
+    "time": 7
+  },
+  "4": {
+    "time": 8
+  },
+  "5": {
+    "time": 9
+  },
+  "6": {
+    "time": 10
+  },
+  "7": {
+    "time": 11
+  },
+  "8": {
+    "time": 12
+  },
+  "9": {
+    "time": 13
+  },
+  "10": {
+    "time": 15
+  },
+  "color": "blue",
+  "effect_list": [
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 6,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(1, 0, -3.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              2,
+              0,
+              -2
+            ],
+            "box": [
+              5,
+              7,
+              10
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, -120, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    },
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 6,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_3_0)\n\treturn Vector3(1, 0, 3.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              2,
+              0,
+              -2
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, 120, 0)\nend"
+      },
+      "id": 2,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "侧面装甲",
+  "picture": "",
+  "icon": 4060,
+  "name": "侧面装甲",
+  "init_effect": "",
+  "id": 4060,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

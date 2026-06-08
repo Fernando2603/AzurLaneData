@@ -1,0 +1,46 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 1011961
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 3,
+        "skill_id": 1011960
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 11960,
+  "name": "峡湾之星 +",
+  "init_effect": "",
+  "id": 1011960,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

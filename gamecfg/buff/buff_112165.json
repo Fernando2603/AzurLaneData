@@ -1,0 +1,44 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112261
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112162
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 112162,
+        "time": 0.1,
+        "quota": 10,
+        "fleetAttr": "YumiaManaFlow>=1"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 112110,
+  "name": "",
+  "init_effect": "",
+  "id": 112165,
+  "stack": 1,
+  "time": 1.6,
+  "last_effect": ""
+}

@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 510051
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 510051,
+        "time": 1
+      }
+    }
+  ],
+  "desc": "损管小队",
+  "id": 510050,
+  "name": "损管小队",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 10,
+  "last_effect": ""
+}

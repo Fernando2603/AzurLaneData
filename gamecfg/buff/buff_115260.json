@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "target": "TargetSelf",
+        "attr": "dodgeRate",
+        "number": 1500
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": 15
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 115260,
+  "name": "",
+  "init_effect": "",
+  "id": 115260,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "effect": "shield05",
+        "count": 3,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(4, -1.8, 0.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              0,
+              0,
+              -1.3
+            ],
+            "box": [
+              3,
+              3,
+              7
+            ]
+          }
+        ],
+        "bulletType": 3,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "鱼雷防御盾",
+  "desc_get": "鱼雷防御盾",
+  "icon": 13570,
+  "id": 13571,
+  "name": "鱼雷防御盾",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 20,
+  "last_effect": ""
+}

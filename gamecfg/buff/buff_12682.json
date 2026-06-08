@@ -1,0 +1,40 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 12684,
+        "exceptCaster": true
+      }
+    },
+    {
+      "trigger": [
+        "onTeammateHpRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "targetMaxHPRatio": 0.2,
+        "hpUpperBound": 0.2,
+        "quota": 1,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetHelpLeastHP"
+        ],
+        "minTargetNumber": 1,
+        "skill_id": 12681
+      }
+    }
+  ],
+  "desc": "减伤光环",
+  "picture": "",
+  "icon": 12682,
+  "name": "减伤光环",
+  "init_effect": "jinengchufablue",
+  "id": 12682,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

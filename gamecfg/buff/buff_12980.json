@@ -1,0 +1,73 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "skill_id": 12980,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Tashkentexclusiveweapon"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 12982,
+        "quota": 5,
+        "killer": "self"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Tashkentexclusiveweapon"
+        ],
+        "skill_id": 1012993
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 12980,
+  "id": 12980,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

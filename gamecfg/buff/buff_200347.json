@@ -1,0 +1,47 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200345,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 8,
+        "skill_id": 200346
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame",
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "skill_id": 200347
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200347,
+  "name": "2023英系活动 剧情战黎塞留",
+  "init_effect": "",
+  "id": 200347,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

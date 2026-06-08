@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          800525
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 800525
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 800520,
+  "name": "",
+  "init_effect": "",
+  "id": 800524,
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

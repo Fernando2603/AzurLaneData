@@ -1,0 +1,570 @@
+{
+  "1": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.01
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 500,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "2": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.014
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 600,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "3": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.018
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 650,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "4": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.022
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 700,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "5": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.026
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 750,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "6": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.03
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 800,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "7": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.035
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 850,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "8": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.04
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 900,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "9": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.045
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 950,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "10": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onAttach",
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffShield",
+        "arg_list": {
+          "maxHPRatio": 0.05
+        }
+      },
+      {
+        "trigger": [
+          "onAttach",
+          "onRemove"
+        ],
+        "type": "BattleBuffAddAttrRatio",
+        "arg_list": {
+          "number": 1000,
+          "attr": "torpedoPower"
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield<=0"
+          ]
+        }
+      },
+      {
+        "trigger": [
+          "onRemove"
+        ],
+        "type": "BattleBuffCastSkill",
+        "arg_list": {
+          "skill_id": 151961,
+          "target": "TargetSelf",
+          "effectAttachData": [
+            "BattleBuffShield>0"
+          ]
+        }
+      }
+    ]
+  },
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffShield",
+      "arg_list": {
+        "maxHPRatio": 0.01
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151961,
+        "target": "TargetSelf",
+        "effectAttachData": [
+          "BattleBuffShield<=0"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 151961,
+        "target": "TargetSelf",
+        "effectAttachData": [
+          "BattleBuffShield>0"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151960,
+  "name": "",
+  "init_effect": "jinengchufared",
+  "id": 151961,
+  "stack": 1,
+  "time": 20,
+  "last_effect": "Shield"
+}

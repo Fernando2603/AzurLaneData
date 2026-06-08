@@ -1,0 +1,73 @@
+{
+  "effect_list": [
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 999999,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\tlocal var_1_0 = arg_1_0 * 3\n\n\treturn Vector3(math.sin(var_1_0) * 2.5, 0.75, math.cos(var_1_0) * 3.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              1.02,
+              0,
+              1.22
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, arg_2_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend"
+      },
+      "id": 1,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onStack",
+        "onUpdate"
+      ]
+    },
+    {
+      "arg_list": {
+        "effect": "shield02",
+        "count": 999999,
+        "do_when_hit": "intercept",
+        "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_3_0)\n\tlocal var_3_0 = arg_3_0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST\n\n\treturn Vector3(math.sin(var_3_0) * 2.5, 0.75, math.cos(var_3_0) * 3.5)\nend,",
+        "cld_list": [
+          {
+            "offset": [
+              1.02,
+              0,
+              1.22
+            ],
+            "box": [
+              4,
+              6,
+              9
+            ]
+          }
+        ],
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, arg_4_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 90, 0)\nend"
+      },
+      "id": 2,
+      "type": "BattleBuffShieldWall",
+      "trigger": [
+        "onStack",
+        "onUpdate"
+      ]
+    }
+  ],
+  "desc": "挑战关卡第8关双盾无法击破",
+  "picture": "",
+  "icon": 8516,
+  "name": "挑战关卡第8关双盾无法击破",
+  "init_effect": "",
+  "id": 8516,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,59 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onStack",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffShield",
+      "arg_list": {
+        "casterMaxHPRatio": 0.05
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 115103,
+        "effectAttachData": [
+          "BattleBuffShield<=0"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 115103,
+        "effectAttachData": [
+          "BattleBuffShield>0"
+        ]
+      }
+    }
+  ],
+  "desc": "护盾",
+  "picture": "",
+  "icon": 115100,
+  "name": "",
+  "init_effect": "",
+  "id": 115102,
+  "stack": 1,
+  "time": 20,
+  "last_effect": "Shield"
+}

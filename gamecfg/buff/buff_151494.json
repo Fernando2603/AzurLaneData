@@ -1,0 +1,61 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 151493,
+        "label": [
+          "FFNF"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 151492,
+        "label": [
+          "FFNF"
+        ],
+        "check_weapon": true,
+        "maxWeaponNumber": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 151495,
+        "ship_tag_list": [
+          "dadan10"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151490,
+  "name": "判别法系装备触发弹幕，若识别到10秒tag，删除20秒cd，换上10秒cd",
+  "init_effect": "",
+  "id": 151494,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

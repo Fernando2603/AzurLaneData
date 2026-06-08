@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "range": 80,
+        "buff_id": 201233,
+        "target": "TargetHarmNearest"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201236,
+        "time": 0.5
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201230,
+  "name": "2024春节共斗 牵引",
+  "init_effect": "",
+  "id": 201230,
+  "stack": 1,
+  "time": 11,
+  "last_effect": ""
+}

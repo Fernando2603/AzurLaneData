@@ -1,0 +1,31 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200440,
+        "nationality": 98
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200901,
+  "name": "2024愚人节 取消锁血",
+  "init_effect": "",
+  "id": 200901,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

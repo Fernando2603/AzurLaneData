@@ -1,0 +1,66 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29490,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 29492,
+        "countType": 29490,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "DidoSP"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "countType": 29490,
+        "ship_tag_list": [
+          "DidoSP"
+        ],
+        "skill_id": 29493
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-黛朵II",
+  "picture": "",
+  "icon": 29490,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29492,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

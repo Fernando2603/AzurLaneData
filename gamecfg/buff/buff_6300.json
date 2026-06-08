@@ -1,0 +1,36 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6300
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6301,
+        "group": {
+          "level": 4,
+          "id": 6070
+        }
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6300,
+  "name": "高效燃油",
+  "init_effect": "",
+  "id": 6300,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

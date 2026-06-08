@@ -1,0 +1,34 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "MJDE1AIM"
+        ],
+        "time": 0.5,
+        "skill_id": 17941
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 17940,
+  "name": "",
+  "init_effect": "",
+  "id": 17943,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

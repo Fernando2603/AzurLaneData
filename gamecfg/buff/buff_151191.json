@@ -1,0 +1,70 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "maxHPRatio": 0.08,
+        "countTarget": 0,
+        "countType": 151190
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 151190,
+        "skill_id": 151191
+      }
+    },
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 151192,
+        "quota": 1,
+        "killer": "self"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 151193
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 151194,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "撞残跑路，撞死回血",
+  "picture": "",
+  "icon": 151190,
+  "name": "",
+  "init_effect": "",
+  "id": 151191,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

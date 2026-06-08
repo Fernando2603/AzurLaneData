@@ -1,0 +1,34 @@
+{
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8671,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.6,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "picture": "",
+  "name": "潜艇水面减伤（上浮/下沉间隔15秒）",
+  "init_effect": "",
+  "id": 8725,
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

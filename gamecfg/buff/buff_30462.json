@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30460,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30460,
+        "skill_id": 30462
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-克利奥佩特拉II",
+  "picture": "",
+  "icon": 30460,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 30462,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-恶毒μI"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29620,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29620,
+        "skill_id": 29621
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-恶毒μI",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-恶毒μI",
+  "icon": 29620,
+  "id": 29621,
+  "name": "专属弹幕-恶毒μI",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

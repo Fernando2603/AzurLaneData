@@ -1,0 +1,60 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "skill_id": 105070,
+        "maxTargetNumber": 2,
+        "ship_tag_list": [
+          "hololive"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineRaid"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 3,
+        "ship_tag_list": [
+          "hololive"
+        ],
+        "skill_id": 105071
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 105070,
+  "name": "向日葵的约定 ",
+  "init_effect": "",
+  "id": 105070,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

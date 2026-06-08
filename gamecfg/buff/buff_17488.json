@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 2,
+        "number": 100,
+        "attr": "airPower",
+        "time": 2,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "flood"
+      }
+    }
+  ],
+  "desc": "8s DOT",
+  "picture": "",
+  "icon": 17470,
+  "name": "",
+  "init_effect": "",
+  "id": 17488,
+  "stack": 1,
+  "time": 8.1,
+  "last_effect": ""
+}

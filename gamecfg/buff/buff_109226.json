@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          109222
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          60282
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 109222
+      }
+    }
+  ],
+  "desc": "CD",
+  "picture": "",
+  "icon": 109220,
+  "name": "CD",
+  "init_effect": "",
+  "id": 109226,
+  "stack": 1,
+  "time": 15,
+  "last_effect": ""
+}

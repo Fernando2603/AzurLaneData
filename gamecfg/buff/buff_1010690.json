@@ -1,0 +1,171 @@
+{
+  "1": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 15,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "2": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 16,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "3": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 17,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "4": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 19,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "5": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 20,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "6": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 21,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "7": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 23,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "8": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 25,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "9": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 27,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "10": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 30,
+          "check_label": [
+            "KMS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 1010690,
+        "label": [
+          "KMS",
+          "CV"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1010691,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 10690,
+  "id": 1010690,
+  "name": "铁血之鹰",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

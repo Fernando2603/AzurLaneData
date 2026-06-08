@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          1012914,
+          1012915
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.2,
+        "skill_id": 1012914
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 12910,
+  "name": "六驱精锐·{namecode:12} +",
+  "init_effect": "",
+  "id": 1012916,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

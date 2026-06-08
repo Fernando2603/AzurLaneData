@@ -1,0 +1,45 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6960
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          6191
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          6201
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 6960,
+  "name": "6CRH穿甲弹",
+  "init_effect": "",
+  "id": 6961,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

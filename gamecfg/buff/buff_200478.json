@@ -1,0 +1,33 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "META_checked"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 200381
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200381,
+  "name": "",
+  "init_effect": "",
+  "id": 200381,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

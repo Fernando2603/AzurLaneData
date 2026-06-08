@@ -1,0 +1,64 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetFleetIndex",
+        "fleetPos": "Rear",
+        "minTargetNumber": 1,
+        "buff_id": 109214,
+        "ship_tag_list": [
+          "darktorear"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetFleetIndex",
+        "fleetPos": "Leader",
+        "minTargetNumber": 1,
+        "buff_id": 109214,
+        "ship_tag_list": [
+          "darktoleader"
+        ],
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 109212,
+  "name": "",
+  "init_effect": "",
+  "id": 109213,
+  "stack": 3,
+  "time": 5,
+  "last_effect": ""
+}

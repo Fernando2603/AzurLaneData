@@ -1,0 +1,43 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60590
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60590,
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "StrangeDeviceD"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60590,
+  "name": "奇怪装置D",
+  "init_effect": "",
+  "id": 60590,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "buff_id": 801978,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "YorktownMobserve"
+        ]
+      }
+    }
+  ],
+  "desc": "检查是否被观测",
+  "picture": "",
+  "icon": 801970,
+  "name": "",
+  "init_effect": "",
+  "id": 801979,
+  "stack": 1,
+  "time": 0.1,
+  "last_effect": ""
+}

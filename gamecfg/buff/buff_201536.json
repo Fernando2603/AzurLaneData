@@ -1,0 +1,44 @@
+{
+  "1": [],
+  "2": [],
+  "init_effect": "",
+  "picture": "",
+  "name": "2025风帆三期EX 莱姆号 空袭监听",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 201544
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8692,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 201536,
+        "quota": 1,
+        "time": 0.2
+      }
+    }
+  ],
+  "id": 201536,
+  "stack": 1,
+  "time": 1.5,
+  "last_effect": ""
+}

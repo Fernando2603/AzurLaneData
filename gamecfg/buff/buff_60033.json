@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60017,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponBulletCreate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 60032,
+        "bulletTrigger": "onBulletKill"
+      }
+    },
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "delay": 3,
+        "count": 1
+      }
+    }
+  ],
+  "desc": "触发:主炮额外一轮攻击1",
+  "picture": "",
+  "icon": 60033,
+  "name": "测试-声望-主炮额外一轮攻击1",
+  "init_effect": "",
+  "id": 60033,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "lingxing"
+}

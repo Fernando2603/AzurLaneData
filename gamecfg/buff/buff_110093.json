@@ -1,0 +1,48 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeHit"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 3,
+        "countType": 110093
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeTakeDamage"
+      ],
+      "type": "BattleBuffFixDamage",
+      "arg_list": {
+        "target": "TargetSelf",
+        "value": 1,
+        "time": 0,
+        "rant": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          110093
+        ],
+        "countType": 110093
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110090,
+  "name": "",
+  "init_effect": "",
+  "id": 110093,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

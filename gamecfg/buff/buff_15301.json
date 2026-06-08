@@ -1,0 +1,38 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          2
+        ],
+        "countType": 15301,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 15301,
+        "skill_id": 15300
+      }
+    }
+  ],
+  "desc": "副炮每进行4次攻击，触发弹幕",
+  "picture": "",
+  "icon": 15300,
+  "name": "",
+  "init_effect": "",
+  "id": 15301,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

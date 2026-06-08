@@ -1,0 +1,32 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8765
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8766,
+        "traget": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "偶像大师联动 fever 回血BUFF",
+  "init_effect": "",
+  "id": 8766,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

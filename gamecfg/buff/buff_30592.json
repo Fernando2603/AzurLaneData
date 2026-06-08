@@ -1,0 +1,55 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-莫斯科I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30592,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30592,
+        "skill_id": 30592
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 30593,
+        "label": [
+          "SN"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-莫斯科II",
+  "picture": "",
+  "icon": 30590,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 30592,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

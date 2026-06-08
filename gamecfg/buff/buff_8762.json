@@ -1,0 +1,32 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8761
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8762,
+        "traget": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "name": "DOA联动 fever BUFF",
+  "init_effect": "",
+  "id": 8761,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

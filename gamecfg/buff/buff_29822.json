@@ -1,0 +1,43 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-基辅II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29820,
+        "countTarget": 10,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29820,
+        "skill_id": 29822
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-基辅II",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-基辅II",
+  "icon": 29820,
+  "id": 29822,
+  "name": "专属弹幕-基辅II",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

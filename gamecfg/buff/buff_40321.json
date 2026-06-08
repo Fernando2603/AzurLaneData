@@ -1,0 +1,33 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "ship_type_list": [
+          1,
+          20
+        ],
+        "quota": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "minTargetNumber": 1,
+        "skill_id": 40320
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 40320,
+  "name": "指挥喵触发特殊弹幕",
+  "init_effect": "",
+  "id": 40321,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

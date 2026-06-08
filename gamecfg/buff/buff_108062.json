@@ -1,0 +1,37 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "targetMaxHPRatio": 0.99,
+        "check_target": "TargetSelf",
+        "minTargetNumber": 1,
+        "skill_id": 108061,
+        "time": 2,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 108063
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108060,
+  "name": "",
+  "init_effect": "",
+  "id": 108062,
+  "stack": 1,
+  "time": 9,
+  "last_effect": ""
+}

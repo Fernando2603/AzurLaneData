@@ -1,0 +1,29 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "attrCompare": "nationality=nationality",
+        "skill_id": 61041,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetAttrCompare"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 61040,
+  "name": "",
+  "init_effect": "",
+  "id": 61041,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

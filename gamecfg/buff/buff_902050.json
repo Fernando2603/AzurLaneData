@@ -1,0 +1,37 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeAircraftDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "killer": "child",
+        "countType": 902050,
+        "countTarget": 5
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 902050,
+        "countType": 902050,
+        "quota": 1,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 902050,
+  "name": "制空战术",
+  "init_effect": "",
+  "id": 902050,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

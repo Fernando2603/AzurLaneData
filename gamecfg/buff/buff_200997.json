@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onWeaonInterrupt"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200998
+      }
+    },
+    {
+      "trigger": [
+        "onWeaponSuccess"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201000
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200997,
+  "name": "2024匹兹堡活动 X半影 次数盾监听",
+  "init_effect": "",
+  "id": 200997,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

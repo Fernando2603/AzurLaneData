@@ -1,0 +1,38 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletHit"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "weaponType": 1,
+        "index": [
+          -1
+        ],
+        "target": "TargetSelf",
+        "damageConvertRatio": 800
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 13763,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 13762,
+  "name": "",
+  "init_effect": "",
+  "id": 13762,
+  "stack": 1,
+  "time": 10,
+  "last_effect": ""
+}

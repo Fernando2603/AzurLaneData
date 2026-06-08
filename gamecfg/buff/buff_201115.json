@@ -1,0 +1,33 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200440,
+        "ship_tag_list": [
+          "FLAG"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201115,
+  "name": "2024天城航母活动 EX 结界 触碰销毁自身",
+  "init_effect": "",
+  "id": 201115,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

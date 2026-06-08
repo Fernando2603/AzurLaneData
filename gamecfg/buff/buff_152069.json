@@ -1,0 +1,36 @@
+{
+  "color": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "Ozornoy_mark"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 152069,
+        "quota": 2,
+        "time": 3
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 152060,
+  "name": "顽皮标记",
+  "init_effect": "",
+  "id": 152069,
+  "stack": 1,
+  "time": 6.1,
+  "last_effect": "Darkness"
+}

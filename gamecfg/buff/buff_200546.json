@@ -1,0 +1,100 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffRegisterWaveFlags",
+      "arg_list": {
+        "flags": [
+          200546
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "airPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "loadSpeed"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200546,
+  "name": "2023克莱蒙梭活动 陆上神国III 玩家属性压制",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

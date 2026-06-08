@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行16次攻击，触发专属弹幕-初月II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30110,
+        "countTarget": 16,
+        "gunnerBonus": true
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30110,
+        "skill_id": 30112
+      }
+    }
+  ],
+  "desc": "主炮每进行16次攻击，触发专属弹幕-初月II",
+  "picture": "",
+  "icon": 30110,
+  "name": "专属弹幕-初月II",
+  "init_effect": "",
+  "id": 30112,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

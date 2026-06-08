@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 1090453,
+        "ship_tag_list": [
+          "Matchless"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          1090453,
+          1090454
+        ]
+      }
+    }
+  ],
+  "desc": "提高闪避",
+  "picture": "",
+  "icon": 2120,
+  "name": "燃油烟雾",
+  "init_effect": "",
+  "id": 1090452,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

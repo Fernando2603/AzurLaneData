@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.45,
+        "skill_id": 4
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.45,
+        "buff_id": 5
+      }
+    }
+  ],
+  "desc": "耐久低于40%时，回复所有耐久",
+  "picture": "",
+  "icon": 4,
+  "name": "损害管制",
+  "init_effect": "",
+  "id": 4,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "Health"
+}

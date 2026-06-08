@@ -1,0 +1,27 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffBulletHitEmitter",
+      "arg_list": {
+        "target": "TargetHarmNearest",
+        "count": 3,
+        "damageRant": 0.7,
+        "barrageID": 10001,
+        "deltaDamageRant": -0.1,
+        "range": 200
+      }
+    }
+  ],
+  "desc": "弹射",
+  "picture": "",
+  "icon": 60039,
+  "name": "测试-随机技能-弹射",
+  "init_effect": "",
+  "id": 60039,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

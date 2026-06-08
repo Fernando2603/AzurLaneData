@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "keep": true,
+        "maxHPRatio": 0.2,
+        "countTarget": 1,
+        "countType": 201425
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201426,
+        "countType": 201425
+      }
+    }
+  ],
+  "desc": "",
+  "id": 201425,
+  "name": "2025信标BOSS 江风meta 累计损血",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

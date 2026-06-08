@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "buff_id": 201788,
+        "ship_tag_list": [
+          "isInvincible_1"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCompare"
+        ],
+        "buff_id": 201788,
+        "attrCompare": "perfectDodge>0"
+      }
+    }
+  ],
+  "id": 201787,
+  "name": "2026信标BOSS 布里斯托尔meta 维度追猎 监听",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

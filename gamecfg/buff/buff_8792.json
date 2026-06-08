@@ -1,0 +1,56 @@
+{
+  "last_effect_cld_scale": true,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate",
+        "onRemove",
+        "onAttach",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffBarrier",
+      "arg_list": {
+        "cld_data": {
+          "offset": [
+            0,
+            4,
+            0
+          ],
+          "box": {
+            "range": 28
+          }
+        },
+        "durability": 12000
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8791
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8790,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "AT·FIELD",
+  "icon": 8792,
+  "id": 8792,
+  "name": "2020德系活动D3 构建者护盾",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 15,
+  "last_effect": "ATdun_full"
+}

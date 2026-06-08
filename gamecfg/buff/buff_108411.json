@@ -1,0 +1,37 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffCoverSpine",
+      "arg_list": {
+        "hp_bar_offset": 1,
+        "ship_skin_id": 10800100
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 108415,
+        "time": 1,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108410,
+  "name": "",
+  "init_effect": "",
+  "id": 108411,
+  "stack": 1,
+  "time": 15,
+  "last_effect": "bodongquan02"
+}

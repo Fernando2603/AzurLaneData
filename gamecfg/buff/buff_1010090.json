@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAntiAirWeaponFireNear"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 1010090,
+        "time": 8,
+        "rant": 1500
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1010091,
+        "index": [
+          1
+        ],
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "防空炮开火时有15%概率触发，队伍防空属性提升$1，持续8秒",
+  "desc_get": "防空炮开火时有15%概率触发，队伍防空属性提升30.0%(满级50.0%)，持续8秒",
+  "icon": 10090,
+  "id": 1010090,
+  "name": "我是NO.1！ +",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

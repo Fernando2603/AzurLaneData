@@ -1,0 +1,60 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "cloakExpose": 36,
+        "exposeGroup": 1,
+        "dotType": 1,
+        "number": 1,
+        "attr": "cannonPower",
+        "time": 2,
+        "k": 0
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "cri"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 61,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 150890,
+  "name": "",
+  "init_effect": "",
+  "id": 150893,
+  "stack": 1,
+  "time": 8.1,
+  "last_effect": ""
+}

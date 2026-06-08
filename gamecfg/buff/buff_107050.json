@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 107050,
+        "quota": 3,
+        "killer": "child"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 2,
+        "ship_tag_list": [
+          "IMAS"
+        ],
+        "skill_id": 107051
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 107050,
+  "name": "",
+  "init_effect": "",
+  "id": 107050,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

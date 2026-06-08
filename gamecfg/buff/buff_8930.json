@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8930,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.25,
+        "attr": "injureRatioByBulletTorpedo"
+      }
+    }
+  ],
+  "icon": 8928,
+  "id": 8928,
+  "name": "毛系V3 EX雷击反制 开火",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

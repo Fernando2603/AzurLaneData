@@ -1,0 +1,37 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.08,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 1,
+        "number": 255,
+        "attr": "cannonPower",
+        "time": 3,
+        "k": 0
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 400,
+  "name": "",
+  "init_effect": "",
+  "id": 407,
+  "stack": 1,
+  "time": 7,
+  "last_effect": "Darkness"
+}

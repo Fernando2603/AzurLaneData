@@ -1,0 +1,211 @@
+{
+  "1": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 5,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "2": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 6.1,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "3": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 7.2,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "4": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 8.3,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "5": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 9.4,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "6": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 10.5,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "7": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 11.6,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "8": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 12.7,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "9": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 13.8,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "10": {
+    "shipInfoScene": {
+      "equip": [
+        {
+          "number": 15,
+          "label": [
+            "CV"
+          ],
+          "check_label": [
+            "USS",
+            "CV"
+          ]
+        }
+      ]
+    }
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 17390,
+        "label": [
+          "USS",
+          "CV"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onAirAssistReady"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 17392
+      }
+    },
+    {
+      "arg_list": {
+        "buff_id": 17394
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 17390,
+  "id": 17390,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

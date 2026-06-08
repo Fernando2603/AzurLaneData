@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-哈尔滨I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29900,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29900,
+        "skill_id": 29901
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-哈尔滨I",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-哈尔滨I",
+  "icon": 29900,
+  "id": 29901,
+  "name": "专属弹幕-哈尔滨I",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

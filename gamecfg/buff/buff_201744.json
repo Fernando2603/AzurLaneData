@@ -1,0 +1,53 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onBombBulletBang"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "displacement_convert": {
+          "base": 20,
+          "max": 1,
+          "rate": -0.02
+        },
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoBulletBang"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "displacement_convert": {
+          "base": 20,
+          "max": 1,
+          "rate": -0.02
+        },
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCollideBefore"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "displacement_convert": {
+          "base": 20,
+          "max": 1,
+          "rate": -0.02
+        },
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "id": 201744,
+  "name": "2026DOA三期活动 EX 距离增减伤机制",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

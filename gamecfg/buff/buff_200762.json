@@ -1,0 +1,68 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffRegisterWaveFlags",
+      "arg_list": {
+        "flags": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200719
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 200719
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200765,
+        "quota": 1,
+        "time": 0.1
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200766,
+        "quota": 1,
+        "time": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200762,
+  "name": "2024 同盟活动EX 开场检测",
+  "init_effect": "",
+  "id": 200762,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

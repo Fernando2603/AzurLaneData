@@ -1,0 +1,51 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "buff_id": 24113,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "PinghaiNinghai-SP"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 24114,
+        "ship_tag_list": [
+          "PinghaiNinghai-SP"
+        ]
+      }
+    }
+  ],
+  "desc": "检查是否为特殊兵装版本",
+  "picture": "",
+  "icon": 20100,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 24112,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行9次攻击，触发特殊弹幕-小柴郡II"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29860,
+        "countTarget": 6
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29860,
+        "skill_id": 29862
+      }
+    }
+  ],
+  "desc": "主炮每进行6次攻击，触发特殊弹幕-小柴郡II",
+  "picture": "",
+  "icon": 29860,
+  "name": "特殊弹幕",
+  "init_effect": "",
+  "id": 29862,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

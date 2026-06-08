@@ -1,0 +1,64 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "armor_type": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipArmor"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 151535,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "armor_type": 2,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipArmor"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 151535,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "armor_type": 3,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipArmor"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 151536,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 151530,
+  "name": "敌方自我识别护甲",
+  "init_effect": "",
+  "id": 151534,
+  "stack": 1,
+  "time": 5,
+  "last_effect": ""
+}

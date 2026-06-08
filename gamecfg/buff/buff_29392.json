@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29390,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29390,
+        "skill_id": 29392
+      }
+    }
+  ],
+  "desc": "主武器每进行16次攻击，触发专属弹幕-西雅图II",
+  "picture": "",
+  "icon": 29390,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29392,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

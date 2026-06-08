@@ -1,0 +1,33 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 5,
+        "countType": 110145
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "countType": 110145,
+        "buff_id": 110146
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110140,
+  "name": "",
+  "init_effect": "",
+  "id": 110145,
+  "stack": 5,
+  "time": 0,
+  "last_effect": ""
+}

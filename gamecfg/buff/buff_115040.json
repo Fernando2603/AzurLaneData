@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 115041
+      }
+    },
+    {
+      "trigger": [
+        "onFoeDying"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 115042,
+        "killer": "self"
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 115010,
+  "name": "",
+  "init_effect": "",
+  "id": 115040,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

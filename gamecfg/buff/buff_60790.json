@@ -1,0 +1,35 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 60791
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 60791,
+        "time": 10
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60790,
+  "name": "",
+  "init_effect": "",
+  "id": 60790,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

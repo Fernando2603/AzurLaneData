@@ -1,0 +1,55 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 10201,
+        "attr": "perfectDodge",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 10201,
+        "attr": "immuneDirectHit",
+        "number": 1
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "伤害提高，闪避",
+  "picture": "",
+  "icon": 10201,
+  "name": "LuckyE",
+  "init_effect": "jinengchufared",
+  "id": 10201,
+  "stack": 1,
+  "time": 8,
+  "last_effect": ""
+}

@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "nationality": 97,
+        "buff_id": 201279,
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 201280,
+        "nationality": 97,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201278,
+  "name": "2025拉斐尔活动 永夜战旗",
+  "init_effect": "",
+  "id": 201278,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

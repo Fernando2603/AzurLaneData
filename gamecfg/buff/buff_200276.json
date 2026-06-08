@@ -1,0 +1,33 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "sign"
+        ],
+        "skill_id": 200276
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200276,
+  "name": "2023英系活动 EX BOSS攻击百分比移除发射器血量",
+  "init_effect": "",
+  "id": 200276,
+  "stack": 10,
+  "time": 1,
+  "last_effect": ""
+}

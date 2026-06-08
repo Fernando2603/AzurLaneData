@@ -1,0 +1,45 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200095,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 200095,
+        "attr": "isInvincible",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDeath",
+      "arg_list": {
+        "time": 0.1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200096,
+  "name": "2022围剿小斯佩 甜品运输船被打爆后出现甜品子弹",
+  "init_effect": "",
+  "id": 200096,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

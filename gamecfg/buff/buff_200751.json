@@ -1,0 +1,44 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSetBattleUnitType",
+      "arg_list": {
+        "value": -100
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "immuneMaxAreaLimit"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200440
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200751,
+  "name": "2023关岛活动B2 召唤物1 消失倒计时",
+  "init_effect": "",
+  "id": 200751,
+  "stack": 1,
+  "time": 15.8,
+  "last_effect": ""
+}

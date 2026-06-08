@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-33I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29300,
+        "countTarget": 15
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29300,
+        "skill_id": 29301
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-33I",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-33I",
+  "icon": 29300,
+  "id": 29301,
+  "name": "专属弹幕-33I",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,55 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.25,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.25,
+        "attr": "injureRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.15,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 79012
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 8636,
+  "name": "司特莲库斯雷电屏障buff",
+  "init_effect": "",
+  "id": 79012,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "sairenboss6_buff"
+}

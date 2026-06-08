@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行12次攻击，触发专属弹幕-吉尚I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 30090,
+        "countTarget": 12
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 30090,
+        "skill_id": 30091
+      }
+    }
+  ],
+  "desc": "主炮每进行12次攻击，触发专属弹幕-吉尚I",
+  "desc_get": "主炮每进行12次攻击，触发专属弹幕-吉尚I",
+  "icon": 30090,
+  "id": 30091,
+  "name": "专属弹幕-吉尚I",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,58 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 150025,
+        "ship_tag_list": [
+          "Judgement_ava"
+        ],
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 150022,
+        "ship_tag_list": [
+          "Judgement_ava"
+        ],
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 150020,
+  "name": "",
+  "init_effect": "",
+  "id": 150025,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

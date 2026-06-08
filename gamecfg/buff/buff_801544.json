@@ -1,0 +1,38 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 801540
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 801540,
+        "buff_id_list": [
+          801542,
+          801544
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801540,
+  "name": "",
+  "init_effect": "",
+  "id": 801544,
+  "stack": 2,
+  "time": 15,
+  "last_effect": ""
+}

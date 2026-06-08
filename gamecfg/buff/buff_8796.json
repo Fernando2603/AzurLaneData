@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.15,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "desc": "伤害上升",
+  "picture": "",
+  "icon": 8795,
+  "name": "伤害上升",
+  "init_effect": "",
+  "id": 8796,
+  "stack": 1,
+  "time": 0,
+  "last_effect": "zhihuiRing02_buff"
+}

@@ -1,0 +1,45 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -3
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "last_effect_stack": true,
+  "icon": 200206,
+  "id": 200206,
+  "name": "黑亚利桑那 扩散的哀伤",
+  "init_effect": "",
+  "picture": "",
+  "stack": 20,
+  "time": 0,
+  "last_effect": "RedEyes"
+}

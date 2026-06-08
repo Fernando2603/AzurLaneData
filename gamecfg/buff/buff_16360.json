@@ -1,0 +1,74 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 1,
+        "buff_id": 16361,
+        "nationality": 5,
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": 5,
+        "skill_id": 16360,
+        "check_target": "TargetNationalityFriendly"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetNationalityFriendly"
+        ],
+        "minTargetNumber": 2,
+        "buff_id": 16362,
+        "nationality": 5
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 16362,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "desc": "出击时，自身所在编队中每有一个东煌阵营角色，自身的航空、命中属性提升$1；若队伍中存在其他东煌阵营角色，降低自己$2受到的伤害，自身发动空袭后，降低队伍中先锋角色受到的伤害$3，持续8秒。",
+  "picture": "",
+  "icon": 16360,
+  "name": "广结善缘",
+  "init_effect": "",
+  "id": 16360,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

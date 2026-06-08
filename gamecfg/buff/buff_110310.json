@@ -1,0 +1,36 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "target": "TargetSelf",
+        "attr": "luck",
+        "number": 9
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 110310,
+  "name": "",
+  "init_effect": "",
+  "id": 110310,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

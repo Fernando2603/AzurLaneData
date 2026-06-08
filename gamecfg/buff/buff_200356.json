@@ -1,0 +1,38 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200353,
+        "quota": 1,
+        "time": 35
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHarm",
+        "buff_id": 200350,
+        "time": 37,
+        "quota": 1
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200356,
+  "name": "2023英系活动 剧情战2 我方定时触发",
+  "init_effect": "",
+  "id": 200356,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,47 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.3,
+        "attr": "accuracyRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 331,
+        "time": 2,
+        "quota": 1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          331
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 330,
+  "name": "额外命中下降",
+  "init_effect": "",
+  "id": 330,
+  "stack": 1,
+  "time": 4,
+  "last_effect": "Darkness"
+}

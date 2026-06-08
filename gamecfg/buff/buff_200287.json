@@ -1,0 +1,47 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200281,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200287,
+        "quota": 1,
+        "time": 0.1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 2,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200287,
+  "name": "2023英系活动 EX 进入虚弱状态",
+  "init_effect": "",
+  "id": 200287,
+  "stack": 1,
+  "time": 8,
+  "last_effect": "xuanyun"
+}

@@ -1,0 +1,29 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ],
+        "buff_id": 200423,
+        "maxTargetNumber": 0,
+        "nationality": 1
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200422,
+  "name": "2023俾斯麦Z活动 TS2女灶神meta 召唤小怪 监听",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

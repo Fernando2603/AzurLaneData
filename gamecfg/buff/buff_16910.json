@@ -1,0 +1,64 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "",
+  "effect_list": [
+    {
+      "arg_list": {
+        "buff_id": 16911
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.333
+          ],
+          [
+            0.333,
+            0.666
+          ],
+          [
+            0.666,
+            1
+          ]
+        ],
+        "time": 20,
+        "skill_id_list": [
+          16910,
+          16911,
+          16912
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 16910,
+  "id": 16910,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

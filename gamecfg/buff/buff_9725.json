@@ -1,0 +1,35 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 9725,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 30,
+        "skill_id": 9725
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 9725,
+  "name": "主线15章召唤烟幕发生蛋船",
+  "init_effect": "",
+  "id": 9725,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

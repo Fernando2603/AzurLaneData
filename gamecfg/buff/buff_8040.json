@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onShieldBroken"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countType": 8041,
+        "countTarget": 3,
+        "shieldBuffID": 8039
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8041,
+        "countType": 8041,
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "第6章重巡使用盾buff",
+  "picture": "",
+  "icon": 8040,
+  "name": "第9章重巡使用盾buff",
+  "init_effect": "",
+  "id": 8040,
+  "stack": 1,
+  "time": 99999,
+  "last_effect": ""
+}

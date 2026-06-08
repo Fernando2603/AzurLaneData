@@ -1,0 +1,51 @@
+{
+  "color": "blue",
+  "desc_get": "",
+  "desc": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 106398,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Shizuku_33LowSelf"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Shizuku_33LowSelf"
+        ],
+        "skill_id": 106399
+      }
+    }
+  ],
+  "picture": "",
+  "icon": 106390,
+  "name": "",
+  "init_effect": "",
+  "id": 106398,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

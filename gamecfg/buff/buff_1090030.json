@@ -1,0 +1,75 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 1090034,
+        "label": [
+          "USS"
+        ],
+        "check_weapon": true,
+        "maxWeaponNumber": 0
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 1090035,
+        "label": [
+          "USS"
+        ],
+        "minWeaponNumber": 1,
+        "check_weapon": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1090032
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 1090033,
+        "target": "TargetSelf",
+        "time": 20,
+        "rant": 2500
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 4090,
+  "name": "",
+  "init_effect": "",
+  "id": 1090030,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

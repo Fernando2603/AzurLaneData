@@ -1,0 +1,56 @@
+{
+  "1": [],
+  "2": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200917,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200918,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8002
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8976
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200918,
+  "name": "2024阿尔萨斯活动 自爆船BUFF",
+  "init_effect": "",
+  "id": 200918,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

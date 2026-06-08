@@ -1,0 +1,35 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeTakeDamage"
+      ],
+      "type": "BattleBuffFixDamage",
+      "arg_list": {
+        "target": "TargetSelf",
+        "value": 1,
+        "time": 0,
+        "rant": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 15
+      }
+    }
+  ],
+  "desc": "战斗对象每隔15秒，生成一个受到前15次攻击伤害必定为1的护盾，持续8秒",
+  "picture": "",
+  "icon": 73400,
+  "name": "隐形装甲",
+  "init_effect": "",
+  "id": 73401,
+  "stack": 1,
+  "time": 8,
+  "last_effect": "Shield_enemy"
+}

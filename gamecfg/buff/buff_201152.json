@@ -1,0 +1,43 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "nationality": 96,
+        "buff_id": 201153,
+        "maxTargetNumber": 0,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "buff_id": 201154,
+        "nationality": 96,
+        "check_target": [
+          "TargetSelf",
+          "TargetNationality"
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201152,
+  "name": "2024风帆二期活动 寂静之海",
+  "init_effect": "",
+  "id": 201152,
+  "stack": 1,
+  "time": 1,
+  "last_effect": ""
+}

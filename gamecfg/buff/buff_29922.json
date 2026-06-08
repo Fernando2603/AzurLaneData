@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29920,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29920,
+        "skill_id": 29922
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 3,
+        "nationality": 6,
+        "skill_id": 29922,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ]
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-加里波第II",
+  "picture": "",
+  "icon": 29920,
+  "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29922,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

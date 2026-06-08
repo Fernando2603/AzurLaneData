@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "Albion"
+      }
+    },
+    {
+      "trigger": [
+        "onAircraftCreate"
+      ],
+      "type": "BattleBuffAddAircraftTag",
+      "arg_list": {
+        "tag_list": [
+          "Albion"
+        ]
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 16150,
+  "name": "",
+  "init_effect": "",
+  "id": 16152,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

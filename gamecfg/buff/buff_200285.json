@@ -1,0 +1,56 @@
+{
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200281,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 200282,
+        "quota": 1,
+        "time": 0.5
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 200285,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 200282
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200285,
+  "name": "2023英系活动 EX 发射器机制应对成功",
+  "init_effect": "",
+  "id": 200285,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

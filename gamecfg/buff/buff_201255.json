@@ -1,0 +1,44 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSwitchShader",
+      "arg_list": {
+        "invisible": 0.1,
+        "shader": "GRID_TRANSPARENT"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffSetBattleUnitType",
+      "arg_list": {
+        "value": -100
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "time": 0.1,
+        "buff_id": 201260
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 201255,
+  "name": "2025拉斐尔活动 新EX模式我方判定更改",
+  "init_effect": "",
+  "id": 201255,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

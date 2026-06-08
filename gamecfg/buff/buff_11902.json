@@ -1,0 +1,34 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 11901,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          11903
+        ]
+      }
+    }
+  ],
+  "desc": "敌方效果",
+  "picture": "",
+  "icon": 11900,
+  "name": "816中队",
+  "init_effect": "",
+  "id": 11902,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

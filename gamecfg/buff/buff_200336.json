@@ -1,0 +1,46 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetNationalityFriendly"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200337,
+        "nationality": 8,
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetNationalityFriendly"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200337,
+        "nationality": 9,
+        "isBuffStackByCheckTarget": true
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 200336,
+  "name": "2023英系活动 信仰加护-Iris",
+  "init_effect": "",
+  "id": 200336,
+  "stack": 1,
+  "time": 3,
+  "last_effect": ""
+}

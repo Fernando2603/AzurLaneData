@@ -1,0 +1,36 @@
+{
+  "1": [],
+  "2": [],
+  "init_effect": "",
+  "picture": "",
+  "name": "2025约战联动 L4 BOSS 反击弹幕",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "keep": true,
+        "maxHPRatio": 0.2,
+        "countTarget": 1,
+        "countType": 201559
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 201560,
+        "countType": 201559
+      }
+    }
+  ],
+  "id": 201559,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

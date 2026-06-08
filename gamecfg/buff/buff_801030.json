@@ -1,0 +1,61 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801030
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801031,
+        "maxTargetNumber": 2,
+        "check_target": [
+          "TargetAllHelp"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "exceptCaster": true,
+        "minTargetNumber": 2,
+        "buff_id": 801032,
+        "check_target": [
+          "TargetAllHelp"
+        ],
+        "isBuffStackByCheckTarget": true
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801030,
+  "name": "",
+  "init_effect": "",
+  "id": 801030,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

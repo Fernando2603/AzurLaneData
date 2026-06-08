@@ -1,0 +1,48 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "buff_id": 105041,
+        "ship_tag_list": [
+          "hololive"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 105041,
+        "time": 20
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 105040,
+  "name": "比大海更深邃的天空下",
+  "init_effect": "",
+  "id": 105040,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

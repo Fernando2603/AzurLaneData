@@ -1,0 +1,32 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "HIME"
+        ],
+        "skill_id": 108350
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 108350,
+  "name": "",
+  "init_effect": "",
+  "id": 108350,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,78 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "red",
+  "effect_list": [
+    {
+      "arg_list": {
+        "buff_id": 19872
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "pop": []
+    },
+    {
+      "trigger": [
+        "onChargeWeaponReady"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 19870,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onFriendlyAircraftDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 19871,
+        "templateID": 61032
+      }
+    },
+    {
+      "trigger": [
+        "onFriendlyAircraftDying"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "templateID": 61032,
+        "countType": 19870,
+        "countTarget": 2
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19870,
+        "quota": 1,
+        "skill_id": 19872
+      }
+    }
+  ],
+  "desc": "",
+  "desc_get": "",
+  "icon": 19870,
+  "id": 19870,
+  "name": "",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

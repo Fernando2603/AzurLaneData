@@ -1,0 +1,36 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrCommander",
+      "arg_list": {
+        "convertRate": -0.00025,
+        "ability": "support",
+        "convertAttr": "injureRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "convertRate": 0.8,
+        "ability": "support",
+        "convertAttr": "loadSpeed"
+      }
+    }
+  ],
+  "desc": "战列受到炮击减伤,+装填",
+  "picture": "",
+  "icon": 40310,
+  "name": "",
+  "init_effect": "",
+  "id": 40311,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

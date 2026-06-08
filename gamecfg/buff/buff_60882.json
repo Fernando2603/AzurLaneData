@@ -1,0 +1,49 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 25,
+        "countType": 60880
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 60883,
+        "quota": 1,
+        "countType": 60880
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 60880,
+        "quota": 1,
+        "skill_id": 60881
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 60880,
+  "name": "",
+  "init_effect": "",
+  "id": 60881,
+  "stack": 25,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,78 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 801120,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 801122,
+        "countType": 801120,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "PastGlory"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "countType": 801120,
+        "ship_tag_list": [
+          "PastGlory"
+        ],
+        "skill_id": 801124
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801127,
+        "dungeonTypeList": [
+          98,
+          99
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801120,
+  "name": "",
+  "init_effect": "",
+  "id": 801127,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

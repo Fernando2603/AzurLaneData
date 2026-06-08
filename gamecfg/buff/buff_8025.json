@@ -1,0 +1,36 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onShieldBroken"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countType": 8026,
+        "countTarget": 3,
+        "shieldBuffID": 8024
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8026,
+        "countType": 8026,
+        "rant": 10000
+      }
+    }
+  ],
+  "desc": "第4章重巡使用盾buff",
+  "picture": "",
+  "icon": 8025,
+  "name": "第4章重巡使用盾buff",
+  "init_effect": "",
+  "id": 8025,
+  "stack": 1,
+  "time": 99999,
+  "last_effect": ""
+}

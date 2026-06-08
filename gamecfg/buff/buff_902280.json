@@ -1,0 +1,67 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddProficiency",
+      "arg_list": {
+        "number": 0.1,
+        "label": [
+          "FT"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddProficiency",
+      "arg_list": {
+        "number": 0.1,
+        "label": [
+          "TB"
+        ]
+      }
+    }
+  ],
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "desc": "",
+  "shipInfoScene": {
+    "equip": [
+      {
+        "number": 10,
+        "label": [
+          "FT"
+        ],
+        "check_label": [
+          "FT"
+        ]
+      },
+      {
+        "number": 10,
+        "label": [
+          "TB"
+        ],
+        "check_label": [
+          "TB"
+        ]
+      }
+    ]
+  },
+  "picture": "",
+  "icon": 902280,
+  "name": "空域演训",
+  "init_effect": "jinengchufared",
+  "id": 902280,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

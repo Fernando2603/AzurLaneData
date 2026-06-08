@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行24次攻击，触发专属弹幕-若月I"
+  },
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 29940,
+        "countTarget": 24
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29940,
+        "skill_id": 29941
+      }
+    }
+  ],
+  "desc": "主炮每进行24次攻击，触发专属弹幕-若月I",
+  "picture": "",
+  "icon": 29940,
+  "name": "全弹发射",
+  "init_effect": "",
+  "id": 29941,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

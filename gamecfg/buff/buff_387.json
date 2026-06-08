@@ -1,0 +1,45 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "Zhenhaihei"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          386
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          388
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 387,
+  "name": "",
+  "init_effect": "",
+  "id": 387,
+  "stack": 1,
+  "time": 2,
+  "last_effect": ""
+}

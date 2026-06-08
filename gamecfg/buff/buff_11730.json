@@ -1,0 +1,45 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 15,
+        "skill_id": 11730
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "delay": 16,
+        "count": 0
+      }
+    }
+  ],
+  "desc": "战斗开始后15秒发动，提高全队$2炮击、装填、机动属性，持续20秒",
+  "picture": "",
+  "icon": 11730,
+  "name": "LittleStar",
+  "init_effect": "",
+  "id": 11730,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

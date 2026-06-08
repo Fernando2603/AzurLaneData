@@ -1,0 +1,35 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 406
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          13731
+        ],
+        "countType": 406
+      }
+    }
+  ],
+  "desc": "标记",
+  "picture": "",
+  "icon": 406,
+  "name": "",
+  "init_effect": "",
+  "id": 406,
+  "stack": 3,
+  "time": 2,
+  "last_effect": ""
+}

@@ -1,0 +1,32 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 902361
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 902361
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 902360,
+  "name": "",
+  "init_effect": "",
+  "id": 902360,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

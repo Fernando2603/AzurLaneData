@@ -1,0 +1,59 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "parallelMG"
+        ],
+        "skill_id": 6261
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 6260,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "parallelMG"
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 6265
+      }
+    }
+  ],
+  "desc": "第一轮主炮准备时间缩短15%",
+  "picture": "",
+  "icon": 6260,
+  "name": "精确锁定·改",
+  "init_effect": "",
+  "id": 6265,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

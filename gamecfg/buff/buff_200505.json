@@ -1,0 +1,46 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ],
+        "buff_id": 200508,
+        "maxTargetNumber": 0,
+        "nationality": 99
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ],
+        "buff_id": 200506,
+        "maxTargetNumber": 0,
+        "nationality": 99
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200505,
+  "name": "2023古立特联动复刻 TSS4 公主 一阶段",
+  "init_effect": "",
+  "picture": "",
+  "stack": 99,
+  "time": 0.5,
+  "last_effect": ""
+}

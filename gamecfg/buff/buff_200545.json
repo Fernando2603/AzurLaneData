@@ -1,0 +1,100 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffRegisterWaveFlags",
+      "arg_list": {
+        "flags": [
+          200545
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -600,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -600,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -600,
+        "attr": "antiAirPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -600,
+        "attr": "airPower"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -600,
+        "attr": "loadSpeed"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -600,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -600,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "desc": "",
+  "id": 200545,
+  "name": "2023克莱蒙梭活动 陆上神国II 玩家属性压制",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

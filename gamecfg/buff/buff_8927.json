@@ -1,0 +1,32 @@
+{
+  "effect_list": [
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8927,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 8929,
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "icon": 8927,
+  "id": 8927,
+  "name": "毛系V3 EX空袭反制 监听我方舰船是否发动空袭/雷击",
+  "init_effect": "",
+  "picture": "",
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

@@ -1,0 +1,42 @@
+{
+  "color": "red",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "KalaSPW"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "elfadd"
+        ],
+        "time": 1,
+        "skill_id": 109350
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 109350,
+  "name": "",
+  "init_effect": "",
+  "id": 109350,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

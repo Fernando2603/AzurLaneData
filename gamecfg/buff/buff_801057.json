@@ -1,0 +1,51 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "countType": 801050,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 801050,
+        "skill_id": 801052
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 801057,
+        "dungeonTypeList": [
+          98,
+          99
+        ]
+      }
+    }
+  ],
+  "desc": "",
+  "picture": "",
+  "icon": 801050,
+  "name": "",
+  "init_effect": "",
+  "id": 801057,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}

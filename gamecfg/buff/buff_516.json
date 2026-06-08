@@ -1,0 +1,34 @@
+{
+  "color": "yellow",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 517
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineAid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 517
+      }
+    }
+  ],
+  "desc": "舰队减伤提高",
+  "picture": "",
+  "icon": 516,
+  "name": "活动buff-建筑效果-战斗减伤提高",
+  "init_effect": "",
+  "id": 516,
+  "stack": 1,
+  "time": 0,
+  "last_effect": ""
+}
