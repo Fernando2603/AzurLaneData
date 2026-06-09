@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "毁灭",
+  "picture": "",
+  "desc": "战斗对象登场后，每15秒对全体在场舰队造成5%伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,22 +11,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "targetMaxHPRatio": 1,
-        "check_target": "TargetSelf",
-        "minTargetNumber": 1,
         "skill_id": 59140,
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
         "time": 15,
-        "target": "TargetSelf"
+        "check_target": "TargetSelf",
+        "targetMaxHPRatio": 1
       }
     }
   ],
-  "desc": "战斗对象登场后，每15秒对全体在场舰队造成5%伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 59140,
-  "name": "毁灭",
-  "init_effect": "",
+  "color": "red",
   "id": 59140,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

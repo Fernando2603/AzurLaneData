@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,14 +19,14 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 3
+        "add": 3,
+        "mul": 0
       }
     },
     {
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 19641
+        "buff_id": 19641,
+        "target": "TargetSelf"
       },
       "trigger": [
         "onStartGame"
@@ -39,24 +40,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 19640,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "FFNF"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19640,
   "id": 19640,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

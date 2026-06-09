@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "双影无双",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "Uruuru"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 103101,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 103101,
-        "ship_tag_list": [
-          "Uruuru"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,22 +36,21 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "cri",
         "index": [
           -1
-        ]
+        ],
+        "number": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 103100,
   "id": 103100,
-  "name": "双影无双",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

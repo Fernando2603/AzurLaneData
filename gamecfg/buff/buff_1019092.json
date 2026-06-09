@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "主炮炮弹修改为穿甲弹，主炮进行2次攻击，切换为高爆弹",
+  "name": "专业装填手",
+  "picture": "",
   "desc": "主炮炮弹修改为穿甲弹，主炮进行2次攻击，切换为高爆弹",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "主炮炮弹修改为穿甲弹，主炮进行2次攻击，切换为高爆弹",
   "effect_list": [
     {
       "trigger": [
@@ -10,10 +13,10 @@
       ],
       "type": "BattleBuffShiftBullet",
       "arg_list": {
+        "bullet_id": 160993,
         "index": [
           1
-        ],
-        "bullet_id": 160993
+        ]
       }
     },
     {
@@ -22,11 +25,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 2,
         "index": [
           1
         ],
-        "countType": 1019093,
-        "countTarget": 2
+        "countType": 1019093
       }
     },
     {
@@ -35,8 +38,8 @@
       ],
       "type": "BattleBuffCancelBuff",
       "arg_list": {
-        "count": 1,
         "countType": 1019093,
+        "count": 1,
         "delay": 1.5
       }
     },
@@ -46,17 +49,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1019090,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1019090
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 19090,
-  "name": "专业装填手",
-  "init_effect": "",
+  "color": "red",
   "id": 1019091,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

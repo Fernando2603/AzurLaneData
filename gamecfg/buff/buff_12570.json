@@ -119,7 +119,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -127,12 +128,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 12570,
+        "minWeaponNumber": 1,
         "label": [
           "Albacore"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -145,13 +146,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 12570,
-  "name": "",
-  "init_effect": "",
-  "id": 12570,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12570,
+  "id": 12570,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

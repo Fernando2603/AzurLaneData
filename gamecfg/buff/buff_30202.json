@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-火力II"
   },
-  "color": "red",
+  "name": "专属弹幕-火力II",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 30200,
         "index": [
           1
         ],
-        "countType": 30200,
-        "countTarget": 10,
-        "gunnerBonus": true
+        "countTarget": 10
       }
     },
     {
@@ -24,9 +25,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30202,
         "countType": 30200,
-        "skill_id": 30202
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,21 +36,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 30200,
+        "rant": 5000,
         "skill_id": 30203,
-        "rant": 5000
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-火力II",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行10次攻击，触发专属弹幕-火力II",
+  "last_effect": "",
   "icon": 30200,
   "id": 30202,
-  "name": "专属弹幕-火力II",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行10次攻击，触发专属弹幕-火力II"
 }

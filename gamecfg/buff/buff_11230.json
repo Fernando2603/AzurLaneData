@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "吴之雪风",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "targetMaxHPRatio": 0.2,
-        "hpUpperBound": 0.2,
-        "quota": 1,
+        "skill_id": 11230,
+        "minTargetNumber": 1,
         "check_target": [
           "TargetPlayerMainFleet",
           "TargetHelpLeastHP"
         ],
-        "minTargetNumber": 1,
-        "skill_id": 11230
+        "quota": 1,
+        "hpUpperBound": 0.2,
+        "targetMaxHPRatio": 0.2
       }
     },
     {
@@ -46,14 +47,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 11230,
   "id": 11230,
-  "name": "吴之雪风",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

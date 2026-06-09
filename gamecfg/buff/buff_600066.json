@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +12,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 600062,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "zhongdu"
         ],
-        "skill_id": 600062
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 600066,
-  "name": "",
-  "init_effect": "",
   "id": 600066,
-  "stack": 99,
-  "time": 3,
-  "last_effect": ""
+  "stack": 99
 }

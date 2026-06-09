@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "鬼怒",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,37 +18,36 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12850,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12850
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 12852,
-        "shipType": 8
+        "shipType": 8,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 12852,
-        "shipType": 17
+        "shipType": 17,
+        "target": "TargetPlayerByType"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12850,
   "id": 12850,
-  "name": "鬼怒",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

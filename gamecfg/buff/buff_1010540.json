@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,14 +22,14 @@
           1,
           2
         ],
-        "exceptCaster": true,
         "minTargetNumber": 1,
-        "buff_id": 1010541,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "isBuffStackByCheckTarget": true
+        "buff_id": 1010541,
+        "isBuffStackByCheckTarget": true,
+        "exceptCaster": true
       }
     },
     {
@@ -37,7 +38,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "nationality": [
           1,
           2
@@ -46,7 +46,8 @@
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -55,7 +56,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 4,
         "nationality": [
           1,
           2
@@ -64,18 +64,18 @@
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 4
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 10540,
   "id": 1010540,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

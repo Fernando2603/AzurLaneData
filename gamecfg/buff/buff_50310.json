@@ -1,23 +1,23 @@
 {
-  "color": "yellow",
+  "name": "敌方指挥舰指挥技能——防御提升",
+  "picture": "",
+  "desc": "指挥技能——伤害上升",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 50311,
+        "target": "TargetAllHelp",
         "exceptCaster": true
       }
     }
   ],
-  "desc": "指挥技能——伤害上升",
-  "picture": "",
+  "last_effect": "",
   "icon": 50310,
-  "name": "敌方指挥舰指挥技能——防御提升",
-  "init_effect": "",
+  "color": "yellow",
   "id": 50310,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

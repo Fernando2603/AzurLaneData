@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.035,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.035
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.04,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.04
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.045,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.045
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.05,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.05
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.055,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.055
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.06,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.06
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.065,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.065
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.07,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.07
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.075,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.075
         }
       }
     ]
@@ -143,12 +143,14 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.08,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.08
         }
       }
     ]
   },
+  "name": "女将改-自身",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,25 +159,23 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.035,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.035
       }
     }
   ],
+  "time": 80,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 12970,
+  "id": 12972,
+  "stack": 1,
+  "desc": "减伤",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "减伤",
-  "picture": "",
-  "icon": 12970,
-  "name": "女将改-自身",
-  "init_effect": "jinengchufablue",
-  "id": 12972,
-  "stack": 1,
-  "time": 80,
-  "last_effect": ""
+  ]
 }

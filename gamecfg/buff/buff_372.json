@@ -1,4 +1,9 @@
 {
+  "name": "苍龙META 特殊航空进水",
+  "picture": "",
+  "desc": "苍龙斩击进水持续伤害",
+  "time": 9.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 2,
-        "number": 5,
         "attr": "airPower",
+        "dotType": 2,
+        "k": 0.3,
         "time": 3,
-        "k": 0.3
+        "number": 5
       }
     },
     {
@@ -24,13 +29,8 @@
       }
     }
   ],
-  "desc": "苍龙斩击进水持续伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 372,
-  "name": "苍龙META 特殊航空进水",
-  "init_effect": "",
   "id": 372,
-  "stack": 1,
-  "time": 9.1,
-  "last_effect": ""
+  "stack": 1
 }

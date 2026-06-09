@@ -1,4 +1,9 @@
 {
+  "name": "2023俾斯麦Z活动 TS2女灶神meta 召唤小怪 随机列表",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffCleanse",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id_list": [
           200422,
           200423
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,7 +24,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           200421,
           200422,
@@ -38,16 +42,12 @@
             0.67,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200424,
-  "name": "2023俾斯麦Z活动 TS2女灶神meta 召唤小怪 随机列表",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

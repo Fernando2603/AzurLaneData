@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,28 +18,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 801801,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "kawakaze_hit"
+        ],
         "quota": 1,
         "check_target": [
           "TargetAllFoe",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "kawakaze_hit"
-        ],
-        "skill_id": 801801
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 801800,
   "id": 801802,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "desc": ""
 }

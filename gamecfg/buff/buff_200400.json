@@ -1,4 +1,9 @@
 {
+  "name": "2023俾斯麦Z活动 侵蚀等级1 不良效果",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.01,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.01
       }
     },
     {
@@ -16,17 +21,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.01,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.01
       }
     }
   ],
-  "desc": "",
+  "last_effect": "qinshibuff1",
   "id": 200400,
-  "name": "2023俾斯麦Z活动 侵蚀等级1 不良效果",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": "qinshibuff1"
+  "stack": 1
 }

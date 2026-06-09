@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "全弹发射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,19 +10,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 800812
+        "skill_id": 800812,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 800810,
-  "name": "全弹发射",
-  "init_effect": "",
-  "id": 800812,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 800810,
+  "id": 800812,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

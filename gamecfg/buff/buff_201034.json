@@ -1,4 +1,9 @@
 {
+  "name": "2024瑞凤活动 TP 假面赤城召唤物死亡后重复召唤",
+  "picture": "",
+  "desc": "",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +12,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 201032,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "buff_id": 201032,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "BOSS"
         ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201034,
-  "name": "2024瑞凤活动 TP 假面赤城召唤物死亡后重复召唤",
-  "init_effect": "",
   "id": 201034,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 1
 }

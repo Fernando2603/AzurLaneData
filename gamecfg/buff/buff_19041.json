@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "底力爆发",
+  "picture": "",
+  "desc": "",
+  "time": 9,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,22 +11,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "targetMaxHPRatio": 0.99,
-        "check_target": "TargetSelf",
-        "minTargetNumber": 1,
         "skill_id": 19043,
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
         "time": 2,
-        "target": "TargetSelf"
+        "check_target": "TargetSelf",
+        "targetMaxHPRatio": 0.99
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 19040,
-  "name": "底力爆发",
-  "init_effect": "",
+  "color": "blue",
   "id": 19041,
-  "stack": 1,
-  "time": 9,
-  "last_effect": ""
+  "stack": 1
 }

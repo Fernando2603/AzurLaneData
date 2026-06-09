@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行8次攻击，触发专属弹幕-小安克雷奇II"
   },
-  "color": "red",
+  "name": "专属弹幕-小安克雷奇II",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 8,
         "index": [
           1
         ],
-        "countType": 30450,
-        "countTarget": 8
+        "countType": 30450
       }
     },
     {
@@ -23,20 +24,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30452,
         "countType": 30450,
-        "skill_id": 30452
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行8次攻击，触发专属弹幕-小安克雷奇II",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行8次攻击，触发专属弹幕-小安克雷奇II",
+  "last_effect": "",
   "icon": 20200,
   "id": 30452,
-  "name": "专属弹幕-小安克雷奇II",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行8次攻击，触发专属弹幕-小安克雷奇II"
 }

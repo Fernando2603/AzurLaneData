@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024阿尔萨斯活动 拟态驱逐BOSS 命中光环",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,13 +11,13 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 200949,
         "cld_data": {
           "box": {
             "range": 50
           }
-        },
-        "buff_id": 200949,
-        "friendly_fire": true
+        }
       }
     },
     {
@@ -31,13 +35,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200948,
-  "name": "2024阿尔萨斯活动 拟态驱逐BOSS 命中光环",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200948,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

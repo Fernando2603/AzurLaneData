@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "风帆蛋船 运输船狂热光环",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.03
       }
     },
     {
@@ -17,25 +21,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.03,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.03
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 200617,
+  "color": "blue",
+  "id": 200617,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 200617,
-  "name": "风帆蛋船 运输船狂热光环",
-  "init_effect": "",
-  "id": 200617,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

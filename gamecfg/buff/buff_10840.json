@@ -29,7 +29,8 @@
   "10": {
     "desc": "决死突袭"
   },
-  "color": "red",
+  "name": "决死突袭",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -38,23 +39,22 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "skill_id": 10840,
-        "quota": 1,
         "maxTargetNumber": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "quota": 1
       }
     }
   ],
-  "desc": "当由于战斗减员导致自身成为先锋仅存的角色时，自身伤害提高50.0%，受到伤害提高20.0%",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "当由于战斗减员导致自身成为先锋仅存的角色时，自身伤害提高50.0%，受到伤害提高20.0%",
+  "last_effect": "",
   "icon": 10840,
   "id": 10840,
-  "name": "决死突袭",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "当由于战斗减员导致自身成为先锋仅存的角色时，自身伤害提高50.0%，受到伤害提高20.0%"
 }

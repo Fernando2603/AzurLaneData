@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,12 +18,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
         "buff_id": 16442,
         "check_target": [
           "TargetSelf",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -31,23 +32,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
         "buff_id": 16443,
         "check_target": [
           "TargetSelf",
           "TargetPlayerMainFleet"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16440,
   "id": 16444,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "desc": ""
 }

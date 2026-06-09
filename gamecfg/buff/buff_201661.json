@@ -1,4 +1,8 @@
 {
+  "id": 201661,
+  "name": "2025列克星敦II活动 SP BOSS阶段计数",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8692,
-        "target": "TargetHarmFarthest"
+        "target": "TargetHarmFarthest",
+        "skill_id": 8692
       }
     },
     {
@@ -40,8 +44,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 201661
+        "countType": 201661,
+        "countTarget": 3
       }
     },
     {
@@ -50,17 +54,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200440,
-        "countType": 201661
+        "countType": 201661,
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201661,
-  "name": "2025列克星敦II活动 SP BOSS阶段计数",
-  "init_effect": "",
-  "picture": "",
-  "stack": 10,
   "time": 0,
-  "last_effect": ""
+  "stack": 10,
+  "init_effect": ""
 }

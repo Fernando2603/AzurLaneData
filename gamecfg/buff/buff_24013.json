@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,16 +10,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 24021,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Qinglong"
         ],
-        "skill_id": 24021
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,16 +29,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 24033,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Zhuque"
         ],
-        "skill_id": 24033
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -47,16 +48,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 24043,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Baihu"
         ],
-        "skill_id": 24043
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -66,26 +67,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 24051,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Xuanwu"
         ],
-        "skill_id": 24051
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 12680,
-  "name": "",
-  "init_effect": "",
-  "id": 24013,
-  "stack": 2,
   "time": 3,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12680,
+  "id": 24013,
+  "color": "red",
+  "stack": 2,
+  "desc": ""
 }

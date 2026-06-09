@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024天城航母活动 苍红之炎 支援弹幕 灼烧效果",
+  "picture": "",
+  "desc": "",
+  "time": 8.5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201102,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201102
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 2,
-        "skill_id": 201102
+        "skill_id": 201102,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "cangyanzhuoshao",
   "icon": 201101,
-  "name": "2024天城航母活动 苍红之炎 支援弹幕 灼烧效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 201101,
-  "stack": 1,
-  "time": 8.5,
-  "last_effect": "cangyanzhuoshao"
+  "stack": 1
 }

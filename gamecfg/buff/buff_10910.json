@@ -16,10 +16,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 450
+          "rant": 450,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -41,10 +41,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 520
+          "rant": 520,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -66,10 +66,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 600
+          "rant": 600,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -91,10 +91,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 700
+          "rant": 700,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -116,10 +116,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 770
+          "rant": 770,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -141,10 +141,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 850
+          "rant": 850,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -166,10 +166,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 950
+          "rant": 950,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -191,10 +191,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1020
+          "rant": 1020,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -216,10 +216,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1100
+          "rant": 1100,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -241,15 +241,16 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 10911,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1200
+          "rant": 1200,
+          "skill_id": 10911,
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "yellow",
+  "name": "新生重樱联合",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -266,28 +267,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 10911,
-        "target": "TargetSelf",
         "time": 0,
-        "rant": 450
+        "rant": 450,
+        "skill_id": 10911,
+        "target": "TargetSelf"
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "desc_get": "自身受到伤害时，4.5%（12.0%）概率减少50.0%伤害，作为旗舰出击时，重樱群岛全员炮击、装填提高5.0%（20.0%）",
+  "icon": 10910,
+  "id": 10910,
+  "stack": 1,
+  "color": "yellow",
+  "desc": "自身受到伤害时，4.5%（12.0%）概率减少50.0%伤害，作为旗舰出击时，重樱群岛全员炮击、装填提高5.0%（20.0%）",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "自身受到伤害时，4.5%（12.0%）概率减少50.0%伤害，作为旗舰出击时，重樱群岛全员炮击、装填提高5.0%（20.0%）",
-  "desc_get": "自身受到伤害时，4.5%（12.0%）概率减少50.0%伤害，作为旗舰出击时，重樱群岛全员炮击、装填提高5.0%（20.0%）",
-  "icon": 10910,
-  "id": 10910,
-  "name": "新生重樱联合",
-  "init_effect": "jinengchufablue",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

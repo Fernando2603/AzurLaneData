@@ -1,4 +1,9 @@
 {
+  "name": "2022意大利活动 奥古斯都之视",
+  "picture": "",
+  "desc": "每场战斗开始时我方全体回复自身3%的耐久",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,17 +11,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200013,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200013
       }
     }
   ],
-  "desc": "每场战斗开始时我方全体回复自身3%的耐久",
+  "last_effect": "",
   "id": 200014,
-  "name": "2022意大利活动 奥古斯都之视",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

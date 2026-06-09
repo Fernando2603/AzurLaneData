@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16692,
         "ship_tag_list": [
           "Naerxunrateup"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 16692,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -35,10 +36,10 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 16692,
-        "maxTargetNumber": 2,
         "check_target": [
           "TargetAllHarm"
-        ]
+        ],
+        "maxTargetNumber": 2
       }
     },
     {
@@ -47,22 +48,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 3,
         "buff_id": 16693,
         "check_target": [
           "TargetAllHarm"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16690,
   "id": 16690,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

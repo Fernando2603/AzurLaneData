@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "战斗底力-炮击",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.5,
         "quota": 1,
-        "skill_id": 902020
+        "skill_id": 902020,
+        "hpUpperBound": 0.5,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 902020,
-  "name": "战斗底力-炮击",
-  "init_effect": "",
+  "color": "red",
   "id": 902020,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

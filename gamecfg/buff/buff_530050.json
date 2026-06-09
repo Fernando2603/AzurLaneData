@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "连击清零",
+  "picture": "",
+  "desc": "8秒内没有新的连击，连击清零",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleCardPuzzleFleetBuffSetFleetAttr",
       "arg_list": {
-        "number": 0,
-        "attr": "CardCombo"
+        "attr": "CardCombo",
+        "number": 0
       }
     }
   ],
-  "desc": "8秒内没有新的连击，连击清零",
-  "picture": "",
+  "last_effect": "",
   "icon": 30001,
-  "name": "连击清零",
-  "init_effect": "",
+  "color": "yellow",
   "id": 530050,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  "stack": 1
 }

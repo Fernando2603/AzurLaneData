@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "贝奇1",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12560,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12560
       }
     },
     {
@@ -27,20 +28,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 12561,
         "time": 8,
-        "rant": 2500
+        "rant": 2500,
+        "skill_id": 12561,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 12560,
-  "name": "贝奇1",
-  "init_effect": "",
-  "id": 12560,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12560,
+  "id": 12560,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

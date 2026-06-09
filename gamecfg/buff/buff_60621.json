@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,28 +11,24 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipType"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 60641,
         "ship_type_list": [
           1,
           20,
           21
-        ]
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 60641,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60610,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 60621,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

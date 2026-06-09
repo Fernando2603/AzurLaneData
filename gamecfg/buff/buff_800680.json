@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 800680,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "METASheffieldFire"
         ],
-        "skill_id": 800680
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,22 +36,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "rant": 10000,
         "index": [
           1
         ],
-        "buff_id": 800681,
-        "rant": 10000
+        "buff_id": 800681
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 800680,
   "id": 800680,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

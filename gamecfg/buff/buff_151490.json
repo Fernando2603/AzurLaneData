@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "歼灭武装",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,14 +27,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "fleetPos": "Leader",
+        "skill_id": 151491,
         "minTargetNumber": 1,
-        "nationality": 8,
+        "fleetPos": "Leader",
         "check_target": [
           "TargetFleetIndex",
           "TargetNationalityFriendly"
         ],
-        "skill_id": 151491
+        "nationality": 8
       }
     },
     {
@@ -42,14 +43,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "fleetPos": "Leader",
+        "skill_id": 151491,
         "minTargetNumber": 1,
-        "nationality": 9,
+        "fleetPos": "Leader",
         "check_target": [
           "TargetFleetIndex",
           "TargetNationalityFriendly"
         ],
-        "skill_id": 151491
+        "nationality": 9
       }
     },
     {
@@ -73,14 +74,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151490,
   "id": 151490,
-  "name": "歼灭武装",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

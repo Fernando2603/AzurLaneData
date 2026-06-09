@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "记录修正-AF 白鹰角色在战斗中造成的伤害降低5%，受到的伤害降低5%",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.05,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.05
       }
     },
     {
@@ -19,18 +23,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.05,
-        "attr": "damageGetRatio"
+        "attr": "damageGetRatio",
+        "number": -0.05
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8875,
-  "name": "记录修正-AF 白鹰角色在战斗中造成的伤害降低5%，受到的伤害降低5%",
-  "init_effect": "",
+  "color": "yellow",
   "id": 8875,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

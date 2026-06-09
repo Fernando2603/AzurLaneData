@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,12 +19,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 112238,
         "check_target": [
           "TargetShipTag"
         ],
-        "buff_id": 112238,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "Yumia"
         ]
@@ -36,25 +37,24 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
+        "ship_tag_list": [
+          "Yumia"
         ],
         "minTargetNumber": 1,
         "buff_id": 112237,
-        "ship_tag_list": [
-          "Yumia"
-        ]
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 112230,
-  "name": "",
-  "init_effect": "",
-  "id": 112236,
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 112230,
+  "id": 112236,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

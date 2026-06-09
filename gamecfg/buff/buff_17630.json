@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 17631,
-        "time": 10
+        "time": 10,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,11 +29,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "buff_id": 17632,
         "killer_weapon_id": [
           164060,
           164070
         ],
-        "buff_id": 17632,
         "initialCD": true
       }
     },
@@ -42,22 +43,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
+        "skill_id": 17631,
         "minTargetNumber": 1,
         "nationality": 7,
-        "skill_id": 17631,
+        "check_target": "TargetNationalityFriendly",
         "exceptCaster": true
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17630,
   "id": 17630,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

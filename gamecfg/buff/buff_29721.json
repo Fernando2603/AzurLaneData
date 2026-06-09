@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,19 +10,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 29721
+        "skill_id": 29721,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "进入战斗后，触发专属弹幕-大青花鱼I",
-  "picture": "",
-  "icon": 29720,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29721,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29720,
+  "id": 29721,
+  "color": "red",
+  "stack": 1,
+  "desc": "进入战斗后，触发专属弹幕-大青花鱼I"
 }

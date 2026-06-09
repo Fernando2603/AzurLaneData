@@ -29,344 +29,344 @@
   "10": {
     "time": 10
   },
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield05",
+        "bulletType": 3,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, arg_2_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend",
         "count": 2,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\tlocal var_1_0 = arg_1_0 * 3\n\n\treturn Vector3(math.sin(var_1_0) * 3, 0.75, math.cos(var_1_0) * 3)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 3,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, arg_2_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend"
+        "effect": "shield05"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     },
     {
       "arg_list": {
-        "effect": "shield05",
+        "bulletType": 3,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, arg_4_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 234, 0)\nend",
         "count": 2,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_3_0)\n\tlocal var_3_0 = arg_3_0 * 3 + 2.512\n\n\treturn Vector3(math.sin(var_3_0) * 3, 0.75, math.cos(var_3_0) * 3)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 3,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, arg_4_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 234, 0)\nend"
+        "effect": "shield05"
       },
-      "id": 2,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 2
     },
     {
       "arg_list": {
-        "effect": "shield05",
+        "bulletType": 3,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_6_0)\n\treturn Vector3(0, arg_6_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 54, 0)\nend",
         "count": 2,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_5_0)\n\tlocal var_5_0 = arg_5_0 * 3 - 2.512\n\n\treturn Vector3(math.sin(var_5_0) * 3, 0.75, math.cos(var_5_0) * 3)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 3,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_6_0)\n\treturn Vector3(0, arg_6_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 54, 0)\nend"
+        "effect": "shield05"
       },
-      "id": 3,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 3
     },
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_8_0)\n\treturn Vector3(0, arg_8_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend",
         "count": 4,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_7_0)\n\tlocal var_7_0 = arg_7_0 * 3\n\n\treturn Vector3(math.sin(var_7_0) * 5, 0.75, math.cos(var_7_0) * 5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_8_0)\n\treturn Vector3(0, arg_8_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 4,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 4
     },
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_10_0)\n\treturn Vector3(0, arg_10_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 162, 0)\nend",
         "count": 4,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_9_0)\n\tlocal var_9_0 = arg_9_0 * 3 + 1.256\n\n\treturn Vector3(math.sin(var_9_0) * 5, 0.75, math.cos(var_9_0) * 5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_10_0)\n\treturn Vector3(0, arg_10_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 162, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 5,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 5
     },
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_12_0)\n\treturn Vector3(0, arg_12_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 234, 0)\nend",
         "count": 4,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_11_0)\n\tlocal var_11_0 = arg_11_0 * 3 + 2.512\n\n\treturn Vector3(math.sin(var_11_0) * 5, 0.75, math.cos(var_11_0) * 5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_12_0)\n\treturn Vector3(0, arg_12_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 234, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 6,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 6
     },
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_14_0)\n\treturn Vector3(0, arg_14_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 18, 0)\nend",
         "count": 4,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_13_0)\n\tlocal var_13_0 = arg_13_0 * 3 - 1.256\n\n\treturn Vector3(math.sin(var_13_0) * 5, 0.75, math.cos(var_13_0) * 5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_14_0)\n\treturn Vector3(0, arg_14_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 18, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 7,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 7
     },
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_16_0)\n\treturn Vector3(0, arg_16_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 54, 0)\nend",
         "count": 4,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_15_0)\n\tlocal var_15_0 = arg_15_0 * 3 - 2.512\n\n\treturn Vector3(math.sin(var_15_0) * 5, 0.75, math.cos(var_15_0) * 5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_16_0)\n\treturn Vector3(0, arg_16_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 54, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 8,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 8
     },
     {
       "arg_list": {
-        "effect": "shield06",
-        "count": 6,
         "attack_attribute": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_18_0)\n\treturn Vector3(0, arg_18_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend",
+        "count": 6,
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
         "damage": 55,
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_17_0)\n\tlocal var_17_0 = arg_17_0 * 3\n\n\treturn Vector3(math.sin(var_17_0) * 8, 0.75, math.cos(var_17_0) * 8)\nend,",
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_18_0)\n\treturn Vector3(0, arg_18_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend"
+        "effect": "shield06"
       },
-      "id": 9,
-      "type": "BattleBuffDamageWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffDamageWall",
+      "id": 9
     },
     {
       "arg_list": {
-        "effect": "shield06",
-        "count": 6,
         "attack_attribute": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_20_0)\n\treturn Vector3(0, arg_20_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 210, 0)\nend",
+        "count": 6,
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
         "damage": 55,
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_19_0)\n\tlocal var_19_0 = arg_19_0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST_2\n\n\treturn Vector3(math.sin(var_19_0) * 8, 0.75, math.cos(var_19_0) * 8)\nend,",
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_20_0)\n\treturn Vector3(0, arg_20_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 210, 0)\nend"
+        "effect": "shield06"
       },
-      "id": 10,
-      "type": "BattleBuffDamageWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffDamageWall",
+      "id": 10
     },
     {
       "arg_list": {
-        "effect": "shield06",
-        "count": 6,
         "attack_attribute": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_22_0)\n\treturn Vector3(0, arg_22_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 20, 0)\nend",
+        "count": 6,
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
         "damage": 55,
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_21_0)\n\tlocal var_21_0 = arg_21_0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST_4\n\n\treturn Vector3(math.sin(var_21_0) * 8, 0.75, math.cos(var_21_0) * 8)\nend,",
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_22_0)\n\treturn Vector3(0, arg_22_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 20, 0)\nend"
+        "effect": "shield06"
       },
-      "id": 11,
-      "type": "BattleBuffDamageWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffDamageWall",
+      "id": 11
     }
   ],
-  "desc": "",
-  "id": 15541,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "desc": "",
+  "last_effect": "",
+  "id": 15541,
+  "stack": 1
 }

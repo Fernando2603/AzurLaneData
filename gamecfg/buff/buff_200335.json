@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023英系活动 圣堂统御装置-稳定 波动效果",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200327,
-        "target": "TargetHarmNearest"
+        "target": "TargetHarmNearest",
+        "skill_id": 200327
       }
     },
     {
@@ -17,20 +21,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200330,
         "quota": 1,
-        "time": 0.5
+        "time": 0.5,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Bodongquan03",
   "icon": 200335,
-  "name": "2023英系活动 圣堂统御装置-稳定 波动效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200335,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Bodongquan03"
+  "stack": 1
 }

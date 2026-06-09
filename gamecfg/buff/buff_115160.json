@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 115160,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 115160
       }
     },
     {
@@ -27,33 +28,33 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 115161,
-        "time": 5
+        "time": 5,
+        "target": "TargetSelf"
       }
     },
     {
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 115154,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "kuangsanfenshen"
+        ],
         "check_target": [
           "TargetEntityUnit",
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "kuangsanfenshen"
-        ],
-        "skill_id": 115154
+        "target": "TargetSelf"
       },
       "trigger": [
         "onBeforeFatalDamage"
       ],
       "type": "BattleBuffCastSkill",
       "pop": {
+        "painting": 1,
         "castCV": "skill",
         "displayID": 115160,
-        "painting": 1,
         "trigger": [
           "onBeforeFatalDamage"
         ]
@@ -65,26 +66,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "kuangsanfenshen"
+        ],
+        "minTargetNumber": 1,
         "check_target": [
           "TargetEntityUnit",
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "buff_id": 115240,
-        "ship_tag_list": [
-          "kuangsanfenshen"
-        ],
-        "isBuffStackByCheckTarget": true
+        "isBuffStackByCheckTarget": true,
+        "target": "TargetSelf"
       }
     },
     {
       "arg_list": {
         "skill_id": 115240,
         "fleetAttrConsume": {
-          "attrName": "kuangsanshijian",
-          "value": 5
+          "value": 5,
+          "attrName": "kuangsanshijian"
         },
         "target": "TargetSelf"
       },
@@ -93,22 +94,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "pop": {
+        "painting": 1,
         "castCV": "skill",
         "displayID": 115160,
-        "painting": 1,
         "trigger": [
           "onFinishGame"
         ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 115150,
-  "name": "",
-  "init_effect": "",
-  "id": 115160,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 115150,
+  "id": 115160,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

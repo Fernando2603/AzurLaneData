@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,27 +11,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 60820,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "MarcoPolo"
+        ],
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "MarcoPolo"
-        ],
-        "skill_id": 60820
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60820,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60820,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

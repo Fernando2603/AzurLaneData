@@ -1,4 +1,9 @@
 {
+  "name": "2024 阿尔萨斯活动EX 开场检测",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,16 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "StrangeDeviceD"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200952,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200952,
-        "ship_tag_list": [
-          "StrangeDeviceD"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -24,26 +29,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 200763,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "buff_id": 200763,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "StrangeDeviceD"
         ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200951,
-  "name": "2024 阿尔萨斯活动EX 开场检测",
-  "init_effect": "",
   "id": 200951,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

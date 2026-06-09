@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023俾斯麦Z活动 剧情战女灶神支援BUFF",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,22 +21,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 200434,
-        "target": "TargetShipTag",
         "ship_tag_list": [
           "BismarckZwei"
-        ]
+        ],
+        "buff_id": 200434,
+        "target": "TargetShipTag",
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200456,
-  "name": "2023俾斯麦Z活动 剧情战女灶神支援BUFF",
-  "init_effect": "",
+  "color": "blue",
   "id": 200456,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

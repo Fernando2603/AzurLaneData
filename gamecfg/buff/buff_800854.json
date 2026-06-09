@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -29,8 +30,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 1
+        "add": 1,
+        "mul": 0
       }
     },
     {
@@ -40,11 +41,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 5,
         "index": [
           1
         ],
-        "countType": 800850,
-        "countTarget": 5
+        "countType": 800850
       }
     },
     {
@@ -53,9 +54,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 800855,
-        "countType": 800850
+        "countType": 800850,
+        "target": "TargetSelf"
       }
     },
     {
@@ -71,13 +72,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 800854,
-  "name": "",
-  "init_effect": "",
-  "id": 800854,
-  "stack": 5,
   "time": 0,
-  "last_effect": "aierjiliya_buff"
+  "init_effect": "",
+  "last_effect": "aierjiliya_buff",
+  "icon": 800854,
+  "id": 800854,
+  "color": "red",
+  "stack": 5,
+  "desc": ""
 }

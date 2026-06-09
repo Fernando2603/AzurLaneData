@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,22 +11,17 @@
       ],
       "type": "BattleBuffHP",
       "arg_list": {
-        "weaponType": 1,
+        "damageConvertRatio": 2000,
+        "target": "TargetSelf",
         "index": [
           -1
         ],
-        "target": "TargetSelf",
-        "damageConvertRatio": 2000
+        "weaponType": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 18300,
-  "name": "",
-  "init_effect": "",
   "id": 18303,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "stack": 1
 }

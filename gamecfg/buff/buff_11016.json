@@ -1,4 +1,9 @@
 {
+  "name": "铁底湾之夜",
+  "picture": "",
+  "desc": "白鹰精英损管",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,23 +11,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 6750,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "UEDC"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "白鹰精英损管",
-  "picture": "",
+  "last_effect": "",
   "icon": 11016,
-  "name": "铁底湾之夜",
-  "init_effect": "",
   "id": 11016,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

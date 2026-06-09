@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 350,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 350
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 400,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 400
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 450,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 450
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 500,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 500
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 550,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 550
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 600,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 600
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 650,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 650
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 700,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 700
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 750,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 750
         }
       }
     ]
@@ -143,13 +143,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 800,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 800
         }
       }
     ]
   },
-  "color": "red",
+  "name": "持续打击",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -158,25 +159,24 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 350,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 350
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 11220,
+  "id": 11221,
+  "stack": 3,
+  "color": "red",
+  "desc": "炮击、雷击提高",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "炮击、雷击提高",
-  "picture": "",
-  "icon": 11220,
-  "name": "持续打击",
-  "init_effect": "jinengchufared",
-  "id": 11221,
-  "stack": 3,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

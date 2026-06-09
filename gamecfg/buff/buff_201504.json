@@ -4,9 +4,10 @@
   "3": [],
   "4": [],
   "5": [],
-  "init_effect": "",
-  "picture": "",
+  "last_effect": "",
   "name": "2025信标BOSS 夕立meta 向被锁定角色发动攻击",
+  "picture": "",
+  "id": 201504,
   "effect_list": [
     {
       "trigger": [
@@ -15,21 +16,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
+        "skill_id": 201504,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Xili_Lock"
         ],
-        "skill_id": 201504
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201504,
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

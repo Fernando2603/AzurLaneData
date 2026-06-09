@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "ship_tag_list": [
+          "YingSwei"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 61021,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 61021,
-        "ship_tag_list": [
-          "YingSwei"
-        ]
+        "quota": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 61020,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 61020,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  "stack": 1
 }

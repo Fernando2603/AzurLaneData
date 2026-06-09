@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.045,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.045
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.052,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.052
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.06,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.06
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.07,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.07
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.077,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.077
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.085,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.085
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.095,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.095
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.102,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.102
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.11,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.11
         }
       }
     ]
@@ -143,12 +143,14 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.12,
-          "attr": "damageRatioBullet"
+          "attr": "damageRatioBullet",
+          "number": 0.12
         }
       }
     ]
   },
+  "name": "校准射击",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,25 +159,23 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.045,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.045
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 11180,
+  "id": 11181,
+  "stack": 8,
+  "desc": "属性提升",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "属性提升",
-  "picture": "",
-  "icon": 11180,
-  "name": "校准射击",
-  "init_effect": "jinengchufared",
-  "id": 11181,
-  "stack": 8,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

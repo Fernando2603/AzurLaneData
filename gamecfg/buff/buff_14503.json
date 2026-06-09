@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "无敌",
+  "time": 5,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 14503,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 14503
       }
     },
     {
@@ -19,26 +24,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 14503,
         "attr": "immuneDirectHit",
-        "number": 1
+        "number": 1,
+        "group": 14503
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 14503,
+  "id": 14503,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "无敌",
-  "picture": "",
-  "icon": 14503,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 14503,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  ]
 }

@@ -1,4 +1,9 @@
 {
+  "name": "2024 匹兹堡活动EX 开场检测",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,16 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "Fargo's-Drone"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201011,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201011,
-        "ship_tag_list": [
-          "Fargo's-Drone"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -24,26 +29,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 200763,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "buff_id": 200763,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "Fargo's-Drone"
         ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201010,
-  "name": "2024 匹兹堡活动EX 开场检测",
-  "init_effect": "",
   "id": 201010,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

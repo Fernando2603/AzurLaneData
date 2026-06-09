@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +18,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "μ"
+        ],
+        "minTargetNumber": 2,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 2,
         "buff_id": 13761,
-        "ship_tag_list": [
-          "μ"
-        ],
-        "isBuffStackByCheckTarget": true
+        "isBuffStackByCheckTarget": true,
+        "target": "TargetSelf"
       }
     },
     {
@@ -36,21 +37,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.35,
         "quota": 1,
-        "skill_id": 13761
+        "skill_id": 13761,
+        "hpUpperBound": 0.35,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 13760,
   "id": 13760,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "航空副油箱T1",
+  "picture": "",
+  "desc": "舰载机耐久增加10点",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 50,
-        "attr": "hiveExtraHP"
+        "attr": "hiveExtraHP",
+        "number": 50
       }
     }
   ],
-  "desc": "舰载机耐久增加10点",
-  "picture": "",
+  "last_effect": "",
   "icon": 6071,
-  "name": "航空副油箱T1",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6071,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

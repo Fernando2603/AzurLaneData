@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 2,
         "nationality": 6,
         "skill_id": 14330,
-        "check_target": "TargetNationalityFriendly"
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 2
       }
     },
     {
@@ -31,8 +32,8 @@
       "arg_list": {
         "nationality": 6,
         "buff_id": 14332,
-        "maxTargetNumber": 1,
-        "check_target": "TargetNationalityFriendly"
+        "check_target": "TargetNationalityFriendly",
+        "maxTargetNumber": 1
       }
     },
     {
@@ -50,13 +51,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 14330,
-  "name": "",
-  "init_effect": "",
-  "id": 14330,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 14330,
+  "id": 14330,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "小齐柏林1",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 24,
-        "skill_id": 12090
+        "skill_id": 12090,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,10 +29,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 12091,
         "time": 8,
-        "quota": 1
+        "target": "TargetSelf"
       }
     },
     {
@@ -40,25 +41,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 12093,
+        "minWeaponNumber": 1,
         "type": [
           2
         ],
-        "skill_id": 12093,
         "index": [
           3
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 12090,
-  "name": "小齐柏林1",
-  "init_effect": "",
-  "id": 12090,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12090,
+  "id": 12090,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

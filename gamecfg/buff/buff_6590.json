@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 6590,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Kashino"
         ],
-        "skill_id": 6590
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 6590,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 6590,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

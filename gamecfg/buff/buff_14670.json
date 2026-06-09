@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "风云",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,27 +27,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 14670,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "DanmakuFire"
         ],
-        "skill_id": 14670
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 14670,
   "id": 14670,
-  "name": "风云",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

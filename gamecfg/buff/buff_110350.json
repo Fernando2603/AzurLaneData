@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "luck",
-        "number": 4
+        "number": 4,
+        "target": "TargetSelf"
       }
     },
     {
@@ -18,20 +22,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.5,
         "quota": 1,
-        "skill_id": 110350
+        "skill_id": 110350,
+        "hpUpperBound": 0.5,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 110350,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 110350,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "潜艇下潜点燃抗性",
+  "picture": "",
+  "desc": "起火概率降低100%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "igniteResist"
+        "attr": "igniteResist",
+        "number": 1
       }
     },
     {
@@ -19,18 +23,14 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -4000,
-        "add": 0
+        "add": 0,
+        "mul": -4000
       }
     }
   ],
-  "desc": "起火概率降低100%",
-  "picture": "",
+  "last_effect": "",
   "icon": 314,
-  "name": "潜艇下潜点燃抗性",
-  "init_effect": "",
+  "color": "blue",
   "id": 314,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

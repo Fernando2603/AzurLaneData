@@ -1,4 +1,9 @@
 {
+  "name": "2025拉斐尔活动 剧情战触发 马可波罗支援强化BUFF",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 1
       }
     },
     {
@@ -18,17 +23,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.5,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.5
       }
     }
   ],
-  "desc": "",
+  "last_effect": "zhihuiRing02_buff",
   "id": 201301,
-  "name": "2025拉斐尔活动 剧情战触发 马可波罗支援强化BUFF",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": "zhihuiRing02_buff"
+  "stack": 1
 }

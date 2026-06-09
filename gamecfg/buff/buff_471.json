@@ -1,4 +1,9 @@
 {
+  "name": "穿甲对驱逐、轻巡破甲",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,29 +12,24 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipType"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 401,
         "ship_type_list": [
           1,
           2,
           20,
           21
-        ]
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 401,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 400,
-  "name": "穿甲对驱逐、轻巡破甲",
-  "init_effect": "",
   "id": 471,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

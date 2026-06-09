@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -28,11 +29,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 10,
         "index": [
           1
         ],
-        "countType": 111060,
-        "countTarget": 10
+        "countType": 111060
       }
     },
     {
@@ -41,9 +42,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 111060,
         "countType": 111060,
-        "skill_id": 111060
+        "target": "TargetSelf"
       }
     },
     {
@@ -57,14 +58,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 111040,
   "id": 111060,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

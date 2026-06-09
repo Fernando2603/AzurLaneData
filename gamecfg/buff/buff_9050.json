@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "空中支援时，有40%(满级70%)概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
+  "name": "LuckyE-LV9",
+  "picture": "",
   "desc": "空中支援时，有$1概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "空中支援时，有40%(满级70%)概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
   "effect_list": [
     {
       "trigger": [
@@ -9,18 +12,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "rant": 6600,
         "skill_id": 9050,
-        "rant": 6600
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 9050,
-  "name": "LuckyE-LV9",
-  "init_effect": "",
+  "color": "red",
   "id": 9050,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

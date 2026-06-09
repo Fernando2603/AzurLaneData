@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 19601,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 19601,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "Chkalov_Boosted"
         ]
@@ -35,22 +36,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "Chkalov_Boosted"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 19603,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 19603,
-        "ship_tag_list": [
-          "Chkalov_Boosted"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 19602
+        "buff_id": 19602,
+        "target": "TargetSelf"
       },
       "trigger": [
         "onStartGame"
@@ -59,14 +60,13 @@
       "pop": []
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19600,
   "id": 19600,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

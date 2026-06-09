@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "第三日的见异思迁",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +18,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 105091,
         "maxTargetNumber": 1,
+        "minTargetNumber": 1,
         "ship_tag_list": [
           "hololive"
-        ]
+        ],
+        "buff_id": 105091,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -36,17 +37,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 3,
-        "buff_id": 105091,
         "maxTargetNumber": 3,
+        "minTargetNumber": 3,
         "ship_tag_list": [
           "hololive"
-        ]
+        ],
+        "buff_id": 105091,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -55,17 +56,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 5,
-        "buff_id": 105091,
         "maxTargetNumber": 5,
+        "minTargetNumber": 5,
         "ship_tag_list": [
           "hololive"
-        ]
+        ],
+        "buff_id": 105091,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -74,36 +75,36 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 7,
-        "buff_id": 105091,
         "maxTargetNumber": 7,
+        "minTargetNumber": 7,
         "ship_tag_list": [
           "hololive"
-        ]
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
         ],
-        "minTargetNumber": 9,
         "buff_id": 105091,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
         "maxTargetNumber": 9,
+        "minTargetNumber": 9,
         "ship_tag_list": [
           "hololive"
-        ]
+        ],
+        "buff_id": 105091,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -112,17 +113,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 2,
-        "buff_id": 105092,
         "maxTargetNumber": 2,
+        "minTargetNumber": 2,
         "ship_tag_list": [
           "hololive"
-        ]
+        ],
+        "buff_id": 105092,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -131,17 +132,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 4,
-        "buff_id": 105092,
         "maxTargetNumber": 4,
+        "minTargetNumber": 4,
         "ship_tag_list": [
           "hololive"
-        ]
+        ],
+        "buff_id": 105092,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -150,17 +151,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 6,
-        "buff_id": 105092,
         "maxTargetNumber": 6,
+        "minTargetNumber": 6,
         "ship_tag_list": [
           "hololive"
-        ]
+        ],
+        "buff_id": 105092,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -169,17 +170,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "maxTargetNumber": 8,
+        "minTargetNumber": 8,
+        "ship_tag_list": [
+          "hololive"
+        ],
+        "buff_id": 105092,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 8,
-        "buff_id": 105092,
-        "maxTargetNumber": 8,
-        "ship_tag_list": [
-          "hololive"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -188,18 +189,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 105090,
-        "time": 20
+        "time": 20,
+        "skill_id": 105090
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 105090,
-  "name": "第三日的见异思迁",
-  "init_effect": "",
-  "id": 105090,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 105090,
+  "id": 105090,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

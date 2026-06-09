@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -36,12 +37,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 3,
         "buff_id": 15252,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     },
     {
@@ -50,10 +51,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 15252,
         "nationality": 7,
-        "check_target": "TargetNationalityFriendly"
+        "buff_id": 15252,
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 2
       }
     },
     {
@@ -63,21 +64,20 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 15253,
-        "maxTargetNumber": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "maxTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 15250,
-  "name": "",
-  "init_effect": "",
-  "id": 15250,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 15250,
+  "id": 15250,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

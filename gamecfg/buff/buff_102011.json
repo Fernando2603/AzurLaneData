@@ -7,8 +7,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1500,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 1500
         }
       }
     ]
@@ -21,8 +21,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1720,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 1720
         }
       }
     ]
@@ -35,8 +35,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1940,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 1940
         }
       }
     ]
@@ -49,8 +49,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2160,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 2160
         }
       }
     ]
@@ -63,8 +63,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2380,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 2380
         }
       }
     ]
@@ -77,8 +77,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2600,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 2600
         }
       }
     ]
@@ -91,8 +91,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2820,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 2820
         }
       }
     ]
@@ -105,8 +105,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 3040,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 3040
         }
       }
     ]
@@ -119,8 +119,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 3260,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 3260
         }
       }
     ]
@@ -133,12 +133,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 3500,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 3500
         }
       }
     ]
   },
+  "name": "33领队技能",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -146,25 +148,23 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 1500
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 102010,
+  "id": 102011,
+  "stack": 1,
+  "desc": "属性提升",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "属性提升",
-  "picture": "",
-  "icon": 102010,
-  "name": "33领队技能",
-  "init_effect": "jinengchufared",
-  "id": 102011,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

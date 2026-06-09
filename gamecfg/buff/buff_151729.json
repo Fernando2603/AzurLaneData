@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -11,8 +14,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 100,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 100
       }
     },
     {
@@ -23,8 +26,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 100,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 100
       }
     },
     {
@@ -37,12 +40,9 @@
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 151720,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 151729,
-  "stack": 15,
-  "time": 0,
-  "last_effect": ""
+  "stack": 15
 }

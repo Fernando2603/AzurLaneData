@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "黛朵",
+  "picture": "",
+  "desc": "",
+  "time": 10,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "dodgeRateExtra"
+        "attr": "dodgeRateExtra",
+        "number": 0.1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 8664,
+  "color": "yellow",
+  "id": 8664,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 8664,
-  "name": "黛朵",
-  "init_effect": "jinengchufablue",
-  "id": 8664,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  ]
 }

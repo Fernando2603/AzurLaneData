@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "killer": "self",
         "skill_id": 151422,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "killer": "self"
       }
     },
     {
@@ -17,19 +22,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "killer": "child",
         "skill_id": 151422,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "killer": "child"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 151420,
-  "name": "",
-  "init_effect": "",
   "id": 151422,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

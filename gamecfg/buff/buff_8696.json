@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "潜艇水面减伤（上浮/下沉间隔10秒）",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,18 +21,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 8695,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "潜艇水面减伤（上浮/下沉间隔10秒）",
-  "init_effect": "",
+  "last_effect": "",
+  "color": "blue",
   "id": 8696,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

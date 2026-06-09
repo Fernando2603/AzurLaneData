@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行12次攻击，触发专属弹幕-可怖"
   },
-  "color": "red",
+  "name": "专属弹幕-可怖Ⅰ-加强",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 29764,
-        "countTarget": 12
+        "countType": 29764
       }
     },
     {
@@ -23,20 +24,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29761,
         "countType": 29764,
-        "skill_id": 29761
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发专属弹幕-可怖",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行12次攻击，触发专属弹幕-可怖",
+  "last_effect": "",
   "icon": 29760,
   "id": 29764,
-  "name": "专属弹幕-可怖Ⅰ-加强",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行12次攻击，触发专属弹幕-可怖"
 }

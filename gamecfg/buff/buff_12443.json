@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "触发器",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 12444,
         "quota": 8,
-        "killer": "self"
+        "killer": "self",
+        "target": "TargetSelf"
       }
     },
     {
@@ -24,13 +28,9 @@
       }
     }
   ],
-  "desc": "触发器",
-  "picture": "",
+  "last_effect": "",
   "icon": 12440,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 12443,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1011871,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1011871
       }
     },
     {
@@ -27,25 +28,24 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 1011877,
         "ship_tag_list": [
           "WarspiteSP"
         ],
+        "buff_id": 1011877,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 10310,
-  "name": "",
-  "init_effect": "",
-  "id": 1011879,
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 10310,
+  "id": 1011879,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

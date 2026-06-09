@@ -29,6 +29,8 @@
   "10": {
     "desc": "每20秒，有40%概率触发护盾，一定时间内取消子弹，护盾持续8秒"
   },
+  "name": "不破之盾",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -36,19 +38,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 32004
+        "skill_id": 32004,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每20秒触发护盾，一定时间内取消子弹，护盾持续8秒",
-  "picture": "",
-  "icon": 32004,
-  "name": "不破之盾",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 32004,
   "id": 32004,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每20秒触发护盾，一定时间内取消子弹，护盾持续8秒"
 }

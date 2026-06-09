@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "luck",
-        "number": 7
+        "number": 7,
+        "target": "TargetSelf"
       }
     },
     {
@@ -18,9 +22,9 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "attackRating",
-        "number": 1500
+        "number": 1500,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,19 +33,15 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "loadSpeed",
-        "number": 1500
+        "number": 1500,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 110340,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 110340,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

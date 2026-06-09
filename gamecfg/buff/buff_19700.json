@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -38,17 +39,7 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 10,
-        "skill_id": 19700
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
         "skill_id": 19700,
         "target": "TargetSelf"
       }
@@ -59,23 +50,32 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 19700
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_weapon": true,
         "skill_id": 19702,
+        "minWeaponNumber": 1,
         "label": [
           "MG",
           "AP"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 19700,
-  "name": "",
-  "init_effect": "",
-  "id": 19700,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 19700,
+  "id": 19700,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

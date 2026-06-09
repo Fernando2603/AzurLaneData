@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.5,
         "attr": "cri",
-        "bulletID": 167421
+        "bulletID": 167421,
+        "number": 0.5
       }
     },
     {
@@ -28,9 +29,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.5,
         "attr": "cri",
-        "bulletID": 167422
+        "bulletID": 167422,
+        "number": 0.5
       }
     },
     {
@@ -39,9 +40,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.5,
         "attr": "cri",
-        "bulletID": 167423
+        "bulletID": 167423,
+        "number": 0.5
       }
     },
     {
@@ -50,9 +51,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.5,
         "attr": "cri",
-        "bulletID": 167424
+        "bulletID": 167424,
+        "number": 0.5
       }
     },
     {
@@ -61,16 +62,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "YISHUXIANSHEN"
+        ],
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "skill_id": 150964,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "YISHUXIANSHEN"
-        ]
+        "skill_id": 150964
       }
     },
     {
@@ -79,16 +80,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "YISHUXIANSHEN"
+        ],
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "skill_id": 150960,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "YISHUXIANSHEN"
-        ]
+        "skill_id": 150960
       }
     },
     {
@@ -97,27 +98,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "YISHUXIANSHEN"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 150966,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 150966,
-        "ship_tag_list": [
-          "YISHUXIANSHEN"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150960,
   "id": 150965,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "desc": ""
 }

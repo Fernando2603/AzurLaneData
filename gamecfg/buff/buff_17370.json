@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 17373,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "USS"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -32,24 +33,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 17374,
         "label": [
           "USS"
         ],
-        "check_weapon": true,
+        "target": "TargetSelf",
         "maxWeaponNumber": 0
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17370,
   "id": 17370,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

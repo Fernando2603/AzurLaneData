@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "dhpGreaterMaxhp": -0.015,
         "buff_id": 801772,
         "ship_tag_list": [
           "GloriousMETA"
         ],
-        "dhpGreaterMaxhp": -0.015
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ]
       }
     },
     {
@@ -35,13 +36,13 @@
       "type": "BattleBuffReflectDamage",
       "arg_list": {
         "reflectRate": 0.05,
+        "valve": 0.015,
         "reflectTarget": {
           "target_choise": [
             "TargetAllFoe",
             "TargetHarmNearest"
           ]
-        },
-        "valve": 0.015
+        }
       }
     },
     {
@@ -55,14 +56,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "guangrongmeta1",
   "icon": 801770,
   "id": 801771,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": "guangrongmeta1"
+  "desc": ""
 }

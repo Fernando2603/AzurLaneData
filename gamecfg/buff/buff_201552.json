@@ -1,4 +1,8 @@
 {
+  "id": 201552,
+  "name": "2025风帆三期 群岛遗迹支援",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +10,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201550,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201550
       }
     },
     {
@@ -16,17 +20,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 201550
+        "skill_id": 201550,
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201552,
-  "name": "2025风帆三期 群岛遗迹支援",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

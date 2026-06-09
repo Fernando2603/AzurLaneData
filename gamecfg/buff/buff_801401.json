@@ -7,7 +7,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -21,7 +20,8 @@
               0.4,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -34,7 +34,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -48,7 +47,8 @@
               0.433,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -61,7 +61,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -75,7 +74,8 @@
               0.466,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -88,7 +88,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -102,7 +101,8 @@
               0.499,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -115,7 +115,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -129,7 +128,8 @@
               0.532,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -142,7 +142,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -156,7 +155,8 @@
               0.565,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -169,7 +169,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -183,7 +182,8 @@
               0.598,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -196,7 +196,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -210,7 +209,8 @@
               0.631,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -223,7 +223,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -237,7 +236,8 @@
               0.664,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -250,7 +250,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             801401,
             801402
@@ -264,12 +263,14 @@
               0.7,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -277,7 +278,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           801401,
           801402
@@ -291,17 +291,17 @@
             0.4,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "概率发动",
-  "picture": "",
-  "icon": 801400,
-  "name": "",
-  "init_effect": "",
-  "id": 801401,
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 801400,
+  "id": 801401,
+  "color": "yellow",
+  "stack": 1,
+  "desc": "概率发动"
 }

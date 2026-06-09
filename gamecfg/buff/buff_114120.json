@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "光明之风-专武",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 114128,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 114128
       }
     },
     {
@@ -27,19 +28,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 10,
-        "skill_id": 114129
+        "skill_id": 114129,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每10秒，触发光明之风-专武",
-  "picture": "",
-  "icon": 114110,
-  "name": "光明之风-专武",
-  "init_effect": "",
-  "id": 114120,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 114110,
+  "id": 114120,
+  "color": "red",
+  "stack": 1,
+  "desc": "每10秒，触发光明之风-专武"
 }

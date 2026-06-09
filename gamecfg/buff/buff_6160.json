@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "灭火器T3",
+  "picture": "",
+  "desc": "起火概率降低30%，持续时间缩短6秒，起火伤害降低20%，同类效果取最大值，不可叠加",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 6160,
         "group": {
           "level": 3,
           "id": 6140
-        }
+        },
+        "skill_id": 6160
       }
     }
   ],
-  "desc": "起火概率降低30%，持续时间缩短6秒，起火伤害降低20%，同类效果取最大值，不可叠加",
-  "picture": "",
+  "last_effect": "",
   "icon": 6160,
-  "name": "灭火器T3",
-  "init_effect": "",
+  "color": "blue",
   "id": 6160,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

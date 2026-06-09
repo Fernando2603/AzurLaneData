@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "六驱精锐·{namecode:12} +",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,26 +12,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 1012911,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Hibiki_Phoenix_Skill_1"
         ],
         "time": 0.1,
-        "skill_id": 1012911
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 12910,
-  "name": "六驱精锐·{namecode:12} +",
-  "init_effect": "",
+  "color": "red",
   "id": 1012913,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.01,
-        "attr": "dodgeRateExtra"
+        "attr": "dodgeRateExtra",
+        "number": -0.01
       }
     },
     {
@@ -18,10 +22,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.8,
         "quota": 1,
-        "skill_id": 61050
+        "skill_id": 61050,
+        "hpUpperBound": 0.8,
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,13 +39,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 61050,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 61050,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

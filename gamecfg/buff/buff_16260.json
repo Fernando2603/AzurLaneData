@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -38,8 +39,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16260,
-        "killer": "child"
+        "killer": "child",
+        "skill_id": 16260
       }
     },
     {
@@ -48,9 +49,9 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "killer": "child",
+        "countTarget": 3,
         "countType": 16260,
-        "countTarget": 3
+        "killer": "child"
       }
     },
     {
@@ -64,14 +65,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16260,
   "id": 16260,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

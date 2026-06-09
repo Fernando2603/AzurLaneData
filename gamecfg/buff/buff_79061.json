@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "防卫者AT·FIELDlv2",
+  "last_effect": "ATdun",
+  "desc": "AT·FIELD",
+  "time": 40,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -11,26 +15,22 @@
       "type": "BattleBuffBarrier",
       "arg_list": {
         "cld_data": {
+          "box": {
+            "range": 28
+          },
           "offset": [
             0,
             4,
             0
-          ],
-          "box": {
-            "range": 28
-          }
+          ]
         },
         "durability": 30000
       }
     }
   ],
-  "desc": "AT·FIELD",
+  "picture": "",
   "icon": 30000003,
   "id": 79061,
-  "name": "防卫者AT·FIELDlv2",
-  "init_effect": "",
-  "picture": "",
   "stack": 1,
-  "time": 40,
-  "last_effect": "ATdun"
+  "last_effect_cld_scale": true
 }

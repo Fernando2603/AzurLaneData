@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "雷击易伤",
+  "picture": "",
+  "desc": "易伤类型用例,受到雷击伤害提高50%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.5,
-        "attr": "damageGetRatioByBulletTorpedo"
+        "attr": "damageGetRatioByBulletTorpedo",
+        "number": 0.5
       }
     }
   ],
-  "desc": "易伤类型用例,受到雷击伤害提高50%",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 71150,
-  "name": "雷击易伤",
-  "init_effect": "",
+  "color": "blue",
   "id": 71150,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

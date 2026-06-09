@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "应急战备",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,10 +27,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 5102,
         "quota": 3,
-        "time": 12
+        "time": 12,
+        "target": "TargetSelf"
       }
     },
     {
@@ -49,19 +50,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 5103,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 5103
       }
     }
   ],
-  "desc": "",
+  "time": 36,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 5100,
   "id": 5101,
-  "name": "应急战备",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 36,
-  "last_effect": ""
+  "desc": ""
 }

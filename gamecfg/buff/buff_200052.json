@@ -1,4 +1,9 @@
 {
+  "name": "2022武藏活动 特定我方角色获得3%属性加成",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,25 +11,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "Musashi-Game"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200053,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200053,
-        "ship_tag_list": [
-          "Musashi-Game"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200052,
-  "name": "2022武藏活动 特定我方角色获得3%属性加成",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

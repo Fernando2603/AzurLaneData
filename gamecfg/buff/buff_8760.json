@@ -1,4 +1,9 @@
 {
+  "name": "DOA联动fever特效STG中敌方使用",
+  "last_effect": "doa_qifenhe_stg_boss",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,18 +11,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "rant": 10000,
         "skill_id": 8760,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "id": 8760,
-  "name": "DOA联动fever特效STG中敌方使用",
-  "init_effect": "",
   "icon": 8760,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "doa_qifenhe_stg_boss"
+  "id": 8760,
+  "stack": 1
 }

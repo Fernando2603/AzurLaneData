@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024匹兹堡活动 EX BOSS本体监听",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,24 +12,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 201005,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "buff_id": 201005,
-        "maxTargetNumber": 0,
         "nationality": 3
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201003,
-  "name": "2024匹兹堡活动 EX BOSS本体监听",
-  "init_effect": "",
+  "color": "yellow",
   "id": 201003,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

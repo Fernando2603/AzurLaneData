@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 50,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.05,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.05
       }
     },
     {
@@ -22,20 +26,16 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 106230,
+  "color": "blue",
+  "id": 106230,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 106230,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 106230,
-  "stack": 1,
-  "time": 50,
-  "last_effect": ""
+  ]
 }

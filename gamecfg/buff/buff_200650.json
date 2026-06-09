@@ -1,4 +1,9 @@
 {
+  "name": "2023 闪乱联动 地脉机关-绚 支援武器中毒效果",
+  "picture": "",
+  "desc": "",
+  "time": 9.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 1,
-        "number": 20,
         "attr": "cannonPower",
+        "dotType": 1,
+        "k": 0.1,
         "time": 3,
-        "k": 0.1
+        "number": 20
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "poison_buff",
   "icon": 200650,
-  "name": "2023 闪乱联动 地脉机关-绚 支援武器中毒效果",
-  "init_effect": "",
   "id": 200650,
-  "stack": 1,
-  "time": 9.1,
-  "last_effect": "poison_buff"
+  "stack": 1
 }

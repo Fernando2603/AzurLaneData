@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "敌方指挥舰——护盾",
+  "picture": "",
+  "desc": "队友护盾",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 50410,
-        "time": 20
+        "time": 20,
+        "skill_id": 50410
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 50410,
         "quota": 1,
+        "skill_id": 50410,
         "time": 2
       }
     }
   ],
-  "desc": "队友护盾",
-  "picture": "",
+  "last_effect": "",
   "icon": 50410,
-  "name": "敌方指挥舰——护盾",
-  "init_effect": "",
+  "color": "yellow",
   "id": 50410,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

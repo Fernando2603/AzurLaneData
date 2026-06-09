@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行15次攻击，触发专属弹幕-凉月I"
   },
-  "color": "red",
+  "name": "全弹发射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 24,
         "index": [
           1
         ],
-        "countType": 29600,
-        "countTarget": 24
+        "countType": 29600
       }
     },
     {
@@ -23,19 +24,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29601,
         "countType": 29600,
-        "skill_id": 29601
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行24次攻击，触发专属弹幕-凉月I",
-  "picture": "",
-  "icon": 29600,
-  "name": "全弹发射",
-  "init_effect": "",
-  "id": 29601,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29600,
+  "id": 29601,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行24次攻击，触发专属弹幕-凉月I"
 }

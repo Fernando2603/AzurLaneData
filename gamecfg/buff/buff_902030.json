@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "压制引导-炮击",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,22 +11,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 902030,
+        "quota": 1,
         "index": [
           1
         ],
-        "quota": 1,
-        "skill_id": 902030
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 902030,
-  "name": "压制引导-炮击",
-  "init_effect": "",
+  "color": "red",
   "id": 902030,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

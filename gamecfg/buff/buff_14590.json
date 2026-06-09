@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14590,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 14590
       }
     },
     {
@@ -27,27 +28,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_type_list": [
+          8
+        ],
+        "skill_id": 14591,
+        "minTargetNumber": 2,
+        "nationality": 1,
         "check_target": [
           "TargetNationalityFriendly",
           "TargetShipTypeFriendly"
         ],
-        "minTargetNumber": 2,
-        "nationality": 1,
-        "ship_type_list": [
-          8
-        ],
-        "skill_id": 14591
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 14590,
-  "name": "",
-  "init_effect": "",
-  "id": 14590,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 14590,
+  "id": 14590,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

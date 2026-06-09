@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,28 +11,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 60800,
+        "ship_tag_list": [
+          "MemphisOrigin"
+        ],
+        "minTargetNumber": 1,
         "target": "TargetSelf",
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "MemphisOrigin"
-        ],
-        "time": 20,
-        "skill_id": 60800
+        "time": 20
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60800,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60800,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

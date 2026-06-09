@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "组徽",
+  "picture": "",
+  "desc": "造成伤害上升",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.03
       }
     }
   ],
-  "desc": "造成伤害上升",
-  "picture": "",
+  "last_effect": "",
   "icon": 6491,
-  "name": "组徽",
-  "init_effect": "",
+  "color": "red",
   "id": 6491,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

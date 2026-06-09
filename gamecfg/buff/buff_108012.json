@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 108013,
         "ship_tag_list": [
           "MAXGRIDBEAM"
         ],
+        "buff_id": 108013,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -34,15 +35,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 108014,
         "ship_tag_list": [
           "TWINGRIDBEAM"
         ],
+        "buff_id": 108014,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -54,22 +55,21 @@
         "ship_tag_list": [
           "MAXGRIDBEAM"
         ],
-        "buff_id": 108015,
         "maxTargetNumber": 0,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "buff_id": 108015
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 108010,
-  "name": "",
-  "init_effect": "",
-  "id": 108012,
-  "stack": 1,
   "time": 10,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 108010,
+  "id": 108012,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

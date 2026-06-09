@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,24 +18,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 800150,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "IJN",
           "CV"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 800150,
-  "name": "",
-  "init_effect": "",
-  "id": 800152,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 800150,
+  "id": 800152,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "威悉轰炸",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 13954,
         "nationality": 4,
+        "buff_id": 13954,
         "check_target": [
           "TargetPlayerMainFleet",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -32,13 +33,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 3,
         "nationality": 4,
         "skill_id": 13952,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     },
     {
@@ -47,25 +48,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 1,
+        "minTargetNumber": 1,
+        "nationality": 4,
         "check_target": [
           "TargetPlayerMainFleet",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "nationality": 4,
-        "maxTargetNumber": 1,
         "skill_id": 13953
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 13950,
   "id": 13950,
-  "name": "威悉轰炸",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

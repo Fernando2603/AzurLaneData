@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19730,
-        "time": 20
+        "time": 20,
+        "skill_id": 19730
       }
     },
     {
@@ -36,8 +37,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 19730
+        "countType": 19730,
+        "countTarget": 2
       }
     },
     {
@@ -46,17 +47,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 19731,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "FLMarkava"
+        ],
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 19730,
-        "ship_tag_list": [
-          "FLMarkava"
-        ],
-        "skill_id": 19731
+        "countType": 19730
       }
     },
     {
@@ -78,19 +79,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19733,
-        "hpUpperBound": 0.6
+        "hpUpperBound": 0.6,
+        "skill_id": 19733
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19730,
   "id": 19730,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

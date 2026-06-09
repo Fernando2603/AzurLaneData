@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "伙伴计数",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,23 +18,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 2,
-        "skill_id": 14702,
         "target": "TargetSelf",
+        "skill_id": 14702,
         "check_target": [
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 14700,
   "id": 14701,
-  "name": "伙伴计数",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

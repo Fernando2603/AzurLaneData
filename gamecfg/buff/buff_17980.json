@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -31,12 +32,12 @@
         "ship_type_list": [
           5
         ],
-        "exceptCaster": true,
+        "skill_id": 17980,
         "minTargetNumber": 1,
         "check_target": [
           "TargetShipTypeFriendly"
         ],
-        "skill_id": 17980
+        "exceptCaster": true
       }
     },
     {
@@ -45,24 +46,23 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "ship_type_list": [
+          5
+        ],
+        "buff_id": 17986,
         "target": [
           "TargetAllHelp",
           "TargetShipType"
-        ],
-        "buff_id": 17986,
-        "ship_type_list": [
-          5
         ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 17980,
-  "name": "",
-  "init_effect": "",
-  "id": 17980,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 17980,
+  "id": 17980,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

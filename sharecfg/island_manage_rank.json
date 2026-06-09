@@ -1,11 +1,10 @@
 {
   "1": {
-    "bonus_coefficient": 90,
-    "id": 1,
-    "slot_num": [
-      2,
-      5
+    "random_range": [
+      -1,
+      0
     ],
+    "id": 1,
     "name": "Bronze",
     "level_up_exp": [
       [
@@ -29,11 +28,6 @@
         10000
       ]
     ],
-    "random_range": [
-      -1,
-      0
-    ],
-    "icon": "rank_tong",
     "assistant_num": 1,
     "assistant_unlock": [
       [
@@ -56,15 +50,21 @@
         901,
         0
       ]
-    ]
-  },
-  "2": {
-    "bonus_coefficient": 100,
-    "id": 2,
+    ],
     "slot_num": [
       2,
-      6
+      5
     ],
+    "bonus_coefficient": 90,
+    "icon": "rank_tong"
+  },
+  "2": {
+    "random_range": [
+      -1,
+      0,
+      1
+    ],
+    "id": 2,
     "name": "Silver",
     "level_up_exp": [
       [
@@ -88,12 +88,6 @@
         100000
       ]
     ],
-    "random_range": [
-      -1,
-      0,
-      1
-    ],
-    "icon": "rank_yin",
     "assistant_num": 1,
     "assistant_unlock": [
       [
@@ -116,15 +110,22 @@
         901,
         0
       ]
-    ]
-  },
-  "3": {
-    "bonus_coefficient": 110,
-    "id": 3,
+    ],
     "slot_num": [
-      3,
+      2,
       6
     ],
+    "bonus_coefficient": 100,
+    "icon": "rank_yin"
+  },
+  "3": {
+    "random_range": [
+      -1,
+      0,
+      1,
+      2
+    ],
+    "id": 3,
     "name": "Gold",
     "level_up_exp": [
       [
@@ -148,13 +149,6 @@
         1000000
       ]
     ],
-    "random_range": [
-      -1,
-      0,
-      1,
-      2
-    ],
-    "icon": "rank_jin",
     "assistant_num": 2,
     "assistant_unlock": [
       [
@@ -177,15 +171,22 @@
         901,
         18002
       ]
-    ]
-  },
-  "4": {
-    "bonus_coefficient": 115,
-    "id": 4,
+    ],
     "slot_num": [
-      4,
+      3,
       6
     ],
+    "bonus_coefficient": 110,
+    "icon": "rank_jin"
+  },
+  "4": {
+    "random_range": [
+      -1,
+      0,
+      1,
+      2
+    ],
+    "id": 4,
     "name": "Diamond",
     "level_up_exp": [
       [
@@ -209,13 +210,6 @@
         0
       ]
     ],
-    "random_range": [
-      -1,
-      0,
-      1,
-      2
-    ],
-    "icon": "rank_zuanshi",
     "assistant_num": 2,
     "assistant_unlock": [
       [
@@ -238,7 +232,13 @@
         901,
         0
       ]
-    ]
+    ],
+    "slot_num": [
+      4,
+      6
+    ],
+    "bonus_coefficient": 115,
+    "icon": "rank_zuanshi"
   },
   "all": [
     1,

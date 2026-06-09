@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 500,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 500
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 720,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 720
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 940,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 940
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1160,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 1160
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1380,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 1380
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1600,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 1600
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1820,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 1820
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2040,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 2040
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2260,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 2260
         }
       }
     ]
@@ -143,13 +143,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2500,
-          "attr": "torpedoPower"
+          "attr": "torpedoPower",
+          "number": 2500
         }
       }
     ]
   },
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -158,25 +159,24 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 500
       }
     }
   ],
+  "time": 10,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 800921,
+  "id": 800921,
+  "stack": 1,
+  "color": "red",
+  "desc": "提高雷击属性",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高雷击属性",
-  "picture": "",
-  "icon": 800921,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 800921,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  ]
 }

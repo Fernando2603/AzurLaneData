@@ -1,4 +1,9 @@
 {
+  "name": "31节伯克",
+  "picture": "",
+  "desc": "全队航速上升",
+  "time": 8,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +12,20 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 15
+        "add": 15,
+        "mul": 0
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 10042,
+  "id": 10042,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "全队航速上升",
-  "picture": "",
-  "icon": 10042,
-  "name": "31节伯克",
-  "init_effect": "jinengchufablue",
-  "id": 10042,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

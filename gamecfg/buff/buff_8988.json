@@ -1,4 +1,6 @@
 {
+  "name": "黑反击BOSS战 计数累计触发",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +9,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 8,
-        "countType": 8982
+        "countType": 8982,
+        "countTarget": 8
       }
     },
     {
@@ -17,9 +19,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 8989,
-        "countType": 8982
+        "countType": 8982,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,8 +31,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 16,
-        "countType": 8983
+        "countType": 8983,
+        "countTarget": 16
       }
     },
     {
@@ -39,9 +41,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 8990,
-        "countType": 8983
+        "countType": 8983,
+        "target": "TargetSelf"
       }
     },
     {
@@ -51,8 +53,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 24,
-        "countType": 8984
+        "countType": 8984,
+        "countTarget": 24
       }
     },
     {
@@ -61,18 +63,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 8991,
-        "countType": 8984
+        "countType": 8984,
+        "target": "TargetSelf"
       }
     }
   ],
-  "icon": 8988,
-  "id": 8988,
-  "name": "黑反击BOSS战 计数累计触发",
-  "init_effect": "darkness",
-  "picture": "",
-  "stack": 99,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "darkness",
+  "icon": 8988,
+  "last_effect": "",
+  "id": 8988,
+  "stack": 99
 }

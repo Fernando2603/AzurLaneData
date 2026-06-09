@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,9 +9,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 30521
+        "skill_id": 30521,
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,19 +20,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 30523,
-        "quota": 1
+        "quota": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "氧气不足上浮时，触发专属弹幕",
-  "picture": "",
-  "icon": 30520,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 30521,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 30520,
+  "id": 30521,
+  "color": "red",
+  "stack": 1,
+  "desc": "氧气不足上浮时，触发专属弹幕"
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "天真烂漫的少女",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 12235,
-        "quota": 1
+        "quota": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,20 +29,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 12233
+        "skill_id": 12233,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "跳转",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12230,
   "id": 12234,
-  "name": "天真烂漫的少女",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "跳转"
 }

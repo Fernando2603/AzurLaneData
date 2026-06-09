@@ -1,14 +1,14 @@
 {
+  "name": "航母以外的单位的命中率下降",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHarm",
-          "TargetShipType"
-        ],
-        "buff_id": 59162,
         "ship_type_list": [
           1,
           2,
@@ -29,16 +29,16 @@
           22,
           23,
           24
+        ],
+        "buff_id": 59162,
+        "target": [
+          "TargetAllHarm",
+          "TargetShipType"
         ]
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 59161,
-  "name": "航母以外的单位的命中率下降",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

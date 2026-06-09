@@ -9,12 +9,13 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "skill_id": 801776,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 801776
       },
       "trigger": [
         "onStartGame"
@@ -38,25 +39,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 801770,
+        "minTargetNumber": 2,
+        "time": 15,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerMainFleet"
         ],
-        "minTargetNumber": 2,
-        "time": 15,
-        "skill_id": 801770
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 801770,
   "id": 801770,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

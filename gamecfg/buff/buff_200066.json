@@ -1,4 +1,9 @@
 {
+  "name": "2022武藏活动 天晴浪高 敌我双方所有战列、战巡单位炮击与机动提升，驱逐舰单位炮击与机动减少",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -500
       }
     },
     {
@@ -18,17 +23,12 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -500
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200066,
-  "name": "2022武藏活动 天晴浪高 敌我双方所有战列、战巡单位炮击与机动提升，驱逐舰单位炮击与机动减少",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

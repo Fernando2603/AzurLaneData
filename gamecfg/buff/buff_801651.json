@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +13,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 200,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 200
       }
     },
     {
@@ -20,25 +25,20 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 200,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 200
       }
     }
   ],
+  "stack": 5,
+  "last_effect": "",
+  "icon": 801650,
+  "id": 801651,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 801650,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 801651,
-  "stack": 5,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

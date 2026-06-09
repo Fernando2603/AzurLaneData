@@ -1,4 +1,9 @@
 {
+  "name": "2024大凤meta 领域监听",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "maxHPRatio": 0.5,
         "countTarget": 1,
+        "maxHPRatio": 0.5,
         "countType": 201175
       }
     },
@@ -17,18 +22,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201176,
-        "countType": 201175
+        "countType": 201175,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 201175,
-  "name": "2024大凤meta 领域监听",
-  "init_effect": "",
-  "picture": "",
-  "stack": 99,
-  "time": 0,
-  "last_effect": ""
+  "stack": 99
 }

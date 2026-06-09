@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,18 +27,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 151511,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "USS",
           "CV"
         ],
-        "skill_id": 151511,
         "index": [
           1,
           2
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -46,18 +47,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 151511,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "FFNF",
           "CV"
         ],
-        "skill_id": 151511,
         "index": [
           1,
           2
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -66,21 +67,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.2,
         "quota": 1,
-        "skill_id": 151512
+        "skill_id": 151512,
+        "hpUpperBound": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151510,
   "id": 151510,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

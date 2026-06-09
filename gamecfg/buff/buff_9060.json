@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "火力全开-LV8",
+  "picture": "",
+  "desc": "炮击伤害提高",
+  "time": 10,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 3540,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 3540
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 9060,
+  "color": "red",
+  "id": 9060,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "炮击伤害提高",
-  "picture": "",
-  "icon": 9060,
-  "name": "火力全开-LV8",
-  "init_effect": "jinengchufared",
-  "id": 9060,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  ]
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "司特莲库斯雷电屏障buff",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.25,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": -0.25
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.25,
-        "attr": "injureRatioByCannon"
+        "attr": "injureRatioByCannon",
+        "number": -0.25
       }
     },
     {
@@ -27,8 +31,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.15
       }
     },
     {
@@ -37,19 +41,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 79012
+        "skill_id": 79012,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "sairenboss6_buff",
   "icon": 8636,
-  "name": "司特莲库斯雷电屏障buff",
-  "init_effect": "",
+  "color": "yellow",
   "id": 79012,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "sairenboss6_buff"
+  "stack": 1
 }

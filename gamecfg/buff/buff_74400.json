@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "荆棘",
+  "picture": "",
+  "desc": "战斗对象每次对我方舰队造成伤害时，额外增加100点伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +12,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 10,
-        "attr": "damageEnhanceProjectile"
+        "attr": "damageEnhanceProjectile",
+        "number": 10
       }
     }
   ],
-  "desc": "战斗对象每次对我方舰队造成伤害时，额外增加100点伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 74400,
-  "name": "荆棘",
-  "init_effect": "",
+  "color": "red",
   "id": 74400,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

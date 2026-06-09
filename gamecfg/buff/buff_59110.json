@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "防空提高",
+  "picture": "",
+  "desc": "防空提高30%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 3000,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": 3000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 59110,
+  "color": "red",
+  "id": 59110,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "防空提高30%",
-  "picture": "",
-  "icon": 59110,
-  "name": "防空提高",
-  "init_effect": "",
-  "id": 59110,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

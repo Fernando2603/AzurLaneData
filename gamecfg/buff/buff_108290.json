@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +18,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "nationality": 108,
+        "initialCD": true,
+        "skill_id": 108290,
         "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "fleetPos": "Leader",
         "check_target": [
           "TargetFleetIndex",
           "TargetNationalityFriendly"
         ],
-        "skill_id": 108290,
-        "fleetPos": "Leader",
-        "minTargetNumber": 1,
-        "nationality": 108,
-        "time": 20,
-        "initialCD": true
+        "time": 20
       }
     },
     {
@@ -36,17 +37,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "nationality": 108,
+        "initialCD": true,
+        "skill_id": 108291,
         "target": "TargetSelf",
+        "maxTargetNumber": 0,
+        "fleetPos": "Leader",
         "check_target": [
           "TargetFleetIndex",
           "TargetNationalityFriendly"
         ],
-        "maxTargetNumber": 0,
-        "fleetPos": "Leader",
-        "skill_id": 108291,
-        "nationality": 108,
-        "time": 20,
-        "initialCD": true
+        "time": 20
       }
     },
     {
@@ -55,22 +56,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 108292,
+        "minWeaponNumber": 1,
         "label": [
           "GDS"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 108320,
-  "name": "",
-  "init_effect": "",
-  "id": 108290,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 108320,
+  "id": 108290,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

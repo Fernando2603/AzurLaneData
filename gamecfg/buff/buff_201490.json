@@ -1,4 +1,8 @@
 {
+  "id": 201490,
+  "name": "2025马塞纳活动 EX 白形态 死亡时唤醒另一形态，并附加增伤BUFF",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,20 +10,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "buff_id": 201491,
         "target": [
           "TargetSpectreUnit",
           "TargetAllHelp"
         ],
-        "buff_id": 201491,
         "exceptCaster": true
       }
     }
   ],
-  "id": 201490,
-  "name": "2025马塞纳活动 EX 白形态 死亡时唤醒另一形态，并附加增伤BUFF",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

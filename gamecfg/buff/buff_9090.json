@@ -1,7 +1,10 @@
 {
-  "color": "yellow",
-  "desc_get": "每隔20秒，有60%的概率发动，提高自身炮击、命中15%，减少自身受到伤害15%，持续10秒",
+  "name": "所罗门的传说-LV8",
+  "picture": "",
   "desc": "每隔20秒，有60%的概率发动，提高自身炮击、命中15%，减少自身受到伤害15%，持续10秒",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "每隔20秒，有60%的概率发动，提高自身炮击、命中15%，减少自身受到伤害15%，持续10秒",
   "effect_list": [
     {
       "trigger": [
@@ -9,18 +12,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 9091,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 9090,
-  "name": "所罗门的传说-LV8",
-  "init_effect": "",
+  "color": "yellow",
   "id": 9090,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

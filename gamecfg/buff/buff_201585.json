@@ -1,4 +1,8 @@
 {
+  "id": 201585,
+  "name": "2025约战联动 飞船组件升级 白鹰LV3",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +10,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "maxHPRatio": 0.2,
         "countTarget": 1,
+        "maxHPRatio": 0.2,
         "countType": 201561
       }
     },
@@ -17,10 +21,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 201561,
         "quota": 1,
-        "skill_id": 201564
+        "skill_id": 201564,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,18 +33,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "countType": 201561,
         "buff_id": 201564,
         "quota": 1,
-        "countType": 201561
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201585,
-  "name": "2025约战联动 飞船组件升级 白鹰LV3",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

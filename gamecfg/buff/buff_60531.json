@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,26 +12,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60531,
         "ship_type_list": [
           4,
           5,
           10
         ],
-        "minTargetNumber": 1,
+        "skill_id": 60531,
         "check_target": [
           "TargetSelf",
           "TargetShipType"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 60530,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 60531,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 801390
+        "skill_id": 801390,
+        "target": "TargetSelf"
       }
     },
     {
@@ -27,9 +28,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 801391
+        "skill_id": 801391,
+        "target": "TargetSelf"
       }
     },
     {
@@ -38,13 +39,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm"
-        ],
+        "skill_id": 801392,
         "minTargetNumber": 2,
         "time": 20,
-        "skill_id": 801392
+        "check_target": [
+          "TargetAllHarm"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -53,24 +54,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 1,
         "target": "TargetSelf",
+        "time": 20,
         "check_target": [
           "TargetAllHarm"
         ],
-        "skill_id": 801393,
-        "maxTargetNumber": 1,
-        "time": 20
+        "skill_id": 801393
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 801390,
   "id": 801390,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

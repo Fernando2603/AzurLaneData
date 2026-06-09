@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023英系活动 EX 第三波 随机是否需要打断蓄力",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           200292,
           200293
@@ -21,17 +24,14 @@
             0.5,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200293,
-  "name": "2023英系活动 EX 第三波 随机是否需要打断蓄力",
-  "init_effect": "",
+  "color": "blue",
   "id": 200293,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,16 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "DAL"
+        ],
+        "skill_id": 60970,
         "quota": 3,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 60970,
-        "ship_tag_list": [
-          "DAL"
-        ],
-        "maxTargetNumber": 0,
         "time": 30
       }
     },
@@ -26,27 +30,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 60971,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "DAL"
+        ],
         "quota": 3,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "DAL"
-        ],
-        "time": 30,
-        "skill_id": 60971
+        "time": 30
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60970,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60970,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

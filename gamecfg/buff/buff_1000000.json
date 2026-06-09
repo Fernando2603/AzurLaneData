@@ -1,4 +1,9 @@
 {
+  "name": "提速",
+  "picture": "",
+  "desc": "6s减速",
+  "time": 240,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +13,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 8000,
-        "attr": "velocity"
+        "attr": "velocity",
+        "number": 8000
       }
     }
   ],
-  "desc": "6s减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 310,
-  "name": "提速",
-  "init_effect": "",
   "id": 1000000,
-  "stack": 1,
-  "time": 240,
-  "last_effect": "Darkness"
+  "stack": 1
 }

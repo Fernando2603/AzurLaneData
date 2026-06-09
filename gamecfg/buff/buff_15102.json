@@ -1,4 +1,9 @@
 {
+  "name": "自身伤害",
+  "picture": "",
+  "desc": "判定",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "range": [
           [
             0,
@@ -21,17 +25,13 @@
         "skill_id_list": [
           15100,
           15101
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "判定",
-  "picture": "",
+  "last_effect": "",
   "icon": 15100,
-  "name": "自身伤害",
-  "init_effect": "",
   "id": 15102,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

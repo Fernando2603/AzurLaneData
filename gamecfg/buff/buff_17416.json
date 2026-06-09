@@ -1,7 +1,10 @@
 {
-  "color": "yellow",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,13 +12,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 17418,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 17418,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "Flasher_debuff_cd"
         ]
@@ -33,12 +36,9 @@
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 17410,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 17416,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

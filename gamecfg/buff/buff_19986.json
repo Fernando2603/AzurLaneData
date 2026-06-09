@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -41,15 +42,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "KansasEX"
+        ],
         "check_target": [
           "TargetShipTag"
         ],
-        "skill_id": 19986,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "KansasEX"
-        ]
+        "skill_id": 19986
       }
     },
     {
@@ -58,25 +59,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 20007,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "KansasEX"
         ],
-        "skill_id": 20007
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 19980,
-  "name": "",
-  "init_effect": "",
-  "id": 19986,
-  "stack": 1,
   "time": 5,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 19980,
+  "id": 19986,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "燃油烟雾",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "Matchless"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 1090453,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 1090453,
-        "ship_tag_list": [
-          "Matchless"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -42,13 +43,12 @@
       }
     }
   ],
-  "desc": "提高闪避",
-  "picture": "",
-  "icon": 2120,
-  "name": "燃油烟雾",
-  "init_effect": "",
-  "id": 1090452,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 2120,
+  "id": 1090452,
+  "color": "blue",
+  "stack": 1,
+  "desc": "提高闪避"
 }

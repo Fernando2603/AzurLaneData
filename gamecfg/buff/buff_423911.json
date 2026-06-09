@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "巡洋-后勤-机动I具体效果",
+  "picture": "",
+  "desc": "巡洋-后勤-机动I",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "dodgeRate",
         "convertRate": 0.4,
-        "ability": "support",
-        "convertAttr": "dodgeRate"
+        "ability": "support"
       }
     }
   ],
-  "desc": "巡洋-后勤-机动I",
-  "picture": "",
+  "last_effect": "",
   "icon": 423910,
-  "name": "巡洋-后勤-机动I具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 423911,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

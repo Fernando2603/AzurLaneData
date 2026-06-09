@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "luck",
-        "number": 9
+        "number": 9,
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,18 +23,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 110310,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 110310,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

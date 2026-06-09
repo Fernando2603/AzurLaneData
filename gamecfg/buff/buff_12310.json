@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "确捷2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12310,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12310
       }
     },
     {
@@ -27,23 +28,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "weaponType": 2,
+        "rant": 1000,
         "buff_id": 12312,
         "index": [
           1
         ],
-        "rant": 1000
+        "weaponType": 2
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12310,
   "id": 12310,
-  "name": "确捷2",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

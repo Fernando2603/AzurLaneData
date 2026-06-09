@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "歼灭模式",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,20 +18,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 11211,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每20秒，有40.0%(满级70.0%)概率开启歼灭模式，炮击、雷击、机动属性提高10.0%，持续5秒，同时发射强力弹幕",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "每20秒，有40.0%(满级70.0%)概率开启歼灭模式，炮击、雷击、机动属性提高10.0%，持续5秒，同时发射强力弹幕(威力随技能等级提升)",
+  "last_effect": "",
   "icon": 11210,
   "id": 11210,
-  "name": "歼灭模式",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每20秒，有40.0%(满级70.0%)概率开启歼灭模式，炮击、雷击、机动属性提高10.0%，持续5秒，同时发射强力弹幕"
 }

@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 15,
         "index": [
           1
         ],
-        "countType": 29520,
-        "countTarget": 15
+        "countType": 29520
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29523,
         "countType": 29520,
-        "skill_id": 29523
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行15次攻击，触发专属弹幕-里诺I",
-  "picture": "",
-  "icon": 29520,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29522,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29520,
+  "id": 29522,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行15次攻击，触发专属弹幕-里诺I"
 }

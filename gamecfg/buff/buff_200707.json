@@ -14,6 +14,8 @@
   "13": [],
   "14": [],
   "15": [],
+  "name": "黑基洛夫BOSS战 闪流机械重组",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,26 +23,24 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "BOSS_TAG1"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200709,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200709,
-        "ship_tag_list": [
-          "BOSS_TAG1"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 200707,
-  "name": "黑基洛夫BOSS战 闪流机械重组",
+  "time": 0.1,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 200707,
   "id": 200707,
   "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "通过装备修改我方缩圈速度",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "aimBiasExtraACC"
+        "attr": "aimBiasExtraACC",
+        "number": 0.1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 9710,
-  "name": "通过装备修改我方缩圈速度",
-  "init_effect": "",
+  "color": "yellow",
   "id": 9710,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

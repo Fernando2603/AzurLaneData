@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19720,
         "quota": 1,
+        "skill_id": 19720,
         "time": 3
       }
     },
@@ -28,28 +29,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
+        "skill_id": 19722,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "zhuimie"
         ],
         "time": 5,
-        "skill_id": 19722
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19720,
   "id": 19720,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

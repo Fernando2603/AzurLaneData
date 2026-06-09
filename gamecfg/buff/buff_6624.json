@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "水下被侦测效果",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,19 +12,15 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "group": 6600,
         "attr": "attackRating",
-        "number": -300
+        "number": -300,
+        "group": 6600
       }
     }
   ],
-  "desc": "水下被侦测效果",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 6620,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 6624,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

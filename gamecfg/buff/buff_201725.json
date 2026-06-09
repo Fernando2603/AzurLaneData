@@ -1,4 +1,8 @@
 {
+  "id": 201725,
+  "name": "2026信标BOSS 雷根斯堡meta 单独印记施加判断",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,14 +10,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "attrCompare": "airPower>0",
+        "buff_id": 201731,
         "check_target": [
           "TargetSelf",
           "TargetAttrCompare"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201731,
-        "attrCompare": "airPower>0"
+        "target": "TargetSelf"
       }
     },
     {
@@ -22,22 +26,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "attrCompare": "airPower<=0",
+        "buff_id": 201732,
         "check_target": [
           "TargetSelf",
           "TargetAttrCompare"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201732,
-        "attrCompare": "airPower<=0"
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201725,
-  "name": "2026信标BOSS 雷根斯堡meta 单独印记施加判断",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 3,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

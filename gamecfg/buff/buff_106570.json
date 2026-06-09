@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -28,11 +29,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
         "minTargetNumber": 1,
+        "isBuffStackByCheckTarget": true,
         "buff_id": 106572,
-        "nationality": 106,
-        "isBuffStackByCheckTarget": true
+        "check_target": "TargetNationalityFriendly",
+        "nationality": 106
       }
     },
     {
@@ -41,9 +42,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 106570
+        "skill_id": 106570,
+        "target": "TargetSelf"
       }
     },
     {
@@ -52,18 +53,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 106570,
+        "ship_tag_list": [
+          "DOA3ZHUZI"
+        ],
+        "minTargetNumber": 1,
         "target": "TargetSelf",
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "DOA3ZHUZI"
-        ],
-        "time": 45,
-        "skill_id": 106570
+        "time": 45
       }
     },
     {
@@ -77,14 +78,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 106570,
   "id": 106570,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

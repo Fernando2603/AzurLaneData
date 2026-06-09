@@ -17,10 +17,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id": 600133,
           "quota": 1,
-          "time": 0.01
+          "time": 0.01,
+          "target": "TargetSelf"
         }
       },
       {
@@ -29,9 +29,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "target": "TargetSelf",
           "buff_id": 600111,
-          "time": 0.2
+          "time": 0.2,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -54,10 +54,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id": 600132,
           "quota": 1,
-          "time": 0.01
+          "time": 0.01,
+          "target": "TargetSelf"
         }
       },
       {
@@ -66,9 +66,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "target": "TargetSelf",
           "buff_id": 600111,
-          "time": 0.2
+          "time": 0.2,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -91,10 +91,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id": 600131,
           "quota": 1,
-          "time": 0.01
+          "time": 0.01,
+          "target": "TargetSelf"
         }
       },
       {
@@ -103,9 +103,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "target": "TargetSelf",
           "buff_id": 600111,
-          "time": 0.2
+          "time": 0.2,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -117,6 +117,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -134,10 +136,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 600131,
         "quota": 1,
-        "time": 0.01
+        "time": 0.01,
+        "target": "TargetSelf"
       }
     },
     {
@@ -146,19 +148,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 600111,
-        "time": 0.2
+        "time": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 600110,
-  "name": "",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 600110,
   "id": 600110,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

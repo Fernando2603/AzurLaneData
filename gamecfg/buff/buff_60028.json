@@ -8,10 +8,10 @@
         ],
         "type": "BattleBuffWorldVariable",
         "arg_list": {
-          "key": -1,
           "number": 0.4,
-          "variable": "SpeedRatioByIFF",
-          "resetNumber": 1
+          "resetNumber": 1,
+          "key": -1,
+          "variable": "SpeedRatioByIFF"
         }
       },
       {
@@ -22,20 +22,20 @@
         "type": "BattleBuffWorldVariable",
         "arg_list": {
           "number": 0.4,
-          "variable": "MapSpeedRatio",
-          "resetNumber": 1
+          "resetNumber": 1,
+          "variable": "MapSpeedRatio"
         }
       }
     ]
   },
-  "desc": "测试-伊丽莎白-减速",
+  "name": "测试-伊丽莎白-减速",
   "picture": "",
+  "desc": "测试-伊丽莎白-减速",
+  "time": 6,
+  "uiEffect": "SlowEffectUI",
+  "init_effect": "jiasuBUFF",
+  "last_effect": "SPD",
   "icon": 60028,
   "id": 60028,
-  "name": "测试-伊丽莎白-减速",
-  "init_effect": "jiasuBUFF",
-  "stack": 1,
-  "uiEffect": "SlowEffectUI",
-  "time": 6,
-  "last_effect": "SPD"
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023英系活动 剧情战2 敌方定时触发",
+  "picture": "",
+  "desc": "",
+  "time": 25,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,17 +11,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "Implacable-Class"
+        ],
+        "minTargetNumber": 1,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "buff_id": 200356,
-        "ship_tag_list": [
-          "Implacable-Class"
-        ],
-        "isBuffStackByCheckTarget": true
+        "isBuffStackByCheckTarget": true,
+        "target": "TargetShipTag"
       }
     },
     {
@@ -26,10 +30,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 200354,
         "time": 21,
-        "quota": 1
+        "target": "TargetSelf"
       }
     },
     {
@@ -38,20 +42,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200354,
         "quota": 1,
-        "time": 21
+        "time": 21,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200353,
-  "name": "2023英系活动 剧情战2 敌方定时触发",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200353,
-  "stack": 1,
-  "time": 25,
-  "last_effect": ""
+  "stack": 1
 }

@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-Z1II"
   },
-  "color": "red",
+  "name": "专属弹幕-Z1II",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 29170,
         "index": [
           1
         ],
-        "countType": 29170,
-        "countTarget": 10,
-        "gunnerBonus": true
+        "countTarget": 10
       }
     },
     {
@@ -24,17 +25,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "skill_id": 29172,
-        "countType": 29170,
         "maxTargetNumber": 0,
+        "target": "TargetSelf",
         "ship_tag_list": [
           "Z1SP"
-        ]
+        ],
+        "countType": 29170,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 29172
       }
     },
     {
@@ -43,28 +44,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29174,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Z1SP"
+        ],
+        "countType": 29170,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 29170,
-        "ship_tag_list": [
-          "Z1SP"
-        ],
-        "skill_id": 29174
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-Z1II",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行10次攻击，触发专属弹幕-Z1II",
+  "last_effect": "",
   "icon": 29170,
   "id": 29172,
-  "name": "专属弹幕-Z1II",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行10次攻击，触发专属弹幕-Z1II"
 }

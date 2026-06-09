@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024愚人节 自机锁血",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 200899,
         "quota": 1,
-        "hpUpperBound": 0.01
+        "buff_id": 200899,
+        "hpUpperBound": 0.01,
+        "target": "TargetSelf"
       }
     },
     {
@@ -24,13 +28,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200898,
-  "name": "2024愚人节 自机锁血",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200898,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

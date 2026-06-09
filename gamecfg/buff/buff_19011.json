@@ -7,9 +7,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.15
+          "number": 0.15,
+          "group": 19010
         }
       }
     ]
@@ -22,9 +22,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.172
+          "number": 0.172,
+          "group": 19010
         }
       }
     ]
@@ -37,9 +37,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.194
+          "number": 0.194,
+          "group": 19010
         }
       }
     ]
@@ -52,9 +52,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.216
+          "number": 0.216,
+          "group": 19010
         }
       }
     ]
@@ -67,9 +67,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.238
+          "number": 0.238,
+          "group": 19010
         }
       }
     ]
@@ -82,9 +82,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.26
+          "number": 0.26,
+          "group": 19010
         }
       }
     ]
@@ -97,9 +97,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.282
+          "number": 0.282,
+          "group": 19010
         }
       }
     ]
@@ -112,9 +112,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.304
+          "number": 0.304,
+          "group": 19010
         }
       }
     ]
@@ -127,9 +127,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.326
+          "number": 0.326,
+          "group": 19010
         }
       }
     ]
@@ -142,14 +142,15 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 19010,
           "attr": "damageRatioByAmmoType_2",
-          "number": 0.35
+          "number": 0.35,
+          "group": 19010
         }
       }
     ]
   },
-  "color": "red",
+  "name": "MkV型穿甲弹",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,26 +158,25 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 19010,
         "attr": "damageRatioByAmmoType_2",
-        "number": 0.15
+        "number": 0.15,
+        "group": 19010
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 19010,
+  "id": 19011,
+  "stack": 1,
+  "color": "red",
+  "desc": "穿甲弹伤害提高",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "穿甲弹伤害提高",
-  "picture": "",
-  "icon": 19010,
-  "name": "MkV型穿甲弹",
-  "init_effect": "jinengchufared",
-  "id": 19011,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

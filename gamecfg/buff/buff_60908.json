@@ -1,5 +1,9 @@
 {
-  "color": "",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.1
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -500
       }
     },
     {
@@ -30,8 +34,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": -500
       }
     },
     {
@@ -45,13 +49,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 60890,
-  "name": "",
-  "init_effect": "",
+  "color": "",
   "id": 60898,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

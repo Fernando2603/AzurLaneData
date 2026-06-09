@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "",
+  "last_effect": "bulunnusi_jianqi",
+  "desc": "",
+  "time": 0.5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,22 +12,18 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 150017,
         "cld_data": {
           "box": {
             "range": 15
           }
-        },
-        "buff_id": 150017,
-        "friendly_fire": true
+        }
       }
     }
   ],
-  "desc": "",
-  "id": 150016,
-  "name": "",
-  "init_effect": "",
   "picture": "",
+  "id": 150016,
   "stack": 6,
-  "time": 0.5,
-  "last_effect": "bulunnusi_jianqi"
+  "last_effect_cld_scale": true
 }

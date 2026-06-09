@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 17436,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 17436,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "laffeyzhanyi0"
         ]
@@ -35,27 +36,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "laffeyzhanyi0"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 17430,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 17430,
-        "ship_tag_list": [
-          "laffeyzhanyi0"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 2,
+  "init_effect": "",
   "desc_get": "战意检查0",
+  "last_effect": "",
   "icon": 17430,
   "id": 17435,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "desc": ""
 }

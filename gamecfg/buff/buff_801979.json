@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "检查是否被观测",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +12,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 801978,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 801978,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "YorktownMobserve"
         ]
       }
     }
   ],
-  "desc": "检查是否被观测",
-  "picture": "",
+  "last_effect": "",
   "icon": 801970,
-  "name": "",
-  "init_effect": "",
   "id": 801979,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 1
 }

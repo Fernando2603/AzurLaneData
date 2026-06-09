@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "",
+  "picture": "",
+  "desc": "古立特圣剑",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -25,25 +29,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 6901,
         "ship_tag_list": [
           "RIKKA"
         ],
+        "buff_id": 6901,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "古立特圣剑",
-  "picture": "",
+  "last_effect": "",
   "icon": 6900,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 6900,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -47,11 +48,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "rant": 10000,
         "index": [
           1
         ],
-        "buff_id": 150566,
-        "rant": 10000
+        "buff_id": 150566
       }
     },
     {
@@ -60,27 +61,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 150561,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "fancyfire"
         ],
-        "skill_id": 150561
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150560,
   "id": 150560,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

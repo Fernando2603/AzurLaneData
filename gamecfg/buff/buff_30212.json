@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行24次攻击，触发全弹发射-部族级I"
   },
-  "color": "red",
+  "name": "全弹发射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 30211,
         "index": [
           1
         ],
-        "countType": 30211,
-        "countTarget": 16,
-        "gunnerBonus": true
+        "countTarget": 16
       }
     },
     {
@@ -24,19 +25,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30212,
         "countType": 30211,
-        "skill_id": 30212
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 30210,
-  "name": "全弹发射",
-  "init_effect": "",
-  "id": 30212,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 30210,
+  "id": 30212,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

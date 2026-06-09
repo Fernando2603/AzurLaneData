@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,15 +28,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 1,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "shuangzi"
+        ],
         "check_target": [
           "TargetShipTag"
         ],
-        "skill_id": 600001,
-        "maxTargetNumber": 1,
-        "ship_tag_list": [
-          "shuangzi"
-        ]
+        "skill_id": 600001
       }
     },
     {
@@ -54,9 +56,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 600000,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 600000
       }
     },
     {
@@ -80,20 +82,18 @@
       }
     }
   ],
+  "time": 8,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 600001,
+  "id": 600001,
+  "stack": 1,
+  "desc": "",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 600001,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 600001,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

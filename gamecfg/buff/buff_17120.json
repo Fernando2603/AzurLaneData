@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,28 +27,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17121,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 17121
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 17123,
-        "shipType": 2
+        "shipType": 2,
+        "target": "TargetPlayerByType"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17120,
   "id": 17120,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

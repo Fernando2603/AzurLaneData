@@ -1,4 +1,9 @@
 {
+  "name": "苏俄冰锥减速",
+  "picture": "",
+  "desc": "4s减速",
+  "time": 4,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +13,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -4000,
-        "add": 0
+        "add": 0,
+        "mul": -4000
       }
     },
     {
@@ -28,11 +33,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 2,
-        "number": 23,
         "attr": "airPower",
+        "dotType": 2,
+        "k": 0,
         "time": 3.5,
-        "k": 0
+        "number": 23
       }
     },
     {
@@ -46,13 +51,8 @@
       }
     }
   ],
-  "desc": "4s减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 323,
-  "name": "苏俄冰锥减速",
-  "init_effect": "",
   "id": 323,
-  "stack": 1,
-  "time": 4,
-  "last_effect": "Darkness"
+  "stack": 1
 }

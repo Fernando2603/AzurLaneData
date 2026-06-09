@@ -1,4 +1,9 @@
 {
+  "name": "黑长门 樱花结界 月亏效果",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 10,
-        "number": 6,
         "attr": "cannonPower",
+        "dotType": 10,
+        "k": 0.5,
         "time": 3,
-        "k": 0.5
+        "number": 6
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "zihuozhuoshao",
   "icon": 201055,
-  "name": "黑长门 樱花结界 月亏效果",
-  "init_effect": "",
   "id": 201055,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "zihuozhuoshao"
+  "stack": 1
 }

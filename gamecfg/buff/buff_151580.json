@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "I404-1",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151580,
         "ship_tag_list": [
           "AirDominance_lower"
         ],
-        "maxTargetNumber": 0,
+        "skill_id": 151580,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -34,8 +35,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12021,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12021
       }
     },
     {
@@ -44,9 +45,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 151581
+        "skill_id": 151581,
+        "target": "TargetSelf"
       }
     },
     {
@@ -55,19 +56,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12021,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12021
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151580,
   "id": 151580,
-  "name": "I404-1",
-  "init_effect": "jinengchufared",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2023克莱蒙梭活动 教皇下属蛋船 孢子爆炸效果",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,7 +12,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200527,
         "nationality": [
           99
         ],
@@ -16,7 +19,8 @@
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "skill_id": 200527
       }
     },
     {
@@ -26,7 +30,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "nationality": [
           99
         ],
@@ -34,16 +37,13 @@
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "2023克莱蒙梭活动 教皇下属蛋船 孢子爆炸效果",
-  "init_effect": "",
+  "last_effect": "",
+  "color": "red",
   "stack": 99,
-  "id": 200527,
-  "time": 1,
-  "last_effect": ""
+  "id": 200527
 }

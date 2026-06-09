@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -28,26 +29,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "repeat_count": 10,
+        "minTargetNumber": 3,
+        "buff_id": 152081,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 3,
-        "buff_id": 152081,
         "nationality": [
           5
-        ],
-        "repeat_count": 10
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 152080,
-  "name": "",
-  "init_effect": "",
-  "id": 152080,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 152080,
+  "id": 152080,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

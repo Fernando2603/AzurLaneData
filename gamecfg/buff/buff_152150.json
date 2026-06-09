@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 152150,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 152150
       }
     },
     {
@@ -27,8 +28,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 152154,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 152154
       }
     },
     {
@@ -37,15 +38,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 152153,
         "ship_tag_list": [
           "NeverRetreat"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 152153,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -54,16 +55,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 152155,
         "ship_tag_list": [
           "NeverRetreat"
         ],
-        "isBuffStackByCheckTarget": true
+        "minTargetNumber": 1,
+        "buff_id": 152155,
+        "isBuffStackByCheckTarget": true,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ]
       }
     },
     {
@@ -76,11 +77,11 @@
           "NeverRetreat"
         ],
         "buff_id": 152158,
-        "maxTargetNumber": 0,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -93,14 +94,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 152150,
   "id": 152150,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,4 +1,9 @@
 {
+  "name": "降值",
+  "picture": "",
+  "desc": "喀琅施塔得降值",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -4000,
-        "add": 0
+        "add": 0,
+        "mul": -4000
       }
     },
     {
@@ -22,13 +27,8 @@
       }
     }
   ],
-  "desc": "喀琅施塔得降值",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 450,
-  "name": "降值",
-  "init_effect": "",
   "id": 451,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

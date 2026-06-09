@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "黛朵",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8662,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8662
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.1
       }
     },
     {
@@ -27,8 +31,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.2,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.2
       }
     },
     {
@@ -37,27 +41,23 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 8663,
         "time": 15,
-        "quota": 1
+        "target": "TargetSelf"
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 8662,
+  "color": "yellow",
+  "id": 8662,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 8662,
-  "name": "黛朵",
-  "init_effect": "jinengchufared",
-  "id": 8662,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

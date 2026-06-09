@@ -159,7 +159,8 @@
       ]
     }
   },
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -177,13 +178,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 18620,
+        "minWeaponNumber": 1,
         "label": [
           "CL",
           "MG"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -192,14 +193,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 18621,
+        "minWeaponNumber": 1,
+        "time": 20,
         "label": [
           "DD",
           "MG"
-        ],
-        "skill_id": 18621,
-        "check_weapon": true,
-        "time": 20,
-        "minWeaponNumber": 1
+        ]
       }
     },
     {
@@ -208,14 +209,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 18621,
+        "minWeaponNumber": 1,
+        "time": 10,
         "label": [
           "CL",
           "MG"
-        ],
-        "skill_id": 18621,
-        "check_weapon": true,
-        "time": 10,
-        "minWeaponNumber": 1
+        ]
       }
     },
     {
@@ -224,15 +225,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 18621,
+        "minWeaponNumber": 1,
         "quota": 1,
         "label": [
           "CL",
           "MG"
         ],
-        "check_weapon": true,
-        "skill_id": 18621,
-        "time": 3,
-        "minWeaponNumber": 1
+        "time": 3
       }
     },
     {
@@ -246,13 +247,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 19690,
-  "name": "",
-  "init_effect": "",
-  "id": 18620,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 19690,
+  "id": 18620,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

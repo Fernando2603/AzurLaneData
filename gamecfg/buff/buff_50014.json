@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "敌方维修船维修技能",
+  "picture": "",
+  "desc": "每6秒回复15%HP，持续",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 8,
-        "skill_id": 50014
+        "skill_id": 50014,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每6秒回复15%HP，持续",
-  "picture": "",
+  "last_effect": "",
   "icon": 50010,
-  "name": "敌方维修船维修技能",
-  "init_effect": "",
+  "color": "yellow",
   "id": 50014,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

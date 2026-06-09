@@ -1,4 +1,9 @@
 {
+  "name": "旧金山全弹发射弹幕减速15%",
+  "picture": "",
+  "desc": "5s减速",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -1500,
-        "add": 0
+        "add": 0,
+        "mul": -1500
       }
     }
   ],
-  "desc": "5s减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 350,
-  "name": "旧金山全弹发射弹幕减速15%",
-  "init_effect": "",
   "id": 350,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

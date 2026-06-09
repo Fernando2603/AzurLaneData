@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,8 +23,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "time": 5,
-        "skill_id": 115081
+        "skill_id": 115081,
+        "time": 5
       }
     },
     {
@@ -31,19 +34,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "hpSigned": 0,
         "skill_id": 115082,
-        "target": "TargetSelf",
         "hpLowerBound": 0.7,
-        "hpSigned": 0
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "wuheqinli_huifu",
   "icon": 115080,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 115080,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "wuheqinli_huifu"
+  "stack": 1
 }

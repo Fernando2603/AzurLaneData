@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "防空炮开火时有25%概率触发，自身防空提高20.0%(满级40.0%)但炮击降低40.0%(满级20.0%)，持续3秒",
+  "name": "防空模式-LV8",
+  "picture": "",
   "desc": "防空炮开火时有25%概率触发，自身防空提高$1但炮击降低$2，持续3秒",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "防空炮开火时有25%概率触发，自身防空提高20.0%(满级40.0%)但炮击降低40.0%(满级20.0%)，持续3秒",
   "effect_list": [
     {
       "trigger": [
@@ -9,19 +12,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 9071,
         "time": 5,
-        "rant": 2500
+        "rant": 2500,
+        "skill_id": 9071,
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 9070,
-  "name": "防空模式-LV8",
-  "init_effect": "",
+  "color": "blue",
   "id": 9071,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

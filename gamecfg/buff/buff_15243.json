@@ -1,7 +1,10 @@
 {
-  "color": "yellow",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,18 +12,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 10,
-        "skill_id": 15242
+        "skill_id": 15242,
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 15240,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 15243,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

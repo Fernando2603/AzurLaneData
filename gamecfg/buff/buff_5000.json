@@ -29,7 +29,8 @@
   "10": {
     "time": 10
   },
-  "color": "yellow",
+  "name": "火力干扰",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -38,8 +39,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -3000,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": -3000
       }
     },
     {
@@ -49,18 +50,17 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.15
       }
     }
   ],
-  "desc": "装填降低30%，自身伤害降低15%",
-  "picture": "",
-  "icon": 5000,
-  "name": "火力干扰",
-  "init_effect": "",
-  "id": 5000,
-  "stack": 1,
   "time": 5,
-  "last_effect": "Darkness"
+  "init_effect": "",
+  "last_effect": "Darkness",
+  "icon": 5000,
+  "id": 5000,
+  "color": "yellow",
+  "stack": 1,
+  "desc": "装填降低30%，自身伤害降低15%"
 }

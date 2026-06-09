@@ -9,7 +9,23 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "shipInfoScene": {
+    "equip": [
+      {
+        "number": 30,
+        "label": [
+          "AA"
+        ],
+        "check_indexList": [
+          1
+        ],
+        "check_label": [
+          "ShimantoMG"
+        ]
+      }
+    ]
+  },
   "effect_list": [
     {
       "trigger": [
@@ -17,12 +33,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 19760,
+        "minWeaponNumber": 1,
         "weapon_group": [
           32360
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -31,9 +47,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 19765,
-        "quota": 1
+        "quota": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -46,30 +62,14 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "last_effect": "",
   "desc_get": "",
   "icon": 19760,
   "id": 19760,
-  "name": "",
-  "shipInfoScene": {
-    "equip": [
-      {
-        "number": 30,
-        "check_indexList": [
-          1
-        ],
-        "label": [
-          "AA"
-        ],
-        "check_label": [
-          "ShimantoMG"
-        ]
-      }
-    ]
-  },
-  "init_effect": "",
-  "picture": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "color": "red",
+  "desc": "",
+  "picture": ""
 }

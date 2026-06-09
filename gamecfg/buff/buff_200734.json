@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023关岛活动 理事会舰队压制",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.05
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": -500
       }
     },
     {
@@ -30,18 +34,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -500
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200734,
-  "name": "2023关岛活动 理事会舰队压制",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200734,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

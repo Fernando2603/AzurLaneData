@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,11 +18,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 2,
         "index": [
           2
         ],
-        "countType": 19750,
-        "countTarget": 2
+        "countType": 19750
       }
     },
     {
@@ -30,17 +31,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "skill_id": 19750,
-        "countType": 19750,
         "maxTargetNumber": 0,
+        "target": "TargetSelf",
         "ship_tag_list": [
           "ShimantoSP"
-        ]
+        ],
+        "countType": 19750,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "skill_id": 19750
       }
     },
     {
@@ -49,26 +50,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 19751,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "ShimantoSP"
+        ],
+        "countType": 19750,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 19750,
-        "ship_tag_list": [
-          "ShimantoSP"
-        ],
-        "skill_id": 19751
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
-  "icon": 19750,
-  "name": "",
-  "init_effect": "",
-  "id": 19750,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 19750,
+  "color": "red",
+  "id": 19750,
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "强袭空母",
+  "picture": "",
+  "desc": "伤害提高",
+  "time": 10,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 3010,
+  "color": "red",
+  "id": 3010,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "伤害提高",
-  "picture": "",
-  "icon": 3010,
-  "name": "强袭空母",
-  "init_effect": "jinengchufared",
-  "id": 3010,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  ]
 }

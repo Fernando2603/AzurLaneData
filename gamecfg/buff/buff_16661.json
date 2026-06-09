@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16662,
         "ship_tag_list": [
           "Formidableover90"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 16662,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -34,15 +35,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16663,
         "ship_tag_list": [
           "Formidablebelow90"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 16663,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -55,14 +56,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16660,
   "id": 16661,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 5,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,15 +12,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151733,
         "ship_tag_list": [
           "maoxian_sp"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 151733,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -26,15 +29,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151732,
         "ship_tag_list": [
           "maoxian_sp"
         ],
-        "maxTargetNumber": 0,
+        "skill_id": 151732,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -47,12 +50,9 @@
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 151730,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 151731,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

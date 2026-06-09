@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "炮击易伤",
+  "picture": "",
+  "desc": "易伤类型用例,受到炮击伤害提高100%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "damageGetRatioByCannon"
+        "attr": "damageGetRatioByCannon",
+        "number": 1
       }
     }
   ],
-  "desc": "易伤类型用例,受到炮击伤害提高100%",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 71050,
-  "name": "炮击易伤",
-  "init_effect": "",
+  "color": "blue",
   "id": 71050,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

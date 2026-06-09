@@ -29,7 +29,8 @@
   "10": {
     "desc": "航空预备"
   },
-  "color": "red",
+  "name": "航空预备",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,20 +38,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 10830
+        "skill_id": 10830,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "第一次执行空中支援时，额外进行一轮航空弹幕攻击$1，每场战斗只能触发1次",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "第一次执行空中支援时，额外进行一轮航空弹幕攻击(威力随技能等级提升)，每场战斗只能触发1次",
+  "last_effect": "",
   "icon": 10830,
   "id": 10830,
-  "name": "航空预备",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "第一次执行空中支援时，额外进行一轮航空弹幕攻击$1，每场战斗只能触发1次"
 }

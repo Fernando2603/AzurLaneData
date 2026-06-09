@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "boss akua",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8655,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8655
       }
     },
     {
@@ -17,13 +21,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 8653,
         "ship_tag_list": [
           "bossmio"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -33,13 +37,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 8654,
         "ship_tag_list": [
           "bossshion"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -49,19 +53,15 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 8655,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 8655
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8655,
-  "name": "boss akua",
-  "init_effect": "",
+  "color": "yellow",
   "id": 8655,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

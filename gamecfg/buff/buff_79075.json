@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "瞬移的前置",
+  "picture": "",
+  "desc": "瞬移到我方前排舰队附近",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "target": "TargetSelf",
         "skill_id": 79075,
-        "check_target": "TargetSelf"
+        "check_target": "TargetSelf",
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "瞬移到我方前排舰队附近",
-  "picture": "",
+  "last_effect": "",
   "icon": 73500,
-  "name": "瞬移的前置",
-  "init_effect": "",
+  "color": "red",
   "id": 79075,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

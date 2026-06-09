@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0
       }
     },
     {
@@ -17,17 +22,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 999961,
-        "quota": 1
+        "quota": 1,
+        "skill_id": 999961
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 999962,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "stack": 1
 }

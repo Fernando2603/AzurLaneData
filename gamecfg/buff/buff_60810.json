@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,27 +11,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 60810,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Fubo's Plan"
+        ],
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "Fubo's Plan"
-        ],
-        "skill_id": 60810
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60810,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60810,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

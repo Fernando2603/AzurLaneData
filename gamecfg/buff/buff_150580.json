@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -38,11 +39,11 @@
       "arg_list": {
         "nationality": 96,
         "buff_id": 150582,
-        "maxTargetNumber": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "maxTargetNumber": 1
       }
     },
     {
@@ -51,24 +52,23 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 150583,
         "nationality": 96,
+        "buff_id": 150583,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150580,
   "id": 150580,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

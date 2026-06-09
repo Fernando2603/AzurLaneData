@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "毒雾debuff",
+  "picture": "",
+  "desc": "减速，降低炮击，造成dot伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,12 +12,12 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
+        "add": 0,
+        "mul": -1500,
         "group": {
           "level": 10,
           "id": 300
-        },
-        "mul": -1500,
-        "add": 0
+        }
       }
     },
     {
@@ -23,8 +27,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -15,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -15
       }
     },
     {
@@ -34,21 +38,17 @@
       "type": "BattleBuffDOT",
       "arg_list": {
         "currentHPRatio": 0.01,
-        "attr": "cannonPower",
-        "number": 20,
         "dotType": 1,
+        "k": 0.3,
         "time": 1.2,
-        "k": 0.3
+        "attr": "cannonPower",
+        "number": 20
       }
     }
   ],
-  "desc": "减速，降低炮击，造成dot伤害",
-  "picture": "",
+  "last_effect": "poison_buff",
   "icon": 4971,
-  "name": "毒雾debuff",
-  "init_effect": "",
+  "color": "yellow",
   "id": 79030,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "poison_buff"
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "FFS-指挥-炮击II具体效果",
+  "picture": "",
+  "desc": "FFS-指挥-炮击II具体效果",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "cannonPower",
         "convertRate": 0.8,
-        "ability": "command",
-        "convertAttr": "cannonPower"
+        "ability": "command"
       }
     }
   ],
-  "desc": "FFS-指挥-炮击II具体效果",
-  "picture": "",
+  "last_effect": "",
   "icon": 40520,
-  "name": "FFS-指挥-炮击II具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40522,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

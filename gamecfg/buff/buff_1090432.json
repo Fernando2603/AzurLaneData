@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "",
+  "name": "吸引火力·妙高",
+  "picture": "",
   "desc": "",
+  "time": 1,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,14 +12,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "exceptCaster": true,
         "minTargetNumber": 1,
-        "buff_id": 1090433,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
         ],
-        "isBuffStackByCheckTarget": true
+        "buff_id": 1090433,
+        "isBuffStackByCheckTarget": true,
+        "exceptCaster": true
       }
     },
     {
@@ -25,17 +28,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1090432,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1090432
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 4040,
-  "name": "吸引火力·妙高",
-  "init_effect": "",
+  "color": "blue",
   "id": 1090432,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

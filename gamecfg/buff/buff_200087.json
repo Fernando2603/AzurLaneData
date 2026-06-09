@@ -1,4 +1,9 @@
 {
+  "name": "2022武藏活动 天宇启户祭 敌我双方单位造到的伤害降低，且战斗中每隔一段时间恢复自身微量耐久或获得一层护盾",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           200087,
           200083
@@ -20,16 +24,12 @@
             0.5,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200087,
-  "name": "2022武藏活动 天宇启户祭 敌我双方单位造到的伤害降低，且战斗中每隔一段时间恢复自身微量耐久或获得一层护盾",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

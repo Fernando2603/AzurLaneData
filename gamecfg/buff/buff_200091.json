@@ -1,4 +1,9 @@
 {
+  "name": "2022武藏活动 EX 武藏转阶段后无敌",
+  "picture": "",
+  "desc": "",
+  "time": 4,
+  "init_effect": "Bossbomb",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200091,
-        "target": "TargetHarmFarthest"
+        "target": "TargetHarmFarthest",
+        "skill_id": 200091
       }
     },
     {
@@ -17,26 +22,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 200091,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 200091
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "jinengchufablue",
+  "icon": 200091,
+  "id": 200091,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 200091,
-  "name": "2022武藏活动 EX 武藏转阶段后无敌",
-  "init_effect": "Bossbomb",
-  "id": 200091,
-  "stack": 1,
-  "time": 4,
-  "last_effect": "jinengchufablue"
+  ]
 }

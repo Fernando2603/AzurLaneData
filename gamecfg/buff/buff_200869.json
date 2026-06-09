@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024异世界冒险 英灵效果 逸仙",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.4,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.4
       }
     },
     {
@@ -18,8 +22,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200869,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200869
       }
     },
     {
@@ -28,20 +32,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200868,
         "quota": 1,
-        "time": 2
+        "time": 2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200869,
-  "name": "2024异世界冒险 英灵效果 逸仙",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200869,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

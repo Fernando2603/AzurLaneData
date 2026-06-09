@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 151121,
+        "check_target": [
+          "TargetAllHelp"
+        ],
+        "minTargetNumber": 1,
         "target": "TargetSelf",
+        "quota": 1,
         "hpUpperBound": 0.9,
-        "quota": 1,
-        "check_target": [
-          "TargetAllHelp"
-        ],
-        "minTargetNumber": 1,
-        "time": 5,
-        "skill_id": 151121
+        "time": 5
       }
     },
     {
@@ -34,15 +35,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 151121,
+        "check_target": [
+          "TargetAllHelp"
+        ],
+        "minTargetNumber": 1,
         "target": "TargetSelf",
+        "quota": 1,
         "hpUpperBound": 0.8,
-        "quota": 1,
-        "check_target": [
-          "TargetAllHelp"
-        ],
-        "minTargetNumber": 1,
-        "time": 5,
-        "skill_id": 151121
+        "time": 5
       }
     },
     {
@@ -51,25 +52,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.7,
-        "quota": 1,
+        "skill_id": 151121,
         "check_target": [
           "TargetAllHelp"
         ],
         "minTargetNumber": 1,
-        "time": 5,
-        "skill_id": 151121
+        "target": "TargetSelf",
+        "quota": 1,
+        "hpUpperBound": 0.7,
+        "time": 5
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 151120,
-  "name": "",
-  "init_effect": "",
-  "id": 151123,
-  "stack": 1,
   "time": 6,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 151120,
+  "id": 151123,
+  "color": "blue",
+  "stack": 1,
+  "desc": ""
 }

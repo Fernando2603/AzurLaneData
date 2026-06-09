@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "精准狩猎",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -17,27 +21,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "killer": "self",
-        "skill_id": 902180,
         "time": 1,
-        "target": "TargetSelf"
+        "skill_id": 902180,
+        "target": "TargetSelf",
+        "killer": "self"
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 902180,
+  "color": "yellow",
+  "id": 902180,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 902180,
-  "name": "精准狩猎",
-  "init_effect": "jinengchufared",
-  "id": 902180,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

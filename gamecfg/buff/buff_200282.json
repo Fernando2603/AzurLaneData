@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023英系活动 EX 反噬结算",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 200282
+        "countType": 200282,
+        "countTarget": 3
       }
     },
     {
@@ -18,19 +22,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200287,
-        "countType": 200282
+        "countType": 200282,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200282,
-  "name": "2023英系活动 EX 反噬结算",
-  "init_effect": "",
+  "color": "blue",
   "id": 200282,
-  "stack": 99,
-  "time": 0,
-  "last_effect": ""
+  "stack": 99
 }

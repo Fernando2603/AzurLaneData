@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "广结善缘",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,11 +18,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
         "minTargetNumber": 1,
+        "isBuffStackByCheckTarget": true,
         "buff_id": 16361,
-        "nationality": 5,
-        "isBuffStackByCheckTarget": true
+        "check_target": "TargetNationalityFriendly",
+        "nationality": 5
       }
     },
     {
@@ -30,10 +31,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "nationality": 5,
         "skill_id": 16360,
-        "check_target": "TargetNationalityFriendly"
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 1
       }
     },
     {
@@ -42,13 +43,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 2,
+        "nationality": 5,
+        "buff_id": 16362,
         "check_target": [
           "TargetNationalityFriendly"
         ],
-        "minTargetNumber": 2,
-        "buff_id": 16362,
-        "nationality": 5
+        "target": "TargetSelf"
       }
     },
     {
@@ -57,18 +58,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16362,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 16362
       }
     }
   ],
-  "desc": "出击时，自身所在编队中每有一个东煌阵营角色，自身的航空、命中属性提升$1；若队伍中存在其他东煌阵营角色，降低自己$2受到的伤害，自身发动空袭后，降低队伍中先锋角色受到的伤害$3，持续8秒。",
-  "picture": "",
-  "icon": 16360,
-  "name": "广结善缘",
-  "init_effect": "",
-  "id": 16360,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 16360,
+  "id": 16360,
+  "color": "yellow",
+  "stack": 1,
+  "desc": "出击时，自身所在编队中每有一个东煌阵营角色，自身的航空、命中属性提升$1；若队伍中存在其他东煌阵营角色，降低自己$2受到的伤害，自身发动空袭后，降低队伍中先锋角色受到的伤害$3，持续8秒。"
 }

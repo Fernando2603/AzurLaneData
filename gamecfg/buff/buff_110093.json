@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 110093
+        "countType": 110093,
+        "countTarget": 3
       }
     },
     {
@@ -17,10 +21,10 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "target": "TargetSelf",
-        "value": 1,
         "time": 0,
-        "rant": 10000
+        "rant": 10000,
+        "value": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -36,13 +40,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 110090,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 110093,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

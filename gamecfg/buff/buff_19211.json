@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "吾妻特殊弹幕I",
+  "picture": "",
+  "desc": "主炮每进行8次攻击，触发小子弹弹幕",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 8,
         "index": [
           1
         ],
-        "countType": 19210,
-        "countTarget": 8
+        "countType": 19210
       }
     },
     {
@@ -20,19 +24,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 19211,
         "countType": 19210,
-        "skill_id": 19211
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行8次攻击，触发小子弹弹幕",
-  "picture": "",
+  "last_effect": "",
   "icon": 19210,
-  "name": "吾妻特殊弹幕I",
-  "init_effect": "",
+  "color": "red",
   "id": 19211,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

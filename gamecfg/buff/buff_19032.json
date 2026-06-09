@@ -9,8 +9,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2000,
-          "add": 0
+          "add": 0,
+          "mul": -2000
         }
       }
     ]
@@ -25,8 +25,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2220,
-          "add": 0
+          "add": 0,
+          "mul": -2220
         }
       }
     ]
@@ -41,8 +41,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2440,
-          "add": 0
+          "add": 0,
+          "mul": -2440
         }
       }
     ]
@@ -57,8 +57,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2660,
-          "add": 0
+          "add": 0,
+          "mul": -2660
         }
       }
     ]
@@ -73,8 +73,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2880,
-          "add": 0
+          "add": 0,
+          "mul": -2880
         }
       }
     ]
@@ -89,8 +89,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -3100,
-          "add": 0
+          "add": 0,
+          "mul": -3100
         }
       }
     ]
@@ -105,8 +105,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -3320,
-          "add": 0
+          "add": 0,
+          "mul": -3320
         }
       }
     ]
@@ -121,8 +121,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -3540,
-          "add": 0
+          "add": 0,
+          "mul": -3540
         }
       }
     ]
@@ -137,8 +137,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -3760,
-          "add": 0
+          "add": 0,
+          "mul": -3760
         }
       }
     ]
@@ -153,12 +153,14 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -4000,
-          "add": 0
+          "add": 0,
+          "mul": -4000
         }
       }
     ]
   },
+  "name": "减速",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -168,18 +170,16 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -2000,
-        "add": 0
+        "add": 0,
+        "mul": -2000
       }
     }
   ],
-  "desc": "6s减速",
-  "picture": "",
-  "icon": 19032,
-  "name": "减速",
+  "time": 6,
   "init_effect": "",
+  "last_effect": "Darkness",
+  "icon": 19032,
   "id": 19032,
   "stack": 1,
-  "time": 6,
-  "last_effect": "Darkness"
+  "desc": "6s减速"
 }

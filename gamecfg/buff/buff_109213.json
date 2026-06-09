@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,17 +19,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
-        "fleetPos": "Rear",
-        "minTargetNumber": 1,
-        "buff_id": 109214,
         "ship_tag_list": [
           "darktorear"
         ],
+        "minTargetNumber": 1,
+        "fleetPos": "Rear",
+        "buff_id": 109214,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "target": "TargetFleetIndex"
       }
     },
     {
@@ -38,27 +39,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
-        "fleetPos": "Leader",
-        "minTargetNumber": 1,
-        "buff_id": 109214,
         "ship_tag_list": [
           "darktoleader"
         ],
+        "minTargetNumber": 1,
+        "fleetPos": "Leader",
+        "buff_id": 109214,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "target": "TargetFleetIndex"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 109212,
-  "name": "",
-  "init_effect": "",
-  "id": 109213,
-  "stack": 3,
   "time": 5,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 109212,
+  "id": 109213,
+  "color": "red",
+  "stack": 3,
+  "desc": ""
 }

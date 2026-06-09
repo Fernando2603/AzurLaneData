@@ -1,9 +1,10 @@
 {
   "1": [],
   "2": [],
-  "init_effect": "",
-  "picture": "",
+  "last_effect": "",
   "name": "2025风帆三期EX 莱姆号 空袭监听",
+  "picture": "",
+  "id": 201535,
   "effect_list": [
     {
       "trigger": [
@@ -11,21 +12,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "BOSS"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201536,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201536,
-        "ship_tag_list": [
-          "BOSS"
-        ]
+        "target": "TargetShipTag"
       }
     }
   ],
-  "id": 201535,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "ship_tag_list": [
+          "Anchorage"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 60291,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60291,
-        "ship_tag_list": [
-          "Anchorage"
-        ]
+        "quota": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60290,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60290,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  "stack": 1
 }

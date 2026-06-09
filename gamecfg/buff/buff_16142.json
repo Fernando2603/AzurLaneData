@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "过早的赠礼",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 16142,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 16142,
         "be_hit_condition": {
           "damage_type": 2,
           "bullet_type": 3
@@ -27,13 +29,11 @@
       }
     }
   ],
-  "desc": "自身每次被鱼雷武器命中受到伤害时，有75%概率触发，每秒恢复自身1%耐久值，持续8秒，该效果仅可触发一次，",
-  "picture": "",
-  "icon": 16140,
-  "name": "过早的赠礼",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 16140,
   "id": 16142,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "自身每次被鱼雷武器命中受到伤害时，有75%概率触发，每秒恢复自身1%耐久值，持续8秒，该效果仅可触发一次，"
 }

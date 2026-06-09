@@ -14,6 +14,8 @@
   "13": [],
   "14": [],
   "15": [],
+  "name": "黑基洛夫BOSS战 彗星机械重组",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,8 +23,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200705,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200705
       }
     },
     {
@@ -32,8 +34,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.3,
-        "attr": "injureRatioByCannon"
+        "attr": "injureRatioByCannon",
+        "number": 0.3
       }
     },
     {
@@ -42,22 +44,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 200706,
-        "target": "TargetShipTag",
         "ship_tag_list": [
           "BOSS"
-        ]
+        ],
+        "buff_id": 200706,
+        "target": "TargetShipTag",
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 200705,
-  "name": "黑基洛夫BOSS战 彗星机械重组",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 200705,
   "id": 200705,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

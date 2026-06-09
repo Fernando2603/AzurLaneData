@@ -1,4 +1,9 @@
 {
+  "name": "2024天城航母活动 奈落之渊",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 201095,
         "nationality": 97,
+        "buff_id": 201095,
         "check_target": [
           "TargetSelf",
           "TargetNationalityFriendly"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -23,21 +28,16 @@
       "arg_list": {
         "nationality": 97,
         "buff_id": 201096,
-        "maxTargetNumber": 0,
         "check_target": [
           "TargetSelf",
           "TargetNationalityFriendly"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201094,
-  "name": "2024天城航母活动 奈落之渊",
-  "init_effect": "",
   "id": 201094,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

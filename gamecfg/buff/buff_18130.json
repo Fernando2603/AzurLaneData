@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "飞行NG! +",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,12 +21,12 @@
         "ship_tag_list": [
           "AirDominance_lower"
         ],
-        "buff_id": 18131,
         "maxTargetNumber": 0,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "buff_id": 18131
       }
     },
     {
@@ -34,26 +35,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 18135,
         "ship_tag_list": [
           "AirDominance_lower"
         ],
+        "buff_id": 18135,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "飞行NG! +",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 18130,
   "id": 18130,
-  "name": "飞行NG! +",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "飞行NG! +"
 }

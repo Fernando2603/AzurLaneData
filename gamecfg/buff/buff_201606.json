@@ -1,4 +1,8 @@
 {
+  "id": 201606,
+  "name": "2025约战联动 角色支援 夜刀神十香",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +10,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201606,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201606
       }
     },
     {
@@ -16,9 +20,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
+        "fleetPos": "Leader",
         "buff_id": 201607,
-        "fleetPos": "Leader"
+        "target": "TargetFleetIndex"
       }
     },
     {
@@ -27,18 +31,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
-        "buff_id": 201607,
         "time": 30,
-        "fleetPos": "Leader"
+        "fleetPos": "Leader",
+        "buff_id": 201607,
+        "target": "TargetFleetIndex"
       }
     }
   ],
-  "id": 201606,
-  "name": "2025约战联动 角色支援 夜刀神十香",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2019年9月世界BOSS叠加buff",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 2000
       }
     },
     {
@@ -17,25 +21,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 2000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 2120,
+  "color": "yellow",
+  "id": 8641,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 2120,
-  "name": "2019年9月世界BOSS叠加buff",
-  "init_effect": "jinengchufablue",
-  "id": 8641,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

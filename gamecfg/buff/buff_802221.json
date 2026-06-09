@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,8 +19,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 802221
+        "countType": 802221,
+        "countTarget": 2
       }
     },
     {
@@ -29,8 +30,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 802222
+        "countType": 802222,
+        "countTarget": 3
       }
     },
     {
@@ -40,8 +41,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 802223
+        "countType": 802223,
+        "countTarget": 4
       }
     },
     {
@@ -50,10 +51,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 802221,
         "quota": 1,
-        "skill_id": 802221
+        "skill_id": 802221,
+        "target": "TargetSelf"
       }
     },
     {
@@ -62,10 +63,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 802222,
         "quota": 1,
-        "skill_id": 802222
+        "skill_id": 802222,
+        "target": "TargetSelf"
       }
     },
     {
@@ -74,21 +75,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 802223,
         "quota": 1,
-        "skill_id": 802223
+        "skill_id": 802223,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "开局1每次触发+1",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 802220,
   "id": 802221,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 4,
-  "time": 0,
-  "last_effect": ""
+  "desc": "开局1每次触发+1"
 }

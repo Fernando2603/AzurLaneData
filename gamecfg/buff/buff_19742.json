@@ -1,4 +1,9 @@
 {
+  "name": "回复效果",
+  "picture": "",
+  "desc": "回复效果",
+  "time": 5.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 19741,
         "time": 1,
-        "initialCD": true
+        "initialCD": true,
+        "skill_id": 19741,
+        "target": "TargetSelf"
       }
     },
     {
@@ -23,13 +28,8 @@
       }
     }
   ],
-  "desc": "回复效果",
-  "picture": "",
+  "last_effect": "Health",
   "icon": 19740,
-  "name": "回复效果",
-  "init_effect": "",
   "id": 19742,
-  "stack": 1,
-  "time": 5.1,
-  "last_effect": "Health"
+  "stack": 1
 }

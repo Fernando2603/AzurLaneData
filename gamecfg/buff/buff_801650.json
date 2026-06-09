@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 801650,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 801650
       }
     },
     {
@@ -28,10 +29,10 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "skill_id": 801651,
+        "quota": 5,
         "index": [
           801650
         ],
-        "quota": 5,
         "target": "TargetSelf"
       }
     },
@@ -41,16 +42,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 801653,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Satellite_Ready"
         ],
-        "skill_id": 801653
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -63,13 +64,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 801650,
-  "name": "",
-  "init_effect": "",
-  "id": 801650,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 801650,
+  "id": 801650,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

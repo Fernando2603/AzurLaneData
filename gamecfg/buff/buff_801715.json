@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "紧急回避",
+  "picture": "",
+  "desc": "完全闪避",
+  "time": 6,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -8,26 +12,22 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 801710,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 801710
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 801710,
+  "color": "blue",
+  "id": 801715,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "完全闪避",
-  "picture": "",
-  "icon": 801710,
-  "name": "紧急回避",
-  "init_effect": "jinengchufablue",
-  "id": 801715,
-  "stack": 1,
-  "time": 6,
-  "last_effect": ""
+  ]
 }

@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "航空减伤50%",
+  "picture": "",
+  "desc": "航空减伤",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +12,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.5,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": -0.5
       }
     }
   ],
-  "desc": "航空减伤",
-  "picture": "",
+  "last_effect": "",
   "icon": 8620,
-  "name": "航空减伤50%",
-  "init_effect": "",
+  "color": "blue",
   "id": 8625,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

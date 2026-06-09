@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "机动下降+道具命中",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -1000,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -1000
       }
     },
     {
@@ -22,13 +27,8 @@
       }
     }
   ],
-  "desc": "机动下降+道具命中",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 481,
-  "name": "",
-  "init_effect": "",
   "id": 481,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

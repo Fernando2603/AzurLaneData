@@ -29,6 +29,8 @@
   "10": {
     "time": 10
   },
+  "name": "彩虹计划",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,26 +39,24 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 10051,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 10051
       }
     }
   ],
+  "time": 5,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 10051,
+  "id": 10051,
+  "stack": 1,
+  "desc": "完全闪避",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "完全闪避",
-  "picture": "",
-  "icon": 10051,
-  "name": "彩虹计划",
-  "init_effect": "jinengchufablue",
-  "id": 10051,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  ]
 }

@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,12 +11,12 @@
       ],
       "type": "BattleBuffHP",
       "arg_list": {
-        "weaponType": 1,
+        "damageConvertRatio": 800,
+        "target": "TargetSelf",
         "index": [
           -1
         ],
-        "target": "TargetSelf",
-        "damageConvertRatio": 800
+        "weaponType": 1
       }
     },
     {
@@ -20,19 +25,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 13763,
-        "quota": 1
+        "quota": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 13762,
-  "name": "",
-  "init_effect": "",
   "id": 13762,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "回避本次伤害",
+  "picture": "",
+  "desc": "无敌",
+  "time": 0.1,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 151960,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 151960
       }
     },
     {
@@ -18,7 +23,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           151963,
           151964
@@ -32,24 +36,20 @@
             0.73,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 151960,
+  "id": 151963,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "无敌",
-  "picture": "",
-  "icon": 151960,
-  "name": "回避本次伤害",
-  "init_effect": "jinengchufablue",
-  "id": 151963,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  ]
 }

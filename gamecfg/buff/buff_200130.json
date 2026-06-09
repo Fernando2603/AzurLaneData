@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2022莱莎联动EX 生命转换 吸血效果",
+  "picture": "",
+  "desc": "",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,22 +11,18 @@
       ],
       "type": "BattleBuffHP",
       "arg_list": {
-        "weaponType": 1,
+        "damageConvertRatio": 100000,
         "bulletTag": [
           "VAMPIRE"
         ],
         "target": "TargetSelf",
-        "damageConvertRatio": 100000
+        "weaponType": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200130,
-  "name": "2022莱莎联动EX 生命转换 吸血效果",
-  "init_effect": "",
+  "color": "red",
   "id": 200130,
-  "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  "stack": 1
 }

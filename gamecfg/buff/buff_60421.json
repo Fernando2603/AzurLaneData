@@ -1,4 +1,9 @@
 {
+  "name": "随机buff触发器",
+  "picture": "",
+  "desc": "随机buff触发器",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           60420,
           60421,
@@ -30,17 +34,13 @@
             0.75,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "随机buff触发器",
-  "picture": "",
+  "last_effect": "",
   "icon": 60421,
-  "name": "随机buff触发器",
-  "init_effect": "",
   "id": 60421,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

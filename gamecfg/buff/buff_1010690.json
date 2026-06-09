@@ -129,7 +129,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "铁血之鹰",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -137,14 +138,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 1010690,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "KMS",
           "CV"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -153,19 +154,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1010691,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1010691
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 10690,
   "id": 1010690,
-  "name": "铁血之鹰",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

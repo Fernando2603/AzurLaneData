@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023英系活动 审判机甲-战争 战争突刺！",
+  "picture": "",
+  "desc": "",
+  "time": 7,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 5,
-        "attr": "hammerDamageRatio"
+        "attr": "hammerDamageRatio",
+        "number": 5
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "hammerDamagePrevent"
+        "attr": "hammerDamagePrevent",
+        "number": 1
       }
     },
     {
@@ -39,8 +43,8 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 200345,
-        "quota": 1,
-        "time": 4
+        "time": 4,
+        "quota": 1
       }
     },
     {
@@ -50,9 +54,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 1,
         "attr": "immuneAreaLimit",
-        "number": 1
+        "number": 1,
+        "group": 1
       }
     },
     {
@@ -62,8 +66,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "immuneMaxAreaLimit"
+        "attr": "immuneMaxAreaLimit",
+        "number": 1
       }
     },
     {
@@ -83,20 +87,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200344,
         "quota": 1,
-        "time": 6.5
+        "time": 6.5,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200344,
-  "name": "2023英系活动 审判机甲-战争 战争突刺！",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200344,
-  "stack": 1,
-  "time": 7,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "威光",
+  "picture": "",
+  "desc": "每隔20秒触发",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 10934,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每隔20秒触发",
-  "picture": "",
+  "last_effect": "",
   "icon": 10933,
-  "name": "威光",
-  "init_effect": "",
+  "color": "blue",
   "id": 10933,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

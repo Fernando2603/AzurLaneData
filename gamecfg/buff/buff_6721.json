@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "觉醒宝珠",
+  "picture": "",
+  "desc": "造成伤害上升",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.03
       }
     }
   ],
-  "desc": "造成伤害上升",
-  "picture": "",
+  "last_effect": "",
   "icon": 6721,
-  "name": "觉醒宝珠",
-  "init_effect": "",
+  "color": "red",
   "id": 6721,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

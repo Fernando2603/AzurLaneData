@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024异世界冒险 英灵效果 黑企业",
+  "picture": "",
+  "desc": "",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,16 +22,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "BOSS"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200881,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200881,
-        "ship_tag_list": [
-          "BOSS"
-        ]
+        "target": "TargetShipTag"
       }
     },
     {
@@ -46,18 +50,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200880,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200880
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200880,
-  "name": "2024异世界冒险 英灵效果 黑企业",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200880,
-  "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  "stack": 1
 }

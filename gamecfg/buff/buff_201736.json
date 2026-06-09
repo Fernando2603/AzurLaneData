@@ -1,4 +1,8 @@
 {
+  "id": 201736,
+  "name": "2026信标BOSS 雷根斯堡meta 阶段式胜利效果",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,16 +10,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "BOSS"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201737,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201737,
-        "ship_tag_list": [
-          "BOSS"
-        ]
+        "target": "TargetShipTag"
       }
     },
     {
@@ -24,24 +28,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "BOSS"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201737,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201737,
-        "ship_tag_list": [
-          "BOSS"
-        ]
+        "target": "TargetShipTag"
       }
     }
   ],
-  "id": 201736,
-  "name": "2026信标BOSS 雷根斯堡meta 阶段式胜利效果",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

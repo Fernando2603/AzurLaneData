@@ -1,4 +1,9 @@
 {
+  "name": "2025拉斐尔活动 战车 过热射击",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201238,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201238
       }
     },
     {
@@ -16,19 +21,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201239,
-        "time": 3
+        "time": 3,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201238,
-  "name": "2025拉斐尔活动 战车 过热射击",
-  "init_effect": "",
   "id": 201238,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

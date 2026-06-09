@@ -1,7 +1,10 @@
 {
-  "color": "yellow",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,22 +12,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 15342,
         "nationality": 7,
+        "buff_id": 15342,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 15340,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 15341,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

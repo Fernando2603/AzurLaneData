@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "炮击、雷击提高",
+  "time": 6,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1500,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": 1500
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 1010600,
+  "color": "red",
+  "id": 1010602,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "炮击、雷击提高",
-  "picture": "",
-  "icon": 1010600,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 1010602,
-  "stack": 1,
-  "time": 6,
-  "last_effect": ""
+  ]
 }

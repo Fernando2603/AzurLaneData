@@ -1,4 +1,9 @@
 {
+  "name": "2024春节共斗 防止先锋领舰被牵引",
+  "picture": "",
+  "desc": "",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 201234,
         "target": "TargetSelf",
+        "buff_id": 201234,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -21,23 +26,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 201235,
         "maxTargetNumber": 1,
+        "buff_id": 201235,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201233,
-  "name": "2024春节共斗 防止先锋领舰被牵引",
-  "init_effect": "",
   "id": 201233,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 1
 }

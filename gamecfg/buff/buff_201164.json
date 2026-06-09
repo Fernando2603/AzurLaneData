@@ -1,4 +1,9 @@
 {
+  "name": "2024tolove联动 EX 随机组合",
+  "picture": "",
+  "desc": "",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201154,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201154
       }
     },
     {
@@ -16,7 +21,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           201150,
           201151,
@@ -40,17 +44,13 @@
             0.75,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201164,
-  "name": "2024tolove联动 EX 随机组合",
-  "init_effect": "",
   "id": 201164,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "2022意大利活动 尤利安之视",
+  "picture": "",
+  "desc": "战斗中我方旗舰获得一次预装填效果",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,25 +11,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "PRE"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 200022,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "PRE"
-        ]
+        "skill_id": 200022
       }
     }
   ],
-  "desc": "战斗中我方旗舰获得一次预装填效果",
+  "last_effect": "",
   "id": 200016,
-  "name": "2022意大利活动 尤利安之视",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 151060,
+        "minTargetNumber": 2,
         "quota": 1,
         "check_target": [
           "TargetPlayerMainFleet",
           "TargetNationality"
         ],
-        "minTargetNumber": 2,
         "nationality": [
           1
-        ],
-        "skill_id": 151060
+        ]
       }
     },
     {
@@ -50,14 +51,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151060,
   "id": 151060,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

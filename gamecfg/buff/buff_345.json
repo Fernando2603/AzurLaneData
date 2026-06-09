@@ -1,4 +1,9 @@
 {
+  "name": "水星纪念弹幕减速",
+  "picture": "",
+  "desc": "5s减速",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -2000,
-        "add": 0
+        "add": 0,
+        "mul": -2000
       }
     },
     {
@@ -22,13 +27,8 @@
       }
     }
   ],
-  "desc": "5s减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 345,
-  "name": "水星纪念弹幕减速",
-  "init_effect": "",
   "id": 345,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

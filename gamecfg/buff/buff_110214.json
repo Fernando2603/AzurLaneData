@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,27 +18,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 110211,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "yuuyakiSP"
         ],
         "time": 1,
-        "skill_id": 110211
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 110190,
-  "name": "",
-  "init_effect": "",
-  "id": 110214,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 110190,
+  "id": 110214,
+  "color": "",
+  "stack": 1,
+  "desc": ""
 }

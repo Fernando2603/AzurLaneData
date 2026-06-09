@@ -1,4 +1,9 @@
 {
+  "name": "2024天城航母活动 世界切片：苍红 支援弹幕",
+  "picture": "",
+  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,16 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201091,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_A"
         ],
-        "skill_id": 201091
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -24,16 +29,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201092,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_C"
         ],
-        "skill_id": 201092
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -42,26 +47,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201093,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_SP"
         ],
-        "skill_id": 201093
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201093,
-  "name": "2024天城航母活动 世界切片：苍红 支援弹幕",
-  "init_effect": "",
   "id": 201093,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "stack": 1
 }

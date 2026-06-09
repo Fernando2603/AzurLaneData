@@ -1,4 +1,9 @@
 {
+  "name": "测试-不死鸟-攻击加成",
+  "picture": "",
+  "desc": "加攻击",
+  "time": 5,
+  "init_effect": "jiasuBUFF",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 60009,
         "attr": "cannonPower",
-        "number": 200
+        "number": 200,
+        "group": 60009
       }
     },
     {
@@ -19,9 +24,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 60009,
         "attr": "torpedoPower",
-        "number": 200
+        "number": 200,
+        "group": 60009
       }
     },
     {
@@ -31,9 +36,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 60009,
         "attr": "airPower",
-        "number": 200
+        "number": 200,
+        "group": 60009
       }
     },
     {
@@ -43,19 +48,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 60009,
         "attr": "antiAirPower",
-        "number": 200
+        "number": 200,
+        "group": 60009
       }
     }
   ],
-  "desc": "加攻击",
-  "picture": "",
+  "last_effect": "ATK",
   "icon": 60009,
-  "name": "测试-不死鸟-攻击加成",
-  "init_effect": "jiasuBUFF",
   "id": 60009,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "ATK"
+  "stack": 1
 }

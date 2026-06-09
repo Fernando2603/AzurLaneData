@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "增伤效果",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,26 +12,22 @@
       ],
       "type": "BattleBuffAddAttrBloodrage",
       "arg_list": {
-        "threshold": 1,
         "attr": "damageRatioBullet",
-        "value": 5
+        "value": 5,
+        "threshold": 1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 109101,
+  "color": "red",
+  "id": 109101,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "增伤效果",
-  "picture": "",
-  "icon": 109101,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 109101,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

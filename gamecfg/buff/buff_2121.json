@@ -16,9 +16,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 700
+          "rant": 700,
+          "weaponType": 16
         }
       }
     ]
@@ -40,9 +40,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 810
+          "rant": 810,
+          "weaponType": 16
         }
       }
     ]
@@ -64,9 +64,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 920
+          "rant": 920,
+          "weaponType": 16
         }
       }
     ]
@@ -88,9 +88,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 1030
+          "rant": 1030,
+          "weaponType": 16
         }
       }
     ]
@@ -112,9 +112,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 1140
+          "rant": 1140,
+          "weaponType": 16
         }
       }
     ]
@@ -136,9 +136,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 1250
+          "rant": 1250,
+          "weaponType": 16
         }
       }
     ]
@@ -160,9 +160,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 1360
+          "rant": 1360,
+          "weaponType": 16
         }
       }
     ]
@@ -184,9 +184,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 1470
+          "rant": 1470,
+          "weaponType": 16
         }
       }
     ]
@@ -208,9 +208,9 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 1580
+          "rant": 1580,
+          "weaponType": 16
         }
       }
     ]
@@ -232,14 +232,15 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "weaponType": 16,
           "buff_id": 2120,
-          "rant": 1700
+          "rant": 1700,
+          "weaponType": 16
         }
       }
     ]
   },
-  "color": "red",
+  "name": "集火信号-鱼雷",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -256,20 +257,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "weaponType": 16,
         "buff_id": 2120,
-        "rant": 700
+        "rant": 700,
+        "weaponType": 16
       }
     }
   ],
-  "desc": "当鱼雷命中敌人时，有4%概率触发集火信号，持续8秒，将导致该敌舰受到鱼雷的伤害提高20%(40%)（不可叠加）",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "当鱼雷命中敌人时，有4%概率触发集火信号，持续8秒，将导致该敌舰受到鱼雷的伤害提高20%（不可叠加）",
+  "last_effect": "",
   "icon": 2120,
   "id": 2121,
-  "name": "集火信号-鱼雷",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "当鱼雷命中敌人时，有4%概率触发集火信号，持续8秒，将导致该敌舰受到鱼雷的伤害提高20%(40%)（不可叠加）"
 }

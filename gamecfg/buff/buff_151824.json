@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 350,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 350
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 400,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 400
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 450,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 450
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 500,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 500
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 550,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 550
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 600,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 600
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 650,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 650
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 700,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 700
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 750,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 750
         }
       }
     ]
@@ -143,12 +143,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 800,
-          "attr": "loadSpeed"
+          "attr": "loadSpeed",
+          "number": 800
         }
       }
     ]
   },
+  "name": "属性变更",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,25 +159,23 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 350,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 350
       }
     }
   ],
+  "time": 8,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 151820,
+  "id": 151824,
+  "stack": 1,
+  "desc": "装填提升",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "装填提升",
-  "picture": "",
-  "icon": 151820,
-  "name": "属性变更",
-  "init_effect": "jinengchufared",
-  "id": 151824,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

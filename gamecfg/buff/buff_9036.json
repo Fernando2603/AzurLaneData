@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 9036,
         "quota": 1,
-        "time": 10
+        "time": 10,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,22 +30,21 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": -10000,
         "attr": "damageRatioBullet",
         "index": [
           9998
-        ]
+        ],
+        "number": -10000
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 9030,
   "id": 9036,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

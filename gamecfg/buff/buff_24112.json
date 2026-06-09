@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "全弹发射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,13 +9,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 24113,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 24113,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "PinghaiNinghai-SP"
         ]
@@ -26,26 +27,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "PinghaiNinghai-SP"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 24114,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 24114,
-        "ship_tag_list": [
-          "PinghaiNinghai-SP"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "检查是否为特殊兵装版本",
-  "picture": "",
-  "icon": 20100,
-  "name": "全弹发射",
-  "init_effect": "",
-  "id": 24112,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 20100,
+  "id": 24112,
+  "color": "red",
+  "stack": 1,
+  "desc": "检查是否为特殊兵装版本"
 }

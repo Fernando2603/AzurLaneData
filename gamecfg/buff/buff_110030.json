@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -28,15 +29,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 110032,
         "ship_tag_list": [
           "Senran"
         ],
+        "buff_id": 110032,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -45,12 +46,12 @@
       ],
       "type": "BattleBuffHP",
       "arg_list": {
-        "weaponType": 2,
+        "damageConvertRatio": 1500,
         "bulletTag": [
           "Asuka"
         ],
         "target": "TargetSelf",
-        "damageConvertRatio": 1500
+        "weaponType": 2
       }
     },
     {
@@ -59,11 +60,11 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "cri",
         "index": [
           110030
-        ]
+        ],
+        "number": 1
       }
     },
     {
@@ -72,10 +73,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.3,
         "quota": 1,
-        "skill_id": 110030
+        "skill_id": 110030,
+        "hpUpperBound": 0.3,
+        "target": "TargetSelf"
       }
     },
     {
@@ -123,14 +124,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 110030,
   "id": 110030,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

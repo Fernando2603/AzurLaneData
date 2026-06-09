@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "boss白上吹雪",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8652,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8652
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8653,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8653
       }
     },
     {
@@ -27,18 +31,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8654,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8654
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "hololive_bossbuff",
   "icon": 8652,
-  "name": "boss白上吹雪",
-  "init_effect": "",
+  "color": "yellow",
   "id": 8652,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "hololive_bossbuff"
+  "stack": 1
 }

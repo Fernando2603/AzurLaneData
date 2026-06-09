@@ -7,11 +7,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.05,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.05
         }
       }
     ]
@@ -24,11 +24,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.059,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.059
         }
       }
     ]
@@ -41,11 +41,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.068,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.068
         }
       }
     ]
@@ -58,11 +58,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.08,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.08
         }
       }
     ]
@@ -75,11 +75,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.089,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.089
         }
       }
     ]
@@ -92,11 +92,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.098,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.098
         }
       }
     ]
@@ -109,11 +109,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.11,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.11
         }
       }
     ]
@@ -126,11 +126,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.122,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.122
         }
       }
     ]
@@ -143,11 +143,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.134,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.134
         }
       }
     ]
@@ -160,15 +160,17 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.15,
           "attr": "criDamage",
           "index": [
             1
-          ]
+          ],
+          "number": 0.15
         }
       }
     ]
   },
+  "name": "最后的炮火",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -176,28 +178,26 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.05,
         "attr": "criDamage",
         "index": [
           1
-        ]
+        ],
+        "number": 0.05
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 17730,
+  "id": 17733,
+  "stack": 1,
+  "desc": "属性提升",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "属性提升",
-  "picture": "",
-  "icon": 17730,
-  "name": "最后的炮火",
-  "init_effect": "jinengchufared",
-  "id": 17733,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

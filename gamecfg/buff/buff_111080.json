@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 111080,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 111080
       }
     },
     {
@@ -26,10 +28,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 111084,
         "time": 1,
-        "quota": 1
+        "target": "TargetSelf"
       }
     },
     {
@@ -38,9 +40,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 111084,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     },
     {
@@ -54,14 +56,12 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 111070,
   "id": 111080,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

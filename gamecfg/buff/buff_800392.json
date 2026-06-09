@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "造成炮击伤害调整,初始60%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": -0.4,
         "attr": "damageRatioBullet",
         "index": [
           1
-        ]
+        ],
+        "number": -0.4
       }
     }
   ],
-  "desc": "造成炮击伤害调整,初始60%",
-  "picture": "",
+  "last_effect": "",
   "icon": 800390,
-  "name": "",
-  "init_effect": "",
   "id": 800392,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

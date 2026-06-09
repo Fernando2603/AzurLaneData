@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -1500,
-          "add": 0
+          "add": 0,
+          "mul": -1500
         }
       },
       {
@@ -30,8 +30,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -45,8 +45,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -1660,
-          "add": 0
+          "add": 0,
+          "mul": -1660
         }
       },
       {
@@ -67,8 +67,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -82,8 +82,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -1820,
-          "add": 0
+          "add": 0,
+          "mul": -1820
         }
       },
       {
@@ -104,8 +104,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -119,8 +119,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -1980,
-          "add": 0
+          "add": 0,
+          "mul": -1980
         }
       },
       {
@@ -141,8 +141,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -156,8 +156,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2140,
-          "add": 0
+          "add": 0,
+          "mul": -2140
         }
       },
       {
@@ -178,8 +178,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -193,8 +193,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2300,
-          "add": 0
+          "add": 0,
+          "mul": -2300
         }
       },
       {
@@ -215,8 +215,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -230,8 +230,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2460,
-          "add": 0
+          "add": 0,
+          "mul": -2460
         }
       },
       {
@@ -252,8 +252,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -267,8 +267,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2640,
-          "add": 0
+          "add": 0,
+          "mul": -2640
         }
       },
       {
@@ -289,8 +289,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -304,8 +304,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -2820,
-          "add": 0
+          "add": 0,
+          "mul": -2820
         }
       },
       {
@@ -326,8 +326,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
@@ -341,8 +341,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": -3000,
-          "add": 0
+          "add": 0,
+          "mul": -3000
         }
       },
       {
@@ -363,12 +363,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": -500,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": -500
         }
       }
     ]
   },
+  "name": "减速",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -377,8 +379,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -1500,
-        "add": 0
+        "add": 0,
+        "mul": -1500
       }
     },
     {
@@ -399,18 +401,16 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -500
       }
     }
   ],
-  "desc": "4s减速",
-  "picture": "",
-  "icon": 801530,
-  "name": "减速",
+  "time": 4,
   "init_effect": "",
+  "last_effect": "Darkness",
+  "icon": 801530,
   "id": 801534,
   "stack": 1,
-  "time": 4,
-  "last_effect": "Darkness"
+  "desc": "4s减速"
 }

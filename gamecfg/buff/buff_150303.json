@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,26 +18,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "IndianaFull"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 150300,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "IndianaFull"
-        ]
+        "skill_id": 150300
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 150300,
-  "name": "",
-  "init_effect": "",
-  "id": 150303,
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 150300,
+  "id": 150303,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

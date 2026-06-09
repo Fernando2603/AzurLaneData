@@ -1,4 +1,9 @@
 {
+  "name": "2024风帆二期活动 海上风暴",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": -3
+        "add": -3,
+        "mul": 0
       }
     },
     {
@@ -18,18 +23,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": -500
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201150,
-  "name": "2024风帆二期活动 海上风暴",
-  "init_effect": "",
   "id": 201150,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

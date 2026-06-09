@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "幽灵",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,8 +19,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 151893
+        "countType": 151893,
+        "countTarget": 2
       }
     },
     {
@@ -29,8 +30,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 151894
+        "countType": 151894,
+        "countTarget": 3
       }
     },
     {
@@ -40,8 +41,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 151895
+        "countType": 151895,
+        "countTarget": 4
       }
     },
     {
@@ -60,10 +61,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 151895,
         "countType": 151893,
-        "qupta": 1
+        "buff_id": 151895,
+        "qupta": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -72,10 +73,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 151896,
         "countType": 151894,
-        "qupta": 1
+        "buff_id": 151896,
+        "qupta": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -84,10 +85,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 151897,
         "countType": 151895,
-        "qupta": 1
+        "buff_id": 151897,
+        "qupta": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -102,14 +103,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151890,
   "id": 151893,
-  "name": "幽灵",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 4,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

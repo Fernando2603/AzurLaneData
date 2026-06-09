@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "防空降低+北联微减速",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": -500
       }
     },
     {
@@ -27,8 +32,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -500,
-        "add": 0
+        "add": 0,
+        "mul": -500
       }
     },
     {
@@ -42,13 +47,8 @@
       }
     }
   ],
-  "desc": "防空降低+北联微减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 152160,
-  "name": "",
-  "init_effect": "",
   "id": 152162,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

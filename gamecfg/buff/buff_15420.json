@@ -9,17 +9,18 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 15421,
         "nationality": 4,
+        "buff_id": 15421,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 2
       },
       "trigger": [
         "onStartGame"
@@ -33,8 +34,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15421,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 15421
       }
     },
     {
@@ -43,8 +44,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15420,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 15420
       }
     },
     {
@@ -58,14 +59,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15420,
   "id": 15420,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

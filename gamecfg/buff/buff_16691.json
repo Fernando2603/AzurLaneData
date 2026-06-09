@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -29,10 +30,10 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 16694,
-        "maxTargetNumber": 2,
         "check_target": [
           "TargetAllHarm"
-        ]
+        ],
+        "maxTargetNumber": 2
       }
     },
     {
@@ -41,22 +42,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 3,
         "buff_id": 16695,
         "check_target": [
           "TargetAllHarm"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16690,
   "id": 16691,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

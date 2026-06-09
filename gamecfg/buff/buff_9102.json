@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "强袭号令-LV9",
+  "picture": "",
+  "desc": "15%的概率发动",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "rant": 2500,
         "skill_id": 9101,
-        "target": "TargetSelf",
-        "rant": 2500
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "15%的概率发动",
-  "picture": "",
+  "last_effect": "",
   "icon": 9100,
-  "name": "强袭号令-LV9",
-  "init_effect": "",
+  "color": "red",
   "id": 9102,
-  "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  "stack": 1
 }

@@ -2,7 +2,8 @@
   "1": {
     "desc": ""
   },
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 6,
         "index": [
           1
         ],
-        "countType": 30611,
-        "countTarget": 6
+        "countType": 30611
       }
     },
     {
@@ -23,9 +24,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30612,
         "countType": 30611,
-        "skill_id": 30612
+        "target": "TargetSelf"
       }
     },
     {
@@ -34,11 +35,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 10,
         "index": [
           4
         ],
-        "countType": 30612,
-        "countTarget": 10
+        "countType": 30612
       }
     },
     {
@@ -47,20 +48,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30614,
         "countType": 30612,
-        "skill_id": 30614
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行6次攻击，触发",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行6次攻击，触发",
+  "last_effect": "",
   "icon": 20200,
   "id": 30612,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行6次攻击，触发"
 }

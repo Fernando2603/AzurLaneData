@@ -1,4 +1,9 @@
 {
+  "name": "光环技能试做",
+  "picture": "",
+  "desc": "距离30以内的单位回血",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 350001,
-        "max_distance": 30
+        "max_distance": 30,
+        "target": "TargetAllHelp"
       }
     }
   ],
-  "desc": "距离30以内的单位回血",
-  "picture": "",
+  "last_effect": "",
   "icon": 35000,
-  "name": "光环技能试做",
-  "init_effect": "",
   "id": 35000,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

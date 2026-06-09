@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,17 +28,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 106494,
         "ship_type_list": [
           6,
           7,
           10
         ],
+        "buff_id": 106494,
         "check_target": [
           "TargetSelf",
           "TargetShipType"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -46,28 +47,27 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 106495,
         "ship_type_list": [
           4,
           5,
           10
         ],
+        "buff_id": 106495,
         "check_target": [
           "TargetSelf",
           "TargetShipType"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
+  "time": 8,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 106490,
   "id": 106493,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "",
   "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  "desc": ""
 }

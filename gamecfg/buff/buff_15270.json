@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,17 +27,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": [
-          "TargetAllHelp",
-          "TargetNationality"
-        ],
         "minTargetNumber": 1,
-        "buff_id": 15271,
         "nationality": [
           2,
           7
         ],
-        "isBuffStackByCheckTarget": true
+        "buff_id": 15271,
+        "isBuffStackByCheckTarget": true,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ]
       }
     },
     {
@@ -45,27 +46,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 3,
-        "buff_id": 15272,
         "nationality": [
           2,
           7
         ],
+        "buff_id": 15272,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15270,
   "id": 15270,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

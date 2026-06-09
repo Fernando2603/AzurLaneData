@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "不安定的发明家",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,19 +18,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 12041,
-        "time": 12
+        "time": 12,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "战斗中，每12秒触发一种研发中的特殊装备$1，特殊装备的效果随技能等级提高",
-  "picture": "",
-  "icon": 12040,
-  "name": "不安定的发明家",
-  "init_effect": "",
-  "id": 12040,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12040,
+  "id": 12040,
+  "color": "yellow",
+  "stack": 1,
+  "desc": "战斗中，每12秒触发一种研发中的特殊装备$1，特殊装备的效果随技能等级提高"
 }

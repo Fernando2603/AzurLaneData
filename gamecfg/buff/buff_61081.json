@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "写真看板-暴击率提高",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,13 +11,13 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.03,
         "attr": "cri",
         "index": [
           1,
           2,
           3
-        ]
+        ],
+        "number": 0.03
       }
     },
     {
@@ -22,23 +26,19 @@
       ],
       "type": "BattleBuffAddAircraftAttr",
       "arg_list": {
-        "number": 0.03,
         "attr": "cri",
         "index": [
           1,
           2,
           3
-        ]
+        ],
+        "number": 0.03
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 61080,
-  "name": "写真看板-暴击率提高",
-  "init_effect": "",
+  "color": "red",
   "id": 61081,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

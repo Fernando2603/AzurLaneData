@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,13 +28,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 3,
         "nationality": 2,
         "skill_id": 16110,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     },
     {
@@ -42,15 +43,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16111,
         "ship_tag_list": [
           "J-Class"
         ],
-        "minTargetNumber": 2,
+        "skill_id": 16111,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -59,25 +60,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16112,
         "ship_tag_list": [
           "Jervis"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 16112,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 16110,
-  "name": "",
-  "init_effect": "",
-  "id": 16110,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 16110,
+  "id": 16110,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

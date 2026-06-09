@@ -1,4 +1,9 @@
 {
+  "name": "章节航空支援",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78010,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78010,
-        "time": 18,
-        "rant": 10000
+        "rant": 10000,
+        "time": 18
       }
     },
     {
@@ -19,11 +24,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78010,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78010,
-        "time": 38,
-        "rant": 10000
+        "rant": 10000,
+        "time": 38
       }
     },
     {
@@ -32,21 +37,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78010,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78010,
-        "time": 58,
-        "rant": 10000
+        "rant": 10000,
+        "time": 58
       }
     }
   ],
-  "desc": "持续伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 8833,
-  "name": "章节航空支援",
-  "init_effect": "",
   "id": 78011,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

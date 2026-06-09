@@ -1,4 +1,9 @@
 {
+  "name": "2024tolove联动 EX 随机组合",
+  "picture": "",
+  "desc": "",
+  "time": 0.5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 201162,
         "ship_tag_list": [
           "A"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     },
     {
@@ -19,11 +24,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 201163,
         "ship_tag_list": [
           "B"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     },
     {
@@ -32,21 +37,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 201164,
         "ship_tag_list": [
           "C"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201161,
-  "name": "2024tolove联动 EX 随机组合",
-  "init_effect": "",
   "id": 201161,
-  "stack": 1,
-  "time": 0.5,
-  "last_effect": ""
+  "stack": 1
 }

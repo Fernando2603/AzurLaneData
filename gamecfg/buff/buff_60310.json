@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "nationality": 7,
         "skill_id": 60310,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60310,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60310,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

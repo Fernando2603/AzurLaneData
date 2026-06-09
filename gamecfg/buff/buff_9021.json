@@ -1,4 +1,9 @@
 {
+  "name": "抗击重樱",
+  "picture": "",
+  "desc": "对重樱伤害提高",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 9021,
         "attr": "DMG_TAG_EHC_N_3",
-        "number": 0.25
+        "number": 0.25,
+        "group": 9021
       }
     }
   ],
-  "desc": "对重樱伤害提高",
-  "picture": "",
+  "last_effect": "fensebuff",
   "icon": 9021,
-  "name": "抗击重樱",
-  "init_effect": "",
   "id": 9021,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "fensebuff"
+  "stack": 1
 }

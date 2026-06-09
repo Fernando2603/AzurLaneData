@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "炮击提高II",
+  "picture": "",
+  "desc": "属性增益类型用例,炮击提高100%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 10000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 10000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 70110,
+  "color": "red",
+  "id": 70110,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "属性增益类型用例,炮击提高100%",
-  "picture": "",
-  "icon": 70110,
-  "name": "炮击提高II",
-  "init_effect": "",
-  "id": 70110,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

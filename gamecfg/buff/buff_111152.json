@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,26 +18,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
+        "skill_id": 111154,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "chuncai_haipa"
         ],
-        "skill_id": 111154
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "desc_get": "",
-  "id": 111152,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "desc_get": "",
+  "last_effect": "",
+  "id": 111152,
+  "stack": 1,
+  "desc": ""
 }

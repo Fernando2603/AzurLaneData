@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "航空、防空提高",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -9,8 +13,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 500
       }
     },
     {
@@ -21,25 +25,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": 500
       }
     }
   ],
+  "stack": 3,
+  "last_effect": "",
+  "icon": 801440,
+  "color": "yellow",
+  "id": 801442,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "航空、防空提高",
-  "picture": "",
-  "icon": 801440,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 801442,
-  "stack": 3,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

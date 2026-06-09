@@ -1,4 +1,9 @@
 {
+  "name": "2025拉斐尔活动 新EX模式我方判定更改",
+  "picture": "",
+  "desc": "",
+  "time": 1.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,12 +11,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 3,
-        "buff_id": 201252,
         "target": "TargetSelf",
+        "buff_id": 201252,
         "check_target": [
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     },
     {
@@ -20,22 +25,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 201253,
         "maxTargetNumber": 2,
+        "buff_id": 201253,
         "check_target": [
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201251,
-  "name": "2025拉斐尔活动 新EX模式我方判定更改",
-  "init_effect": "",
   "id": 201251,
-  "stack": 1,
-  "time": 1.1,
-  "last_effect": ""
+  "stack": 1
 }

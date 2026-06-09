@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,10 +19,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14620,
-        "hpUpperBound": 1,
+        "hpSigned": 0,
         "hpLowerBound": 0.45,
-        "hpSigned": 0
+        "hpUpperBound": 1,
+        "skill_id": 14620
       }
     },
     {
@@ -31,10 +32,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14621,
-        "hpUpperBound": 0.45,
+        "hpSigned": 0,
         "hpLowerBound": 0,
-        "hpSigned": 0
+        "hpUpperBound": 0.45,
+        "skill_id": 14621
       }
     },
     {
@@ -43,21 +44,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.3,
         "quota": 1,
-        "skill_id": 14622
+        "skill_id": 14622,
+        "hpUpperBound": 0.3,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 14620,
   "id": 14620,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

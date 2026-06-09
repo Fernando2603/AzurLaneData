@@ -1,4 +1,9 @@
 {
+  "name": "教程 自动跨射",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 10,
-        "skill_id": 999980
+        "skill_id": 999980,
+        "target": "TargetSelf"
       }
     },
     {
@@ -17,17 +22,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 999980,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 999980
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 999775,
-  "name": "教程 自动跨射",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

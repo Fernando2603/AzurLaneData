@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.2,
         "attr": "criDamage",
-        "bulletID": 167421
+        "bulletID": 167421,
+        "number": 0.2
       }
     },
     {
@@ -28,9 +29,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.2,
         "attr": "criDamage",
-        "bulletID": 167422
+        "bulletID": 167422,
+        "number": 0.2
       }
     },
     {
@@ -39,9 +40,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.2,
         "attr": "criDamage",
-        "bulletID": 167423
+        "bulletID": 167423,
+        "number": 0.2
       }
     },
     {
@@ -50,9 +51,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.2,
         "attr": "criDamage",
-        "bulletID": 167424
+        "bulletID": 167424,
+        "number": 0.2
       }
     },
     {
@@ -61,8 +62,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 150963
+        "skill_id": 150963,
+        "target": "TargetSelf"
       }
     },
     {
@@ -71,19 +72,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 150960
+        "skill_id": 150960,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150960,
   "id": 150966,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "desc": ""
 }

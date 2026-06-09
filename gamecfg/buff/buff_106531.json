@@ -1,4 +1,9 @@
 {
+  "name": "随机调酒",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           106531,
           106532,
@@ -30,17 +34,13 @@
             0.9,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 16530,
-  "name": "随机调酒",
-  "init_effect": "",
   "id": 106531,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

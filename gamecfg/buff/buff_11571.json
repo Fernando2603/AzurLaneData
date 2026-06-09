@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 500,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 500
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 620,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 620
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 740,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 740
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 900,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 900
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1050,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 1050
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1200,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 1200
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1400,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 1400
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1580,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 1580
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1760,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 1760
         }
       }
     ]
@@ -143,13 +143,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2000,
-          "attr": "attackRating"
+          "attr": "attackRating",
+          "number": 2000
         }
       }
     ]
   },
-  "color": "yellow",
+  "name": "侦查支援",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -158,25 +159,24 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 500
       }
     }
   ],
+  "time": 20,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 11570,
+  "id": 11571,
+  "stack": 1,
+  "color": "yellow",
+  "desc": "提高伤害",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高伤害",
-  "picture": "",
-  "icon": 11570,
-  "name": "侦查支援",
-  "init_effect": "jinengchufared",
-  "id": 11571,
-  "stack": 1,
-  "time": 20,
-  "last_effect": ""
+  ]
 }

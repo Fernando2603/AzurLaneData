@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "东煌之绊·改",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,25 +18,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 16430,
+        "minTargetNumber": 2,
+        "nationality": 5,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 2,
-        "nationality": 5,
-        "skill_id": 16430
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 10760,
   "id": 16430,
-  "name": "东煌之绊·改",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

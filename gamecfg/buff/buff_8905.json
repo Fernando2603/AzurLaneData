@@ -1,4 +1,9 @@
 {
+  "name": "对雷暴AT立场弱化版（减少防雷击次数，减伤80%降至70%）",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,17 +11,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.45,
-        "attr": "injureRatioByBulletTorpedo"
+        "attr": "injureRatioByBulletTorpedo",
+        "number": -0.45
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 8905,
-  "name": "对雷暴AT立场弱化版（减少防雷击次数，减伤80%降至70%）",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "2023云仙活动 EX 黑龙次数盾击破后大幅度增加BOSS受到的伤害",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 1
       }
     },
     {
@@ -18,8 +23,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 7,
-        "countType": 200610
+        "countType": 200610,
+        "countTarget": 7
       }
     },
     {
@@ -28,19 +33,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200611,
-        "countType": 200610
+        "countType": 200610,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200610,
-  "name": "2023云仙活动 EX 黑龙次数盾击破后大幅度增加BOSS受到的伤害",
-  "init_effect": "",
   "id": 200610,
-  "stack": 99,
-  "time": 0,
-  "last_effect": ""
+  "stack": 99
 }

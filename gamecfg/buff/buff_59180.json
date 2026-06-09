@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "敌方支援弹幕",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,19 +12,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 59180,
-        "time": 25
+        "time": 25,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 59180,
-  "name": "敌方支援弹幕",
-  "init_effect": "",
+  "color": "blue",
   "id": 59180,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

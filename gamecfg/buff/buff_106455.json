@@ -1,4 +1,9 @@
 {
+  "name": "减速",
+  "picture": "",
+  "desc": "减速实际",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +13,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -2000,
-        "add": 0
+        "add": 0,
+        "mul": -2000
       }
     },
     {
@@ -23,13 +28,8 @@
       }
     }
   ],
-  "desc": "减速实际",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 106450,
-  "name": "减速",
-  "init_effect": "",
   "id": 106455,
-  "stack": 1,
-  "time": 8,
-  "last_effect": "Darkness"
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "敌方自我识别护甲",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,15 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 150059,
+        "minTargetNumber": 1,
         "armor_type": 1,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "skill_id": 150059
+        "target": "TargetSelf"
       }
     },
     {
@@ -23,15 +28,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 150060,
+        "minTargetNumber": 1,
         "armor_type": 2,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "skill_id": 150060
+        "target": "TargetSelf"
       }
     },
     {
@@ -40,25 +45,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 150061,
+        "minTargetNumber": 1,
         "armor_type": 3,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "skill_id": 150061
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 150050,
-  "name": "敌方自我识别护甲",
-  "init_effect": "",
   "id": 150058,
-  "stack": 2,
-  "time": 1,
-  "last_effect": ""
+  "stack": 2
 }

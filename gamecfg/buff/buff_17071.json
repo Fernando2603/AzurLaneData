@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +18,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 17073,
         "ship_type_list": [
           4,
           5,
           10
         ],
+        "buff_id": 17073,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipType"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -42,22 +43,21 @@
           10
         ],
         "buff_id": 17077,
-        "maxTargetNumber": 0,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipType"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     }
   ],
-  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17070,
   "id": 17071,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "desc": ""
 }

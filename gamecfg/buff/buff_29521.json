@@ -12,7 +12,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "专属弹幕-里诺",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,13 +21,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 29521,
+        "minWeaponNumber": 1,
         "label": [
           "DD",
           "MG"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -35,24 +36,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 29522,
+        "minWeaponNumber": 1,
         "label": [
           "CL",
           "MG"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 29520,
   "id": 29521,
-  "name": "专属弹幕-里诺",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

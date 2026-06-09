@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "敌方夜战照明弹-照明区域效果",
+  "picture": "",
+  "desc": "回避率降低",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.25,
-        "attr": "dodgeRateExtra"
+        "attr": "dodgeRateExtra",
+        "number": -0.25
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "lockAimBias"
+        "attr": "lockAimBias",
+        "number": 1
       }
     },
     {
@@ -55,20 +59,16 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "zhaomingdan_miaozhun",
+  "icon": 9650,
+  "color": "yellow",
+  "id": 9650,
   "blink": [
     0.8,
     0.8,
     0.8,
     0.3,
     0.3
-  ],
-  "desc": "回避率降低",
-  "picture": "",
-  "icon": 9650,
-  "name": "敌方夜战照明弹-照明区域效果",
-  "init_effect": "",
-  "id": 9650,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "zhaomingdan_miaozhun"
+  ]
 }

@@ -14,9 +14,10 @@
   "13": [],
   "14": [],
   "15": [],
-  "init_effect": "",
-  "picture": "",
+  "last_effect": "",
   "name": "2026信标BOSS 雷根斯堡meta 初始释放印记",
+  "picture": "",
+  "id": 201721,
   "effect_list": [
     {
       "trigger": [
@@ -24,12 +25,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHarm",
-          "TargetAttrCeil"
-        ],
         "buff_id": 201723,
-        "ceilAttr": "cannonPower"
+        "ceilAttr": "cannonPower",
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ]
       }
     },
     {
@@ -38,12 +39,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHarm",
-          "TargetAttrCeil"
-        ],
         "buff_id": 201724,
-        "ceilAttr": "torpedoPower"
+        "ceilAttr": "torpedoPower",
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ]
       }
     },
     {
@@ -52,12 +53,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHarm",
-          "TargetAttrCeil"
-        ],
         "buff_id": 201725,
-        "ceilAttr": "airPower"
+        "ceilAttr": "airPower",
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ]
       }
     },
     {
@@ -66,12 +67,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHarm",
-          "TargetAttrCeil"
-        ],
         "buff_id": 201726,
-        "ceilAttr": "attackRating"
+        "ceilAttr": "attackRating",
+        "target": [
+          "TargetAllHarm",
+          "TargetAttrCeil"
+        ]
       }
     },
     {
@@ -80,12 +81,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "buff_id": 201727,
+        "ceilAttr": "dodgeRate",
         "target": [
           "TargetAllHarm",
           "TargetAttrCeil"
-        ],
-        "buff_id": 201727,
-        "ceilAttr": "dodgeRate"
+        ]
       }
     },
     {
@@ -98,8 +99,7 @@
       }
     }
   ],
-  "id": 201721,
-  "stack": 1,
   "time": 0.5,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

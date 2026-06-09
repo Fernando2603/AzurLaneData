@@ -1,4 +1,8 @@
 {
+  "id": 201502,
+  "name": "2025信标BOSS 夕立meta 被夕立锁定的角色",
+  "picture": "",
+  "last_effect": "xilimeta_miaozhun",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 10,
-        "countType": 201502
+        "countType": 201502,
+        "countTarget": 10
       }
     },
     {
@@ -17,17 +21,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201503,
-        "countType": 201502
+        "countType": 201502,
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201502,
-  "name": "2025信标BOSS 夕立meta 被夕立锁定的角色",
-  "init_effect": "",
-  "picture": "",
-  "stack": 10,
   "time": 0.7,
-  "last_effect": "xilimeta_miaozhun"
+  "stack": 10,
+  "init_effect": ""
 }

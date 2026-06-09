@@ -1,4 +1,9 @@
 {
+  "name": "Z驱减伤",
+  "picture": "",
+  "desc": "减伤",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,25 +11,20 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.3,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.3
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "jinengchufablue",
+  "icon": 13993,
+  "id": 13993,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "减伤",
-  "picture": "",
-  "icon": 13993,
-  "name": "Z驱减伤",
-  "init_effect": "",
-  "id": 13993,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "jinengchufablue"
+  ]
 }

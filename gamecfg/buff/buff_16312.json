@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.02,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.02
       }
     },
     {
@@ -28,8 +32,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 16312
+        "countType": 16312,
+        "countTarget": 4
       }
     },
     {
@@ -45,20 +49,16 @@
       }
     }
   ],
+  "stack": 6,
+  "last_effect": "",
+  "icon": 16310,
+  "color": "blue",
+  "id": 16312,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 16310,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 16312,
-  "stack": 6,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

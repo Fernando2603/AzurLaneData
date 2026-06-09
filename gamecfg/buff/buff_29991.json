@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 29990,
-        "countTarget": 12
+        "countType": 29990
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29991,
         "countType": 29990,
-        "skill_id": 29991
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发专属弹幕-伏罗希洛夫I",
-  "picture": "",
-  "icon": 29990,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29991,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29990,
+  "id": 29991,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行12次攻击，触发专属弹幕-伏罗希洛夫I"
 }

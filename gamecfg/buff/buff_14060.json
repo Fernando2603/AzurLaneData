@@ -9,19 +9,20 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 14061,
         "ship_tag_list": [
           "Zara-Class"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -29,12 +30,12 @@
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
+        "buff_id": 14062,
+        "nationality": 6,
         "target": [
           "TargetPlayerVanguardFleet",
           "TargetNationality"
-        ],
-        "buff_id": 14062,
-        "nationality": 6
+        ]
       }
     },
     {
@@ -47,14 +48,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 14060,
   "id": 14060,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

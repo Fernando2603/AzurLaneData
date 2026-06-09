@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023伊丽莎白meta 领域崩溃反噬",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "Bossbomb",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8692,
-        "target": "TargetHarmFarthest"
+        "target": "TargetHarmFarthest",
+        "skill_id": 8692
       }
     },
     {
@@ -28,9 +32,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 200364,
         "attr": "injureRatio",
-        "number": 0.5
+        "number": 0.5,
+        "group": 200364
       }
     },
     {
@@ -39,18 +43,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200364,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200364
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200364,
-  "name": "2023伊丽莎白meta 领域崩溃反噬",
-  "init_effect": "Bossbomb",
+  "color": "blue",
   "id": 200364,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

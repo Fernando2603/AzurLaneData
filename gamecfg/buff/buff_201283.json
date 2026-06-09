@@ -1,4 +1,9 @@
 {
+  "name": "2025拉斐尔活动 战车改造域",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +13,11 @@
       "arg_list": {
         "nationality": 99,
         "buff_id": 201284,
-        "maxTargetNumber": 0,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -21,23 +26,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 201290,
         "nationality": 99,
+        "buff_id": 201290,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201283,
-  "name": "2025拉斐尔活动 战车改造域",
-  "init_effect": "",
   "id": 201283,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

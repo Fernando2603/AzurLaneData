@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "黑声望 暴走二阶段BUFF",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "ATK",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.5,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.5
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 2000
       }
     },
     {
@@ -30,17 +34,13 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.15,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.15
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "黑声望 暴走二阶段BUFF",
-  "init_effect": "ATK",
+  "last_effect": "",
+  "color": "red",
   "id": 200044,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

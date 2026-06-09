@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "hpUpperBound": 1,
         "countTarget": 5,
+        "hpUpperBound": 1,
         "countType": 14030
       }
     },
@@ -28,9 +29,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14032,
         "countType": 14030,
         "quota": 1,
+        "skill_id": 14032,
         "target": "TargetSelf"
       }
     },
@@ -40,8 +41,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "hpUpperBound": 1,
         "countTarget": 1,
+        "hpUpperBound": 1,
         "countType": 14031
       }
     },
@@ -51,21 +52,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14031,
         "countType": 14031,
         "quota": 5,
+        "skill_id": 14031,
         "target": "TargetSelf"
       }
     }
   ],
-  "desc": "爆发弹幕",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 14030,
   "id": 14030,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "爆发弹幕"
 }

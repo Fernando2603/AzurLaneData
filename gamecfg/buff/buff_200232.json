@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "大洋联邦 导弹巡洋舰防空光环",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 200231,
         "cld_data": {
           "box": {
             "range": 30
           }
-        },
-        "buff_id": 200231,
-        "friendly_fire": true
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "fangkongRing01",
   "icon": 200232,
-  "name": "大洋联邦 导弹巡洋舰防空光环",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200232,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "fangkongRing01"
+  "stack": 1
 }

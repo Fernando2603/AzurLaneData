@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "cri",
         "index": [
           1
-        ]
+        ],
+        "number": 1
       }
     },
     {
@@ -19,19 +24,14 @@
       ],
       "type": "BattleBuffCancelBuff",
       "arg_list": {
-        "count": 1,
         "countType": 13260,
+        "count": 1,
         "delay": 6
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 13260,
-  "name": "",
-  "init_effect": "",
   "id": 13263,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -33,13 +34,13 @@
           18,
           19
         ],
-        "quota": 1,
+        "maxTargetNumber": 0,
+        "buff_id": 15582,
         "check_target": [
           "TargetPlayerVanguardFleet",
           "TargetShipType"
         ],
-        "buff_id": 15582,
-        "maxTargetNumber": 0
+        "quota": 1
       }
     },
     {
@@ -48,22 +49,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 3,
         "buff_id": 15583,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 15580,
-  "name": "",
-  "init_effect": "",
-  "id": 15580,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 15580,
+  "id": 15580,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

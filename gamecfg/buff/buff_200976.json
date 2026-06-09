@@ -1,4 +1,9 @@
 {
+  "name": "2024 斯特拉斯堡活动EX 修改白鹰精英损管效果",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,23 +11,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
-        "check_target": "TargetAllHarm",
-        "minTargetNumber": 1,
-        "buff_id": 200977,
         "ship_tag_list": [
           "USDC"
-        ]
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200977,
+        "check_target": "TargetAllHarm",
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200976,
-  "name": "2024 斯特拉斯堡活动EX 修改白鹰精英损管效果",
-  "init_effect": "",
   "id": 200976,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

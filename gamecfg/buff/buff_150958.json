@@ -9,7 +9,12 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "last_effect_stack_list": {
+    "2": "lafeier_tiaosepan_02",
+    "3": "lafeier_tiaosepan_03"
+  },
   "effect_list": [
     {
       "trigger": [
@@ -28,8 +33,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150958,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 150958
       }
     },
     {
@@ -39,13 +44,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 150954,
         "ship_tag_list": [
           "Raffaello"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -56,8 +61,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 150958
+        "countType": 150958,
+        "countTarget": 3
       }
     },
     {
@@ -66,9 +71,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 150959,
-        "countType": 150958
+        "countType": 150958,
+        "target": "TargetSelf"
       }
     },
     {
@@ -77,32 +82,27 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "nationality": [
+          6
+        ],
+        "minTargetNumber": 1,
+        "countType": 150958,
+        "buff_id": 150956,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 150956,
-        "nationality": [
-          6
-        ],
-        "countType": 150958
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "lafeier_tiaosepan_01",
   "icon": 150950,
   "id": 150958,
-  "name": "",
-  "last_effect_stack_list": {
-    "2": "lafeier_tiaosepan_02",
-    "3": "lafeier_tiaosepan_03"
-  },
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 3,
-  "time": 10,
-  "last_effect": "lafeier_tiaosepan_01"
+  "desc": ""
 }

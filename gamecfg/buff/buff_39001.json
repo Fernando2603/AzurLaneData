@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "大舰队世界boss_1_阶段0",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 2000
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 2000
       }
     },
     {
@@ -27,25 +31,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 2000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "fengzhijiejie",
+  "icon": 39000,
+  "color": "yellow",
+  "id": 39001,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 39000,
-  "name": "大舰队世界boss_1_阶段0",
-  "init_effect": "jinengchufared",
-  "id": 39001,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "fengzhijiejie"
+  ]
 }

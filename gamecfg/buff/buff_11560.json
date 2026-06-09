@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "2700磅的正义",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 11560,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "USS",
           "DD",
           "MG"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -34,26 +35,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 11561,
         "label": [
           "USS",
           "DD",
           "MG"
         ],
-        "check_weapon": true,
+        "target": "TargetSelf",
         "maxWeaponNumber": 0
       }
     }
   ],
-  "desc": "更换主炮弹药种类",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "更换主炮弹药种类",
+  "last_effect": "",
   "icon": 11560,
   "id": 11560,
-  "name": "2700磅的正义",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "更换主炮弹药种类"
 }

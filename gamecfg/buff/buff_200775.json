@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024同盟活动B 指挥通讯网络",
+  "picture": "",
+  "desc": "",
+  "time": 20,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,13 +11,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "streakRange": [
           0,
           2
         ],
         "time": 12,
-        "skill_id": 200774
+        "skill_id": 200774,
+        "target": "TargetSelf"
       }
     },
     {
@@ -22,13 +26,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "streakRange": [
           2,
           4
         ],
         "time": 12,
-        "skill_id": 200775
+        "skill_id": 200775,
+        "target": "TargetSelf"
       }
     },
     {
@@ -37,23 +41,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "streakRange": [
           4,
           6
         ],
         "time": 12,
-        "skill_id": 200776
+        "skill_id": 200776,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200775,
-  "name": "2024同盟活动B 指挥通讯网络",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200775,
-  "stack": 1,
-  "time": 20,
-  "last_effect": ""
+  "stack": 1
 }

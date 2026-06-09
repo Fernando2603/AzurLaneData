@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "白龙剧情战 触发龙宫机关-怒涛技能 buff3：触发技能，显示弹条与弹幕武器开火",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "quota": 1,
         "skill_id": 9292,
-        "time": 0,
-        "rant": 10000
+        "target": "TargetSelf",
+        "quota": 1,
+        "rant": 10000,
+        "time": 0
       }
     },
     {
@@ -20,11 +24,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "quota": 1,
         "skill_id": 9296,
-        "time": 0.5,
-        "rant": 10000
+        "target": "TargetSelf",
+        "quota": 1,
+        "rant": 10000,
+        "time": 0.5
       }
     },
     {
@@ -33,11 +37,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "quota": 1,
         "skill_id": 9300,
-        "time": 1,
-        "rant": 10000
+        "target": "TargetSelf",
+        "quota": 1,
+        "rant": 10000,
+        "time": 1
       }
     },
     {
@@ -46,21 +50,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 9304,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 9304,
-        "time": 1.5,
-        "rant": 10000
+        "rant": 10000,
+        "time": 1.5
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 9312,
-  "name": "白龙剧情战 触发龙宫机关-怒涛技能 buff3：触发技能，显示弹条与弹幕武器开火",
-  "init_effect": "",
+  "color": "yellow",
   "id": 9312,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

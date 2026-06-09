@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "killer": "self",
+        "ship_tag_list": [
+          "Portsmouth"
+        ],
         "buff_id": 150632,
         "target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "ship_tag_list": [
-          "Portsmouth"
-        ]
+        "killer": "self"
       }
     },
     {
@@ -34,26 +35,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "killer": "self",
+        "ship_tag_list": [
+          "Portsmouth"
+        ],
         "buff_id": 150633,
         "target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "ship_tag_list": [
-          "Portsmouth"
-        ]
+        "killer": "self"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150630,
   "id": 150635,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

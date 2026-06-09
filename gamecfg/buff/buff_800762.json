@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "标记-MetaLaGalissonnièreEnhance",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,26 +11,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "jialisuoniye_adjudgement"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 800763,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 800763,
-        "ship_tag_list": [
-          "jialisuoniye_adjudgement"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "标记-MetaLaGalissonnièreEnhance",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 800760,
-  "name": "",
-  "init_effect": "",
   "id": 800762,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": "Darkness"
+  "stack": 1
 }

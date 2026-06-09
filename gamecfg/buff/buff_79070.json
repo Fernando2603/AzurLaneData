@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "追击者烟幕lv1",
+  "picture": "",
+  "desc": "减速，降低命中，造成dot伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,12 +12,12 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
+        "add": 0,
+        "mul": -4500,
         "group": {
           "level": 10,
           "id": 300
-        },
-        "mul": -4500,
-        "add": 0
+        }
       }
     },
     {
@@ -23,8 +27,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -200,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": -200
       }
     },
     {
@@ -34,21 +38,17 @@
       "type": "BattleBuffDOT",
       "arg_list": {
         "currentHPRatio": 0.01,
-        "attr": "cannonPower",
-        "number": 20,
         "dotType": 1,
+        "k": 0.3,
         "time": 2,
-        "k": 0.3
+        "attr": "cannonPower",
+        "number": 20
       }
     }
   ],
-  "desc": "减速，降低命中，造成dot伤害",
-  "picture": "",
+  "last_effect": "poison_buff",
   "icon": 4971,
-  "name": "追击者烟幕lv1",
-  "init_effect": "",
+  "color": "yellow",
   "id": 79070,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "poison_buff"
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 21,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1500,
-        "attr": "antiairpower"
+        "attr": "antiairpower",
+        "number": 1500
       }
     },
     {
@@ -22,20 +26,16 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 106300,
+  "color": "red",
+  "id": 106300,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 106300,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 106300,
-  "stack": 1,
-  "time": 21,
-  "last_effect": ""
+  ]
 }

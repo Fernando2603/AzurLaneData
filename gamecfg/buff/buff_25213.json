@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "全弹发射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,12 +9,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 25215,
         "label": [
           "RN"
         ],
-        "check_weapon": true,
+        "target": "TargetSelf",
         "maxWeaponNumber": 0
       }
     },
@@ -23,23 +24,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 25216,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "RN"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 20200,
-  "name": "全弹发射",
-  "init_effect": "",
-  "id": 25213,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 20200,
+  "id": 25213,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

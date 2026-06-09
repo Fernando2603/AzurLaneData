@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "回复效果",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 17151,
         "time": 1,
-        "initialCD": true
+        "initialCD": true,
+        "skill_id": 17151,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,8 +31,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -6000,
-        "add": 0
+        "add": 0,
+        "mul": -6000
       }
     },
     {
@@ -39,18 +41,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17152,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 17152
       }
     }
   ],
-  "desc": "回复效果",
-  "picture": "",
-  "icon": 17150,
-  "name": "回复效果",
+  "time": 3,
   "init_effect": "",
+  "last_effect": "Health",
+  "icon": 17150,
   "id": 17151,
   "stack": 1,
-  "time": 3,
-  "last_effect": "Health"
+  "desc": "回复效果"
 }

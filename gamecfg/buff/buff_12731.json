@@ -7,10 +7,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 900
+          "rant": 900,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -23,10 +23,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1050
+          "rant": 1050,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -39,10 +39,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1200
+          "rant": 1200,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -55,10 +55,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1350
+          "rant": 1350,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -71,10 +71,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1500
+          "rant": 1500,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -87,10 +87,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1650
+          "rant": 1650,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -103,10 +103,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1800
+          "rant": 1800,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -119,10 +119,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1950
+          "rant": 1950,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -135,10 +135,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 2100
+          "rant": 2100,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -151,15 +151,16 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 12731,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 2400
+          "rant": 2400,
+          "skill_id": 12731,
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "blue",
+  "name": "触发器",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -167,28 +168,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12731,
-        "target": "TargetSelf",
         "time": 0,
-        "rant": 900
+        "rant": 900,
+        "skill_id": 12731,
+        "target": "TargetSelf"
       }
     }
   ],
+  "time": 0,
+  "init_effect": "",
+  "last_effect": "",
+  "desc_get": "受到攻击时有概率减少伤害",
+  "icon": 12730,
+  "id": 12731,
+  "stack": 1,
+  "color": "blue",
+  "desc": "受到攻击时有概率减少伤害",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "受到攻击时有概率减少伤害",
-  "desc_get": "受到攻击时有概率减少伤害",
-  "icon": 12730,
-  "id": 12731,
-  "name": "触发器",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

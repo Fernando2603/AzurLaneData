@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "Tashkentexclusiveweapon"
+        ],
         "quota": 1,
         "check_target": [
           "TargetShipTag"
         ],
-        "skill_id": 12980,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "Tashkentexclusiveweapon"
-        ]
+        "skill_id": 12980
       }
     },
     {
@@ -35,10 +36,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 12982,
         "quota": 5,
-        "killer": "self"
+        "killer": "self",
+        "target": "TargetSelf"
       }
     },
     {
@@ -47,27 +48,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "quota": 1,
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 1012993,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Tashkentexclusiveweapon"
         ],
-        "skill_id": 1012993
+        "quota": 1,
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12980,
   "id": 12980,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

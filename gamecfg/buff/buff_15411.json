@@ -7,15 +7,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.05,
-            "rate": -0.003
-          }
+            "max": 0.05
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -28,15 +28,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.061,
-            "rate": -0.003
-          }
+            "max": 0.061
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -49,15 +49,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.072,
-            "rate": -0.003
-          }
+            "max": 0.072
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -70,15 +70,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.083,
-            "rate": -0.003
-          }
+            "max": 0.083
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -91,15 +91,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.094,
-            "rate": -0.003
-          }
+            "max": 0.094
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -112,15 +112,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.105,
-            "rate": -0.003
-          }
+            "max": 0.105
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -133,15 +133,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.116,
-            "rate": -0.003
-          }
+            "max": 0.116
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -154,15 +154,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.127,
-            "rate": -0.003
-          }
+            "max": 0.127
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -175,15 +175,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.138,
-            "rate": -0.003
-          }
+            "max": 0.138
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
@@ -196,20 +196,21 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            2
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": -0.003,
             "base": 10,
-            "max": 0.15,
-            "rate": -0.003
-          }
+            "max": 0.15
+          },
+          "index": [
+            2
+          ]
         }
       }
     ]
   },
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -217,32 +218,31 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "index": [
-          2
-        ],
         "attr": "damageRatioBullet",
         "displacement_convert": {
+          "rate": -0.003,
           "base": 10,
-          "max": 0.05,
-          "rate": -0.003
-        }
+          "max": 0.05
+        },
+        "index": [
+          2
+        ]
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 15410,
+  "id": 15411,
+  "stack": 1,
+  "color": "red",
+  "desc": "",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 15410,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 15411,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

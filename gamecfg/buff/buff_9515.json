@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "2022公海舰队B3 普通人形构建者反击护盾",
+  "last_effect": "ATdun_full",
+  "desc": "AT·FIELD",
+  "time": 12.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,14 +24,14 @@
       "type": "BattleBuffBarrier",
       "arg_list": {
         "cld_data": {
+          "box": {
+            "range": 28
+          },
           "offset": [
             0,
             4,
             0
-          ],
-          "box": {
-            "range": 28
-          }
+          ]
         },
         "durability": 100
       }
@@ -38,8 +42,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 9497,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 9497
       }
     },
     {
@@ -48,18 +52,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 9498,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 9498
       }
     }
   ],
-  "desc": "AT·FIELD",
+  "picture": "",
   "icon": 9515,
   "id": 9515,
-  "name": "2022公海舰队B3 普通人形构建者反击护盾",
-  "init_effect": "",
-  "picture": "",
   "stack": 1,
-  "time": 12.1,
-  "last_effect": "ATdun_full"
+  "last_effect_cld_scale": true
 }

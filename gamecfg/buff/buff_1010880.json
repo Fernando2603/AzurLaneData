@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "LuckyLou +",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 1010881,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,9 +29,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 1010883,
-        "time": 25
+        "time": 25,
+        "target": "TargetSelf"
       }
     },
     {
@@ -39,18 +40,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1010883,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1010883
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 10880,
-  "name": "LuckyLou +",
-  "init_effect": "",
-  "id": 1010880,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 10880,
+  "id": 1010880,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

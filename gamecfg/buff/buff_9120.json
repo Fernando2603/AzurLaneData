@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 35,
-        "check_target": "TargetHarmNearest",
         "skill_id": 19430,
-        "maxTargetNumber": 0,
         "index": [
           1
-        ]
+        ],
+        "range": 35,
+        "check_target": "TargetHarmNearest",
+        "maxTargetNumber": 0
       }
     },
     {
@@ -32,13 +33,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 35,
-        "check_target": "TargetHarmNearest",
-        "minTargetNumber": 1,
+        "skill_id": 19431,
         "index": [
           1
         ],
-        "skill_id": 19431
+        "minTargetNumber": 1,
+        "range": 35,
+        "check_target": "TargetHarmNearest"
       }
     },
     {
@@ -51,14 +52,13 @@
       }
     }
   ],
-  "desc": "埃吉尔模拟战斗用全弹技能",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 9120,
   "id": 9120,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "埃吉尔模拟战斗用全弹技能"
 }

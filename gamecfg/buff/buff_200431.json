@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023俾斯麦Z活动 女灶神meta 维修光环",
+  "picture": "",
+  "desc": "定期回复周围友军血量",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "ship_type_list": [
+          12
+        ],
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
         "check_target": [
           "TargetSelf",
           "TargetShipType"
         ],
-        "skill_id": 200430,
-        "maxTargetNumber": 0,
-        "ship_type_list": [
-          12
-        ]
+        "skill_id": 200430
       }
     }
   ],
-  "desc": "定期回复周围友军血量",
-  "picture": "",
-  "name": "2023俾斯麦Z活动 女灶神meta 维修光环",
-  "init_effect": "",
+  "last_effect": "",
+  "color": "blue",
   "id": 200431,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-布里斯托尔II"
   },
-  "color": "red",
+  "name": "专属弹幕-布里斯托尔II",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 29790,
         "index": [
           1
         ],
-        "countType": 29790,
-        "countTarget": 10,
-        "gunnerBonus": true
+        "countTarget": 10
       }
     },
     {
@@ -24,20 +25,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29792,
         "countType": 29790,
-        "skill_id": 29792
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-布里斯托尔II",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行10次攻击，触发专属弹幕-布里斯托尔II",
+  "last_effect": "",
   "icon": 29790,
   "id": 29792,
-  "name": "专属弹幕-布里斯托尔II",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行10次攻击，触发专属弹幕-布里斯托尔II"
 }

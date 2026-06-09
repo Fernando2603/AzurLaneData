@@ -1,4 +1,9 @@
 {
+  "name": "2022意大利活动 选择性镜面海域",
+  "picture": "",
+  "desc": "撒丁帝国阵营角色在战斗中造成的伤害提高，受到的伤害降低",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,22 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "nationality": 6,
         "skill_id": 200009,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "撒丁帝国阵营角色在战斗中造成的伤害提高，受到的伤害降低",
+  "last_effect": "",
   "id": 200009,
-  "name": "2022意大利活动 选择性镜面海域",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

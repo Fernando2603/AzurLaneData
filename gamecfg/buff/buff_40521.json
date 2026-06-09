@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "潜艇-指挥-雷击II具体效果",
+  "picture": "",
+  "desc": "潜艇-指挥-雷击II具体效果",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "torpedoPower",
         "convertRate": 0.8,
-        "ability": "command",
-        "convertAttr": "torpedoPower"
+        "ability": "command"
       }
     }
   ],
-  "desc": "潜艇-指挥-雷击II具体效果",
-  "picture": "",
+  "last_effect": "",
   "icon": 40520,
-  "name": "潜艇-指挥-雷击II具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40521,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

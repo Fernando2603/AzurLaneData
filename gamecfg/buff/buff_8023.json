@@ -1,4 +1,9 @@
 {
+  "name": "第3章重巡使用盾buff",
+  "picture": "",
+  "desc": "第3章重巡使用盾buff",
+  "time": 30,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 8021,
-        "rant": 10000
+        "rant": 10000,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "第3章重巡使用盾buff",
-  "picture": "",
+  "last_effect": "",
   "icon": 8023,
-  "name": "第3章重巡使用盾buff",
-  "init_effect": "",
   "id": 8023,
-  "stack": 1,
-  "time": 30,
-  "last_effect": ""
+  "stack": 1
 }

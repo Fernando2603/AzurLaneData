@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024罗德尼meta 投影",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200705,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200705
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "target": "TargetSelf",
-        "value": 1
+        "value": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,18 +32,14 @@
       ],
       "type": "BattleBuffSwitchShader",
       "arg_list": {
-        "invisible": 0.3,
-        "shader": "GRID_TRANSPARENT"
+        "shader": "GRID_TRANSPARENT",
+        "invisible": 0.3
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200787,
-  "name": "2024罗德尼meta 投影",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200787,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

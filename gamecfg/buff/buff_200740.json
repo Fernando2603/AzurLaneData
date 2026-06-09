@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023关岛活动 UDF维修中心回血光环",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 200741,
         "cld_data": {
           "box": {
             "range": 50
           }
-        },
-        "buff_id": 200741,
-        "friendly_fire": true
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "fangkongRing02",
   "icon": 200740,
-  "name": "2023关岛活动 UDF维修中心回血光环",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200740,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "fangkongRing02"
+  "stack": 1
 }

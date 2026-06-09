@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 17076,
         "ship_tag_list": [
           "Kii-Class"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -33,18 +34,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17071,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 17071
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 17070,
-  "name": "",
-  "init_effect": "",
-  "id": 17075,
-  "stack": 1,
   "time": 2,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 17070,
+  "id": 17075,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

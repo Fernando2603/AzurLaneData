@@ -1,4 +1,6 @@
 {
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +9,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.05
       }
     },
     {
@@ -18,24 +20,22 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -100,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": -100
       }
     }
   ],
+  "time": 15,
+  "init_effect": "",
+  "stack": 1,
+  "icon": 60720,
+  "last_effect": "",
+  "id": 60721,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "icon": 60720,
-  "id": 60721,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  ]
 }

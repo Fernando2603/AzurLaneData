@@ -1,4 +1,9 @@
 {
+  "name": "副炮射程",
+  "picture": "",
+  "desc": "副炮射程",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,10 +11,10 @@
       ],
       "type": "BattleBuffFixRange",
       "arg_list": {
+        "bulletRange": 95,
         "index": [
           2
         ],
-        "bulletRange": 95,
         "weaponRange": 95
       }
     },
@@ -20,22 +25,17 @@
       "type": "BattleBuffAddProficiency",
       "arg_list": {
         "number": 0.3,
-        "index": [
-          2
-        ],
         "label": [
           "MG"
+        ],
+        "index": [
+          2
         ]
       }
     }
   ],
-  "desc": "副炮射程",
-  "picture": "",
+  "last_effect": "",
   "icon": 19740,
-  "name": "副炮射程",
-  "init_effect": "",
   "id": 19743,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

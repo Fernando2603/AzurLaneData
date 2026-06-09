@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "弹药匮乏",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.5,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.5
       }
     },
     {
@@ -34,13 +38,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 211,
-  "name": "弹药匮乏",
-  "init_effect": "",
+  "color": "yellow",
   "id": 211,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

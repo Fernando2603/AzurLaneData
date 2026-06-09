@@ -1,4 +1,9 @@
 {
+  "name": "北方的孤独女王·监控场上友军战列",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,12 +11,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 8906,
         "check_target": [
           "TargetShipTag"
         ],
-        "buff_id": 8906,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "Tactical—training-BB"
         ]
@@ -23,25 +28,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
+        "ship_tag_list": [
+          "Tactical—training-BB"
         ],
         "minTargetNumber": 1,
         "buff_id": 8907,
-        "ship_tag_list": [
-          "Tactical—training-BB"
-        ]
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8899,
-  "name": "北方的孤独女王·监控场上友军战列",
-  "init_effect": "",
   "id": 8899,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

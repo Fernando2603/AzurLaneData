@@ -1,4 +1,9 @@
 {
+  "name": "指挥喵天赋-侵略如火",
+  "picture": "",
+  "desc": "舰队成员造成伤害提高3%",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.03
       }
     }
   ],
-  "desc": "舰队成员造成伤害提高3%",
-  "picture": "",
+  "last_effect": "",
   "icon": 45020,
-  "name": "指挥喵天赋-侵略如火",
-  "init_effect": "jinengchufared",
   "id": 45021,
-  "stack": 2,
-  "time": 0,
-  "last_effect": ""
+  "stack": 2
 }

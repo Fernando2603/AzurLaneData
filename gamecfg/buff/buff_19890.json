@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,10 +28,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19890,
-        "target": "TargetSelf",
+        "time": 10,
         "quota": 1,
-        "time": 10
+        "skill_id": 19890,
+        "target": "TargetSelf"
       }
     },
     {
@@ -39,10 +40,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 19891,
         "quota": 1,
-        "time": 10
+        "buff_id": 19891,
+        "time": 10,
+        "target": "TargetSelf"
       }
     },
     {
@@ -51,18 +52,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19892,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 19892
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 19890,
-  "name": "",
-  "init_effect": "",
-  "id": 19890,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 19890,
+  "id": 19890,
+  "color": "blue",
+  "stack": 1,
+  "desc": ""
 }

@@ -1,4 +1,9 @@
 {
+  "name": "指挥喵天赋-水雷魂",
+  "picture": "",
+  "desc": "轻巡驱逐鱼雷暴击率提高3%",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +12,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipType"
-        ],
-        "buff_id": 45061,
         "ship_type_list": [
           1,
           2
+        ],
+        "buff_id": 45061,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
         ]
       }
     }
   ],
-  "desc": "轻巡驱逐鱼雷暴击率提高3%",
-  "picture": "",
+  "last_effect": "",
   "icon": 45060,
-  "name": "指挥喵天赋-水雷魂",
-  "init_effect": "jinengchufared",
   "id": 45060,
-  "stack": 2,
-  "time": 0,
-  "last_effect": ""
+  "stack": 2
 }

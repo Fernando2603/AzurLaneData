@@ -1,4 +1,9 @@
 {
+  "name": "对战列航战破甲",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,27 +12,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_type_list": [
+          5,
+          10
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 401,
         "check_target": [
           "TargetSelf",
           "TargetShipType"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 401,
-        "ship_type_list": [
-          5,
-          10
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 61000,
-  "name": "对战列航战破甲",
-  "init_effect": "",
   "id": 61005,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

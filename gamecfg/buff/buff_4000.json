@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.1,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.1
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.122,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.122
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.144,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.144
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.166,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.166
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.188,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.188
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.21,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.21
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.232,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.232
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.254,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.254
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.276,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.276
         }
       }
     ]
@@ -143,13 +143,14 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": -0.3,
-          "attr": "injureRatio"
+          "attr": "injureRatio",
+          "number": -0.3
         }
       }
     ]
   },
-  "color": "blue",
+  "name": "防御姿态",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -158,25 +159,24 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.1
       }
     }
   ],
+  "time": 8,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 4000,
+  "id": 4000,
+  "stack": 1,
+  "color": "blue",
+  "desc": "受到伤害降低",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "受到伤害降低",
-  "picture": "",
-  "icon": 4000,
-  "name": "防御姿态",
-  "init_effect": "jinengchufablue",
-  "id": 4000,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

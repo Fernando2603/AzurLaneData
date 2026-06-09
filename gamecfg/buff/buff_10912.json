@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "新生重樱联合",
+  "picture": "",
+  "desc": "50%减伤",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,19 +12,15 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "injureRatio",
-        "number": -0.5
+        "number": -0.5,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "50%减伤",
-  "picture": "",
+  "last_effect": "",
   "icon": 10912,
-  "name": "新生重樱联合",
-  "init_effect": "",
+  "color": "blue",
   "id": 10912,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 1
 }

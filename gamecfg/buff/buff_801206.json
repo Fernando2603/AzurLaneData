@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -32,15 +33,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 801203,
+        "minWeaponNumber": 1,
         "type": [
           2
         ],
-        "skill_id": 801203,
         "index": [
           3
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -62,13 +63,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 801200,
-  "name": "",
-  "init_effect": "",
-  "id": 801206,
-  "stack": 3,
   "time": 6,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 801200,
+  "id": 801206,
+  "color": "red",
+  "stack": 3,
+  "desc": ""
 }

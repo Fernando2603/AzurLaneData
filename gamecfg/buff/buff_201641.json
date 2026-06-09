@@ -1,4 +1,8 @@
 {
+  "id": 201641,
+  "name": "2025信标BOSS 约克城meta 周期性降低防空与机动",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,17 +24,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetHarmNearest",
         "buff_id": 201643,
-        "time": 5
+        "time": 5,
+        "target": "TargetHarmNearest"
       }
     }
   ],
-  "id": 201641,
-  "name": "2025信标BOSS 约克城meta 周期性降低防空与机动",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +18,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 19670,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "USS",
           "MG"
         ],
-        "skill_id": 19670,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -36,17 +37,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 19671,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "USS",
           "CV"
         ],
-        "skill_id": 19671,
         "index": [
           2
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -55,17 +56,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 19670,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "SN",
           "MG"
         ],
-        "skill_id": 19670,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -74,17 +75,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 19671,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "SN",
           "CV"
         ],
-        "skill_id": 19671,
         "index": [
           2
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -93,25 +94,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "exceptCaster": true,
+        "skill_id": 19672,
         "minTargetNumber": 2,
         "nationality": 1,
         "check_target": [
           "TargetPlayerMainFleet",
           "TargetNationalityFriendly"
         ],
-        "skill_id": 19672
+        "exceptCaster": true
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19670,
   "id": 19670,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

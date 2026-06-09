@@ -1,4 +1,9 @@
 {
+  "name": "卡牌发射激光减速自身 持续2秒",
+  "picture": "",
+  "desc": "卡牌发射激光减速自身 持续2秒",
+  "time": 2,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,18 +11,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 541071,
-        "time": 1
+        "time": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "卡牌发射激光减速自身 持续2秒",
+  "last_effect": "",
   "id": 541070,
-  "name": "卡牌发射激光减速自身 持续2秒",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "stack": 1
 }

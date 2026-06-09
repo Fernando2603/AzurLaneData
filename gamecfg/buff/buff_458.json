@@ -1,4 +1,9 @@
 {
+  "name": "反击meta火伤buff",
+  "picture": "",
+  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -1500,
-        "attr": "igniteReduce"
+        "attr": "igniteReduce",
+        "number": -1500
       }
     },
     {
@@ -22,13 +27,8 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 400,
-  "name": "反击meta火伤buff",
-  "init_effect": "",
   "id": 458,
-  "stack": 1,
-  "time": 10,
-  "last_effect": "Darkness"
+  "stack": 1
 }

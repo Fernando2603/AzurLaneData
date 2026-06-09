@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "具体效果",
+  "picture": "",
+  "desc": "指挥属性500倍转换成闪避率",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrCommander",
       "arg_list": {
+        "convertAttr": "dodgeRate",
         "convertRate": 500,
-        "ability": "command",
-        "convertAttr": "dodgeRate"
+        "ability": "command"
       }
     }
   ],
-  "desc": "指挥属性500倍转换成闪避率",
-  "picture": "",
+  "last_effect": "",
   "icon": 98001,
-  "name": "具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 98001,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

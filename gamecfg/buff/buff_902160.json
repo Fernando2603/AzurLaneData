@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "恬静的午后",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1000,
-        "attr": "antiSubPower"
+        "attr": "antiSubPower",
+        "number": 1000
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "accuracyToShipType_8"
+        "attr": "accuracyToShipType_8",
+        "number": 0.1
       }
     },
     {
@@ -27,25 +31,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "accuracyToShipType_17"
+        "attr": "accuracyToShipType_17",
+        "number": 0.1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 902160,
+  "color": "yellow",
+  "id": 902160,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 902160,
-  "name": "恬静的午后",
-  "init_effect": "jinengchufared",
-  "id": 902160,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

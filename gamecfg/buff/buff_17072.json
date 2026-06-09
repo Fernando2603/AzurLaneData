@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 17073,
         "ship_tag_list": [
           "OwariNoTomo"
         ],
+        "buff_id": 17073,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -37,23 +38,22 @@
         "ship_tag_list": [
           "OwariNoTomo"
         ],
-        "buff_id": 17074,
         "maxTargetNumber": 0,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "buff_id": 17074
       }
     }
   ],
-  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17070,
   "id": 17072,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "desc": ""
 }

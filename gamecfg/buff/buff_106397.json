@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,9 +22,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 106394
+        "skill_id": 106394,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,19 +33,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 106393,
-        "quota": 1
+        "quota": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 106390,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 106397,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

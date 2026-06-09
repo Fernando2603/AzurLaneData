@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "最后的反击",
+  "picture": "",
+  "desc": "触发弹条",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8903,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8903
       }
     },
     {
@@ -18,18 +22,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.3,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.3
       }
     }
   ],
-  "desc": "触发弹条",
-  "picture": "",
+  "last_effect": "",
   "icon": 8903,
-  "name": "最后的反击",
-  "init_effect": "",
+  "color": "red",
   "id": 8903,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

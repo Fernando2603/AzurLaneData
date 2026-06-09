@@ -1,4 +1,9 @@
 {
+  "name": "黑基洛夫BOSS战 曙光联合 闪流在场时提升BOSS属性",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 1000
       }
     },
     {
@@ -18,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1000,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 1000
       }
     },
     {
@@ -29,18 +34,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1000,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 1000
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200712,
-  "name": "黑基洛夫BOSS战 曙光联合 闪流在场时提升BOSS属性",
-  "init_effect": "",
   "id": 200712,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

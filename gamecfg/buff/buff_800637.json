@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 800637,
         "dungeonTypeList": [
           98,
           99
-        ]
+        ],
+        "skill_id": 800637
       }
     },
     {
@@ -20,12 +24,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 800630,
         "index": [
           1
         ],
-        "countType": 800630,
-        "countTarget": 10,
-        "gunnerBonus": true
+        "countTarget": 10
       }
     },
     {
@@ -34,17 +38,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "skill_id": 800632,
-        "countType": 800630,
         "maxTargetNumber": 0,
+        "target": "TargetSelf",
         "ship_tag_list": [
           "Fortune_meta_Berserker"
-        ]
+        ],
+        "countType": 800630,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 800632
       }
     },
     {
@@ -53,27 +57,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 800622,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Fortune_meta_Berserker"
+        ],
+        "countType": 800630,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 800630,
-        "ship_tag_list": [
-          "Fortune_meta_Berserker"
-        ],
-        "skill_id": 800622
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 800630,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 800637,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

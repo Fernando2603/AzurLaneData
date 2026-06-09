@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 500
       }
     },
     {
@@ -28,8 +32,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 106397,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 106397
       }
     },
     {
@@ -38,18 +42,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 106395,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 106395
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 106390,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 106395,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

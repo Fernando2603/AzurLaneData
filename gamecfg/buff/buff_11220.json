@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "持续打击",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,11 +18,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 5,
         "index": [
           2
         ],
-        "countType": 11220,
-        "countTarget": 5
+        "countType": 11220
       }
     },
     {
@@ -30,20 +31,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 11220,
         "countType": 11220,
-        "skill_id": 11220
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "鱼雷每击中6次敌人，增加自身炮击、雷击，最多叠加3层",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "鱼雷每击中6次敌人，增加自身炮击、雷击，最多叠加3层",
+  "last_effect": "",
   "icon": 11220,
   "id": 11220,
-  "name": "持续打击",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "鱼雷每击中6次敌人，增加自身炮击、雷击，最多叠加3层"
 }

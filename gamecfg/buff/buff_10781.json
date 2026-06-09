@@ -29,6 +29,8 @@
   "10": {
     "time": 10
   },
+  "name": "幸运回避",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,25 +39,23 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.3,
-        "attr": "dodgeRateExtra"
+        "attr": "dodgeRateExtra",
+        "number": 0.3
       }
     }
   ],
+  "time": 5,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 10781,
+  "id": 10781,
+  "stack": 1,
+  "desc": "回避率提升",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "回避率提升",
-  "picture": "",
-  "icon": 10781,
-  "name": "幸运回避",
-  "init_effect": "jinengchufablue",
-  "id": 10781,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  ]
 }

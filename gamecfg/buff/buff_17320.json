@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -48,8 +49,8 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "cap_ceiling_rate": 0.025,
-        "cap_hp_rate": 0.1
+        "cap_hp_rate": 0.1,
+        "cap_ceiling_rate": 0.025
       }
     },
     {
@@ -58,8 +59,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 1,
-        "countType": 17320
+        "countType": 17320,
+        "countTarget": 1
       }
     },
     {
@@ -73,14 +74,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17320,
   "id": 17320,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

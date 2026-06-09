@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024异世界冒险 剧情战 努比亚人跨射 中毒效果",
+  "picture": "",
+  "desc": "",
+  "time": 12.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "cloakExpose": 36,
-        "exposeGroup": 1,
-        "dotType": 1,
-        "number": 5,
         "attr": "cannonPower",
+        "exposeGroup": 1,
+        "cloakExpose": 36,
+        "k": 3,
         "time": 2,
-        "k": 3
+        "dotType": 1,
+        "number": 5
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "poison_buff",
   "icon": 200834,
-  "name": "2024异世界冒险 剧情战 努比亚人跨射 中毒效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200834,
-  "stack": 1,
-  "time": 12.1,
-  "last_effect": "poison_buff"
+  "stack": 1
 }

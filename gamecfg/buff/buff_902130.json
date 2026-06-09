@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "守卫压制——航空",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -10,29 +14,25 @@
         "ship_tag_list": [
           "AirDominance_lower"
         ],
-        "buff_id": 902131,
         "maxTargetNumber": 0,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "buff_id": 902131
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 902130,
+  "color": "yellow",
+  "id": 902130,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 902130,
-  "name": "守卫压制——航空",
-  "init_effect": "jinengchufablue",
-  "id": 902130,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

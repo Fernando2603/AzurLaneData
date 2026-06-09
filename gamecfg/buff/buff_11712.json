@@ -1,4 +1,9 @@
 {
+  "name": "杜尔拉汗-回复效果",
+  "picture": "",
+  "desc": "杜尔拉汗-回复效果",
+  "time": 16,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 3,
-        "skill_id": 11711
+        "skill_id": 11711,
+        "target": "TargetSelf"
       }
     },
     {
@@ -18,18 +23,13 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": -2
+        "add": -2,
+        "mul": 0
       }
     }
   ],
-  "desc": "杜尔拉汗-回复效果",
-  "picture": "",
+  "last_effect": "Health",
   "icon": 11710,
-  "name": "杜尔拉汗-回复效果",
-  "init_effect": "",
   "id": 11712,
-  "stack": 1,
-  "time": 16,
-  "last_effect": "Health"
+  "stack": 1
 }

@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行12次攻击，触发专属弹幕-雷根斯堡"
   },
-  "color": "red",
+  "name": "专属弹幕-雷根斯堡",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 30020,
-        "countTarget": 12
+        "countType": 30020
       }
     },
     {
@@ -23,20 +24,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30021,
         "countType": 30020,
-        "skill_id": 30021
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发专属弹幕-雷根斯堡",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行12次攻击，触发专属弹幕-雷根斯堡",
+  "last_effect": "",
   "icon": 30020,
   "id": 30021,
-  "name": "专属弹幕-雷根斯堡",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行12次攻击，触发专属弹幕-雷根斯堡"
 }

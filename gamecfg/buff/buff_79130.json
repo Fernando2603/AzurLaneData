@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "赫米忒毒雾",
+  "picture": "",
+  "desc": "减速，降低前排单位命中",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,12 +12,12 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
+        "add": 0,
+        "mul": -1200,
         "group": {
           "level": 10,
           "id": 300
-        },
-        "mul": -1200,
-        "add": 0
+        }
       }
     },
     {
@@ -23,18 +27,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -200,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": -200
       }
     }
   ],
-  "desc": "减速，降低前排单位命中",
-  "picture": "",
+  "last_effect": "",
   "icon": 4971,
-  "name": "赫米忒毒雾",
-  "init_effect": "",
+  "color": "yellow",
   "id": 79130,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

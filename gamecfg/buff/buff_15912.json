@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,24 +18,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 15910,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "Little-Beavers"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15912,
   "id": 15912,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "desc": ""
 }

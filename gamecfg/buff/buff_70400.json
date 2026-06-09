@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "航空提高",
+  "picture": "",
+  "desc": "航空提高50%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 5000,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 5000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 70400,
+  "color": "red",
+  "id": 70400,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "航空提高50%",
-  "picture": "",
-  "icon": 70400,
-  "name": "航空提高",
-  "init_effect": "",
-  "id": 70400,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -1,4 +1,9 @@
 {
+  "name": "定身",
+  "picture": "",
+  "desc": "",
+  "time": 3.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -24,9 +29,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 110061
+        "skill_id": 110061,
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,9 +40,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 110064
+        "skill_id": 110064,
+        "target": "TargetSelf"
       }
     },
     {
@@ -46,19 +51,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 110062
+        "skill_id": 110062,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 110040,
-  "name": "定身",
-  "init_effect": "",
   "id": 110061,
-  "stack": 1,
-  "time": 3.1,
-  "last_effect": ""
+  "stack": 1
 }

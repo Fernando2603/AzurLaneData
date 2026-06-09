@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "春菜低血量回血buff",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,19 +18,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.2,
         "quota": 1,
-        "skill_id": 111143
+        "skill_id": 111143,
+        "hpUpperBound": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "id": 111143,
-  "name": "春菜低血量回血buff",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "desc": "",
+  "last_effect": "",
+  "id": 111143,
+  "stack": 1
 }

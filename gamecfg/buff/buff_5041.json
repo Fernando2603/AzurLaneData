@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "照明弹",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 10,
-        "skill_id": 5041
+        "skill_id": 5041,
+        "target": "TargetSelf"
       }
     },
     {
@@ -33,13 +34,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 5040,
-  "name": "照明弹",
-  "init_effect": "",
-  "id": 5041,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 5040,
+  "id": 5041,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

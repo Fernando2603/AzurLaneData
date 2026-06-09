@@ -1,4 +1,9 @@
 {
+  "name": "测试-声望-主炮额外一轮攻击2",
+  "picture": "",
+  "desc": "触发:主炮额外一轮攻击2",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60018,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 60018
       }
     },
     {
@@ -16,9 +21,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 60031,
-        "bulletTrigger": "onBulletKill"
+        "bulletTrigger": "onBulletKill",
+        "target": "TargetSelf"
       }
     },
     {
@@ -32,13 +37,8 @@
       }
     }
   ],
-  "desc": "触发:主炮额外一轮攻击2",
-  "picture": "",
+  "last_effect": "lingxing",
   "icon": 60032,
-  "name": "测试-声望-主炮额外一轮攻击2",
-  "init_effect": "",
   "id": 60032,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "lingxing"
+  "stack": 1
 }

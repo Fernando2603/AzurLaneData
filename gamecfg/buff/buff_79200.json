@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "最终剧情战用敌方自杀buff",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78200,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78200,
-        "time": 5,
-        "rant": 10000
+        "rant": 10000,
+        "time": 5
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "sairendanchuan_buff",
   "icon": 8636,
-  "name": "最终剧情战用敌方自杀buff",
-  "init_effect": "",
+  "color": "yellow",
   "id": 78200,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "sairendanchuan_buff"
+  "stack": 1
 }

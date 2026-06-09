@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "航母-战术-机动I+航母-战术-防空I",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "dodgeRate",
         "convertRate": 0.4,
-        "ability": "tactic",
-        "convertAttr": "dodgeRate"
+        "ability": "tactic"
       }
     },
     {
@@ -18,19 +22,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "antiAirPower",
         "convertRate": 0.4,
-        "ability": "tactic",
-        "convertAttr": "antiAirPower"
+        "ability": "tactic"
       }
     }
   ],
-  "desc": "航母-战术-机动I+航母-战术-防空I",
-  "picture": "",
+  "last_effect": "",
   "icon": 40330,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40331,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

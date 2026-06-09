@@ -1,14 +1,9 @@
 {
-  "color": "red",
-  "desc_get": "",
-  "blink": [
-    1,
-    0,
-    0,
-    0.3,
-    0.3
-  ],
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -16,17 +11,22 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "DMG_TAG_EHC_U552SKILL"
+        "attr": "DMG_TAG_EHC_U552SKILL",
+        "number": 0.1
       }
     }
   ],
-  "picture": "",
-  "icon": 151360,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 151364,
+  "desc_get": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "last_effect": "",
+  "icon": 151360,
+  "color": "red",
+  "id": 151364,
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ]
 }

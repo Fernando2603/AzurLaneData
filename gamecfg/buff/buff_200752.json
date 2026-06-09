@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023关岛活动B2 召唤物2",
+  "picture": "",
+  "desc": "",
+  "time": 1.5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200752,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200752
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 0.4,
-        "skill_id": 200752
+        "skill_id": 200752,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200752,
-  "name": "2023关岛活动B2 召唤物2",
-  "init_effect": "",
+  "color": "blue",
   "id": 200752,
-  "stack": 1,
-  "time": 1.5,
-  "last_effect": ""
+  "stack": 1
 }

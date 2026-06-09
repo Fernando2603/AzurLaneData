@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "luck",
-        "number": -6
+        "number": -6,
+        "target": "TargetSelf"
       }
     },
     {
@@ -18,8 +22,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 500
       }
     },
     {
@@ -28,18 +32,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1000,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": 1000
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 110360,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 110360,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

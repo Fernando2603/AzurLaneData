@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -27,10 +28,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 16861,
         "nationality": 6,
         "maxTargetNumber": 1,
-        "check_target": "TargetNationalityFriendly"
+        "check_target": "TargetNationalityFriendly",
+        "skill_id": 16861
       }
     },
     {
@@ -39,21 +40,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 2,
         "nationality": 6,
         "skill_id": 16862,
-        "check_target": "TargetNationalityFriendly"
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 2
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16860,
   "id": 16860,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

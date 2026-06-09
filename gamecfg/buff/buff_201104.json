@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024天城航母活动 EX 一阶段转场",
+  "picture": "",
+  "desc": "",
+  "time": 2.5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201103,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201103
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8692,
-        "target": "TargetHarmFarthest"
+        "target": "TargetHarmFarthest",
+        "skill_id": 8692
       }
     },
     {
@@ -37,8 +41,8 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "target": "TargetSelf",
-        "value": 0
+        "value": 0,
+        "target": "TargetSelf"
       }
     },
     {
@@ -47,10 +51,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 201104,
         "quota": 1,
-        "time": 1
+        "time": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -64,13 +68,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Bossbomb",
   "icon": 201104,
-  "name": "2024天城航母活动 EX 一阶段转场",
-  "init_effect": "",
+  "color": "yellow",
   "id": 201104,
-  "stack": 1,
-  "time": 2.5,
-  "last_effect": "Bossbomb"
+  "stack": 1
 }

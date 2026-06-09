@@ -1,39 +1,39 @@
 {
+  "name": "测试-盾墙",
+  "picture": "",
+  "desc": "盾墙",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "arg_list": {
+        "do_when_hit": "intercept",
         "cld_list": [
           {
-            "offset": [
-              2,
-              0,
-              -2
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              2,
+              0,
+              -2
             ]
           }
         ],
-        "count": 10,
-        "do_when_hit": "intercept",
-        "bulletType": 1
+        "bulletType": 1,
+        "count": 10
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     }
   ],
-  "desc": "盾墙",
-  "picture": "",
+  "last_effect": "Shield",
   "icon": 60049,
-  "name": "测试-盾墙",
-  "init_effect": "",
   "id": 60049,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Shield"
+  "stack": 1
 }

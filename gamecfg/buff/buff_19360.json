@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 19360,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "BB",
           "MG",
           "HE"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -34,15 +35,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 19361,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "BB",
           "MG",
           "AP"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -52,10 +53,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19362,
-        "hpUpperBound": 1,
+        "hpLowerBound": 0.75,
         "quota": 1,
-        "hpLowerBound": 0.75
+        "hpUpperBound": 1,
+        "skill_id": 19362
       }
     },
     {
@@ -65,20 +66,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19363,
+        "quota": 1,
         "hpUpperBound": 0.75,
-        "quota": 1
+        "skill_id": 19363
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19360,
   "id": 19360,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

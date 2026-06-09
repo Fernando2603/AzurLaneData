@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "黑飞龙旋转护盾",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "damageGetRatioByBulletTorpedo"
+        "attr": "damageGetRatioByBulletTorpedo",
+        "number": -0.15
       }
     },
     {
@@ -17,18 +21,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "damageGetRatioByCannon"
+        "attr": "damageGetRatioByCannon",
+        "number": -0.15
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "huapaidun",
   "icon": 8636,
-  "name": "黑飞龙旋转护盾",
-  "init_effect": "",
+  "color": "yellow",
   "id": 295001,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "huapaidun"
+  "stack": 1
 }

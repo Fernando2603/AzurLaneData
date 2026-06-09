@@ -1,4 +1,9 @@
 {
+  "name": "治疗光环",
+  "picture": "",
+  "desc": "治疗光环-治疗",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffHOT",
       "arg_list": {
-        "target": "TargetSelf",
+        "time": 1.5,
         "maxHPRatio": 0.02,
-        "time": 1.5
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "治疗光环-治疗",
-  "picture": "",
+  "last_effect": "Health",
   "icon": 8510,
-  "name": "治疗光环",
-  "init_effect": "",
   "id": 8510,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Health"
+  "stack": 1
 }

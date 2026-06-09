@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "善战之舰.改",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 151450
+        "skill_id": 151450,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,8 +29,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151450,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 151450
       }
     },
     {
@@ -38,19 +39,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151451,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 151451
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 11640,
   "id": 151450,
-  "name": "善战之舰.改",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

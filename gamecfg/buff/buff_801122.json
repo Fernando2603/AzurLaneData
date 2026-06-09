@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 8,
         "index": [
           1
         ],
-        "countType": 801120,
-        "countTarget": 8
+        "countType": 801120
       }
     },
     {
@@ -20,17 +24,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "skill_id": 801122,
-        "countType": 801120,
         "maxTargetNumber": 0,
+        "target": "TargetSelf",
         "ship_tag_list": [
           "PastGlory"
-        ]
+        ],
+        "countType": 801120,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 801122
       }
     },
     {
@@ -39,27 +43,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 801124,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "PastGlory"
+        ],
+        "countType": 801120,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 801120,
-        "ship_tag_list": [
-          "PastGlory"
-        ],
-        "skill_id": 801124
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 801120,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 801122,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

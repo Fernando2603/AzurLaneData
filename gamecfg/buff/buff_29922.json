@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 8,
         "index": [
           1
         ],
-        "countType": 29920,
-        "countTarget": 8
+        "countType": 29920
       }
     },
     {
@@ -21,9 +22,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29922,
         "countType": 29920,
-        "skill_id": 29922
+        "target": "TargetSelf"
       }
     },
     {
@@ -32,23 +33,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 3,
         "nationality": 6,
         "skill_id": 29922,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 3
       }
     }
   ],
-  "desc": "主炮每进行8次攻击，触发专属弹幕-加里波第II",
-  "picture": "",
-  "icon": 29920,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29922,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29920,
+  "id": 29922,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行8次攻击，触发专属弹幕-加里波第II"
 }

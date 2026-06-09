@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024罗德尼meta 高维行走 BUFF",
+  "picture": "",
+  "desc": "",
+  "time": 4,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 30
+        "add": 30,
+        "mul": 0
       }
     },
     {
@@ -28,8 +32,8 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "target": "TargetSelf",
-        "value": 0
+        "value": 0,
+        "target": "TargetSelf"
       }
     },
     {
@@ -38,18 +42,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200792,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200792
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "heiluodeni_shadow",
   "icon": 200815,
-  "name": "2024罗德尼meta 高维行走 BUFF",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200815,
-  "stack": 1,
-  "time": 4,
-  "last_effect": "heiluodeni_shadow"
+  "stack": 1
 }

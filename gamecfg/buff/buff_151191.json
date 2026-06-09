@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "撞残跑路，撞死回血",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "maxHPRatio": 0.08,
         "countTarget": 0,
+        "maxHPRatio": 0.08,
         "countType": 151190
       }
     },
@@ -18,9 +22,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 151191,
         "countType": 151190,
-        "skill_id": 151191
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,10 +33,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 151192,
         "quota": 1,
-        "killer": "self"
+        "killer": "self",
+        "target": "TargetSelf"
       }
     },
     {
@@ -41,9 +45,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 151193
+        "skill_id": 151193,
+        "target": "TargetSelf"
       }
     },
     {
@@ -52,19 +56,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 151194,
-        "quota": 1
+        "quota": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "撞残跑路，撞死回血",
-  "picture": "",
+  "last_effect": "",
   "icon": 151190,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 151191,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

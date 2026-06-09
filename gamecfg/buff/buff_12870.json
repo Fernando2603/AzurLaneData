@@ -9,21 +9,22 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "龙凤2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipType"
-        ],
-        "buff_id": 12871,
         "ship_type_list": [
           8,
           17,
           22
+        ],
+        "buff_id": 12871,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
         ]
       }
     },
@@ -43,19 +44,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12875,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12875
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12870,
   "id": 12870,
-  "name": "龙凤2",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 109101
+        "buff_id": 109101,
+        "target": "TargetSelf"
       }
     },
     {
@@ -32,8 +33,8 @@
     },
     {
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 109103
+        "buff_id": 109103,
+        "target": "TargetSelf"
       },
       "trigger": [
         "onStartGame"
@@ -42,13 +43,12 @@
       "pop": []
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 109100,
-  "name": "",
-  "init_effect": "",
-  "id": 109100,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 109100,
+  "id": 109100,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

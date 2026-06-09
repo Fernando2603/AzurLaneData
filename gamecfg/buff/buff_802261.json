@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "标记&DOT",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,11 +21,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 10,
-        "number": 42,
         "attr": "cannonPower",
+        "dotType": 10,
+        "k": 0,
         "time": 1,
-        "k": 0
+        "number": 42
       }
     },
     {
@@ -30,18 +35,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -500
       }
     }
   ],
-  "desc": "标记&DOT",
-  "picture": "",
+  "last_effect": "lanhuozhuoshao",
   "icon": 802260,
-  "name": "",
-  "init_effect": "",
   "id": 802261,
-  "stack": 1,
-  "time": 8,
-  "last_effect": "lanhuozhuoshao"
+  "stack": 1
 }

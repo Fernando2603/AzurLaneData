@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "优米雅武技对中重分支",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,15 +12,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112132,
         "ship_tag_list": [
           "Yumia_Skill2_Lit"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 112132,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -25,15 +30,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112133,
         "ship_tag_list": [
           "Yumia_Skill2_Lit"
         ],
-        "maxTargetNumber": 0,
+        "skill_id": 112133,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -49,13 +54,8 @@
       }
     }
   ],
-  "desc": "优米雅武技对中重分支",
-  "picture": "",
+  "last_effect": "",
   "icon": 112110,
-  "name": "",
-  "init_effect": "",
   "id": 112135,
-  "stack": 2,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 2
 }

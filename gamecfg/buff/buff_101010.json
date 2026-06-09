@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "主人公补正",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
+        "skill_id": 101010,
         "minTargetNumber": 1,
         "nationality": 101,
-        "skill_id": 101010,
+        "check_target": "TargetNationalityFriendly",
         "exceptCaster": true
       }
     },
@@ -30,23 +31,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "nationality": 101,
-        "check_target": "TargetNationalityFriendly",
+        "isBuffStackByCheckTarget": true,
         "minTargetNumber": 1,
+        "nationality": 101,
         "buff_id": 101012,
-        "exceptCaster": true,
-        "isBuffStackByCheckTarget": true
+        "check_target": "TargetNationalityFriendly",
+        "exceptCaster": true
       }
     }
   ],
-  "desc": "出击时，若队伍中有超次元海王星阵营角色，自身伤害提高，受到伤害降低，每有1位超次元海王星阵营角色，自身伤害额外提高，受到伤害额外降低",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "出击时，若队伍中有超次元海王星阵营角色，自身伤害提高，受到伤害降低，每有1位超次元海王星阵营角色，自身伤害额外提高，受到伤害额外降低",
+  "last_effect": "Health",
   "icon": 101010,
   "id": 101010,
-  "name": "主人公补正",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": "Health"
+  "desc": "出击时，若队伍中有超次元海王星阵营角色，自身伤害提高，受到伤害降低，每有1位超次元海王星阵营角色，自身伤害额外提高，受到伤害额外降低"
 }

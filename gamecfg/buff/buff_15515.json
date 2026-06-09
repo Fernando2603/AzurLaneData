@@ -7,12 +7,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 500,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 500
+          "weaponType": 1
         }
       }
     ]
@@ -25,12 +25,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 610,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 610
+          "weaponType": 1
         }
       }
     ]
@@ -43,12 +43,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 720,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 720
+          "weaponType": 1
         }
       }
     ]
@@ -61,12 +61,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 830,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 830
+          "weaponType": 1
         }
       }
     ]
@@ -79,12 +79,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 940,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 940
+          "weaponType": 1
         }
       }
     ]
@@ -97,12 +97,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 1050,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 1050
+          "weaponType": 1
         }
       }
     ]
@@ -115,12 +115,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 1160,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 1160
+          "weaponType": 1
         }
       }
     ]
@@ -133,12 +133,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 1270,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 1270
+          "weaponType": 1
         }
       }
     ]
@@ -151,12 +151,12 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 1380,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 1380
+          "weaponType": 1
         }
       }
     ]
@@ -169,16 +169,18 @@
         ],
         "type": "BattleBuffHP",
         "arg_list": {
-          "weaponType": 1,
+          "damageConvertRatio": 1500,
           "bulletTag": [
             "EMD"
           ],
           "target": "TargetSelf",
-          "damageConvertRatio": 1500
+          "weaponType": 1
         }
       }
     ]
   },
+  "name": "TAG子弹命中监听--永久",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -186,22 +188,20 @@
       ],
       "type": "BattleBuffHP",
       "arg_list": {
-        "weaponType": 1,
+        "damageConvertRatio": 500,
         "bulletTag": [
           "EMD"
         ],
         "target": "TargetSelf",
-        "damageConvertRatio": 500
+        "weaponType": 1
       }
     }
   ],
-  "desc": "监听器",
-  "picture": "",
-  "icon": 15515,
-  "name": "TAG子弹命中监听--永久",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 15515,
   "id": 15515,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "监听器"
 }

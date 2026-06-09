@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "炮击减伤",
+  "picture": "",
+  "desc": "减伤类型用例,受到炮击伤害降低50%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.5,
-        "attr": "damageGetRatioByCannon"
+        "attr": "damageGetRatioByCannon",
+        "number": -0.5
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 71000,
+  "color": "blue",
+  "id": 71000,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "减伤类型用例,受到炮击伤害降低50%",
-  "picture": "",
-  "icon": 71000,
-  "name": "炮击减伤",
-  "init_effect": "",
-  "id": 71000,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

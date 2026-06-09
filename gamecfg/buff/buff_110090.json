@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,27 +28,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
+        "skill_id": 110093,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Homura_boost"
         ],
         "time": 1,
-        "skill_id": 110093
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 110090,
-  "name": "",
-  "init_effect": "",
-  "id": 110090,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 110090,
+  "id": 110090,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "提高属性",
+  "time": 5,
+  "init_effect": "ShellMissBig",
   "effect_list": [
     {
       "trigger": [
@@ -9,18 +13,14 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -2500,
-        "add": 0
+        "add": 0,
+        "mul": -2500
       }
     }
   ],
-  "desc": "提高属性",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 111070,
-  "name": "",
-  "init_effect": "ShellMissBig",
+  "color": "red",
   "id": 111088,
-  "stack": 2,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 2
 }

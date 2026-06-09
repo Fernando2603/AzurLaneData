@@ -1,4 +1,9 @@
 {
+  "name": "自爆船冲撞自杀buff加速等效果",
+  "picture": "",
+  "desc": "自爆船冲撞自杀buff加速等效果",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "group": 8003,
         "mul": 8000,
-        "add": 0
+        "add": 0,
+        "group": 8003
       }
     },
     {
@@ -35,19 +40,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 60037,
         "attr": "immuneMaxAreaLimit",
-        "number": 1
+        "number": 1,
+        "group": 60037
       }
     }
   ],
-  "desc": "自爆船冲撞自杀buff加速等效果",
-  "picture": "",
+  "last_effect": "",
   "icon": 8003,
-  "name": "自爆船冲撞自杀buff加速等效果",
-  "init_effect": "",
   "id": 8003,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "stack": 1
 }

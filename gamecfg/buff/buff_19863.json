@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "锚定解除",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -28,8 +29,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19861,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 19861
       }
     },
     {
@@ -38,19 +39,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19864,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 19864
       }
     }
   ],
-  "desc": "锚定",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19860,
   "id": 19863,
-  "name": "锚定解除",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "锚定"
 }

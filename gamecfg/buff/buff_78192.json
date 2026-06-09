@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "白龙剧情战 触发龙宫机关-回复技能 buff3：触发技能，显示弹条与弹幕武器开火，并为我方全体添加回血buff4",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78192,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78192,
-        "time": 0,
-        "rant": 10000
+        "rant": 10000,
+        "time": 0
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 9292,
-  "name": "白龙剧情战 触发龙宫机关-回复技能 buff3：触发技能，显示弹条与弹幕武器开火，并为我方全体添加回血buff4",
-  "init_effect": "",
+  "color": "yellow",
   "id": 78192,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

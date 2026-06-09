@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 6,
         "index": [
           1
         ],
-        "countType": 30040,
-        "countTarget": 6
+        "countType": 30040
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30043,
         "countType": 30040,
-        "skill_id": 30043
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "轻巡主炮每进行6次攻击，触发专属弹幕-舒尔茨I",
-  "picture": "",
-  "icon": 30040,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 30043,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 30040,
+  "id": 30043,
+  "color": "red",
+  "stack": 1,
+  "desc": "轻巡主炮每进行6次攻击，触发专属弹幕-舒尔茨I"
 }

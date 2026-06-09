@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "偶像手环",
+  "picture": "",
+  "desc": "受到伤害降低",
+  "time": 65,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +12,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.07,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.07
       }
     }
   ],
-  "desc": "受到伤害降低",
-  "picture": "",
+  "last_effect": "",
   "icon": 6881,
-  "name": "偶像手环",
-  "init_effect": "",
+  "color": "red",
   "id": 6881,
-  "stack": 1,
-  "time": 65,
-  "last_effect": ""
+  "stack": 1
 }

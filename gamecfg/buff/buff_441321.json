@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "航母-指挥-航空II具体效果",
+  "picture": "",
+  "desc": "航母-指挥-航空II",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "airPower",
         "convertRate": 0.8,
-        "ability": "command",
-        "convertAttr": "airPower"
+        "ability": "command"
       }
     }
   ],
-  "desc": "航母-指挥-航空II",
-  "picture": "",
+  "last_effect": "",
   "icon": 441320,
-  "name": "航母-指挥-航空II具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 441321,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

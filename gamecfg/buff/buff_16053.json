@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "提高伤害",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,30 +12,26 @@
       ],
       "type": "BattleBuffTaunt",
       "arg_list": {
+        "ship_tag_list": [
+          "MusashiProtected"
+        ],
         "guardTarget": [
           "TargetAllHelp",
           "TargetShipTag"
-        ],
-        "ship_tag_list": [
-          "MusashiProtected"
         ]
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 16050,
+  "color": "yellow",
+  "id": 16053,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高伤害",
-  "picture": "",
-  "icon": 16050,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 16053,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

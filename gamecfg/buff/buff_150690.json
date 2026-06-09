@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [],
@@ -36,11 +37,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 6,
         "index": [
           1
         ],
-        "countType": 150690,
-        "countTarget": 6
+        "countType": 150690
       }
     },
     {
@@ -49,9 +50,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 150690,
         "countType": 150690,
-        "skill_id": 150690
+        "target": "TargetSelf"
       }
     },
     {
@@ -60,11 +61,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 150691,
-        "countTarget": 12
+        "countType": 150691
       }
     },
     {
@@ -73,20 +74,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 150691,
         "countType": 150691,
-        "skill_id": 150691
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150690,
   "id": 150690,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "进入战斗时，若旗舰为轻航或正航,战斗开始后15秒触发额外舰载机编队",
+  "picture": "",
+  "desc": "该入口提供战外挂载到战内",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 40352,
         "time": 15,
-        "quota": 1
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "该入口提供战外挂载到战内",
-  "picture": "",
+  "last_effect": "",
   "icon": 40350,
-  "name": "进入战斗时，若旗舰为轻航或正航,战斗开始后15秒触发额外舰载机编队",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40351,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

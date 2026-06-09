@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "游刃有余",
+  "picture": "",
+  "desc": "每隔15秒触发游刃有余效果",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 15,
-        "skill_id": 44
+        "skill_id": 44,
+        "target": "TargetSelf"
       }
     },
     {
@@ -23,13 +27,9 @@
       }
     }
   ],
-  "desc": "每隔15秒触发游刃有余效果",
-  "picture": "",
+  "last_effect": "",
   "icon": 44,
-  "name": "游刃有余",
-  "init_effect": "",
+  "color": "red",
   "id": 44,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

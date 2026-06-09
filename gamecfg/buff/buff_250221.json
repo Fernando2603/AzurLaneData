@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行9次攻击，触发特殊弹幕-建武"
   },
-  "color": "red",
+  "name": "特殊弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 9,
         "index": [
           1
         ],
-        "countType": 250220,
-        "countTarget": 9
+        "countType": 250220
       }
     },
     {
@@ -23,19 +24,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 250221,
         "countType": 250220,
-        "skill_id": 250221
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行9次攻击，触发特殊弹幕-彰武",
-  "picture": "",
-  "icon": 20200,
-  "name": "特殊弹幕",
-  "init_effect": "",
-  "id": 250221,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 20200,
+  "id": 250221,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行9次攻击，触发特殊弹幕-彰武"
 }

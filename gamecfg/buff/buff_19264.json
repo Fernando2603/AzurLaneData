@@ -7,8 +7,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.05,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.05
         }
       }
     ]
@@ -21,8 +21,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.066,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.066
         }
       }
     ]
@@ -35,8 +35,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.082,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.082
         }
       }
     ]
@@ -49,8 +49,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.1,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.1
         }
       }
     ]
@@ -63,8 +63,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.116,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.116
         }
       }
     ]
@@ -77,8 +77,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.132,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.132
         }
       }
     ]
@@ -91,8 +91,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.15,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.15
         }
       }
     ]
@@ -105,8 +105,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.166,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.166
         }
       }
     ]
@@ -119,8 +119,8 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.182,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.182
         }
       }
     ]
@@ -133,13 +133,14 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "number": 0.2,
-          "attr": "manualEnhancement"
+          "attr": "manualEnhancement",
+          "number": 0.2
         }
       }
     ]
   },
-  "color": "red",
+  "name": "手动增伤",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -147,25 +148,24 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "manualEnhancement"
+        "attr": "manualEnhancement",
+        "number": 0.05
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 19260,
+  "id": 19264,
+  "stack": 1,
+  "color": "red",
+  "desc": "提高伤害",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高伤害",
-  "picture": "",
-  "icon": 19260,
-  "name": "手动增伤",
-  "init_effect": "jinengchufared",
-  "id": 19264,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

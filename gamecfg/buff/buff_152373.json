@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +19,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 100,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 100
       }
     },
     {
@@ -27,8 +29,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 10,
-        "countType": 152373
+        "countType": 152373,
+        "countTarget": 10
       }
     },
     {
@@ -37,27 +39,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 152373,
         "quota": 1,
-        "skill_id": 152371
+        "skill_id": 152371,
+        "target": "TargetSelf"
       }
     }
   ],
+  "time": 0,
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 152370,
+  "id": 152373,
+  "stack": 10,
+  "desc": "属性提升",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "属性提升",
-  "picture": "",
-  "icon": 152370,
-  "name": "",
-  "init_effect": "",
-  "id": 152373,
-  "stack": 10,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "巡洋-战术-炮击II+巡洋-战术-雷击II",
+  "time": 30,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "attackRating",
         "convertRate": 1.2,
-        "ability": "tactic",
-        "convertAttr": "attackRating"
+        "ability": "tactic"
       }
     },
     {
@@ -20,19 +24,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "dodgeRate",
         "convertRate": 1.2,
-        "ability": "tactic",
-        "convertAttr": "dodgeRate"
+        "ability": "tactic"
       }
     }
   ],
-  "desc": "巡洋-战术-炮击II+巡洋-战术-雷击II",
-  "picture": "",
+  "last_effect": "",
   "icon": 40290,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40291,
-  "stack": 1,
-  "time": 30,
-  "last_effect": ""
+  "stack": 1
 }

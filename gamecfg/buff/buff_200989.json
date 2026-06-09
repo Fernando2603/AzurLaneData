@@ -1,4 +1,9 @@
 {
+  "name": "2024匹兹堡活动D 冻雨打击支援",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200989,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200989
       }
     },
     {
@@ -16,19 +21,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 25,
-        "skill_id": 200989
+        "skill_id": 200989,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200989,
-  "name": "2024匹兹堡活动D 冻雨打击支援",
-  "init_effect": "",
   "id": 200989,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

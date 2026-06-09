@@ -1,4 +1,9 @@
 {
+  "name": "2024 同盟活动EX 开场检测",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,10 +42,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200765,
         "quota": 1,
-        "time": 0.1
+        "time": 0.1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -49,20 +54,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200766,
         "quota": 1,
-        "time": 1
+        "time": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200762,
-  "name": "2024 同盟活动EX 开场检测",
-  "init_effect": "",
   "id": 200762,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

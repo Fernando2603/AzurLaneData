@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 29920,
-        "countTarget": 12
+        "countType": 29920
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29921,
         "countType": 29920,
-        "skill_id": 29921
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发专属弹幕-加里波第I",
-  "picture": "",
-  "icon": 29920,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29921,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29920,
+  "id": 29921,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行12次攻击，触发专属弹幕-加里波第I"
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024同盟活动C 极寒 冰风暴",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200772,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200772
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 200772
+        "skill_id": 200772,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200772,
-  "name": "2024同盟活动C 极寒 冰风暴",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200772,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

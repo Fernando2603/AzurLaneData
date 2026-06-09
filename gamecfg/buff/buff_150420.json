@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,15 +27,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 150422,
         "nationality": [
           3
         ],
+        "buff_id": 150422,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -43,18 +44,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 150420
+        "skill_id": 150420,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 150420,
-  "name": "",
-  "init_effect": "",
-  "id": 150420,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 150420,
+  "id": 150420,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "主炮每进行8次攻击",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 8,
         "index": [
           1
         ],
-        "countType": 15292,
-        "countTarget": 8
+        "countType": 15292
       }
     },
     {
@@ -20,19 +24,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 15291,
         "countType": 15292,
-        "skill_id": 15291
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行8次攻击",
-  "picture": "",
+  "last_effect": "",
   "icon": 15290,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 15292,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

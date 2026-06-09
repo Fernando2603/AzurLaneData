@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "cloakExpose": 36,
-        "exposeGroup": 1,
-        "dotType": 1,
-        "number": 50,
         "attr": "cannonPower",
+        "exposeGroup": 1,
+        "cloakExpose": 36,
+        "k": 0,
         "time": 1.5,
-        "k": 0
+        "dotType": 1,
+        "number": 50
       }
     },
     {
@@ -21,8 +26,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 60
       }
     },
     {
@@ -31,18 +36,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 61,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 61
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "zhuoshao",
   "icon": 801570,
-  "name": "",
-  "init_effect": "",
   "id": 801573,
-  "stack": 1,
-  "time": 8,
-  "last_effect": "zhuoshao"
+  "stack": 1
 }

@@ -1,6 +1,10 @@
 {
   "1": {
     "name": "石油仓库",
+    "type": 1,
+    "icon": "eventtype/faxiankuangmai",
+    "buffs": [],
+    "id": 1,
     "levels": [
       [
         10,
@@ -18,14 +22,14 @@
         300,
         3000
       ]
-    ],
-    "id": 1,
-    "icon": "eventtype/faxiankuangmai",
-    "type": 1,
-    "buffs": []
+    ]
   },
   "2": {
     "name": "金币仓库",
+    "type": 2,
+    "icon": "eventtype/guanjianyishi",
+    "buffs": [],
+    "id": 2,
     "levels": [
       [
         10,
@@ -43,14 +47,16 @@
         300,
         3000
       ]
-    ],
-    "id": 2,
-    "icon": "eventtype/guanjianyishi",
-    "type": 2,
-    "buffs": []
+    ]
   },
   "3": {
     "name": "火力研究",
+    "type": 3,
+    "icon": "eventtype/guanjianyishi",
+    "buffs": [
+      1012
+    ],
+    "id": 3,
     "levels": [
       [
         1,
@@ -68,12 +74,6 @@
         4,
         3000
       ]
-    ],
-    "id": 3,
-    "icon": "eventtype/guanjianyishi",
-    "type": 3,
-    "buffs": [
-      1012
     ]
   },
   "all": [

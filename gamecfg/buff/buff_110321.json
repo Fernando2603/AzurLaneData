@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +19,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -500
       }
     },
     {
@@ -28,8 +30,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -500
       }
     },
     {
@@ -39,18 +41,16 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": -500
       }
     }
   ],
-  "desc": "属性降低",
-  "picture": "",
-  "icon": 16650,
-  "name": "",
+  "time": 5,
   "init_effect": "",
+  "last_effect": "Darkness",
+  "icon": 16650,
   "id": 16651,
   "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "desc": "属性降低"
 }

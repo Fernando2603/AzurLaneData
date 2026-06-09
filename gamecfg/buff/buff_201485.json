@@ -1,4 +1,8 @@
 {
+  "id": 201485,
+  "name": "2025马塞纳活动 EX 白形态沉睡",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +10,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 201494,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 201494,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "BOSS"
         ]
@@ -24,24 +28,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 200364,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "BOSS"
         ],
-        "skill_id": 200364
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201485,
-  "name": "2025马塞纳活动 EX 白形态沉睡",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0.5,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

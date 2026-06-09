@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1090240,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1090240
       }
     },
     {
@@ -27,57 +28,56 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.35,
         "quota": 1,
-        "skill_id": 1090243
+        "skill_id": 1090243,
+        "hpUpperBound": 0.35,
+        "target": "TargetSelf"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 1
+        "shipType": 1,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 2
+        "shipType": 2,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 20
+        "shipType": 20,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 21
+        "shipType": 21,
+        "target": "TargetPlayerByType"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 1090,
   "id": 1090240,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

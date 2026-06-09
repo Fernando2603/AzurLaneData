@@ -1,4 +1,9 @@
 {
+  "name": "测试-随机技能-棱镜光束-发射",
+  "picture": "",
+  "desc": "棱镜光束",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "bulletTrigger": "onBulletHit",
         "skill_id": 60024,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "bulletTrigger": "onBulletHit"
       }
     },
     {
@@ -31,13 +36,8 @@
       }
     }
   ],
-  "desc": "棱镜光束",
-  "picture": "",
+  "last_effect": "hongsebuff",
   "icon": 60043,
-  "name": "测试-随机技能-棱镜光束-发射",
-  "init_effect": "",
   "id": 60043,
-  "stack": 1,
-  "time": 10,
-  "last_effect": "hongsebuff"
+  "stack": 1
 }

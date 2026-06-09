@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 500
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": 500
       }
     },
     {
@@ -30,8 +34,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 800433
+        "countType": 800433,
+        "countTarget": 3
       }
     },
     {
@@ -47,13 +51,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 800430,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 800433,
-  "stack": 3,
-  "time": 0,
-  "last_effect": ""
+  "stack": 3
 }

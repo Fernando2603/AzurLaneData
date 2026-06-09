@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "战列-后勤-命中I具体效果",
+  "picture": "",
+  "desc": "战列-后勤-命中I",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "attackRating",
         "convertRate": 0.4,
-        "ability": "support",
-        "convertAttr": "attackRating"
+        "ability": "support"
       }
     }
   ],
-  "desc": "战列-后勤-命中I",
-  "picture": "",
+  "last_effect": "",
   "icon": 433810,
-  "name": "战列-后勤-命中I具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 433811,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

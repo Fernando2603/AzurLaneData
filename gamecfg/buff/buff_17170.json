@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -36,15 +37,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 17173,
+        "minTargetNumber": 1,
+        "time": 1,
         "check_target": [
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "MOTmarry"
-        ],
-        "time": 1,
-        "skill_id": 17173
+        ]
       }
     },
     {
@@ -53,27 +54,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "quota": 1,
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 17172,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MCretreat"
         ],
-        "time": 1,
-        "skill_id": 17172
+        "quota": 1,
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "time": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17170,
   "id": 17170,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

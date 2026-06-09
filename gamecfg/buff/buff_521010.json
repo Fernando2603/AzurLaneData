@@ -1,4 +1,9 @@
 {
+  "name": "卡牌点燃debuff",
+  "picture": "",
+  "desc": "卡牌点燃debuff",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,22 +11,17 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "cloakExpose": 36,
-        "exposeGroup": 1,
-        "dotType": 1,
-        "number": 1,
         "attr": "airPower",
+        "exposeGroup": 1,
+        "cloakExpose": 36,
+        "k": 0.05,
         "time": 3,
-        "k": 0.05
+        "dotType": 1,
+        "number": 1
       }
     }
   ],
-  "desc": "卡牌点燃debuff",
+  "last_effect": "zhuoshao",
   "id": 521010,
-  "name": "卡牌点燃debuff",
-  "init_effect": "",
-  "picture": "",
-  "stack": 999,
-  "time": 0,
-  "last_effect": "zhuoshao"
+  "stack": 999
 }

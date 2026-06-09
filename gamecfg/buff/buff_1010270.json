@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -28,8 +29,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1010270,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1010270
       }
     },
     {
@@ -38,13 +39,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 1010274,
         "nationality": 2,
+        "buff_id": 1010274,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -55,21 +56,20 @@
       "arg_list": {
         "nationality": 2,
         "buff_id": 1010275,
-        "maxTargetNumber": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "maxTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 10270,
-  "name": "",
-  "init_effect": "",
-  "id": 1010270,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 10270,
+  "id": 1010270,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

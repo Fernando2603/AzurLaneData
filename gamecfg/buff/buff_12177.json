@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "最适化武装",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,26 +18,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "qiao5zhupao"
+        ],
         "check_target": [
           "TargetShipTag"
         ],
-        "skill_id": 12174,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "qiao5zhupao"
-        ]
+        "skill_id": 12174
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12150,
   "id": 12177,
-  "name": "最适化武装",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

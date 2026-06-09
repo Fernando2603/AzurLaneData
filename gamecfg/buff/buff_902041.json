@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": -0.05,
         "attr": "damageToArmorRateEnhance_1",
         "index": [
           1
-        ]
+        ],
+        "number": -0.05
       }
     },
     {
@@ -19,28 +24,23 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.05,
         "attr": "damageToArmorRateEnhance_3",
         "index": [
           1
-        ]
+        ],
+        "number": 0.05
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 902040,
+  "id": 902041,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 902040,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 902041,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "降智",
+  "time": 30,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -300
       }
     },
     {
@@ -26,8 +31,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -300
       }
     },
     {
@@ -36,18 +41,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": -300
       }
     }
   ],
-  "desc": "降智",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 476,
-  "name": "",
-  "init_effect": "",
   "id": 476,
-  "stack": 1,
-  "time": 30,
-  "last_effect": "Darkness"
+  "stack": 1
 }

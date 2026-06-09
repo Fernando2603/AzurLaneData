@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "濒死护盾",
+  "picture": "",
+  "desc": "战斗对象的血量下降到X%时，生成一个永久存在的护盾",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 73801,
         "quota": 1,
-        "hpUpperBound": 0.3
+        "buff_id": 73801,
+        "hpUpperBound": 0.3,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "战斗对象的血量下降到X%时，生成一个永久存在的护盾",
-  "picture": "",
+  "last_effect": "",
   "icon": 73800,
-  "name": "濒死护盾",
-  "init_effect": "",
+  "color": "yellow",
   "id": 73800,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,21 +21,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 152072,
-        "target": "TargetSelf",
         "effectAttachData": [
           "BattleBuffShield<=0"
-        ]
+        ],
+        "skill_id": 152072,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Shield",
   "icon": 152070,
-  "name": "",
-  "init_effect": "",
   "id": 152072,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Shield"
+  "stack": 1
 }

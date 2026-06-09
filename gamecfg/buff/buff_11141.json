@@ -7,10 +7,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1000
+          "rant": 1000,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -23,10 +23,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1220
+          "rant": 1220,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -39,10 +39,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1440
+          "rant": 1440,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -55,10 +55,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1660
+          "rant": 1660,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -71,10 +71,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 1880
+          "rant": 1880,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -87,10 +87,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 2100
+          "rant": 2100,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -103,10 +103,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 2320
+          "rant": 2320,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -119,10 +119,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 2540
+          "rant": 2540,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -135,10 +135,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 2760
+          "rant": 2760,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -151,15 +151,16 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 11141,
-          "target": "TargetSelf",
           "time": 0,
-          "rant": 3000
+          "rant": 3000,
+          "skill_id": 11141,
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "blue",
+  "name": "触发器",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -167,28 +168,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 11141,
-        "target": "TargetSelf",
         "time": 0,
-        "rant": 1000
+        "rant": 1000,
+        "skill_id": 11141,
+        "target": "TargetSelf"
       }
     }
   ],
+  "time": 0,
+  "init_effect": "",
+  "last_effect": "",
+  "desc_get": "受到攻击时有30%的概率减少50%伤害",
+  "icon": 11140,
+  "id": 11141,
+  "stack": 1,
+  "color": "blue",
+  "desc": "受到攻击时有$1的概率减少50%伤害",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "受到攻击时有$1的概率减少50%伤害",
-  "desc_get": "受到攻击时有30%的概率减少50%伤害",
-  "icon": 11140,
-  "id": 11141,
-  "name": "触发器",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

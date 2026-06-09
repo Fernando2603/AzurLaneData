@@ -1,4 +1,9 @@
 {
+  "name": "铁底湾之夜",
+  "picture": "",
+  "desc": "南达触发效果",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,26 +22,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 11010,
         "target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "hpUpperBound": 0.3,
         "quota": 1,
+        "hpUpperBound": 0.3,
         "ship_tag_list": [
           "Washington"
-        ],
-        "skill_id": 11010
+        ]
       }
     }
   ],
-  "desc": "南达触发效果",
-  "picture": "",
+  "last_effect": "",
   "icon": 11011,
-  "name": "铁底湾之夜",
-  "init_effect": "",
   "id": 11011,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "龙凤2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 12874,
         "ship_tag_list": [
           "Ryuhou"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -33,9 +34,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 12871
+        "skill_id": 12871,
+        "target": "TargetSelf"
       }
     },
     {
@@ -44,25 +45,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "ship_tag_list": [
+          "Ryuhou"
+        ],
         "skill_id": 12872,
-        "killer": "self",
         "target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "ship_tag_list": [
-          "Ryuhou"
-        ]
+        "killer": "self"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 12870,
-  "name": "龙凤2",
-  "init_effect": "",
-  "id": 12871,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12870,
+  "id": 12871,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

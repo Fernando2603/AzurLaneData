@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 17073,
         "nationality": [
           3
         ],
+        "buff_id": 17073,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -38,22 +39,21 @@
           3
         ],
         "buff_id": 17072,
-        "maxTargetNumber": 0,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetNationality"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     }
   ],
-  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17070,
   "id": 17077,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "desc": ""
 }

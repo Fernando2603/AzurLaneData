@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 801540
+        "countType": 801540,
+        "countTarget": 2
       }
     },
     {
@@ -17,22 +22,17 @@
       ],
       "type": "BattleBuffCleanse",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 801540,
         "buff_id_list": [
           801542,
           801544
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 801540,
-  "name": "",
-  "init_effect": "",
   "id": 801544,
-  "stack": 2,
-  "time": 15,
-  "last_effect": ""
+  "stack": 2
 }

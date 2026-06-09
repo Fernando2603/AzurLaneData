@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "大洋联邦 无人机母舰指挥光环",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 200235,
         "cld_data": {
           "box": {
             "range": 50
           }
-        },
-        "buff_id": 200235,
-        "friendly_fire": true
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "yilishabaidanchuan_buff_01",
   "icon": 200236,
-  "name": "大洋联邦 无人机母舰指挥光环",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200236,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "yilishabaidanchuan_buff_01"
+  "stack": 1
 }

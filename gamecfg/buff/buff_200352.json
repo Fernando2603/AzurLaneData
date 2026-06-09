@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023英系活动 剧情战2 旗舰初始弹条",
+  "picture": "",
+  "desc": "",
+  "time": 6,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200351,
         "quota": 1,
-        "time": 3
+        "time": 3,
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,20 +23,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200352,
         "quota": 1,
-        "time": 4.5
+        "time": 4.5,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200352,
-  "name": "2023英系活动 剧情战2 旗舰初始弹条",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200352,
-  "stack": 1,
-  "time": 6,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "铁翼陨灭",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,21 +18,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 10640,
         "time": 1,
-        "inside": 1
+        "skill_id": 10640,
+        "inside": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "防空圈内，敌方飞机被击落时，自身炮击提高自身基础(面板+装备)防空值的5%/15%，持续8秒，不可叠加",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "防空圈内，敌方飞机被击落时，自身炮击提高自身基础(面板+装备)防空值的5%/15%，持续8秒，不可叠加",
+  "last_effect": "",
   "icon": 10640,
   "id": 10640,
-  "name": "铁翼陨灭",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "防空圈内，敌方飞机被击落时，自身炮击提高自身基础(面板+装备)防空值的5%/15%，持续8秒，不可叠加"
 }

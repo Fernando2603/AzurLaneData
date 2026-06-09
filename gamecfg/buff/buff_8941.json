@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "公海舰队活动 塔干扰-电磁干扰",
+  "picture": "",
   "desc": "",
+  "time": 20,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,19 +12,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 8949,
         "time": 17,
-        "quota": 1
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 8941,
-  "name": "公海舰队活动 塔干扰-电磁干扰",
-  "init_effect": "",
+  "color": "red",
   "id": 8941,
-  "stack": 1,
-  "time": 20,
-  "last_effect": ""
+  "stack": 1
 }

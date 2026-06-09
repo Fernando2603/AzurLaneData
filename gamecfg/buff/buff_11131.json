@@ -7,14 +7,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 1000,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 1000
+          "time": 10
         }
       }
     ]
@@ -27,14 +27,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 1220,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 1220
+          "time": 10
         }
       }
     ]
@@ -47,14 +47,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 1440,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 1440
+          "time": 10
         }
       }
     ]
@@ -67,14 +67,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 1660,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 1660
+          "time": 10
         }
       }
     ]
@@ -87,14 +87,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 1880,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 1880
+          "time": 10
         }
       }
     ]
@@ -107,14 +107,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 2100,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 2100
+          "time": 10
         }
       }
     ]
@@ -127,14 +127,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 2320,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 2320
+          "time": 10
         }
       }
     ]
@@ -147,14 +147,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 2540,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 2540
+          "time": 10
         }
       }
     ]
@@ -167,14 +167,14 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 2760,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 2760
+          "time": 10
         }
       }
     ]
@@ -187,18 +187,20 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "skill_id": 11130,
           "target": "TargetSelf",
+          "rant": 3000,
           "be_hit_condition": {
             "damage_type": 2,
             "bullet_type": 3
           },
-          "skill_id": 11130,
-          "time": 10,
-          "rant": 3000
+          "time": 10
         }
       }
     ]
   },
+  "name": "第一驱逐舰",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -206,24 +208,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 11130,
         "target": "TargetSelf",
+        "rant": 1000,
         "be_hit_condition": {
           "damage_type": 2,
           "bullet_type": 3
         },
-        "skill_id": 11130,
-        "time": 10,
-        "rant": 1000
+        "time": 10
       }
     }
   ],
-  "desc": "受到雷击伤害时，有$1概率发动，自身受到鱼雷的伤害降低$2，自身雷击提高$2 持续4秒",
-  "picture": "",
-  "icon": 11130,
-  "name": "第一驱逐舰",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 11130,
   "id": 11131,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "受到雷击伤害时，有$1概率发动，自身受到鱼雷的伤害降低$2，自身雷击提高$2 持续4秒"
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "爱丽丝",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,27 +18,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "ship_tag_list": [
+          "Bertin"
+        ],
         "target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
+        "buff_id": 12363,
         "hpUpperBound": 0.5,
-        "quota": 1,
-        "ship_tag_list": [
-          "Bertin"
-        ],
-        "buff_id": 12363
+        "quota": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12360,
   "id": 12362,
-  "name": "爱丽丝",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

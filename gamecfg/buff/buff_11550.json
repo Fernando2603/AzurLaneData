@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "Big Mamie",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,14 +22,14 @@
           3,
           5
         ],
+        "minTargetNumber": 1,
         "check_target": [
           "TargetNationalityFriendly",
           "TargetShipTypeFriendly"
         ],
-        "minTargetNumber": 1,
         "buff_id": 11551,
-        "nationality": 1,
-        "isBuffStackByCheckTarget": true
+        "isBuffStackByCheckTarget": true,
+        "nationality": 1
       }
     },
     {
@@ -41,24 +42,23 @@
           3,
           5
         ],
+        "skill_id": 11550,
+        "minTargetNumber": 1,
+        "nationality": 1,
         "check_target": [
           "TargetNationalityFriendly",
           "TargetShipTypeFriendly"
-        ],
-        "minTargetNumber": 1,
-        "nationality": 1,
-        "skill_id": 11550
+        ]
       }
     }
   ],
-  "desc": "出击时，队伍中每有一个白鹰联邦重巡、战列角色，自身炮击、防空、机动属性上升$1，最多3层",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "出击时，队伍中每有一个白鹰联邦重巡、战列角色，自身炮击、防空、机动属性上升$1，最多3层",
+  "last_effect": "",
   "icon": 11550,
   "id": 11550,
-  "name": "Big Mamie",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "出击时，队伍中每有一个白鹰联邦重巡、战列角色，自身炮击、防空、机动属性上升$1，最多3层"
 }

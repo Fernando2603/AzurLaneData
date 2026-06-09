@@ -1,4 +1,9 @@
 {
+  "name": "克莱蒙梭剧情战 剧情结束",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 200573,
         "ship_tag_list": [
           "BOSS"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200572,
-  "name": "克莱蒙梭剧情战 剧情结束",
-  "init_effect": "",
   "id": 200572,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

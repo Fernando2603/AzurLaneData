@@ -1,4 +1,9 @@
 {
+  "name": "必爆",
+  "picture": "",
+  "desc": "使得非装备武器发射的子弹暴击率提高100%",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "cri",
         "index": [
           30480
-        ]
+        ],
+        "number": 1
       }
     }
   ],
-  "desc": "使得非装备武器发射的子弹暴击率提高100%",
-  "picture": "",
+  "last_effect": "",
   "icon": 30480,
-  "name": "必爆",
-  "init_effect": "",
   "id": 30485,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "白龙剧情战 触发龙宫机关-怒涛技能 buff4：进水效果",
+  "picture": "",
+  "desc": "",
+  "time": 999,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 2,
-        "number": 10,
         "attr": "cannonPower",
+        "dotType": 2,
+        "k": 0.2,
         "time": 3,
-        "k": 0.2
+        "number": 10
       }
     },
     {
@@ -25,13 +29,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 9305,
-  "name": "白龙剧情战 触发龙宫机关-怒涛技能 buff4：进水效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 9305,
-  "stack": 1,
-  "time": 999,
-  "last_effect": ""
+  "stack": 1
 }

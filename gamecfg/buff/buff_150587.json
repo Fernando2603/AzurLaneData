@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,27 +18,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "SawaiBodyguard"
+        ],
         "quota": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "skill_id": 150596,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "SawaiBodyguard"
-        ]
+        "skill_id": 150596
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 150590,
-  "name": "",
-  "init_effect": "",
-  "id": 150587,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 150590,
+  "id": 150587,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

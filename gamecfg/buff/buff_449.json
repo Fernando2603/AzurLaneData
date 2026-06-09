@@ -1,4 +1,9 @@
 {
+  "name": "进水",
+  "picture": "",
+  "desc": "伏尔加技能鱼雷进水",
+  "time": 12.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 2,
-        "number": 10,
         "attr": "airPower",
+        "dotType": 2,
+        "k": 0.3,
         "time": 3,
-        "k": 0.3
+        "number": 10
       }
     },
     {
@@ -24,13 +29,8 @@
       }
     }
   ],
-  "desc": "伏尔加技能鱼雷进水",
-  "picture": "",
+  "last_effect": "",
   "icon": 449,
-  "name": "进水",
-  "init_effect": "",
   "id": 449,
-  "stack": 1,
-  "time": 12.1,
-  "last_effect": ""
+  "stack": 1
 }

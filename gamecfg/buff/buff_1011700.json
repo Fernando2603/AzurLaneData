@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "猛进射击 +",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 1011701,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     },
     {
@@ -39,29 +40,28 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "quota": 1,
-        "check_target": [
-          "TargetPlayerVanguardFleet",
-          "TargetNationality"
-        ],
+        "skill_id": 1011700,
         "minTargetNumber": 2,
         "nationality": [
           8,
           9
         ],
-        "time": 3,
-        "skill_id": 1011700
+        "quota": 1,
+        "check_target": [
+          "TargetPlayerVanguardFleet",
+          "TargetNationality"
+        ],
+        "time": 3
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 11700,
   "id": 1011700,
-  "name": "猛进射击 +",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

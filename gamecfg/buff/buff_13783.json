@@ -1,14 +1,9 @@
 {
-  "color": "red",
-  "desc_get": "",
-  "blink": [
-    1,
-    0,
-    0,
-    0.3,
-    0.3
-  ],
+  "name": "恶毒μ",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +12,22 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 300,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 300
       }
     }
   ],
-  "picture": "",
-  "icon": 13780,
-  "name": "恶毒μ",
-  "init_effect": "",
-  "id": 13783,
+  "desc_get": "",
   "stack": 3,
-  "time": 0,
-  "last_effect": ""
+  "last_effect": "",
+  "icon": 13780,
+  "color": "red",
+  "id": 13783,
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ]
 }

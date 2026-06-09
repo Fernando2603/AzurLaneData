@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -3000,
-        "add": 0
+        "add": 0,
+        "mul": -3000
       }
     },
     {
@@ -18,20 +23,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 1101201
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101201,
+        "countTarget": 2
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101201,
+        "rant": 2000,
         "skill_id": 110121,
-        "rant": 2000
+        "target": "TargetSelf"
       }
     },
     {
@@ -41,20 +46,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 1101202
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101202,
+        "countTarget": 3
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101202,
+        "rant": 4000,
         "skill_id": 110121,
-        "rant": 4000
+        "target": "TargetSelf"
       }
     },
     {
@@ -64,20 +69,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 1101203
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101203,
+        "countTarget": 4
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101203,
+        "rant": 6000,
         "skill_id": 110121,
-        "rant": 6000
+        "target": "TargetSelf"
       }
     },
     {
@@ -87,20 +92,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 5,
-        "countType": 1101204
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101204,
+        "countTarget": 5
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101204,
+        "rant": 8000,
         "skill_id": 110121,
-        "rant": 8000
+        "target": "TargetSelf"
       }
     },
     {
@@ -110,20 +115,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 6,
-        "countType": 1101205
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101205,
+        "countTarget": 6
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101205,
+        "rant": 10000,
         "skill_id": 110121,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     },
     {
@@ -133,20 +138,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 7,
-        "countType": 1101206
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101206,
+        "countTarget": 7
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101206,
+        "rant": 10000,
         "skill_id": 110121,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     },
     {
@@ -156,20 +161,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 8,
-        "countType": 1101207
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101207,
+        "countTarget": 8
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101207,
+        "rant": 10000,
         "skill_id": 110121,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     },
     {
@@ -179,20 +184,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 9,
-        "countType": 1101208
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101208,
+        "countTarget": 9
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101208,
+        "rant": 10000,
         "skill_id": 110121,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     },
     {
@@ -202,20 +207,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 10,
-        "countType": 1101209
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101209,
+        "countTarget": 10
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101209,
+        "rant": 10000,
         "skill_id": 110121,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     },
     {
@@ -225,20 +230,20 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 11,
-        "countType": 1101210
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101210,
+        "countTarget": 11
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 1101210,
+        "rant": 10000,
         "skill_id": 110121,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     },
     {
@@ -248,8 +253,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 12,
-        "countType": 1101211
+        "countType": 1101211,
+        "countTarget": 12
       }
     },
     {
@@ -258,20 +263,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 1101211,
+        "rant": 10000,
         "skill_id": 110121,
-        "rant": 10000
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 534,
-  "name": "",
-  "init_effect": "",
   "id": 534,
-  "stack": 12,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 12
 }

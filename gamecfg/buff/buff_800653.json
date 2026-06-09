@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 800652
+        "skill_id": 800652,
+        "target": "TargetSelf"
       }
     },
     {
@@ -27,7 +28,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 800653,
         "ship_tag_list": [
           "fennumetayalisangna"
         ],
@@ -35,7 +35,8 @@
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "skill_id": 800653
       }
     },
     {
@@ -44,7 +45,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "fennumetayalisangna"
         ],
@@ -52,7 +52,8 @@
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -67,14 +68,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 12,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 800653,
   "id": 800653,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 12,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "2023古立特联动复刻 TSS4 公主 一阶段",
+  "last_effect": "ATdun",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -22,9 +26,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 200503,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 200503
       }
     },
     {
@@ -63,18 +67,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200507,
-        "time": 55
+        "time": 55,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "id": 200503,
-  "name": "2023古立特联动复刻 TSS4 公主 一阶段",
-  "init_effect": "",
   "picture": "",
+  "id": 200503,
   "stack": 1,
-  "time": 0,
-  "last_effect": "ATdun"
+  "last_effect_cld_scale": true
 }

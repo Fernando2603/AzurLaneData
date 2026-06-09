@@ -1,4 +1,9 @@
 {
+  "name": "武器攻击速度加快0.5倍",
+  "picture": "",
+  "desc": "武器攻击速度加快0.5倍",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +13,20 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 50,
-        "attr": "loadspeed"
+        "attr": "loadspeed",
+        "number": 50
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "lansebuff",
+  "icon": 8057,
+  "id": 8057,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "武器攻击速度加快0.5倍",
-  "picture": "",
-  "icon": 8057,
-  "name": "武器攻击速度加快0.5倍",
-  "init_effect": "",
-  "id": 8057,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "lansebuff"
+  ]
 }

@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 17683
+        "buff_id": 17683,
+        "target": "TargetSelf"
       }
     },
     {
@@ -17,20 +21,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 17684,
         "time": 5,
-        "quota": 1
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 17680,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 17682,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

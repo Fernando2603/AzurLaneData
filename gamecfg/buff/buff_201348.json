@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "2025医院活动 探索计数 4层效果 旋涡",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,22 +11,18 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 201349,
         "cld_data": {
           "box": {
             "range": 20
           }
-        },
-        "buff_id": 201349,
-        "friendly_fire": true
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "2025医院活动 探索计数 4层效果 旋涡",
-  "init_effect": "",
+  "last_effect": "xuanwo_zise",
   "id": 201348,
   "stack": 1,
-  "time": 0,
-  "last_effect": "xuanwo_zise"
+  "last_effect_cld_scale": true
 }

@@ -1,18 +1,7 @@
 {
   "101": {
-    "id": 101,
     "icon": "quzhu_paoji_1",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 3 FP.",
-    "add_desc": [
-      [
-        "DDs: FP",
-        3
-      ]
-    ],
-    "group_id": 10,
     "name": "Artillery Rookie - Destroyers",
-    "worth": 1,
-    "next": 102,
     "add": [
       [
         1,
@@ -26,22 +15,22 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 102,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 3 FP.",
+    "group_id": 10,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: FP",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 101
   },
   "102": {
-    "id": 102,
     "icon": "quzhu_paoji_2",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 4 FP.",
-    "add_desc": [
-      [
-        "DDs: FP",
-        4
-      ]
-    ],
-    "group_id": 10,
     "name": "Artillery Adept - Destroyers",
-    "worth": 2,
-    "next": 103,
     "add": [
       [
         1,
@@ -55,41 +44,68 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 103,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 4 FP.",
+    "group_id": 10,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: FP",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 102
   },
   "103": {
-    "id": 103,
     "icon": "quzhu_paoji_3",
+    "name": "Artillery Ace - Destroyers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          20,
+          21
+        ],
+        2,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>DDs</color> gain 6 FP.",
+    "group_id": 10,
+    "cost": 0,
     "add_desc": [
       [
         "DDs: FP",
         6
       ]
     ],
-    "group_id": 10,
-    "name": "Artillery Ace - Destroyers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          1,
-          20,
-          21
-        ],
-        2,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 103
   },
   "111": {
-    "id": 111,
     "icon": "xunyang_paoji_1",
+    "name": "Artillery Rookie - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        2,
+        5
+      ]
+    ],
+    "next": 112,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 5 FP.",
+    "group_id": 11,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -104,29 +120,29 @@
         5
       ]
     ],
-    "group_id": 11,
-    "name": "Artillery Rookie - Cruisers",
     "worth": 1,
-    "next": 112,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        2,
-        5
-      ]
-    ],
-    "cost": 0
+    "id": 111
   },
   "112": {
-    "id": 112,
     "icon": "xunyang_paoji_2",
+    "name": "Artillery Adept - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        2,
+        7
+      ]
+    ],
+    "next": 113,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 7 FP.",
+    "group_id": 11,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -141,29 +157,29 @@
         7
       ]
     ],
-    "group_id": 11,
-    "name": "Artillery Adept - Cruisers",
     "worth": 2,
-    "next": 113,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        2,
-        7
-      ]
-    ],
-    "cost": 0
+    "id": 112
   },
   "113": {
-    "id": 113,
     "icon": "xunyang_paoji_3",
+    "name": "Artillery Ace - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        2,
+        10
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 10 FP.",
+    "group_id": 11,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -178,29 +194,31 @@
         10
       ]
     ],
-    "group_id": 11,
-    "name": "Artillery Ace - Cruisers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        2,
-        10
-      ]
-    ],
-    "cost": 0
+    "id": 113
   },
   "121": {
-    "id": 121,
     "icon": "zhanlie_paoji_1",
+    "name": "Artillery Rookie - Main",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10,
+          13,
+          24
+        ],
+        2,
+        8
+      ]
+    ],
+    "next": 122,
     "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 8 FP.",
+    "group_id": 12,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: FP",
@@ -223,31 +241,31 @@
         8
       ]
     ],
-    "group_id": 12,
-    "name": "Artillery Rookie - Main",
     "worth": 1,
-    "next": 122,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10,
-          13,
-          24
-        ],
-        2,
-        8
-      ]
-    ],
-    "cost": 0
+    "id": 121
   },
   "122": {
-    "id": 122,
     "icon": "zhanlie_paoji_2",
+    "name": "Artillery Adept - Main",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10,
+          13,
+          24
+        ],
+        2,
+        11
+      ]
+    ],
+    "next": 123,
     "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 11 FP.",
+    "group_id": 12,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: FP",
@@ -270,31 +288,31 @@
         11
       ]
     ],
-    "group_id": 12,
-    "name": "Artillery Adept - Main",
     "worth": 2,
-    "next": 123,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10,
-          13,
-          24
-        ],
-        2,
-        11
-      ]
-    ],
-    "cost": 0
+    "id": 122
   },
   "123": {
-    "id": 123,
     "icon": "zhanlie_paoji_3",
+    "name": "Artillery Ace - Main",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10,
+          13,
+          24
+        ],
+        2,
+        16
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXMs</color> gain 16 FP.",
+    "group_id": 12,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: FP",
@@ -317,31 +335,33 @@
         16
       ]
     ],
-    "group_id": 12,
-    "name": "Artillery Ace - Main",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10,
-          13,
-          24
-        ],
-        2,
-        16
-      ]
-    ],
-    "cost": 0
+    "id": 123
   },
   "131": {
-    "id": 131,
     "icon": "zhanlie_paoji_1",
+    "name": "Firepower Boost - Main",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10,
+          13,
+          22,
+          23,
+          24
+        ],
+        2,
+        10
+      ]
+    ],
+    "next": 132,
     "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXs</color> gain 10 FP.",
+    "group_id": 13,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: FP",
@@ -364,33 +384,33 @@
         10
       ]
     ],
-    "group_id": 13,
-    "name": "Firepower Boost - Main",
     "worth": 2,
-    "next": 132,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10,
-          13,
-          22,
-          23,
-          24
-        ],
-        2,
-        10
-      ]
-    ],
-    "cost": 0
+    "id": 131
   },
   "132": {
-    "id": 132,
     "icon": "zhanlie_paoji_2",
+    "name": "Firepower Mastery - Main",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10,
+          13,
+          22,
+          23,
+          24
+        ],
+        2,
+        14
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBs, BCs, BBVs, BMs, and IXs</color> gain 14 FP.",
+    "group_id": 13,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: FP",
@@ -413,33 +433,32 @@
         14
       ]
     ],
-    "group_id": 13,
-    "name": "Firepower Mastery - Main",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10,
-          13,
-          22,
-          23,
-          24
-        ],
-        2,
-        14
-      ]
-    ],
-    "cost": 0
+    "id": 132
   },
   "141": {
-    "id": 141,
     "icon": "xunyang_paoji_1",
+    "name": "Firepower Boost - Vanguard",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          22,
+          23,
+          24
+        ],
+        2,
+        6
+      ]
+    ],
+    "next": 142,
     "desc": "Your <color=#3dc6ff>CLs, CAs, CBs, and IXs</color> gain 6 FP.",
+    "group_id": 14,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -458,32 +477,32 @@
         6
       ]
     ],
-    "group_id": 14,
-    "name": "Firepower Boost - Vanguard",
     "worth": 2,
-    "next": 142,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18,
-          22,
-          23,
-          24
-        ],
-        2,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 141
   },
   "142": {
-    "id": 142,
     "icon": "xunyang_paoji_2",
+    "name": "Firepower Mastery - Vanguard",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          22,
+          23,
+          24
+        ],
+        2,
+        8
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, CBs, and IXs</color> gain 8 FP.",
+    "group_id": 14,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -502,50 +521,12 @@
         8
       ]
     ],
-    "group_id": 14,
-    "name": "Firepower Mastery - Vanguard",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18,
-          22,
-          23,
-          24
-        ],
-        2,
-        8
-      ]
-    ],
-    "cost": 0
+    "id": 142
   },
   "151": {
-    "id": 151,
     "icon": "zhanlie_paoji_1",
-    "desc": "Your whole fleet gains 3 FP, TRP, and AVI.",
-    "add_desc": [
-      [
-        "FP",
-        3
-      ],
-      [
-        "TRP",
-        3
-      ],
-      [
-        "AVI",
-        3
-      ]
-    ],
-    "group_id": 15,
     "name": "Azure Sea Affinity - Rookie",
-    "worth": 2,
-    "next": 152,
     "add": [
       [
         1,
@@ -569,12 +550,57 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 152,
+    "desc": "Your whole fleet gains 3 FP, TRP, and AVI.",
+    "group_id": 15,
+    "cost": 0,
+    "add_desc": [
+      [
+        "FP",
+        3
+      ],
+      [
+        "TRP",
+        3
+      ],
+      [
+        "AVI",
+        3
+      ]
+    ],
+    "worth": 2,
+    "id": 151
   },
   "152": {
-    "id": 152,
     "icon": "zhanlie_paoji_2",
+    "name": "Azure Sea Affinity - Ace",
+    "add": [
+      [
+        1,
+        [],
+        [],
+        2,
+        6
+      ],
+      [
+        1,
+        [],
+        [],
+        3,
+        6
+      ],
+      [
+        1,
+        [],
+        [],
+        5,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your whole fleet gains 6 FP, TRP, and AVI.",
+    "group_id": 15,
+    "cost": 0,
     "add_desc": [
       [
         "FP",
@@ -589,49 +615,12 @@
         6
       ]
     ],
-    "group_id": 15,
-    "name": "Azure Sea Affinity - Ace",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [],
-        2,
-        6
-      ],
-      [
-        1,
-        [],
-        [],
-        3,
-        6
-      ],
-      [
-        1,
-        [],
-        [],
-        5,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 152
   },
   "201": {
-    "id": 201,
     "icon": "qianting_leiji_1",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 10 TRP.",
-    "add_desc": [
-      [
-        "SSs & SSVs: TRP",
-        10
-      ]
-    ],
-    "group_id": 20,
     "name": "Torpedo Rookie - Submarines",
-    "worth": 1,
-    "next": 202,
     "add": [
       [
         1,
@@ -644,22 +633,22 @@
         10
       ]
     ],
-    "cost": 0
+    "next": 202,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 10 TRP.",
+    "group_id": 20,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: TRP",
+        10
+      ]
+    ],
+    "worth": 1,
+    "id": 201
   },
   "202": {
-    "id": 202,
     "icon": "qianting_leiji_2",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 14 TRP.",
-    "add_desc": [
-      [
-        "SSs & SSVs: TRP",
-        14
-      ]
-    ],
-    "group_id": 20,
     "name": "Torpedo Adept - Submarines",
-    "worth": 2,
-    "next": 203,
     "add": [
       [
         1,
@@ -672,50 +661,50 @@
         14
       ]
     ],
-    "cost": 0
+    "next": 203,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 14 TRP.",
+    "group_id": 20,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: TRP",
+        14
+      ]
+    ],
+    "worth": 2,
+    "id": 202
   },
   "203": {
-    "id": 203,
     "icon": "qianting_leiji_3",
+    "name": "Torpedo Ace - Submarines",
+    "add": [
+      [
+        1,
+        [],
+        [
+          8,
+          17
+        ],
+        3,
+        20
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 20 TRP.",
+    "group_id": 20,
+    "cost": 0,
     "add_desc": [
       [
         "SSs & SSVs: TRP",
         20
       ]
     ],
-    "group_id": 20,
-    "name": "Torpedo Ace - Submarines",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          8,
-          17
-        ],
-        3,
-        20
-      ]
-    ],
-    "cost": 0
+    "id": 203
   },
   "211": {
-    "id": 211,
     "icon": "quzhu_leiji_1",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 10 TRP.",
-    "add_desc": [
-      [
-        "DDs: TRP",
-        10
-      ]
-    ],
-    "group_id": 21,
     "name": "Torpedo Rookie - Destroyers",
-    "worth": 1,
-    "next": 212,
     "add": [
       [
         1,
@@ -729,22 +718,22 @@
         10
       ]
     ],
-    "cost": 0
+    "next": 212,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 10 TRP.",
+    "group_id": 21,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: TRP",
+        10
+      ]
+    ],
+    "worth": 1,
+    "id": 211
   },
   "212": {
-    "id": 212,
     "icon": "quzhu_leiji_2",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 14 TRP.",
-    "add_desc": [
-      [
-        "DDs: TRP",
-        14
-      ]
-    ],
-    "group_id": 21,
     "name": "Torpedo Adept - Destroyers",
-    "worth": 2,
-    "next": 213,
     "add": [
       [
         1,
@@ -758,55 +747,51 @@
         14
       ]
     ],
-    "cost": 0
+    "next": 213,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 14 TRP.",
+    "group_id": 21,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: TRP",
+        14
+      ]
+    ],
+    "worth": 2,
+    "id": 212
   },
   "213": {
-    "id": 213,
     "icon": "quzhu_leiji_3",
+    "name": "Torpedo Ace - Destroyers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          20,
+          21
+        ],
+        3,
+        20
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>DDs</color> gain 20 TRP.",
+    "group_id": 21,
+    "cost": 0,
     "add_desc": [
       [
         "DDs: TRP",
         20
       ]
     ],
-    "group_id": 21,
-    "name": "Torpedo Ace - Destroyers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          1,
-          20,
-          21
-        ],
-        3,
-        20
-      ]
-    ],
-    "cost": 0
+    "id": 213
   },
   "221": {
-    "id": 221,
     "icon": "xunyang_leiji_1",
-    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 6 TRP.",
-    "add_desc": [
-      [
-        "CLs: TRP",
-        6
-      ],
-      [
-        "CAs: TRP",
-        6
-      ]
-    ],
-    "group_id": 22,
     "name": "Torpedo Rookie - Cruisers",
-    "worth": 1,
-    "next": 222,
     "add": [
       [
         1,
@@ -819,26 +804,26 @@
         6
       ]
     ],
-    "cost": 0
+    "next": 222,
+    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 6 TRP.",
+    "group_id": 22,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CLs: TRP",
+        6
+      ],
+      [
+        "CAs: TRP",
+        6
+      ]
+    ],
+    "worth": 1,
+    "id": 221
   },
   "222": {
-    "id": 222,
     "icon": "xunyang_leiji_2",
-    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 8 TRP.",
-    "add_desc": [
-      [
-        "CLs: TRP",
-        8
-      ],
-      [
-        "CAs: TRP",
-        8
-      ]
-    ],
-    "group_id": 22,
     "name": "Torpedo Adept - Cruisers",
-    "worth": 2,
-    "next": 223,
     "add": [
       [
         1,
@@ -851,26 +836,26 @@
         8
       ]
     ],
-    "cost": 0
+    "next": 223,
+    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 8 TRP.",
+    "group_id": 22,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CLs: TRP",
+        8
+      ],
+      [
+        "CAs: TRP",
+        8
+      ]
+    ],
+    "worth": 2,
+    "id": 222
   },
   "223": {
-    "id": 223,
     "icon": "xunyang_leiji_3",
-    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 12 TRP.",
-    "add_desc": [
-      [
-        "CLs: TRP",
-        12
-      ],
-      [
-        "CAs: TRP",
-        12
-      ]
-    ],
-    "group_id": 22,
     "name": "Torpedo Ace - Cruisers",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -883,26 +868,26 @@
         12
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 12 TRP.",
+    "group_id": 22,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CLs: TRP",
+        12
+      ],
+      [
+        "CAs: TRP",
+        12
+      ]
+    ],
+    "worth": 3,
+    "id": 223
   },
   "301": {
-    "id": 301,
     "icon": "hangmu_hangkong_1",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 10 AVI.",
-    "add_desc": [
-      [
-        "CVs: AVI",
-        10
-      ],
-      [
-        "CVLs: AVI",
-        10
-      ]
-    ],
-    "group_id": 30,
     "name": "Aviation Rookie - Carriers",
-    "worth": 1,
-    "next": 302,
     "add": [
       [
         1,
@@ -915,26 +900,26 @@
         10
       ]
     ],
-    "cost": 0
+    "next": 302,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 10 AVI.",
+    "group_id": 30,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: AVI",
+        10
+      ],
+      [
+        "CVLs: AVI",
+        10
+      ]
+    ],
+    "worth": 1,
+    "id": 301
   },
   "302": {
-    "id": 302,
     "icon": "hangmu_hangkong_2",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 14 AVI.",
-    "add_desc": [
-      [
-        "CVs: AVI",
-        14
-      ],
-      [
-        "CVLs: AVI",
-        14
-      ]
-    ],
-    "group_id": 30,
     "name": "Aviation Adept - Carriers",
-    "worth": 2,
-    "next": 303,
     "add": [
       [
         1,
@@ -947,12 +932,42 @@
         14
       ]
     ],
-    "cost": 0
+    "next": 303,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 14 AVI.",
+    "group_id": 30,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: AVI",
+        14
+      ],
+      [
+        "CVLs: AVI",
+        14
+      ]
+    ],
+    "worth": 2,
+    "id": 302
   },
   "303": {
-    "id": 303,
     "icon": "hangmu_hangkong_3",
+    "name": "Aviation Ace - Carriers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          6,
+          7
+        ],
+        5,
+        20
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 20 AVI.",
+    "group_id": 30,
+    "cost": 0,
     "add_desc": [
       [
         "CVs: AVI",
@@ -963,38 +978,12 @@
         20
       ]
     ],
-    "group_id": 30,
-    "name": "Aviation Ace - Carriers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          6,
-          7
-        ],
-        5,
-        20
-      ]
-    ],
-    "cost": 0
+    "id": 303
   },
   "311": {
-    "id": 311,
     "icon": "teshu_hangkong_1",
-    "desc": "Your <color=#3dc6ff>BBVs</color> gain 5 AVI.",
-    "add_desc": [
-      [
-        "BBVs: AVI",
-        5
-      ]
-    ],
-    "group_id": 31,
     "name": "Aviation Rookie - Special",
-    "worth": 1,
-    "next": 312,
     "add": [
       [
         1,
@@ -1006,22 +995,22 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 312,
+    "desc": "Your <color=#3dc6ff>BBVs</color> gain 5 AVI.",
+    "group_id": 31,
+    "cost": 0,
+    "add_desc": [
+      [
+        "BBVs: AVI",
+        5
+      ]
+    ],
+    "worth": 1,
+    "id": 311
   },
   "312": {
-    "id": 312,
     "icon": "teshu_hangkong_2",
-    "desc": "Your <color=#3dc6ff>BBVs</color> gain 7 AVI.",
-    "add_desc": [
-      [
-        "BBVs: AVI",
-        7
-      ]
-    ],
-    "group_id": 31,
     "name": "Aviation Adept - Special",
-    "worth": 2,
-    "next": 313,
     "add": [
       [
         1,
@@ -1033,53 +1022,49 @@
         7
       ]
     ],
-    "cost": 0
+    "next": 313,
+    "desc": "Your <color=#3dc6ff>BBVs</color> gain 7 AVI.",
+    "group_id": 31,
+    "cost": 0,
+    "add_desc": [
+      [
+        "BBVs: AVI",
+        7
+      ]
+    ],
+    "worth": 2,
+    "id": 312
   },
   "313": {
-    "id": 313,
     "icon": "teshu_hangkong_3",
+    "name": "Aviation Ace - Special",
+    "add": [
+      [
+        1,
+        [],
+        [
+          10
+        ],
+        5,
+        10
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBVs</color> gain 10 AVI.",
+    "group_id": 31,
+    "cost": 0,
     "add_desc": [
       [
         "BBVs: AVI",
         10
       ]
     ],
-    "group_id": 31,
-    "name": "Aviation Ace - Special",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          10
-        ],
-        5,
-        10
-      ]
-    ],
-    "cost": 0
+    "id": 313
   },
   "321": {
-    "id": 321,
     "icon": "teshu_hangkong_1",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 7 AVI and your <color=#3dc6ff>IXMs</color> gain 7 FP.",
-    "add_desc": [
-      [
-        "CVs, CVLs: AVI",
-        7
-      ],
-      [
-        "IXMs: FP",
-        7
-      ]
-    ],
-    "group_id": 32,
     "name": "Azure Sky Affinity - Rookie",
-    "worth": 2,
-    "next": 322,
     "add": [
       [
         1,
@@ -1101,26 +1086,26 @@
         7
       ]
     ],
-    "cost": 0
+    "next": 322,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 7 AVI and your <color=#3dc6ff>IXMs</color> gain 7 FP.",
+    "group_id": 32,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs, CVLs: AVI",
+        7
+      ],
+      [
+        "IXMs: FP",
+        7
+      ]
+    ],
+    "worth": 2,
+    "id": 321
   },
   "322": {
-    "id": 322,
     "icon": "teshu_hangkong_2",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 10 AVI and your <color=#3dc6ff>IXMs</color> gain 10 FP.",
-    "add_desc": [
-      [
-        "CVs, CVLs: AVI",
-        10
-      ],
-      [
-        "IXMs: FP",
-        10
-      ]
-    ],
-    "group_id": 32,
     "name": "Azure Sky Affinity - Ace",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -1142,22 +1127,26 @@
         10
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 10 AVI and your <color=#3dc6ff>IXMs</color> gain 10 FP.",
+    "group_id": 32,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs, CVLs: AVI",
+        10
+      ],
+      [
+        "IXMs: FP",
+        10
+      ]
+    ],
+    "worth": 3,
+    "id": 322
   },
   "401": {
-    "id": 401,
     "icon": "quzhu_fangkong_1",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 8 AA.",
-    "add_desc": [
-      [
-        "Vanguard: AA",
-        8
-      ]
-    ],
-    "group_id": 40,
     "name": "Anti-Air Rookie - Vanguard",
-    "worth": 1,
-    "next": 402,
     "add": [
       [
         1,
@@ -1174,22 +1163,22 @@
         8
       ]
     ],
-    "cost": 0
+    "next": 402,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 8 AA.",
+    "group_id": 40,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: AA",
+        8
+      ]
+    ],
+    "worth": 1,
+    "id": 401
   },
   "402": {
-    "id": 402,
     "icon": "quzhu_fangkong_2",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 11 AA.",
-    "add_desc": [
-      [
-        "Vanguard: AA",
-        11
-      ]
-    ],
-    "group_id": 40,
     "name": "Anti-Air Adept - Vanguard",
-    "worth": 2,
-    "next": 403,
     "add": [
       [
         1,
@@ -1206,54 +1195,54 @@
         11
       ]
     ],
-    "cost": 0
+    "next": 403,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 11 AA.",
+    "group_id": 40,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: AA",
+        11
+      ]
+    ],
+    "worth": 2,
+    "id": 402
   },
   "403": {
-    "id": 403,
     "icon": "quzhu_fangkong_3",
+    "name": "Anti-Air Ace - Vanguard",
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          2,
+          3,
+          18,
+          20,
+          23
+        ],
+        4,
+        16
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>Vanguard</color> gains 16 AA.",
+    "group_id": 40,
+    "cost": 0,
     "add_desc": [
       [
         "Vanguard: AA",
         16
       ]
     ],
-    "group_id": 40,
-    "name": "Anti-Air Ace - Vanguard",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          1,
-          2,
-          3,
-          18,
-          20,
-          23
-        ],
-        4,
-        16
-      ]
-    ],
-    "cost": 0
+    "id": 403
   },
   "411": {
-    "id": 411,
     "icon": "zhanlie_fangkong_1",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 10 AA.",
-    "add_desc": [
-      [
-        "Main Fleet: AA",
-        10
-      ]
-    ],
-    "group_id": 41,
     "name": "Anti-Air Rookie - Main",
-    "worth": 1,
-    "next": 412,
     "add": [
       [
         1,
@@ -1273,22 +1262,22 @@
         10
       ]
     ],
-    "cost": 0
+    "next": 412,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 10 AA.",
+    "group_id": 41,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: AA",
+        10
+      ]
+    ],
+    "worth": 1,
+    "id": 411
   },
   "412": {
-    "id": 412,
     "icon": "zhanlie_fangkong_2",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 14 AA.",
-    "add_desc": [
-      [
-        "Main Fleet: AA",
-        14
-      ]
-    ],
-    "group_id": 41,
     "name": "Anti-Air Adept - Main",
-    "worth": 2,
-    "next": 413,
     "add": [
       [
         1,
@@ -1308,22 +1297,22 @@
         14
       ]
     ],
-    "cost": 0
+    "next": 413,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 14 AA.",
+    "group_id": 41,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: AA",
+        14
+      ]
+    ],
+    "worth": 2,
+    "id": 412
   },
   "413": {
-    "id": 413,
     "icon": "zhanlie_fangkong_3",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 20 AA.",
-    "add_desc": [
-      [
-        "Main Fleet: AA",
-        20
-      ]
-    ],
-    "group_id": 41,
     "name": "Anti-Air Ace - Main",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -1343,22 +1332,22 @@
         20
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 20 AA.",
+    "group_id": 41,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: AA",
+        20
+      ]
+    ],
+    "worth": 3,
+    "id": 413
   },
   "501": {
-    "id": 501,
     "icon": "quzhu_fanqian_1",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 4 ASW.",
-    "add_desc": [
-      [
-        "Vanguard: ASW",
-        4
-      ]
-    ],
-    "group_id": 50,
     "name": "Sonar Rookie - Vanguard",
-    "worth": 1,
-    "next": 502,
     "add": [
       [
         1,
@@ -1375,22 +1364,22 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 502,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 4 ASW.",
+    "group_id": 50,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: ASW",
+        4
+      ]
+    ],
+    "worth": 1,
+    "id": 501
   },
   "502": {
-    "id": 502,
     "icon": "quzhu_fanqian_2",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 5 ASW.",
-    "add_desc": [
-      [
-        "Vanguard: ASW",
-        5
-      ]
-    ],
-    "group_id": 50,
     "name": "Sonar Adept - Vanguard",
-    "worth": 2,
-    "next": 503,
     "add": [
       [
         1,
@@ -1407,22 +1396,22 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 503,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 5 ASW.",
+    "group_id": 50,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: ASW",
+        5
+      ]
+    ],
+    "worth": 2,
+    "id": 502
   },
   "503": {
-    "id": 503,
     "icon": "quzhu_fanqian_3",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 8 ASW.",
-    "add_desc": [
-      [
-        "Vanguard: ASW",
-        8
-      ]
-    ],
-    "group_id": 50,
     "name": "Sonar Ace - Vanguard",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -1439,22 +1428,22 @@
         8
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 8 ASW.",
+    "group_id": 50,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: ASW",
+        8
+      ]
+    ],
+    "worth": 3,
+    "id": 503
   },
   "511": {
-    "id": 511,
     "icon": "qingmu_fanqian_1",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 3 ASW.",
-    "add_desc": [
-      [
-        "Main Fleet: ASW",
-        3
-      ]
-    ],
-    "group_id": 51,
     "name": "Sonar Rookie - Main",
-    "worth": 1,
-    "next": 512,
     "add": [
       [
         1,
@@ -1474,22 +1463,22 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 512,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 3 ASW.",
+    "group_id": 51,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: ASW",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 511
   },
   "512": {
-    "id": 512,
     "icon": "qingmu_fanqian_2",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 4 ASW.",
-    "add_desc": [
-      [
-        "Main Fleet: ASW",
-        4
-      ]
-    ],
-    "group_id": 51,
     "name": "Sonar Adept - Main",
-    "worth": 2,
-    "next": 513,
     "add": [
       [
         1,
@@ -1509,22 +1498,22 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 513,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 4 ASW.",
+    "group_id": 51,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: ASW",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 512
   },
   "513": {
-    "id": 513,
     "icon": "qingmu_fanqian_3",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 6 ASW.",
-    "add_desc": [
-      [
-        "Main Fleet: ASW",
-        6
-      ]
-    ],
-    "group_id": 51,
     "name": "Sonar Ace - Main",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -1544,22 +1533,22 @@
         6
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 6 ASW.",
+    "group_id": 51,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: ASW",
+        6
+      ]
+    ],
+    "worth": 3,
+    "id": 513
   },
   "601": {
-    "id": 601,
     "icon": "qianting_one_1",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 3 RLD.",
-    "add_desc": [
-      [
-        "SSs & SSVs: RLD",
-        3
-      ]
-    ],
-    "group_id": 60,
     "name": "Loading Rookie - Submarines",
-    "worth": 1,
-    "next": 602,
     "add": [
       [
         1,
@@ -1572,22 +1561,22 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 602,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 3 RLD.",
+    "group_id": 60,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: RLD",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 601
   },
   "602": {
-    "id": 602,
     "icon": "qianting_one_2",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 4 RLD.",
-    "add_desc": [
-      [
-        "SSs & SSVs: RLD",
-        4
-      ]
-    ],
-    "group_id": 60,
     "name": "Loading Adept - Submarines",
-    "worth": 2,
-    "next": 603,
     "add": [
       [
         1,
@@ -1600,22 +1589,22 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 603,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 4 RLD.",
+    "group_id": 60,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: RLD",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 602
   },
   "603": {
-    "id": 603,
     "icon": "qianting_one_3",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 6 RLD.",
-    "add_desc": [
-      [
-        "SSs & SSVs: RLD",
-        6
-      ]
-    ],
-    "group_id": 60,
     "name": "Loading Ace - Submarines",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -1628,22 +1617,22 @@
         6
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 6 RLD.",
+    "group_id": 60,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: RLD",
+        6
+      ]
+    ],
+    "worth": 3,
+    "id": 603
   },
   "611": {
-    "id": 611,
     "icon": "quzhu_one_1",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 5 RLD.",
-    "add_desc": [
-      [
-        "DDs: RLD",
-        5
-      ]
-    ],
-    "group_id": 61,
     "name": "Loading Rookie - Destroyers",
-    "worth": 1,
-    "next": 612,
     "add": [
       [
         1,
@@ -1657,22 +1646,22 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 612,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 5 RLD.",
+    "group_id": 61,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: RLD",
+        5
+      ]
+    ],
+    "worth": 1,
+    "id": 611
   },
   "612": {
-    "id": 612,
     "icon": "quzhu_one_2",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 7 RLD.",
-    "add_desc": [
-      [
-        "DDs: RLD",
-        7
-      ]
-    ],
-    "group_id": 61,
     "name": "Loading Adept - Destroyers",
-    "worth": 2,
-    "next": 613,
     "add": [
       [
         1,
@@ -1686,22 +1675,22 @@
         7
       ]
     ],
-    "cost": 0
+    "next": 613,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 7 RLD.",
+    "group_id": 61,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: RLD",
+        7
+      ]
+    ],
+    "worth": 2,
+    "id": 612
   },
   "613": {
-    "id": 613,
     "icon": "quzhu_one_3",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 10 RLD.",
-    "add_desc": [
-      [
-        "DDs: RLD",
-        10
-      ]
-    ],
-    "group_id": 61,
     "name": "Loading Ace - Destroyers",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -1715,12 +1704,39 @@
         10
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 10 RLD.",
+    "group_id": 61,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: RLD",
+        10
+      ]
+    ],
+    "worth": 3,
+    "id": 613
   },
   "621": {
-    "id": 621,
     "icon": "xunyang_one_1",
+    "name": "Loading Rookie - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        6,
+        4
+      ]
+    ],
+    "next": 622,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 4 RLD.",
+    "group_id": 62,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: RLD",
@@ -1735,29 +1751,29 @@
         4
       ]
     ],
-    "group_id": 62,
-    "name": "Loading Rookie - Cruisers",
     "worth": 1,
-    "next": 622,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        6,
-        4
-      ]
-    ],
-    "cost": 0
+    "id": 621
   },
   "622": {
-    "id": 622,
     "icon": "xunyang_one_2",
+    "name": "Loading Adept - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        6,
+        5
+      ]
+    ],
+    "next": 623,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 5 RLD.",
+    "group_id": 62,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: RLD",
@@ -1772,29 +1788,29 @@
         5
       ]
     ],
-    "group_id": 62,
-    "name": "Loading Adept - Cruisers",
     "worth": 2,
-    "next": 623,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        6,
-        5
-      ]
-    ],
-    "cost": 0
+    "id": 622
   },
   "623": {
-    "id": 623,
     "icon": "xunyang_one_3",
+    "name": "Loading Ace - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        6,
+        8
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 8 RLD.",
+    "group_id": 62,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: RLD",
@@ -1809,29 +1825,29 @@
         8
       ]
     ],
-    "group_id": 62,
-    "name": "Loading Ace - Cruisers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        6,
-        8
-      ]
-    ],
-    "cost": 0
+    "id": 623
   },
   "631": {
-    "id": 631,
     "icon": "zhanlie_one_1",
+    "name": "Loading Rookie - Battleships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10
+        ],
+        6,
+        3
+      ]
+    ],
+    "next": 632,
     "desc": "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 3 RLD.",
+    "group_id": 63,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: RLD",
@@ -1846,29 +1862,29 @@
         3
       ]
     ],
-    "group_id": 63,
-    "name": "Loading Rookie - Battleships",
     "worth": 1,
-    "next": 632,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10
-        ],
-        6,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 631
   },
   "632": {
-    "id": 632,
     "icon": "zhanlie_one_2",
+    "name": "Loading Adept - Battleships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10
+        ],
+        6,
+        4
+      ]
+    ],
+    "next": 633,
     "desc": "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 4 RLD.",
+    "group_id": 63,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: RLD",
@@ -1883,29 +1899,29 @@
         4
       ]
     ],
-    "group_id": 63,
-    "name": "Loading Adept - Battleships",
     "worth": 2,
-    "next": 633,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10
-        ],
-        6,
-        4
-      ]
-    ],
-    "cost": 0
+    "id": 632
   },
   "633": {
-    "id": 633,
     "icon": "zhanlie_one_3",
+    "name": "Loading Ace - Battleships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10
+        ],
+        6,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 6 RLD.",
+    "group_id": 63,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: RLD",
@@ -1920,43 +1936,12 @@
         6
       ]
     ],
-    "group_id": 63,
-    "name": "Loading Ace - Battleships",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10
-        ],
-        6,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 633
   },
   "641": {
-    "id": 641,
     "icon": "hangmu_one_1",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 3 RLD.",
-    "add_desc": [
-      [
-        "CVs: RLD",
-        3
-      ],
-      [
-        "CVLs: RLD",
-        3
-      ]
-    ],
-    "group_id": 64,
     "name": "Rookie Mechanic",
-    "worth": 1,
-    "next": 642,
     "add": [
       [
         1,
@@ -1969,26 +1954,26 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 642,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 3 RLD.",
+    "group_id": 64,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: RLD",
+        3
+      ],
+      [
+        "CVLs: RLD",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 641
   },
   "642": {
-    "id": 642,
     "icon": "hangmu_one_2",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 4 RLD.",
-    "add_desc": [
-      [
-        "CVs: RLD",
-        4
-      ],
-      [
-        "CVLs: RLD",
-        4
-      ]
-    ],
-    "group_id": 64,
     "name": "Adept Mechanic",
-    "worth": 2,
-    "next": 643,
     "add": [
       [
         1,
@@ -2001,26 +1986,26 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 643,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 4 RLD.",
+    "group_id": 64,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: RLD",
+        4
+      ],
+      [
+        "CVLs: RLD",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 642
   },
   "643": {
-    "id": 643,
     "icon": "hangmu_one_3",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 6 RLD.",
-    "add_desc": [
-      [
-        "CVs: RLD",
-        6
-      ],
-      [
-        "CVLs: RLD",
-        6
-      ]
-    ],
-    "group_id": 64,
     "name": "Ace Mechanic",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -2033,12 +2018,46 @@
         6
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 6 RLD.",
+    "group_id": 64,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: RLD",
+        6
+      ],
+      [
+        "CVLs: RLD",
+        6
+      ]
+    ],
+    "worth": 3,
+    "id": 643
   },
   "651": {
-    "id": 651,
     "icon": "teshu_one_1",
+    "name": "Loading Rookie - Miscellaneous",
+    "add": [
+      [
+        1,
+        [],
+        [
+          12,
+          13,
+          19,
+          22,
+          23,
+          24
+        ],
+        6,
+        3
+      ]
+    ],
+    "next": 652,
     "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 3 RLD.",
+    "group_id": 65,
+    "cost": 0,
     "add_desc": [
       [
         "BMs: RLD",
@@ -2057,32 +2076,32 @@
         3
       ]
     ],
-    "group_id": 65,
-    "name": "Loading Rookie - Miscellaneous",
     "worth": 1,
-    "next": 652,
-    "add": [
-      [
-        1,
-        [],
-        [
-          12,
-          13,
-          19,
-          22,
-          23,
-          24
-        ],
-        6,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 651
   },
   "652": {
-    "id": 652,
     "icon": "teshu_one_2",
+    "name": "Loading Adept - Miscellaneous",
+    "add": [
+      [
+        1,
+        [],
+        [
+          12,
+          13,
+          19,
+          22,
+          23,
+          24
+        ],
+        6,
+        4
+      ]
+    ],
+    "next": 653,
     "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 4 RLD.",
+    "group_id": 65,
+    "cost": 0,
     "add_desc": [
       [
         "BMs: RLD",
@@ -2101,32 +2120,32 @@
         4
       ]
     ],
-    "group_id": 65,
-    "name": "Loading Adept - Miscellaneous",
     "worth": 2,
-    "next": 653,
-    "add": [
-      [
-        1,
-        [],
-        [
-          12,
-          13,
-          19,
-          22,
-          23,
-          24
-        ],
-        6,
-        4
-      ]
-    ],
-    "cost": 0
+    "id": 652
   },
   "653": {
-    "id": 653,
     "icon": "teshu_one_3",
+    "name": "Loading Ace - Miscellaneous",
+    "add": [
+      [
+        1,
+        [],
+        [
+          12,
+          13,
+          19,
+          22,
+          23,
+          24
+        ],
+        6,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 6 RLD.",
+    "group_id": 65,
+    "cost": 0,
     "add_desc": [
       [
         "BMs: RLD",
@@ -2145,70 +2164,40 @@
         6
       ]
     ],
-    "group_id": 65,
-    "name": "Loading Ace - Miscellaneous",
     "worth": 3,
-    "next": 0,
+    "id": 653
+  },
+  "701": {
+    "icon": "qianting_naijiu_1",
+    "name": "Rookie Engineer - Submarines",
     "add": [
       [
         1,
         [],
         [
-          12,
-          13,
-          19,
-          22,
-          23,
-          24
+          8,
+          17
         ],
-        6,
-        6
+        1,
+        20
       ]
     ],
-    "cost": 0
-  },
-  "701": {
-    "id": 701,
-    "icon": "qianting_naijiu_1",
+    "next": 702,
     "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 25 HP.",
+    "group_id": 70,
+    "cost": 0,
     "add_desc": [
       [
         "SSs & SSVs: HP",
         25
       ]
     ],
-    "group_id": 70,
-    "name": "Rookie Engineer - Submarines",
     "worth": 1,
-    "next": 702,
-    "add": [
-      [
-        1,
-        [],
-        [
-          8,
-          17
-        ],
-        1,
-        20
-      ]
-    ],
-    "cost": 0
+    "id": 701
   },
   "702": {
-    "id": 702,
     "icon": "qianting_naijiu_2",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 35 HP.",
-    "add_desc": [
-      [
-        "SSs & SSVs: HP",
-        35
-      ]
-    ],
-    "group_id": 70,
     "name": "Adept Engineer - Submarines",
-    "worth": 2,
-    "next": 703,
     "add": [
       [
         1,
@@ -2221,50 +2210,50 @@
         35
       ]
     ],
-    "cost": 0
+    "next": 703,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 35 HP.",
+    "group_id": 70,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: HP",
+        35
+      ]
+    ],
+    "worth": 2,
+    "id": 702
   },
   "703": {
-    "id": 703,
     "icon": "qianting_naijiu_3",
+    "name": "Ace Engineer - Submarines",
+    "add": [
+      [
+        1,
+        [],
+        [
+          8,
+          17
+        ],
+        1,
+        50
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 50 HP.",
+    "group_id": 70,
+    "cost": 0,
     "add_desc": [
       [
         "SSs & SSVs: HP",
         50
       ]
     ],
-    "group_id": 70,
-    "name": "Ace Engineer - Submarines",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          8,
-          17
-        ],
-        1,
-        50
-      ]
-    ],
-    "cost": 0
+    "id": 703
   },
   "711": {
-    "id": 711,
     "icon": "quzhu_naijiu_1",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 30 HP.",
-    "add_desc": [
-      [
-        "DDs: HP",
-        30
-      ]
-    ],
-    "group_id": 71,
     "name": "Rookie Engineer - Destroyers",
-    "worth": 1,
-    "next": 712,
     "add": [
       [
         1,
@@ -2278,22 +2267,22 @@
         30
       ]
     ],
-    "cost": 0
+    "next": 712,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 30 HP.",
+    "group_id": 71,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: HP",
+        30
+      ]
+    ],
+    "worth": 1,
+    "id": 711
   },
   "712": {
-    "id": 712,
     "icon": "quzhu_naijiu_2",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 42 HP.",
-    "add_desc": [
-      [
-        "DDs: HP",
-        42
-      ]
-    ],
-    "group_id": 71,
     "name": "Adept Engineer - Destroyers",
-    "worth": 2,
-    "next": 713,
     "add": [
       [
         1,
@@ -2307,22 +2296,22 @@
         42
       ]
     ],
-    "cost": 0
+    "next": 713,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 42 HP.",
+    "group_id": 71,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: HP",
+        42
+      ]
+    ],
+    "worth": 2,
+    "id": 712
   },
   "713": {
-    "id": 713,
     "icon": "quzhu_naijiu_3",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 60 HP.",
-    "add_desc": [
-      [
-        "DDs: HP",
-        60
-      ]
-    ],
-    "group_id": 71,
     "name": "Ace Engineer - Destroyers",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -2336,12 +2325,39 @@
         60
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 60 HP.",
+    "group_id": 71,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: HP",
+        60
+      ]
+    ],
+    "worth": 3,
+    "id": 713
   },
   "721": {
-    "id": 721,
     "icon": "xunyang_naijiu_1",
+    "name": "Rookie Engineer - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        1,
+        50
+      ]
+    ],
+    "next": 722,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 50 HP.",
+    "group_id": 72,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: HP",
@@ -2356,29 +2372,29 @@
         50
       ]
     ],
-    "group_id": 72,
-    "name": "Rookie Engineer - Cruisers",
     "worth": 1,
-    "next": 722,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        1,
-        50
-      ]
-    ],
-    "cost": 0
+    "id": 721
   },
   "722": {
-    "id": 722,
     "icon": "xunyang_naijiu_2",
+    "name": "Adept Engineer - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        1,
+        70
+      ]
+    ],
+    "next": 723,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 70 HP.",
+    "group_id": 72,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: HP",
@@ -2393,29 +2409,29 @@
         70
       ]
     ],
-    "group_id": 72,
-    "name": "Adept Engineer - Cruisers",
     "worth": 2,
-    "next": 723,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        1,
-        70
-      ]
-    ],
-    "cost": 0
+    "id": 722
   },
   "723": {
-    "id": 723,
     "icon": "xunyang_naijiu_3",
+    "name": "Ace Engineer - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        1,
+        100
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 100 HP.",
+    "group_id": 72,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: HP",
@@ -2430,29 +2446,29 @@
         100
       ]
     ],
-    "group_id": 72,
-    "name": "Ace Engineer - Cruisers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        1,
-        100
-      ]
-    ],
-    "cost": 0
+    "id": 723
   },
   "731": {
-    "id": 731,
     "icon": "zhanlie_naijiu_1",
+    "name": "Rookie Engineer - Battleships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10
+        ],
+        1,
+        75
+      ]
+    ],
+    "next": 732,
     "desc": "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 75 HP.",
+    "group_id": 73,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: HP",
@@ -2467,29 +2483,29 @@
         75
       ]
     ],
-    "group_id": 73,
-    "name": "Rookie Engineer - Battleships",
     "worth": 1,
-    "next": 732,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10
-        ],
-        1,
-        75
-      ]
-    ],
-    "cost": 0
+    "id": 731
   },
   "732": {
-    "id": 732,
     "icon": "zhanlie_naijiu_2",
+    "name": "Adept Engineer - Battleships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10
+        ],
+        1,
+        105
+      ]
+    ],
+    "next": 733,
     "desc": "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 105 HP.",
+    "group_id": 73,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: HP",
@@ -2504,29 +2520,29 @@
         105
       ]
     ],
-    "group_id": 73,
-    "name": "Adept Engineer - Battleships",
     "worth": 2,
-    "next": 733,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10
-        ],
-        1,
-        105
-      ]
-    ],
-    "cost": 0
+    "id": 732
   },
   "733": {
-    "id": 733,
     "icon": "zhanlie_naijiu_3",
+    "name": "Ace Engineer - Battleships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          10
+        ],
+        1,
+        150
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBs, BCs, and BBVs</color> gain 150 HP.",
+    "group_id": 73,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: HP",
@@ -2541,43 +2557,12 @@
         150
       ]
     ],
-    "group_id": 73,
-    "name": "Ace Engineer - Battleships",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          10
-        ],
-        1,
-        150
-      ]
-    ],
-    "cost": 0
+    "id": 733
   },
   "741": {
-    "id": 741,
     "icon": "hangmu_naijiu_1",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 50 HP.",
-    "add_desc": [
-      [
-        "CVs: HP",
-        50
-      ],
-      [
-        "CVLs: HP",
-        50
-      ]
-    ],
-    "group_id": 74,
     "name": "Rookie Engineer - Carriers",
-    "worth": 1,
-    "next": 742,
     "add": [
       [
         1,
@@ -2590,26 +2575,26 @@
         50
       ]
     ],
-    "cost": 0
+    "next": 742,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 50 HP.",
+    "group_id": 74,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: HP",
+        50
+      ],
+      [
+        "CVLs: HP",
+        50
+      ]
+    ],
+    "worth": 1,
+    "id": 741
   },
   "742": {
-    "id": 742,
     "icon": "hangmu_naijiu_2",
-    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 70 HP.",
-    "add_desc": [
-      [
-        "CVs: HP",
-        70
-      ],
-      [
-        "CVLs: HP",
-        70
-      ]
-    ],
-    "group_id": 74,
     "name": "Adept Engineer - Carriers",
-    "worth": 2,
-    "next": 743,
     "add": [
       [
         1,
@@ -2622,12 +2607,42 @@
         70
       ]
     ],
-    "cost": 0
+    "next": 743,
+    "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 70 HP.",
+    "group_id": 74,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: HP",
+        70
+      ],
+      [
+        "CVLs: HP",
+        70
+      ]
+    ],
+    "worth": 2,
+    "id": 742
   },
   "743": {
-    "id": 743,
     "icon": "hangmu_naijiu_3",
+    "name": "Ace Engineer - Carriers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          6,
+          7
+        ],
+        1,
+        100
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CVs and CVLs</color> gain 100 HP.",
+    "group_id": 74,
+    "cost": 0,
     "add_desc": [
       [
         "CVs: HP",
@@ -2638,28 +2653,32 @@
         100
       ]
     ],
-    "group_id": 74,
-    "name": "Ace Engineer - Carriers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          6,
-          7
-        ],
-        1,
-        100
-      ]
-    ],
-    "cost": 0
+    "id": 743
   },
   "751": {
-    "id": 751,
     "icon": "teshu_naijiu_1",
+    "name": "Rookie Engineer - Miscellaneous",
+    "add": [
+      [
+        1,
+        [],
+        [
+          12,
+          13,
+          19,
+          22,
+          23,
+          24
+        ],
+        1,
+        40
+      ]
+    ],
+    "next": 752,
     "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 40 HP.",
+    "group_id": 75,
+    "cost": 0,
     "add_desc": [
       [
         "BMs: HP",
@@ -2678,32 +2697,32 @@
         40
       ]
     ],
-    "group_id": 75,
-    "name": "Rookie Engineer - Miscellaneous",
     "worth": 1,
-    "next": 752,
-    "add": [
-      [
-        1,
-        [],
-        [
-          12,
-          13,
-          19,
-          22,
-          23,
-          24
-        ],
-        1,
-        40
-      ]
-    ],
-    "cost": 0
+    "id": 751
   },
   "752": {
-    "id": 752,
     "icon": "teshu_naijiu_2",
+    "name": "Adept Engineer - Miscellaneous",
+    "add": [
+      [
+        1,
+        [],
+        [
+          12,
+          13,
+          19,
+          22,
+          23,
+          24
+        ],
+        1,
+        56
+      ]
+    ],
+    "next": 753,
     "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 56 HP.",
+    "group_id": 75,
+    "cost": 0,
     "add_desc": [
       [
         "BMs: HP",
@@ -2722,32 +2741,32 @@
         56
       ]
     ],
-    "group_id": 75,
-    "name": "Adept Engineer - Miscellaneous",
     "worth": 2,
-    "next": 753,
-    "add": [
-      [
-        1,
-        [],
-        [
-          12,
-          13,
-          19,
-          22,
-          23,
-          24
-        ],
-        1,
-        56
-      ]
-    ],
-    "cost": 0
+    "id": 752
   },
   "753": {
-    "id": 753,
     "icon": "teshu_naijiu_3",
+    "name": "Ace Engineer - Miscellaneous",
+    "add": [
+      [
+        1,
+        [],
+        [
+          12,
+          13,
+          19,
+          22,
+          23,
+          24
+        ],
+        1,
+        80
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BMs, ARs, AEs, and IXs</color> gain 80 HP.",
+    "group_id": 75,
+    "cost": 0,
     "add_desc": [
       [
         "BMs: HP",
@@ -2766,50 +2785,12 @@
         80
       ]
     ],
-    "group_id": 75,
-    "name": "Ace Engineer - Miscellaneous",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          12,
-          13,
-          19,
-          22,
-          23,
-          24
-        ],
-        1,
-        80
-      ]
-    ],
-    "cost": 0
+    "id": 753
   },
   "761": {
-    "id": 761,
     "icon": "teshu_naijiu_1",
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 30 HP.",
-    "add_desc": [
-      [
-        "SSs, SSVs: HP",
-        30
-      ],
-      [
-        "DDs: HP",
-        30
-      ],
-      [
-        "IXs: HP",
-        30
-      ]
-    ],
-    "group_id": 76,
     "name": "Rookie Engineer - Small Ships",
-    "worth": 1,
-    "next": 762,
     "add": [
       [
         1,
@@ -2828,30 +2809,30 @@
         30
       ]
     ],
-    "cost": 0
+    "next": 762,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 30 HP.",
+    "group_id": 76,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs, SSVs: HP",
+        30
+      ],
+      [
+        "DDs: HP",
+        30
+      ],
+      [
+        "IXs: HP",
+        30
+      ]
+    ],
+    "worth": 1,
+    "id": 761
   },
   "762": {
-    "id": 762,
     "icon": "teshu_naijiu_2",
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 42 HP.",
-    "add_desc": [
-      [
-        "SSs, SSVs: HP",
-        42
-      ],
-      [
-        "DDs: HP",
-        42
-      ],
-      [
-        "IXs: HP",
-        42
-      ]
-    ],
-    "group_id": 76,
     "name": "Adept Engineer - Small Ships",
-    "worth": 2,
-    "next": 763,
     "add": [
       [
         1,
@@ -2870,12 +2851,52 @@
         42
       ]
     ],
-    "cost": 0
+    "next": 763,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 42 HP.",
+    "group_id": 76,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs, SSVs: HP",
+        42
+      ],
+      [
+        "DDs: HP",
+        42
+      ],
+      [
+        "IXs: HP",
+        42
+      ]
+    ],
+    "worth": 2,
+    "id": 762
   },
   "763": {
-    "id": 763,
     "icon": "teshu_naijiu_3",
+    "name": "Ace Engineer - Small Ships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          8,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        1,
+        60
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 60 HP.",
+    "group_id": 76,
+    "cost": 0,
     "add_desc": [
       [
         "SSs, SSVs: HP",
@@ -2890,44 +2911,12 @@
         60
       ]
     ],
-    "group_id": 76,
-    "name": "Ace Engineer - Small Ships",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          1,
-          8,
-          17,
-          20,
-          21,
-          22,
-          23,
-          24
-        ],
-        1,
-        60
-      ]
-    ],
-    "cost": 0
+    "id": 763
   },
   "771": {
-    "id": 771,
     "icon": "quzhu_naijiu_1",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 30 HP.",
-    "add_desc": [
-      [
-        "Vanguard: HP",
-        30
-      ]
-    ],
-    "group_id": 77,
     "name": "Rookie Engineer - Vanguard",
-    "worth": 1,
-    "next": 772,
     "add": [
       [
         1,
@@ -2944,22 +2933,22 @@
         30
       ]
     ],
-    "cost": 0
+    "next": 772,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 30 HP.",
+    "group_id": 77,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: HP",
+        30
+      ]
+    ],
+    "worth": 1,
+    "id": 771
   },
   "772": {
-    "id": 772,
     "icon": "quzhu_naijiu_2",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 42 HP.",
-    "add_desc": [
-      [
-        "Vanguard: HP",
-        42
-      ]
-    ],
-    "group_id": 77,
     "name": "Adept Engineer - Vanguard",
-    "worth": 2,
-    "next": 773,
     "add": [
       [
         1,
@@ -2976,54 +2965,54 @@
         42
       ]
     ],
-    "cost": 0
+    "next": 773,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 42 HP.",
+    "group_id": 77,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: HP",
+        42
+      ]
+    ],
+    "worth": 2,
+    "id": 772
   },
   "773": {
-    "id": 773,
     "icon": "quzhu_naijiu_3",
+    "name": "Ace Engineer - Vanguard",
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          2,
+          3,
+          18,
+          20,
+          23
+        ],
+        1,
+        60
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>Vanguard</color> gains 60 HP.",
+    "group_id": 77,
+    "cost": 0,
     "add_desc": [
       [
         "Vanguard: HP",
         60
       ]
     ],
-    "group_id": 77,
-    "name": "Ace Engineer - Vanguard",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          1,
-          2,
-          3,
-          18,
-          20,
-          23
-        ],
-        1,
-        60
-      ]
-    ],
-    "cost": 0
+    "id": 773
   },
   "801": {
-    "id": 801,
     "icon": "qianting_one_1",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 2 Accuracy.",
-    "add_desc": [
-      [
-        "SSs & SSVs: Accuracy",
-        2
-      ]
-    ],
-    "group_id": 80,
     "name": "Rookie Lookout - Submarines",
-    "worth": 1,
-    "next": 802,
     "add": [
       [
         1,
@@ -3036,22 +3025,22 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 802,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 2 Accuracy.",
+    "group_id": 80,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: Accuracy",
+        2
+      ]
+    ],
+    "worth": 1,
+    "id": 801
   },
   "802": {
-    "id": 802,
     "icon": "qianting_one_2",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 3 Accuracy.",
-    "add_desc": [
-      [
-        "SSs & SSVs: Accuracy",
-        3
-      ]
-    ],
-    "group_id": 80,
     "name": "Adept Lookout - Submarines",
-    "worth": 2,
-    "next": 803,
     "add": [
       [
         1,
@@ -3064,50 +3053,50 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 803,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 3 Accuracy.",
+    "group_id": 80,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: Accuracy",
+        3
+      ]
+    ],
+    "worth": 2,
+    "id": 802
   },
   "803": {
-    "id": 803,
     "icon": "qianting_one_3",
+    "name": "Ace Lookout - Submarines",
+    "add": [
+      [
+        1,
+        [],
+        [
+          8,
+          17
+        ],
+        8,
+        5
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 5 Accuracy.",
+    "group_id": 80,
+    "cost": 0,
     "add_desc": [
       [
         "SSs & SSVs: Accuracy",
         5
       ]
     ],
-    "group_id": 80,
-    "name": "Ace Lookout - Submarines",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          8,
-          17
-        ],
-        8,
-        5
-      ]
-    ],
-    "cost": 0
+    "id": 803
   },
   "811": {
-    "id": 811,
     "icon": "quzhu_one_1",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 3 Accuracy.",
-    "add_desc": [
-      [
-        "Vanguard: Accuracy",
-        3
-      ]
-    ],
-    "group_id": 81,
     "name": "Rookie Lookout - Vanguard",
-    "worth": 1,
-    "next": 812,
     "add": [
       [
         1,
@@ -3124,22 +3113,22 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 812,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 3 Accuracy.",
+    "group_id": 81,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: Accuracy",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 811
   },
   "812": {
-    "id": 812,
     "icon": "quzhu_one_2",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 4 Accuracy.",
-    "add_desc": [
-      [
-        "Vanguard: Accuracy",
-        4
-      ]
-    ],
-    "group_id": 81,
     "name": "Adept Lookout - Vanguard",
-    "worth": 2,
-    "next": 813,
     "add": [
       [
         1,
@@ -3156,22 +3145,22 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 813,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 4 Accuracy.",
+    "group_id": 81,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: Accuracy",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 812
   },
   "813": {
-    "id": 813,
     "icon": "quzhu_one_3",
-    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 6 Accuracy.",
-    "add_desc": [
-      [
-        "Vanguard: Accuracy",
-        6
-      ]
-    ],
-    "group_id": 81,
     "name": "Ace Lookout - Vanguard",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -3188,22 +3177,22 @@
         6
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Vanguard</color> gains 6 Accuracy.",
+    "group_id": 81,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Vanguard: Accuracy",
+        6
+      ]
+    ],
+    "worth": 3,
+    "id": 813
   },
   "821": {
-    "id": 821,
     "icon": "zhanlie_one_1",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 1 Accuracy.",
-    "add_desc": [
-      [
-        "Main Fleet: Accuracy",
-        1
-      ]
-    ],
-    "group_id": 82,
     "name": "Rookie Lookout - Main",
-    "worth": 1,
-    "next": 822,
     "add": [
       [
         1,
@@ -3223,22 +3212,22 @@
         1
       ]
     ],
-    "cost": 0
+    "next": 822,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 1 Accuracy.",
+    "group_id": 82,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: Accuracy",
+        1
+      ]
+    ],
+    "worth": 1,
+    "id": 821
   },
   "822": {
-    "id": 822,
     "icon": "zhanlie_one_2",
-    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 2 Accuracy.",
-    "add_desc": [
-      [
-        "Main Fleet: Accuracy",
-        2
-      ]
-    ],
-    "group_id": 82,
     "name": "Adept Lookout - Main",
-    "worth": 2,
-    "next": 823,
     "add": [
       [
         1,
@@ -3258,57 +3247,57 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 823,
+    "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 2 Accuracy.",
+    "group_id": 82,
+    "cost": 0,
+    "add_desc": [
+      [
+        "Main Fleet: Accuracy",
+        2
+      ]
+    ],
+    "worth": 2,
+    "id": 822
   },
   "823": {
-    "id": 823,
     "icon": "zhanlie_one_3",
+    "name": "Ace Lookout - Main",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          6,
+          7,
+          10,
+          12,
+          13,
+          21,
+          24
+        ],
+        8,
+        3
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>Main Fleet</color> gains 3 Accuracy.",
+    "group_id": 82,
+    "cost": 0,
     "add_desc": [
       [
         "Main Fleet: Accuracy",
         3
       ]
     ],
-    "group_id": 82,
-    "name": "Ace Lookout - Main",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          6,
-          7,
-          10,
-          12,
-          13,
-          21,
-          24
-        ],
-        8,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 823
   },
   "831": {
-    "id": 831,
     "icon": "teshu_one_1",
-    "desc": "Your whole fleet gains 1 ACC.",
-    "add_desc": [
-      [
-        "ACC",
-        1
-      ]
-    ],
-    "group_id": 83,
     "name": "Tempesta Lookout - Rookie",
-    "worth": 1,
-    "next": 832,
     "add": [
       [
         1,
@@ -3318,22 +3307,22 @@
         1
       ]
     ],
-    "cost": 0
+    "next": 832,
+    "desc": "Your whole fleet gains 1 ACC.",
+    "group_id": 83,
+    "cost": 0,
+    "add_desc": [
+      [
+        "ACC",
+        1
+      ]
+    ],
+    "worth": 1,
+    "id": 831
   },
   "832": {
-    "id": 832,
     "icon": "teshu_one_2",
-    "desc": "Your whole fleet gains 2 ACC.",
-    "add_desc": [
-      [
-        "ACC",
-        2
-      ]
-    ],
-    "group_id": 83,
     "name": "Tempesta Lookout - Adept",
-    "worth": 2,
-    "next": 833,
     "add": [
       [
         1,
@@ -3343,55 +3332,47 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 833,
+    "desc": "Your whole fleet gains 2 ACC.",
+    "group_id": 83,
+    "cost": 0,
+    "add_desc": [
+      [
+        "ACC",
+        2
+      ]
+    ],
+    "worth": 2,
+    "id": 832
   },
   "833": {
-    "id": 833,
     "icon": "teshu_one_3",
+    "name": "Tempesta's Eyes",
+    "add": [
+      [
+        1,
+        [],
+        [],
+        8,
+        3
+      ]
+    ],
+    "next": 0,
     "desc": "Your whole fleet gains 3 ACC.",
+    "group_id": 83,
+    "cost": 0,
     "add_desc": [
       [
         "ACC",
         3
       ]
     ],
-    "group_id": 83,
-    "name": "Tempesta's Eyes",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [],
-        8,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 833
   },
   "901": {
-    "id": 901,
     "icon": "quzhu_one_1",
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 5 EVA.",
-    "add_desc": [
-      [
-        "SSs, SSVs: EVA",
-        5
-      ],
-      [
-        "DDs: EVA",
-        5
-      ],
-      [
-        "IXs: EVA",
-        5
-      ]
-    ],
-    "group_id": 90,
     "name": "Rookie Helmsman - Small Ships",
-    "worth": 1,
-    "next": 902,
     "add": [
       [
         1,
@@ -3410,30 +3391,30 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 902,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 5 EVA.",
+    "group_id": 90,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs, SSVs: EVA",
+        5
+      ],
+      [
+        "DDs: EVA",
+        5
+      ],
+      [
+        "IXs: EVA",
+        5
+      ]
+    ],
+    "worth": 1,
+    "id": 901
   },
   "902": {
-    "id": 902,
     "icon": "quzhu_one_2",
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 7 EVA.",
-    "add_desc": [
-      [
-        "SSs, SSVs: EVA",
-        7
-      ],
-      [
-        "DDs: EVA",
-        7
-      ],
-      [
-        "IXs: EVA",
-        7
-      ]
-    ],
-    "group_id": 90,
     "name": "Adept Helmsman - Small Ships",
-    "worth": 2,
-    "next": 903,
     "add": [
       [
         1,
@@ -3452,30 +3433,30 @@
         7
       ]
     ],
-    "cost": 0
+    "next": 903,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 7 EVA.",
+    "group_id": 90,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs, SSVs: EVA",
+        7
+      ],
+      [
+        "DDs: EVA",
+        7
+      ],
+      [
+        "IXs: EVA",
+        7
+      ]
+    ],
+    "worth": 2,
+    "id": 902
   },
   "903": {
-    "id": 903,
     "icon": "quzhu_one_3",
-    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 10 EVA.",
-    "add_desc": [
-      [
-        "SSs, SSVs: EVA",
-        10
-      ],
-      [
-        "DDs: EVA",
-        10
-      ],
-      [
-        "IXs: EVA",
-        10
-      ]
-    ],
-    "group_id": 90,
     "name": "Ace Helmsman - Small Ships",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -3494,12 +3475,50 @@
         10
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>SSs, SSVs, DDs, and IXs</color> gain 10 EVA.",
+    "group_id": 90,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs, SSVs: EVA",
+        10
+      ],
+      [
+        "DDs: EVA",
+        10
+      ],
+      [
+        "IXs: EVA",
+        10
+      ]
+    ],
+    "worth": 3,
+    "id": 903
   },
   "911": {
-    "id": 911,
     "icon": "xunyang_one_1",
+    "name": "Rookie Helmsman - Medium Ships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          6,
+          12,
+          13,
+          19
+        ],
+        9,
+        3
+      ]
+    ],
+    "next": 912,
     "desc": "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, ARs, and AEs</color> gain 3 EVA.",
+    "group_id": 91,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: EVA",
@@ -3526,32 +3545,32 @@
         3
       ]
     ],
-    "group_id": 91,
-    "name": "Rookie Helmsman - Medium Ships",
     "worth": 1,
-    "next": 912,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          6,
-          12,
-          13,
-          19
-        ],
-        9,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 911
   },
   "912": {
-    "id": 912,
     "icon": "xunyang_one_2",
+    "name": "Adept Helmsman - Medium Ships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          6,
+          12,
+          13,
+          19
+        ],
+        9,
+        4
+      ]
+    ],
+    "next": 913,
     "desc": "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, ARs, and AEs</color> gain 4 EVA.",
+    "group_id": 91,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: EVA",
@@ -3578,32 +3597,32 @@
         4
       ]
     ],
-    "group_id": 91,
-    "name": "Adept Helmsman - Medium Ships",
     "worth": 2,
-    "next": 913,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          6,
-          12,
-          13,
-          19
-        ],
-        9,
-        4
-      ]
-    ],
-    "cost": 0
+    "id": 912
   },
   "913": {
-    "id": 913,
     "icon": "xunyang_one_3",
+    "name": "Ace Helmsman - Medium Ships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          6,
+          12,
+          13,
+          19
+        ],
+        9,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, CVLs, BMs, ARs, and AEs</color> gain 6 EVA.",
+    "group_id": 91,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: EVA",
@@ -3630,32 +3649,31 @@
         6
       ]
     ],
-    "group_id": 91,
-    "name": "Ace Helmsman - Medium Ships",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          6,
-          12,
-          13,
-          19
-        ],
-        9,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 913
   },
   "921": {
-    "id": 921,
     "icon": "xunyang_one_1",
+    "name": "Rookie Helmsman - Large Ships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          7,
+          10,
+          18
+        ],
+        9,
+        1
+      ]
+    ],
+    "next": 922,
     "desc": "Your <color=#3dc6ff>BBs, BCs, CVs, BBVs, and CBs</color> gain 1 EVA.",
+    "group_id": 92,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: EVA",
@@ -3678,31 +3696,31 @@
         1
       ]
     ],
-    "group_id": 92,
-    "name": "Rookie Helmsman - Large Ships",
     "worth": 1,
-    "next": 922,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          7,
-          10,
-          18
-        ],
-        9,
-        1
-      ]
-    ],
-    "cost": 0
+    "id": 921
   },
   "922": {
-    "id": 922,
     "icon": "xunyang_one_2",
+    "name": "Adept Helmsman - Large Ships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          7,
+          10,
+          18
+        ],
+        9,
+        2
+      ]
+    ],
+    "next": 923,
     "desc": "Your <color=#3dc6ff>BBs, BCs, CVs, BBVs, and CBs</color> gain 2 EVA.",
+    "group_id": 92,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: EVA",
@@ -3725,31 +3743,31 @@
         2
       ]
     ],
-    "group_id": 92,
-    "name": "Adept Helmsman - Large Ships",
     "worth": 2,
-    "next": 923,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          7,
-          10,
-          18
-        ],
-        9,
-        2
-      ]
-    ],
-    "cost": 0
+    "id": 922
   },
   "923": {
-    "id": 923,
     "icon": "xunyang_one_3",
+    "name": "Ace Helmsman - Large Ships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5,
+          7,
+          10,
+          18
+        ],
+        9,
+        3
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBs, BCs, CVs, BBVs, and CBs</color> gain 3 EVA.",
+    "group_id": 92,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: EVA",
@@ -3772,45 +3790,12 @@
         3
       ]
     ],
-    "group_id": 92,
-    "name": "Ace Helmsman - Large Ships",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5,
-          7,
-          10,
-          18
-        ],
-        9,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 923
   },
   "2001": {
-    "id": 2001,
     "icon": "quzhu_one_1",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 8 TRP and 4 RLD.",
-    "add_desc": [
-      [
-        "DDs: TRP",
-        8
-      ],
-      [
-        "DDs: RLD",
-        4
-      ]
-    ],
-    "group_id": 200,
     "name": "Rookie Officer - Destroyers",
-    "worth": 1,
-    "next": 2002,
     "add": [
       [
         1,
@@ -3835,26 +3820,26 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 2002,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 8 TRP and 4 RLD.",
+    "group_id": 200,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: TRP",
+        8
+      ],
+      [
+        "DDs: RLD",
+        4
+      ]
+    ],
+    "worth": 1,
+    "id": 2001
   },
   "2002": {
-    "id": 2002,
     "icon": "quzhu_one_2",
-    "desc": "Your <color=#3dc6ff>DDs</color> gain 11 TRP and 5 RLD.",
-    "add_desc": [
-      [
-        "DDs: TRP",
-        11
-      ],
-      [
-        "DDs: RLD",
-        5
-      ]
-    ],
-    "group_id": 200,
     "name": "Elite Officer - Destroyers",
-    "worth": 2,
-    "next": 2003,
     "add": [
       [
         1,
@@ -3879,12 +3864,54 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 2003,
+    "desc": "Your <color=#3dc6ff>DDs</color> gain 11 TRP and 5 RLD.",
+    "group_id": 200,
+    "cost": 0,
+    "add_desc": [
+      [
+        "DDs: TRP",
+        11
+      ],
+      [
+        "DDs: RLD",
+        5
+      ]
+    ],
+    "worth": 2,
+    "id": 2002
   },
   "2003": {
-    "id": 2003,
     "icon": "quzhu_one_3",
+    "name": "Chief of Staff - Destroyers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          1,
+          20,
+          21
+        ],
+        3,
+        16
+      ],
+      [
+        1,
+        [],
+        [
+          1,
+          20,
+          21
+        ],
+        6,
+        8
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>DDs</color> gain 16 TRP and 8 RLD.",
+    "group_id": 200,
+    "cost": 0,
     "add_desc": [
       [
         "DDs: TRP",
@@ -3895,66 +3922,12 @@
         8
       ]
     ],
-    "group_id": 200,
-    "name": "Chief of Staff - Destroyers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          1,
-          20,
-          21
-        ],
-        3,
-        16
-      ],
-      [
-        1,
-        [],
-        [
-          1,
-          20,
-          21
-        ],
-        6,
-        8
-      ]
-    ],
-    "cost": 0
+    "id": 2003
   },
   "2011": {
-    "id": 2011,
     "icon": "xunyang_one_1",
-    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 5 FP and 5 TRP and your <color=#3dc6ff>CBs</color> gain 5 FP.",
-    "add_desc": [
-      [
-        "CLs: FP",
-        5
-      ],
-      [
-        "CAs: FP",
-        5
-      ],
-      [
-        "CBs: FP",
-        5
-      ],
-      [
-        "CLs: TRP",
-        5
-      ],
-      [
-        "CAs: TRP",
-        5
-      ]
-    ],
-    "group_id": 201,
     "name": "Rookie Officer - Cruisers",
-    "worth": 1,
-    "next": 2012,
     "add": [
       [
         1,
@@ -3979,38 +3952,38 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 2012,
+    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 5 FP and 5 TRP and your <color=#3dc6ff>CBs</color> gain 5 FP.",
+    "group_id": 201,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CLs: FP",
+        5
+      ],
+      [
+        "CAs: FP",
+        5
+      ],
+      [
+        "CBs: FP",
+        5
+      ],
+      [
+        "CLs: TRP",
+        5
+      ],
+      [
+        "CAs: TRP",
+        5
+      ]
+    ],
+    "worth": 1,
+    "id": 2011
   },
   "2012": {
-    "id": 2012,
     "icon": "xunyang_one_2",
-    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 7 FP and 7 TRP and your <color=#3dc6ff>CBs</color> gain 7 FP.",
-    "add_desc": [
-      [
-        "CLs: FP",
-        7
-      ],
-      [
-        "CAs: FP",
-        7
-      ],
-      [
-        "CBs: FP",
-        7
-      ],
-      [
-        "CLs: TRP",
-        7
-      ],
-      [
-        "CAs: TRP",
-        7
-      ]
-    ],
-    "group_id": 201,
     "name": "Elite Officer - Cruisers",
-    "worth": 2,
-    "next": 2013,
     "add": [
       [
         1,
@@ -4035,12 +4008,66 @@
         7
       ]
     ],
-    "cost": 0
+    "next": 2013,
+    "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 7 FP and 7 TRP and your <color=#3dc6ff>CBs</color> gain 7 FP.",
+    "group_id": 201,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CLs: FP",
+        7
+      ],
+      [
+        "CAs: FP",
+        7
+      ],
+      [
+        "CBs: FP",
+        7
+      ],
+      [
+        "CLs: TRP",
+        7
+      ],
+      [
+        "CAs: TRP",
+        7
+      ]
+    ],
+    "worth": 2,
+    "id": 2012
   },
   "2013": {
-    "id": 2013,
     "icon": "xunyang_one_3",
+    "name": "Chief of Staff - Cruisers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        2,
+        10
+      ],
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        3,
+        10
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs and CAs</color> gain 10 FP and 10 TRP and your <color=#3dc6ff>CBs</color> gain 10 FP.",
+    "group_id": 201,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -4063,62 +4090,12 @@
         10
       ]
     ],
-    "group_id": 201,
-    "name": "Chief of Staff - Cruisers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        2,
-        10
-      ],
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        3,
-        10
-      ]
-    ],
-    "cost": 0
+    "id": 2013
   },
   "2021": {
-    "id": 2021,
     "icon": "zhanlie_one_1",
-    "desc": "Your <color=#3dc6ff>BBs and BCs</color> gain 50 HP and 8 FP.",
-    "add_desc": [
-      [
-        "BBs: HP",
-        50
-      ],
-      [
-        "BCs: HP",
-        50
-      ],
-      [
-        "BBs: FP",
-        8
-      ],
-      [
-        "BCs: FP",
-        8
-      ]
-    ],
-    "group_id": 202,
     "name": "Rookie Officer - Battleships",
-    "worth": 1,
-    "next": 2022,
     "add": [
       [
         1,
@@ -4141,34 +4118,34 @@
         8
       ]
     ],
-    "cost": 0
+    "next": 2022,
+    "desc": "Your <color=#3dc6ff>BBs and BCs</color> gain 50 HP and 8 FP.",
+    "group_id": 202,
+    "cost": 0,
+    "add_desc": [
+      [
+        "BBs: HP",
+        50
+      ],
+      [
+        "BCs: HP",
+        50
+      ],
+      [
+        "BBs: FP",
+        8
+      ],
+      [
+        "BCs: FP",
+        8
+      ]
+    ],
+    "worth": 1,
+    "id": 2021
   },
   "2022": {
-    "id": 2022,
     "icon": "zhanlie_one_2",
-    "desc": "Your <color=#3dc6ff>BBs and BCs</color> gain 70 HP and 11 FP.",
-    "add_desc": [
-      [
-        "BBs: HP",
-        70
-      ],
-      [
-        "BCs: HP",
-        70
-      ],
-      [
-        "BBs: FP",
-        11
-      ],
-      [
-        "BCs: FP",
-        11
-      ]
-    ],
-    "group_id": 202,
     "name": "Elite Officer - Battleships",
-    "worth": 2,
-    "next": 2023,
     "add": [
       [
         1,
@@ -4191,12 +4168,60 @@
         11
       ]
     ],
-    "cost": 0
+    "next": 2023,
+    "desc": "Your <color=#3dc6ff>BBs and BCs</color> gain 70 HP and 11 FP.",
+    "group_id": 202,
+    "cost": 0,
+    "add_desc": [
+      [
+        "BBs: HP",
+        70
+      ],
+      [
+        "BCs: HP",
+        70
+      ],
+      [
+        "BBs: FP",
+        11
+      ],
+      [
+        "BCs: FP",
+        11
+      ]
+    ],
+    "worth": 2,
+    "id": 2022
   },
   "2023": {
-    "id": 2023,
     "icon": "zhanlie_one_3",
+    "name": "Chief of Staff - Battleships",
+    "add": [
+      [
+        1,
+        [],
+        [
+          4,
+          5
+        ],
+        1,
+        100
+      ],
+      [
+        1,
+        [],
+        [
+          4,
+          5
+        ],
+        2,
+        16
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBs and BCs</color> gain 100 HP and 16 FP.",
+    "group_id": 202,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: HP",
@@ -4215,52 +4240,12 @@
         16
       ]
     ],
-    "group_id": 202,
-    "name": "Chief of Staff - Battleships",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5
-        ],
-        1,
-        100
-      ],
-      [
-        1,
-        [],
-        [
-          4,
-          5
-        ],
-        2,
-        16
-      ]
-    ],
-    "cost": 0
+    "id": 2023
   },
   "2031": {
-    "id": 2031,
     "icon": "hangmu_one_1",
-    "desc": "Your <color=#3dc6ff>CVs</color> gain 10 AVI and 3 RLD.",
-    "add_desc": [
-      [
-        "CVs: AVI",
-        10
-      ],
-      [
-        "CVs: RLD",
-        3
-      ]
-    ],
-    "group_id": 203,
     "name": "Rookie Officer - Carriers",
-    "worth": 1,
-    "next": 2032,
     "add": [
       [
         1,
@@ -4281,26 +4266,26 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 2032,
+    "desc": "Your <color=#3dc6ff>CVs</color> gain 10 AVI and 3 RLD.",
+    "group_id": 203,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: AVI",
+        10
+      ],
+      [
+        "CVs: RLD",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 2031
   },
   "2032": {
-    "id": 2032,
     "icon": "hangmu_one_2",
-    "desc": "Your <color=#3dc6ff>CVs</color> gain 14 AVI and 4 RLD.",
-    "add_desc": [
-      [
-        "CVs: AVI",
-        14
-      ],
-      [
-        "CVs: RLD",
-        4
-      ]
-    ],
-    "group_id": 203,
     "name": "Elite Officer - Carriers",
-    "worth": 2,
-    "next": 2033,
     "add": [
       [
         1,
@@ -4321,12 +4306,50 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 2033,
+    "desc": "Your <color=#3dc6ff>CVs</color> gain 14 AVI and 4 RLD.",
+    "group_id": 203,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: AVI",
+        14
+      ],
+      [
+        "CVs: RLD",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 2032
   },
   "2033": {
-    "id": 2033,
     "icon": "hangmu_one_3",
+    "name": "Chief of Staff - Carriers",
+    "add": [
+      [
+        1,
+        [],
+        [
+          7
+        ],
+        5,
+        20
+      ],
+      [
+        1,
+        [],
+        [
+          7
+        ],
+        6,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CVs</color> gain 20 AVI and 6 RLD.",
+    "group_id": 203,
+    "cost": 0,
     "add_desc": [
       [
         "CVs: AVI",
@@ -4337,50 +4360,12 @@
         6
       ]
     ],
-    "group_id": 203,
-    "name": "Chief of Staff - Carriers",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          7
-        ],
-        5,
-        20
-      ],
-      [
-        1,
-        [],
-        [
-          7
-        ],
-        6,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 2033
   },
   "2041": {
-    "id": 2041,
     "icon": "qianting_one_1",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 10 TRP and 3 RLD.",
-    "add_desc": [
-      [
-        "SSs & SSVs: TRP",
-        10
-      ],
-      [
-        "SSs & SSVs: RLD",
-        3
-      ]
-    ],
-    "group_id": 204,
     "name": "Rookie Officer - Submarines",
-    "worth": 1,
-    "next": 2042,
     "add": [
       [
         1,
@@ -4403,26 +4388,26 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 2042,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 10 TRP and 3 RLD.",
+    "group_id": 204,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: TRP",
+        10
+      ],
+      [
+        "SSs & SSVs: RLD",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 2041
   },
   "2042": {
-    "id": 2042,
     "icon": "qianting_one_2",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 14 TRP and 4 RLD.",
-    "add_desc": [
-      [
-        "SSs & SSVs: TRP",
-        14
-      ],
-      [
-        "SSs & SSVs: RLD",
-        4
-      ]
-    ],
-    "group_id": 204,
     "name": "Elite Officer - Submarines",
-    "worth": 2,
-    "next": 2043,
     "add": [
       [
         1,
@@ -4445,12 +4430,52 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 2043,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 14 TRP and 4 RLD.",
+    "group_id": 204,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: TRP",
+        14
+      ],
+      [
+        "SSs & SSVs: RLD",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 2042
   },
   "2043": {
-    "id": 2043,
     "icon": "qianting_one_3",
+    "name": "Chief of Staff - Submarines",
+    "add": [
+      [
+        1,
+        [],
+        [
+          8,
+          17
+        ],
+        3,
+        20
+      ],
+      [
+        1,
+        [],
+        [
+          8,
+          17
+        ],
+        6,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 20 TRP and 6 RLD.",
+    "group_id": 204,
+    "cost": 0,
     "add_desc": [
       [
         "SSs & SSVs: TRP",
@@ -4461,56 +4486,12 @@
         6
       ]
     ],
-    "group_id": 204,
-    "name": "Chief of Staff - Submarines",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          8,
-          17
-        ],
-        3,
-        20
-      ],
-      [
-        1,
-        [],
-        [
-          8,
-          17
-        ],
-        6,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 2043
   },
   "2111": {
-    "id": 2111,
     "icon": "baiying_two_1",
-    "desc": "Your <color=#3dc6ff>Eagle Union ships</color> gain 8 AA, 8 AVI, and 3 RLD.",
-    "add_desc": [
-      [
-        "E. Union: AA",
-        8
-      ],
-      [
-        "E. Union: AVI",
-        8
-      ],
-      [
-        "E. Union: RLD",
-        3
-      ]
-    ],
-    "group_id": 211,
     "name": "Rookie Officer - Union",
-    "worth": 1,
-    "next": 2112,
     "add": [
       [
         1,
@@ -4540,30 +4521,30 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 2112,
+    "desc": "Your <color=#3dc6ff>Eagle Union ships</color> gain 8 AA, 8 AVI, and 3 RLD.",
+    "group_id": 211,
+    "cost": 0,
+    "add_desc": [
+      [
+        "E. Union: AA",
+        8
+      ],
+      [
+        "E. Union: AVI",
+        8
+      ],
+      [
+        "E. Union: RLD",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 2111
   },
   "2112": {
-    "id": 2112,
     "icon": "baiying_two_2",
-    "desc": "Your <color=#3dc6ff>Eagle Union ships</color> gain 11 AA, 11 AVI, and 4 RLD.",
-    "add_desc": [
-      [
-        "E. Union: AA",
-        11
-      ],
-      [
-        "E. Union: AVI",
-        11
-      ],
-      [
-        "E. Union: RLD",
-        4
-      ]
-    ],
-    "group_id": 211,
     "name": "Elite Officer - Union",
-    "worth": 2,
-    "next": 2113,
     "add": [
       [
         1,
@@ -4593,12 +4574,63 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 2113,
+    "desc": "Your <color=#3dc6ff>Eagle Union ships</color> gain 11 AA, 11 AVI, and 4 RLD.",
+    "group_id": 211,
+    "cost": 0,
+    "add_desc": [
+      [
+        "E. Union: AA",
+        11
+      ],
+      [
+        "E. Union: AVI",
+        11
+      ],
+      [
+        "E. Union: RLD",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 2112
   },
   "2113": {
-    "id": 2113,
     "icon": "baiying_two_3",
+    "name": "Chief of Staff - Union",
+    "add": [
+      [
+        1,
+        [
+          1
+        ],
+        [],
+        4,
+        16
+      ],
+      [
+        1,
+        [
+          1
+        ],
+        [],
+        5,
+        16
+      ],
+      [
+        1,
+        [
+          1
+        ],
+        [],
+        6,
+        6
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>Eagle Union ships</color> gain 16 AA, 16 AVI, and 6 RLD.",
+    "group_id": 211,
+    "cost": 0,
     "add_desc": [
       [
         "E. Union: AA",
@@ -4613,63 +4645,12 @@
         6
       ]
     ],
-    "group_id": 211,
-    "name": "Chief of Staff - Union",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [
-          1
-        ],
-        [],
-        4,
-        16
-      ],
-      [
-        1,
-        [
-          1
-        ],
-        [],
-        5,
-        16
-      ],
-      [
-        1,
-        [
-          1
-        ],
-        [],
-        6,
-        6
-      ]
-    ],
-    "cost": 0
+    "id": 2113
   },
   "2121": {
-    "id": 2121,
     "icon": "huangjia_two_1",
-    "desc": "Your <color=#3dc6ff>Royal Navy ships</color> gain 7 FP, 8 AA, and 1 EVA.",
-    "add_desc": [
-      [
-        "R. Navy: FP",
-        7
-      ],
-      [
-        "R. Navy: AA",
-        8
-      ],
-      [
-        "R. Navy: EVA",
-        1
-      ]
-    ],
-    "group_id": 212,
     "name": "Rookie Officer - Royal",
-    "worth": 1,
-    "next": 2122,
     "add": [
       [
         1,
@@ -4699,30 +4680,30 @@
         1
       ]
     ],
-    "cost": 0
+    "next": 2122,
+    "desc": "Your <color=#3dc6ff>Royal Navy ships</color> gain 7 FP, 8 AA, and 1 EVA.",
+    "group_id": 212,
+    "cost": 0,
+    "add_desc": [
+      [
+        "R. Navy: FP",
+        7
+      ],
+      [
+        "R. Navy: AA",
+        8
+      ],
+      [
+        "R. Navy: EVA",
+        1
+      ]
+    ],
+    "worth": 1,
+    "id": 2121
   },
   "2122": {
-    "id": 2122,
     "icon": "huangjia_two_2",
-    "desc": "Your <color=#3dc6ff>Royal Navy ships</color> gain 10 FP, 11 AA, and 2 EVA.",
-    "add_desc": [
-      [
-        "R. Navy: FP",
-        10
-      ],
-      [
-        "R. Navy: AA",
-        11
-      ],
-      [
-        "R. Navy: EVA",
-        2
-      ]
-    ],
-    "group_id": 212,
     "name": "Elite Officer - Royal",
-    "worth": 2,
-    "next": 2123,
     "add": [
       [
         1,
@@ -4752,12 +4733,63 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 2123,
+    "desc": "Your <color=#3dc6ff>Royal Navy ships</color> gain 10 FP, 11 AA, and 2 EVA.",
+    "group_id": 212,
+    "cost": 0,
+    "add_desc": [
+      [
+        "R. Navy: FP",
+        10
+      ],
+      [
+        "R. Navy: AA",
+        11
+      ],
+      [
+        "R. Navy: EVA",
+        2
+      ]
+    ],
+    "worth": 2,
+    "id": 2122
   },
   "2123": {
-    "id": 2123,
     "icon": "huangjia_two_3",
+    "name": "Chief of Staff - Royal",
+    "add": [
+      [
+        1,
+        [
+          2
+        ],
+        [],
+        2,
+        14
+      ],
+      [
+        1,
+        [
+          2
+        ],
+        [],
+        4,
+        16
+      ],
+      [
+        1,
+        [
+          2
+        ],
+        [],
+        9,
+        3
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>Royal Navy ships</color> gain 14 FP, 16 AA, and 3 EVA.",
+    "group_id": 212,
+    "cost": 0,
     "add_desc": [
       [
         "R. Navy: FP",
@@ -4772,63 +4804,12 @@
         3
       ]
     ],
-    "group_id": 212,
-    "name": "Chief of Staff - Royal",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [
-          2
-        ],
-        [],
-        2,
-        14
-      ],
-      [
-        1,
-        [
-          2
-        ],
-        [],
-        4,
-        16
-      ],
-      [
-        1,
-        [
-          2
-        ],
-        [],
-        9,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 2123
   },
   "2131": {
-    "id": 2131,
     "icon": "chongying_two_1",
-    "desc": "Your <color=#3dc6ff>Sakura Empire ships</color> gain 8 TRP, 6 AVI, and 1 EVA.",
-    "add_desc": [
-      [
-        "S. Empire: TRP",
-        8
-      ],
-      [
-        "S. Empire: AVI",
-        6
-      ],
-      [
-        "S. Empire: EVA",
-        1
-      ]
-    ],
-    "group_id": 213,
     "name": "Rookie Officer - Sakura",
-    "worth": 1,
-    "next": 2132,
     "add": [
       [
         1,
@@ -4858,30 +4839,30 @@
         1
       ]
     ],
-    "cost": 0
+    "next": 2132,
+    "desc": "Your <color=#3dc6ff>Sakura Empire ships</color> gain 8 TRP, 6 AVI, and 1 EVA.",
+    "group_id": 213,
+    "cost": 0,
+    "add_desc": [
+      [
+        "S. Empire: TRP",
+        8
+      ],
+      [
+        "S. Empire: AVI",
+        6
+      ],
+      [
+        "S. Empire: EVA",
+        1
+      ]
+    ],
+    "worth": 1,
+    "id": 2131
   },
   "2132": {
-    "id": 2132,
     "icon": "chongying_two_2",
-    "desc": "Your <color=#3dc6ff>Sakura Empire ships</color> gain 11 TRP, 8 AVI, and 2 EVA.",
-    "add_desc": [
-      [
-        "S. Empire: TRP",
-        11
-      ],
-      [
-        "S. Empire: AVI",
-        8
-      ],
-      [
-        "S. Empire: EVA",
-        2
-      ]
-    ],
-    "group_id": 213,
     "name": "Elite Officer - Sakura",
-    "worth": 2,
-    "next": 2133,
     "add": [
       [
         1,
@@ -4911,30 +4892,30 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 2133,
+    "desc": "Your <color=#3dc6ff>Sakura Empire ships</color> gain 11 TRP, 8 AVI, and 2 EVA.",
+    "group_id": 213,
+    "cost": 0,
+    "add_desc": [
+      [
+        "S. Empire: TRP",
+        11
+      ],
+      [
+        "S. Empire: AVI",
+        8
+      ],
+      [
+        "S. Empire: EVA",
+        2
+      ]
+    ],
+    "worth": 2,
+    "id": 2132
   },
   "2133": {
-    "id": 2133,
     "icon": "chongying_two_3",
-    "desc": "Your <color=#3dc6ff>Sakura Empire ships</color> gain 16 TRP, 12 AVI, and 3 EVA.",
-    "add_desc": [
-      [
-        "S. Empire: TRP",
-        16
-      ],
-      [
-        "S. Empire: AVI",
-        12
-      ],
-      [
-        "S. Empire: EVA",
-        3
-      ]
-    ],
-    "group_id": 213,
     "name": "Chief of Staff - Sakura",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -4964,30 +4945,30 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Sakura Empire ships</color> gain 16 TRP, 12 AVI, and 3 EVA.",
+    "group_id": 213,
+    "cost": 0,
+    "add_desc": [
+      [
+        "S. Empire: TRP",
+        16
+      ],
+      [
+        "S. Empire: AVI",
+        12
+      ],
+      [
+        "S. Empire: EVA",
+        3
+      ]
+    ],
+    "worth": 3,
+    "id": 2133
   },
   "2141": {
-    "id": 2141,
     "icon": "tiexue_two_1",
-    "desc": "Your <color=#3dc6ff>Iron Blood ships</color> gain 6 FP, 7 TRP, and 1 Accuracy.",
-    "add_desc": [
-      [
-        "I. Blood: FP",
-        6
-      ],
-      [
-        "I. Blood: TRP",
-        7
-      ],
-      [
-        "I. Blood: Accuracy",
-        1
-      ]
-    ],
-    "group_id": 214,
     "name": "Rookie Officer - Iron Blood",
-    "worth": 1,
-    "next": 2142,
     "add": [
       [
         1,
@@ -5015,30 +4996,30 @@
         1
       ]
     ],
-    "cost": 0
+    "next": 2142,
+    "desc": "Your <color=#3dc6ff>Iron Blood ships</color> gain 6 FP, 7 TRP, and 1 Accuracy.",
+    "group_id": 214,
+    "cost": 0,
+    "add_desc": [
+      [
+        "I. Blood: FP",
+        6
+      ],
+      [
+        "I. Blood: TRP",
+        7
+      ],
+      [
+        "I. Blood: Accuracy",
+        1
+      ]
+    ],
+    "worth": 1,
+    "id": 2141
   },
   "2142": {
-    "id": 2142,
     "icon": "tiexue_two_2",
-    "desc": "Your <color=#3dc6ff>Iron Blood ships</color> gain 8 FP, 10 TRP, and 2 Accuracy.",
-    "add_desc": [
-      [
-        "I. Blood: FP",
-        8
-      ],
-      [
-        "I. Blood: TRP",
-        10
-      ],
-      [
-        "I. Blood: Accuracy",
-        2
-      ]
-    ],
-    "group_id": 214,
     "name": "Elite Officer - Iron Blood",
-    "worth": 2,
-    "next": 2143,
     "add": [
       [
         1,
@@ -5066,30 +5047,30 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 2143,
+    "desc": "Your <color=#3dc6ff>Iron Blood ships</color> gain 8 FP, 10 TRP, and 2 Accuracy.",
+    "group_id": 214,
+    "cost": 0,
+    "add_desc": [
+      [
+        "I. Blood: FP",
+        8
+      ],
+      [
+        "I. Blood: TRP",
+        10
+      ],
+      [
+        "I. Blood: Accuracy",
+        2
+      ]
+    ],
+    "worth": 2,
+    "id": 2142
   },
   "2143": {
-    "id": 2143,
     "icon": "tiexue_two_3",
-    "desc": "Your <color=#3dc6ff>Iron Blood ships</color> gain 12 FP, 14 TRP, and 3 Accuracy.",
-    "add_desc": [
-      [
-        "I. Blood: FP",
-        12
-      ],
-      [
-        "I. Blood: TRP",
-        14
-      ],
-      [
-        "I. Blood: Accuracy",
-        3
-      ]
-    ],
-    "group_id": 214,
     "name": "Chief of Staff - Iron Blood",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -5117,30 +5098,30 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Iron Blood ships</color> gain 12 FP, 14 TRP, and 3 Accuracy.",
+    "group_id": 214,
+    "cost": 0,
+    "add_desc": [
+      [
+        "I. Blood: FP",
+        12
+      ],
+      [
+        "I. Blood: TRP",
+        14
+      ],
+      [
+        "I. Blood: Accuracy",
+        3
+      ]
+    ],
+    "worth": 3,
+    "id": 2143
   },
   "2151": {
-    "id": 2151,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Dragon Empery ships</color> gain 7 FP, 8 AA, and 3 RLD.",
-    "add_desc": [
-      [
-        "D. Empery: FP",
-        7
-      ],
-      [
-        "D. Empery: AA",
-        8
-      ],
-      [
-        "D. Empery: RLD",
-        3
-      ]
-    ],
-    "group_id": 215,
     "name": "Rookie Officer - Empery",
-    "worth": 1,
-    "next": 2152,
     "add": [
       [
         1,
@@ -5170,30 +5151,30 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 2152,
+    "desc": "Your <color=#3dc6ff>Dragon Empery ships</color> gain 7 FP, 8 AA, and 3 RLD.",
+    "group_id": 215,
+    "cost": 0,
+    "add_desc": [
+      [
+        "D. Empery: FP",
+        7
+      ],
+      [
+        "D. Empery: AA",
+        8
+      ],
+      [
+        "D. Empery: RLD",
+        3
+      ]
+    ],
+    "worth": 1,
+    "id": 2151
   },
   "2152": {
-    "id": 2152,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Dragon Empery ships</color> gain 10 FP, 11 AA, and 4 RLD.",
-    "add_desc": [
-      [
-        "D. Empery: FP",
-        10
-      ],
-      [
-        "D. Empery: AA",
-        11
-      ],
-      [
-        "D. Empery: RLD",
-        4
-      ]
-    ],
-    "group_id": 215,
     "name": "Elite Officer - Empery",
-    "worth": 2,
-    "next": 2153,
     "add": [
       [
         1,
@@ -5223,30 +5204,30 @@
         4
       ]
     ],
-    "cost": 0
+    "next": 2153,
+    "desc": "Your <color=#3dc6ff>Dragon Empery ships</color> gain 10 FP, 11 AA, and 4 RLD.",
+    "group_id": 215,
+    "cost": 0,
+    "add_desc": [
+      [
+        "D. Empery: FP",
+        10
+      ],
+      [
+        "D. Empery: AA",
+        11
+      ],
+      [
+        "D. Empery: RLD",
+        4
+      ]
+    ],
+    "worth": 2,
+    "id": 2152
   },
   "2153": {
-    "id": 2153,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Dragon Empery ships</color> gain 14 FP, 16 AA, and 6 RLD.",
-    "add_desc": [
-      [
-        "D. Empery: FP",
-        14
-      ],
-      [
-        "D. Empery: AA",
-        16
-      ],
-      [
-        "D. Empery: RLD",
-        6
-      ]
-    ],
-    "group_id": 215,
     "name": "Chief of Staff - Empery",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -5276,30 +5257,30 @@
         6
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Dragon Empery ships</color> gain 14 FP, 16 AA, and 6 RLD.",
+    "group_id": 215,
+    "cost": 0,
+    "add_desc": [
+      [
+        "D. Empery: FP",
+        14
+      ],
+      [
+        "D. Empery: AA",
+        16
+      ],
+      [
+        "D. Empery: RLD",
+        6
+      ]
+    ],
+    "worth": 3,
+    "id": 2153
   },
   "2171": {
-    "id": 2171,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Northern Parliament ships</color> gain 8 FP, 4 RLD, and 1 Accuracy.",
-    "add_desc": [
-      [
-        "N. Parliament: FP",
-        8
-      ],
-      [
-        "N. Parliament: RLD",
-        4
-      ],
-      [
-        "N. Parliament: Accuracy",
-        1
-      ]
-    ],
-    "group_id": 217,
     "name": "Rookie Officer - Parliament",
-    "worth": 1,
-    "next": 2172,
     "add": [
       [
         1,
@@ -5329,30 +5310,30 @@
         1
       ]
     ],
-    "cost": 0
+    "next": 2172,
+    "desc": "Your <color=#3dc6ff>Northern Parliament ships</color> gain 8 FP, 4 RLD, and 1 Accuracy.",
+    "group_id": 217,
+    "cost": 0,
+    "add_desc": [
+      [
+        "N. Parliament: FP",
+        8
+      ],
+      [
+        "N. Parliament: RLD",
+        4
+      ],
+      [
+        "N. Parliament: Accuracy",
+        1
+      ]
+    ],
+    "worth": 1,
+    "id": 2171
   },
   "2172": {
-    "id": 2172,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Northern Parliament ships</color> gain 11 FP, 5 RLD, and 2 Accuracy.",
-    "add_desc": [
-      [
-        "N. Parliament: FP",
-        11
-      ],
-      [
-        "N. Parliament: RLD",
-        5
-      ],
-      [
-        "N. Parliament: Accuracy",
-        2
-      ]
-    ],
-    "group_id": 217,
     "name": "Elite Officer - Parliament",
-    "worth": 2,
-    "next": 2173,
     "add": [
       [
         1,
@@ -5382,12 +5363,63 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 2173,
+    "desc": "Your <color=#3dc6ff>Northern Parliament ships</color> gain 11 FP, 5 RLD, and 2 Accuracy.",
+    "group_id": 217,
+    "cost": 0,
+    "add_desc": [
+      [
+        "N. Parliament: FP",
+        11
+      ],
+      [
+        "N. Parliament: RLD",
+        5
+      ],
+      [
+        "N. Parliament: Accuracy",
+        2
+      ]
+    ],
+    "worth": 2,
+    "id": 2172
   },
   "2173": {
-    "id": 2173,
     "icon": "",
+    "name": "Chief of Staff - Parliament",
+    "add": [
+      [
+        1,
+        [
+          7
+        ],
+        [],
+        2,
+        16
+      ],
+      [
+        1,
+        [
+          7
+        ],
+        [],
+        6,
+        8
+      ],
+      [
+        1,
+        [
+          7
+        ],
+        [],
+        8,
+        3
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>Northern Parliament ships</color> gain 16 FP, 8 RLD, and 3 Accuracy.",
+    "group_id": 217,
+    "cost": 0,
     "add_desc": [
       [
         "N. Parliament: FP",
@@ -5402,63 +5434,12 @@
         3
       ]
     ],
-    "group_id": 217,
-    "name": "Chief of Staff - Parliament",
     "worth": 3,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [
-          7
-        ],
-        [],
-        2,
-        16
-      ],
-      [
-        1,
-        [
-          7
-        ],
-        [],
-        6,
-        8
-      ],
-      [
-        1,
-        [
-          7
-        ],
-        [],
-        8,
-        3
-      ]
-    ],
-    "cost": 0
+    "id": 2173
   },
   "2181": {
-    "id": 2181,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Iris Libre ships</color> gain 8 FP, 3 RLD, and 2 EVA.",
-    "add_desc": [
-      [
-        "I. Libre: FP",
-        8
-      ],
-      [
-        "I. Libre: RLD",
-        3
-      ],
-      [
-        "I. Libre: EVA",
-        2
-      ]
-    ],
-    "group_id": 218,
     "name": "Rookie Officer - Iris",
-    "worth": 1,
-    "next": 2182,
     "add": [
       [
         1,
@@ -5488,30 +5469,30 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 2182,
+    "desc": "Your <color=#3dc6ff>Iris Libre ships</color> gain 8 FP, 3 RLD, and 2 EVA.",
+    "group_id": 218,
+    "cost": 0,
+    "add_desc": [
+      [
+        "I. Libre: FP",
+        8
+      ],
+      [
+        "I. Libre: RLD",
+        3
+      ],
+      [
+        "I. Libre: EVA",
+        2
+      ]
+    ],
+    "worth": 1,
+    "id": 2181
   },
   "2182": {
-    "id": 2182,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Iris Libre ships</color> gain 11 FP, 4 RLD, and 3 EVA.",
-    "add_desc": [
-      [
-        "I. Libre: FP",
-        11
-      ],
-      [
-        "I. Libre: RLD",
-        4
-      ],
-      [
-        "I. Libre: EVA",
-        3
-      ]
-    ],
-    "group_id": 218,
     "name": "Elite Officer - Iris",
-    "worth": 2,
-    "next": 2183,
     "add": [
       [
         1,
@@ -5541,30 +5522,30 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 2183,
+    "desc": "Your <color=#3dc6ff>Iris Libre ships</color> gain 11 FP, 4 RLD, and 3 EVA.",
+    "group_id": 218,
+    "cost": 0,
+    "add_desc": [
+      [
+        "I. Libre: FP",
+        11
+      ],
+      [
+        "I. Libre: RLD",
+        4
+      ],
+      [
+        "I. Libre: EVA",
+        3
+      ]
+    ],
+    "worth": 2,
+    "id": 2182
   },
   "2183": {
-    "id": 2183,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Iris Libre ships</color> gain 16 FP, 6 RLD, and 5 EVA.",
-    "add_desc": [
-      [
-        "I. Libre: FP",
-        16
-      ],
-      [
-        "I. Libre: RLD",
-        6
-      ],
-      [
-        "I. Libre: EVA",
-        5
-      ]
-    ],
-    "group_id": 218,
     "name": "Chief of Staff - Iris",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -5594,30 +5575,30 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Iris Libre ships</color> gain 16 FP, 6 RLD, and 5 EVA.",
+    "group_id": 218,
+    "cost": 0,
+    "add_desc": [
+      [
+        "I. Libre: FP",
+        16
+      ],
+      [
+        "I. Libre: RLD",
+        6
+      ],
+      [
+        "I. Libre: EVA",
+        5
+      ]
+    ],
+    "worth": 3,
+    "id": 2183
   },
   "2191": {
-    "id": 2191,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Vichiya Dominion ships</color> gain 8 FP, 3 RLD, and 2 Accuracy.",
-    "add_desc": [
-      [
-        "V. Dominion: FP",
-        8
-      ],
-      [
-        "V. Dominion: RLD",
-        3
-      ],
-      [
-        "V. Dominion: Accuracy",
-        2
-      ]
-    ],
-    "group_id": 219,
     "name": "Rookie Officer - Vichya",
-    "worth": 1,
-    "next": 2192,
     "add": [
       [
         1,
@@ -5647,30 +5628,30 @@
         2
       ]
     ],
-    "cost": 0
+    "next": 2192,
+    "desc": "Your <color=#3dc6ff>Vichiya Dominion ships</color> gain 8 FP, 3 RLD, and 2 Accuracy.",
+    "group_id": 219,
+    "cost": 0,
+    "add_desc": [
+      [
+        "V. Dominion: FP",
+        8
+      ],
+      [
+        "V. Dominion: RLD",
+        3
+      ],
+      [
+        "V. Dominion: Accuracy",
+        2
+      ]
+    ],
+    "worth": 1,
+    "id": 2191
   },
   "2192": {
-    "id": 2192,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Vichiya Dominion ships</color> gain 11 FP, 4 RLD, and 3 Accuracy.",
-    "add_desc": [
-      [
-        "V. Dominion: FP",
-        11
-      ],
-      [
-        "V. Dominion: RLD",
-        4
-      ],
-      [
-        "V. Dominion: Accuracy",
-        3
-      ]
-    ],
-    "group_id": 219,
     "name": "Elite Officer - Vichya",
-    "worth": 2,
-    "next": 2193,
     "add": [
       [
         1,
@@ -5700,30 +5681,30 @@
         3
       ]
     ],
-    "cost": 0
+    "next": 2193,
+    "desc": "Your <color=#3dc6ff>Vichiya Dominion ships</color> gain 11 FP, 4 RLD, and 3 Accuracy.",
+    "group_id": 219,
+    "cost": 0,
+    "add_desc": [
+      [
+        "V. Dominion: FP",
+        11
+      ],
+      [
+        "V. Dominion: RLD",
+        4
+      ],
+      [
+        "V. Dominion: Accuracy",
+        3
+      ]
+    ],
+    "worth": 2,
+    "id": 2192
   },
   "2193": {
-    "id": 2193,
     "icon": "",
-    "desc": "Your <color=#3dc6ff>Vichiya Dominion ships</color> gain 16 FP, 6 RLD, and 5 Accuracy.",
-    "add_desc": [
-      [
-        "V. Dominion: FP",
-        16
-      ],
-      [
-        "V. Dominion: RLD",
-        6
-      ],
-      [
-        "V. Dominion: Accuracy",
-        5
-      ]
-    ],
-    "group_id": 219,
     "name": "Chief of Staff - Vichya",
-    "worth": 3,
-    "next": 0,
     "add": [
       [
         1,
@@ -5753,12 +5734,58 @@
         5
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>Vichiya Dominion ships</color> gain 16 FP, 6 RLD, and 5 Accuracy.",
+    "group_id": 219,
+    "cost": 0,
+    "add_desc": [
+      [
+        "V. Dominion: FP",
+        16
+      ],
+      [
+        "V. Dominion: RLD",
+        6
+      ],
+      [
+        "V. Dominion: Accuracy",
+        5
+      ]
+    ],
+    "worth": 3,
+    "id": 2193
   },
   "5011": {
-    "id": 5011,
     "icon": "jiandibizhan",
+    "name": "Tireless Warrior",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        2,
+        10
+      ],
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        6,
+        12
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and CBs</color> gain 10 FP and 12 RLD.",
+    "group_id": 501,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -5785,40 +5812,35 @@
         12
       ]
     ],
-    "group_id": 501,
-    "name": "Tireless Warrior",
     "worth": 1,
-    "next": 0,
+    "id": 5011
+  },
+  "5021": {
+    "icon": "yifaruhun",
+    "name": "Soulful Warrior",
     "add": [
       [
         1,
         [],
         [
-          2,
-          3,
-          18
+          4,
+          5
         ],
         2,
-        10
+        15
       ],
       [
-        1,
+        3,
         [],
-        [
-          2,
-          3,
-          18
-        ],
-        6,
-        12
+        [],
+        45010,
+        0
       ]
     ],
-    "cost": 0
-  },
-  "5021": {
-    "id": 5021,
-    "icon": "yifaruhun",
+    "next": 0,
     "desc": "Your <color=#3dc6ff>BBs and BCs</color> gain 15 FP and 3.0% Main Gun Crit Rate.",
+    "group_id": 502,
+    "cost": 0,
     "add_desc": [
       [
         "BBs: FP",
@@ -5839,59 +5861,12 @@
         "%"
       ]
     ],
-    "group_id": 502,
-    "name": "Soulful Warrior",
     "worth": 1,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          4,
-          5
-        ],
-        2,
-        15
-      ],
-      [
-        3,
-        [],
-        [],
-        45010,
-        0
-      ]
-    ],
-    "cost": 0
+    "id": 5021
   },
   "5031": {
-    "id": 5031,
     "icon": "shuileihun",
-    "desc": "Your <color=#3dc6ff>DDs and CLs</color> gain 15 TRP and 3.0% Torpedo Crit Rate.",
-    "add_desc": [
-      [
-        "DDs: TRP",
-        15
-      ],
-      [
-        "CLs: TRP",
-        15
-      ],
-      [
-        "DDs: Torp Crit Rate",
-        3,
-        "%"
-      ],
-      [
-        "CLs: Torp Crit Rate",
-        3,
-        "%"
-      ]
-    ],
-    "group_id": 503,
     "name": "Heart of the Torpedo",
-    "worth": 1,
-    "next": 0,
     "add": [
       [
         1,
@@ -5913,26 +5888,36 @@
         0
       ]
     ],
-    "cost": 0
-  },
-  "5041": {
-    "id": 5041,
-    "icon": "wangpaijishi",
-    "desc": "Your <color=#3dc6ff>CVs</color> gain 15 AVI and 8 RLD.",
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>DDs and CLs</color> gain 15 TRP and 3.0% Torpedo Crit Rate.",
+    "group_id": 503,
+    "cost": 0,
     "add_desc": [
       [
-        "CVs: AVI",
+        "DDs: TRP",
         15
       ],
       [
-        "CVs: RLD",
-        8
+        "CLs: TRP",
+        15
+      ],
+      [
+        "DDs: Torp Crit Rate",
+        3,
+        "%"
+      ],
+      [
+        "CLs: Torp Crit Rate",
+        3,
+        "%"
       ]
     ],
-    "group_id": 504,
-    "name": "Ace Pilot",
     "worth": 1,
-    "next": 0,
+    "id": 5031
+  },
+  "5041": {
+    "icon": "wangpaijishi",
+    "name": "Ace Pilot",
     "add": [
       [
         1,
@@ -5953,26 +5938,26 @@
         8
       ]
     ],
-    "cost": 0
-  },
-  "5051": {
-    "id": 5051,
-    "icon": "langqunzhishou",
-    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 15 TRP and 8 RLD.",
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>CVs</color> gain 15 AVI and 8 RLD.",
+    "group_id": 504,
+    "cost": 0,
     "add_desc": [
       [
-        "SSs & SSVs: TRP",
+        "CVs: AVI",
         15
       ],
       [
-        "SSs & SSVs: RLD",
+        "CVs: RLD",
         8
       ]
     ],
-    "group_id": 505,
-    "name": "Alpha Wolf",
     "worth": 1,
-    "next": 0,
+    "id": 5041
+  },
+  "5051": {
+    "icon": "langqunzhishou",
+    "name": "Alpha Wolf",
     "add": [
       [
         1,
@@ -5995,17 +5980,26 @@
         8
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>SSs and SSVs</color> gain 15 TRP and 8 RLD.",
+    "group_id": 505,
+    "cost": 0,
+    "add_desc": [
+      [
+        "SSs & SSVs: TRP",
+        15
+      ],
+      [
+        "SSs & SSVs: RLD",
+        8
+      ]
+    ],
+    "worth": 1,
+    "id": 5051
   },
   "5061": {
-    "id": 5061,
     "icon": "special_exp",
-    "desc": "This Meowfficer gains 10.0% more EXP from battles.",
-    "add_desc": [],
-    "group_id": 506,
     "name": "Rising Star",
-    "worth": 1,
-    "next": 0,
     "add": [
       [
         2,
@@ -6015,17 +6009,17 @@
         1000
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "This Meowfficer gains 10.0% more EXP from battles.",
+    "group_id": 506,
+    "cost": 0,
+    "add_desc": [],
+    "worth": 1,
+    "id": 5061
   },
   "5071": {
-    "id": 5071,
     "icon": "special_exp",
-    "desc": "This Meowfficer gives 10.0% more EXP when used as Enhancement Material.",
-    "add_desc": [],
-    "group_id": 507,
     "name": "Best Friend",
-    "worth": 1,
-    "next": 0,
     "add": [
       [
         2,
@@ -6035,22 +6029,17 @@
         1000
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "This Meowfficer gives 10.0% more EXP when used as Enhancement Material.",
+    "group_id": 507,
+    "cost": 0,
+    "add_desc": [],
+    "worth": 1,
+    "id": 5071
   },
   "5081": {
-    "id": 5081,
     "icon": "special_one",
-    "desc": "Your whole fleet gains 3 Speed.",
-    "add_desc": [
-      [
-        "Speed",
-        3
-      ]
-    ],
-    "group_id": 508,
     "name": "Wind's Alacrity",
-    "worth": 1,
-    "next": 0,
     "add": [
       [
         1,
@@ -6060,34 +6049,22 @@
         3
       ]
     ],
-    "cost": 0
-  },
-  "5091": {
-    "id": 5091,
-    "icon": "special_one",
-    "desc": "Your whole fleet gains 15 AA and ASW as well as 3 Accuracy and EVA.",
+    "next": 0,
+    "desc": "Your whole fleet gains 3 Speed.",
+    "group_id": 508,
+    "cost": 0,
     "add_desc": [
       [
-        "AA",
-        15
-      ],
-      [
-        "ASW",
-        15
-      ],
-      [
-        "Accuracy",
-        3
-      ],
-      [
-        "EVA",
+        "Speed",
         3
       ]
     ],
-    "group_id": 509,
-    "name": "Forest's Serenity",
     "worth": 1,
-    "next": 0,
+    "id": 5081
+  },
+  "5091": {
+    "icon": "special_one",
+    "name": "Forest's Serenity",
     "add": [
       [
         1,
@@ -6118,23 +6095,34 @@
         3
       ]
     ],
-    "cost": 0
-  },
-  "5101": {
-    "id": 5101,
-    "icon": "special_one",
-    "desc": "Your whole fleet deals 3.0% more DMG.",
+    "next": 0,
+    "desc": "Your whole fleet gains 15 AA and ASW as well as 3 Accuracy and EVA.",
+    "group_id": 509,
+    "cost": 0,
     "add_desc": [
       [
-        "DMG dealt",
-        3,
-        "%"
+        "AA",
+        15
+      ],
+      [
+        "ASW",
+        15
+      ],
+      [
+        "Accuracy",
+        3
+      ],
+      [
+        "EVA",
+        3
       ]
     ],
-    "group_id": 510,
-    "name": "Flame's Aggression",
     "worth": 1,
-    "next": 0,
+    "id": 5091
+  },
+  "5101": {
+    "icon": "special_one",
+    "name": "Flame's Aggression",
     "add": [
       [
         3,
@@ -6144,23 +6132,23 @@
         0
       ]
     ],
-    "cost": 0
-  },
-  "5111": {
-    "id": 5111,
-    "icon": "special_one",
-    "desc": "Your whole fleet takes 3.0% less DMG.",
+    "next": 0,
+    "desc": "Your whole fleet deals 3.0% more DMG.",
+    "group_id": 510,
+    "cost": 0,
     "add_desc": [
       [
-        "DMG taken",
-        -3,
+        "DMG dealt",
+        3,
         "%"
       ]
     ],
-    "group_id": 511,
-    "name": "Mountain's Tenacity",
     "worth": 1,
-    "next": 0,
+    "id": 5101
+  },
+  "5111": {
+    "icon": "special_one",
+    "name": "Mountain's Tenacity",
     "add": [
       [
         3,
@@ -6170,22 +6158,23 @@
         0
       ]
     ],
-    "cost": 0
-  },
-  "5121": {
-    "id": 5121,
-    "icon": "special_one",
-    "desc": "Your whole fleet gains 5 LCK.",
+    "next": 0,
+    "desc": "Your whole fleet takes 3.0% less DMG.",
+    "group_id": 511,
+    "cost": 0,
     "add_desc": [
       [
-        "LCK",
-        5
+        "DMG taken",
+        -3,
+        "%"
       ]
     ],
-    "group_id": 512,
-    "name": "Miracle",
     "worth": 1,
-    "next": 0,
+    "id": 5111
+  },
+  "5121": {
+    "icon": "special_one",
+    "name": "Miracle",
     "add": [
       [
         1,
@@ -6195,34 +6184,22 @@
         5
       ]
     ],
-    "cost": 0
-  },
-  "5131": {
-    "id": 5131,
-    "icon": "special_one",
-    "desc": "Your whole fleet gains 10 FP, TRP, and AVI, but loses 3 LCK.",
+    "next": 0,
+    "desc": "Your whole fleet gains 5 LCK.",
+    "group_id": 512,
+    "cost": 0,
     "add_desc": [
       [
-        "FP",
-        10
-      ],
-      [
-        "TRP",
-        10
-      ],
-      [
-        "AVI",
-        10
-      ],
-      [
         "LCK",
-        -3
+        5
       ]
     ],
-    "group_id": 513,
-    "name": "Destiny",
     "worth": 1,
-    "next": 0,
+    "id": 5121
+  },
+  "5131": {
+    "icon": "special_one",
+    "name": "Destiny",
     "add": [
       [
         1,
@@ -6253,30 +6230,34 @@
         10
       ]
     ],
-    "cost": 0
-  },
-  "5141": {
-    "id": 5141,
-    "icon": "special_one",
-    "desc": "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 25 FP.",
+    "next": 0,
+    "desc": "Your whole fleet gains 10 FP, TRP, and AVI, but loses 3 LCK.",
+    "group_id": 513,
+    "cost": 0,
     "add_desc": [
       [
-        "BBs: FP",
-        25
+        "FP",
+        10
       ],
       [
-        "BCs: FP",
-        25
+        "TRP",
+        10
       ],
       [
-        "IXMs: FP",
-        25
+        "AVI",
+        10
+      ],
+      [
+        "LCK",
+        -3
       ]
     ],
-    "group_id": 514,
-    "name": "Combat Ready",
     "worth": 1,
-    "next": 0,
+    "id": 5131
+  },
+  "5141": {
+    "icon": "special_one",
+    "name": "Combat Ready",
     "add": [
       [
         1,
@@ -6291,12 +6272,60 @@
         25
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 25 FP.",
+    "group_id": 514,
+    "cost": 0,
+    "add_desc": [
+      [
+        "BBs: FP",
+        25
+      ],
+      [
+        "BCs: FP",
+        25
+      ],
+      [
+        "IXMs: FP",
+        25
+      ]
+    ],
+    "worth": 1,
+    "id": 5141
   },
   "5151": {
-    "id": 5151,
     "icon": "special_one",
+    "name": "Hoist Sails!",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          23
+        ],
+        2,
+        10
+      ],
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18,
+          23
+        ],
+        9,
+        5
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, CBs, and IXVs</color> gain 10 FP and 5 EVA.",
+    "group_id": 515,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -6331,64 +6360,12 @@
         5
       ]
     ],
-    "group_id": 515,
-    "name": "Hoist Sails!",
     "worth": 1,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18,
-          23
-        ],
-        2,
-        10
-      ],
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18,
-          23
-        ],
-        9,
-        5
-      ]
-    ],
-    "cost": 0
+    "id": 5151
   },
   "5161": {
-    "id": 5161,
     "icon": "special_one",
-    "desc": "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 20 FP and your <color=#3dc6ff>CVs</color> gain 20 AVI.",
-    "add_desc": [
-      [
-        "BBs: FP",
-        20
-      ],
-      [
-        "BCs: FP",
-        20
-      ],
-      [
-        "IXMs: FP",
-        20
-      ],
-      [
-        "CVs: AVI",
-        20
-      ]
-    ],
-    "group_id": 516,
     "name": "Ready for Battle",
-    "worth": 1,
-    "next": 0,
     "add": [
       [
         1,
@@ -6411,30 +6388,34 @@
         20
       ]
     ],
-    "cost": 0
-  },
-  "5171": {
-    "id": 5171,
-    "icon": "special_one",
-    "desc": "Your <color=#3dc6ff>CVs</color> gain 10 AVI and RLD and your <color=#3dc6ff>IXs</color> gain 15 FP.",
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 20 FP and your <color=#3dc6ff>CVs</color> gain 20 AVI.",
+    "group_id": 516,
+    "cost": 0,
     "add_desc": [
       [
+        "BBs: FP",
+        20
+      ],
+      [
+        "BCs: FP",
+        20
+      ],
+      [
+        "IXMs: FP",
+        20
+      ],
+      [
         "CVs: AVI",
-        10
-      ],
-      [
-        "CVs: RLD",
-        10
-      ],
-      [
-        "IXs: FP",
-        15
+        20
       ]
     ],
-    "group_id": 517,
-    "name": "A Bold Challenge",
     "worth": 1,
-    "next": 0,
+    "id": 5161
+  },
+  "5171": {
+    "icon": "special_one",
+    "name": "A Bold Challenge",
     "add": [
       [
         1,
@@ -6466,12 +6447,58 @@
         15
       ]
     ],
-    "cost": 0
+    "next": 0,
+    "desc": "Your <color=#3dc6ff>CVs</color> gain 10 AVI and RLD and your <color=#3dc6ff>IXs</color> gain 15 FP.",
+    "group_id": 517,
+    "cost": 0,
+    "add_desc": [
+      [
+        "CVs: AVI",
+        10
+      ],
+      [
+        "CVs: RLD",
+        10
+      ],
+      [
+        "IXs: FP",
+        15
+      ]
+    ],
+    "worth": 1,
+    "id": 5171
   },
   "5181": {
-    "id": 5181,
     "icon": "special_one",
+    "name": "Hoist Sails Again",
+    "add": [
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          23
+        ],
+        2,
+        10
+      ],
+      [
+        1,
+        [],
+        [
+          2,
+          3,
+          18
+        ],
+        6,
+        10
+      ]
+    ],
+    "next": 0,
     "desc": "Your <color=#3dc6ff>CLs, CAs, and IXVs</color> gain 10 FP and 10 RLD.",
+    "group_id": 518,
+    "cost": 0,
     "add_desc": [
       [
         "CLs: FP",
@@ -6498,35 +6525,8 @@
         10
       ]
     ],
-    "group_id": 518,
-    "name": "Hoist Sails Again",
     "worth": 1,
-    "next": 0,
-    "add": [
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          23
-        ],
-        2,
-        10
-      ],
-      [
-        1,
-        [],
-        [
-          2,
-          3,
-          18
-        ],
-        6,
-        10
-      ]
-    ],
-    "cost": 0
+    "id": 5181
   },
   "all": [
     101,

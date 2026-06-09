@@ -1,4 +1,9 @@
 {
+  "name": "2023俾斯麦Z活动 侵蚀等级2 不良效果",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +15,11 @@
           "bisimaiztihuan"
         ],
         "buff_id": 200405,
-        "maxTargetNumber": 0,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -23,24 +28,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 200404,
         "ship_tag_list": [
           "bisimaiztihuan"
         ],
+        "buff_id": 200404,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200403,
-  "name": "2023俾斯麦Z活动 侵蚀等级2 不良效果",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

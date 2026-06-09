@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "防空降低",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": -300
       }
     },
     {
@@ -21,13 +26,8 @@
       }
     }
   ],
-  "desc": "防空降低",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 17921,
-  "name": "",
-  "init_effect": "",
   "id": 17921,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

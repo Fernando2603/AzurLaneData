@@ -1,4 +1,9 @@
 {
+  "name": "2025拉斐尔活动 新EX模式我方判定更改",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,24 +12,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 201263,
         "ship_tag_list": [
           "sinkSecond"
         ],
+        "buff_id": 201263,
         "check_target": [
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201261,
-  "name": "2025拉斐尔活动 新EX模式我方判定更改",
-  "init_effect": "",
   "id": 201261,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

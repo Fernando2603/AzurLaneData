@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,26 +21,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 109350,
+        "minTargetNumber": 1,
+        "time": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "elfadd"
-        ],
-        "time": 1,
-        "skill_id": 109350
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 109350,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 109350,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

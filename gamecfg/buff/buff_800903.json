@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,28 +18,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.3,
-        "check_target": [
-          "TargetPlayerVanguardFleet",
-          "TargetShipTag"
-        ],
+        "skill_id": 800901,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "HATA"
         ],
-        "skill_id": 800901
+        "check_target": [
+          "TargetPlayerVanguardFleet",
+          "TargetShipTag"
+        ],
+        "hpUpperBound": 0.3,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 800900,
   "id": 800903,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

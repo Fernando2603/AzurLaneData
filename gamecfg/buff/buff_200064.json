@@ -1,46 +1,22 @@
 {
+  "name": "2022武藏活动 天晴浪高 敌我双方所有战列、战巡单位炮击与机动提升，驱逐舰单位炮击与机动减少",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHarm",
-          "TargetShipType"
-        ],
-        "buff_id": 200065,
         "ship_type_list": [
           4,
           5
-        ]
-      }
-    },
-    {
-      "trigger": [],
-      "type": "BattleBuffField",
-      "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipType"
         ],
         "buff_id": 200065,
-        "ship_type_list": [
-          4,
-          5
-        ]
-      }
-    },
-    {
-      "trigger": [],
-      "type": "BattleBuffField",
-      "arg_list": {
         "target": [
           "TargetAllHarm",
           "TargetShipType"
-        ],
-        "buff_id": 200066,
-        "ship_type_list": [
-          1
         ]
       }
     },
@@ -48,23 +24,47 @@
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
+        "ship_type_list": [
+          4,
+          5
+        ],
+        "buff_id": 200065,
         "target": [
           "TargetAllHelp",
           "TargetShipType"
-        ],
-        "buff_id": 200066,
+        ]
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
         "ship_type_list": [
           1
+        ],
+        "buff_id": 200066,
+        "target": [
+          "TargetAllHarm",
+          "TargetShipType"
+        ]
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "ship_type_list": [
+          1
+        ],
+        "buff_id": 200066,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
         ]
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200064,
-  "name": "2022武藏活动 天晴浪高 敌我双方所有战列、战巡单位炮击与机动提升，驱逐舰单位炮击与机动减少",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

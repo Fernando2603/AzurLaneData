@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,24 +18,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 110161,
-        "target": "TargetSelf",
         "deathCause": [
           1,
           3,
           4,
           5
-        ]
+        ],
+        "skill_id": 110161,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "死亡时报告",
-  "picture": "",
-  "icon": 110160,
-  "name": "",
+  "time": 0,
   "init_effect": "murasaki_marked",
+  "last_effect": "Darkness",
+  "icon": 110160,
   "id": 110163,
   "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "desc": "死亡时报告"
 }

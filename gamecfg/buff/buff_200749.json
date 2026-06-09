@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023关岛活动EX 二阶段召唤物3 消失倒计时",
+  "picture": "",
+  "desc": "",
+  "time": 4,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           200745,
           200747,
@@ -26,7 +29,8 @@
             0.66,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -45,8 +49,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "immuneMaxAreaLimit"
+        "attr": "immuneMaxAreaLimit",
+        "number": 1
       }
     },
     {
@@ -60,13 +64,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200749,
-  "name": "2023关岛活动EX 二阶段召唤物3 消失倒计时",
-  "init_effect": "",
+  "color": "blue",
   "id": 200749,
-  "stack": 1,
-  "time": 4,
-  "last_effect": ""
+  "stack": 1
 }

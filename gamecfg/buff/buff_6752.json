@@ -1,4 +1,9 @@
 {
+  "name": "白鹰精英损管",
+  "picture": "",
+  "desc": "8s无敌后死亡",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +22,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 6752,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 6752
       }
     },
     {
@@ -42,20 +47,15 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 6752,
+  "id": 6752,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "8s无敌后死亡",
-  "picture": "",
-  "icon": 6752,
-  "name": "白鹰精英损管",
-  "init_effect": "jinengchufablue",
-  "id": 6752,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "装填号令",
+  "picture": "",
+  "desc": "15%的概率发动",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "rant": 2500,
         "skill_id": 2021,
-        "target": "TargetSelf",
-        "rant": 2500
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "15%的概率发动",
-  "picture": "",
+  "last_effect": "",
   "icon": 2020,
-  "name": "装填号令",
-  "init_effect": "",
+  "color": "red",
   "id": 2022,
-  "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  "stack": 1
 }

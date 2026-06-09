@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "勇者标枪亿万斩击",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200102,
         "quota": 1,
-        "time": 55
+        "time": 55,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200102,
-  "name": "勇者标枪亿万斩击",
-  "init_effect": "",
+  "color": "red",
   "id": 200102,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "光明之风",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +9,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 114110,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 114110
       }
     },
     {
@@ -18,20 +19,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 45,
-        "minTargetNumber": 1,
         "skill_id": 114111,
-        "check_target": "TargetHarmNearest"
+        "range": 45,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "每10秒，触发光明之风",
-  "picture": "",
-  "icon": 114110,
-  "name": "光明之风",
-  "init_effect": "",
-  "id": 114110,
-  "stack": 1,
   "time": 2,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 114110,
+  "id": 114110,
+  "color": "red",
+  "stack": 1,
+  "desc": "每10秒，触发光明之风"
 }

@@ -4,11 +4,11 @@
       "equip": [
         {
           "number": 5,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -22,11 +22,11 @@
       "equip": [
         {
           "number": 6.1,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -40,11 +40,11 @@
       "equip": [
         {
           "number": 7.2,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -58,11 +58,11 @@
       "equip": [
         {
           "number": 8.3,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -76,11 +76,11 @@
       "equip": [
         {
           "number": 9.4,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -94,11 +94,11 @@
       "equip": [
         {
           "number": 10.5,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -112,11 +112,11 @@
       "equip": [
         {
           "number": 11.6,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -130,11 +130,11 @@
       "equip": [
         {
           "number": 12.7,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -148,11 +148,11 @@
       "equip": [
         {
           "number": 13.8,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -166,11 +166,11 @@
       "equip": [
         {
           "number": 15,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -179,7 +179,8 @@
       ]
     }
   },
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -187,12 +188,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 19940,
+        "minWeaponNumber": 1,
         "type": [
           3
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -201,25 +202,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 19942,
+        "minWeaponNumber": 1,
         "type": [
           11
         ],
-        "skill_id": 19942,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 19940,
-  "name": "",
-  "init_effect": "",
-  "id": 19940,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 19940,
+  "id": 19940,
+  "color": "blue",
+  "stack": 1,
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 55,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,35 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "quota": 1,
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 60220,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "RyzaBoost"
         ],
-        "time": 40,
-        "skill_id": 60220
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 60221,
-        "ship_tag_list": [
-          "RyzaBoost"
-        ],
-        "maxTargetNumber": 0,
         "time": 40
       }
     },
@@ -45,26 +30,41 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "RyzaBoost"
+        ],
+        "skill_id": 60221,
+        "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
+        "time": 40
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 60222,
         "minTargetNumber": 1,
+        "time": 50,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
         "ship_tag_list": [
           "MOSHILU"
-        ],
-        "time": 50,
-        "skill_id": 60222
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60220,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60221,
-  "stack": 1,
-  "time": 55,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "黑亚利桑那 替换玩家原本拥有珍珠之泪的效果",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.01,
         "quota": 1,
-        "skill_id": 200201
+        "skill_id": 200201,
+        "hpUpperBound": 0.01,
+        "target": "TargetSelf"
       }
     },
     {
@@ -40,21 +44,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 200208,
         "ship_tag_list": [
           "ArizonaMETA"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200201,
-  "name": "黑亚利桑那 替换玩家原本拥有珍珠之泪的效果",
-  "init_effect": "",
+  "color": "red",
   "id": 200201,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "自爆船冲撞自杀buff-我方支援",
+  "picture": "",
+  "desc": "自爆船冲撞自杀buff-我方支援",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 100,
-        "minTargetNumber": 1,
         "skill_id": 8002,
-        "check_target": "TargetHarmNearest"
+        "range": 100,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1
       }
     },
     {
@@ -23,13 +28,8 @@
       }
     }
   ],
-  "desc": "自爆船冲撞自杀buff-我方支援",
-  "picture": "",
+  "last_effect": "",
   "icon": 200847,
-  "name": "自爆船冲撞自杀buff-我方支援",
-  "init_effect": "",
   "id": 200847,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

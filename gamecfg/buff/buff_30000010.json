@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "超重",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,22 +22,18 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
+        "add": 0,
+        "mul": -5000,
         "group": {
           "level": 10,
           "id": 300
-        },
-        "mul": -5000,
-        "add": 0
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8661,
-  "name": "超重",
-  "init_effect": "",
+  "color": "yellow",
   "id": 30000010,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

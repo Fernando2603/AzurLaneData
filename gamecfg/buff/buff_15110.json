@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15110,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 15110
       }
     },
     {
@@ -27,13 +28,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 15113,
         "nationality": 5,
+        "buff_id": 15113,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -42,11 +43,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 3,
         "index": [
           1
         ],
-        "countType": 15110,
-        "countTarget": 3
+        "countType": 15110
       }
     },
     {
@@ -55,9 +56,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 15111,
         "countType": 15110,
-        "skill_id": 15111
+        "target": "TargetSelf"
       }
     },
     {
@@ -66,20 +67,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 15112,
         "countType": 15110,
-        "skill_id": 15112
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15110,
   "id": 15110,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

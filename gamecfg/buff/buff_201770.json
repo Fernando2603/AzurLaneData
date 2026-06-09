@@ -1,4 +1,8 @@
 {
+  "id": 201770,
+  "name": "2026伯利欣根活动 神光之网 子弹命中效果",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": -3
+        "add": -3,
+        "mul": 0
       }
     },
     {
@@ -18,16 +22,12 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -1000,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -1000
       }
     }
   ],
-  "id": 201770,
-  "name": "2026伯利欣根活动 神光之网 子弹命中效果",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 20,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

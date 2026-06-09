@@ -1,4 +1,9 @@
 {
+  "name": "绝地反击",
+  "picture": "",
+  "desc": "每堆叠1层，伤害、装填提高5%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 500
       }
     },
     {
@@ -18,19 +23,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.05
       }
     }
   ],
-  "desc": "每堆叠1层，伤害、装填提高5%",
   "limit": [],
-  "picture": "",
+  "last_effect": "",
   "icon": 47,
-  "name": "绝地反击",
-  "init_effect": "",
   "id": 47,
-  "stack": 5,
-  "time": 0,
-  "last_effect": ""
+  "stack": 5
 }

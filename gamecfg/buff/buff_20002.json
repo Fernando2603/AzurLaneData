@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "中型/重型主炮开火时有几率发动，额外进行一轮攻击",
     "effect_list": [
       {
         "trigger": [
@@ -7,15 +8,16 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 20002,
           "time": 1,
-          "rant": 10000
+          "rant": 10000,
+          "skill_id": 20002,
+          "target": "TargetSelf"
         }
       }
-    ],
-    "desc": "中型/重型主炮开火时有几率发动，额外进行一轮攻击"
+    ]
   },
+  "name": "主炮连射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -23,20 +25,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 20002,
         "time": 1,
-        "rant": 10000
+        "rant": 10000,
+        "skill_id": 20002,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 1,
-  "name": "主炮连射",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 1,
   "id": 20002,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

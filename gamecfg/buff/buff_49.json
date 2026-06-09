@@ -1,4 +1,9 @@
 {
+  "name": "竞技场我方加成",
+  "picture": "",
+  "desc": "减少20%受到伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "injureRatio",
-        "number": -0.2
+        "number": -0.2,
+        "target": "TargetSelf"
       }
     },
     {
@@ -17,20 +22,15 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
         "attr": "injureRatioByAir",
-        "number": -0.2
+        "number": -0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "减少20%受到伤害",
   "limit": [],
-  "picture": "",
+  "last_effect": "",
   "icon": 49,
-  "name": "竞技场我方加成",
-  "init_effect": "",
   "id": 49,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,16 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "ship_tag_list": [
+          "QE"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 60331,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60331,
-        "ship_tag_list": [
-          "QE"
-        ]
+        "quota": 1
       }
     },
     {
@@ -25,16 +29,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "ship_tag_list": [
+          "QE"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 60333,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60333,
-        "ship_tag_list": [
-          "QE"
-        ]
+        "quota": 1
       }
     },
     {
@@ -43,16 +47,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 60334,
+        "minTargetNumber": 1,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "QE"
-        ],
-        "skill_id": 60334
+        ]
       }
     },
     {
@@ -61,26 +65,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "QE"
+        ],
+        "buff_id": 60335,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 60335,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "QE"
-        ]
+        "quota": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60330,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60330,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

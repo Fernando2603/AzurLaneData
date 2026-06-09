@@ -1,4 +1,9 @@
 {
+  "name": "2024鲁梅活动 剧情战触发 希佩尔弹幕",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201220,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201220
       }
     },
     {
@@ -16,21 +21,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 201221,
         "ship_tag_list": [
           "sign"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201220,
-  "name": "2024鲁梅活动 剧情战触发 希佩尔弹幕",
-  "init_effect": "",
   "id": 201220,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

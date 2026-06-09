@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "巡洋-战术-炮击III具体效果",
+  "picture": "",
+  "desc": "巡洋-战术-炮击III",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "cannonPower",
         "convertRate": 1.2,
-        "ability": "tactic",
-        "convertAttr": "cannonPower"
+        "ability": "tactic"
       }
     }
   ],
-  "desc": "巡洋-战术-炮击III",
-  "picture": "",
+  "last_effect": "",
   "icon": 422130,
-  "name": "巡洋-战术-炮击III具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 422131,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

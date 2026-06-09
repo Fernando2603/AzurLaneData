@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "每5秒回复6点耐久，同类效果取最大值，不可叠加",
     "effect_list": [
       {
         "trigger": [
@@ -7,21 +8,22 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "targetMaxHPRatio": 0.99,
+          "skill_id": 10,
           "group": {
             "level": 1,
             "id": 10
           },
-          "check_target": "TargetHelpLeastHP",
           "minTargetNumber": 1,
-          "skill_id": 10,
+          "target": "TargetSelf",
           "time": 5,
-          "target": "TargetSelf"
+          "check_target": "TargetHelpLeastHP",
+          "targetMaxHPRatio": 0.99
         }
       }
-    ],
-    "desc": "每5秒回复6点耐久，同类效果取最大值，不可叠加"
+    ]
   },
+  "name": "维修Lv1",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -29,26 +31,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "targetMaxHPRatio": 0.99,
+        "skill_id": 10,
         "group": {
           "level": 1,
           "id": 10
         },
-        "check_target": "TargetHelpLeastHP",
         "minTargetNumber": 1,
-        "skill_id": 10,
+        "target": "TargetSelf",
         "time": 5,
-        "target": "TargetSelf"
+        "check_target": "TargetHelpLeastHP",
+        "targetMaxHPRatio": 0.99
       }
     }
   ],
-  "desc": "每5秒回复6点耐久，同类效果取最大值，不可叠加",
-  "picture": "",
-  "icon": 10,
-  "name": "维修Lv1",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "Health",
+  "icon": 10,
   "id": 10,
   "stack": 1,
-  "time": 0,
-  "last_effect": "Health"
+  "desc": "每5秒回复6点耐久，同类效果取最大值，不可叠加"
 }

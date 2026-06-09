@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "天恩浑仪",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60919,
         "ship_tag_list": [
           "Yumia"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 60919,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60910,
-  "name": "天恩浑仪",
-  "init_effect": "",
+  "color": "red",
   "id": 60910,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

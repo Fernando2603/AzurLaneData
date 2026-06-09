@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "回复效果",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,19 +18,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 1,
-        "skill_id": 16140
+        "skill_id": 16140,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "回复效果",
-  "picture": "",
-  "icon": 16140,
-  "name": "回复效果",
+  "time": 8,
   "init_effect": "",
+  "last_effect": "Health",
+  "icon": 16140,
   "id": 16143,
   "stack": 1,
-  "time": 8,
-  "last_effect": "Health"
+  "desc": "回复效果"
 }

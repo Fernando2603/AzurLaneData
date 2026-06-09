@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2022美系活动 空间净化系统",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "meixi2_saomiao",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200244,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200244
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 3.1,
-        "skill_id": 200245
+        "skill_id": 200245,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200245,
-  "name": "2022美系活动 空间净化系统",
-  "init_effect": "meixi2_saomiao",
+  "color": "yellow",
   "id": 200245,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

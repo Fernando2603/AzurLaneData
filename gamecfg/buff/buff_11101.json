@@ -1,4 +1,9 @@
 {
+  "name": "约克公爵1技能",
+  "picture": "",
+  "desc": "6s减速",
+  "time": 6,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +13,13 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -4000,
-        "add": 0
+        "add": 0,
+        "mul": -4000
       }
     }
   ],
-  "desc": "6s减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 11101,
-  "name": "约克公爵1技能",
-  "init_effect": "",
   "id": 11101,
-  "stack": 1,
-  "time": 6,
-  "last_effect": "Darkness"
+  "stack": 1
 }

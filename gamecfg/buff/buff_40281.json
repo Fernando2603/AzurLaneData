@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "旗舰减伤",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrCommander",
       "arg_list": {
+        "convertAttr": "injureRatio",
         "convertRate": -0.00022,
-        "ability": "command",
-        "convertAttr": "injureRatio"
+        "ability": "command"
       }
     }
   ],
-  "desc": "旗舰减伤",
-  "picture": "",
+  "last_effect": "",
   "icon": 40280,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40281,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

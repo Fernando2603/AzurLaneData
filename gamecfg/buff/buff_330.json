@@ -1,4 +1,9 @@
 {
+  "name": "额外命中下降",
+  "picture": "",
+  "desc": "",
+  "time": 4,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.3,
-        "attr": "accuracyRateExtra"
+        "attr": "accuracyRateExtra",
+        "number": -0.3
       }
     },
     {
@@ -17,10 +22,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 331,
         "time": 2,
-        "quota": 1
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,13 +40,8 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 330,
-  "name": "额外命中下降",
-  "init_effect": "",
   "id": 330,
-  "stack": 1,
-  "time": 4,
-  "last_effect": "Darkness"
+  "stack": 1
 }

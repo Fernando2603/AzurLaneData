@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "航母-指挥-航空II+航母-指挥-装填II具体效果",
+  "picture": "",
+  "desc": "战列-炮击-指挥I+战列-命中-指挥II",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "airPower",
         "convertRate": 0.8,
-        "ability": "command",
-        "convertAttr": "airPower"
+        "ability": "command"
       }
     },
     {
@@ -18,19 +22,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "loadSpeed",
         "convertRate": 0.8,
-        "ability": "command",
-        "convertAttr": "loadSpeed"
+        "ability": "command"
       }
     }
   ],
-  "desc": "战列-炮击-指挥I+战列-命中-指挥II",
-  "picture": "",
+  "last_effect": "",
   "icon": 40111,
-  "name": "航母-指挥-航空II+航母-指挥-装填II具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40111,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

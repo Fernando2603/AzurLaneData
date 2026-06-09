@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 600001,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "tingzhixingdong"
         ],
-        "skill_id": 600001
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -34,15 +35,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 600000,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "huifu1"
         ],
-        "skill_id": 600000
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -51,15 +52,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 600000,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "huifu2"
         ],
-        "skill_id": 600000
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -68,15 +69,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 600000,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "huifu3"
         ],
-        "skill_id": 600000
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -89,13 +90,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 600000,
-  "name": "",
-  "init_effect": "",
-  "id": 600000,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 600000,
+  "id": 600000,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

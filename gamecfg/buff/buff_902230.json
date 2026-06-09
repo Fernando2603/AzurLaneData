@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "飓风的加护",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": -0.15
       }
     },
     {
@@ -17,18 +21,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 902230,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 902230
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 902230,
-  "name": "飓风的加护",
-  "init_effect": "",
+  "color": "blue",
   "id": 902230,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

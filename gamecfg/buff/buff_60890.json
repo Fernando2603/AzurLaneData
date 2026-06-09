@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "神药球",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60899,
         "ship_tag_list": [
           "Yumia"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 60899,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60890,
-  "name": "神药球",
-  "init_effect": "",
+  "color": "red",
   "id": 60890,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

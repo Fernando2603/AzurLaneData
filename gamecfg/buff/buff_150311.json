@@ -29,6 +29,8 @@
   "10": {
     "time": 10
   },
+  "name": "彩虹计划改",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,9 +39,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 150311,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 150311
       }
     },
     {
@@ -49,9 +51,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 150311,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 150311
       }
     },
     {
@@ -65,20 +67,18 @@
       }
     }
   ],
+  "time": 5,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 150311,
+  "id": 150311,
+  "stack": 1,
+  "desc": "完全闪避",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "完全闪避",
-  "picture": "",
-  "icon": 150311,
-  "name": "彩虹计划改",
-  "init_effect": "jinengchufablue",
-  "id": 150311,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  ]
 }

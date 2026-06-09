@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "黑声望二阶段跨射lv3",
+  "picture": "",
+  "desc": "",
+  "time": 60,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 200049,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 200049,
-        "time": 2,
-        "rant": 10000
+        "rant": 10000,
+        "time": 2
       }
     },
     {
@@ -20,21 +24,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 200049,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 200049,
-        "time": 17,
-        "rant": 10000
+        "rant": 10000,
+        "time": 17
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200049,
-  "name": "黑声望二阶段跨射lv3",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200049,
-  "stack": 1,
-  "time": 60,
-  "last_effect": ""
+  "stack": 1
 }

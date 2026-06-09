@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "黑声望蓄力主炮 失败次数监听",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 200039
+        "countType": 200039,
+        "countTarget": 2
       }
     },
     {
@@ -18,9 +22,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200040,
-        "countType": 200039
+        "countType": 200039,
+        "target": "TargetSelf"
       }
     },
     {
@@ -56,18 +60,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.15
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200039,
-  "name": "黑声望蓄力主炮 失败次数监听",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200039,
-  "stack": 99,
-  "time": 0,
-  "last_effect": ""
+  "stack": 99
 }

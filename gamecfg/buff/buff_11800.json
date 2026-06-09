@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "克敌机先",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,21 +27,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 4,
-        "buff_id": 11802,
         "nationality": 3,
-        "check_target": "TargetNationalityFriendly"
+        "buff_id": 11802,
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 4
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 11800,
   "id": 11800,
-  "name": "克敌机先",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "地狱立方体",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60907,
         "ship_tag_list": [
           "Yumia"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 60907,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60900,
-  "name": "地狱立方体",
-  "init_effect": "",
+  "color": "red",
   "id": 60900,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

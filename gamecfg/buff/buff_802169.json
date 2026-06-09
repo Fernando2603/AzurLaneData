@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -19,8 +22,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 802162
+        "countType": 802162,
+        "countTarget": 2
       }
     },
     {
@@ -30,8 +33,8 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 802167,
-        "quota": 1,
-        "countType": 802162
+        "countType": 802162,
+        "quota": 1
       }
     },
     {
@@ -41,8 +44,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 802163
+        "countType": 802163,
+        "countTarget": 3
       }
     },
     {
@@ -52,8 +55,8 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 802166,
-        "quota": 1,
-        "countType": 802163
+        "countType": 802163,
+        "quota": 1
       }
     },
     {
@@ -66,12 +69,9 @@
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 802160,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 802169,
-  "stack": 3,
-  "time": 0,
-  "last_effect": ""
+  "stack": 3
 }

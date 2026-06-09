@@ -1,4 +1,9 @@
 {
+  "name": "穿甲对重甲破甲",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,24 +12,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "target": "TargetSelf",
         "armor_type": 3,
+        "buff_id": 401,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 401,
-        "target": "TargetSelf"
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 400,
-  "name": "穿甲对重甲破甲",
-  "init_effect": "",
   "id": 400,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -14,6 +14,8 @@
   "13": [],
   "14": [],
   "15": [],
+  "name": "黑基洛夫BOSS战 本体召唤BUFF",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -22,8 +24,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.6,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.6
       }
     },
     {
@@ -32,8 +34,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200701,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200701
       }
     },
     {
@@ -42,8 +44,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200702,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200702
       }
     },
     {
@@ -52,9 +54,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200707,
-        "time": 0.2
+        "time": 0.2,
+        "target": "TargetSelf"
       }
     },
     {
@@ -63,19 +65,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200708,
-        "time": 0.2
+        "time": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 200702,
-  "name": "黑基洛夫BOSS战 本体召唤BUFF",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 200702,
   "id": 200702,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

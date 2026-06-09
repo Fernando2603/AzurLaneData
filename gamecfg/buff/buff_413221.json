@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "驱逐-后勤-雷击II具体效果",
+  "picture": "",
+  "desc": "驱逐-后勤-雷击II",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "torpedoPower",
         "convertRate": 0.8,
-        "ability": "support",
-        "convertAttr": "torpedoPower"
+        "ability": "support"
       }
     }
   ],
-  "desc": "驱逐-后勤-雷击II",
-  "picture": "",
+  "last_effect": "",
   "icon": 413220,
-  "name": "驱逐-后勤-雷击II具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 413221,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

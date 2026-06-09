@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "高额减伤",
+  "time": 10,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +13,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -1
       }
     },
     {
@@ -18,26 +23,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 2,
-        "skill_id": 999981
+        "skill_id": 999981,
+        "target": "TargetSelf"
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "DEF",
+  "icon": 999982,
+  "id": 999982,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "高额减伤",
-  "picture": "",
-  "icon": 999982,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 999982,
-  "stack": 1,
-  "time": 10,
-  "last_effect": "DEF"
+  ]
 }

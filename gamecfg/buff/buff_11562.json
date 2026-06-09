@@ -7,15 +7,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00072,
             "base": 35,
-            "max": 0.05,
-            "rate": 0.00072
-          }
+            "max": 0.05
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -28,15 +28,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00085,
             "base": 35,
-            "max": 0.061,
-            "rate": 0.00085
-          }
+            "max": 0.061
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -49,15 +49,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00096,
             "base": 35,
-            "max": 0.072,
-            "rate": 0.00096
-          }
+            "max": 0.072
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -70,15 +70,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00109,
             "base": 35,
-            "max": 0.083,
-            "rate": 0.00109
-          }
+            "max": 0.083
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -91,15 +91,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.0012,
             "base": 35,
-            "max": 0.094,
-            "rate": 0.0012
-          }
+            "max": 0.094
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -112,15 +112,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00133,
             "base": 35,
-            "max": 0.105,
-            "rate": 0.00133
-          }
+            "max": 0.105
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -133,15 +133,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00144,
             "base": 35,
-            "max": 0.116,
-            "rate": 0.00144
-          }
+            "max": 0.116
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -154,15 +154,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00154,
             "base": 35,
-            "max": 0.127,
-            "rate": 0.00154
-          }
+            "max": 0.127
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -175,15 +175,15 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00164,
             "base": 35,
-            "max": 0.138,
-            "rate": 0.00164
-          }
+            "max": 0.138
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
@@ -196,20 +196,21 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "index": [
-            1
-          ],
           "attr": "damageRatioBullet",
           "displacement_convert": {
+            "rate": 0.00175,
             "base": 35,
-            "max": 0.15,
-            "rate": 0.00175
-          }
+            "max": 0.15
+          },
+          "index": [
+            1
+          ]
         }
       }
     ]
   },
-  "color": "red",
+  "name": "2700磅的正义",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -217,32 +218,31 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "index": [
-          1
-        ],
         "attr": "damageRatioBullet",
         "displacement_convert": {
+          "rate": 0.00072,
           "base": 35,
-          "max": 0.05,
-          "rate": 0.00072
-        }
+          "max": 0.05
+        },
+        "index": [
+          1
+        ]
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 11560,
+  "id": 11561,
+  "stack": 1,
+  "color": "red",
+  "desc": "",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 11560,
-  "name": "2700磅的正义",
-  "init_effect": "jinengchufared",
-  "id": 11561,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "绝对回避",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,22 +18,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 4,
         "nationality": 1,
         "skill_id": 11660,
         "check_target": [
           "TargetNationalityFriendly"
-        ]
+        ],
+        "minTargetNumber": 4
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 11660,
-  "name": "绝对回避",
-  "init_effect": "",
-  "id": 11660,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 11660,
+  "id": 11660,
+  "color": "blue",
+  "stack": 1,
+  "desc": ""
 }

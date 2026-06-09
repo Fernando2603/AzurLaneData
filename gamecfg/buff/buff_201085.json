@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "2024天城航母活动 B3 赤城meta 自身无敌",
+  "last_effect": "ATdun",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 201086,
+        "target": "TargetAllHelp",
         "exceptCaster": true
       }
     },
@@ -52,19 +56,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201087,
-        "time": 0.2
+        "time": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "picture": "",
   "icon": 201085,
   "id": 201085,
-  "name": "2024天城航母活动 B3 赤城meta 自身无敌",
-  "init_effect": "",
-  "picture": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": "ATdun"
+  "last_effect_cld_scale": true
 }

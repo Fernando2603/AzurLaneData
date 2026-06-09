@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [],
@@ -36,11 +37,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 151630,
         "target": "TargetSelf",
         "quota": 3,
-        "skill_id": 151630,
-        "time": 5,
-        "rant": 1500
+        "rant": 1500,
+        "time": 5
       }
     },
     {
@@ -49,26 +50,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 151631,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Shiratsuyu_ava"
         ],
-        "skill_id": 151631
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 151630,
-  "name": "",
-  "init_effect": "",
-  "id": 151630,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 151630,
+  "id": 151630,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

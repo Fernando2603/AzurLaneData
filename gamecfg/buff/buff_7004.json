@@ -1,4 +1,9 @@
 {
+  "name": "旗舰光环特效",
+  "picture": "",
+  "desc": "旗舰光环特效",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "group": 0,
         "attr": "loadSpeed",
-        "number": 10000
+        "number": 10000,
+        "group": 0
       }
     },
     {
@@ -19,9 +24,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 0,
         "attr": "cannonPower",
-        "number": 200
+        "number": 200,
+        "group": 0
       }
     },
     {
@@ -31,9 +36,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 0,
         "attr": "torpedoPower",
-        "number": 200
+        "number": 200,
+        "group": 0
       }
     },
     {
@@ -43,9 +48,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 0,
         "attr": "airPower",
-        "number": 200
+        "number": 200,
+        "group": 0
       }
     },
     {
@@ -55,19 +60,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 0,
         "attr": "antiAirPower",
-        "number": 200
+        "number": 200,
+        "group": 0
       }
     }
   ],
-  "desc": "旗舰光环特效",
-  "picture": "",
+  "last_effect": "",
   "icon": 7004,
-  "name": "旗舰光环特效",
-  "init_effect": "",
   "id": 7004,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

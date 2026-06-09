@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "变身开始和10S时各发射一次鱼雷",
+  "time": 12,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 108415,
         "time": 10,
+        "skill_id": 108415,
         "initialCD": true
       }
     }
   ],
-  "desc": "变身开始和10S时各发射一次鱼雷",
-  "picture": "",
+  "last_effect": "bodongquan02",
   "icon": 108410,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 108415,
-  "stack": 1,
-  "time": 12,
-  "last_effect": "bodongquan02"
+  "stack": 1
 }

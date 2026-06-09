@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "黛朵",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.15,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.15
       }
     },
     {
@@ -17,18 +21,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.25,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.25
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8664,
-  "name": "黛朵",
-  "init_effect": "",
+  "color": "yellow",
   "id": 8664,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

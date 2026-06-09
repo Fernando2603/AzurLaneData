@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150027,
-        "fleetAttrDelta": ">0",
+        "fleetAttr": "Judgement=12",
         "quota": 1,
-        "fleetAttr": "Judgement=12"
+        "fleetAttrDelta": ">0",
+        "skill_id": 150027
       }
     },
     {
@@ -29,15 +30,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150021,
         "ship_tag_list": [
           "Fury"
         ],
-        "maxTargetNumber": 0,
+        "skill_id": 150021,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -55,25 +56,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150024,
         "ship_tag_list": [
           "Fury"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 150024,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 150020,
-  "name": "",
-  "init_effect": "",
-  "id": 150020,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 150020,
+  "id": 150020,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

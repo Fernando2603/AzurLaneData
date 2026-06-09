@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "燃油烟雾-VC",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "VittorioCuniberti"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 190021,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 190021,
-        "ship_tag_list": [
-          "VittorioCuniberti"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -43,13 +44,12 @@
       }
     }
   ],
-  "desc": "提高闪避",
-  "picture": "",
-  "icon": 190020,
-  "name": "燃油烟雾-VC",
-  "init_effect": "",
-  "id": 190020,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 190020,
+  "id": 190020,
+  "color": "blue",
+  "stack": 1,
+  "desc": "提高闪避"
 }

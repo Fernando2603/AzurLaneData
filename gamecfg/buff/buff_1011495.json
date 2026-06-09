@@ -1,6 +1,10 @@
 {
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 2,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,7 +12,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           1011491,
           1011492,
@@ -27,7 +30,8 @@
             0.666,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -45,16 +49,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1011498,
-        "time": 1.2
+        "time": 1.2,
+        "skill_id": 1011498
       }
     }
   ],
-  "picture": "",
-  "name": "",
-  "init_effect": "",
+  "last_effect": "",
   "id": 1011495,
-  "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "stack": 1
 }

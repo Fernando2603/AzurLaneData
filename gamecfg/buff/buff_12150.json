@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "最适化武装",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,14 +18,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 1012161,
+        "minWeaponNumber": 1,
         "weapon_group": [
           24000,
           24020,
           24040
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -33,13 +34,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 12173,
         "weapon_group": [
           24000,
           24020,
           24040
         ],
-        "check_weapon": true,
         "maxWeaponNumber": 0
       }
     },
@@ -49,27 +50,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "quota": 1,
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 12170,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "qiao5zhupao"
         ],
-        "skill_id": 12170
+        "quota": 1,
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12150,
   "id": 12150,
-  "name": "最适化武装",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

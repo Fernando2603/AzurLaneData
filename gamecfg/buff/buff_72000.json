@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "增伤",
+  "picture": "",
+  "desc": "伤害提高30%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.3,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.3
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 72000,
+  "color": "red",
+  "id": 72000,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "伤害提高30%",
-  "picture": "",
-  "icon": 72000,
-  "name": "增伤",
-  "init_effect": "",
-  "id": 72000,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -7,9 +7,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 200,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 200
+          "target": "TargetSelf"
         }
       }
     ]
@@ -22,9 +22,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 300,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 300
+          "target": "TargetSelf"
         }
       }
     ]
@@ -37,9 +37,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 400,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 400
+          "target": "TargetSelf"
         }
       }
     ]
@@ -52,9 +52,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 400,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 400
+          "target": "TargetSelf"
         }
       }
     ]
@@ -67,9 +67,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 500,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 500
+          "target": "TargetSelf"
         }
       }
     ]
@@ -82,9 +82,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 600,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 600
+          "target": "TargetSelf"
         }
       }
     ]
@@ -97,9 +97,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 700,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 700
+          "target": "TargetSelf"
         }
       }
     ]
@@ -112,9 +112,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 800,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 800
+          "target": "TargetSelf"
         }
       }
     ]
@@ -127,9 +127,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 900,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 900
+          "target": "TargetSelf"
         }
       }
     ]
@@ -142,13 +142,15 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
+          "rant": 1000,
           "skill_id": 801571,
-          "target": "TargetSelf",
-          "rant": 1000
+          "target": "TargetSelf"
         }
       }
     ]
   },
+  "name": "概率触发",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -156,26 +158,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "rant": 100,
         "skill_id": 801571,
-        "target": "TargetSelf",
-        "rant": 100
+        "target": "TargetSelf"
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 801570,
+  "id": 801571,
+  "stack": 1,
+  "desc": "",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 801570,
-  "name": "概率触发",
-  "init_effect": "jinengchufablue",
-  "id": 801571,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

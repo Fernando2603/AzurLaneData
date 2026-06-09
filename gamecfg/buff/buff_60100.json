@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,24 +11,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 2,
+        "buff_id": 60101,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60101,
-        "nationality": 2
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60100,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60100,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

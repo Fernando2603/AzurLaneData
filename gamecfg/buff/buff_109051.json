@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -19,15 +20,15 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "fleetAttr": "ReisalinAP>=10",
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "APSkillBoost"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 109050,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "APSkillBoost"
-        ]
+        "skill_id": 109050
       }
     },
     {
@@ -38,25 +39,24 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "fleetAttr": "ReisalinAP>=10",
+        "skill_id": 109055,
+        "minTargetNumber": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "APSkillBoost"
-        ],
-        "skill_id": 109055
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 109050,
-  "name": "",
-  "init_effect": "",
-  "id": 109051,
-  "stack": 1,
   "time": 3,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 109050,
+  "id": 109051,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

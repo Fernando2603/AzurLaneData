@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,16 +9,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "The-Four-Symbols"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 24011,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "The-Four-Symbols"
-        ]
+        "skill_id": 24011
       }
     },
     {
@@ -26,26 +27,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "The-Four-Symbols"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 24013,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 24013,
-        "ship_tag_list": [
-          "The-Four-Symbols"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 20000,
-  "name": "",
-  "init_effect": "",
-  "id": 24015,
-  "stack": 1,
   "time": 3,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 20000,
+  "id": 24015,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

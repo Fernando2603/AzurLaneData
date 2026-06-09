@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "晴岚",
+  "picture": "",
+  "desc": "空袭伤害上升",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.6,
-        "attr": "damageRatioByAir"
+        "attr": "damageRatioByAir",
+        "number": 0.6
       }
     }
   ],
-  "desc": "空袭伤害上升",
-  "picture": "",
+  "last_effect": "",
   "icon": 6371,
-  "name": "晴岚",
-  "init_effect": "",
+  "color": "red",
   "id": 6371,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

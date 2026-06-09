@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0.7,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,8 +22,8 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
-        "random_skill_tag": "YUMIAITEMSKILL"
+        "random_skill_tag": "YUMIAITEMSKILL",
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,15 +32,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112155,
         "ship_tag_list": [
           "Yumia_TimeCompression"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 112155,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -45,10 +49,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 65,
-        "skill_id": 112091,
         "maxTargetNumber": 0,
-        "check_target": "TargetHarmNearest"
+        "range": 65,
+        "check_target": "TargetHarmNearest",
+        "skill_id": 112091
       }
     },
     {
@@ -57,20 +61,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 65,
-        "minTargetNumber": 1,
         "skill_id": 112090,
-        "check_target": "TargetHarmNearest"
+        "range": 65,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 112090,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 112092,
-  "stack": 1,
-  "time": 0.7,
-  "last_effect": ""
+  "stack": 1
 }

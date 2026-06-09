@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +18,32 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "danyaokuifa"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 151160,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "danyaokuifa"
+        "skill_id": 151160
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_weapon": true,
+        "skill_id": 151163,
+        "minWeaponNumber": 1,
+        "type": [
+          3
+        ],
+        "index": [
+          1
         ]
       }
     },
@@ -35,43 +53,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "type": [
-          3
-        ],
-        "skill_id": 151163,
-        "index": [
-          1
-        ],
+        "check_weapon": true,
+        "skill_id": 151164,
         "minWeaponNumber": 1,
-        "check_weapon": true
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
         "type": [
           11
         ],
-        "skill_id": 151164,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 0.2,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151160,
   "id": 151160,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0.2,
-  "last_effect": ""
+  "desc": ""
 }

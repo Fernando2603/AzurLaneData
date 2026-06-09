@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "伤害提高",
+  "time": 8,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.5,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.5
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 800020,
+  "color": "red",
+  "id": 800022,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "伤害提高",
-  "picture": "",
-  "icon": 800020,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 800022,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "2020德系活动D3 构建者护盾",
+  "last_effect": "ATdun_full",
+  "desc": "AT·FIELD",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -11,14 +15,14 @@
       "type": "BattleBuffBarrier",
       "arg_list": {
         "cld_data": {
+          "box": {
+            "range": 28
+          },
           "offset": [
             0,
             4,
             0
-          ],
-          "box": {
-            "range": 28
-          }
+          ]
         },
         "durability": 12000
       }
@@ -39,18 +43,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8790,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8790
       }
     }
   ],
-  "desc": "AT·FIELD",
+  "picture": "",
   "icon": 8792,
   "id": 8792,
-  "name": "2020德系活动D3 构建者护盾",
-  "init_effect": "",
-  "picture": "",
   "stack": 1,
-  "time": 15,
-  "last_effect": "ATdun_full"
+  "last_effect_cld_scale": true
 }

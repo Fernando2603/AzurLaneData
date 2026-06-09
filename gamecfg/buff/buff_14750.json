@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,27 +28,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetDamageSource",
-          "TargetShipType"
-        ],
-        "buff_id": 14752,
         "ship_type_list": [
           1,
           20,
           21
+        ],
+        "buff_id": 14752,
+        "target": [
+          "TargetDamageSource",
+          "TargetShipType"
         ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 14750,
   "id": 14750,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

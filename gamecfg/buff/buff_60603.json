@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "提高炮击属性--效果减半",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 250,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 250
       }
     },
     {
@@ -33,20 +37,16 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 60600,
+  "color": "red",
+  "id": 60603,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高炮击属性--效果减半",
-  "picture": "",
-  "icon": 60600,
-  "name": "",
-  "init_effect": "",
-  "id": 60603,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  ]
 }

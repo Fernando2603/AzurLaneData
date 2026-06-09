@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [],
@@ -27,10 +28,10 @@
       ],
       "type": "BattleBuffFixRange",
       "arg_list": {
+        "bulletRange": 80,
         "index": [
           2
         ],
-        "bulletRange": 80,
         "weaponRange": 80
       }
     },
@@ -50,11 +51,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
+        "skill_id": 106321,
         "minTargetNumber": 2,
-        "nationality": 106,
         "time": 16,
-        "skill_id": 106321
+        "check_target": "TargetNationalityFriendly",
+        "nationality": 106
       }
     },
     {
@@ -63,21 +64,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
+        "maxTargetNumber": 1,
         "skill_id": 106322,
-        "nationality": 106,
         "time": 16,
-        "maxTargetNumber": 1
+        "check_target": "TargetNationalityFriendly",
+        "nationality": 106
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 106320,
-  "name": "",
-  "init_effect": "",
-  "id": 106320,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 106320,
+  "id": 106320,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

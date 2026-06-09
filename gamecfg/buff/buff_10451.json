@@ -29,6 +29,8 @@
   "10": {
     "time": 15
   },
+  "name": "最后的反击",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -47,9 +49,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 10451,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 10451
       }
     },
     {
@@ -63,20 +65,18 @@
       }
     }
   ],
+  "time": 5,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 10451,
+  "id": 10451,
+  "stack": 1,
+  "desc": "无敌",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "无敌",
-  "picture": "",
-  "icon": 10451,
-  "name": "最后的反击",
-  "init_effect": "jinengchufablue",
-  "id": 10451,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  ]
 }

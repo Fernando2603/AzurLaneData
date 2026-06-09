@@ -1,4 +1,9 @@
 {
+  "name": "克莱蒙梭活动剧情战 海洛特芬 前排大伤害+锁血",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 200559
+        "skill_id": 200559,
+        "target": "TargetSelf"
       }
     },
     {
@@ -36,21 +41,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 200565,
         "ship_tag_list": [
           "HiryuMETA"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200561,
-  "name": "克莱蒙梭活动剧情战 海洛特芬 前排大伤害+锁血",
-  "init_effect": "",
   "id": 200561,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "2024天城航母活动 B3 赤城meta 监听召唤物存活情况",
+  "picture": "",
+  "desc": "",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +12,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 201088,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "buff_id": 201088,
-        "maxTargetNumber": 0,
         "nationality": 3
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 201087,
-  "name": "2024天城航母活动 B3 赤城meta 监听召唤物存活情况",
-  "init_effect": "",
-  "picture": "",
-  "stack": 99,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 99
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "敌方道中战列 对全航母后排额外攻击",
+  "picture": "",
+  "desc": "",
+  "time": 2,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,24 +11,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "cloak": 0,
+        "maxTargetNumber": 0,
+        "skill_id": 50510,
         "check_target": [
           "TargetAllHarm",
           "TargetShipType",
           "TargetCloakState"
         ],
-        "skill_id": 50510,
-        "maxTargetNumber": 0
+        "cloak": 0
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 50510,
-  "name": "敌方道中战列 对全航母后排额外攻击",
-  "init_effect": "",
+  "color": "yellow",
   "id": 50511,
-  "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "stack": 1
 }

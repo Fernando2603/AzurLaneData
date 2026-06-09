@@ -1,4 +1,9 @@
 {
+  "name": "2023俾斯麦Z活动 侵蚀等级3",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,11 +23,11 @@
       "arg_list": {
         "nationality": 97,
         "buff_id": 200408,
-        "maxTargetNumber": 0,
         "check_target": [
           "TargetSelf",
           "TargetNationalityFriendly"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
@@ -31,22 +36,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 200409,
         "nationality": 97,
+        "buff_id": 200409,
         "check_target": [
           "TargetSelf",
           "TargetNationalityFriendly"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200406,
-  "name": "2023俾斯麦Z活动 侵蚀等级3",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

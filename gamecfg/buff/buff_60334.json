@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "伤害上升",
+  "time": 8,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -18,12 +23,12 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "skill_id": 60335,
-        "ship_tag_list": [
-          "QE"
-        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
+        ],
+        "ship_tag_list": [
+          "QE"
         ]
       }
     },
@@ -34,8 +39,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.03
       }
     },
     {
@@ -48,20 +53,15 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 60330,
+  "id": 60334,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "伤害上升",
-  "picture": "",
-  "icon": 60330,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 60334,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

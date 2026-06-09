@@ -1,4 +1,9 @@
 {
+  "name": "增援2",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,12 +11,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 999954,
         "ship_type_list": [
           3
         ],
         "maxTargetNumber": 0,
-        "check_target": "TargetShipTypeFriendly"
+        "check_target": "TargetShipTypeFriendly",
+        "skill_id": 999954
       }
     },
     {
@@ -20,21 +25,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 999955,
         "ship_type_list": [
           2
         ],
         "maxTargetNumber": 0,
-        "check_target": "TargetShipTypeFriendly"
+        "check_target": "TargetShipTypeFriendly",
+        "skill_id": 999955
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 999954,
-  "name": "增援2",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

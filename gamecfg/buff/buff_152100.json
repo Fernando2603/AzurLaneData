@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 152100,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 152100
       }
     },
     {
@@ -27,6 +28,28 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 152101
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "time": 15,
+        "skill_id": 152100,
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "time": 15,
         "skill_id": 152101,
         "target": "TargetSelf"
       }
@@ -35,52 +58,29 @@
       "trigger": [
         "onUpdate"
       ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "time": 15,
-        "skill_id": 152100
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "time": 15,
-        "skill_id": 152101
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "ship_tag_list": [
+          "bojiateliro_1"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 152102,
+        "isBuffStackByCheckTarget": true,
         "check_target": [
           "TargetEntityUnit",
           "TargetShipTag",
           "TargetAllHelp"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 152102,
-        "ship_tag_list": [
-          "bojiateliro_1"
-        ],
-        "isBuffStackByCheckTarget": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 152100,
   "id": 152100,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

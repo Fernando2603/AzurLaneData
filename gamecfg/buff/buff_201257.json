@@ -1,4 +1,9 @@
 {
+  "name": "2025拉斐尔活动 新EX模式我方判定",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 1,
-        "countType": 201258
+        "countType": 201258,
+        "countTarget": 1
       }
     },
     {
@@ -17,9 +22,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201258,
-        "countType": 201258
+        "countType": 201258,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,8 +34,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 201259
+        "countType": 201259,
+        "countTarget": 2
       }
     },
     {
@@ -39,19 +44,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201259,
-        "countType": 201259
+        "countType": 201259,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201257,
-  "name": "2025拉斐尔活动 新EX模式我方判定",
-  "init_effect": "",
   "id": 201257,
-  "stack": 3,
-  "time": 0,
-  "last_effect": ""
+  "stack": 3
 }

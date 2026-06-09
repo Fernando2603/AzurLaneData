@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "装填、命中降低",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -350,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": -350
       }
     },
     {
@@ -18,18 +23,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -350,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": -350
       }
     }
   ],
-  "desc": "装填、命中降低",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 60701,
-  "name": "",
-  "init_effect": "",
   "id": 60701,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

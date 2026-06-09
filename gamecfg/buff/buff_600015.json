@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "icon": 600015,
+  "id": 600015,
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.8,
-        "attr": "hammerDamageRatio"
+        "attr": "hammerDamageRatio",
+        "number": -0.8
       }
     },
     {
@@ -16,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.8,
-        "attr": "hammerDamagePrevent"
+        "attr": "hammerDamagePrevent",
+        "number": 0.8
       }
     },
     {
@@ -26,7 +31,59 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 600015,
+        "target": "TargetSelf",
+        "skill_id": 600015
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 600017,
+        "ship_tag_list": [
+          "Zhuazi_suodi"
+        ],
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
+        "quota": 1,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "time": 1.2
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "Zhuazi_mingzhong"
+        ],
+        "target": "TargetSelf",
+        "skill_id": 600016,
+        "quota": 1,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "time": 3.2
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "quota": 1,
+        "buff_id": 600016,
+        "time": 1.2,
         "target": "TargetSelf"
       }
     },
@@ -34,73 +91,16 @@
       "trigger": [
         "onUpdate"
       ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "quota": 1,
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "Zhuazi_suodi"
-        ],
-        "time": 1.2,
-        "skill_id": 600017
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "quota": 1,
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
-        "skill_id": 600016,
-        "ship_tag_list": [
-          "Zhuazi_mingzhong"
-        ],
-        "time": 3.2,
-        "maxTargetNumber": 0
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 600016,
-        "time": 1.2,
-        "quota": 1
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 600023,
         "time": 10.1,
-        "quota": 1
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "id": 600015,
-  "name": "",
-  "icon": 600015,
-  "picture": "",
+  "last_effect": "",
   "stack": 1,
-  "time": 10.3,
-  "last_effect": ""
+  "time": 10.3
 }

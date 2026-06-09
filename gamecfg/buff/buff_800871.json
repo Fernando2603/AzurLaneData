@@ -1,4 +1,9 @@
 {
+  "name": "起火",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "cloakExpose": 36,
-        "exposeGroup": 1,
-        "dotType": 1,
-        "number": 186,
         "attr": "cannonPower",
+        "exposeGroup": 1,
+        "cloakExpose": 36,
+        "k": 0,
         "time": 1.5,
-        "k": 0
+        "dotType": 1,
+        "number": 186
       }
     },
     {
@@ -21,8 +26,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 60
       }
     },
     {
@@ -31,8 +36,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 61,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 61
       }
     },
     {
@@ -41,18 +46,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 800871,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 800871
       }
     }
   ],
-  "desc": "持续伤害",
-  "picture": "",
+  "last_effect": "aierjiliya_zihuoanrao",
   "icon": 800871,
-  "name": "起火",
-  "init_effect": "",
   "id": 800871,
-  "stack": 1,
-  "time": 8,
-  "last_effect": "aierjiliya_zihuoanrao"
+  "stack": 1
 }

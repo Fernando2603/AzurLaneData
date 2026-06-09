@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,16 +19,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 17964,
         "ship_tag_list": [
           "flood"
-        ]
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 17964,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -37,16 +38,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 17964,
         "ship_tag_list": [
           "crack"
-        ]
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 17964,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -56,26 +57,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "ignited"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 17964,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 17964,
-        "ship_tag_list": [
-          "ignited"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 17960,
-  "name": "",
-  "init_effect": "",
-  "id": 17965,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 17960,
+  "id": 17965,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

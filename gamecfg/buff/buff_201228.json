@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "2024鲁梅活动 EX 希佩尔支援",
+  "last_effect": "kalvbudisi_xuanwo",
+  "desc": "",
+  "time": 0,
+  "init_effect": "xipeier_meta_sign",
   "effect_list": [
     {
       "trigger": [
@@ -21,9 +25,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 0.1,
-        "skill_id": 201228
+        "skill_id": 201228,
+        "target": "TargetSelf"
       }
     },
     {
@@ -32,18 +36,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201226,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201226
       }
     }
   ],
-  "desc": "",
+  "picture": "",
   "icon": 201228,
   "id": 201228,
-  "name": "2024鲁梅活动 EX 希佩尔支援",
-  "init_effect": "xipeier_meta_sign",
-  "picture": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": "kalvbudisi_xuanwo"
+  "last_effect_cld_scale": true
 }

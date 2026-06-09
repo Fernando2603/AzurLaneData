@@ -1,4 +1,9 @@
 {
+  "name": "克莱蒙梭活动剧情战 克莱蒙梭剧情战迪贝路空袭总控BUFF",
+  "picture": "",
+  "desc": "",
+  "time": 6,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +12,10 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "skill_id": 200561,
-        "target": "TargetShipTag",
         "ship_tag_list": [
           "BOSS"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     },
     {
@@ -29,21 +34,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 200568,
         "ship_tag_list": [
           "M2"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200564,
-  "name": "克莱蒙梭活动剧情战 克莱蒙梭剧情战迪贝路空袭总控BUFF",
-  "init_effect": "",
   "id": 200564,
-  "stack": 1,
-  "time": 6,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "北风2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,11 +28,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 10,
         "index": [
           2
         ],
-        "countType": 19180,
-        "countTarget": 10
+        "countType": 19180
       }
     },
     {
@@ -40,20 +41,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 19180,
         "countType": 19180,
-        "skill_id": 19180
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19180,
   "id": 19180,
-  "name": "北风2",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

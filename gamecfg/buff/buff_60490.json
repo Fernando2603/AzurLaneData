@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,16 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 60496,
+        "minTargetNumber": 1,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "Senran"
-        ],
-        "skill_id": 60496
+        ]
       }
     },
     {
@@ -25,26 +29,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 60490,
+        "minTargetNumber": 1,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "Senran"
-        ],
-        "skill_id": 60490
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60490,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60490,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

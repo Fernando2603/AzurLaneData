@@ -1,4 +1,9 @@
 {
+  "name": "克莱蒙梭debuff",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -500
       }
     },
     {
@@ -18,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -500
       }
     },
     {
@@ -29,18 +34,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": -500
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 16970,
-  "name": "克莱蒙梭debuff",
-  "init_effect": "",
   "id": 16979,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

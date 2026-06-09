@@ -1,4 +1,9 @@
 {
+  "name": "2023海盗活动 EX逃课机制",
+  "picture": "",
+  "desc": "",
+  "time": 4,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 200643,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "buff_id": 200643,
-        "maxTargetNumber": 0,
         "nationality": [
           0,
           1,
@@ -48,8 +53,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200642,
         "quota": 1,
+        "skill_id": 200642,
         "time": 1
       }
     },
@@ -59,19 +64,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200643,
         "quota": 1,
+        "skill_id": 200643,
         "time": 3.5
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200642,
-  "name": "2023海盗活动 EX逃课机制",
-  "init_effect": "",
   "id": 200642,
-  "stack": 1,
-  "time": 4,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,8 @@
 {
+  "id": 201780,
+  "name": "2026伯利欣根活动 EX 转阶段",
+  "picture": "",
+  "last_effect": "bossbomb",
   "effect_list": [
     {
       "trigger": [
@@ -27,8 +31,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8692,
-        "target": "TargetHarmFarthest"
+        "target": "TargetHarmFarthest",
+        "skill_id": 8692
       }
     },
     {
@@ -47,16 +51,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.8,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.8
       }
     }
   ],
-  "id": 201780,
-  "name": "2026伯利欣根活动 EX 转阶段",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 3,
-  "last_effect": "bossbomb"
+  "stack": 1,
+  "init_effect": ""
 }

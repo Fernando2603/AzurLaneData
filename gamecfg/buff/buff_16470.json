@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -28,14 +29,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 16470,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "CV",
           "DB"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -43,12 +44,12 @@
         "ship_tag_list": [
           "AirDominance_lower"
         ],
-        "buff_id": 16473,
         "maxTargetNumber": 0,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "buff_id": 16473
       },
       "trigger": [
         "onStartGame"
@@ -57,14 +58,13 @@
       "pop": []
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16470,
   "id": 16470,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,4 +1,9 @@
 {
+  "name": "章节火力支援",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78000,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78000,
-        "time": 8,
-        "rant": 10000
+        "rant": 10000,
+        "time": 8
       }
     },
     {
@@ -19,11 +24,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78000,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78000,
-        "time": 28,
-        "rant": 10000
+        "rant": 10000,
+        "time": 28
       }
     },
     {
@@ -32,21 +37,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 78000,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 78000,
-        "time": 48,
-        "rant": 10000
+        "rant": 10000,
+        "time": 48
       }
     }
   ],
-  "desc": "持续伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 8833,
-  "name": "章节火力支援",
-  "init_effect": "",
   "id": 78001,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "日常关卡技能无效,全弹强化",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 14
+        "add": 14,
+        "mul": 0
       }
     },
     {
@@ -17,21 +21,17 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.8,
         "attr": "damageRatioBullet",
         "index": [
           -1
-        ]
+        ],
+        "number": 0.8
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 3500,
-  "name": "日常关卡技能无效,全弹强化",
-  "init_effect": "",
+  "color": "yellow",
   "id": 3500,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023关岛活动A3 第五类威胁-强 无差别攻击弹幕",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200727,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200727
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 200727
+        "skill_id": 200727,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200727,
-  "name": "2023关岛活动A3 第五类威胁-强 无差别攻击弹幕",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200727,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

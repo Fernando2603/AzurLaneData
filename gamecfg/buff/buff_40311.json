@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "战列受到炮击减伤,+装填",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddAttrCommander",
       "arg_list": {
+        "convertAttr": "injureRatioByCannon",
         "convertRate": -0.00025,
-        "ability": "support",
-        "convertAttr": "injureRatioByCannon"
+        "ability": "support"
       }
     },
     {
@@ -18,19 +22,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "loadSpeed",
         "convertRate": 0.8,
-        "ability": "support",
-        "convertAttr": "loadSpeed"
+        "ability": "support"
       }
     }
   ],
-  "desc": "战列受到炮击减伤,+装填",
-  "picture": "",
+  "last_effect": "",
   "icon": 40310,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40311,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

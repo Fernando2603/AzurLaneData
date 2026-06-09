@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "潜艇-指挥-机动II具体效果",
+  "picture": "",
+  "desc": "潜艇-指挥-机动II",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "dodgeRate",
         "convertRate": 0.8,
-        "ability": "command",
-        "convertAttr": "dodgeRate"
+        "ability": "command"
       }
     }
   ],
-  "desc": "潜艇-指挥-机动II",
-  "picture": "",
+  "last_effect": "",
   "icon": 451921,
-  "name": "潜艇-指挥-机动II具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 451921,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

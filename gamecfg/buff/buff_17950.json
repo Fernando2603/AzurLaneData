@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 17950,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "FFNF"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -54,13 +55,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 17950,
-  "name": "",
-  "init_effect": "",
-  "id": 17950,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 17950,
+  "id": 17950,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

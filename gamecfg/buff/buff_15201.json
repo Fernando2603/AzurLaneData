@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "点燃抗性处理",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1500,
-        "attr": "igniteReduce"
+        "attr": "igniteReduce",
+        "number": 1500
       }
     },
     {
@@ -17,25 +21,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 3,
-        "attr": "igniteShorten"
+        "attr": "igniteShorten",
+        "number": 3
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 15200,
+  "color": "red",
+  "id": 15201,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "点燃抗性处理",
-  "picture": "",
-  "icon": 15200,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 15201,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

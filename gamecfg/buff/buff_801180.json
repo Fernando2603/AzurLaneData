@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 801180
+        "skill_id": 801180,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,21 +29,20 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "CRI_TAG_EHC_MetaVampireskill",
         "index": [
           801180
-        ]
+        ],
+        "number": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 801180,
-  "name": "",
-  "init_effect": "",
-  "id": 801180,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 801180,
+  "id": 801180,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

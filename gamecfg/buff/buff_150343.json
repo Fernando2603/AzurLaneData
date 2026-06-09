@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,11 +28,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150342,
-        "target": "TargetSelf",
         "effectAttachData": [
           "BattleBuffShield<=0"
-        ]
+        ],
+        "skill_id": 150342,
+        "target": "TargetSelf"
       }
     },
     {
@@ -39,21 +41,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150343,
-        "target": "TargetSelf",
         "effectAttachData": [
           "BattleBuffShield>0"
-        ]
+        ],
+        "skill_id": 150343,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "护盾",
-  "picture": "",
-  "icon": 150341,
-  "name": "",
+  "time": 5,
   "init_effect": "",
+  "last_effect": "Shield",
+  "icon": 150341,
   "id": 150342,
   "stack": 1,
-  "time": 5,
-  "last_effect": "Shield"
+  "desc": "护盾"
 }

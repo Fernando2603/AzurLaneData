@@ -1,4 +1,9 @@
 {
+  "name": "序章欧根旋转盾",
+  "picture": "",
+  "desc": "序章欧根旋转盾",
+  "time": 99999,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countType": 7037,
         "countTarget": 3,
+        "countType": 7037,
         "shieldBuffID": 7033
       }
     },
@@ -17,20 +22,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 7037,
         "countType": 7037,
-        "rant": 10000
+        "buff_id": 7037,
+        "rant": 10000,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "序章欧根旋转盾",
-  "picture": "",
+  "last_effect": "",
   "icon": 7036,
-  "name": "序章欧根旋转盾",
-  "init_effect": "",
   "id": 7036,
-  "stack": 1,
-  "time": 99999,
-  "last_effect": ""
+  "stack": 1
 }

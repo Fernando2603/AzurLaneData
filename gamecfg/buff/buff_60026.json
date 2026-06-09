@@ -1,4 +1,9 @@
 {
+  "name": "测试-伊丽莎白-链接",
+  "picture": "",
+  "desc": "女王号令-友军链接",
+  "time": 0,
+  "init_effect": "ATK",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffLink",
       "arg_list": {
-        "target": "TargetTemplate",
         "buff_id": 60027,
-        "targetTemplateID": 20501
+        "targetTemplateID": 20501,
+        "target": "TargetTemplate"
       }
     }
   ],
-  "desc": "女王号令-友军链接",
-  "picture": "",
+  "last_effect": "",
   "icon": 60026,
-  "name": "测试-伊丽莎白-链接",
-  "init_effect": "ATK",
   "id": 60026,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

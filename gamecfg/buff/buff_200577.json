@@ -1,4 +1,9 @@
 {
+  "name": "2023黑神通 开场根据敌方阵营个数提升自身属性",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,14 +11,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 1,
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": 1
+        "target": "TargetSelf"
       }
     },
     {
@@ -22,14 +27,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 2,
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": 2
+        "target": "TargetSelf"
       }
     },
     {
@@ -38,14 +43,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 3,
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": 3
+        "target": "TargetSelf"
       }
     },
     {
@@ -54,14 +59,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 4,
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": 4
+        "target": "TargetSelf"
       }
     },
     {
@@ -70,14 +75,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 5,
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": 5
+        "target": "TargetSelf"
       }
     },
     {
@@ -86,14 +91,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 6,
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": 6
+        "target": "TargetSelf"
       }
     },
     {
@@ -102,14 +107,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 7,
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": 7
+        "target": "TargetSelf"
       }
     },
     {
@@ -118,18 +123,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetNationality"
-        ],
         "minTargetNumber": 1,
-        "buff_id": 200578,
         "nationality": [
           8,
           9,
           10
-        ]
+        ],
+        "buff_id": 200578,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetNationality"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -138,16 +143,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetNationality"
-        ],
         "minTargetNumber": 1,
-        "buff_id": 200578,
         "nationality": [
           97
-        ]
+        ],
+        "buff_id": 200578,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetNationality"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -156,26 +161,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": [
+          96
+        ],
+        "buff_id": 200578,
         "check_target": [
           "TargetAllHarm",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200578,
-        "nationality": [
-          96
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200577,
-  "name": "2023黑神通 开场根据敌方阵营个数提升自身属性",
-  "init_effect": "",
   "id": 200577,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

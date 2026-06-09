@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2023俾斯麦Z活动 一阶段革律翁被击破 本体进入二阶段",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 200442,
+        "target": "TargetAllHelp",
         "exceptCaster": true
       }
     },
@@ -18,18 +22,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200439,
-        "time": 0.2
+        "time": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "2023俾斯麦Z活动 一阶段革律翁被击破 本体进入二阶段",
-  "init_effect": "",
+  "last_effect": "",
+  "color": "red",
   "id": 200441,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

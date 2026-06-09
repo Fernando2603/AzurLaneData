@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2023古立特联动复刻 TSS3 新条茜 怪兽变身",
+  "picture": "",
+  "desc": "",
+  "time": 12,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +21,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200502,
-        "time": 1
+        "time": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,8 +32,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200488,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200488
       }
     },
     {
@@ -52,14 +56,14 @@
       "type": "BattleBuffBarrier",
       "arg_list": {
         "cld_data": {
+          "box": {
+            "range": 28
+          },
           "offset": [
             0,
             4,
             0
-          ],
-          "box": {
-            "range": 28
-          }
+          ]
         },
         "durability": 80000
       }
@@ -70,17 +74,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200489,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200489
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "2023古立特联动复刻 TSS3 新条茜 怪兽变身",
-  "init_effect": "",
+  "last_effect": "",
+  "color": "red",
   "stack": 1,
-  "id": 200501,
-  "time": 12,
-  "last_effect": ""
+  "id": 200501
 }

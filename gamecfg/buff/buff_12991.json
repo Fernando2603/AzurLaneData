@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "塔什干2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,25 +18,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 12991,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "SN",
           "DD",
           "MG"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "检查装备",
-  "picture": "",
-  "icon": 12990,
-  "name": "塔什干2",
-  "init_effect": "",
-  "id": 12991,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12990,
+  "id": 12991,
+  "color": "red",
+  "stack": 1,
+  "desc": "检查装备"
 }

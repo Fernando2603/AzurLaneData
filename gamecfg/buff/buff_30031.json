@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行24次攻击，触发专属弹幕"
   },
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 30030,
         "index": [
           1
         ],
-        "countType": 30030,
-        "countTarget": 24,
-        "gunnerBonus": true
+        "countTarget": 24
       }
     },
     {
@@ -24,20 +25,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30031,
         "countType": 30030,
-        "skill_id": 30031
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行24次攻击，触发专属弹幕",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行24次攻击，触发专属弹幕",
+  "last_effect": "",
   "icon": 30030,
   "id": 30031,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行24次攻击，触发专属弹幕"
 }

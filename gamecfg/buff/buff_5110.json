@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "航空辅助",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 5111,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 5111
       }
     },
     {
@@ -27,12 +28,12 @@
       ],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetShipTypeFriendly",
-        "buff_id": 5112,
         "ship_type_list": [
           6,
           7
         ],
+        "buff_id": 5112,
+        "target": "TargetShipTypeFriendly",
         "exceptCaster": true
       }
     },
@@ -47,14 +48,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 5110,
   "id": 5110,
-  "name": "航空辅助",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

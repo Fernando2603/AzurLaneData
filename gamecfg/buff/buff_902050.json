@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "制空战术",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "killer": "child",
+        "countTarget": 5,
         "countType": 902050,
-        "countTarget": 5
+        "killer": "child"
       }
     },
     {
@@ -18,20 +22,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 902050,
         "countType": 902050,
         "quota": 1,
+        "skill_id": 902050,
         "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 902050,
-  "name": "制空战术",
-  "init_effect": "",
+  "color": "red",
   "id": 902050,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

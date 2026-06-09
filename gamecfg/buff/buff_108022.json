@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,28 +18,28 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 108020,
         "ship_tag_list": [
           "GRIDUP2"
         ],
-        "maxTargetNumber": 0,
+        "skill_id": 108020,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "maxTargetNumber": 0
       }
     },
     {
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 108023,
         "ship_tag_list": [
           "GRIDUP2"
         ],
+        "buff_id": 108023,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       },
       "trigger": [
         "onAttach"
@@ -47,13 +48,12 @@
       "pop": []
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 108020,
-  "name": "",
-  "init_effect": "",
-  "id": 108022,
-  "stack": 1,
   "time": 10,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 108020,
+  "id": 108022,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

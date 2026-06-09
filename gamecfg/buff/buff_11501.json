@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "time": 1,
         "skill_id": 11501,
         "index": [
           1
         ],
-        "time": 1,
         "lowerBound": 1
       }
     },
@@ -21,23 +25,19 @@
       ],
       "type": "BattleBuffCleanse",
       "arg_list": {
-        "index": [
-          1
-        ],
+        "upperBound": 0,
         "buff_id_list": [
           11502
         ],
-        "upperBound": 0
+        "index": [
+          1
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 11500,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 11501,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "优米雅 武技对中重根据敌人远近选择",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +12,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 65,
-        "skill_id": 112136,
         "maxTargetNumber": 0,
-        "check_target": "TargetHarmNearest"
+        "range": 65,
+        "check_target": "TargetHarmNearest",
+        "skill_id": 112136
       }
     },
     {
@@ -20,20 +25,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 65,
-        "minTargetNumber": 1,
         "skill_id": 112137,
-        "check_target": "TargetHarmNearest"
+        "range": 65,
+        "check_target": "TargetHarmNearest",
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "优米雅 武技对中重根据敌人远近选择",
-  "picture": "",
+  "last_effect": "",
   "icon": 112110,
-  "name": "",
-  "init_effect": "",
   "id": 112135,
-  "stack": 2,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 2
 }

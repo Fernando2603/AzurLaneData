@@ -9,40 +9,41 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 19680,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "qiershazhiqijian"
         ],
-        "skill_id": 19680
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       },
       "trigger": [
         "onAttach"
       ],
       "type": "BattleBuffCastSkill",
       "pop": {
+        "painting": 1,
         "castCV": "skill",
         "displayID": 19684,
-        "painting": 1,
-        "trigger": [
-          "onAttach"
-        ],
         "aniEffect": {
-          "effect": "jineng",
           "offset": [
             0,
             -2,
             0
-          ]
-        }
+          ],
+          "effect": "jineng"
+        },
+        "trigger": [
+          "onAttach"
+        ]
       }
     },
     {
@@ -51,16 +52,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 19684,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "qiershazhishangliaojian"
         ],
-        "skill_id": 19684
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -69,27 +70,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 19685,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "qiershazhixialiaojian"
         ],
-        "skill_id": 19685
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19687,
   "id": 19687,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "desc": ""
 }

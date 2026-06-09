@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,29 +18,28 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_type_list": [
+          2
+        ],
+        "minTargetNumber": 1,
+        "nationality": 2,
+        "buff_id": 15923,
         "check_target": [
           "TargetSelf",
           "TargetShipType",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 15923,
-        "ship_type_list": [
-          2
-        ],
-        "nationality": 2
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15922,
   "id": 15922,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

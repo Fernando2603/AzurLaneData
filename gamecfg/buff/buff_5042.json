@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "照明弹",
+  "picture": "",
+  "desc": "每隔20秒，有概率使用照明弹",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 5043,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每隔20秒，有概率使用照明弹",
-  "picture": "",
+  "last_effect": "",
   "icon": 5040,
-  "name": "照明弹",
-  "init_effect": "",
+  "color": "yellow",
   "id": 5042,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

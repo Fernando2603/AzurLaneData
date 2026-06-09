@@ -14,6 +14,8 @@
   "13": [],
   "14": [],
   "15": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,26 +23,24 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "shuipingdead"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 600112,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 600112,
-        "ship_tag_list": [
-          "shuipingdead"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 600111,
-  "name": "",
+  "time": 0.1,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 600111,
   "id": 600111,
   "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "desc": ""
 }

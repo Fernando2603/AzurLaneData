@@ -1,4 +1,9 @@
 {
+  "name": "测试-随机技能-缩小射线-缩小",
+  "picture": "",
+  "desc": "缩小射线",
+  "time": 7,
+  "init_effect": "Darkness",
   "effect_list": [
     {
       "trigger": [
@@ -17,19 +22,14 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "group": 60041,
         "mul": -6000,
-        "add": 0
+        "add": 0,
+        "group": 60041
       }
     }
   ],
-  "desc": "缩小射线",
-  "picture": "",
+  "last_effect": "",
   "icon": 60041,
-  "name": "测试-随机技能-缩小射线-缩小",
-  "init_effect": "Darkness",
   "id": 60041,
-  "stack": 1,
-  "time": 7,
-  "last_effect": ""
+  "stack": 1
 }

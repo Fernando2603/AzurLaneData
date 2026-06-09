@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "航速提高",
+  "picture": "",
+  "desc": "航速提高30%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 3000,
-        "add": 0
+        "add": 0,
+        "mul": 3000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 59100,
+  "color": "red",
+  "id": 59100,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "航速提高30%",
-  "picture": "",
-  "icon": 59100,
-  "name": "航速提高",
-  "init_effect": "",
-  "id": 59100,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

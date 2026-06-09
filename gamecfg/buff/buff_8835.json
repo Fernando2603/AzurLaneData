@@ -1,4 +1,9 @@
 {
+  "name": "metaboss保底伤害",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 16,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "metaDot": true,
         "time": 3,
         "tagOnly": [
           "BOSS"
-        ]
+        ],
+        "metaDot": true
       }
     }
   ],
-  "desc": "持续伤害",
-  "picture": "",
+  "last_effect": "heifangzhou_ranshao",
   "icon": 8835,
-  "name": "metaboss保底伤害",
-  "init_effect": "",
   "id": 8835,
-  "stack": 1,
-  "time": 16,
-  "last_effect": "heifangzhou_ranshao"
+  "stack": 1
 }

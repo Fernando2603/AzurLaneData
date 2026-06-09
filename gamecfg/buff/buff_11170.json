@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "牙买加技能",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,27 +19,26 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "starget": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Sheffield"
         ],
         "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
         "skill_id": 11170
       }
     }
   ],
-  "desc": "与谢菲尔德同时出击时，炮击、雷击提升",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "与谢菲尔德同时出击时，炮击、雷击提升",
+  "last_effect": "",
   "icon": 11170,
   "id": 11170,
-  "name": "牙买加技能",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "与谢菲尔德同时出击时，炮击、雷击提升"
 }

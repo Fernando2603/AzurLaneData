@@ -1,4 +1,9 @@
 {
+  "name": "2024匹兹堡活动 X半影 次数盾 打破",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +22,8 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 200999,
+        "target": "TargetAllHelp",
         "exceptCaster": true
       }
     },
@@ -28,18 +33,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200998,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200998
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200998,
-  "name": "2024匹兹堡活动 X半影 次数盾 打破",
-  "init_effect": "",
   "id": 200998,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

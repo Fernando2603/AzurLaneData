@@ -1,4 +1,9 @@
 {
+  "name": "进水9秒",
+  "picture": "",
+  "desc": "vt-18进水持续伤害",
+  "time": 9,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,28 +11,23 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipType"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 327,
         "ship_type_list": [
           4,
           5,
           10
-        ]
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 327,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "vt-18进水持续伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 326,
-  "name": "进水9秒",
-  "init_effect": "",
   "id": 326,
-  "stack": 1,
-  "time": 9,
-  "last_effect": ""
+  "stack": 1
 }

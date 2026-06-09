@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 6,
         "index": [
           1
         ],
-        "countType": 29980,
-        "countTarget": 6
+        "countType": 29980
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29982,
         "countType": 29980,
-        "skill_id": 29982
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "DD主炮每进行6次攻击，触发专属弹幕-斯库拉II",
-  "picture": "",
-  "icon": 29980,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29983,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29980,
+  "id": 29983,
+  "color": "red",
+  "stack": 1,
+  "desc": "DD主炮每进行6次攻击，触发专属弹幕-斯库拉II"
 }

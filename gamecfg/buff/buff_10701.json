@@ -7,8 +7,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1500,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1500
         }
       }
     ]
@@ -21,8 +21,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1610,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1610
         }
       }
     ]
@@ -35,8 +35,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1720,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1720
         }
       }
     ]
@@ -49,8 +49,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1830,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1830
         }
       }
     ]
@@ -63,8 +63,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1940,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1940
         }
       }
     ]
@@ -77,8 +77,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2050,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 2050
         }
       }
     ]
@@ -91,8 +91,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2160,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 2160
         }
       }
     ]
@@ -105,8 +105,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2270,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 2270
         }
       }
     ]
@@ -119,8 +119,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2380,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 2380
         }
       }
     ]
@@ -133,12 +133,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2500,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 2500
         }
       }
     ]
   },
+  "name": "破交作战",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -146,25 +148,23 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 1500
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 10701,
+  "id": 10701,
+  "stack": 1,
+  "desc": "炮击提高",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "炮击提高",
-  "picture": "",
-  "icon": 10701,
-  "name": "破交作战",
-  "init_effect": "jinengchufared",
-  "id": 10701,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

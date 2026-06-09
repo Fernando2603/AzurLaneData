@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "标记",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,25 +21,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 112169,
+        "minTargetNumber": 1,
         "armor_type": 1,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "skill_id": 112169
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "标记",
-  "picture": "",
+  "last_effect": "",
   "icon": 112110,
-  "name": "",
-  "init_effect": "",
   "id": 112169,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

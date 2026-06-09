@@ -1,4 +1,9 @@
 {
+  "name": "2022意大利活动 飞空战舰支援D面",
+  "picture": "",
+  "desc": "己方战斗中得到跨射炮击弹幕支援",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200005,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200005
       }
     },
     {
@@ -16,19 +21,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 200005,
         "time": 20,
-        "rant": 10000
+        "rant": 10000,
+        "skill_id": 200005,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "己方战斗中得到跨射炮击弹幕支援",
+  "last_effect": "",
   "id": 200005,
-  "name": "2022意大利活动 飞空战舰支援D面",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

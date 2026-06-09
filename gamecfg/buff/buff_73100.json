@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "时间叠加增益",
+  "picture": "",
+  "desc": "特殊效果用例,登场后,每10秒提升自己的全属性10%,最高5层",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 73101,
-        "time": 10
+        "time": 10,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "特殊效果用例,登场后,每10秒提升自己的全属性10%,最高5层",
-  "picture": "",
+  "last_effect": "",
   "icon": 73100,
-  "name": "时间叠加增益",
-  "init_effect": "",
+  "color": "red",
   "id": 73100,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

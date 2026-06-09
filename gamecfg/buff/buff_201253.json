@@ -1,4 +1,9 @@
 {
+  "name": "2025拉斐尔活动 新EX模式我方判定更改",
+  "picture": "",
+  "desc": "",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
+        "fleetPos": "Leader",
         "buff_id": 201265,
-        "fleetPos": "Leader"
+        "target": "TargetFleetIndex"
       }
     },
     {
@@ -17,19 +22,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
+        "fleetPos": "Rear",
         "buff_id": 201255,
-        "fleetPos": "Rear"
+        "target": "TargetFleetIndex"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201233,
-  "name": "2025拉斐尔活动 新EX模式我方判定更改",
-  "init_effect": "",
   "id": 201253,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 1
 }

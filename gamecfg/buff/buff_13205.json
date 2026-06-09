@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "小声望",
+  "picture": "",
+  "desc": "提高伤害",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.4,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.4
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 13200,
+  "color": "yellow",
+  "id": 13205,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高伤害",
-  "picture": "",
-  "icon": 13200,
-  "name": "小声望",
-  "init_effect": "jinengchufared",
-  "id": 13205,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

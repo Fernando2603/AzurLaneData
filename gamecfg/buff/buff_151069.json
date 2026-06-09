@@ -1,4 +1,9 @@
 {
+  "name": "进水",
+  "picture": "",
+  "desc": "进水持续伤害",
+  "time": 15.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 2,
-        "number": 20,
         "attr": "airPower",
+        "dotType": 2,
+        "k": 0.3,
         "time": 3,
-        "k": 0.3
+        "number": 20
       }
     },
     {
@@ -24,13 +29,8 @@
       }
     }
   ],
-  "desc": "进水持续伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 151060,
-  "name": "进水",
-  "init_effect": "",
   "id": 151069,
-  "stack": 1,
-  "time": 15.1,
-  "last_effect": ""
+  "stack": 1
 }

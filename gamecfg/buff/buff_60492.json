@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,7 +12,6 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
-        "quota": 5,
         "range": [
           [
             0,
@@ -31,24 +34,21 @@
             1
           ]
         ],
-        "time": 0.2,
+        "quota": 5,
         "skill_id_list": [
           60491,
           60492,
           60493,
           60494,
           60495
-        ]
+        ],
+        "time": 0.2
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60490,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 60492,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

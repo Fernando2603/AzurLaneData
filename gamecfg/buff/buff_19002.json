@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "对塞壬加成",
+  "picture": "",
+  "desc": "对塞壬伤害提高15%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 19000,
         "attr": "DMG_TAG_EHC_N_99",
-        "number": 0.15
+        "number": 0.15,
+        "group": 19000
       }
     }
   ],
-  "desc": "对塞壬伤害提高15%",
-  "picture": "",
+  "last_effect": "",
   "icon": 19000,
-  "name": "对塞壬加成",
-  "init_effect": "",
+  "color": "red",
   "id": 19002,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

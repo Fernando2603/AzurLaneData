@@ -1,4 +1,9 @@
 {
+  "name": "铁底湾之夜",
+  "picture": "",
+  "desc": "受到致命伤害时不会阵亡，5秒内回避所有伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 11011,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 11011
       }
     },
     {
@@ -29,13 +34,8 @@
       }
     }
   ],
-  "desc": "受到致命伤害时不会阵亡，5秒内回避所有伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 11014,
-  "name": "铁底湾之夜",
-  "init_effect": "",
   "id": 11014,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

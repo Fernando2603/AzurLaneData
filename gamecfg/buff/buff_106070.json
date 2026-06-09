@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 106070,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 106070
       }
     },
     {
@@ -27,26 +28,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "skill_id": 106071,
         "minTargetNumber": 2,
         "ship_tag_list": [
           "DOAXVV"
         ],
-        "skill_id": 106071
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 106070,
-  "name": "",
-  "init_effect": "",
-  "id": 106070,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 106070,
+  "id": 106070,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

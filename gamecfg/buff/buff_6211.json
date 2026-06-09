@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "超重弹",
+  "picture": "",
+  "desc": "主炮暴击率提高8%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.08,
         "attr": "cri",
         "index": [
           1
-        ]
+        ],
+        "number": 0.08
       }
     }
   ],
-  "desc": "主炮暴击率提高8%",
-  "picture": "",
+  "last_effect": "",
   "icon": 6211,
-  "name": "超重弹",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6211,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

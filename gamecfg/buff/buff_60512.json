@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "浮标易伤领域",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "浮标易伤领域",
   "effect_list": [
     {
       "trigger": [
@@ -10,17 +13,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.05
       }
     }
   ],
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 60510,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60512,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

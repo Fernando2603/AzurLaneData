@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +19,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": 0.05
       }
     },
     {
@@ -27,18 +29,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 111171,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 111171
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 111170,
-  "name": "",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "Pojia01",
+  "icon": 111170,
   "id": 111173,
   "stack": 1,
-  "time": 0,
-  "last_effect": "Pojia01"
+  "desc": ""
 }

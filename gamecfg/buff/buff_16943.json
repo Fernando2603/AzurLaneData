@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 16941,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "VirginiaSP"
         ],
-        "skill_id": 16941
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,26 +36,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "VirginiaSP"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 16942,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "VirginiaSP"
-        ]
+        "skill_id": 16942
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 16940,
-  "name": "",
-  "init_effect": "",
-  "id": 16943,
-  "stack": 2,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 16940,
+  "id": 16943,
+  "color": "red",
+  "stack": 2,
+  "desc": ""
 }

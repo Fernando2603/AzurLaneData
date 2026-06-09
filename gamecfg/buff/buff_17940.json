@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 12,
-        "skill_id": 17940
+        "skill_id": 17940,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,19 +29,18 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "GCT",
-        "bulletID": 164472
+        "bulletID": 164472,
+        "number": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 17940,
-  "name": "",
-  "init_effect": "",
-  "id": 17940,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 17940,
+  "id": 17940,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

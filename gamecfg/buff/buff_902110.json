@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "储备氧气",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 902110
+        "skill_id": 902110,
+        "target": "TargetSelf"
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 902110,
+  "color": "yellow",
+  "id": 902110,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 902110,
-  "name": "储备氧气",
-  "init_effect": "jinengchufablue",
-  "id": 902110,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

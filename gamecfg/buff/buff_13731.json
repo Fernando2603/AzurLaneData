@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "检查命中",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,29 +18,28 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "ship_tag_list": [
           "ShadowClaw"
         ],
+        "skill_id": 13731,
+        "maxTargetNumber": 1,
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
         "quota": 1,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "maxTargetNumber": 1,
-        "time": 2,
-        "skill_id": 13731
+        "time": 2
       }
     }
   ],
-  "desc": "仅命中一个时，定身+鱼雷追击",
-  "picture": "",
-  "icon": 13730,
-  "name": "检查命中",
-  "init_effect": "",
-  "id": 13731,
-  "stack": 1,
   "time": 5,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 13730,
+  "id": 13731,
+  "color": "yellow",
+  "stack": 1,
+  "desc": "仅命中一个时，定身+鱼雷追击"
 }

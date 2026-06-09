@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,14 +18,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 366,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "TP",
           "TRI"
         ],
-        "check_weapon": true,
-        "skill_id": 366,
-        "minWeaponNumber": 1,
         "maxWeaponNumber": 1
       }
     },
@@ -34,14 +35,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 367,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "TP",
           "QUAD"
         ],
-        "check_weapon": true,
-        "skill_id": 367,
-        "minWeaponNumber": 1,
         "maxWeaponNumber": 1
       }
     },
@@ -51,26 +52,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 368,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "TP",
           "QUINT"
         ],
-        "check_weapon": true,
-        "skill_id": 368,
-        "minWeaponNumber": 1,
         "maxWeaponNumber": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 365,
   "id": 365,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

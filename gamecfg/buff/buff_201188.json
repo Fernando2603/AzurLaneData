@@ -1,44 +1,44 @@
 {
-  "color": "yellow",
+  "name": "2024鲁梅活动 轻巡护盾",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 180, 0)\nend",
         "count": 8,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(2.2, 0.75, 1.5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 180, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201188,
-  "name": "2024鲁梅活动 轻巡护盾",
-  "init_effect": "",
+  "color": "yellow",
   "id": 201188,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

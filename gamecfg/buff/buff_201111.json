@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024天城航母活动 EX 三阶段结界",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 1,
-        "countType": 10
+        "countType": 10,
+        "countTarget": 1
       }
     },
     {
@@ -18,10 +22,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 10,
         "quota": 1,
-        "skill_id": 201112
+        "skill_id": 201112,
+        "target": "TargetSelf"
       }
     },
     {
@@ -31,8 +35,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 20
+        "countType": 20,
+        "countTarget": 2
       }
     },
     {
@@ -41,10 +45,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 20,
         "quota": 1,
-        "skill_id": 201113
+        "skill_id": 201113,
+        "target": "TargetSelf"
       }
     },
     {
@@ -54,8 +58,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 30
+        "countType": 30,
+        "countTarget": 3
       }
     },
     {
@@ -64,10 +68,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 30,
         "quota": 1,
-        "skill_id": 201114
+        "skill_id": 201114,
+        "target": "TargetSelf"
       }
     },
     {
@@ -77,8 +81,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 40
+        "countType": 40,
+        "countTarget": 4
       }
     },
     {
@@ -87,10 +91,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 40,
         "quota": 1,
-        "skill_id": 201115
+        "skill_id": 201115,
+        "target": "TargetSelf"
       }
     },
     {
@@ -100,8 +104,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 5,
-        "countType": 50
+        "countType": 50,
+        "countTarget": 5
       }
     },
     {
@@ -110,10 +114,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 50,
         "quota": 1,
-        "skill_id": 201116
+        "skill_id": 201116,
+        "target": "TargetSelf"
       }
     },
     {
@@ -122,10 +126,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHarm",
+        "countType": 50,
         "buff_id": 201116,
         "quota": 1,
-        "countType": 50
+        "target": "TargetAllHarm"
       }
     },
     {
@@ -134,23 +138,19 @@
       ],
       "type": "BattleBuffCleanse",
       "arg_list": {
-        "countType": 50,
         "quota": 1,
         "buff_id_list": [
           201108,
           201110,
           201111
-        ]
+        ],
+        "countType": 50
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201111,
-  "name": "2024天城航母活动 EX 三阶段结界",
-  "init_effect": "",
+  "color": "yellow",
   "id": 201111,
-  "stack": 99,
-  "time": 0,
-  "last_effect": ""
+  "stack": 99
 }

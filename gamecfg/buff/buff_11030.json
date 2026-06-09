@@ -29,7 +29,8 @@
   "10": {
     "desc": "决死突袭"
   },
-  "color": "blue",
+  "name": "奇迹之风",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -38,23 +39,22 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "skill_id": 11030,
-        "quota": 1,
         "maxTargetNumber": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "quota": 1
       }
     }
   ],
-  "desc": "当自身为先锋仅存的角色时，自身伤害提高30.0%，受到航空伤害降低40.0%",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "当自身为先锋仅存的角色时，自身伤害提高30.0%，受到航空伤害降低40.0%",
+  "last_effect": "",
   "icon": 11030,
   "id": 11030,
-  "name": "奇迹之风",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "当自身为先锋仅存的角色时，自身伤害提高30.0%，受到航空伤害降低40.0%"
 }

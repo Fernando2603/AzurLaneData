@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "大洋联邦 导弹巡洋舰防空光环",
+  "picture": "",
+  "desc": "减少受到的航空伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +12,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": -0.15
       }
     }
   ],
-  "desc": "减少受到的航空伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 200231,
-  "name": "大洋联邦 导弹巡洋舰防空光环",
-  "init_effect": "",
+  "color": "blue",
   "id": 200231,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

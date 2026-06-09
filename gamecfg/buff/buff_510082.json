@@ -1,4 +1,9 @@
 {
+  "name": "制空强化",
+  "picture": "",
+  "desc": "制空强化",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,17 +12,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.2,
-        "attr": "damageGetRatioByAir"
+        "attr": "damageGetRatioByAir",
+        "number": -0.2
       }
     }
   ],
-  "desc": "制空强化",
+  "last_effect": "",
   "id": 510082,
-  "name": "制空强化",
-  "init_effect": "",
-  "picture": "",
-  "stack": 10,
-  "time": 10,
-  "last_effect": ""
+  "stack": 10
 }

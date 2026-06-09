@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "水雷战队",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -24,47 +25,46 @@
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 1
+        "shipType": 1,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 2
+        "shipType": 2,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 20
+        "shipType": 20,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 1090,
-        "shipType": 21
+        "shipType": 21,
+        "target": "TargetPlayerByType"
       }
     }
   ],
-  "desc": "在队伍中(存活)时，队伍内所有驱逐、轻巡的雷击和装填属性提高3.0%（满级15.0%）",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "在队伍中(存活)时，队伍内所有驱逐、轻巡的雷击和装填属性提高3.0%（满级15.0%）",
+  "last_effect": "",
   "icon": 1090,
   "id": 1091,
-  "name": "水雷战队",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "在队伍中(存活)时，队伍内所有驱逐、轻巡的雷击和装填属性提高3.0%（满级15.0%）"
 }

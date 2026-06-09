@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 300,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 300
       }
     },
     {
@@ -19,25 +23,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 300,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": 300
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 60820,
+  "color": "red",
+  "id": 60821,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 60820,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 60821,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

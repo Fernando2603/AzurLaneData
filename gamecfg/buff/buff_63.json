@@ -1,4 +1,9 @@
 {
+  "name": "重巡竞技场加成",
+  "picture": "",
+  "desc": "免伤15%%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.15
       }
     }
   ],
-  "desc": "免伤15%%",
   "limit": [],
-  "picture": "",
+  "last_effect": "",
   "icon": 63,
-  "name": "重巡竞技场加成",
-  "init_effect": "",
   "id": 63,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

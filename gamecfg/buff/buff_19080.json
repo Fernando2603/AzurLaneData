@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "特殊护甲",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,8 +27,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.12,
-        "attr": "igniteResist"
+        "attr": "igniteResist",
+        "number": -0.12
       }
     },
     {
@@ -36,19 +37,18 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -3,
-        "attr": "igniteShorten"
+        "attr": "igniteShorten",
+        "number": -3
       }
     }
   ],
-  "desc": "受到穿甲弹伤害降低$1",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "受到穿甲弹伤害降低15.0%(满级30.0%)",
+  "last_effect": "",
   "icon": 19080,
   "id": 19080,
-  "name": "特殊护甲",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "受到穿甲弹伤害降低$1"
 }

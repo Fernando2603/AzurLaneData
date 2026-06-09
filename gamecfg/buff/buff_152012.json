@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "内置CD+最大触发次数处理",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -31,8 +32,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 152012,
-        "quota": 4
+        "quota": 4,
+        "skill_id": 152012
       }
     },
     {
@@ -42,8 +43,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 5,
-        "countType": 152012
+        "countType": 152012,
+        "countTarget": 5
       }
     },
     {
@@ -52,20 +53,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 152013,
-        "countType": 152012
+        "countType": 152012,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 152012,
   "id": 152012,
-  "name": "内置CD+最大触发次数处理",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 5,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

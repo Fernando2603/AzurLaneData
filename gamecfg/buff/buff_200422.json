@@ -1,4 +1,9 @@
 {
+  "name": "2023俾斯麦Z活动 TS2女灶神meta 召唤小怪 监听",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +12,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 200423,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "buff_id": 200423,
-        "maxTargetNumber": 0,
         "nationality": 1
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200422,
-  "name": "2023俾斯麦Z活动 TS2女灶神meta 召唤小怪 监听",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 17310,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "USS"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -32,9 +33,9 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "inside": 1,
+        "countTarget": 2,
         "countType": 17310,
-        "countTarget": 2
+        "inside": 1
       }
     },
     {
@@ -43,10 +44,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "countType": 17310,
         "buff_id": 17312,
         "quota": 3,
-        "countType": 17310
+        "target": "TargetSelf"
       }
     },
     {
@@ -55,9 +56,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 17304,
-        "countType": 17310
+        "countType": 17310,
+        "target": "TargetSelf"
       }
     },
     {
@@ -66,9 +67,9 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "inside": 1,
+        "countTarget": 9,
         "countType": 17311,
-        "countTarget": 9
+        "inside": 1
       }
     },
     {
@@ -77,21 +78,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 17311,
         "quota": 1,
-        "skill_id": 17312
+        "skill_id": 17312,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17310,
   "id": 17310,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

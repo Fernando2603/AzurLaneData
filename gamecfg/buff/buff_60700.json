@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": false,
+        "buff_id": 60701,
         "cld_data": {
           "box": {
             "range": 60
           }
-        },
-        "buff_id": 60701,
-        "friendly_fire": false
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60700,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60700,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

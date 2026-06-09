@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "黛朵",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.9,
         "quota": 1,
-        "skill_id": 8663
+        "skill_id": 8663,
+        "hpUpperBound": 0.9,
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,21 +23,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 1,
-        "quota": 1,
         "skill_id": 8664,
+        "target": "TargetSelf",
+        "quota": 1,
+        "hpUpperBound": 1,
         "hpLowerBound": 0.9
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8663,
-  "name": "黛朵",
-  "init_effect": "",
+  "color": "yellow",
   "id": 8663,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

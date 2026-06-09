@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024异世界冒险 英灵效果 同盟",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 60543,
         "quota": 1,
-        "time": 2
+        "time": 2,
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,14 +23,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": 1,
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": 1
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -35,14 +39,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": 2,
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": 2
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -51,14 +55,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": 3,
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": 3
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -67,14 +71,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": 4,
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": 4
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -83,14 +87,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": 5,
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": 5
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -99,14 +103,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": 6,
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": 6
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -115,14 +119,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": 7,
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": 7
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -131,18 +135,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetNationality"
-        ],
         "minTargetNumber": 1,
-        "buff_id": 60543,
         "nationality": [
           8,
           9,
           10
-        ]
+        ],
+        "buff_id": 60543,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ],
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -151,26 +155,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
+        "minTargetNumber": 1,
+        "nationality": [
+          97
+        ],
+        "buff_id": 60543,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60543,
-        "nationality": [
-          97
-        ]
+        "target": "TargetAllHelp"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60542,
-  "name": "2024异世界冒险 英灵效果 同盟",
-  "init_effect": "",
+  "color": "yellow",
   "id": 60542,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

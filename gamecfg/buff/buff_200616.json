@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "风帆蛋船 运输船狂热光环",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 200617,
         "cld_data": {
           "box": {
             "range": 50
           }
-        },
-        "buff_id": 200617,
-        "friendly_fire": true
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200616,
-  "name": "风帆蛋船 运输船狂热光环",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200616,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

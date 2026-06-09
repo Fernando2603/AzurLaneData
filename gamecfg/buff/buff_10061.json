@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "真红の不死鸟",
+  "picture": "",
+  "desc": "提高炮击属性",
+  "time": 15,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 3000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 3000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 10061,
+  "color": "red",
+  "id": 10061,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高炮击属性",
-  "picture": "",
-  "icon": 10061,
-  "name": "真红の不死鸟",
-  "init_effect": "jinengchufared",
-  "id": 10061,
-  "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  ]
 }

@@ -1,7 +1,10 @@
 {
-  "color": "绝地反击",
-  "desc_get": "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
+  "name": "绝地反击",
+  "picture": "",
   "desc": "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
   "effect_list": [
     {
       "trigger": [
@@ -19,9 +22,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 30,
-        "skill_id": 43
+        "skill_id": 43,
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,12 +38,9 @@
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 43,
-  "name": "绝地反击",
-  "init_effect": "",
+  "color": "绝地反击",
   "id": 43,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

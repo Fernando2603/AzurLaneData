@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "濒死再生",
+  "picture": "",
+  "desc": "战斗对象的血量下降到X%时，每Y秒回复自身Z%血量，持续M秒",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "hpLowerBound": 0,
         "target": "TargetSelf",
-        "hpUpperBound": 0.3,
-        "quota": 1,
         "buff_id": 73701,
-        "hpLowerBound": 0
+        "hpUpperBound": 0.3,
+        "quota": 1
       }
     }
   ],
-  "desc": "战斗对象的血量下降到X%时，每Y秒回复自身Z%血量，持续M秒",
-  "picture": "",
+  "last_effect": "",
   "icon": 73700,
-  "name": "濒死再生",
-  "init_effect": "",
+  "color": "blue",
   "id": 73700,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

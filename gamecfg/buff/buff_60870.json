@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "高级魔法书",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60870,
         "ship_tag_list": [
           "YumiaSelf"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 60870,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60870,
-  "name": "高级魔法书",
-  "init_effect": "",
+  "color": "red",
   "id": 60870,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

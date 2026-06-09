@@ -1,4 +1,9 @@
 {
+  "name": "克莱蒙梭活动剧情战启动",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 200560,
         "ship_tag_list": [
           "Suruga"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200553,
-  "name": "克莱蒙梭活动剧情战启动",
-  "init_effect": "",
   "id": 200553,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

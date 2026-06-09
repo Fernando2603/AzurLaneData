@@ -1,4 +1,9 @@
 {
+  "name": "冷却时间缩短",
+  "picture": "",
+  "desc": "装填提升",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 30000,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 30000
       }
     },
     {
@@ -16,18 +21,13 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 300,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 300
       }
     }
   ],
-  "desc": "装填提升",
-  "picture": "",
+  "last_effect": "",
   "icon": 6,
-  "name": "冷却时间缩短",
-  "init_effect": "",
   "id": 6,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

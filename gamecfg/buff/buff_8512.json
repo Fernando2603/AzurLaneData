@@ -1,4 +1,9 @@
 {
+  "name": "BOSS每20秒获得吸血buff所有攻击伤害都会转为自身血量持续10秒",
+  "picture": "",
+  "desc": "BOSS每20秒获得吸血buff所有攻击伤害都会转为自身血量持续10秒",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,26 +11,21 @@
       ],
       "type": "BattleBuffHP",
       "arg_list": {
-        "weaponType": 3,
+        "damageConvertRatio": 10000,
         "target": "TargetSelf",
-        "damageConvertRatio": 10000
+        "weaponType": 3
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "jinengchufared",
+  "icon": 8512,
+  "id": 8512,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "BOSS每20秒获得吸血buff所有攻击伤害都会转为自身血量持续10秒",
-  "picture": "",
-  "icon": 8512,
-  "name": "BOSS每20秒获得吸血buff所有攻击伤害都会转为自身血量持续10秒",
-  "init_effect": "",
-  "id": 8512,
-  "stack": 1,
-  "time": 15,
-  "last_effect": "jinengchufared"
+  ]
 }

@@ -1,6 +1,9 @@
 {
-  "last_effect_cld_scale": true,
-  "color": "yellow",
+  "name": "龙宫机关-土 减伤BUFF",
+  "last_effect": "",
+  "desc": "",
+  "time": 999,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -9,18 +12,15 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.05,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.05
       }
     }
   ],
-  "desc": "",
+  "picture": "",
   "icon": 9268,
   "id": 9268,
-  "name": "龙宫机关-土 减伤BUFF",
-  "init_effect": "jinengchufablue",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 999,
-  "last_effect": ""
+  "last_effect_cld_scale": true
 }

@@ -149,7 +149,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,9 +158,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 150160,
         "countType": 30285,
-        "skill_id": 150160
+        "target": "TargetSelf"
       }
     },
     {
@@ -168,22 +169,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 150161,
+        "minWeaponNumber": 1,
         "label": [
           "KMS"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 150160,
-  "name": "",
-  "init_effect": "",
-  "id": 150160,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 150160,
+  "id": 150160,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

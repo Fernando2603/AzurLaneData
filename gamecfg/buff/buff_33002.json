@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "每隔30秒回复全队耐久1次",
     "effect_list": [
       {
         "trigger": [
@@ -7,14 +8,15 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 30,
-          "skill_id": 33002
+          "skill_id": 33002,
+          "target": "TargetSelf"
         }
       }
-    ],
-    "desc": "每隔30秒回复全队耐久1次"
+    ]
   },
+  "name": "损管指挥",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -22,19 +24,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 30,
-        "skill_id": 33002
+        "skill_id": 33002,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每隔30秒回复全队耐久1次",
-  "picture": "",
-  "icon": 33002,
-  "name": "损管指挥",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 33002,
   "id": 33002,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每隔30秒回复全队耐久1次"
 }

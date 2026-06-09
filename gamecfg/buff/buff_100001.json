@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "阶段触发器",
+  "picture": "",
+  "desc": "获得新武器",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,10 +20,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 100003,
         "hpUpperBound": 0.8,
-        "quota": 1,
-        "skill_id": 100003
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,10 +32,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 100004,
         "hpUpperBound": 0.5,
-        "quota": 1,
-        "skill_id": 100004
+        "target": "TargetSelf"
       }
     },
     {
@@ -40,20 +44,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.2,
         "quota": 1,
-        "skill_id": 100005
+        "skill_id": 100005,
+        "hpUpperBound": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "获得新武器",
-  "picture": "",
+  "last_effect": "",
   "icon": 100001,
-  "name": "阶段触发器",
-  "init_effect": "",
+  "color": "yellow",
   "id": 100001,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

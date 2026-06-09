@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "主炮飞行速度提高",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -6,28 +11,23 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.1,
         "attr": "bulletSpeedRatio",
         "index": [
           1
-        ]
+        ],
+        "number": 0.1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 106120,
+  "id": 106121,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "主炮飞行速度提高",
-  "picture": "",
-  "icon": 106120,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 106121,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
         "buff_id": 111241,
-        "fleetPos": "Leader"
+        "fleetPos": "Leader",
+        "target": "TargetFleetIndex"
       }
     },
     {
@@ -28,9 +29,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetFleetIndex",
         "buff_id": 111244,
-        "fleetPos": "Leader"
+        "fleetPos": "Leader",
+        "target": "TargetFleetIndex"
       }
     },
     {
@@ -39,22 +40,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 111243,
-        "target": "TargetShipTag",
         "ship_tag_list": [
           "haruna_miehuo"
-        ]
+        ],
+        "buff_id": 111243,
+        "target": "TargetShipTag",
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 111240,
-  "name": "",
-  "init_effect": "",
-  "id": 111240,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 111240,
+  "id": 111240,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

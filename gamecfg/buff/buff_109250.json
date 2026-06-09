@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 109250,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "FIRETP"
         ],
-        "skill_id": 109250,
         "index": [
           2
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -35,26 +36,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 109251,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "THUNDERAA"
         ],
-        "skill_id": 109251,
         "index": [
           3
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 109250,
-  "name": "",
-  "init_effect": "",
-  "id": 109250,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 109250,
+  "id": 109250,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

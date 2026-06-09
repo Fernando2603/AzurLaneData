@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "无敌阶段",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,9 +29,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 152152,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 152152
       }
     },
     {
@@ -51,27 +53,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "pop": {
+        "displayID": 152152,
         "trigger": [
           "onRemove"
-        ],
-        "displayID": 152152
+        ]
       }
     }
   ],
+  "time": 0.1,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 152152,
+  "id": 152152,
+  "stack": 1,
+  "desc": "0.1s无敌后进入勇战不退",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "0.1s无敌后进入勇战不退",
-  "picture": "",
-  "icon": 152152,
-  "name": "无敌阶段",
-  "init_effect": "jinengchufablue",
-  "id": 152152,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  ]
 }

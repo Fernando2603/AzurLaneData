@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "驱逐回血",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,26 +27,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 15285,
         "ship_tag_list": [
           "Tashkent"
         ],
+        "buff_id": 15285,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "救援塔什干行动",
+  "time": 3,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15283,
   "id": 15283,
-  "name": "驱逐回血",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "desc": "救援塔什干行动"
 }

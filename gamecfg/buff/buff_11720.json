@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "星之歌",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 11721,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,19 +29,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 11721,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 11721
       }
     }
   ],
-  "desc": "每20秒，有50.0%(满级100.0%)概率发射星星弹幕",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "每20秒，有50.0%(满级100.0%)概率发射星星弹幕",
+  "last_effect": "",
   "icon": 11720,
   "id": 11720,
-  "name": "星之歌",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每20秒，有50.0%(满级100.0%)概率发射星星弹幕"
 }

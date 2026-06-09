@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 15,
         "index": [
           1
         ],
-        "countType": 30000,
-        "countTarget": 15
+        "countType": 30000
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30003,
         "countType": 30000,
-        "skill_id": 30003
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行15次攻击，触发专属弹幕-奥托I",
-  "picture": "",
-  "icon": 30000,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 30002,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 30000,
+  "id": 30002,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行15次攻击，触发专属弹幕-奥托I"
 }

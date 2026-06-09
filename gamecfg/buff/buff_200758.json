@@ -1,4 +1,9 @@
 {
+  "name": "2023 关岛活动EX 一阶段召唤 监听",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,24 +12,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 1,
         "target": "TargetSelf",
+        "buff_id": 200759,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "buff_id": 200759,
-        "maxTargetNumber": 1,
         "nationality": 94
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200758,
-  "name": "2023 关岛活动EX 一阶段召唤 监听",
-  "init_effect": "",
   "id": 200758,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

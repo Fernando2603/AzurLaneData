@@ -1,4 +1,9 @@
 {
+  "name": "Z字旗·三笠",
+  "picture": "",
+  "desc": "炮击、命中提高5%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 500
       }
     },
     {
@@ -16,18 +21,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 500
       }
     }
   ],
-  "desc": "炮击、命中提高5%",
-  "picture": "",
+  "last_effect": "",
   "icon": 6235,
-  "name": "Z字旗·三笠",
-  "init_effect": "",
   "id": 6235,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

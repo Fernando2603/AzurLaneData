@@ -1,4 +1,9 @@
 {
+  "name": "回血",
+  "picture": "",
+  "desc": "回血",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TatrgetSelf",
         "buff_id": 330011,
-        "time": 30
+        "time": 30,
+        "target": "TatrgetSelf"
       }
     }
   ],
-  "desc": "回血",
-  "picture": "",
+  "last_effect": "",
   "icon": 330012,
-  "name": "回血",
-  "init_effect": "",
   "id": 330012,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

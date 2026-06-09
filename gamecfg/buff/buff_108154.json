@@ -9,36 +9,37 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "gulitejineng_dunpai",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend",
         "count": 15,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(2, 1.5, 0.5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              0,
-              0,
-              0
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              0,
+              0,
+              0
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+        "effect": "gulitejineng_dunpai"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     },
     {
       "trigger": [
@@ -46,18 +47,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 108151,
-        "shieldBuffID": 108154
+        "shieldBuffID": 108154,
+        "skill_id": 108151
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 108150,
-  "name": "",
-  "init_effect": "",
-  "id": 108154,
-  "stack": 1,
   "time": 10,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 108150,
+  "id": 108154,
+  "color": "blue",
+  "stack": 1,
+  "desc": ""
 }

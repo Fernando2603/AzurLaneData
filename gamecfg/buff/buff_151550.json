@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +18,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 151550,
+        "minWeaponNumber": 1,
         "target": "TargetSelf",
         "label": [
           "IJN",
           "CV"
         ],
-        "skill_id": 151550,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -36,16 +37,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 151551,
+        "minWeaponNumber": 1,
         "type": [
           7,
           9
         ],
-        "skill_id": 151551,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -54,15 +55,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 151552,
+        "minWeaponNumber": 1,
         "type": [
           8
         ],
-        "skill_id": 151552,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -71,24 +72,23 @@
       ],
       "type": "BattleBuffAddAircraftOrb",
       "arg_list": {
+        "rant": 10000,
         "index": [
           1,
           2,
           3
         ],
-        "buff_id": 151554,
-        "rant": 10000
+        "buff_id": 151554
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151550,
   "id": 151550,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

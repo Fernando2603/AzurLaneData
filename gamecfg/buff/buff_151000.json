@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,14 +18,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "exceptCaster": true,
         "minTargetNumber": 1,
-        "buff_id": 151001,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
         ],
-        "isBuffStackByCheckTarget": true
+        "buff_id": 151001,
+        "isBuffStackByCheckTarget": true,
+        "exceptCaster": true
       }
     },
     {
@@ -33,12 +34,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 2,
-        "skill_id": 151001,
         "target": "TargetSelf",
+        "skill_id": 151001,
         "check_target": [
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -47,19 +48,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151002,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 151002
       }
     }
   ],
-  "desc": "",
+  "time": 0.5,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151000,
   "id": 151000,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0.5,
-  "last_effect": ""
+  "desc": ""
 }

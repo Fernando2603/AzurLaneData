@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,16 +27,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 17304,
         "ship_tag_list": [
           "laffeybot1"
         ],
+        "buff_id": 17304,
         "check_target": [
           "TargetEntityUnit",
           "TargetAllHelp",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -44,27 +45,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 17304,
         "ship_tag_list": [
           "laffeybot2"
         ],
+        "buff_id": 17304,
         "check_target": [
           "TargetEntityUnit",
           "TargetAllHelp",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
+  "time": 2,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17305,
   "id": 17305,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "desc": ""
 }

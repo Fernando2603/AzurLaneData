@@ -1,4 +1,9 @@
 {
+  "name": "2023古立特联动复刻 TSS4 公主 一阶段",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +11,29 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200503,
+        "target": "TargetSelf",
+        "skill_id": 200503
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countType": 200504,
+        "countTarget": 2
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "countType": 200504,
+        "quota": 1,
+        "skill_id": 200504,
         "target": "TargetSelf"
       }
     },
@@ -16,8 +43,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 200504
+        "countType": 200505,
+        "countTarget": 3
       }
     },
     {
@@ -26,32 +53,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "countType": 200504,
-        "quota": 1,
-        "skill_id": 200504
-      }
-    },
-    {
-      "trigger": [
-        "onStack"
-      ],
-      "type": "BattleBuffCount",
-      "arg_list": {
-        "countTarget": 3,
-        "countType": 200505
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "countType": 200505,
         "quota": 1,
-        "skill_id": 200505
+        "skill_id": 200505,
+        "target": "TargetSelf"
       }
     },
     {
@@ -60,8 +65,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 200506
+        "countType": 200506,
+        "countTarget": 4
       }
     },
     {
@@ -70,10 +75,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 200506,
         "quota": 1,
-        "skill_id": 200506
+        "skill_id": 200506,
+        "target": "TargetSelf"
       }
     },
     {
@@ -82,8 +87,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 5,
-        "countType": 200507
+        "countType": 200507,
+        "countTarget": 5
       }
     },
     {
@@ -92,10 +97,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 200507,
         "quota": 1,
-        "skill_id": 200507
+        "skill_id": 200507,
+        "target": "TargetSelf"
       }
     },
     {
@@ -104,8 +109,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 6,
-        "countType": 200502
+        "countType": 200502,
+        "countTarget": 6
       }
     },
     {
@@ -114,19 +119,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "countType": 200502,
         "buff_id": 200507,
         "quota": 1,
-        "countType": 200502
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200506,
-  "name": "2023古立特联动复刻 TSS4 公主 一阶段",
-  "init_effect": "",
-  "picture": "",
-  "stack": 99,
-  "time": 0,
-  "last_effect": ""
+  "stack": 99
 }

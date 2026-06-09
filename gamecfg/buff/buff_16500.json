@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -36,11 +37,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 16507,
         "target": "TargetSelf",
-        "hpUpperBound": 1,
-        "hpLowerBound": 0.18,
         "hpSigned": 0,
-        "skill_id": 16507
+        "hpUpperBound": 1,
+        "hpLowerBound": 0.18
       }
     },
     {
@@ -50,21 +51,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.18,
+        "hpSigned": 0,
         "skill_id": 16508,
-        "hpSigned": 0
+        "hpUpperBound": 0.18,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16500,
   "id": 16500,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

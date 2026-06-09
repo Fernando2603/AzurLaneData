@@ -1,7 +1,10 @@
 {
-  "color": "",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0.5,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,20 +24,17 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "target": "TargetSelf",
-        "check_target": "TargetNationalityFriendly",
         "minTargetNumber": 1,
+        "nationality": 7,
         "buff_id": 152065,
-        "exceptCaster": true,
-        "nationality": 7
+        "check_target": "TargetNationalityFriendly",
+        "exceptCaster": true
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 152060,
-  "name": "",
-  "init_effect": "",
+  "color": "",
   "id": 152061,
-  "stack": 1,
-  "time": 0.5,
-  "last_effect": ""
+  "stack": 1
 }

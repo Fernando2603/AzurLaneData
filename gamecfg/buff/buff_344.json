@@ -1,4 +1,9 @@
 {
+  "name": "塔林反击弹减速",
+  "picture": "",
+  "desc": "5s减速",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -800,
-        "add": 0
+        "add": 0,
+        "mul": -800
       }
     }
   ],
-  "desc": "5s减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 344,
-  "name": "塔林反击弹减速",
-  "init_effect": "",
   "id": 344,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

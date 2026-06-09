@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14450,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 14450
       }
     },
     {
@@ -27,32 +28,31 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.01,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.01
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
+        "ship_type_list": [
+          2
+        ],
+        "buff_id": 14451,
         "target": [
           "TargetAllHarm",
           "TargetShipType"
-        ],
-        "buff_id": 14451,
-        "ship_type_list": [
-          2
         ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 14450,
-  "name": "",
-  "init_effect": "",
-  "id": 14450,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 14450,
+  "id": 14450,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

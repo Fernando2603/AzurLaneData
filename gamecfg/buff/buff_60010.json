@@ -1,4 +1,9 @@
 {
+  "name": "测试-女灶神-技能触发被动",
+  "picture": "",
+  "desc": "回血",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,22 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "targetMaxHPRatio": 0.75,
-        "check_target": "TargetHelpLeastHP",
+        "skill_id": 60005,
         "minTargetNumber": 1,
         "target": "TargetSelf",
         "time": 20,
-        "skill_id": 60005
+        "check_target": "TargetHelpLeastHP",
+        "targetMaxHPRatio": 0.75
       }
     }
   ],
-  "desc": "回血",
-  "picture": "",
+  "last_effect": "Health",
   "icon": 60010,
-  "name": "测试-女灶神-技能触发被动",
-  "init_effect": "",
   "id": 60010,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Health"
+  "stack": 1
 }

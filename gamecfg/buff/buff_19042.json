@@ -1,14 +1,9 @@
 {
-  "color": "blue",
-  "desc_get": "",
-  "blink": [
-    0,
-    0.7,
-    1,
-    0.3,
-    0.3
-  ],
+  "name": "底力爆发",
+  "picture": "",
   "desc": "受到伤害降低",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +12,22 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.2,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.2
       }
     }
   ],
-  "picture": "",
-  "icon": 19040,
-  "name": "底力爆发",
-  "init_effect": "",
-  "id": 19042,
+  "desc_get": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "last_effect": "",
+  "icon": 19040,
+  "color": "blue",
+  "id": 19042,
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ]
 }

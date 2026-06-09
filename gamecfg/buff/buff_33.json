@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "每5秒回复20点耐久",
     "effect_list": [
       {
         "trigger": [
@@ -7,21 +8,22 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "targetMaxHPRatio": 0.99,
+          "skill_id": 33,
           "group": {
             "level": 4,
             "id": 30
           },
-          "check_target": "TargetHelpLeastHP",
           "minTargetNumber": 1,
-          "skill_id": 33,
+          "target": "TargetSelf",
           "time": 5,
-          "target": "TargetSelf"
+          "check_target": "TargetHelpLeastHP",
+          "targetMaxHPRatio": 0.99
         }
       }
-    ],
-    "desc": "每5秒回复20点耐久"
+    ]
   },
+  "name": "维修Lv4",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -29,26 +31,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "targetMaxHPRatio": 0.99,
+        "skill_id": 33,
         "group": {
           "level": 4,
           "id": 30
         },
-        "check_target": "TargetHelpLeastHP",
         "minTargetNumber": 1,
-        "skill_id": 33,
+        "target": "TargetSelf",
         "time": 5,
-        "target": "TargetSelf"
+        "check_target": "TargetHelpLeastHP",
+        "targetMaxHPRatio": 0.99
       }
     }
   ],
-  "desc": "每5秒回复20点耐久",
-  "picture": "",
-  "icon": 33,
-  "name": "维修Lv4",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "Health",
+  "icon": 33,
   "id": 33,
   "stack": 1,
-  "time": 0,
-  "last_effect": "Health"
+  "desc": "每5秒回复20点耐久"
 }

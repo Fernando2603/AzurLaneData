@@ -1,4 +1,9 @@
 {
+  "name": "metaboss保底伤害",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,20 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 8832,
         "quota": 1,
-        "time": 16
+        "time": 16,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "持续伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 8833,
-  "name": "metaboss保底伤害",
-  "init_effect": "",
   "id": 8833,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

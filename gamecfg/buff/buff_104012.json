@@ -1,4 +1,9 @@
 {
+  "name": "爱碳光波-I",
+  "picture": "",
+  "desc": "敌方属性上升4%",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 400,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 400
       }
     },
     {
@@ -18,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 400,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 400
       }
     },
     {
@@ -29,25 +34,20 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 400,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 400
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "jinengchufared",
+  "icon": 104010,
+  "id": 104012,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "敌方属性上升4%",
-  "picture": "",
-  "icon": 104010,
-  "name": "爱碳光波-I",
-  "init_effect": "",
-  "id": 104012,
-  "stack": 1,
-  "time": 10,
-  "last_effect": "jinengchufared"
+  ]
 }

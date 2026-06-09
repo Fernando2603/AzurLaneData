@@ -7,10 +7,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 65,
           "index": [
             2
           ],
-          "bulletRange": 65,
           "weaponRange": 65
         }
       },
@@ -20,11 +20,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -37,10 +37,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 67,
           "index": [
             2
           ],
-          "bulletRange": 67,
           "weaponRange": 67
         }
       },
@@ -50,11 +50,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -67,10 +67,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 70,
           "index": [
             2
           ],
-          "bulletRange": 70,
           "weaponRange": 70
         }
       },
@@ -80,11 +80,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -97,10 +97,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 72,
           "index": [
             2
           ],
-          "bulletRange": 72,
           "weaponRange": 72
         }
       },
@@ -110,11 +110,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -127,10 +127,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 75,
           "index": [
             2
           ],
-          "bulletRange": 75,
           "weaponRange": 75
         }
       },
@@ -140,11 +140,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -157,10 +157,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 77,
           "index": [
             2
           ],
-          "bulletRange": 77,
           "weaponRange": 77
         }
       },
@@ -170,11 +170,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -187,10 +187,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 80,
           "index": [
             2
           ],
-          "bulletRange": 80,
           "weaponRange": 80
         }
       },
@@ -200,11 +200,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -217,10 +217,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 82,
           "index": [
             2
           ],
-          "bulletRange": 82,
           "weaponRange": 82
         }
       },
@@ -230,11 +230,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -247,10 +247,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 85,
           "index": [
             2
           ],
-          "bulletRange": 85,
           "weaponRange": 85
         }
       },
@@ -260,11 +260,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
@@ -277,10 +277,10 @@
         ],
         "type": "BattleBuffFixRange",
         "arg_list": {
+          "bulletRange": 90,
           "index": [
             2
           ],
-          "bulletRange": 90,
           "weaponRange": 90
         }
       },
@@ -290,15 +290,17 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": -0.35,
           "attr": "damageRatioBullet",
           "index": [
             2
-          ]
+          ],
+          "number": -0.35
         }
       }
     ]
   },
+  "name": "副炮射程主炮暴击率",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -306,10 +308,10 @@
       ],
       "type": "BattleBuffFixRange",
       "arg_list": {
+        "bulletRange": 65,
         "index": [
           2
         ],
-        "bulletRange": 65,
         "weaponRange": 65
       }
     },
@@ -319,21 +321,19 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": -0.35,
         "attr": "damageRatioBullet",
         "index": [
           2
-        ]
+        ],
+        "number": -0.35
       }
     }
   ],
-  "desc": "副炮射程",
-  "picture": "",
-  "icon": 12121,
-  "name": "副炮射程主炮暴击率",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 12121,
   "id": 12122,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "副炮射程"
 }

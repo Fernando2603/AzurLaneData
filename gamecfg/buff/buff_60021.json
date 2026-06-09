@@ -1,4 +1,9 @@
 {
+  "name": "测试-反击-光环特效",
+  "picture": "",
+  "desc": "5%移动加速",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,19 +13,14 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "group": 60021,
         "mul": 500,
-        "add": 0
+        "add": 0,
+        "group": 60021
       }
     }
   ],
-  "desc": "5%移动加速",
-  "picture": "",
+  "last_effect": "",
   "icon": 60021,
-  "name": "测试-反击-光环特效",
-  "init_effect": "",
   "id": 60021,
-  "stack": 20,
-  "time": 1,
-  "last_effect": ""
+  "stack": 20
 }

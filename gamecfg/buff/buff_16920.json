@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -28,11 +29,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 6,
         "index": [
           1
         ],
-        "countType": 16920,
-        "countTarget": 6
+        "countType": 16920
       }
     },
     {
@@ -41,12 +42,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
-        "countType": 16920,
-        "skill_id_list": [
-          16920,
-          16921
-        ],
         "range": [
           [
             0,
@@ -56,7 +51,13 @@
             0.5,
             1
           ]
-        ]
+        ],
+        "countType": 16920,
+        "skill_id_list": [
+          16920,
+          16921
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -65,19 +66,18 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.08,
-        "attr": "dodgeRateExtra"
+        "attr": "dodgeRateExtra",
+        "number": 0.08
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16920,
   "id": 16920,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

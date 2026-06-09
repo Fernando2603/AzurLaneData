@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,12 +19,12 @@
       ],
       "type": "BattleBuffRecordShield",
       "arg_list": {
-        "effect": "Shield_mojiaduoer",
-        "convertRate": 0.2,
-        "exhaust_remove": 1,
         "srcTag": [
           "MJDESLOW"
-        ]
+        ],
+        "effect": "Shield_mojiaduoer",
+        "exhaust_remove": 1,
+        "convertRate": 0.2
       }
     },
     {
@@ -32,21 +33,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17951,
-        "target": "TargetSelf",
         "effectAttachData": [
           "BattleBuffRecordShield<=0"
-        ]
+        ],
+        "skill_id": 17951,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 17950,
-  "name": "",
-  "init_effect": "",
-  "id": 17950,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 17950,
+  "id": 17950,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

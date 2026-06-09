@@ -1,4 +1,8 @@
 {
+  "id": 201707,
+  "name": "2026莫斯科活动 发光的料理",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +10,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           201706,
           201707,
@@ -25,7 +28,8 @@
             0.66,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -34,16 +38,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201710,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201710
       }
     }
   ],
-  "id": 201707,
-  "name": "2026莫斯科活动 发光的料理",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 3,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

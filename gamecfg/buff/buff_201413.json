@@ -1,4 +1,8 @@
 {
+  "id": 201413,
+  "name": "2025狮UR活动 剧情战触发 召唤塞壬单位",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +10,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201368,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201368
       }
     },
     {
@@ -16,7 +20,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201408,
+        "target": "TargetSelf",
+        "skill_id": 201408
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 201414,
+        "time": 1,
         "target": "TargetSelf"
       }
     },
@@ -26,28 +41,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 201414,
-        "time": 1
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201416,
-        "time": 2
+        "time": 2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201413,
-  "name": "2025狮UR活动 剧情战触发 召唤塞壬单位",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

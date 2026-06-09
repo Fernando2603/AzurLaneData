@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "百合根",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 103060,
         "quota": 1,
-        "time": 22
+        "time": 22,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,10 +30,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 103061,
         "quota": 1,
-        "time": 44
+        "time": 44,
+        "target": "TargetSelf"
       }
     },
     {
@@ -41,10 +42,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 103062,
         "quota": 1,
-        "time": 66
+        "time": 66,
+        "target": "TargetSelf"
       }
     },
     {
@@ -53,10 +54,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 103063,
         "quota": 1,
-        "time": 88
+        "time": 88,
+        "target": "TargetSelf"
       }
     },
     {
@@ -66,19 +67,18 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 103061,
-        "quota": 1,
-        "time": 86
+        "time": 86,
+        "quota": 1
       }
     }
   ],
-  "desc": "",
+  "time": 90,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 103060,
   "id": 103060,
-  "name": "百合根",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 90,
-  "last_effect": ""
+  "desc": ""
 }

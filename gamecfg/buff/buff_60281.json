@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "道具发动",
+  "time": 2,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,27 +12,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 60281,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "KlaudiaSPW"
         ],
-        "skill_id": 60281,
-        "rant": 5000
+        "rant": 5000,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "道具发动",
-  "picture": "",
+  "last_effect": "",
   "icon": 60280,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60281,
-  "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "stack": 1
 }

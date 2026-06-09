@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "烟雾弹",
+  "picture": "",
+  "desc": "提高闪避",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 4971,
         "attr": "dodgeRateExtra",
-        "number": 0.4
+        "number": 0.4,
+        "group": 4971
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 62,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 62
       }
     },
     {
@@ -29,25 +33,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 63,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 63
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 4980,
+  "color": "blue",
+  "id": 4980,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "提高闪避",
-  "picture": "",
-  "icon": 4980,
-  "name": "烟雾弹",
-  "init_effect": "",
-  "id": 4980,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

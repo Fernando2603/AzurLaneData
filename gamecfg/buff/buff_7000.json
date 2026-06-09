@@ -1,4 +1,9 @@
 {
+  "name": "莱茵演习",
+  "picture": "",
+  "desc": "序章俾斯麦秒杀技能",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 7000
+        "skill_id": 7000,
+        "target": "TargetSelf"
       }
     },
     {
@@ -17,19 +22,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 7027,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "序章俾斯麦秒杀技能",
-  "picture": "",
+  "last_effect": "",
   "icon": 7000,
-  "name": "莱茵演习",
-  "init_effect": "",
   "id": 7000,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

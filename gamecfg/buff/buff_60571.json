@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "Alizarin",
+  "picture": "",
+  "desc": "",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 300,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 300
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 300,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 300
       }
     },
     {
@@ -30,8 +34,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 300,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 300
       }
     },
     {
@@ -41,18 +45,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 300,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 300
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "music_huanraoyinfu_yangyandanchuan",
   "icon": 60570,
-  "name": "Alizarin",
-  "init_effect": "",
+  "color": "yellow",
   "id": 60571,
-  "stack": 1,
-  "time": 15,
-  "last_effect": "music_huanraoyinfu_yangyandanchuan"
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "敌方随机效果",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           17485,
           17486,
@@ -35,17 +39,13 @@
             0.8,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 17470,
-  "name": "敌方随机效果",
-  "init_effect": "",
   "id": 17479,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

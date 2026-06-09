@@ -8,9 +8,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.3,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.3
         }
       }
     ]
@@ -24,9 +24,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.33,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.33
         }
       }
     ]
@@ -40,9 +40,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.36,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.36
         }
       }
     ]
@@ -56,9 +56,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.39,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.39
         }
       }
     ]
@@ -72,9 +72,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.43,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.43
         }
       }
     ]
@@ -88,9 +88,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.47,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.47
         }
       }
     ]
@@ -104,9 +104,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.52,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.52
         }
       }
     ]
@@ -120,9 +120,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.57,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.57
         }
       }
     ]
@@ -136,9 +136,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.63,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.63
         }
       }
     ]
@@ -152,14 +152,15 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 0.7,
           "attr": "damageRatioBullet",
-          "value": 2
+          "value": 2,
+          "threshold": 0.7
         }
       }
     ]
   },
-  "color": "red",
+  "name": "好斗的玛丽",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -168,26 +169,25 @@
       ],
       "type": "BattleBuffAddAttrBloodrage",
       "arg_list": {
-        "threshold": 0.3,
         "attr": "damageRatioBullet",
-        "value": 2
+        "value": 2,
+        "threshold": 0.3
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 10971,
+  "id": 10971,
+  "stack": 1,
+  "color": "red",
+  "desc": "增伤效果",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "增伤效果",
-  "picture": "",
-  "icon": 10971,
-  "name": "好斗的玛丽",
-  "init_effect": "jinengchufared",
-  "id": 10971,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

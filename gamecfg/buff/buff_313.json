@@ -1,4 +1,9 @@
 {
+  "name": "进水",
+  "picture": "",
+  "desc": "U81进水 持续伤害",
+  "time": 24.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 2,
-        "number": 10,
         "attr": "torpedoPower",
+        "dotType": 2,
+        "k": 0.45,
         "time": 3,
-        "k": 0.45
+        "number": 10
       }
     },
     {
@@ -24,13 +29,8 @@
       }
     }
   ],
-  "desc": "U81进水 持续伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 313,
-  "name": "进水",
-  "init_effect": "",
   "id": 313,
-  "stack": 1,
-  "time": 24.1,
-  "last_effect": ""
+  "stack": 1
 }

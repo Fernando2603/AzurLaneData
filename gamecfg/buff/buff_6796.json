@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "战列增伤",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "DMG_TAG_EHC_T_4"
+        "attr": "DMG_TAG_EHC_T_4",
+        "number": 0.03
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "DMG_TAG_EHC_T_5"
+        "attr": "DMG_TAG_EHC_T_5",
+        "number": 0.03
       }
     },
     {
@@ -27,8 +31,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "DMG_TAG_EHC_T_10"
+        "attr": "DMG_TAG_EHC_T_10",
+        "number": 0.03
       }
     },
     {
@@ -37,18 +41,14 @@
       ],
       "type": "BattleBuffShiftWeapon",
       "arg_list": {
-        "weapon_id": 18206,
-        "detach_id": 18186
+        "detach_id": 18186,
+        "weapon_id": 18206
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 6790,
-  "name": "战列增伤",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6796,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

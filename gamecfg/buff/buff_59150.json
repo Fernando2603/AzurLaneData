@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "立场发射",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 15,
-        "skill_id": 59150
+        "skill_id": 59150,
+        "target": "TargetSelf"
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 59150,
+  "color": "red",
+  "id": 59150,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 59150,
-  "name": "立场发射",
-  "init_effect": "",
-  "id": 59150,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

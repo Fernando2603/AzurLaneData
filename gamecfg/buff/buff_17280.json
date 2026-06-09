@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17280,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 17280
       }
     },
     {
@@ -27,24 +28,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.5,
         "quota": 1,
-        "skill_id": 17280
+        "skill_id": 17280,
+        "hpUpperBound": 0.5,
+        "target": "TargetSelf"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipType"
-        ],
-        "buff_id": 17282,
         "ship_type_list": [
           6,
           7
+        ],
+        "buff_id": 17282,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
         ]
       }
     },
@@ -52,25 +53,24 @@
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 17282,
         "ship_tag_list": [
           "Northampton-Class"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17280,
   "id": 17280,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

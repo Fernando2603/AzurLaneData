@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,16 +9,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "The-Four-Symbols"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 30190,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "The-Four-Symbols"
-        ]
+        "skill_id": 30190
       }
     },
     {
@@ -26,26 +27,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 30191,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "The-Four-Symbols"
         ],
-        "skill_id": 30191
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 20000,
-  "name": "",
-  "init_effect": "",
-  "id": 30195,
-  "stack": 1,
   "time": 3,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 20000,
+  "id": 30195,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

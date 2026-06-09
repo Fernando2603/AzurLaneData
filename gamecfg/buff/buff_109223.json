@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "回复效果",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 109223,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 109223
       }
     },
     {
@@ -36,18 +38,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 109213,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 109213
       }
     }
   ],
-  "desc": "回复效果",
-  "picture": "",
-  "icon": 109220,
-  "name": "回复效果",
+  "time": 3,
   "init_effect": "",
+  "last_effect": "jingling_guang",
+  "icon": 109220,
   "id": 109223,
   "stack": 1,
-  "time": 3,
-  "last_effect": "jingling_guang"
+  "desc": "回复效果"
 }

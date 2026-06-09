@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "驱逐-指挥-雷击III",
+  "picture": "",
+  "desc": "该入口提供战外挂载到战内",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "torpedoPower",
         "convertRate": 1.2,
-        "ability": "command",
-        "convertAttr": "torpedoPower"
+        "ability": "command"
       }
     }
   ],
-  "desc": "该入口提供战外挂载到战内",
-  "picture": "",
+  "last_effect": "",
   "icon": 40150,
-  "name": "驱逐-指挥-雷击III",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40151,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

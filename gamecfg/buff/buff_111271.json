@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "风纪整肃",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,8 +19,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": 500
       }
     },
     {
@@ -29,25 +30,24 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 500
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 111270,
+  "id": 111271,
+  "stack": 1,
+  "color": "yellow",
+  "desc": "提高先锋机动和炮击",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高先锋机动和炮击",
-  "picture": "",
-  "icon": 111270,
-  "name": "风纪整肃",
-  "init_effect": "jinengchufared",
-  "id": 111271,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 15,
         "index": [
           1
         ],
-        "countType": 29510,
-        "countTarget": 15
+        "countType": 29510
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29511,
         "countType": 29510,
-        "skill_id": 29511
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行15次攻击，触发专属弹幕-恰巴耶夫I",
-  "picture": "",
-  "icon": 29510,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29511,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29510,
+  "id": 29511,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行15次攻击，触发专属弹幕-恰巴耶夫I"
 }

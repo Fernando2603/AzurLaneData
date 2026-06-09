@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "勇者标枪永久盾牌",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200101,
-        "time": 2
+        "time": 2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200100,
-  "name": "勇者标枪永久盾牌",
-  "init_effect": "",
+  "color": "red",
   "id": 200100,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

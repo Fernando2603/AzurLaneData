@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,15 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 60360,
+        "minWeaponNumber": 1,
         "type": [
           5
         ],
-        "skill_id": 60360,
         "index": [
           2
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -24,25 +28,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 60361,
+        "minWeaponNumber": 1,
         "type": [
           5
         ],
-        "skill_id": 60361,
         "index": [
           3
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60360,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60360,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -7,8 +7,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 3
+          "add": 3,
+          "mul": 0
         }
       }
     ]
@@ -21,8 +21,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 3.5
+          "add": 3.5,
+          "mul": 0
         }
       }
     ]
@@ -35,8 +35,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 4
+          "add": 4,
+          "mul": 0
         }
       }
     ]
@@ -49,8 +49,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 4.5
+          "add": 4.5,
+          "mul": 0
         }
       }
     ]
@@ -63,8 +63,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 5
+          "add": 5,
+          "mul": 0
         }
       }
     ]
@@ -77,8 +77,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 5.5
+          "add": 5.5,
+          "mul": 0
         }
       }
     ]
@@ -91,8 +91,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 6
+          "add": 6,
+          "mul": 0
         }
       }
     ]
@@ -105,8 +105,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 6.5
+          "add": 6.5,
+          "mul": 0
         }
       }
     ]
@@ -119,8 +119,8 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 7
+          "add": 7,
+          "mul": 0
         }
       }
     ]
@@ -133,13 +133,14 @@
         ],
         "type": "BattleBuffFixVelocity",
         "arg_list": {
-          "mul": 0,
-          "add": 8
+          "add": 8,
+          "mul": 0
         }
       }
     ]
   },
-  "color": "red",
+  "name": "尚武之魂",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -147,25 +148,24 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 3
+        "add": 3,
+        "mul": 0
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 10951,
+  "id": 10951,
+  "stack": 1,
+  "color": "red",
+  "desc": "炮击提高",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "炮击提高",
-  "picture": "",
-  "icon": 10951,
-  "name": "尚武之魂",
-  "init_effect": "jinengchufared",
-  "id": 10951,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

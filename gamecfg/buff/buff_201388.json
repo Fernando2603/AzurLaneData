@@ -1,4 +1,8 @@
 {
+  "id": 201388,
+  "name": "2025狮UR活动 塞壬支援",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +10,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201368,
+        "target": "TargetSelf",
+        "skill_id": 201368
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_tag_list": [
+          "MAP_B"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201389,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
         "target": "TargetSelf"
       }
     },
@@ -16,34 +38,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 201389,
         "ship_tag_list": [
-          "MAP_B"
-        ]
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
+          "MAP_D"
         ],
         "minTargetNumber": 1,
         "buff_id": 201395,
-        "ship_tag_list": [
-          "MAP_D"
-        ]
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -52,24 +56,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "MAP_SP"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201398,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201398,
-        "ship_tag_list": [
-          "MAP_SP"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201388,
-  "name": "2025狮UR活动 塞壬支援",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 3,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

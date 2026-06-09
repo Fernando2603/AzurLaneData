@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "时代新启",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 151460
+        "skill_id": 151460,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,8 +29,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151460,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 151460
       }
     },
     {
@@ -38,9 +39,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 151461
+        "skill_id": 151461,
+        "target": "TargetSelf"
       }
     },
     {
@@ -49,19 +50,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151461,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 151461
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151460,
   "id": 151460,
-  "name": "时代新启",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

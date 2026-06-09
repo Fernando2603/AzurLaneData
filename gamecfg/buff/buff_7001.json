@@ -1,4 +1,9 @@
 {
+  "name": "精英怪-急速",
+  "picture": "",
+  "desc": "精英怪-急速",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffNewAI",
       "arg_list": {
-        "ai_onRemove": 10012,
-        "ai_onAttach": 10012
+        "ai_onAttach": 10012,
+        "ai_onRemove": 10012
       }
     },
     {
@@ -17,9 +22,9 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "group": 0,
         "mul": 2000,
-        "add": 0
+        "add": 0,
+        "group": 0
       }
     },
     {
@@ -28,9 +33,9 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "group": 0,
         "attr": "loadSpeed",
-        "number": 10000
+        "number": 10000,
+        "group": 0
       }
     },
     {
@@ -44,13 +49,8 @@
       }
     }
   ],
-  "desc": "精英怪-急速",
-  "picture": "",
+  "last_effect": "jingyingguaibuffbaise",
   "icon": 7001,
-  "name": "精英怪-急速",
-  "init_effect": "",
   "id": 7001,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "jingyingguaibuffbaise"
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "圣胡安防空",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 12540,
         "time": 8,
-        "rant": 2500
+        "rant": 2500,
+        "skill_id": 12540,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,11 +30,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 13,
         "index": [
           1
         ],
-        "countType": 12540,
-        "countTarget": 13
+        "countType": 12540
       }
     },
     {
@@ -42,21 +43,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 12540,
         "quota": 3,
-        "skill_id": 12541
+        "skill_id": 12541,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12540,
   "id": 12540,
-  "name": "圣胡安防空",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

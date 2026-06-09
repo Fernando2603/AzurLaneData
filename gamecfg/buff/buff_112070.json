@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "DM弹幕演示用",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -27,9 +28,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 112071
+        "skill_id": 112071,
+        "target": "TargetSelf"
       }
     },
     {
@@ -38,9 +39,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 10,
-        "skill_id": 112072
+        "skill_id": 112072,
+        "target": "TargetSelf"
       }
     },
     {
@@ -49,10 +50,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.7,
         "quota": 1,
-        "skill_id": 112073
+        "skill_id": 112073,
+        "hpUpperBound": 0.7,
+        "target": "TargetSelf"
       }
     },
     {
@@ -61,19 +62,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112074,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 112074
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 112060,
   "id": 112070,
-  "name": "DM弹幕演示用",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "Z字旗",
+  "picture": "",
+  "desc": "自身暴击率提高5%，特定角色装备时，获得额外效果",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 6230,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 6230
       }
     }
   ],
-  "desc": "自身暴击率提高5%，特定角色装备时，获得额外效果",
-  "picture": "",
+  "last_effect": "",
   "icon": 6230,
-  "name": "Z字旗",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6230,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

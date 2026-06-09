@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-埃尔德里奇II"
   },
-  "color": "red",
+  "name": "专属弹幕-埃尔德里奇III",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 29020,
         "index": [
           1
         ],
-        "countType": 29020,
-        "countTarget": 10,
-        "gunnerBonus": true
+        "countTarget": 10
       }
     },
     {
@@ -24,20 +25,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29023,
         "countType": 29020,
-        "skill_id": 29023
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-埃尔德里奇III",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行10次攻击，触发专属弹幕-埃尔德里奇III",
+  "last_effect": "",
   "icon": 29020,
   "id": 29023,
-  "name": "专属弹幕-埃尔德里奇III",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行10次攻击，触发专属弹幕-埃尔德里奇III"
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "吾妻",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,20 +18,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 19202,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每20秒触发,机动、命中提高",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "每20秒,机动、命中提高",
+  "last_effect": "",
   "icon": 19200,
   "id": 19200,
-  "name": "吾妻",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每20秒触发,机动、命中提高"
 }

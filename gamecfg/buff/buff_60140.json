@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,15 +11,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 60141,
         "ship_tag_list": [
           "RyzaSelf"
         ],
+        "buff_id": 60141,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -24,18 +28,14 @@
       ],
       "type": "BattleBuffAddTag",
       "arg_list": {
-        "skill_id": 60140,
-        "tag": "ITEMSKILL60140"
+        "tag": "ITEMSKILL60140",
+        "skill_id": 60140
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60140,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60140,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

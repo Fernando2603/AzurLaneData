@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "尽忠职守-大世界LV3",
+  "picture": "",
+  "desc": "战术-炮击II",
+  "time": 30,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "cannonPower",
         "convertRate": 0.8,
-        "ability": "tactic",
-        "convertAttr": "cannonPower"
+        "ability": "tactic"
       }
     }
   ],
-  "desc": "战术-炮击II",
-  "picture": "",
+  "last_effect": "",
   "icon": 40340,
-  "name": "尽忠职守-大世界LV3",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40341,
-  "stack": 1,
-  "time": 30,
-  "last_effect": ""
+  "stack": 1
 }

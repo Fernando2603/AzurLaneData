@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "敌方效果",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1011901,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 1011901
       }
     },
     {
@@ -16,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.1
       }
     },
     {
@@ -32,13 +37,8 @@
       }
     }
   ],
-  "desc": "敌方效果",
-  "picture": "",
+  "last_effect": "",
   "icon": 11900,
-  "name": "",
-  "init_effect": "",
   "id": 1011902,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2022莱莎联动EX 属性支配血量监听",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 200132,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 200132
       }
     },
     {
@@ -30,18 +34,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200120,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200120
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200132,
-  "name": "2022莱莎联动EX 属性支配血量监听",
-  "init_effect": "",
+  "color": "red",
   "id": 200132,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

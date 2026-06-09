@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,16 +27,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 16925,
         "nationality": [
           8,
           9
         ],
+        "buff_id": 16925,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -44,16 +45,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 16930,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "GuichenBoost"
         ],
-        "skill_id": 16930
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -62,7 +63,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           16931,
           16932,
@@ -81,7 +81,8 @@
             0.66,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -90,21 +91,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "inside": 1,
         "skill_id": 16937,
         "quota": 5,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "inside": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16930,
   "id": 16930,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

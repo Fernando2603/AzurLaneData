@@ -29,6 +29,8 @@
   "10": {
     "time": 3
   },
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,26 +39,24 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 17252,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 17252
       }
     }
   ],
+  "time": 3,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 17250,
+  "id": 17252,
+  "stack": 1,
+  "desc": "",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 17250,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 17252,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  ]
 }

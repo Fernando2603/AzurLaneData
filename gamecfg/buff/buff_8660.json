@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "blizzard",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "hanbingquyu_beiji",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +12,14 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -3000,
-        "add": 0
+        "add": 0,
+        "mul": -3000
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "hanbingquyu_jiansu",
   "icon": 8660,
-  "name": "blizzard",
-  "init_effect": "hanbingquyu_beiji",
+  "color": "yellow",
   "id": 8660,
-  "stack": 1,
-  "time": 3,
-  "last_effect": "hanbingquyu_jiansu"
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2022莱莎联动 战斗BUFF 损管效果LV2",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,20 +12,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.2,
         "quota": 1,
-        "skill_id": 200161
+        "skill_id": 200161,
+        "hpUpperBound": 0.2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200161,
-  "name": "2022莱莎联动 战斗BUFF 损管效果LV2",
-  "init_effect": "",
+  "color": "red",
   "id": 200161,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

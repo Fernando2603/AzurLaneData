@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "skill_id": 17791,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "danyaochongzu"
         ],
-        "skill_id": 17791
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 17790,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 17792,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

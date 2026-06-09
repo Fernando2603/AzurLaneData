@@ -9,15 +9,16 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
         "minTargetNumber": 1,
+        "isBuffStackByCheckTarget": true,
         "buff_id": 151971,
-        "nationality": 3,
-        "isBuffStackByCheckTarget": true
+        "check_target": "TargetNationalityFriendly",
+        "nationality": 3
       },
       "trigger": [
         "onStartGame"
@@ -46,14 +47,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0.5,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151970,
   "id": 151970,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0.5,
-  "last_effect": ""
+  "desc": ""
 }

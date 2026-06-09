@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,19 +10,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 30421
+        "skill_id": 30421,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "进入战斗后，触发专属弹幕",
-  "picture": "",
-  "icon": 30420,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 30421,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 30420,
+  "id": 30421,
+  "color": "red",
+  "stack": 1,
+  "desc": "进入战斗后，触发专属弹幕"
 }

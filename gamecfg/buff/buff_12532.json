@@ -29,6 +29,8 @@
   "10": {
     "time": 5
   },
+  "name": "Mighty B",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,26 +39,24 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 12532,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 12532
       }
     }
   ],
+  "time": 5,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 12530,
+  "id": 12532,
+  "stack": 1,
+  "desc": "完全闪避",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "完全闪避",
-  "picture": "",
-  "icon": 12530,
-  "name": "Mighty B",
-  "init_effect": "jinengchufablue",
-  "id": 12532,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  ]
 }

@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行15次攻击，触发专属弹幕-舒尔茨I"
   },
-  "color": "red",
+  "name": "专属弹幕-舒尔茨",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,13 +11,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 30041,
+        "minWeaponNumber": 1,
         "label": [
           "DD",
           "MG"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -25,24 +26,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 30042,
+        "minWeaponNumber": 1,
         "label": [
           "CL",
           "MG"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 30040,
   "id": 30041,
-  "name": "专属弹幕-舒尔茨",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024罗德尼meta 投影亡语",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.06,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.06
       }
     },
     {
@@ -30,8 +34,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.04,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.04
       }
     },
     {
@@ -41,8 +45,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 7,
-        "countType": 200788
+        "countType": 200788,
+        "countTarget": 7
       }
     },
     {
@@ -51,19 +55,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200816,
-        "countType": 200788
+        "countType": 200788,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200788,
-  "name": "2024罗德尼meta 投影亡语",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200788,
-  "stack": 7,
-  "time": 0,
-  "last_effect": ""
+  "stack": 7
 }

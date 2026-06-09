@@ -1,4 +1,9 @@
 {
+  "name": "2023海盗活动 剧情战触发",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,20 +11,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 8527,
         "quota": 1,
-        "hpUpperBound": 0.25
+        "buff_id": 8527,
+        "hpUpperBound": 0.25,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200641,
-  "name": "2023海盗活动 剧情战触发",
-  "init_effect": "",
   "id": 200641,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

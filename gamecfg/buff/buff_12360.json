@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "爱丽丝",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,18 +18,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTypeFriendly"
-        ],
-        "minTargetNumber": 1,
         "ship_type_list": [
           1,
           20,
           21
         ],
-        "skill_id": 12360
+        "skill_id": 12360,
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTypeFriendly"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -37,19 +38,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12361,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12361
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12360,
   "id": 12360,
-  "name": "爱丽丝",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

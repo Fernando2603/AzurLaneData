@@ -11,9 +11,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 4000,
           "skill_id": 10200,
-          "rant": 4000
+          "target": "TargetSelf"
         }
       }
     ]
@@ -30,9 +30,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 4300,
           "skill_id": 10200,
-          "rant": 4300
+          "target": "TargetSelf"
         }
       }
     ]
@@ -49,9 +49,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 4600,
           "skill_id": 10200,
-          "rant": 4600
+          "target": "TargetSelf"
         }
       }
     ]
@@ -68,9 +68,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 4900,
           "skill_id": 10200,
-          "rant": 4900
+          "target": "TargetSelf"
         }
       }
     ]
@@ -87,9 +87,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 5200,
           "skill_id": 10200,
-          "rant": 5200
+          "target": "TargetSelf"
         }
       }
     ]
@@ -106,9 +106,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 5500,
           "skill_id": 10200,
-          "rant": 5500
+          "target": "TargetSelf"
         }
       }
     ]
@@ -125,9 +125,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 5800,
           "skill_id": 10200,
-          "rant": 5800
+          "target": "TargetSelf"
         }
       }
     ]
@@ -144,9 +144,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 6200,
           "skill_id": 10200,
-          "rant": 6200
+          "target": "TargetSelf"
         }
       }
     ]
@@ -163,9 +163,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 6600,
           "skill_id": 10200,
-          "rant": 6600
+          "target": "TargetSelf"
         }
       }
     ]
@@ -182,14 +182,15 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
+          "rant": 7000,
           "skill_id": 10200,
-          "rant": 7000
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "red",
+  "name": "LuckyE",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -197,20 +198,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "rant": 4000,
         "skill_id": 10200,
-        "rant": 4000
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "空中支援时，有$1概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "空中支援时，有40%(满级70%)概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
+  "last_effect": "",
   "icon": 10200,
   "id": 10200,
-  "name": "LuckyE",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "空中支援时，有$1概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒"
 }

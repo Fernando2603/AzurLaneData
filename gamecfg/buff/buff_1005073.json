@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "",
+  "name": "骑士之盾 +",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,18 +12,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 1005071,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 5070,
-  "name": "骑士之盾 +",
-  "init_effect": "",
+  "color": "blue",
   "id": 1005073,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

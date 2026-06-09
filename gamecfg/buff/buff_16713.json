@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,26 +18,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 16711,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "leigensibao"
         ],
-        "skill_id": 16711
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 4,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16713,
   "id": 16713,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 4,
-  "last_effect": ""
+  "desc": ""
 }

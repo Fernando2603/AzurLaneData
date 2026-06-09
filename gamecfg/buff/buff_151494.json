@@ -1,4 +1,9 @@
 {
+  "name": "判别法系装备触发弹幕，若识别到10秒tag，删除20秒cd，换上10秒cd",
+  "picture": "",
+  "desc": "",
+  "time": 2,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 151493,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "FFNF"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -21,12 +26,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 151492,
         "label": [
           "FFNF"
         ],
-        "check_weapon": true,
+        "target": "TargetSelf",
         "maxWeaponNumber": 0
       }
     },
@@ -36,26 +41,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "dadan10"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 151495,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 151495,
-        "ship_tag_list": [
-          "dadan10"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 151490,
-  "name": "判别法系装备触发弹幕，若识别到10秒tag，删除20秒cd，换上10秒cd",
-  "init_effect": "",
   "id": 151494,
-  "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "stack": 1
 }

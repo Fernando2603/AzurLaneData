@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +13,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.3,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.3
       }
     },
     {
@@ -20,17 +25,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.3,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.3
       }
     }
   ],
-  "desc": "",
+  "last_effect": "ATK",
   "id": 999971,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
-  "stack": 3,
-  "time": 0,
-  "last_effect": "ATK"
+  "stack": 3
 }

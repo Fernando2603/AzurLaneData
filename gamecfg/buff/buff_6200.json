@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "一式穿甲弹",
+  "picture": "",
+  "desc": "提高暴击伤害",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 6200,
         "group": {
           "level": 2,
           "id": 6190
-        }
+        },
+        "skill_id": 6200
       }
     }
   ],
-  "desc": "提高暴击伤害",
-  "picture": "",
+  "last_effect": "",
   "icon": 6200,
-  "name": "一式穿甲弹",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6200,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "蜂鸟直升机",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,14 +18,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "weapon_group": [
-          740
-        ],
-        "quota": 1,
         "check_weapon": true,
         "skill_id": 12210,
         "minWeaponNumber": 1,
-        "time": 10
+        "quota": 1,
+        "time": 10,
+        "weapon_group": [
+          740
+        ]
       }
     },
     {
@@ -34,19 +35,18 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 12212,
-        "quota": 1,
-        "time": 10
+        "time": 10,
+        "quota": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12210,
   "id": 12210,
-  "name": "蜂鸟直升机",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

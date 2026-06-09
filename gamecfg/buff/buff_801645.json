@@ -1,4 +1,9 @@
 {
+  "name": "起火",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 5.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "cloakExpose": 36,
-        "exposeGroup": 1,
-        "dotType": 1,
-        "number": 150,
         "attr": "airPower",
+        "exposeGroup": 1,
+        "cloakExpose": 36,
+        "k": 0,
         "time": 1,
-        "k": 0
+        "dotType": 1,
+        "number": 150
       }
     },
     {
@@ -21,8 +26,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 60
       }
     },
     {
@@ -31,8 +36,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 61,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 61
       }
     },
     {
@@ -52,18 +57,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": -300
       }
     }
   ],
-  "desc": "持续伤害",
-  "picture": "",
+  "last_effect": "zhuoshao",
   "icon": 801640,
-  "name": "起火",
-  "init_effect": "",
   "id": 801645,
-  "stack": 1,
-  "time": 5.1,
-  "last_effect": "zhuoshao"
+  "stack": 1
 }

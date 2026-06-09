@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "小齐柏林1",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -28,9 +29,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 32,
-        "skill_id": 12092
+        "skill_id": 12092,
+        "target": "TargetSelf"
       }
     },
     {
@@ -39,20 +40,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "quota": 1,
         "buff_id": 12091,
         "time": 8,
-        "quota": 1
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "副炮",
-  "picture": "",
-  "icon": 12090,
-  "name": "小齐柏林1",
-  "init_effect": "",
-  "id": 12093,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12090,
+  "id": 12093,
+  "color": "red",
+  "stack": 1,
+  "desc": "副炮"
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "恶毒1",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,12 +18,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "weaponType": 2,
+        "rant": 10000,
         "buff_id": 12321,
         "index": [
           1
         ],
-        "rant": 10000
+        "weaponType": 2
       }
     },
     {
@@ -40,21 +41,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 12321,
         "quota": 10,
-        "killer": "self"
+        "killer": "self",
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12320,
   "id": 12320,
-  "name": "恶毒1",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

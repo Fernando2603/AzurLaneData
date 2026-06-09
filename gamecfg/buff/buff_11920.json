@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "天之骑士·检测PUTAG",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 11923,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 11923,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "KnightPowerUp"
         ]
@@ -35,16 +36,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "KnightPowerUp"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 11924,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 11924,
-        "ship_tag_list": [
-          "KnightPowerUp"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -53,27 +54,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "skill_id": 11922,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "Cleveland-Class"
         ],
-        "skill_id": 11922
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "检查TAG",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 11920,
   "id": 11920,
-  "name": "天之骑士·检测PUTAG",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "检查TAG"
 }

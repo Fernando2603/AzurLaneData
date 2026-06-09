@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 388
+        "countType": 388,
+        "countTarget": 4
       }
     },
     {
@@ -17,19 +22,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 389,
-        "countType": 388
+        "countType": 388,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 388,
-  "name": "",
-  "init_effect": "",
   "id": 388,
-  "stack": 4,
-  "time": 0,
-  "last_effect": ""
+  "stack": 4
 }

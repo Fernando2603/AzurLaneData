@@ -1,4 +1,8 @@
 {
+  "id": 201557,
+  "name": "2025约战联动 L3 BOSS光环",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +10,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 201558,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 201558,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "BOSS"
         ]
@@ -30,11 +34,7 @@
       }
     }
   ],
-  "id": 201557,
-  "name": "2025约战联动 L3 BOSS光环",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "大舰队世界boss_1_buff_测试者用",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 39010,
         "quota": 1,
-        "time": 0.1
+        "time": 0.1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,10 +23,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 39001,
         "quota": 1,
-        "time": 10
+        "time": 10,
+        "target": "TargetSelf"
       }
     },
     {
@@ -31,10 +35,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 39002,
         "quota": 1,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     },
     {
@@ -43,10 +47,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 39003,
         "quota": 1,
-        "time": 32
+        "time": 32,
+        "target": "TargetSelf"
       }
     },
     {
@@ -55,20 +59,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 39004,
         "quota": 1,
-        "time": 44
+        "time": 44,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 39000,
-  "name": "大舰队世界boss_1_buff_测试者用",
-  "init_effect": "",
+  "color": "yellow",
   "id": 39010,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

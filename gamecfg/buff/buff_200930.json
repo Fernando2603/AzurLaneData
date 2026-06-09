@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024阿尔萨斯活动 辉光之城-绽放",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +11,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200931,
-        "killer": "self"
+        "killer": "self",
+        "target": "TargetSelf"
       }
     },
     {
@@ -18,19 +22,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetPlayerFlagShip",
         "buff_id": 200932,
-        "killer": "self"
+        "killer": "self",
+        "target": "TargetPlayerFlagShip"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200930,
-  "name": "2024阿尔萨斯活动 辉光之城-绽放",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200930,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

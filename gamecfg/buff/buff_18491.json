@@ -7,7 +7,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -21,7 +20,8 @@
               0.55,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -34,7 +34,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -48,7 +47,8 @@
               0.583,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -61,7 +61,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -75,7 +74,8 @@
               0.516,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -88,7 +88,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -102,7 +101,8 @@
               0.649,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -115,7 +115,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -129,7 +128,8 @@
               0.682,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -142,7 +142,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -156,7 +155,8 @@
               0.715,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -169,7 +169,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -183,7 +182,8 @@
               0.748,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -196,7 +196,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -210,7 +209,8 @@
               0.781,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -223,7 +223,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -237,7 +236,8 @@
               0.814,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -250,7 +250,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             18490,
             18491
@@ -264,11 +263,14 @@
               0.85,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
   },
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -276,7 +278,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           18490,
           18491
@@ -290,17 +291,16 @@
             0.55,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "概率触发",
-  "picture": "",
-  "icon": 18491,
-  "name": "",
+  "time": 3,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 18491,
   "id": 18491,
   "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "desc": "概率触发"
 }

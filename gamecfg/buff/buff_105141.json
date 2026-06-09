@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "野性的二元论",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -28,26 +29,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 105141
+        "skill_id": 105141,
+        "target": "TargetSelf"
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 105140,
+  "id": 105141,
+  "stack": 1,
+  "color": "red",
+  "desc": "",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 105140,
-  "name": "野性的二元论",
-  "init_effect": "jinengchufared",
-  "id": 105141,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

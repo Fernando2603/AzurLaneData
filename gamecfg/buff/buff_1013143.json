@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,8 +19,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 13141
+        "countType": 13141,
+        "countTarget": 2
       }
     },
     {
@@ -28,10 +29,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 13141,
         "quota": 1,
-        "skill_id": 1013142
+        "skill_id": 1013142,
+        "target": "TargetSelf"
       }
     },
     {
@@ -41,8 +42,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 4,
-        "countType": 13142
+        "countType": 13142,
+        "countTarget": 4
       }
     },
     {
@@ -51,21 +52,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 13142,
         "quota": 1,
-        "skill_id": 1013142
+        "skill_id": 1013142,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "后排队友受伤计数触发",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 13140,
   "id": 1013142,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 10,
-  "time": 0,
-  "last_effect": ""
+  "desc": "后排队友受伤计数触发"
 }

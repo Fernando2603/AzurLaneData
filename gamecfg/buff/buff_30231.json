@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行12次攻击，触发专属弹幕-能代I"
   },
-  "color": "red",
+  "name": "专属弹幕-能代I",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 30230,
-        "countTarget": 12
+        "countType": 30230
       }
     },
     {
@@ -23,20 +24,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30231,
         "countType": 30230,
-        "skill_id": 30231
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发专属弹幕-能代I",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行12次攻击，触发专属弹幕-能代I",
+  "last_effect": "",
   "icon": 30230,
   "id": 30231,
-  "name": "专属弹幕-能代I",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行12次攻击，触发专属弹幕-能代I"
 }

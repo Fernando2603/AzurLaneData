@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 20,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 2
+        "add": 2,
+        "mul": 0
       }
     },
     {
@@ -19,18 +23,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.02,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.02
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 61100,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 61101,
-  "stack": 1,
-  "time": 20,
-  "last_effect": ""
+  "stack": 1
 }

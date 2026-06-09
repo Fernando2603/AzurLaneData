@@ -1,7 +1,10 @@
 {
-  "color": "",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 8,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,8 +13,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": -300
       }
     },
     {
@@ -31,17 +34,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": -300
       }
     }
   ],
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 115170,
-  "name": "",
-  "init_effect": "",
+  "color": "",
   "id": 115174,
-  "stack": 1,
-  "time": 8,
-  "last_effect": "Darkness"
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2022美系活动EX 恶魔开幕弹形态2",
+  "picture": "",
+  "desc": "",
+  "time": 3.2,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200303,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200303
       }
     },
     {
@@ -17,17 +21,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
-        "skill_id": 200304,
         "ship_tag_list": [
           "devil"
         ],
-        "maxTargetNumber": 0,
-        "time": 3
+        "time": 3,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "skill_id": 200304
       }
     },
     {
@@ -36,27 +40,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
+        "skill_id": 200305,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "devil"
         ],
         "time": 3,
-        "skill_id": 200305
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200303,
-  "name": "2022美系活动EX 恶魔开幕弹形态2",
-  "init_effect": "",
+  "color": "red",
   "id": 200303,
-  "stack": 1,
-  "time": 3.2,
-  "last_effect": ""
+  "stack": 1
 }

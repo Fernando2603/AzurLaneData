@@ -9,8 +9,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 450,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 450
         }
       }
     ]
@@ -25,8 +25,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 520,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 520
         }
       }
     ]
@@ -41,8 +41,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 600,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 600
         }
       }
     ]
@@ -57,8 +57,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 700,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 700
         }
       }
     ]
@@ -73,8 +73,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 770,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 770
         }
       }
     ]
@@ -89,8 +89,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 850,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 850
         }
       }
     ]
@@ -105,8 +105,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 950,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 950
         }
       }
     ]
@@ -121,8 +121,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1020,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1020
         }
       }
     ]
@@ -137,8 +137,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1100,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1100
         }
       }
     ]
@@ -153,13 +153,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1200,
-          "attr": "cannonPower"
+          "attr": "cannonPower",
+          "number": 1200
         }
       }
     ]
   },
-  "color": "yellow",
+  "name": "盛绽之威光",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -169,25 +170,24 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 450,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 450
       }
     }
   ],
+  "time": 10,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 19530,
+  "id": 19531,
+  "stack": 1,
+  "color": "yellow",
+  "desc": "命中提高",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "命中提高",
-  "picture": "",
-  "icon": 19530,
-  "name": "盛绽之威光",
-  "init_effect": "jinengchufared",
-  "id": 19531,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  ]
 }

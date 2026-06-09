@@ -7,10 +7,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 4000
+          "rant": 4000,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -23,10 +23,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 4300
+          "rant": 4300,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -39,10 +39,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 4600
+          "rant": 4600,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -55,10 +55,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 4900
+          "rant": 4900,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -71,10 +71,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 5200
+          "rant": 5200,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -87,10 +87,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 5500
+          "rant": 5500,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -103,10 +103,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 5800
+          "rant": 5800,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -119,10 +119,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 6200
+          "rant": 6200,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -135,10 +135,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 6600
+          "rant": 6600,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -151,15 +151,16 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
-          "skill_id": 19031,
           "time": 12,
-          "rant": 7000
+          "rant": 7000,
+          "skill_id": 19031,
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "red",
+  "name": "皇家舰队的荣耀",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -167,21 +168,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 19031,
         "time": 12,
-        "rant": 4000
+        "rant": 4000,
+        "skill_id": 19031,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮开火时，有$1概率朝自己前方发射一轮专属弹幕(威力依据技能等级)，持续8秒",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮开火时，有40.0%(满级70.0%)概率朝自己前方发射一轮专属弹幕(威力依据技能等级)，持续8秒",
+  "last_effect": "",
   "icon": 19030,
   "id": 19030,
-  "name": "皇家舰队的荣耀",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮开火时，有$1概率朝自己前方发射一轮专属弹幕(威力依据技能等级)，持续8秒"
 }

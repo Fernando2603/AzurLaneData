@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-风云II"
   },
-  "color": "red",
+  "name": "专属弹幕-风云II",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 29730,
         "index": [
           1
         ],
-        "countType": 29730,
-        "countTarget": 10,
-        "gunnerBonus": true
+        "countTarget": 10
       }
     },
     {
@@ -24,20 +25,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29732,
         "countType": 29730,
-        "skill_id": 29732
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-风云II",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行10次攻击，触发专属弹幕-风云II",
+  "last_effect": "",
   "icon": 29730,
   "id": 29732,
-  "name": "专属弹幕-风云II",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行10次攻击，触发专属弹幕-风云II"
 }

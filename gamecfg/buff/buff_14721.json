@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "robot",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14721,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 14721
       }
     },
     {
@@ -27,20 +28,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 3,
-        "skill_id": 14722
+        "skill_id": 14722,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "robot_yglh",
   "icon": 14720,
   "id": 14721,
-  "name": "robot",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 10,
-  "last_effect": "robot_yglh"
+  "desc": ""
 }

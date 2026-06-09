@@ -1,4 +1,9 @@
 {
+  "name": "Gungnir击中特效",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0,
-        "attr": "accuracyRateExtra"
+        "attr": "accuracyRateExtra",
+        "number": 0
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "ShellMissBig",
   "icon": 332,
-  "name": "Gungnir击中特效",
-  "init_effect": "",
   "id": 332,
-  "stack": 1,
-  "time": 1,
-  "last_effect": "ShellMissBig"
+  "stack": 1
 }

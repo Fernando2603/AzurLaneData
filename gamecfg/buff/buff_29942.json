@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行16次攻击，触发专属弹幕-若月II"
   },
-  "color": "red",
+  "name": "全弹发射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 29940,
         "index": [
           1
         ],
-        "countType": 29940,
-        "countTarget": 16,
-        "gunnerBonus": true
+        "countTarget": 16
       }
     },
     {
@@ -24,19 +25,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29942,
         "countType": 29940,
-        "skill_id": 29942
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行16次攻击，触发专属弹幕-若月II",
-  "picture": "",
-  "icon": 29940,
-  "name": "全弹发射",
-  "init_effect": "",
-  "id": 29942,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29940,
+  "id": 29942,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行16次攻击，触发专属弹幕-若月II"
 }

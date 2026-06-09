@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "yunxianzhiyuan"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 60931,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60931,
-        "ship_tag_list": [
-          "yunxianzhiyuan"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60930,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60930,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

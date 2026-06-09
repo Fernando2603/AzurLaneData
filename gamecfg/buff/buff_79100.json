@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "大型作战核心区_强力塞壬蛋船buff",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "damageGetRatioByBulletTorpedo"
+        "attr": "damageGetRatioByBulletTorpedo",
+        "number": -0.1
       }
     },
     {
@@ -17,18 +21,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "damageGetRatioByCannon"
+        "attr": "damageGetRatioByCannon",
+        "number": -0.1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "sairendanchuan_buff",
   "icon": 8636,
-  "name": "大型作战核心区_强力塞壬蛋船buff",
-  "init_effect": "",
+  "color": "yellow",
   "id": 79100,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "sairendanchuan_buff"
+  "stack": 1
 }

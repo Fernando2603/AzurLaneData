@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2022莱莎联动EX 二阶段血量监听",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "Bossbomb",
   "effect_list": [
     {
       "trigger": [
@@ -8,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 200134,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 200134
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200122,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200122
       }
     },
     {
@@ -35,13 +39,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200134,
-  "name": "2022莱莎联动EX 二阶段血量监听",
-  "init_effect": "Bossbomb",
+  "color": "red",
   "id": 200134,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

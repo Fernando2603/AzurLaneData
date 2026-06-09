@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "每隔30秒，释放1次技能鱼雷",
     "effect_list": [
       {
         "trigger": [
@@ -7,14 +8,15 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 30,
-          "skill_id": 31502
+          "skill_id": 31502,
+          "target": "TargetSelf"
         }
       }
-    ],
-    "desc": "每隔30秒，释放1次技能鱼雷"
+    ]
   },
+  "name": "敌人技能鱼雷四联",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -22,19 +24,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 30,
-        "skill_id": 31502
+        "skill_id": 31502,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每隔30秒，释放1次技能鱼雷",
-  "picture": "",
-  "icon": 31502,
-  "name": "敌人技能鱼雷四联",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 31502,
   "id": 31502,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每隔30秒，释放1次技能鱼雷"
 }

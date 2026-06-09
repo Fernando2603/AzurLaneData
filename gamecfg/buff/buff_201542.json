@@ -1,4 +1,8 @@
 {
+  "id": 201542,
+  "name": "2025风帆三期EX 莱姆号 EX普通 召唤激光发射器",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +10,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201540,
+        "target": "TargetSelf",
+        "skill_id": 201540
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 201541,
+        "quota": 1,
+        "time": 5,
         "target": "TargetSelf"
       }
     },
@@ -16,22 +32,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 201541,
-        "quota": 1,
-        "time": 5
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 201540,
         "quota": 1,
-        "time": 10
+        "time": 10,
+        "target": "TargetSelf"
       }
     },
     {
@@ -40,18 +44,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 201541,
         "quota": 1,
-        "time": 15
+        "time": 15,
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201542,
-  "name": "2025风帆三期EX 莱姆号 EX普通 召唤激光发射器",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 30,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,10 +19,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15030,
-        "hpUpperBound": 1,
+        "hpSigned": 0,
         "hpLowerBound": 0.6,
-        "hpSigned": 0
+        "hpUpperBound": 1,
+        "skill_id": 15030
       }
     },
     {
@@ -31,10 +32,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15031,
-        "hpUpperBound": 0.6,
+        "hpSigned": 0,
         "hpLowerBound": 0,
-        "hpSigned": 0
+        "hpUpperBound": 0.6,
+        "skill_id": 15031
       }
     },
     {
@@ -43,28 +44,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 15037,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "AdalbertHigh"
         ],
         "time": 20,
-        "skill_id": 15037
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15030,
   "id": 15030,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

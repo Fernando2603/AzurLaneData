@@ -29,6 +29,8 @@
   "10": {
     "stack": 10
   },
+  "name": "确捷1",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,25 +39,23 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 100,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 100
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 12303,
+  "id": 12303,
+  "stack": 5,
+  "desc": "炮击提高",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "炮击提高",
-  "picture": "",
-  "icon": 12303,
-  "name": "确捷1",
-  "init_effect": "jinengchufared",
-  "id": 12303,
-  "stack": 5,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

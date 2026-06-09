@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "混乱",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,22 +22,18 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
+        "add": 0,
+        "mul": -2000,
         "group": {
           "level": 10,
           "id": 300
-        },
-        "mul": -2000,
-        "add": 0
+        }
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "hunluan",
   "icon": 8661,
-  "name": "混乱",
-  "init_effect": "",
+  "color": "yellow",
   "id": 79040,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "hunluan"
+  "stack": 1
 }

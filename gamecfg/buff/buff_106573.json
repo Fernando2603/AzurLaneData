@@ -1,14 +1,9 @@
 {
-  "color": "red",
-  "desc_get": "",
-  "blink": [
-    1,
-    0,
-    0,
-    0.3,
-    0.3
-  ],
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -16,17 +11,22 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "DMG_TAG_EHC_DOAZHUZI"
+        "attr": "DMG_TAG_EHC_DOAZHUZI",
+        "number": 0.05
       }
     }
   ],
-  "picture": "",
-  "icon": 106570,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 106573,
+  "desc_get": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "last_effect": "",
+  "icon": 106570,
+  "color": "red",
+  "id": 106573,
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ]
 }

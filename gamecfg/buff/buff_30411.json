@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-鞍山级III"
   },
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,12 +11,12 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
+        "countType": 30411,
         "index": [
           1
         ],
-        "countType": 30411,
-        "countTarget": 16,
-        "gunnerBonus": true
+        "countTarget": 16
       }
     },
     {
@@ -24,19 +25,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 30415,
-        "countType": 30411
+        "countType": 30411,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行16次攻击，触发全弹发射-鞍山级III",
-  "picture": "",
-  "icon": 20000,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 30411,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 20000,
+  "id": 30411,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行16次攻击，触发全弹发射-鞍山级III"
 }

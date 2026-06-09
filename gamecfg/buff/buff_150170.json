@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -27,13 +28,13 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": false,
+        "buff_id": 150172,
         "cld_data": {
           "box": {
             "range": 90
           }
-        },
-        "buff_id": 150172,
-        "friendly_fire": false
+        }
       }
     },
     {
@@ -42,26 +43,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
+        "skill_id": 150171,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "LightArmorZ47"
         ],
-        "skill_id": 150171
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "d90r45-区域内护甲检查",
-  "picture": "",
-  "icon": 150170,
-  "name": "",
-  "init_effect": "",
-  "id": 150170,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 150170,
+  "id": 150170,
+  "color": "red",
+  "stack": 1,
+  "desc": "d90r45-区域内护甲检查"
 }

@@ -1,4 +1,9 @@
 {
+  "name": "测试2号-百分比攻速",
+  "picture": "",
+  "desc": "测试攻速",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,19 +13,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "group": 102,
         "attr": "loadspeed",
-        "number": 100
+        "number": 100,
+        "group": 102
       }
     }
   ],
-  "desc": "测试攻速",
-  "picture": "",
+  "last_effect": "lansebuff",
   "icon": 60002,
-  "name": "测试2号-百分比攻速",
-  "init_effect": "",
   "id": 60002,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "lansebuff"
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2019年2月世界BOSS叠加buff",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 3000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 3000
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 4000,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 4000
       }
     },
     {
@@ -27,25 +31,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 2120,
+  "color": "yellow",
+  "id": 8611,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 2120,
-  "name": "2019年2月世界BOSS叠加buff",
-  "init_effect": "jinengchufablue",
-  "id": 8611,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

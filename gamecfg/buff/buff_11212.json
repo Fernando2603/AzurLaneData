@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "歼灭模式",
+  "picture": "",
+  "desc": "提高属性",
+  "time": 10,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,25 +12,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 20000,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 20000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 11210,
+  "color": "red",
+  "id": 11212,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高属性",
-  "picture": "",
-  "icon": 11210,
-  "name": "歼灭模式",
-  "init_effect": "jinengchufared",
-  "id": 11212,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  ]
 }

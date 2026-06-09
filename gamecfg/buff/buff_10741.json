@@ -8,8 +8,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2000,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 2000
         }
       }
     ]
@@ -23,8 +23,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2330,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 2330
         }
       }
     ]
@@ -38,8 +38,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2660,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 2660
         }
       }
     ]
@@ -53,8 +53,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2990,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 2990
         }
       }
     ]
@@ -68,8 +68,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 3320,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 3320
         }
       }
     ]
@@ -83,8 +83,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 3650,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 3650
         }
       }
     ]
@@ -98,8 +98,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 3980,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 3980
         }
       }
     ]
@@ -113,8 +113,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 4310,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 4310
         }
       }
     ]
@@ -128,8 +128,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 4640,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 4640
         }
       }
     ]
@@ -143,12 +143,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 5000,
-          "attr": "dodgeRate"
+          "attr": "dodgeRate",
+          "number": 5000
         }
       }
     ]
   },
+  "name": "历战之躯",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,25 +159,23 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": 2000
       }
     }
   ],
+  "time": 8,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 10741,
+  "id": 10741,
+  "stack": 1,
+  "desc": "自身机动上升",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "自身机动上升",
-  "picture": "",
-  "icon": 10741,
-  "name": "历战之躯",
-  "init_effect": "jinengchufablue",
-  "id": 10741,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

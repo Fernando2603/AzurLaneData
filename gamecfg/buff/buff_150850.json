@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 2,
         "nationality": 5,
         "skill_id": 150850,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -32,13 +33,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 2,
         "ship_type_list": [
           6,
           7
         ],
         "skill_id": 150850,
-        "check_target": "TargetShipTypeFriendly"
+        "check_target": "TargetShipTypeFriendly",
+        "minTargetNumber": 2
       }
     },
     {
@@ -47,10 +48,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150851,
-        "target": "TargetSelf",
+        "time": 10,
         "quota": 1,
-        "time": 10
+        "skill_id": 150851,
+        "target": "TargetSelf"
       }
     },
     {
@@ -59,19 +60,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150852,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 150852
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150850,
   "id": 150850,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

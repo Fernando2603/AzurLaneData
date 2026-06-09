@@ -1,4 +1,9 @@
 {
+  "name": "冒险结果判定",
+  "picture": "",
+  "desc": "冒险结果判定",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,7 +11,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           17472,
           17473,
@@ -25,17 +29,13 @@
             0.05,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "冒险结果判定",
-  "picture": "",
+  "last_effect": "",
   "icon": 17470,
-  "name": "冒险结果判定",
-  "init_effect": "",
   "id": 17475,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

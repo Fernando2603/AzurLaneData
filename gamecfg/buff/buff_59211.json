@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "吸收装甲",
+  "picture": "",
+  "desc": "战斗对象每隔X秒，生成一个可以吸收自身血量Y%伤害的护盾，持续Z秒",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -12,13 +16,9 @@
       }
     }
   ],
-  "desc": "战斗对象每隔X秒，生成一个可以吸收自身血量Y%伤害的护盾，持续Z秒",
-  "picture": "",
+  "last_effect": "Shield_enemy",
   "icon": 59211,
-  "name": "吸收装甲",
-  "init_effect": "",
+  "color": "red",
   "id": 59211,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Shield_enemy"
+  "stack": 1
 }

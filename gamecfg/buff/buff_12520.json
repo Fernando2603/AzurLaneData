@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "伯明翰防空",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,8 +38,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12520,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12520
       }
     },
     {
@@ -47,21 +48,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 12521,
         "time": 1,
-        "inside": 1
+        "skill_id": 12521,
+        "inside": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12520,
   "id": 12520,
-  "name": "伯明翰防空",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

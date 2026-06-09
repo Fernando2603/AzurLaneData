@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "大洋联邦 维修舰回血光环",
+  "picture": "",
+  "desc": "定期回复周围友军血量",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 3,
-        "skill_id": 200272
+        "skill_id": 200272,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "定期回复周围友军血量",
-  "picture": "",
+  "last_effect": "",
   "icon": 200272,
-  "name": "大洋联邦 维修舰回血光环",
-  "init_effect": "",
+  "color": "blue",
   "id": 200272,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "指挥喵天赋-不动如山",
+  "picture": "",
+  "desc": "舰队成员受到伤害降低3%",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.03,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.03
       }
     }
   ],
-  "desc": "舰队成员受到伤害降低3%",
-  "picture": "",
+  "last_effect": "",
   "icon": 45030,
-  "name": "指挥喵天赋-不动如山",
-  "init_effect": "jinengchufared",
   "id": 45031,
-  "stack": 2,
-  "time": 0,
-  "last_effect": ""
+  "stack": 2
 }

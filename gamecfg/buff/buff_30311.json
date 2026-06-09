@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行12次攻击，触发专属弹幕-那不勒斯I"
   },
-  "color": "red",
+  "name": "专属弹幕-那不勒斯I",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 30311,
-        "countTarget": 12
+        "countType": 30311
       }
     },
     {
@@ -23,9 +24,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30311,
         "countType": 30311,
-        "skill_id": 30311
+        "target": "TargetSelf"
       }
     },
     {
@@ -34,20 +35,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30313,
         "countType": 19840,
-        "skill_id": 30313
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发专属弹幕-那不勒斯I",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行12次攻击，触发专属弹幕-那不勒斯I",
+  "last_effect": "",
   "icon": 30310,
   "id": 30311,
-  "name": "专属弹幕-那不勒斯I",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行12次攻击，触发专属弹幕-那不勒斯I"
 }

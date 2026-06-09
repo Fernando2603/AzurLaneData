@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "空之戍卫",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,9 +27,9 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "inside": 1,
+        "countTarget": 3,
         "countType": 13980,
-        "countTarget": 3
+        "inside": 1
       }
     },
     {
@@ -37,20 +38,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 13982,
-        "countType": 13980
+        "countType": 13980,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 13980,
   "id": 13980,
-  "name": "空之戍卫",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,9 +19,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 190000,
         "attr": "damageReduceFromAmmoType_2",
-        "number": -0.05
+        "number": -0.05,
+        "group": 190000
       }
     },
     {
@@ -34,13 +35,12 @@
       }
     }
   ],
-  "desc": "穿甲弹易伤",
-  "picture": "",
-  "icon": 190000,
-  "name": "",
-  "init_effect": "",
-  "id": 190007,
-  "stack": 1,
   "time": 5,
-  "last_effect": "Darkness"
+  "init_effect": "",
+  "last_effect": "Darkness",
+  "icon": 190000,
+  "id": 190007,
+  "color": "blue",
+  "stack": 1,
+  "desc": "穿甲弹易伤"
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15386,
-        "quota": 1
+        "quota": 1,
+        "skill_id": 15386
       }
     },
     {
@@ -27,16 +28,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 15387,
+        "minTargetNumber": 1,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "Impero"
-        ],
-        "skill_id": 15387
+        ]
       }
     },
     {
@@ -67,23 +68,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.9,
-        "hpLowerBound": 0.2,
-        "hpSigned": 0,
         "skill_id": 15385,
-        "hpOutInterval": true
+        "hpOutInterval": true,
+        "target": "TargetSelf",
+        "hpSigned": 0,
+        "hpUpperBound": 0.9,
+        "hpLowerBound": 0.2
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15382,
   "id": 15382,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,4 +1,9 @@
 {
+  "name": "2022意大利活动 选择性镜面海域",
+  "picture": "",
+  "desc": "撒丁帝国阵营角色在战斗中造成的伤害提高，受到的伤害降低",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.2,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.2
       }
     },
     {
@@ -18,17 +23,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.2,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.2
       }
     }
   ],
-  "desc": "撒丁帝国阵营角色在战斗中造成的伤害提高，受到的伤害降低",
+  "last_effect": "",
   "id": 200010,
-  "name": "2022意大利活动 选择性镜面海域",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "喵喵治愈",
+  "picture": "",
+  "desc": "({namecode:98}装备时生效)所有治疗效果提高20%，不可叠加",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 6170,
         "group": {
           "level": 1,
           "id": 6170
-        }
+        },
+        "skill_id": 6170
       }
     }
   ],
-  "desc": "({namecode:98}装备时生效)所有治疗效果提高20%，不可叠加",
-  "picture": "",
+  "last_effect": "",
   "icon": 6170,
-  "name": "喵喵治愈",
-  "init_effect": "",
+  "color": "blue",
   "id": 6170,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

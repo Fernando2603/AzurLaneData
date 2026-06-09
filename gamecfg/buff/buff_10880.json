@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "LuckyLou",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,19 +18,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 10881,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每隔20秒，有$1的概率发动，提高自身$2炮击、装填、机动属性，持续8秒",
-  "picture": "",
-  "icon": 10880,
-  "name": "LuckyLou",
-  "init_effect": "",
-  "id": 10880,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 10880,
+  "id": 10880,
+  "color": "red",
+  "stack": 1,
+  "desc": "每隔20秒，有$1的概率发动，提高自身$2炮击、装填、机动属性，持续8秒"
 }

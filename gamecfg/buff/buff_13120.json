@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "里诺",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,9 +22,9 @@
           6,
           7
         ],
-        "check_target": "TargetShipTypeFriendly",
         "minTargetNumber": 1,
         "buff_id": 13121,
+        "check_target": "TargetShipTypeFriendly",
         "isBuffStackByCheckTarget": true
       }
     },
@@ -33,13 +34,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "ship_type_list": [
           6,
           7
         ],
         "skill_id": 13120,
-        "check_target": "TargetShipTypeFriendly"
+        "check_target": "TargetShipTypeFriendly",
+        "minTargetNumber": 1
       }
     },
     {
@@ -57,14 +58,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 13120,
   "id": 13120,
-  "name": "里诺",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

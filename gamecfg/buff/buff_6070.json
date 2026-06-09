@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "航空副油箱T1",
+  "picture": "",
+  "desc": "舰载机耐久增加10点，同类效果取最大值，不可叠加",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 6070,
         "group": {
           "level": 1,
           "id": 6070
-        }
+        },
+        "skill_id": 6070
       }
     }
   ],
-  "desc": "舰载机耐久增加10点，同类效果取最大值，不可叠加",
-  "picture": "",
+  "last_effect": "",
   "icon": 6070,
-  "name": "航空副油箱T1",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6070,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "护甲判别",
+  "picture": "",
+  "desc": "",
+  "time": 14,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,8 +21,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150052,
-        "quota": 1
+        "quota": 1,
+        "skill_id": 150052
       }
     },
     {
@@ -26,27 +31,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 150056,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "huajianzengshang1"
+        ],
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 150056,
-        "time": 12,
-        "ship_tag_list": [
-          "huajianzengshang1"
-        ]
+        "time": 12
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 150050,
-  "name": "护甲判别",
-  "init_effect": "",
   "id": 150052,
-  "stack": 2,
-  "time": 14,
-  "last_effect": ""
+  "stack": 2
 }

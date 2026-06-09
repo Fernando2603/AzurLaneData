@@ -1,4 +1,8 @@
 {
+  "id": 201334,
+  "name": "2025医院活动 探索计数 BOSS方面触发",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,16 +10,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "explore-1"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201336,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201336,
-        "ship_tag_list": [
-          "explore-1"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -24,24 +28,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "explore-2"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 201338,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 201338,
-        "ship_tag_list": [
-          "explore-2"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201334,
-  "name": "2025医院活动 探索计数 BOSS方面触发",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

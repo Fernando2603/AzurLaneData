@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "防空模式-LV9",
+  "picture": "",
+  "desc": "自身防空提高，炮击降低",
+  "time": 3,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -2240,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -2240
       }
     },
     {
@@ -19,25 +23,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 3760,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": 3760
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 9110,
+  "color": "yellow",
+  "id": 9110,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "自身防空提高，炮击降低",
-  "picture": "",
-  "icon": 9110,
-  "name": "防空模式-LV9",
-  "init_effect": "jinengchufablue",
-  "id": 9110,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  ]
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "紧急回避·大斗犬",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 1090321,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,8 +29,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1090321,
         "quota": 1,
+        "skill_id": 1090321,
         "time": 3
       }
     },
@@ -39,19 +40,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1090321,
-        "time": 15
+        "time": 15,
+        "skill_id": 1090321
       }
     }
   ],
-  "desc": "每隔20秒，有$1的概率发动，自体完全回避所有攻击，持续6秒",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "每隔20秒，有15.0%(满级30.0%)的概率发动，自体完全回避所有攻击，持续6秒",
+  "last_effect": "",
   "icon": 4070,
   "id": 1090320,
-  "name": "紧急回避·大斗犬",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每隔20秒，有$1的概率发动，自体完全回避所有攻击，持续6秒"
 }

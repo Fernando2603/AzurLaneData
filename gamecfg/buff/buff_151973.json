@@ -7,7 +7,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -21,7 +20,8 @@
               0.15,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -34,7 +34,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -48,7 +47,8 @@
               0.166,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -61,7 +61,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -75,7 +74,8 @@
               0.182,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -88,7 +88,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -102,7 +101,8 @@
               0.198,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -115,7 +115,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -129,7 +128,8 @@
               0.214,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -142,7 +142,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -156,7 +155,8 @@
               0.23,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -169,7 +169,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -183,7 +182,8 @@
               0.246,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -196,7 +196,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -210,7 +209,8 @@
               0.264,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -223,7 +223,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -237,7 +236,8 @@
               0.282,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -250,7 +250,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             151971,
             151972
@@ -264,12 +263,14 @@
               0.3,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "red",
+  "name": "鱼雷连射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -277,7 +278,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           151971,
           151972
@@ -291,18 +291,18 @@
             0.15,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151970,
   "id": 151973,
-  "name": "鱼雷连射",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

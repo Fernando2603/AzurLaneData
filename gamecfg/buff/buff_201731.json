@@ -1,4 +1,6 @@
 {
+  "name": "2026信标BOSS 雷根斯堡meta 印记施加给角色",
+  "picture": "",
   "last_effect_stack_text": {
     "node": "scale/stack/text"
   },
@@ -10,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.1
       }
     },
     {
@@ -29,16 +31,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
-        "buff_id": 201733,
         "ship_tag_list": [
           "BOSS"
         ],
-        "repeat_count": -1
+        "repeat_count": -1,
+        "target": "TargetShipTag",
+        "buff_id": 201733,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ]
       }
     },
     {
@@ -47,21 +49,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 200789,
         "target": "TargetSelf",
+        "buff_id": 200789,
         "check_target": [
           "TargetSelf",
           "TargetPlayerMainFleet"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "id": 201731,
-  "name": "2026信标BOSS 雷根斯堡meta 印记施加给角色",
-  "init_effect": "",
-  "picture": "",
-  "stack": 99,
   "time": 0,
-  "last_effect": "leigensibao_alter_sign"
+  "init_effect": "",
+  "last_effect": "leigensibao_alter_sign",
+  "id": 201731,
+  "stack": 99
 }

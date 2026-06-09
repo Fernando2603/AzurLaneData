@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,8 +20,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "DMG_FROM_TAG_1_Indiana"
+        "attr": "DMG_FROM_TAG_1_Indiana",
+        "number": 0.05
       }
     },
     {
@@ -28,8 +30,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 150299
+        "countType": 150299,
+        "countTarget": 3
       }
     },
     {
@@ -38,20 +40,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 150299,
         "quota": 1,
-        "skill_id": 150299
+        "skill_id": 150299,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "受印第安纳TAG炮击伤害上升",
-  "picture": "",
-  "icon": 150290,
-  "name": "",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "Darkness",
+  "icon": 150290,
   "id": 150299,
   "stack": 4,
-  "time": 0,
-  "last_effect": "Darkness"
+  "desc": "受印第安纳TAG炮击伤害上升"
 }

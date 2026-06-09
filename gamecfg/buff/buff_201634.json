@@ -14,9 +14,10 @@
   "13": [],
   "14": [],
   "15": [],
-  "init_effect": "",
-  "picture": "",
+  "last_effect": "",
   "name": "2025信标BOSS 约克城meta 浮游炮",
+  "picture": "",
+  "id": 201634,
   "effect_list": [
     {
       "trigger": [
@@ -24,10 +25,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 201634,
         "quota": 1,
-        "time": 52.5
+        "time": 52.5,
+        "target": "TargetSelf"
       }
     },
     {
@@ -41,14 +42,13 @@
           "TargetAllHelp"
         ],
         "quota": 1,
-        "exceptCaster": true,
         "buff_id": 201635,
-        "time": 53
+        "time": 53,
+        "exceptCaster": true
       }
     }
   ],
-  "id": 201634,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

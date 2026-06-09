@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "神射手·改",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 10,
-        "skill_id": 11871
+        "skill_id": 11871,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,9 +29,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 11872,
-        "time": 10
+        "time": 10,
+        "target": "TargetSelf"
       }
     },
     {
@@ -43,14 +44,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 15,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 11870,
   "id": 11870,
-  "name": "神射手·改",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  "desc": ""
 }

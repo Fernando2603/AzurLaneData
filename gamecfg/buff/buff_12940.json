@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "黛朵2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,11 +18,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": "TargetNationalityFriendly",
         "minTargetNumber": 1,
+        "isBuffStackByCheckTarget": true,
         "buff_id": 12941,
-        "nationality": 2,
-        "isBuffStackByCheckTarget": true
+        "check_target": "TargetNationalityFriendly",
+        "nationality": 2
       }
     },
     {
@@ -30,10 +31,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "nationality": 2,
         "skill_id": 12940,
-        "check_target": "TargetNationalityFriendly"
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 1
       }
     },
     {
@@ -42,27 +43,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "skill_id": 12941,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "QE"
         ],
-        "skill_id": 12941
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12940,
   "id": 12940,
-  "name": "黛朵2",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

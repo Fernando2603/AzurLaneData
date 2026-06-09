@@ -1,4 +1,8 @@
 {
+  "id": 201484,
+  "name": "2025马塞纳活动 EX 黑形态狂暴",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 1
       }
     },
     {
@@ -29,8 +33,8 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "target": "TargetSelf",
-        "value": 2
+        "value": 2,
+        "target": "TargetSelf"
       }
     },
     {
@@ -39,8 +43,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8692,
-        "target": "TargetHarmFarthest"
+        "target": "TargetHarmFarthest",
+        "skill_id": 8692
       }
     },
     {
@@ -53,11 +57,7 @@
       }
     }
   ],
-  "id": 201484,
-  "name": "2025马塞纳活动 EX 黑形态狂暴",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

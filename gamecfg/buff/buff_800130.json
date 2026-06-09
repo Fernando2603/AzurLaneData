@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,10 +18,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 800130,
-        "target": "TargetSelf",
+        "time": 10,
         "quota": 1,
-        "time": 10
+        "skill_id": 800130,
+        "target": "TargetSelf"
       }
     },
     {
@@ -29,19 +30,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 800132,
-        "time": 10
+        "time": 10,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "燃烧花牌+火焰+航空点燃",
-  "picture": "",
-  "icon": 800130,
-  "name": "",
-  "init_effect": "",
-  "id": 800130,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 800130,
+  "id": 800130,
+  "color": "red",
+  "stack": 1,
+  "desc": "燃烧花牌+火焰+航空点燃"
 }

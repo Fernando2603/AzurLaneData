@@ -1,4 +1,9 @@
 {
+  "name": "2023 关岛活动EX 一阶段召唤 随机列表",
+  "picture": "",
+  "desc": "",
+  "time": 15,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +12,11 @@
       ],
       "type": "BattleBuffCleanse",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id_list": [
           200758,
           200759
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -21,7 +26,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           200757,
           200758,
@@ -40,7 +44,8 @@
             0.67,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -49,18 +54,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8831,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8831
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200760,
-  "name": "2023 关岛活动EX 一阶段召唤 随机列表",
-  "init_effect": "",
   "id": 200760,
-  "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  "stack": 1
 }

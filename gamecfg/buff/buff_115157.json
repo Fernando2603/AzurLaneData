@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "无敌",
+  "time": 0.2,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 109360,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 109360
       }
     },
     {
@@ -23,20 +28,15 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 115150,
+  "id": 115157,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "无敌",
-  "picture": "",
-  "icon": 115150,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 115157,
-  "stack": 1,
-  "time": 0.2,
-  "last_effect": ""
+  ]
 }

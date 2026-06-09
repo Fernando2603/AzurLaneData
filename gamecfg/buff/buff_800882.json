@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 6,
         "index": [
           1
         ],
-        "countType": 800880,
-        "countTarget": 6
+        "countType": 800880
       }
     },
     {
@@ -20,17 +24,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "skill_id": 800882,
-        "countType": 800880,
         "maxTargetNumber": 0,
+        "target": "TargetSelf",
         "ship_tag_list": [
           "aerjiliyadizuizhiyan"
-        ]
+        ],
+        "countType": 800880,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "skill_id": 800882
       }
     },
     {
@@ -39,27 +43,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 800884,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "aerjiliyadizuizhiyan"
+        ],
+        "countType": 800880,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 800880,
-        "ship_tag_list": [
-          "aerjiliyadizuizhiyan"
-        ],
-        "skill_id": 800884
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 800880,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 800882,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

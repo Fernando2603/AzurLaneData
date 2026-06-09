@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "10s DOT",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 2,
-        "number": 10,
         "attr": "torpedoPower",
+        "dotType": 2,
+        "k": 0.7,
         "time": 3,
-        "k": 0.7
+        "number": 10
       }
     },
     {
@@ -24,13 +29,8 @@
       }
     }
   ],
-  "desc": "10s DOT",
-  "picture": "",
+  "last_effect": "",
   "icon": 16603,
-  "name": "",
-  "init_effect": "",
   "id": 16603,
-  "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "stack": 1
 }

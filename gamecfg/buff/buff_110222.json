@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "minTargetNumber": 0,
-        "skill_id": 110220,
         "maxTargetNumber": 0,
+        "minTargetNumber": 0,
         "check_target_gap": [
           {
             "target": [
@@ -18,26 +20,24 @@
             ]
           },
           {
-            "target": [
-              "TargetShipTag"
-            ],
             "arg": {
               "ship_tag_list": [
                 "SRSPW"
               ]
-            }
+            },
+            "target": [
+              "TargetShipTag"
+            ]
           }
-        ]
+        ],
+        "target": "TargetSelf",
+        "skill_id": 110220
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 110220,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 110222,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

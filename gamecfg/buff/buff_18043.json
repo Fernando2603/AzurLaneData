@@ -8,9 +8,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01667
+          "value": 0.01667,
+          "threshold": 1
         }
       }
     ]
@@ -24,9 +24,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01563
+          "value": 0.01563,
+          "threshold": 1
         }
       }
     ]
@@ -40,9 +40,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01471
+          "value": 0.01471,
+          "threshold": 1
         }
       }
     ]
@@ -56,9 +56,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.0137
+          "value": 0.0137,
+          "threshold": 1
         }
       }
     ]
@@ -72,9 +72,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01299
+          "value": 0.01299,
+          "threshold": 1
         }
       }
     ]
@@ -88,9 +88,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01235
+          "value": 0.01235,
+          "threshold": 1
         }
       }
     ]
@@ -104,9 +104,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01163
+          "value": 0.01163,
+          "threshold": 1
         }
       }
     ]
@@ -120,9 +120,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01111
+          "value": 0.01111,
+          "threshold": 1
         }
       }
     ]
@@ -136,9 +136,9 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01064
+          "value": 0.01064,
+          "threshold": 1
         }
       }
     ]
@@ -152,14 +152,15 @@
         ],
         "type": "BattleBuffAddAttrBloodrage",
         "arg_list": {
-          "threshold": 1,
           "attr": "loadSpeed",
-          "value": 0.01
+          "value": 0.01,
+          "threshold": 1
         }
       }
     ]
   },
-  "color": "red",
+  "name": "底力爆发 +",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -168,26 +169,25 @@
       ],
       "type": "BattleBuffAddAttrBloodrage",
       "arg_list": {
-        "threshold": 1,
         "attr": "loadSpeed",
-        "value": 0.01667
+        "value": 0.01667,
+        "threshold": 1
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 18040,
+  "id": 18043,
+  "stack": 1,
+  "color": "red",
+  "desc": "装填提高",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "装填提高",
-  "picture": "",
-  "icon": 18040,
-  "name": "底力爆发 +",
-  "init_effect": "jinengchufared",
-  "id": 18043,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

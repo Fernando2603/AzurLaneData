@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "大舰队世界boss_1_阶段2",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 4500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 4500
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 4500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 4500
       }
     },
     {
@@ -27,8 +31,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 4500,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 4500
       }
     },
     {
@@ -37,25 +41,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 39000,
+  "color": "yellow",
+  "id": 39003,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 39000,
-  "name": "大舰队世界boss_1_阶段2",
-  "init_effect": "jinengchufared",
-  "id": 39003,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

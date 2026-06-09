@@ -1,4 +1,8 @@
 {
+  "id": 201501,
+  "name": "2025信标BOSS 夕立meta 判定自身是否处于锁定冷却状态",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,24 +11,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "Xili_CD"
+        ],
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 201501,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "Xili_CD"
-        ]
+        "skill_id": 201501
       }
     }
   ],
-  "id": 201501,
-  "name": "2025信标BOSS 夕立meta 判定自身是否处于锁定冷却状态",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

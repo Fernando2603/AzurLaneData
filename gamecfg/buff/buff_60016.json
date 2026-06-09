@@ -1,4 +1,9 @@
 {
+  "name": "测试-衣阿华-技能触发被动",
+  "picture": "",
+  "desc": "白鹰之傲",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 5,
-        "countType": 60016
+        "countType": 60016,
+        "countTarget": 5
       }
     },
     {
@@ -16,21 +21,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetNationalityFriendly",
         "skill_id": 60009,
+        "target": "TargetNationalityFriendly",
         "nationality": 1,
-        "time": 20,
-        "countType": 60016
+        "countType": 60016,
+        "time": 20
       }
     }
   ],
-  "desc": "白鹰之傲",
-  "picture": "",
+  "last_effect": "",
   "icon": 60016,
-  "name": "测试-衣阿华-技能触发被动",
-  "init_effect": "",
   "id": 60016,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

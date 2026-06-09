@@ -1,4 +1,8 @@
 {
+  "id": 151978,
+  "name": "藤波发射追加鱼雷",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +10,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 151977
+        "skill_id": 151977,
+        "target": "TargetSelf"
       }
     },
     {
@@ -18,8 +22,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 151972
+        "countType": 151972,
+        "countTarget": 2
       }
     },
     {
@@ -28,10 +32,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 151972,
         "quota": 1,
-        "skill_id": 151978
+        "skill_id": 151978,
+        "target": "TargetSelf"
       }
     },
     {
@@ -41,8 +45,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 151973
+        "countType": 151973,
+        "countTarget": 3
       }
     },
     {
@@ -51,18 +55,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 151973,
         "quota": 1,
-        "skill_id": 151979
+        "skill_id": 151979,
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 151978,
-  "name": "藤波发射追加鱼雷",
-  "init_effect": "",
-  "picture": "",
-  "stack": 3,
   "time": 1.5,
-  "last_effect": ""
+  "stack": 3,
+  "init_effect": ""
 }

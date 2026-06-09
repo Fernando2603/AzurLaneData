@@ -1,4 +1,9 @@
 {
+  "name": "航母竞技场加成",
+  "picture": "",
+  "desc": "伤害降低20%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.2,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.2
       }
     }
   ],
-  "desc": "伤害降低20%",
   "limit": [],
-  "picture": "",
+  "last_effect": "",
   "icon": 67,
-  "name": "航母竞技场加成",
-  "init_effect": "",
   "id": 67,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "属性降低，受伤上升",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -300
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": -300
       }
     },
     {
@@ -30,8 +34,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -300
       }
     },
     {
@@ -41,8 +45,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -300,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": -300
       }
     },
     {
@@ -52,8 +56,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.03
       }
     },
     {
@@ -67,13 +71,9 @@
       }
     }
   ],
-  "desc": "属性降低，受伤上升",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 13582,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 13582,
-  "stack": 3,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 3
 }

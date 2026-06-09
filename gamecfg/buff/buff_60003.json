@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "被击沉时，给同屏敌方角色造成一次巨大伤害",
     "effect_list": [
       {
         "trigger": [
@@ -8,13 +9,14 @@
         ],
         "type": "BattleBuffSetAttr",
         "arg_list": {
-          "attr": "TargetChoise",
-          "value": "farthest"
+          "value": "farthest",
+          "attr": "TargetChoise"
         }
       }
-    ],
-    "desc": "被击沉时，给同屏敌方角色造成一次巨大伤害"
+    ]
   },
+  "name": "测试目标选择-航母飞机后排优先",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -23,18 +25,16 @@
       ],
       "type": "BattleBuffSetAttr",
       "arg_list": {
-        "attr": "TargetChoise",
-        "value": "farthest"
+        "value": "farthest",
+        "attr": "TargetChoise"
       }
     }
   ],
-  "desc": "测试目标选择-航母飞机后排优先",
-  "picture": "",
-  "icon": 60003,
-  "name": "测试目标选择-航母飞机后排优先",
+  "time": 60,
   "init_effect": "",
+  "last_effect": "caisedian",
+  "icon": 60003,
   "id": 60003,
   "stack": 1,
-  "time": 60,
-  "last_effect": "caisedian"
+  "desc": "测试目标选择-航母飞机后排优先"
 }

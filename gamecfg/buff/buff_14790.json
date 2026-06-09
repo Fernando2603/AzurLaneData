@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 14790,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 14790
       }
     },
     {
@@ -27,15 +28,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 14791,
+        "minTargetNumber": 1,
+        "time": 1,
         "check_target": [
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "Zhumo"
-        ],
-        "time": 1,
-        "skill_id": 14791
+        ]
       }
     },
     {
@@ -44,21 +45,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 14792,
         "time": 10,
-        "rant": 7000
+        "rant": 7000,
+        "skill_id": 14792,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 14790,
   "id": 14790,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

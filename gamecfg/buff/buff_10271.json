@@ -7,11 +7,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.1,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.1
         }
       }
     ]
@@ -24,11 +24,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.105,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.105
         }
       }
     ]
@@ -41,11 +41,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.11,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.11
         }
       }
     ]
@@ -58,11 +58,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.115,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.115
         }
       }
     ]
@@ -75,11 +75,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.12,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.12
         }
       }
     ]
@@ -92,11 +92,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.125,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.125
         }
       }
     ]
@@ -109,11 +109,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.13,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.13
         }
       }
     ]
@@ -126,11 +126,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.135,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.135
         }
       }
     ]
@@ -143,11 +143,11 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.14,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.14
         }
       }
     ]
@@ -160,15 +160,17 @@
         ],
         "type": "BattleBuffAddBulletAttr",
         "arg_list": {
-          "number": 0.15,
           "attr": "damageRatioBullet",
           "index": [
             1
-          ]
+          ],
+          "number": 0.15
         }
       }
     ]
   },
+  "name": "最后的荣耀",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -176,28 +178,26 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.1,
         "attr": "damageRatioBullet",
         "index": [
           1
-        ]
+        ],
+        "number": 0.1
       }
     }
   ],
+  "time": 8,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 10271,
+  "id": 10271,
+  "stack": 1,
+  "desc": "提升自身伤害",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提升自身伤害",
-  "picture": "",
-  "icon": 10271,
-  "name": "最后的荣耀",
-  "init_effect": "jinengchufared",
-  "id": 10271,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

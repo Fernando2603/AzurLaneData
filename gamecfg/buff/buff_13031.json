@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "苏俄2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,17 +18,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": [
-          "TargetAllHelp",
-          "TargetNationality"
-        ],
         "minTargetNumber": 1,
-        "buff_id": 13032,
         "nationality": [
           5,
           7
         ],
-        "isBuffStackByCheckTarget": true
+        "buff_id": 13032,
+        "isBuffStackByCheckTarget": true,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ]
       }
     },
     {
@@ -36,7 +37,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "nationality": [
           5,
           7
@@ -45,18 +45,18 @@
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 13030,
   "id": 13031,
-  "name": "苏俄2",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

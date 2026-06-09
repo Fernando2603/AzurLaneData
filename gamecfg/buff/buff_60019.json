@@ -1,4 +1,9 @@
 {
+  "name": "测试-印第安纳波利斯-技能触发被动",
+  "picture": "",
+  "desc": "死亡原子弹",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60011,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 60011
       }
     },
     {
@@ -20,13 +25,8 @@
       }
     }
   ],
-  "desc": "死亡原子弹",
-  "picture": "",
+  "last_effect": "",
   "icon": 60019,
-  "name": "测试-印第安纳波利斯-技能触发被动",
-  "init_effect": "",
   "id": 60019,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

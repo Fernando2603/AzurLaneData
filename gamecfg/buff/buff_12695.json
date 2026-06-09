@@ -7,8 +7,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 100,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 100
         }
       }
     ]
@@ -21,8 +21,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 130,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 130
         }
       }
     ]
@@ -35,8 +35,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 160,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 160
         }
       }
     ]
@@ -49,8 +49,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 200,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 200
         }
       }
     ]
@@ -63,8 +63,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 230,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 230
         }
       }
     ]
@@ -77,8 +77,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 260,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 260
         }
       }
     ]
@@ -91,8 +91,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 300,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 300
         }
       }
     ]
@@ -105,8 +105,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 330,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 330
         }
       }
     ]
@@ -119,8 +119,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 360,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 360
         }
       }
     ]
@@ -133,13 +133,14 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 400,
-          "attr": "antiAirPower"
+          "attr": "antiAirPower",
+          "number": 400
         }
       }
     ]
   },
-  "color": "blue",
+  "name": "Enigma—信号—防空",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -147,25 +148,24 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 100,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": 100
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 12690,
+  "id": 12695,
+  "stack": 1,
+  "color": "blue",
+  "desc": "本场防空上升1-4%",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "本场防空上升1-4%",
-  "picture": "",
-  "icon": 12690,
-  "name": "Enigma—信号—防空",
-  "init_effect": "jinengchufablue",
-  "id": 12695,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

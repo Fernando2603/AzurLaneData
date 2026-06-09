@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "boss mio",
+  "picture": "",
+  "desc": "伤害降低",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 8655,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 8655
       }
     },
     {
@@ -17,25 +21,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 8653,
+  "color": "yellow",
+  "id": 8653,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "伤害降低",
-  "picture": "",
-  "icon": 8653,
-  "name": "boss mio",
-  "init_effect": "jinengchufablue",
-  "id": 8653,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

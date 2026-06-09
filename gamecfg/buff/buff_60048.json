@@ -1,4 +1,9 @@
 {
+  "name": "测试-盾墙-触发",
+  "picture": "",
+  "desc": "盾墙",
+  "time": 0,
+  "init_effect": "Health",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +12,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 60028,
         "time": 10,
-        "removedBuffID_enterCD": 60049
+        "removedBuffID_enterCD": 60049,
+        "skill_id": 60028,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "盾墙",
-  "picture": "",
+  "last_effect": "",
   "icon": 60048,
-  "name": "测试-盾墙-触发",
-  "init_effect": "Health",
   "id": 60048,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

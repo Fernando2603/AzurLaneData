@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "最终炮火 加成",
+  "picture": "",
+  "desc": "提高炮击属性",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +12,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 6000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 6000
       }
     }
   ],
-  "desc": "提高炮击属性",
-  "picture": "",
+  "last_effect": "",
   "icon": 533020,
-  "name": "最终炮火 加成",
-  "init_effect": "",
+  "color": "red",
   "id": 533020,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

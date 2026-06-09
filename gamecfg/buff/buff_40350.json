@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "进入战斗时，若旗舰为轻航或正航,战斗开始后15秒触发额外舰载机编队",
+  "picture": "",
+  "desc": "该入口提供战外挂载到战内",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,27 +11,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipType"
-        ],
-        "minTargetNumber": 1,
         "ship_type_list": [
           6,
           7
         ],
-        "skill_id": 40350
+        "skill_id": 40350,
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipType"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "该入口提供战外挂载到战内",
-  "picture": "",
+  "last_effect": "",
   "icon": 40350,
-  "name": "进入战斗时，若旗舰为轻航或正航,战斗开始后15秒触发额外舰载机编队",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40350,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

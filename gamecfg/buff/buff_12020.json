@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "潜母放飞自带飞机",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,8 +12,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12021,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12021
       }
     },
     {
@@ -19,17 +22,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12021,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 12021
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 12020,
-  "name": "潜母放飞自带飞机",
-  "init_effect": "",
+  "color": "red",
   "id": 12020,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

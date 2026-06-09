@@ -1,4 +1,8 @@
 {
+  "id": 201330,
+  "name": "2025医院活动 无限循环回廊",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,24 +10,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 201331,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 201331,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "BOSS"
         ]
       }
     }
   ],
-  "id": 201330,
-  "name": "2025医院活动 无限循环回廊",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

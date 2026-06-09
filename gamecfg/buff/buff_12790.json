@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "加斯科涅μ2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,7 +18,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 12790,
+        "target": "TargetSelf",
+        "skill_id": 12790
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "maxTargetNumber": 1,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "μ"
+        ],
+        "skill_id": 12791,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
         "target": "TargetSelf"
       }
     },
@@ -27,36 +47,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "μ"
-        ],
-        "maxTargetNumber": 1,
-        "skill_id": 12791
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 2,
         "minTargetNumber": 2,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 2,
-        "skill_id": 12792
+        "skill_id": 12792,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -65,17 +66,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 3,
         "minTargetNumber": 3,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 3,
-        "skill_id": 12791
+        "skill_id": 12791,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -84,17 +85,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 4,
         "minTargetNumber": 4,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 4,
-        "skill_id": 12792
+        "skill_id": 12792,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -103,17 +104,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 5,
         "minTargetNumber": 5,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 5,
-        "skill_id": 12791
+        "skill_id": 12791,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -122,17 +123,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 6,
         "minTargetNumber": 6,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 6,
-        "skill_id": 12792
+        "skill_id": 12792,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -141,17 +142,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 7,
         "minTargetNumber": 7,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 7,
-        "skill_id": 12791
+        "skill_id": 12791,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -160,17 +161,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 8,
         "minTargetNumber": 8,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 8,
-        "skill_id": 12792
+        "skill_id": 12792,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -179,28 +180,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
+        "maxTargetNumber": 9,
         "minTargetNumber": 9,
         "ship_tag_list": [
           "μ"
         ],
-        "maxTargetNumber": 9,
-        "skill_id": 12791
+        "skill_id": 12791,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12790,
   "id": 12790,
-  "name": "加斯科涅μ2",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

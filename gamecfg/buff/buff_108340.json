@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 108340,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "HIME"
         ],
-        "skill_id": 108340
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 108340,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 108340,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

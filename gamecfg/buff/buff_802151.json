@@ -1,7 +1,10 @@
 {
-  "color": "yellow",
-  "desc_get": "",
+  "name": "蜂鸟直升机",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,8 +12,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 802150,
         "quota": 1,
+        "skill_id": 802150,
         "time": 10
       }
     },
@@ -20,8 +23,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 802150,
-        "time": 20
+        "time": 20,
+        "skill_id": 802150
       }
     },
     {
@@ -30,14 +33,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "weapon_group": [
-          740
-        ],
-        "quota": 1,
         "check_weapon": true,
         "skill_id": 802151,
         "minWeaponNumber": 1,
-        "time": 10
+        "quota": 1,
+        "time": 10,
+        "weapon_group": [
+          740
+        ]
       }
     },
     {
@@ -46,22 +49,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 802151,
+        "minWeaponNumber": 1,
+        "time": 20,
         "weapon_group": [
           740
-        ],
-        "skill_id": 802151,
-        "check_weapon": true,
-        "time": 20,
-        "minWeaponNumber": 1
+        ]
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 802150,
-  "name": "蜂鸟直升机",
-  "init_effect": "",
+  "color": "yellow",
   "id": 802151,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2022围剿小斯佩 甜品运输船被打爆后出现甜品子弹",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200095,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200095
       }
     },
     {
@@ -18,9 +22,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 200095,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 200095
       }
     },
     {
@@ -33,13 +37,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200096,
-  "name": "2022围剿小斯佩 甜品运输船被打爆后出现甜品子弹",
-  "init_effect": "",
+  "color": "blue",
   "id": 200096,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

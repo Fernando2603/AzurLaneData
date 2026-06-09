@@ -1,4 +1,9 @@
 {
+  "name": "毒",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 20.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "dotType": 1,
-        "number": 105,
         "attr": "cannonPower",
+        "dotType": 1,
+        "k": 0,
         "time": 1,
-        "k": 0
+        "number": 105
       }
     }
   ],
-  "desc": "持续伤害",
-  "picture": "",
+  "last_effect": "poison_buff",
   "icon": 110183,
-  "name": "毒",
-  "init_effect": "",
   "id": 110183,
-  "stack": 1,
-  "time": 20.1,
-  "last_effect": "poison_buff"
+  "stack": 1
 }

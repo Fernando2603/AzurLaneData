@@ -7,10 +7,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 600073,
-          "target": "TargetSelf",
+          "initialCD": true,
           "time": 40,
-          "initialCD": true
+          "skill_id": 600073,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -23,10 +23,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 600071,
-          "target": "TargetSelf",
+          "initialCD": true,
           "time": 40,
-          "initialCD": true
+          "skill_id": 600071,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -39,10 +39,10 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "skill_id": 600061,
-          "target": "TargetSelf",
+          "initialCD": true,
           "time": 40,
-          "initialCD": true
+          "skill_id": 600061,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -54,7 +54,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -62,20 +63,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 600061,
-        "target": "TargetSelf",
+        "initialCD": true,
         "time": 40,
-        "initialCD": true
+        "skill_id": 600061,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 600065,
-  "name": "",
-  "init_effect": "",
-  "id": 600065,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 600065,
+  "id": 600065,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

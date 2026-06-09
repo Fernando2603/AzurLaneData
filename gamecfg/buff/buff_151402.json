@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,13 +19,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 151406,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 151406,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "xingyunganzhi2"
         ]
@@ -37,26 +38,25 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "xingyunganzhi2"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 151403,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 151403,
-        "ship_tag_list": [
-          "xingyunganzhi2"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 151400,
-  "name": "",
-  "init_effect": "",
-  "id": 151402,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 151400,
+  "id": 151402,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

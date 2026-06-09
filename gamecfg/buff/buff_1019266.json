@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,16 +19,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "GascognePowerUp"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 1019267,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 1019267,
-        "ship_tag_list": [
-          "GascognePowerUp"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -37,27 +38,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 1019268,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 1019268,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "GascognePowerUp"
         ]
       }
     }
   ],
-  "desc": "检查TAG",
+  "time": 2,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19260,
   "id": 1019266,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 2,
-  "last_effect": ""
+  "desc": "检查TAG"
 }

@@ -1,4 +1,9 @@
 {
+  "name": "重巡BOSS血量低于30%时获得buff每三秒恢复2%血量直到生命值高于30%结束",
+  "picture": "",
+  "desc": "重巡BOSS血量低于30%时获得buff每三秒恢复2%血量直到生命值高于30%结束",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,18 +11,13 @@
       ],
       "type": "BattleBuffHOT",
       "arg_list": {
-        "time": 3,
-        "maxHPRatio": 0.02
+        "maxHPRatio": 0.02,
+        "time": 3
       }
     }
   ],
-  "desc": "重巡BOSS血量低于30%时获得buff每三秒恢复2%血量直到生命值高于30%结束",
-  "picture": "",
+  "last_effect": "Health",
   "icon": 8515,
-  "name": "重巡BOSS血量低于30%时获得buff每三秒恢复2%血量直到生命值高于30%结束",
-  "init_effect": "",
   "id": 8515,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Health"
+  "stack": 1
 }

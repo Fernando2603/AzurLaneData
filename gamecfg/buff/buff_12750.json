@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "赤城2",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,28 +27,27 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "μ"
+        ],
+        "minTargetNumber": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "buff_id": 12752,
-        "ship_tag_list": [
-          "μ"
-        ],
-        "isBuffStackByCheckTarget": true
+        "isBuffStackByCheckTarget": true,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12750,
   "id": 12750,
-  "name": "赤城2",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

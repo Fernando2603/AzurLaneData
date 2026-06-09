@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "格斗炮术",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,22 +18,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 11600,
+        "minTargetNumber": 1,
         "range": 65,
         "check_target": "TargetHarmNearest",
-        "minTargetNumber": 1,
-        "time": 10,
-        "skill_id": 11600
+        "time": 10
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 11600,
   "id": 11600,
-  "name": "格斗炮术",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

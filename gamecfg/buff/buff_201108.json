@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024天城航母活动 EX 困难模式三阶段",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201108,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 201108
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201110,
-        "time": 0.1
+        "time": 0.1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201108,
-  "name": "2024天城航母活动 EX 困难模式三阶段",
-  "init_effect": "",
+  "color": "yellow",
   "id": 201108,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

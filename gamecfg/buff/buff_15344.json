@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,23 +18,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 15343,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
         ],
-        "isBuffStackByCheckTarget": true
+        "buff_id": 15343,
+        "isBuffStackByCheckTarget": true,
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 15340,
-  "name": "",
-  "init_effect": "",
-  "id": 15344,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 15340,
+  "id": 15344,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

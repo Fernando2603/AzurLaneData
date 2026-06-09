@@ -1,5 +1,6 @@
 {
-  "color": "red",
+  "name": "教程 自动速射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +8,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 5,
-        "skill_id": 999983
+        "skill_id": 999983,
+        "target": "TargetSelf"
       }
     },
     {
@@ -18,17 +19,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 999983,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 999983
       }
     }
   ],
-  "picture": "",
-  "icon": 999983,
-  "name": "教程 自动速射",
-  "init_effect": "",
-  "id": 999983,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 999983,
+  "color": "red",
+  "id": 999983,
+  "stack": 1
 }

@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "危机回避！",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +19,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 104021,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 104021
       }
     },
     {
@@ -33,20 +35,18 @@
       }
     }
   ],
+  "time": 3,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 104020,
+  "id": 104021,
+  "stack": 1,
+  "desc": "3s危机回避！",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "3s危机回避！",
-  "picture": "",
-  "icon": 104020,
-  "name": "危机回避！",
-  "init_effect": "jinengchufablue",
-  "id": 104021,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  ]
 }

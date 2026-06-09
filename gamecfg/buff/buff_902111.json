@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "储备氧气",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 20,
-        "attr": "oxyMax"
+        "attr": "oxyMax",
+        "number": 20
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 902110,
+  "color": "yellow",
+  "id": 902111,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 902110,
-  "name": "储备氧气",
-  "init_effect": "jinengchufablue",
-  "id": 902111,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

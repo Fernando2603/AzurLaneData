@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "2025拉斐尔活动 剧情战触发 真BOSS护盾",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -11,25 +15,21 @@
       "type": "BattleBuffBarrier",
       "arg_list": {
         "cld_data": {
+          "box": {
+            "range": 40
+          },
           "offset": [
             0,
             0,
             0
-          ],
-          "box": {
-            "range": 40
-          }
+          ]
         },
         "durability": 100000
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "2025拉斐尔活动 剧情战触发 真BOSS护盾",
-  "init_effect": "",
+  "last_effect": "ATdun_full",
   "id": 201306,
   "stack": 1,
-  "time": 0,
-  "last_effect": "ATdun_full"
+  "last_effect_cld_scale": true
 }

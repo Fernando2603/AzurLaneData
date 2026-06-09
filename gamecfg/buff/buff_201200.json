@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024鲁梅活动 永恒之星",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,16 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201196,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_A"
         ],
-        "skill_id": 201196
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -25,16 +29,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201197,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_B"
         ],
-        "skill_id": 201197
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -43,16 +47,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201198,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_C"
         ],
-        "skill_id": 201198
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -61,16 +65,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201199,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_D"
         ],
-        "skill_id": 201199
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -79,26 +83,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 201200,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "MAP_SP"
         ],
-        "skill_id": 201200
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 201200,
-  "name": "2024鲁梅活动 永恒之星",
-  "init_effect": "",
+  "color": "yellow",
   "id": 201200,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

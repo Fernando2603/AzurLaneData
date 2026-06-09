@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "优米雅 攻击合成一技能",
+  "time": 0.1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -15,8 +20,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112124,
-        "fleetAttr": "YumiaMANA>=50"
+        "fleetAttr": "YumiaMANA>=50",
+        "skill_id": 112124
       }
     },
     {
@@ -25,25 +30,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112124,
         "ship_tag_list": [
           "Yumia_Advent"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 112124,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "优米雅 攻击合成一技能",
-  "picture": "",
+  "last_effect": "",
   "icon": 112110,
-  "name": "",
-  "init_effect": "",
   "id": 112122,
-  "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行15次攻击，触发专属弹幕-M2II"
   },
-  "color": "red",
+  "name": "专属弹幕-M2II",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 8,
         "index": [
           1
         ],
-        "countType": 30020,
-        "countTarget": 8
+        "countType": 30020
       }
     },
     {
@@ -23,17 +24,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHarm",
-          "TargetShipTag"
-        ],
-        "skill_id": 30022,
-        "countType": 30020,
         "maxTargetNumber": 0,
+        "target": "TargetSelf",
         "ship_tag_list": [
           "leigensibao"
-        ]
+        ],
+        "countType": 30020,
+        "check_target": [
+          "TargetAllHarm",
+          "TargetShipTag"
+        ],
+        "skill_id": 30022
       }
     },
     {
@@ -42,28 +43,27 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30023,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "leigensibao"
+        ],
+        "countType": 30020,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 30020,
-        "ship_tag_list": [
-          "leigensibao"
-        ],
-        "skill_id": 30023
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-M2II",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行10次攻击，触发专属弹幕-M2II",
+  "last_effect": "",
   "icon": 30020,
   "id": 30022,
-  "name": "专属弹幕-M2II",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行10次攻击，触发专属弹幕-M2II"
 }

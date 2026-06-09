@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 500
       }
     },
     {
@@ -18,26 +22,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60811,
         "quota": 1,
-        "time": 30
+        "time": 30,
+        "skill_id": 60811
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 60810,
+  "color": "red",
+  "id": 60811,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 60810,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 60811,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

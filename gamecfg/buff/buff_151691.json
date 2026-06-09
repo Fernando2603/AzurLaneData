@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,11 +18,11 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "rant": 1000,
         "index": [
           1
         ],
-        "buff_id": 151692,
-        "rant": 1000
+        "buff_id": 151692
       }
     },
     {
@@ -31,18 +32,17 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.2,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.2
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 151690,
-  "name": "",
-  "init_effect": "",
-  "id": 151691,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 151690,
+  "id": 151691,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

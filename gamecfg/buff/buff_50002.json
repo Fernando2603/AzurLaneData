@@ -1,4 +1,9 @@
 {
+  "name": "Q版本战列每10秒跨射攻击后排buff武器",
+  "picture": "",
+  "desc": "Q版本战列每10秒跨射攻击后排buff武器",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,20 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 50002,
-        "target": "TargetSelf",
         "time": 10,
-        "rant": 10000
+        "rant": 10000,
+        "skill_id": 50002,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "Q版本战列每10秒跨射攻击后排buff武器",
-  "picture": "",
+  "last_effect": "",
   "icon": 50002,
-  "name": "Q版本战列每10秒跨射攻击后排buff武器",
-  "init_effect": "",
   "id": 50002,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

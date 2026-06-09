@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024异世界冒险 英灵效果 黎塞留",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200854,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200854
       }
     },
     {
@@ -17,19 +21,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 15,
-        "skill_id": 200854
+        "skill_id": 200854,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200854,
-  "name": "2024异世界冒险 英灵效果 黎塞留",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200854,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

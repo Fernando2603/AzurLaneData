@@ -1,4 +1,9 @@
 {
+  "name": "判断",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,25 +11,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60330,
         "ship_tag_list": [
           "QE_REST"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 60330,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60330,
-  "name": "判断",
-  "init_effect": "",
   "id": 60333,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

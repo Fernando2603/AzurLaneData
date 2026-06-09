@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "与主力舰队、侦查舰队交战时，提高战列命中，依据战术属性",
+  "picture": "",
+  "desc": "该入口提供战外挂载到战内",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "attackRating",
         "convertRate": 1.2,
-        "ability": "tactic",
-        "convertAttr": "attackRating"
+        "ability": "tactic"
       }
     }
   ],
-  "desc": "该入口提供战外挂载到战内",
-  "picture": "",
+  "last_effect": "",
   "icon": 40210,
-  "name": "与主力舰队、侦查舰队交战时，提高战列命中，依据战术属性",
-  "init_effect": "",
+  "color": "yellow",
   "id": 40211,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

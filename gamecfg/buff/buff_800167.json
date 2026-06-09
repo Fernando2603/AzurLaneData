@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 50,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 500
       }
     },
     {
@@ -18,21 +22,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 800167,
         "dungeonTypeList": [
           98,
           99
-        ]
+        ],
+        "skill_id": 800167
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 800160,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 800167,
-  "stack": 1,
-  "time": 50,
-  "last_effect": ""
+  "stack": 1
 }

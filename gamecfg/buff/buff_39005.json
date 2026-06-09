@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "大舰队世界boss_1_阶段4",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "Darkness",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": -12
+        "add": -12,
+        "mul": 0
       }
     },
     {
@@ -17,18 +21,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.35,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.35
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 39000,
-  "name": "大舰队世界boss_1_阶段4",
-  "init_effect": "Darkness",
+  "color": "yellow",
   "id": 39005,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

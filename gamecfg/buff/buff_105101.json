@@ -7,7 +7,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -21,7 +20,8 @@
               0.4,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -34,7 +34,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -48,7 +47,8 @@
               0.433,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -61,7 +61,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -75,7 +74,8 @@
               0.466,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -88,7 +88,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -102,7 +101,8 @@
               0.499,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -115,7 +115,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -129,7 +128,8 @@
               0.532,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -142,7 +142,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -156,7 +155,8 @@
               0.565,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -169,7 +169,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -183,7 +182,8 @@
               0.598,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -196,7 +196,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -210,7 +209,8 @@
               0.631,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -223,7 +223,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -237,7 +236,8 @@
               0.664,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -250,7 +250,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             105100,
             105101
@@ -264,11 +263,14 @@
               0.7,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
   },
+  "name": "鬼神☆百鬼",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -276,7 +278,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           105100,
           105101
@@ -290,17 +291,16 @@
             0.4,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "概率触发",
-  "picture": "",
-  "icon": 105101,
-  "name": "鬼神☆百鬼",
+  "time": 3,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 105101,
   "id": 105101,
   "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "desc": "概率触发"
 }

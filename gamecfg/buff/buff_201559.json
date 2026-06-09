@@ -1,9 +1,10 @@
 {
   "1": [],
   "2": [],
-  "init_effect": "",
-  "picture": "",
+  "last_effect": "",
   "name": "2025约战联动 L4 BOSS 反击弹幕",
+  "picture": "",
+  "id": 201559,
   "effect_list": [
     {
       "trigger": [
@@ -11,10 +12,10 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "keep": true,
-        "maxHPRatio": 0.2,
+        "countType": 201559,
         "countTarget": 1,
-        "countType": 201559
+        "maxHPRatio": 0.2,
+        "keep": true
       }
     },
     {
@@ -23,14 +24,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 201560,
-        "countType": 201559
+        "countType": 201559,
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201559,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "stack": 1,
+  "init_effect": ""
 }

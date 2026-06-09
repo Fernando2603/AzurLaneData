@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "buff移除时加速鱼雷装填",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19443,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 19443
       }
     }
   ],
-  "desc": "buff移除时加速鱼雷装填",
-  "picture": "",
+  "last_effect": "",
   "icon": 19440,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 19443,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

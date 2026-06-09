@@ -8,9 +8,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -43,9 +43,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -78,9 +78,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -113,9 +113,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -148,9 +148,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -183,9 +183,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -218,9 +218,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -253,9 +253,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -288,9 +288,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -323,9 +323,9 @@
         ],
         "type": "BattleBuffAddAttr",
         "arg_list": {
-          "group": 115070,
           "attr": "isInvincible",
-          "number": 1
+          "number": 1,
+          "group": 115070
         }
       },
       {
@@ -349,6 +349,8 @@
       }
     ]
   },
+  "name": "不沉舰",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -357,9 +359,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 115070,
         "attr": "isInvincible",
-        "number": 1
+        "number": 1,
+        "group": 115070
       }
     },
     {
@@ -382,20 +384,18 @@
       }
     }
   ],
+  "time": 10,
+  "init_effect": "jinengchufablue",
+  "last_effect": "wuheqinli_huifu",
+  "icon": 115070,
+  "id": 115076,
+  "stack": 1,
+  "desc": "无敌",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "无敌",
-  "picture": "",
-  "icon": 115070,
-  "name": "不沉舰",
-  "init_effect": "jinengchufablue",
-  "id": 115076,
-  "stack": 1,
-  "time": 10,
-  "last_effect": "wuheqinli_huifu"
+  ]
 }

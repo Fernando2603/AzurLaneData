@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,8 +19,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 801739,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 801739
       }
     },
     {
@@ -30,8 +31,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.01,
-        "attr": "injureRatioByCannon"
+        "attr": "injureRatioByCannon",
+        "number": 0.01
       }
     },
     {
@@ -42,18 +43,17 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.01,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.01
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 801720,
-  "name": "",
-  "init_effect": "",
-  "id": 801729,
-  "stack": 12,
   "time": 6,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 801720,
+  "id": 801729,
+  "color": "yellow",
+  "stack": 12,
+  "desc": ""
 }

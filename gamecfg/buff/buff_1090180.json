@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "火力覆盖",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -26,8 +27,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1090180,
-        "rant": 5000
+        "rant": 5000,
+        "skill_id": 1090180
       }
     },
     {
@@ -36,19 +37,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 1090180,
-        "rant": 5000
+        "rant": 5000,
+        "skill_id": 1090180
       }
     }
   ],
-  "desc": "自身炮击提高$1",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "自身炮击提高10.0%(满级20.0%)",
+  "last_effect": "",
   "icon": 2070,
   "id": 1090180,
-  "name": "火力覆盖",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "自身炮击提高$1"
 }

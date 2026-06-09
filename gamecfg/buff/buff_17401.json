@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,15 +19,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17401,
         "ship_tag_list": [
           "SANJ_5"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 17401,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -35,25 +37,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17402,
         "ship_tag_list": [
           "SANJ_5"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 17402,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "触发器",
-  "picture": "",
-  "icon": 17400,
-  "name": "",
+  "time": 0.1,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 17400,
   "id": 17401,
   "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "desc": "触发器"
 }

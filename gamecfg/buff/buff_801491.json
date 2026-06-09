@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -19,8 +22,8 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 801492,
-        "quota": 1,
-        "time": 0.2
+        "time": 0.2,
+        "quota": 1
       }
     },
     {
@@ -29,18 +32,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 801493,
         "quota": 1,
+        "skill_id": 801493,
         "time": 8
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 801490,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 801491,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

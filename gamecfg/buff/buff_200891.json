@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024异世界冒险 英灵效果 净化者",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,8 +24,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 50
+        "add": 50,
+        "mul": 0
       }
     },
     {
@@ -30,9 +34,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 2,
-        "skill_id": 200891
+        "skill_id": 200891,
+        "target": "TargetSelf"
       }
     },
     {
@@ -45,13 +49,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200891,
-  "name": "2024异世界冒险 英灵效果 净化者",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200891,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

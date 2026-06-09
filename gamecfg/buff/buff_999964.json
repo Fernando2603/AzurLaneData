@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,13 +11,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 999967,
         "ship_tag_list": [
           "999999"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -51,24 +56,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 999965,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 999965
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "id": 999964,
   "blink": [
     0,
     0.5,
     0.7,
     0.6,
     0.3
-  ],
-  "desc": "",
-  "id": 999964,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

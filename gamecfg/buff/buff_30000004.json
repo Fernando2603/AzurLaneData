@@ -1,5 +1,9 @@
 {
-  "last_effect_cld_scale": true,
+  "name": "AT·FIELD",
+  "last_effect": "ATdun",
+  "desc": "AT盾血量监听",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 30000003,
         "hpLowerBound": 0.9,
-        "hpOutInterval": true
+        "buff_id": 30000003,
+        "hpOutInterval": true,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "AT盾血量监听",
+  "picture": "",
   "icon": 30000004,
   "id": 30000004,
-  "name": "AT·FIELD",
-  "init_effect": "",
-  "picture": "",
   "stack": 1,
-  "time": 0,
-  "last_effect": "ATdun"
+  "last_effect_cld_scale": true
 }

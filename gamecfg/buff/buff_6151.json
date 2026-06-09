@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "灭火器T2",
+  "picture": "",
+  "desc": "起火概率降低20%，持续时间缩短3秒，伤害降低15%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.2,
-        "attr": "igniteResist"
+        "attr": "igniteResist",
+        "number": 0.2
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 3,
-        "attr": "igniteShorten"
+        "attr": "igniteShorten",
+        "number": 3
       }
     },
     {
@@ -27,18 +31,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1500,
-        "attr": "igniteReduce"
+        "attr": "igniteReduce",
+        "number": 1500
       }
     }
   ],
-  "desc": "起火概率降低20%，持续时间缩短3秒，伤害降低15%",
-  "picture": "",
+  "last_effect": "",
   "icon": 6021,
-  "name": "灭火器T2",
-  "init_effect": "",
+  "color": "blue",
   "id": 6021,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

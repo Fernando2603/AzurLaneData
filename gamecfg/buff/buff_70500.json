@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "装填提高",
+  "picture": "",
+  "desc": "装填提高50%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 5000,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": 5000
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 70500,
+  "color": "red",
+  "id": 70500,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "装填提高50%",
-  "picture": "",
-  "icon": 70500,
-  "name": "装填提高",
-  "init_effect": "",
-  "id": 70500,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "无敌锁血撤退",
+  "name": "无敌锁血撤退",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "无敌锁血撤退",
   "effect_list": [
     {
       "trigger": [
@@ -9,9 +12,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 8527,
-        "hpUpperBound": 0.01
+        "hpUpperBound": 0.01,
+        "target": "TargetSelf"
       }
     },
     {
@@ -25,12 +28,9 @@
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 8526,
-  "name": "无敌锁血撤退",
-  "init_effect": "",
+  "color": "blue",
   "id": 8526,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "吸引附加BUFF",
+  "picture": "",
+  "desc": "",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -500
       }
     },
     {
@@ -18,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -500
       }
     },
     {
@@ -29,8 +34,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "antiAirPower"
+        "attr": "antiAirPower",
+        "number": -500
       }
     },
     {
@@ -44,13 +49,8 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 111010,
-  "name": "吸引附加BUFF",
-  "init_effect": "",
   "id": 111014,
-  "stack": 1,
-  "time": 8,
-  "last_effect": "Darkness"
+  "stack": 1
 }

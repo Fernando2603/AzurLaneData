@@ -29,74 +29,74 @@
   "10": {
     "time": 15
   },
-  "color": "blue",
+  "name": "侧面装甲",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, -120, 0)\nend",
         "count": 6,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(1, 0, -3.5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              2,
-              0,
-              -2
-            ],
             "box": [
               5,
               7,
               10
+            ],
+            "offset": [
+              2,
+              0,
+              -2
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, -120, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     },
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, 120, 0)\nend",
         "count": 6,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_3_0)\n\treturn Vector3(1, 0, 3.5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              2,
-              0,
-              -2
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              2,
+              0,
+              -2
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, 120, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 2,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 2
     }
   ],
-  "desc": "侧面装甲",
-  "picture": "",
-  "icon": 4060,
-  "name": "侧面装甲",
-  "init_effect": "",
-  "id": 4060,
-  "stack": 1,
   "time": 5,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 4060,
+  "id": 4060,
+  "color": "blue",
+  "stack": 1,
+  "desc": "侧面装甲"
 }

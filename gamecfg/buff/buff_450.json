@@ -1,4 +1,9 @@
 {
+  "name": "降值",
+  "picture": "",
+  "desc": "喀琅施塔得降值",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -500
       }
     }
   ],
-  "desc": "喀琅施塔得降值",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 450,
-  "name": "降值",
-  "init_effect": "",
   "id": 450,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Darkness"
+  "stack": 1
 }

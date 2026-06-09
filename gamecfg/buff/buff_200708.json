@@ -14,6 +14,8 @@
   "13": [],
   "14": [],
   "15": [],
+  "name": "黑基洛夫BOSS战 彗星机械重组",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -21,26 +23,24 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "BOSS_TAG2"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200710,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200710,
-        "ship_tag_list": [
-          "BOSS_TAG2"
-        ]
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 200708,
-  "name": "黑基洛夫BOSS战 彗星机械重组",
+  "time": 0.1,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 200708,
   "id": 200708,
   "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "desc": ""
 }

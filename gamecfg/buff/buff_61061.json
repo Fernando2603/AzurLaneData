@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "伤害、受伤提高",
+  "time": 20,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.01,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.01
       }
     },
     {
@@ -18,25 +23,20 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.03
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 61061,
+  "id": 61061,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "伤害、受伤提高",
-  "picture": "",
-  "icon": 61061,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 61061,
-  "stack": 1,
-  "time": 20,
-  "last_effect": ""
+  ]
 }

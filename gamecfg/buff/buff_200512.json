@@ -1,4 +1,9 @@
 {
+  "name": "2023古立特联动复刻 新关卡支援弹幕",
+  "picture": "",
+  "desc": "",
+  "time": 20,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,11 +11,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 200512,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 200512,
-        "time": 7,
-        "rant": 10000
+        "rant": 10000,
+        "time": 7
       }
     },
     {
@@ -19,20 +24,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 200513,
         "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 200513,
-        "time": 17,
-        "rant": 10000
+        "rant": 10000,
+        "time": 17
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200512,
-  "name": "2023古立特联动复刻 新关卡支援弹幕",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
-  "time": 20,
-  "last_effect": ""
+  "stack": 1
 }

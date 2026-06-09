@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,11 +18,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 15140,
         "target": "TargetSelf",
         "quota": 2,
-        "skill_id": 15140,
-        "time": 20,
-        "rant": 5000
+        "rant": 5000,
+        "time": 20
       }
     },
     {
@@ -30,16 +31,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
+        "ship_tag_list": [
+          "danyaokuifa"
         ],
         "minTargetNumber": 1,
         "buff_id": 15141,
-        "ship_tag_list": [
-          "danyaokuifa"
-        ]
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -48,16 +49,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetAllHelp",
-          "TargetShipTag"
+        "ship_tag_list": [
+          "danyaokuifa"
         ],
         "minTargetNumber": 1,
         "buff_id": 15144,
-        "ship_tag_list": [
-          "danyaokuifa"
-        ]
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -66,27 +67,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 15142,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "buff_id": 15142,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "danyaokuifa"
         ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15140,
   "id": 15140,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,4 +1,9 @@
 {
+  "name": "测试-休斯敦-技能触发被动",
+  "picture": "",
+  "desc": "弹射",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,22 +11,17 @@
       ],
       "type": "BattleBuffBulletHitEmitter",
       "arg_list": {
-        "target": "TargetHarmNearest",
-        "count": 3,
-        "damageRant": 0.7,
         "barrageID": 10001,
+        "damageRant": 0.7,
+        "target": "TargetHarmNearest",
+        "range": 200,
         "deltaDamageRant": -0.1,
-        "range": 200
+        "count": 3
       }
     }
   ],
-  "desc": "弹射",
-  "picture": "",
+  "last_effect": "",
   "icon": 60018,
-  "name": "测试-休斯敦-技能触发被动",
-  "init_effect": "",
   "id": 60018,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

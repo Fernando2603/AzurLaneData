@@ -1,4 +1,9 @@
 {
+  "name": "损害管制",
+  "picture": "",
+  "desc": "耐久低于40%时，回复所有耐久",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,9 +11,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 4,
         "hpUpperBound": 0.45,
-        "skill_id": 4
+        "target": "TargetSelf"
       }
     },
     {
@@ -17,19 +22,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "buff_id": 5,
         "hpUpperBound": 0.45,
-        "buff_id": 5
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "耐久低于40%时，回复所有耐久",
-  "picture": "",
+  "last_effect": "Health",
   "icon": 4,
-  "name": "损害管制",
-  "init_effect": "",
   "id": 4,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "Health"
+  "stack": 1
 }

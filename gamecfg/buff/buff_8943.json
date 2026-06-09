@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "公海舰队活动 奇异点干扰",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 2000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 2000
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -2000,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": -2000
       }
     },
     {
@@ -30,18 +34,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -5,
-        "attr": "chargeBulletAccuracy"
+        "attr": "chargeBulletAccuracy",
+        "number": -5
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8943,
-  "name": "公海舰队活动 奇异点干扰",
-  "init_effect": "",
+  "color": "red",
   "id": 8943,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

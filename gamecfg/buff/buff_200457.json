@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023俾斯麦Z活动 剧情战BOSS",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.3,
         "quota": 1,
-        "skill_id": 200460
+        "skill_id": 200460,
+        "hpUpperBound": 0.3,
+        "target": "TargetSelf"
       }
     },
     {
@@ -20,18 +24,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.9,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200456,
           200457
@@ -45,18 +49,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.8,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200456,
           200457
@@ -70,18 +74,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.7,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200456,
           200457
@@ -95,18 +99,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.6,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200456,
           200457
@@ -120,18 +124,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.5,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200456,
           200457
@@ -145,18 +149,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.4,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200456,
           200457
@@ -170,18 +174,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.3,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200458,
           200459
@@ -195,18 +199,18 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.5
+          ],
+          [
+            0.5,
+            1
+          ]
+        ],
+        "quota": 1,
         "hpUpperBound": 0.2,
-        "quota": 1,
-        "range": [
-          [
-            0,
-            0.5
-          ],
-          [
-            0.5,
-            1
-          ]
-        ],
         "skill_id_list": [
           200458,
           200459
@@ -220,8 +224,6 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
-        "hpUpperBound": 0.1,
-        "quota": 1,
         "range": [
           [
             0,
@@ -232,6 +234,8 @@
             1
           ]
         ],
+        "quota": 1,
+        "hpUpperBound": 0.1,
         "skill_id_list": [
           200458,
           200459
@@ -239,13 +243,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200457,
-  "name": "2023俾斯麦Z活动 剧情战BOSS",
-  "init_effect": "",
+  "color": "blue",
   "id": 200457,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

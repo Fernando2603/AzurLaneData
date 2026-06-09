@@ -1,4 +1,9 @@
 {
+  "name": "公海舰队活动剧情战启动",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,21 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
         "buff_id": 8968,
         "ship_tag_list": [
           "Agir"
-        ]
+        ],
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8967,
-  "name": "公海舰队活动剧情战启动",
-  "init_effect": "",
   "id": 8967,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,17 +9,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_type_list": [
+          8
+        ],
+        "skill_id": 30483,
+        "minTargetNumber": 2,
+        "nationality": 4,
         "check_target": [
           "TargetNationalityFriendly",
           "TargetShipTypeFriendly"
         ],
-        "minTargetNumber": 2,
-        "nationality": 4,
-        "ship_type_list": [
-          8
-        ],
-        "skill_id": 30483
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,7 +29,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 30481,
         "ship_tag_list": [
           "U552BOOST"
         ],
@@ -36,7 +36,8 @@
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "skill_id": 30481
       }
     },
     {
@@ -46,7 +47,6 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "U552BOOST"
         ],
@@ -54,17 +54,17 @@
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 30480,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 30481,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 30480,
+  "id": 30481,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

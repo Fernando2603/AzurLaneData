@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "校准射击",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,20 +18,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 20,
-        "skill_id": 11180
+        "skill_id": 11180,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每20秒，增加自己5%(15%)鱼雷造成的伤害，可叠加，最高8层",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "每20秒，增加自己5%(15%)鱼雷造成的伤害，可叠加，最高8层",
+  "last_effect": "",
   "icon": 11180,
   "id": 11180,
-  "name": "校准射击",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每20秒，增加自己5%(15%)鱼雷造成的伤害，可叠加，最高8层"
 }

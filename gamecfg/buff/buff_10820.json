@@ -29,7 +29,8 @@
   "10": {
     "desc": "鹤之奋进"
   },
-  "color": "red",
+  "name": "鹤之奋进",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -37,10 +38,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "minTargetNumber": 3,
         "nationality": 3,
         "skill_id": 10821,
-        "check_target": "TargetNationalityFriendly"
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 3
       }
     },
     {
@@ -49,20 +50,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 10820
+        "skill_id": 10820,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "空中支援时，永久提高下一次空中支援伤害$1，可叠加3次",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "空中支援时，永久提高下一次空中支援伤害8.0%(满级20.0%)，可叠加3次",
+  "last_effect": "",
   "icon": 10820,
   "id": 10820,
-  "name": "鹤之奋进",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "空中支援时，永久提高下一次空中支援伤害$1，可叠加3次"
 }

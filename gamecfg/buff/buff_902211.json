@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "强化效率&追加防空炮",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -19,25 +23,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": -0.1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 902210,
+  "color": "yellow",
+  "id": 902211,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "强化效率&追加防空炮",
-  "picture": "",
-  "icon": 902210,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 902211,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

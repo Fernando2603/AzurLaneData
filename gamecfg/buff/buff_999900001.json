@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "测试卡牌编队BUFF",
+  "picture": "",
+  "desc": "",
+  "time": 30,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleCardPuzzleFleetBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetFleetIndex"
-        ],
         "buff_id": 9030,
         "target_param": {
           "fleetPos": "Leader"
-        }
+        },
+        "target": [
+          "TargetFleetIndex"
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 8661,
-  "name": "测试卡牌编队BUFF",
-  "init_effect": "",
+  "color": "yellow",
   "id": 999900001,
-  "stack": 3,
-  "time": 30,
-  "last_effect": ""
+  "stack": 3
 }

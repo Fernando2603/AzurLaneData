@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行12次攻击，触发全弹发射-皮劳I"
   },
-  "color": "red",
+  "name": "全弹发射",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 23130,
-        "countTarget": 12
+        "countType": 23130
       }
     },
     {
@@ -23,19 +24,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 23131,
         "countType": 23130,
-        "skill_id": 23131
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发全弹发射-皮劳I",
-  "picture": "",
-  "icon": 20100,
-  "name": "全弹发射",
-  "init_effect": "",
-  "id": 23131,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 20100,
+  "id": 23131,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行12次攻击，触发全弹发射-皮劳I"
 }

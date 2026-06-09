@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "过载炮击",
+  "picture": "",
   "desc": "",
+  "time": 3,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,17 +13,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -10000,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": -10000
       }
     }
   ],
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 11450,
-  "name": "过载炮击",
-  "init_effect": "",
+  "color": "red",
   "id": 11453,
-  "stack": 1,
-  "time": 3,
-  "last_effect": "Darkness"
+  "stack": 1
 }

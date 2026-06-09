@@ -9,18 +9,19 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
+        "ship_tag_list": [
+          "Lexington-Class"
+        ],
+        "quota": 4,
         "skill_id": 151910,
         "target": [
           "TargetAllHelp",
           "TargetShipTag"
-        ],
-        "quota": 4,
-        "ship_tag_list": [
-          "Lexington-Class"
         ]
       },
       "trigger": [
@@ -39,14 +40,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "ship_tag_list": [
+          "Essex-Class"
+        ],
+        "quota": 4,
         "skill_id": 151910,
         "target": [
           "TargetAllHelp",
           "TargetShipTag"
-        ],
-        "quota": 4,
-        "ship_tag_list": [
-          "Essex-Class"
         ]
       }
     },
@@ -56,19 +57,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151911,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 151911
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151910,
   "id": 151910,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

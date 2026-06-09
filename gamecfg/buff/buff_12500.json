@@ -119,7 +119,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "巴丹地狱猫",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -127,14 +128,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 12500,
+        "minWeaponNumber": 1,
         "weapon_group": [
           17300,
           17320,
           17340
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -143,25 +144,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 12502,
+        "minWeaponNumber": 1,
         "weapon_group": [
           17300,
           17320,
           17340
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12500,
   "id": 12500,
-  "name": "巴丹地狱猫",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

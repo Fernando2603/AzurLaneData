@@ -1,4 +1,8 @@
 {
+  "id": 201310,
+  "name": "2025信标BOSS 大黄蜂meta 机制",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.06,
-        "attr": "dodgeRateExtra"
+        "attr": "dodgeRateExtra",
+        "number": 0.06
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 1,
-        "countType": 10
+        "countType": 10,
+        "countTarget": 1
       }
     },
     {
@@ -30,8 +34,8 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 201311,
-        "quota": 1,
-        "countType": 10
+        "countType": 10,
+        "quota": 1
       }
     },
     {
@@ -41,8 +45,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 20
+        "countType": 20,
+        "countTarget": 2
       }
     },
     {
@@ -52,8 +56,8 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 201312,
-        "quota": 1,
-        "countType": 20
+        "countType": 20,
+        "quota": 1
       }
     },
     {
@@ -63,8 +67,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 30
+        "countType": 30,
+        "countTarget": 3
       }
     },
     {
@@ -74,16 +78,12 @@
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "buff_id": 201313,
-        "quota": 1,
-        "countType": 30
+        "countType": 30,
+        "quota": 1
       }
     }
   ],
-  "id": 201310,
-  "name": "2025信标BOSS 大黄蜂meta 机制",
-  "init_effect": "",
-  "picture": "",
-  "stack": 10,
   "time": 0,
-  "last_effect": ""
+  "stack": 10,
+  "init_effect": ""
 }

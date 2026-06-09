@@ -7,8 +7,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1000,
           "attr": "cannonPower",
+          "number": 1000,
           "convertAttr": "antiAirPower"
         }
       }
@@ -22,8 +22,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1220,
           "attr": "cannonPower",
+          "number": 1220,
           "convertAttr": "antiAirPower"
         }
       }
@@ -37,8 +37,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1440,
           "attr": "cannonPower",
+          "number": 1440,
           "convertAttr": "antiAirPower"
         }
       }
@@ -52,8 +52,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1660,
           "attr": "cannonPower",
+          "number": 1660,
           "convertAttr": "antiAirPower"
         }
       }
@@ -67,8 +67,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 1880,
           "attr": "cannonPower",
+          "number": 1880,
           "convertAttr": "antiAirPower"
         }
       }
@@ -82,8 +82,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2100,
           "attr": "cannonPower",
+          "number": 2100,
           "convertAttr": "antiAirPower"
         }
       }
@@ -97,8 +97,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2320,
           "attr": "cannonPower",
+          "number": 2320,
           "convertAttr": "antiAirPower"
         }
       }
@@ -112,8 +112,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2540,
           "attr": "cannonPower",
+          "number": 2540,
           "convertAttr": "antiAirPower"
         }
       }
@@ -127,8 +127,8 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 2760,
           "attr": "cannonPower",
+          "number": 2760,
           "convertAttr": "antiAirPower"
         }
       }
@@ -142,13 +142,15 @@
         ],
         "type": "BattleBuffAddAttrRatio",
         "arg_list": {
-          "number": 3000,
           "attr": "cannonPower",
+          "number": 3000,
           "convertAttr": "antiAirPower"
         }
       }
     ]
   },
+  "name": "防空火力",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -156,26 +158,24 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 1000,
         "attr": "cannonPower",
+        "number": 1000,
         "convertAttr": "antiAirPower"
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 10991,
+  "id": 10991,
+  "stack": 1,
+  "desc": "自身炮击上升",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "自身炮击上升",
-  "picture": "",
-  "icon": 10991,
-  "name": "防空火力",
-  "init_effect": "jinengchufared",
-  "id": 10991,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

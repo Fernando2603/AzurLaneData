@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,16 +11,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "ship_tag_list": [
+          "Yat sen"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 60321,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60321,
-        "ship_tag_list": [
-          "Yat sen"
-        ]
+        "quota": 1
       }
     },
     {
@@ -34,13 +38,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60320,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60320,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  "stack": 1
 }

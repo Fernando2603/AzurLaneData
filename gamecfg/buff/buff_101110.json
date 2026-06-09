@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "众神之怒·雪崩雷震",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,20 +18,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 101111,
-        "time": 20
+        "time": 20,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每隔20秒，有概率触发，发射强力弹幕，命中敌人概率造成减速或麻痹，持续8秒",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "每隔20秒，有概率触发，发射强力弹幕，命中敌人概率造成减速或麻痹，持续8秒",
+  "last_effect": "",
   "icon": 101110,
   "id": 101110,
-  "name": "众神之怒·雪崩雷震",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每隔20秒，有概率触发，发射强力弹幕，命中敌人概率造成减速或麻痹，持续8秒"
 }

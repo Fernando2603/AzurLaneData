@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,16 +12,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 2,
-        "buff_id": 29765,
         "ship_type_list": [
           1,
           20,
           21
         ],
+        "buff_id": 29765,
         "check_target": [
           "TargetShipTypeFriendly"
-        ]
+        ],
+        "minTargetNumber": 2
       }
     },
     {
@@ -33,19 +36,16 @@
           21
         ],
         "buff_id": 29766,
-        "maxTargetNumber": 1,
         "check_target": [
           "TargetShipTypeFriendly"
-        ]
+        ],
+        "maxTargetNumber": 1
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 29760,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 29762,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,7 +1,10 @@
 {
-  "color": "blue",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 50,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,8 +13,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.05,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.05
       }
     },
     {
@@ -21,17 +24,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.1
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 109340,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 109340,
-  "stack": 1,
-  "time": 50,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 152081,
-        "killer": "self"
+        "killer": "self",
+        "target": "TargetAllHelp"
       }
     },
     {
@@ -28,19 +29,18 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 152081,
-        "killer": "child"
+        "killer": "child",
+        "target": "TargetAllHelp"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 152080,
-  "name": "",
-  "init_effect": "",
-  "id": 152082,
-  "stack": 10,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 152080,
+  "id": 152082,
+  "color": "red",
+  "stack": 10,
+  "desc": ""
 }

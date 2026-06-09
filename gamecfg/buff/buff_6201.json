@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "一式穿甲弹",
+  "picture": "",
+  "desc": "主炮暴击伤害提高25%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.25,
         "attr": "criDamage",
         "index": [
           1
-        ]
+        ],
+        "number": 0.25
       }
     }
   ],
-  "desc": "主炮暴击伤害提高25%",
-  "picture": "",
+  "last_effect": "",
   "icon": 6200,
-  "name": "一式穿甲弹",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6200,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

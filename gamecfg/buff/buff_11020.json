@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "胡蜂双蛰",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,13 +18,6 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetNationalityFriendly",
-          "TargetShipTypeFriendly"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 11021,
         "ship_type_list": [
           4,
           5,
@@ -34,18 +28,24 @@
           12,
           13
         ],
-        "nationality": 2
+        "minTargetNumber": 1,
+        "nationality": 2,
+        "buff_id": 11021,
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "当队伍后排有皇家阵营角色时，空袭时有$1概率触发，使用海喷火进行额外一轮航空攻击",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "当队伍后排有皇家阵营角色时，空袭时有30%(满级50%)概率触发，使用海喷火进行额外一轮航空攻击",
+  "last_effect": "",
   "icon": 11020,
   "id": 11020,
-  "name": "胡蜂双蛰",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "当队伍后排有皇家阵营角色时，空袭时有$1概率触发，使用海喷火进行额外一轮航空攻击"
 }

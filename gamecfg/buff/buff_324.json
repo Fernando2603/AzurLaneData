@@ -1,4 +1,9 @@
 {
+  "name": "塔什干ICELF子弹减速",
+  "picture": "",
+  "desc": "4s减速",
+  "time": 4,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +13,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": -150,
-        "add": 0
+        "add": 0,
+        "mul": -150
       }
     },
     {
@@ -23,13 +28,8 @@
       }
     }
   ],
-  "desc": "4s减速",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 323,
-  "name": "塔什干ICELF子弹减速",
-  "init_effect": "",
   "id": 323,
-  "stack": 10,
-  "time": 4,
-  "last_effect": "Darkness"
+  "stack": 10
 }

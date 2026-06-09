@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2024风帆二期活动 寂静涡流 群体增伤减伤光环",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.03,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.03
       }
     },
     {
@@ -19,25 +23,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.03,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.03
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 201148,
+  "color": "blue",
+  "id": 201148,
   "blink": [
     0,
     0,
     0.5,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 201148,
-  "name": "2024风帆二期活动 寂静涡流 群体增伤减伤光环",
-  "init_effect": "",
-  "id": 201148,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

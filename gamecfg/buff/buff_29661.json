@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行12次攻击，触发专属弹幕-巴尔的摩μI"
   },
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 12,
         "index": [
           1
         ],
-        "countType": 29660,
-        "countTarget": 12
+        "countType": 29660
       }
     },
     {
@@ -23,19 +24,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29661,
         "countType": 29660,
-        "skill_id": 29661
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行12次攻击，触发专属弹幕-巴尔的摩μI",
-  "picture": "",
-  "icon": 29660,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29661,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29660,
+  "id": 29661,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行12次攻击，触发专属弹幕-巴尔的摩μI"
 }

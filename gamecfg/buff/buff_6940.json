@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "",
+  "picture": "",
+  "desc": "煌翼炎龙",
+  "time": 30,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -11,13 +15,13 @@
           6,
           7
         ],
+        "skill_id": 6940,
+        "minTargetNumber": 1,
         "quota": 1,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipType"
-        ],
-        "minTargetNumber": 1,
-        "skill_id": 6940
+        ]
       }
     },
     {
@@ -35,13 +39,13 @@
           20,
           23
         ],
-        "quota": 1,
+        "minTargetNumber": 1,
+        "buff_id": 6942,
         "check_target": [
           "TargetSelf",
           "TargetShipType"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 6942
+        "quota": 1
       }
     },
     {
@@ -50,16 +54,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "ship_tag_list": [
+          "SSSS"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 6942,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 6942,
-        "ship_tag_list": [
-          "SSSS"
-        ]
+        "quota": 1
       }
     },
     {
@@ -74,13 +78,9 @@
       }
     }
   ],
-  "desc": "煌翼炎龙",
-  "picture": "",
+  "last_effect": "",
   "icon": 6900,
-  "name": "",
-  "init_effect": "",
+  "color": "blue",
   "id": 6940,
-  "stack": 1,
-  "time": 30,
-  "last_effect": ""
+  "stack": 1
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -27,25 +28,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "check_weapon": true,
         "skill_id": 1090120,
+        "minWeaponNumber": 1,
+        "target": "TargetSelf",
         "label": [
           "DD",
           "MG",
           "AP"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 2080,
-  "name": "",
-  "init_effect": "",
-  "id": 1090120,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 2080,
+  "id": 1090120,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

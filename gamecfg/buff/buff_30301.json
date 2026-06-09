@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行15次攻击，触发专属弹幕-哈尔福德I"
   },
-  "color": "red",
+  "name": "专属弹幕-哈尔福德I",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 15,
         "index": [
           1
         ],
-        "countType": 30300,
-        "countTarget": 15
+        "countType": 30300
       }
     },
     {
@@ -23,20 +24,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 30301,
         "countType": 30300,
-        "skill_id": 30301
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行15次攻击，触发专属弹幕-哈尔福德I",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "主炮每进行15次攻击，触发专属弹幕-哈尔福德I",
+  "last_effect": "",
   "icon": 30300,
   "id": 30301,
-  "name": "专属弹幕-哈尔福德I",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "主炮每进行15次攻击，触发专属弹幕-哈尔福德I"
 }

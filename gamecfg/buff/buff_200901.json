@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024愚人节 取消锁血",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,24 +12,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 98,
+        "buff_id": 200440,
         "check_target": [
           "TargetAllHelp",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200440,
-        "nationality": 98
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200901,
-  "name": "2024愚人节 取消锁血",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200901,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

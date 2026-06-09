@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,27 +18,26 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "quota": 1,
+        "ship_tag_list": [
+          "P3_LeaderPosition"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 17755,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 17755,
-        "ship_tag_list": [
-          "P3_LeaderPosition"
-        ]
+        "quota": 1
       }
     }
   ],
-  "desc": "",
+  "time": 0.1,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 17750,
   "id": 17754,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "blue",
   "stack": 1,
-  "time": 0.1,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,13 +11,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 600088,
         "target": "TargetSelf",
+        "buff_id": 600088,
         "check_target": [
           "TargetSelf",
           "TargetPlayerMainFleet"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -22,23 +26,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 600087,
         "target": "TargetSelf",
+        "buff_id": 600087,
         "check_target": [
           "TargetSelf",
           "TargetPlayerMainFleet"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 600086,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 600086,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

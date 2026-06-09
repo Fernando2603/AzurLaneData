@@ -1,4 +1,8 @@
 {
+  "id": 201539,
+  "name": "2025风帆三期EX 莱姆号 无敌护盾",
+  "picture": "",
+  "last_effect": "wudihudun",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +10,8 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "target": "TargetSelf",
-        "value": 1
+        "value": 1,
+        "target": "TargetSelf"
       }
     },
     {
@@ -17,16 +21,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 10000,
-        "attr": "igniteReduce"
+        "attr": "igniteReduce",
+        "number": 10000
       }
     }
   ],
-  "id": 201539,
-  "name": "2025风帆三期EX 莱姆号 无敌护盾",
-  "init_effect": "",
-  "picture": "",
-  "stack": 1,
   "time": 0.2,
-  "last_effect": "wudihudun"
+  "stack": 1,
+  "init_effect": ""
 }

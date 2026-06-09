@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15480,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 15480
       }
     },
     {
@@ -27,14 +28,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 15481,
+        "minWeaponNumber": 1,
         "label": [
           "BB",
           "MG",
           "SAP"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -43,14 +44,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 15481,
+        "minWeaponNumber": 1,
         "label": [
           "BB",
           "MG",
           "AP"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -59,25 +60,24 @@
       ],
       "type": "BattleBuffOrb",
       "arg_list": {
+        "buff_id": 15483,
+        "rant": 10000,
         "index": [
           1,
           2,
           3,
           -1
         ],
-        "buff_id": 15483,
-        "level": 1,
-        "rant": 10000
+        "level": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 15480,
-  "name": "",
-  "init_effect": "",
-  "id": 15480,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 15480,
+  "id": 15480,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

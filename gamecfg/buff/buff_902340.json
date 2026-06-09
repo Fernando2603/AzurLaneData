@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "飓风的掠夺",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.05
       }
     },
     {
@@ -19,18 +23,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.3,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": -0.3
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 902340,
-  "name": "飓风的掠夺",
-  "init_effect": "",
+  "color": "blue",
   "id": 902340,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

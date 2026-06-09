@@ -1,44 +1,44 @@
 {
-  "color": "red",
+  "name": "勇者标枪永久盾牌",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield_yongzhe",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 0, 0)\nend",
         "count": 99999,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(3.5, -0.5, 0)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.5,
-              0,
-              1
-            ],
             "box": [
               5,
               12,
               15
+            ],
+            "offset": [
+              1.5,
+              0,
+              1
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 0, 0)\nend"
+        "effect": "shield_yongzhe"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200101,
-  "name": "勇者标枪永久盾牌",
-  "init_effect": "",
+  "color": "red",
   "id": 200101,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

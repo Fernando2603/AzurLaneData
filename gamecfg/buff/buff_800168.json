@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 500
       }
     },
     {
@@ -17,18 +21,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": 500
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 800160,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 800168,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

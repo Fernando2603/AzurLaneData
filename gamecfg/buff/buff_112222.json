@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,15 +19,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "NinaFriedeSP"
+        ],
         "check_target": [
           "TargetShipTag"
         ],
-        "skill_id": 112220,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "NinaFriedeSP"
-        ]
+        "skill_id": 112220
       }
     },
     {
@@ -36,25 +37,24 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 112221,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "NinaFriedeSP"
         ],
-        "skill_id": 112221
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 112220,
-  "name": "",
-  "init_effect": "",
-  "id": 112222,
-  "stack": 4,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 112220,
+  "id": 112222,
+  "color": "red",
+  "stack": 4,
+  "desc": ""
 }

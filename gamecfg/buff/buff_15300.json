@@ -159,7 +159,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -178,12 +179,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 15301,
+        "minWeaponNumber": 1,
         "label": [
           "SN"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -192,22 +193,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 15302,
         "label": [
           "SN"
         ],
-        "check_weapon": true,
         "maxWeaponNumber": 0
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 15300,
-  "name": "",
-  "init_effect": "",
-  "id": 15300,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 15300,
+  "id": 15300,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

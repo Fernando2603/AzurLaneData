@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "巡洋-后勤-雷击I具体效果",
+  "picture": "",
+  "desc": "巡洋-后勤-雷击I",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "torpedoPower",
         "convertRate": 0.4,
-        "ability": "support",
-        "convertAttr": "torpedoPower"
+        "ability": "support"
       }
     }
   ],
-  "desc": "巡洋-后勤-雷击I",
-  "picture": "",
+  "last_effect": "",
   "icon": 423210,
-  "name": "巡洋-后勤-雷击I具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 423211,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

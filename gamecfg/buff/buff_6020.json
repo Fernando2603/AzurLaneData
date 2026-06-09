@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "防鱼雷隔舱T2",
+  "picture": "",
+  "desc": "受到鱼雷伤害减少20%，同类效果取最大值，不可叠加",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 6020,
         "group": {
           "level": 2,
           "id": 6010
-        }
+        },
+        "skill_id": 6020
       }
     }
   ],
-  "desc": "受到鱼雷伤害减少20%，同类效果取最大值，不可叠加",
-  "picture": "",
+  "last_effect": "",
   "icon": 6020,
-  "name": "防鱼雷隔舱T2",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6020,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

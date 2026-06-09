@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "复纵阵回避",
+  "picture": "",
+  "desc": "机动提高30%，炮击和雷击降低5%",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -500
       }
     },
     {
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -500
       }
     },
     {
@@ -27,18 +31,14 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 3000,
-        "attr": "dodgeRate"
+        "attr": "dodgeRate",
+        "number": 3000
       }
     }
   ],
-  "desc": "机动提高30%，炮击和雷击降低5%",
-  "picture": "",
+  "last_effect": "",
   "icon": 111,
-  "name": "复纵阵回避",
-  "init_effect": "",
+  "color": "yellow",
   "id": 111,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

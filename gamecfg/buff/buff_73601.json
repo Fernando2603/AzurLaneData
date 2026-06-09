@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "濒死免疫",
+  "picture": "",
+  "desc": "战斗对象的血量下降到X%时，有Y%概率将炮击伤害降为1",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,22 +11,18 @@
       ],
       "type": "BattleBuffFixDamage",
       "arg_list": {
-        "target": "TargetSelf",
-        "value": 1,
         "damageAttr": [
           1
         ],
-        "rant": 5000
+        "rant": 5000,
+        "value": 1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "战斗对象的血量下降到X%时，有Y%概率将炮击伤害降为1",
-  "picture": "",
+  "last_effect": "",
   "icon": 73600,
-  "name": "濒死免疫",
-  "init_effect": "",
+  "color": "red",
   "id": 73601,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

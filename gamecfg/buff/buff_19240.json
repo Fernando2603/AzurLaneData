@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "鲜血诗篇",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,10 +19,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19240,
+        "hpLowerBound": 0.7,
+        "quota": 1,
         "hpUpperBound": 1,
-        "quota": 1,
-        "hpLowerBound": 0.7
+        "skill_id": 19240
       }
     },
     {
@@ -31,10 +32,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19241,
+        "hpLowerBound": 0.3,
+        "quota": 1,
         "hpUpperBound": 0.7,
-        "quota": 1,
-        "hpLowerBound": 0.3
+        "skill_id": 19241
       }
     },
     {
@@ -44,21 +45,20 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 19242,
-        "hpUpperBound": 0.3,
+        "hpLowerBound": 0,
         "quota": 1,
-        "hpLowerBound": 0
+        "hpUpperBound": 0.3,
+        "skill_id": 19242
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 19240,
   "id": 19240,
-  "name": "鲜血诗篇",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

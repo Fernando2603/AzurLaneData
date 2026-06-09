@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,7 +18,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 17600,
+        "target": "TargetSelf",
+        "skill_id": 17600
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "skill_id": 17601,
+        "minTargetNumber": 2,
+        "check_target": [
+          "TargetShipTypeFriendly"
+        ],
         "target": "TargetSelf"
       }
     },
@@ -27,45 +46,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTypeFriendly"
-        ],
-        "minTargetNumber": 2,
-        "ship_type_list": [
-          6,
-          7
-        ],
-        "skill_id": 17601
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTypeFriendly"
-        ],
-        "minTargetNumber": 2,
         "ship_type_list": [
           4,
           5,
           10
         ],
-        "skill_id": 17602
+        "skill_id": 17602,
+        "minTargetNumber": 2,
+        "check_target": [
+          "TargetShipTypeFriendly"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 17600,
-  "name": "",
-  "init_effect": "",
-  "id": 17600,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 17600,
+  "id": 17600,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

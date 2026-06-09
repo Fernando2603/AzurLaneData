@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "destiny draw",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,7 +18,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           12111,
           12112,
@@ -36,18 +36,18 @@
             0.66,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 10,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12110,
   "id": 12111,
-  "name": "destiny draw",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 10,
-  "last_effect": ""
+  "desc": ""
 }

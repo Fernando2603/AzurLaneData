@@ -7,9 +7,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 30,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -22,9 +22,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 29,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -37,9 +37,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 28,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -52,9 +52,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 27,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -67,9 +67,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 26,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -82,9 +82,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 25,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -97,9 +97,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 24,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -112,9 +112,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 23,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -127,9 +127,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 22,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
@@ -142,14 +142,15 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 20,
-          "skill_id": 103120
+          "skill_id": 103120,
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "red",
+  "name": "蜜月",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,20 +158,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 30,
-        "skill_id": 103120
+        "skill_id": 103120,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "开场X秒发动一次蜜月,之后每$1秒发动一次蜜月，威力依据技能等级",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "开场25/15秒发动一次蜜月,之后每30秒(满级20秒)发动一次蜜月，威力依据技能等级",
+  "last_effect": "",
   "icon": 103120,
   "id": 103121,
-  "name": "蜜月",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "开场X秒发动一次蜜月,之后每$1秒发动一次蜜月，威力依据技能等级"
 }

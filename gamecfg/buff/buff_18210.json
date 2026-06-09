@@ -4,12 +4,12 @@
       "equip": [
         {
           "number": 4.5,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -23,12 +23,12 @@
       "equip": [
         {
           "number": 5.2,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -42,12 +42,12 @@
       "equip": [
         {
           "number": 6,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -61,12 +61,12 @@
       "equip": [
         {
           "number": 7,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -80,12 +80,12 @@
       "equip": [
         {
           "number": 7.7,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -99,12 +99,12 @@
       "equip": [
         {
           "number": 8.5,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -118,12 +118,12 @@
       "equip": [
         {
           "number": 9.5,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -137,12 +137,12 @@
       "equip": [
         {
           "number": 10.2,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -156,12 +156,12 @@
       "equip": [
         {
           "number": 11,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -175,12 +175,12 @@
       "equip": [
         {
           "number": 12,
-          "check_indexList": [
-            1
-          ],
           "label": [
             "CB",
             "MG"
+          ],
+          "check_indexList": [
+            1
           ],
           "check_type": [
             11
@@ -189,7 +189,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "吾妻·特殊弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -197,12 +198,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 18210,
+        "minWeaponNumber": 1,
         "type": [
           3
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -211,26 +212,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
+        "skill_id": 18212,
+        "minWeaponNumber": 1,
         "type": [
           11
         ],
-        "skill_id": 18212,
         "index": [
           1
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 18210,
   "id": 18210,
-  "name": "吾妻·特殊弹幕",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

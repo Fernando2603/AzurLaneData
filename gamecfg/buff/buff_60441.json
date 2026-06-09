@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "提高炮击属性",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 500
       }
     },
     {
@@ -18,27 +22,23 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "range": 20,
-        "skill_id": 60441,
         "maxTargetNumber": 0,
-        "check_target": "TargetHarmNearest"
+        "range": 20,
+        "check_target": "TargetHarmNearest",
+        "skill_id": 60441
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 604400,
+  "color": "red",
+  "id": 60441,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "提高炮击属性",
-  "picture": "",
-  "icon": 604400,
-  "name": "",
-  "init_effect": "",
-  "id": 60441,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

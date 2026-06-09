@@ -1,4 +1,8 @@
 {
+  "id": 201686,
+  "name": "2025列克星敦II活动 剧情战7 触发特殊弹幕",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 2,
-        "countType": 20
+        "countType": 20,
+        "countTarget": 2
       }
     },
     {
@@ -27,10 +31,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "countType": 20,
         "buff_id": 201688,
         "quota": 1,
-        "countType": 20
+        "target": "TargetSelf"
       }
     },
     {
@@ -40,8 +44,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 30
+        "countType": 30,
+        "countTarget": 3
       }
     },
     {
@@ -50,18 +54,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "countType": 30,
         "buff_id": 201689,
         "quota": 1,
-        "countType": 30
+        "target": "TargetSelf"
       }
     }
   ],
-  "id": 201686,
-  "name": "2025列克星敦II活动 剧情战7 触发特殊弹幕",
-  "init_effect": "",
-  "picture": "",
-  "stack": 10,
   "time": 0,
-  "last_effect": ""
+  "stack": 10,
+  "init_effect": ""
 }

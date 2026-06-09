@@ -29,7 +29,8 @@
   "10": {
     "time": 5
   },
-  "color": "blue",
+  "name": "安全第一！",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -38,26 +39,25 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 12292,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 12292
       }
     }
   ],
+  "time": 1,
+  "init_effect": "jinengchufablue",
+  "last_effect": "",
+  "icon": 12290,
+  "id": 12292,
+  "stack": 1,
+  "color": "blue",
+  "desc": "安全第一！",
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "安全第一！",
-  "picture": "",
-  "icon": 12290,
-  "name": "安全第一！",
-  "init_effect": "jinengchufablue",
-  "id": 12292,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  ]
 }

@@ -7,7 +7,8 @@
   "6": [],
   "7": [],
   "8": [],
-  "color": "red",
+  "name": "2023黑阿尔及利亚 特殊点燃",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -15,9 +16,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 9,
-        "skill_id": 200461
+        "skill_id": 200461,
+        "target": "TargetSelf"
       }
     },
     {
@@ -26,8 +27,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200461,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200461
       }
     },
     {
@@ -37,8 +38,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.3,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.3
       }
     },
     {
@@ -47,18 +48,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200474,
-        "time": 0.3
+        "time": 0.3,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "2023黑阿尔及利亚 特殊点燃",
-  "init_effect": "",
-  "stack": 1,
-  "id": 200461,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "stack": 1,
+  "color": "red",
+  "desc": "",
+  "id": 200461
 }

@@ -1,4 +1,9 @@
 {
+  "name": "机动回避",
+  "picture": "",
+  "desc": "准备速度略微提高",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "rant": 3000,
         "skill_id": 6270,
-        "target": "TargetSelf",
-        "rant": 3000
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "准备速度略微提高",
-  "picture": "",
+  "last_effect": "",
   "icon": 6271,
-  "name": "机动回避",
-  "init_effect": "",
   "id": 6271,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

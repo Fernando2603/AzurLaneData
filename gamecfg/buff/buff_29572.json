@@ -2,7 +2,8 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发特殊弹幕-美因茨II"
   },
-  "color": "red",
+  "name": "特殊弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 10,
         "index": [
           1
         ],
-        "countType": 29570,
-        "countTarget": 10
+        "countType": 29570
       }
     },
     {
@@ -23,19 +24,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29572,
         "countType": 29570,
-        "skill_id": 29572
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发特殊弹幕-美因茨II",
-  "picture": "",
-  "icon": 29570,
-  "name": "特殊弹幕",
-  "init_effect": "",
-  "id": 29572,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29570,
+  "id": 29572,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行10次攻击，触发特殊弹幕-美因茨II"
 }

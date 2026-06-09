@@ -1,4 +1,6 @@
 {
+  "name": "2025白凤UR活动 EX 烟雾玉烟雾效果",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +10,8 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": -3
+        "add": -3,
+        "mul": 0
       }
     },
     {
@@ -20,8 +22,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.05
       }
     },
     {
@@ -30,8 +32,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201511,
-        "stack_require": "==10"
+        "stack_require": "==10",
+        "skill_id": 201511
       }
     },
     {
@@ -40,23 +42,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 201512,
-        "stack_require": "==9"
+        "stack_require": "==9",
+        "skill_id": 201512
       }
     }
   ],
+  "time": 0,
+  "init_effect": "",
+  "stack": 10,
+  "last_effect": "",
+  "id": 201512,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "id": 201512,
-  "name": "2025白凤UR活动 EX 烟雾玉烟雾效果",
-  "init_effect": "",
-  "picture": "",
-  "stack": 10,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

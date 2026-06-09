@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "室内系女仆",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,9 +18,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "quota": 1,
-        "skill_id": 105050
+        "skill_id": 105050,
+        "target": "TargetSelf"
       }
     },
     {
@@ -28,8 +29,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 105051,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 105051
       }
     },
     {
@@ -38,18 +39,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 105052,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 105052
       }
     }
   ],
-  "desc": "氧气存量降低，造成伤害提高",
-  "picture": "",
-  "icon": 105050,
-  "name": "室内系女仆",
-  "init_effect": "",
-  "id": 105050,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 105050,
+  "id": 105050,
+  "color": "red",
+  "stack": 1,
+  "desc": "氧气存量降低，造成伤害提高"
 }

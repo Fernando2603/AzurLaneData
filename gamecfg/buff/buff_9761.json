@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "制空权较低",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 9762,
         "ship_tag_list": [
           "AirDominance_loworEqu"
         ],
+        "buff_id": 9762,
         "check_target": [
           "TargetPlayerFlagShip",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 9761,
-  "name": "制空权较低",
-  "init_effect": "",
+  "color": "yellow",
   "id": 9761,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

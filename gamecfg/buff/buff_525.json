@@ -1,4 +1,9 @@
 {
+  "name": "破甲",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,14 +12,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "target": "TargetSelf",
         "armor_type": 1,
+        "buff_id": 526,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 526,
-        "target": "TargetSelf"
+        "minTargetNumber": 1
       }
     },
     {
@@ -24,14 +29,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "target": "TargetSelf",
         "armor_type": 2,
+        "buff_id": 526,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 526,
-        "target": "TargetSelf"
+        "minTargetNumber": 1
       }
     },
     {
@@ -41,24 +46,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "target": "TargetSelf",
         "armor_type": 3,
+        "buff_id": 527,
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 527,
-        "target": "TargetSelf"
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 525,
-  "name": "破甲",
-  "init_effect": "",
   "id": 525,
-  "stack": 1,
-  "time": 1,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "2023古立特联动复刻 TSS1 南梦芽 古利特召唤",
+  "picture": "",
+  "desc": "",
+  "time": 12,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +21,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200488,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200488
       }
     },
     {
@@ -41,14 +45,14 @@
       "type": "BattleBuffBarrier",
       "arg_list": {
         "cld_data": {
+          "box": {
+            "range": 28
+          },
           "offset": [
             0,
             4,
             0
-          ],
-          "box": {
-            "range": 28
-          }
+          ]
         },
         "durability": 60000
       }
@@ -59,17 +63,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200489,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200489
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "name": "2023古立特联动复刻 TSS1 南梦芽 古利特召唤",
-  "init_effect": "",
+  "last_effect": "",
+  "color": "red",
   "stack": 1,
-  "id": 200488,
-  "time": 12,
-  "last_effect": ""
+  "id": 200488
 }

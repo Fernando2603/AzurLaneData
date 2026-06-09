@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "指挥喵buff触发型效果的触发入口",
+  "picture": "",
+  "desc": "该入口战内的具体触发",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,20 +11,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 98010,
         "time": 10,
-        "rant": 10000
+        "rant": 10000,
+        "skill_id": 98010,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "该入口战内的具体触发",
-  "picture": "",
+  "last_effect": "",
   "icon": 98011,
-  "name": "指挥喵buff触发型效果的触发入口",
-  "init_effect": "",
+  "color": "yellow",
   "id": 98011,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

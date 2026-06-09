@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023英系活动 EX 引导发射器减伤",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -2,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -2
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 10000,
-        "attr": "igniteReduce"
+        "attr": "igniteReduce",
+        "number": 10000
       }
     },
     {
@@ -30,8 +34,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -1,
-        "attr": "hammerDamageRatio"
+        "attr": "hammerDamageRatio",
+        "number": -1
       }
     },
     {
@@ -41,8 +45,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "hammerDamagePrevent"
+        "attr": "hammerDamagePrevent",
+        "number": 1
       }
     },
     {
@@ -51,9 +55,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200279,
-        "hpUpperBound": 0.01
+        "hpUpperBound": 0.01,
+        "target": "TargetSelf"
       }
     },
     {
@@ -67,13 +71,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200275,
-  "name": "2023英系活动 EX 引导发射器减伤",
-  "init_effect": "",
+  "color": "blue",
   "id": 200275,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

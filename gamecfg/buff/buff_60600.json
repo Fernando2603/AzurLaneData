@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,15 +11,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 3,
+        "buff_id": 60601,
         "check_target": [
           "TargetSelf",
           "TargetPlayerVanguardFleet",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60601,
-        "nationality": 3
+        "target": "TargetSelf"
       }
     },
     {
@@ -24,25 +28,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "minTargetNumber": 1,
+        "nationality": 3,
+        "buff_id": 60602,
         "check_target": [
           "TargetSelf",
           "TargetPlayerVanguardFleet",
           "TargetNationality"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 60602,
-        "nationality": 3
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60600,
-  "name": "",
-  "init_effect": "",
+  "color": "yellow",
   "id": 60600,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,9 +12,9 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 9051,
         "attr": "perfectDodge",
-        "number": 1
+        "number": 1,
+        "group": 9051
       }
     },
     {
@@ -19,26 +24,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 9051,
         "attr": "immuneDirectHit",
-        "number": 1
+        "number": 1,
+        "group": 9051
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 600057,
+  "id": 600057,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 600057,
-  "name": "",
-  "init_effect": "",
-  "id": 600057,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

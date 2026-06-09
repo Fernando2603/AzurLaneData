@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "神药球",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 40,
-        "countType": 60890
+        "countType": 60890,
+        "countTarget": 40
       }
     },
     {
@@ -18,10 +22,10 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "countType": 60890,
         "buff_id": 60893,
         "quota": 1,
-        "countType": 60890
+        "target": "TargetSelf"
       }
     },
     {
@@ -30,20 +34,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 60890,
         "quota": 1,
-        "skill_id": 60890
+        "skill_id": 60890,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60890,
-  "name": "神药球",
-  "init_effect": "",
+  "color": "red",
   "id": 60891,
-  "stack": 40,
-  "time": 0,
-  "last_effect": ""
+  "stack": 40
 }

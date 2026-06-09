@@ -1,4 +1,9 @@
 {
+  "name": "2022异世界勇者活动 带魔王召唤自爆船",
+  "picture": "",
+  "desc": "",
+  "time": 14,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200098,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200098
       }
     },
     {
@@ -16,19 +21,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 4,
-        "skill_id": 200098
+        "skill_id": 200098,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200098,
-  "name": "2022异世界勇者活动 带魔王召唤自爆船",
-  "init_effect": "",
   "id": 200098,
-  "stack": 1,
-  "time": 14,
-  "last_effect": ""
+  "stack": 1
 }

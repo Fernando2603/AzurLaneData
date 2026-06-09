@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "每隔30秒触发护盾，一定时间内取消子弹，护盾持续8秒",
     "effect_list": [
       {
         "trigger": [
@@ -7,14 +8,15 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 30,
-          "skill_id": 865000
+          "skill_id": 865000,
+          "target": "TargetSelf"
         }
       }
-    ],
-    "desc": "每隔30秒触发护盾，一定时间内取消子弹，护盾持续8秒"
+    ]
   },
+  "name": "重点防护",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -22,19 +24,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 30,
-        "skill_id": 865000
+        "skill_id": 865000,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "每隔30秒触发护盾，一定时间内取消子弹，护盾持续8秒",
-  "picture": "",
-  "icon": 865000,
-  "name": "重点防护",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 865000,
   "id": 865000,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "每隔30秒触发护盾，一定时间内取消子弹，护盾持续8秒"
 }

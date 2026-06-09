@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "受伤提高+道具命中",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,8 +11,8 @@
       ],
       "type": "BattleBuffAddAircraftAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "cri"
+        "attr": "cri",
+        "number": 0.1
       }
     },
     {
@@ -17,8 +22,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.05,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.05
       }
     },
     {
@@ -32,13 +37,8 @@
       }
     }
   ],
-  "desc": "受伤提高+道具命中",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 480,
-  "name": "",
-  "init_effect": "",
   "id": 480,
-  "stack": 1,
-  "time": 10,
-  "last_effect": "Darkness"
+  "stack": 1
 }

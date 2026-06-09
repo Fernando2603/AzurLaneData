@@ -1,4 +1,9 @@
 {
+  "name": "可被维修目标·监控自身血量",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,26 +11,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "hpUpperBound": 0.8,
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 50110,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "AR-1"
         ],
-        "skill_id": 50110
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "hpUpperBound": 0.8,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 50110,
-  "name": "可被维修目标·监控自身血量",
-  "init_effect": "",
   "id": 50110,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

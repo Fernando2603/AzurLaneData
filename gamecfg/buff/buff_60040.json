@@ -1,4 +1,9 @@
 {
+  "name": "测试-随机技能-缩小射线",
+  "picture": "",
+  "desc": "缩小射线",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +11,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 15,
-        "skill_id": 60022
+        "skill_id": 60022,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "缩小射线",
-  "picture": "",
+  "last_effect": "",
   "icon": 60040,
-  "name": "测试-随机技能-缩小射线",
-  "init_effect": "",
   "id": 60040,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

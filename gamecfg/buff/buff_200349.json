@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023英系活动 剧情战1 定时触发弹幕",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,10 +11,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200348,
         "quota": 1,
-        "time": 22
+        "time": 22,
+        "target": "TargetSelf"
       }
     },
     {
@@ -19,10 +23,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 200349,
         "quota": 1,
-        "time": 24
+        "time": 24,
+        "target": "TargetSelf"
       }
     },
     {
@@ -31,20 +35,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHarm",
+        "quota": 1,
         "buff_id": 200350,
         "time": 26,
-        "quota": 1
+        "target": "TargetAllHarm"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200349,
-  "name": "2023英系活动 剧情战1 定时触发弹幕",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200349,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

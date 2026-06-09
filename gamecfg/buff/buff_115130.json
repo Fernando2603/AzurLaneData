@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -16,9 +20,9 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "CRI_TAG_EHC_stuned",
-        "bulletID": 180016
+        "bulletID": 180016,
+        "number": 1
       }
     },
     {
@@ -27,26 +31,22 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
         "attr": "CRI_TAG_EHC_stuned",
-        "bulletID": 180017
+        "bulletID": 180017,
+        "number": 1
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 115130,
+  "color": "yellow",
+  "id": 115130,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 115130,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 115130,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -28,15 +32,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112153,
         "ship_tag_list": [
           "Yumia_Skill2_NO_Plus"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 112153,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -46,25 +50,21 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 112154,
         "ship_tag_list": [
           "Yumia_Skill2_Plus"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 112154,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 112110,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 112154,
-  "stack": 10,
-  "time": 1,
-  "last_effect": ""
+  "stack": 10
 }

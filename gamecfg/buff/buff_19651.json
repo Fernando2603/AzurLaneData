@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "主炮每进行8次攻击，触发弹幕",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,11 +11,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 8,
         "index": [
           1
         ],
-        "countType": 19650,
-        "countTarget": 8
+        "countType": 19650
       }
     },
     {
@@ -20,11 +24,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 16,
         "index": [
           1
         ],
-        "countType": 19651,
-        "countTarget": 16
+        "countType": 19651
       }
     },
     {
@@ -33,9 +37,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 19651,
         "countType": 19650,
-        "skill_id": 19651
+        "target": "TargetSelf"
       }
     },
     {
@@ -44,10 +48,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 19650,
         "quota": 1,
-        "skill_id": 19653
+        "skill_id": 19653,
+        "target": "TargetSelf"
       }
     },
     {
@@ -56,20 +60,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 19651,
         "quota": 1,
-        "skill_id": 19654
+        "skill_id": 19654,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行8次攻击，触发弹幕",
-  "picture": "",
+  "last_effect": "",
   "icon": 19650,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 19651,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

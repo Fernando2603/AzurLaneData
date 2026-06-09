@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 150260,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 150260
       }
     },
     {
@@ -27,21 +28,20 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "weaponType": 23,
         "buff_id": 150263,
         "index": [
           1
-        ]
+        ],
+        "weaponType": 23
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 150260,
-  "name": "",
-  "init_effect": "",
-  "id": 150260,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 150260,
+  "id": 150260,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

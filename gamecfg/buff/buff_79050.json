@@ -1,43 +1,43 @@
 {
+  "name": "濒死护盾",
+  "picture": "",
+  "desc": "战斗对象的血量下降到X%时，生成一个永久存在的护盾",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield03",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 0, 0)\nend",
         "count": 120,
         "do_when_hit": "reflect",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\tlocal var_1_0 = arg_1_0 * 3\n\n\treturn Vector3(3, 0.75, 0)\nend,",
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               40
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 0, 0)\nend"
+        "effect": "shield03"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     }
   ],
-  "desc": "战斗对象的血量下降到X%时，生成一个永久存在的护盾",
-  "picture": "",
+  "last_effect": "",
   "icon": 73800,
-  "name": "濒死护盾",
-  "init_effect": "",
   "id": 79050,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

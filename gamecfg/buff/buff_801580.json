@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -27,12 +28,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 801580,
         "maxTargetNumber": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetPlayerVanguardFleet"
-        ]
+        ],
+        "skill_id": 801580
       }
     },
     {
@@ -41,20 +42,19 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "quota": 1,
         "skill_id": 801581,
         "hpUpperBound": 0.25,
-        "quota": 1,
         "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 801580,
-  "name": "",
-  "init_effect": "",
-  "id": 801580,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 801580,
+  "id": 801580,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

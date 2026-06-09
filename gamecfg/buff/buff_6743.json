@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "开拓者勋章",
+  "picture": "",
+  "desc": "造成伤害降低",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +11,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.1
       }
     }
   ],
-  "desc": "造成伤害降低",
-  "picture": "",
+  "last_effect": "",
   "icon": 6743,
-  "name": "开拓者勋章",
-  "init_effect": "",
+  "color": "red",
   "id": 6743,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

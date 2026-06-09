@@ -1,17 +1,22 @@
 {
+  "name": "2022武藏活动 日蚀 战斗中画面变暗，敌我双方所有战舰主炮散布范围提高，炮击提高",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "field_darkSTG",
   "effect_list": [
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHarm",
-          "TargetShipType"
-        ],
-        "buff_id": 200069,
         "ship_type_list": [
           4,
           5
+        ],
+        "buff_id": 200069,
+        "target": [
+          "TargetAllHarm",
+          "TargetShipType"
         ]
       }
     },
@@ -19,24 +24,19 @@
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipType"
-        ],
-        "buff_id": 200069,
         "ship_type_list": [
           4,
           5
+        ],
+        "buff_id": 200069,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
         ]
       }
     }
   ],
-  "desc": "",
+  "last_effect": "",
   "id": 200068,
-  "name": "2022武藏活动 日蚀 战斗中画面变暗，敌我双方所有战舰主炮散布范围提高，炮击提高",
-  "init_effect": "field_darkSTG",
-  "picture": "",
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

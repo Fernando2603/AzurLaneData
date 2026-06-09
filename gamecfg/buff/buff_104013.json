@@ -1,4 +1,9 @@
 {
+  "name": "爱碳光波-II",
+  "picture": "",
+  "desc": "敌方属性下降4%",
+  "time": 10,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -400,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -400
       }
     },
     {
@@ -18,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -400,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -400
       }
     },
     {
@@ -29,18 +34,13 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -400,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": -400
       }
     }
   ],
-  "desc": "敌方属性下降4%",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 104010,
-  "name": "爱碳光波-II",
-  "init_effect": "",
   "id": 104013,
-  "stack": 1,
-  "time": 10,
-  "last_effect": "Darkness"
+  "stack": 1
 }

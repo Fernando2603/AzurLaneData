@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "战斗开始30秒后触发游刃有余效果，随后每15秒触发1次，最多可叠加5次",
+  "name": "游刃有余",
+  "picture": "",
   "desc": "战斗开始30秒后触发游刃有余效果，随后每15秒触发1次，最多可叠加5次",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "战斗开始30秒后触发游刃有余效果，随后每15秒触发1次，最多可叠加5次",
   "effect_list": [
     {
       "trigger": [
@@ -9,9 +12,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 30,
-        "skill_id": 42
+        "skill_id": 42,
+        "target": "TargetSelf"
       }
     },
     {
@@ -25,12 +28,9 @@
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 42,
-  "name": "游刃有余",
-  "init_effect": "",
+  "color": "red",
   "id": 42,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

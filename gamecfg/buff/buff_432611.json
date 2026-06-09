@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "战列-战术-装填I具体效果",
+  "picture": "",
+  "desc": "战列-战术-装填I",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,19 +11,15 @@
       ],
       "type": "BattleBuffAddAttrRatioCommander",
       "arg_list": {
+        "convertAttr": "loadSpeed",
         "convertRate": 0.4,
-        "ability": "tactic",
-        "convertAttr": "loadSpeed"
+        "ability": "tactic"
       }
     }
   ],
-  "desc": "战列-战术-装填I",
-  "picture": "",
+  "last_effect": "",
   "icon": 432611,
-  "name": "战列-战术-装填I具体效果",
-  "init_effect": "",
+  "color": "yellow",
   "id": 432611,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

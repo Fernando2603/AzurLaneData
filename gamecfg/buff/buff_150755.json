@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,16 +12,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "fulici60"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 150753,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 150753,
-        "ship_tag_list": [
-          "fulici60"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -26,26 +31,21 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 150754,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 150754,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "fulici60"
         ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 150750,
-  "name": "",
-  "init_effect": "",
   "id": 150755,
-  "stack": 99,
-  "time": 3,
-  "last_effect": "Darkness"
+  "stack": 99
 }

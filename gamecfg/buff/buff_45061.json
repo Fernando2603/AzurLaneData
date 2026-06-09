@@ -1,4 +1,9 @@
 {
+  "name": "指挥喵天赋-水雷魂",
+  "picture": "",
+  "desc": "舰种属于先锋舰队，则鱼雷暴击率提高3%",
+  "time": 0,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -7,21 +12,16 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 0.03,
         "attr": "cri",
         "index": [
           2
-        ]
+        ],
+        "number": 0.03
       }
     }
   ],
-  "desc": "舰种属于先锋舰队，则鱼雷暴击率提高3%",
-  "picture": "",
+  "last_effect": "",
   "icon": 45060,
-  "name": "指挥喵天赋-水雷魂",
-  "init_effect": "jinengchufared",
   "id": 45061,
-  "stack": 2,
-  "time": 0,
-  "last_effect": ""
+  "stack": 2
 }

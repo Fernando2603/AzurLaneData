@@ -9,45 +9,45 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend",
         "count": 6,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(3, -1.8, 0.5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              0,
-              0,
-              0
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              0,
+              0,
+              0
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 14478,
-  "name": "",
-  "init_effect": "",
-  "id": 14478,
-  "stack": 1,
   "time": 8,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 14478,
+  "id": 14478,
+  "color": "blue",
+  "stack": 1,
+  "desc": ""
 }

@@ -1,4 +1,9 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "属性提升",
+  "time": 5,
+  "init_effect": "jinengchufared",
   "effect_list": [
     {
       "trigger": [
@@ -30,7 +35,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           16560,
           16561
@@ -44,7 +48,8 @@
             0.5,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -68,20 +73,15 @@
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 16560,
+  "id": 16565,
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "属性提升",
-  "picture": "",
-  "icon": 16560,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 16565,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  ]
 }

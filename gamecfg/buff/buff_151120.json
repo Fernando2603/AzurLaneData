@@ -9,13 +9,14 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 151121,
-        "quota": 1
+        "quota": 1,
+        "target": "TargetSelf"
       },
       "trigger": [
         "onStartGame"
@@ -29,8 +30,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151120,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 151120
       }
     },
     {
@@ -40,13 +41,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 151121,
         "target": "TargetSelf",
+        "quota": 1,
         "hpUpperBound": 0.9,
-        "quota": 1,
         "check_target": [
           "TargetSelf"
-        ],
-        "skill_id": 151121
+        ]
       }
     },
     {
@@ -56,13 +57,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 151121,
         "target": "TargetSelf",
+        "quota": 1,
         "hpUpperBound": 0.8,
-        "quota": 1,
         "check_target": [
           "TargetSelf"
-        ],
-        "skill_id": 151121
+        ]
       }
     },
     {
@@ -72,23 +73,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 151121,
         "target": "TargetSelf",
-        "hpUpperBound": 0.7,
         "quota": 1,
+        "hpUpperBound": 0.7,
         "check_target": [
           "TargetSelf"
-        ],
-        "skill_id": 151121
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 151120,
-  "name": "",
-  "init_effect": "",
-  "id": 151120,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 151120,
+  "id": 151120,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

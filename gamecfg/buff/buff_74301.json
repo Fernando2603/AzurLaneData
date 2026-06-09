@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "干涉",
+  "picture": "",
+  "desc": "战斗对象对我方舰队造成X次伤害后，下一次伤害会导致我方舰队速度降低X%，持续Y秒",
+  "time": 8,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 5,
-        "countType": 74301
+        "countType": 74301,
+        "countTarget": 5
       }
     },
     {
@@ -18,19 +22,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 74303,
-        "countType": 74301
+        "countType": 74301,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "战斗对象对我方舰队造成X次伤害后，下一次伤害会导致我方舰队速度降低X%，持续Y秒",
-  "picture": "",
+  "last_effect": "",
   "icon": 74300,
-  "name": "干涉",
-  "init_effect": "",
+  "color": "red",
   "id": 74301,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  "stack": 1
 }

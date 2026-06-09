@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,11 +9,11 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "countTarget": 24,
         "index": [
           1
         ],
-        "countType": 29380,
-        "countTarget": 24
+        "countType": 29380
       }
     },
     {
@@ -21,19 +22,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 29381,
         "countType": 29380,
-        "skill_id": 29381
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行24次攻击，触发专属弹幕-北风I",
-  "picture": "",
-  "icon": 29380,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 29381,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 29380,
+  "id": 29381,
+  "color": "red",
+  "stack": 1,
+  "desc": "主炮每进行24次攻击，触发专属弹幕-北风I"
 }

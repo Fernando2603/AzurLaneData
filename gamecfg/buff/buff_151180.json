@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "TrinidadTarget"
+        ],
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "skill_id": 151180,
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "TrinidadTarget"
-        ]
+        "skill_id": 151180
       }
     },
     {
@@ -51,14 +52,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151180,
   "id": 151180,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

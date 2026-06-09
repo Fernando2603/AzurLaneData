@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023北联SP 剧情战1 画面变暗",
+  "picture": "",
+  "desc": "",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,26 +11,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "Sovetsky Soyuz-Class"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 200390,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 200390,
-        "ship_tag_list": [
-          "Sovetsky Soyuz-Class"
-        ]
+        "target": "TargetShipTag"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200387,
-  "name": "2023北联SP 剧情战1 画面变暗",
-  "init_effect": "",
+  "color": "blue",
   "id": 200387,
-  "stack": 1,
-  "time": 5,
-  "last_effect": ""
+  "stack": 1
 }

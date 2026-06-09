@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "恶毒2",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -9,19 +12,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 12331,
         "quota": 9,
-        "time": 2
+        "time": 2,
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 12330,
-  "name": "恶毒2",
-  "init_effect": "",
+  "color": "red",
   "id": 12332,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

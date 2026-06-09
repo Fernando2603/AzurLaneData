@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,7 +18,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           151115,
           151111,
@@ -41,17 +41,17 @@
             0.75,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "战斗中，每12秒触发一种研发中的特殊装备$1，特殊装备的效果随技能等级提高",
-  "picture": "",
-  "icon": 151110,
-  "name": "",
-  "init_effect": "",
-  "id": 151111,
-  "stack": 1,
   "time": 9,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 151110,
+  "id": 151111,
+  "color": "red",
+  "stack": 1,
+  "desc": "战斗中，每12秒触发一种研发中的特殊装备$1，特殊装备的效果随技能等级提高"
 }

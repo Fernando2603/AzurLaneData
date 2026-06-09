@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "六驱精锐·{namecode:12} +",
+  "picture": "",
   "desc": "",
+  "time": 1,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,7 +13,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           1012915,
           1012916
@@ -24,16 +26,14 @@
             0.06,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 12910,
-  "name": "六驱精锐·{namecode:12} +",
-  "init_effect": "",
+  "color": "red",
   "id": 1012917,
-  "stack": 99,
-  "time": 1,
-  "last_effect": ""
+  "stack": 99
 }

@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "blue",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -29,8 +30,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 3,
-        "countType": 151011
+        "countType": 151011,
+        "countTarget": 3
       }
     },
     {
@@ -39,20 +40,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "countType": 151011,
         "buff_id": 151014,
         "quota": 1,
-        "countType": 151011
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 151010,
-  "name": "",
-  "init_effect": "",
-  "id": 151015,
-  "stack": 3,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 151010,
+  "id": 151015,
+  "color": "blue",
+  "stack": 3,
+  "desc": ""
 }

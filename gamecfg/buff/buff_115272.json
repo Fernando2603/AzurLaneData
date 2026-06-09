@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,17 +19,17 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "kuangsanfenshen2"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 115273,
         "check_target": [
           "TargetEntityUnit",
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 115273,
-        "ship_tag_list": [
-          "kuangsanfenshen2"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -38,32 +39,31 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
+        "fleetAttrConsume": {
+          "repeatCeil": 1,
+          "value": 5,
+          "attrName": "kuangsanshijian"
+        },
         "target": "TargetSelf",
+        "ship_tag_list": [
+          "kuangsanfenshen2"
+        ],
         "check_target": [
           "TargetEntityUnit",
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "skill_id": 115271,
-        "fleetAttrConsume": {
-          "value": 5,
-          "attrName": "kuangsanshijian",
-          "repeatCeil": 1
-        },
-        "maxTargetNumber": 0,
-        "ship_tag_list": [
-          "kuangsanfenshen2"
-        ]
+        "skill_id": 115271
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 115150,
-  "name": "",
-  "init_effect": "",
-  "id": 115272,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 115150,
+  "id": 115272,
+  "color": "yellow",
+  "stack": 1,
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023伊丽莎白meta 亚空间人形 免疫非meta攻击 死亡触发层数积累",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,8 +12,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 10000,
-        "attr": "igniteReduce"
+        "attr": "igniteReduce",
+        "number": 10000
       }
     },
     {
@@ -19,8 +23,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -1,
-        "attr": "hammerDamageRatio"
+        "attr": "hammerDamageRatio",
+        "number": -1
       }
     },
     {
@@ -30,81 +34,81 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "hammerDamagePrevent"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "number": -1,
-        "attr": "DMG_FROM_TAG_1_notmeta"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "number": -1,
-        "attr": "DMG_FROM_TAG_2_notmeta"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "number": -1,
-        "attr": "DMG_FROM_TAG_3_notmeta"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "number": -1,
-        "attr": "DMG_FROM_TAG_4_notmeta"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "number": -1,
-        "attr": "DMG_FROM_TAG_5_notmeta"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "group": 1,
-        "attr": "immuneAreaLimit",
+        "attr": "hammerDamagePrevent",
         "number": 1
       }
     },
     {
       "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "attr": "DMG_FROM_TAG_1_notmeta",
+        "number": -1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "attr": "DMG_FROM_TAG_2_notmeta",
+        "number": -1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "attr": "DMG_FROM_TAG_3_notmeta",
+        "number": -1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "attr": "DMG_FROM_TAG_4_notmeta",
+        "number": -1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "attr": "DMG_FROM_TAG_5_notmeta",
+        "number": -1
+      }
+    },
+    {
+      "trigger": [
         "onAttach",
         "onRemove"
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
+        "attr": "immuneAreaLimit",
         "number": 1,
-        "attr": "immuneMaxAreaLimit"
+        "group": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "attr": "immuneMaxAreaLimit",
+        "number": 1
       }
     },
     {
@@ -113,9 +117,9 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200362,
-        "hpUpperBound": 0.01
+        "hpUpperBound": 0.01,
+        "target": "TargetSelf"
       }
     },
     {
@@ -129,13 +133,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200360,
-  "name": "2023伊丽莎白meta 亚空间人形 免疫非meta攻击 死亡触发层数积累",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200360,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

@@ -1,4 +1,9 @@
 {
+  "name": "茶歇",
+  "picture": "",
+  "desc": "标记",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,15 +11,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60334,
         "ship_tag_list": [
           "QE"
         ],
-        "minTargetNumber": 1,
+        "skill_id": 60334,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     },
     {
@@ -28,13 +33,8 @@
       }
     }
   ],
-  "desc": "标记",
-  "picture": "",
+  "last_effect": "",
   "icon": 60330,
-  "name": "茶歇",
-  "init_effect": "",
   "id": 60331,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

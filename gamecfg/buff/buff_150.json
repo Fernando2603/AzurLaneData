@@ -1,5 +1,6 @@
 {
   "1": {
+    "desc": "中型/重型主炮开火时有几率发动，额外进行一轮攻击",
     "effect_list": [
       {
         "trigger": [
@@ -7,23 +8,22 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "target": "TargetSelf",
-          "buff_id": 151,
           "time": 1,
-          "rant": 10000
+          "buff_id": 151,
+          "rant": 10000,
+          "target": "TargetSelf"
         }
       }
-    ],
-    "desc": "中型/重型主炮开火时有几率发动，额外进行一轮攻击"
+    ]
   },
-  "effect_list": [],
-  "desc": "重型主炮开火时有几率发动，额外进行3轮攻击",
-  "picture": "",
-  "icon": 1,
   "name": "主炮连射",
+  "picture": "",
+  "effect_list": [],
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 1,
   "id": 150,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": "重型主炮开火时有几率发动，额外进行3轮攻击"
 }

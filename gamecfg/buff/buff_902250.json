@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "飓风的复苏",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,8 +11,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.2,
-        "attr": "injureRatioByAir"
+        "attr": "injureRatioByAir",
+        "number": -0.2
       }
     },
     {
@@ -17,20 +21,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id": 902251,
         "quota": 1,
-        "time": 40
+        "time": 40,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 902250,
-  "name": "飓风的复苏",
-  "init_effect": "",
+  "color": "blue",
   "id": 902250,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

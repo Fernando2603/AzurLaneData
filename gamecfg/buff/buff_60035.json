@@ -1,4 +1,9 @@
 {
+  "name": "测试-萤火虫-幽灵召唤",
+  "picture": "",
+  "desc": "召唤一个幽灵",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,18 +11,13 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 60020,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 60020
       }
     }
   ],
-  "desc": "召唤一个幽灵",
-  "picture": "",
+  "last_effect": "lingxing",
   "icon": 60035,
-  "name": "测试-萤火虫-幽灵召唤",
-  "init_effect": "",
   "id": 60035,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "lingxing"
+  "stack": 1
 }

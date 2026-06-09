@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.1,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 0.1
       }
     },
     {
@@ -27,25 +28,24 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 0.08,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": 0.08
       }
     }
   ],
+  "time": 0,
+  "init_effect": "jinengchufared",
+  "last_effect": "",
+  "icon": 150220,
+  "id": 150222,
+  "stack": 1,
+  "color": "red",
+  "desc": "",
   "blink": [
     1,
     0,
     0,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 150220,
-  "name": "",
-  "init_effect": "jinengchufared",
-  "id": 150222,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

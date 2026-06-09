@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "arg_list": {
@@ -27,12 +28,12 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "weaponType": 2,
+        "rant": 10000,
         "buff_id": 801532,
         "index": [
           1
         ],
-        "rant": 10000
+        "weaponType": 2
       }
     },
     {
@@ -41,18 +42,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 801530,
-        "time": 20
+        "time": 20,
+        "skill_id": 801530
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 801530,
-  "name": "",
-  "init_effect": "",
-  "id": 801530,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 801530,
+  "id": 801530,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

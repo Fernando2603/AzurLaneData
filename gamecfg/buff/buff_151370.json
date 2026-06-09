@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "狼群战术-U552",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,14 +21,14 @@
         "ship_type_list": [
           8
         ],
+        "minTargetNumber": 1,
         "check_target": [
           "TargetNationalityFriendly",
           "TargetShipTypeFriendly"
         ],
-        "minTargetNumber": 1,
         "buff_id": 151371,
-        "nationality": 4,
-        "isBuffStackByCheckTarget": true
+        "isBuffStackByCheckTarget": true,
+        "nationality": 4
       }
     },
     {
@@ -36,19 +37,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 151370,
-        "quota": 1
+        "quota": 1,
+        "skill_id": 151370
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 151370,
   "id": 151370,
-  "name": "狼群战术-U552",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

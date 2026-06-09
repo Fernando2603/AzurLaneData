@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,16 +18,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
+        "ship_tag_list": [
+          "BB56SPweapon"
+        ],
+        "minTargetNumber": 1,
+        "buff_id": 11007,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "buff_id": 11007,
-        "ship_tag_list": [
-          "BB56SPweapon"
-        ]
+        "target": "TargetSelf"
       }
     },
     {
@@ -35,13 +36,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "maxTargetNumber": 0,
         "target": "TargetSelf",
+        "buff_id": 1011007,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "buff_id": 1011007,
-        "maxTargetNumber": 0,
         "ship_tag_list": [
           "BB56SPweapon"
         ]
@@ -59,13 +60,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 11000,
-  "name": "",
-  "init_effect": "",
-  "id": 1011005,
-  "stack": 1,
   "time": 1,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 11000,
+  "id": 1011005,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

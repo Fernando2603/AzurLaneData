@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "yellow",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,104 +18,104 @@
       ],
       "type": "BattleBuffAura",
       "arg_list": {
+        "friendly_fire": true,
+        "buff_id": 150391,
         "cld_data": {
           "box": {
             "range": 16
           }
-        },
-        "buff_id": 150391,
-        "friendly_fire": true
+        }
       }
     },
     {
       "arg_list": {
-        "effect": "shield06",
-        "count": 6,
         "attack_attribute": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, arg_2_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend",
+        "count": 6,
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
         "damage": 10,
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\tlocal var_1_0 = arg_1_0 * 3\n\n\treturn Vector3(math.sin(var_1_0) * 4, 0.75, math.cos(var_1_0) * 4)\nend,",
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, arg_2_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)\nend"
+        "effect": "shield06"
       },
-      "id": 1,
-      "type": "BattleBuffDamageWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffDamageWall",
+      "id": 1
     },
     {
       "arg_list": {
-        "effect": "shield06",
-        "count": 6,
         "attack_attribute": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, arg_4_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 234, 0)\nend",
+        "count": 6,
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
         "damage": 10,
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_3_0)\n\tlocal var_3_0 = arg_3_0 * 3 + 2.512\n\n\treturn Vector3(math.sin(var_3_0) * 4, 0.75, math.cos(var_3_0) * 4)\nend,",
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_4_0)\n\treturn Vector3(0, arg_4_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 234, 0)\nend"
+        "effect": "shield06"
       },
-      "id": 2,
-      "type": "BattleBuffDamageWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffDamageWall",
+      "id": 2
     },
     {
       "arg_list": {
-        "effect": "shield06",
-        "count": 6,
         "attack_attribute": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_6_0)\n\treturn Vector3(0, arg_6_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 54, 0)\nend",
+        "count": 6,
         "cld_list": [
           {
-            "offset": [
-              1.02,
-              0,
-              1.22
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              1.02,
+              0,
+              1.22
             ]
           }
         ],
         "damage": 10,
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_5_0)\n\tlocal var_5_0 = arg_5_0 * 3 - 2.512\n\n\treturn Vector3(math.sin(var_5_0) * 4, 0.75, math.cos(var_5_0) * 4)\nend,",
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_6_0)\n\treturn Vector3(0, arg_6_0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 54, 0)\nend"
+        "effect": "shield06"
       },
-      "id": 3,
-      "type": "BattleBuffDamageWall",
       "trigger": [
         "onStack",
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffDamageWall",
+      "id": 3
     },
     {
       "trigger": [
@@ -122,17 +123,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
+        "skill_id": 150273,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "fagebujixiang2"
+        ],
         "quota": 1,
         "check_target": [
           "TargetAllHelp",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "fagebujixiang2"
-        ],
-        "skill_id": 150273
+        "target": "TargetSelf"
       }
     },
     {
@@ -145,14 +146,13 @@
       }
     }
   ],
-  "desc": "",
+  "time": 15,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 150270,
   "id": 150390,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "yellow",
   "stack": 1,
-  "time": 15,
-  "last_effect": ""
+  "desc": ""
 }

@@ -7,9 +7,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 0.3,
-          "skill_id": 600175
+          "skill_id": 600175,
+          "target": "TargetSelf"
         }
       },
       {
@@ -18,13 +18,13 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "target": [
-            "TargetAllHelp",
-            "TargetShipTag"
-          ],
           "buff_id": 600173,
           "ship_tag_list": [
             "baiyangzuo"
+          ],
+          "target": [
+            "TargetAllHelp",
+            "TargetShipTag"
           ]
         }
       },
@@ -47,9 +47,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 0.3,
-          "skill_id": 600174
+          "skill_id": 600174,
+          "target": "TargetSelf"
         }
       },
       {
@@ -58,13 +58,13 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "target": [
-            "TargetAllHelp",
-            "TargetShipTag"
-          ],
           "buff_id": 600173,
           "ship_tag_list": [
             "baiyangzuo"
+          ],
+          "target": [
+            "TargetAllHelp",
+            "TargetShipTag"
           ]
         }
       },
@@ -87,9 +87,9 @@
         ],
         "type": "BattleBuffCastSkill",
         "arg_list": {
-          "target": "TargetSelf",
           "time": 0.3,
-          "skill_id": 600173
+          "skill_id": 600173,
+          "target": "TargetSelf"
         }
       },
       {
@@ -98,13 +98,13 @@
         ],
         "type": "BattleBuffAddBuff",
         "arg_list": {
-          "target": [
-            "TargetAllHelp",
-            "TargetShipTag"
-          ],
           "buff_id": 600173,
           "ship_tag_list": [
             "baiyangzuo"
+          ],
+          "target": [
+            "TargetAllHelp",
+            "TargetShipTag"
           ]
         }
       },
@@ -126,6 +126,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -133,9 +135,9 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "time": 0.3,
-        "skill_id": 600173
+        "skill_id": 600173,
+        "target": "TargetSelf"
       }
     },
     {
@@ -144,13 +146,13 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipTag"
-        ],
         "buff_id": 600173,
         "ship_tag_list": [
           "baiyangzuo"
+        ],
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ]
       }
     },
@@ -164,13 +166,11 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 600172,
-  "name": "",
+  "time": 0,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 600172,
   "id": 600172,
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

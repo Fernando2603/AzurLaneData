@@ -1,33 +1,38 @@
 {
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 8,
+  "init_effect": "jinengchufablue",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend",
         "count": 6,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(3, -1.8, 0.5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              0,
-              0,
-              0
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              0,
+              0,
+              0
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     },
     {
       "trigger": [
@@ -36,25 +41,20 @@
       ],
       "type": "BattleBuffFixVelocity",
       "arg_list": {
-        "mul": 0,
-        "add": 5
+        "add": 5,
+        "mul": 0
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 14862,
+  "id": 14862,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "",
-  "picture": "",
-  "icon": 14862,
-  "name": "",
-  "init_effect": "jinengchufablue",
-  "id": 14862,
-  "stack": 1,
-  "time": 8,
-  "last_effect": ""
+  ]
 }

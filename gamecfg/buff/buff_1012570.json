@@ -149,7 +149,8 @@
       ]
     }
   },
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -157,12 +158,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "check_weapon": true,
         "skill_id": 1012570,
+        "minWeaponNumber": 1,
         "label": [
           "HMS"
-        ],
-        "minWeaponNumber": 1,
-        "check_weapon": true
+        ]
       }
     },
     {
@@ -175,13 +176,12 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 12570,
-  "name": "",
-  "init_effect": "",
-  "id": 1012570,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 12570,
+  "id": 1012570,
+  "color": "red",
+  "stack": 1,
+  "desc": ""
 }

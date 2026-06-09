@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "玉米灯笼",
+  "picture": "",
+  "desc": "受到伤害下降",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,25 +11,21 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.04,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -0.04
       }
     }
   ],
+  "stack": 1,
+  "last_effect": "",
+  "icon": 6511,
+  "color": "red",
+  "id": 6511,
   "blink": [
     0,
     0.7,
     1,
     0.3,
     0.3
-  ],
-  "desc": "受到伤害下降",
-  "picture": "",
-  "icon": 6511,
-  "name": "玉米灯笼",
-  "init_effect": "",
-  "id": 6511,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  ]
 }

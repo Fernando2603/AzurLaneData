@@ -1,5 +1,9 @@
 {
-  "color": "red",
+  "name": "",
+  "picture": "",
+  "desc": "",
+  "time": 25,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,17 +11,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 60180,
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "RyzaBoost"
+        ],
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "RyzaBoost"
-        ],
-        "time": 20,
-        "skill_id": 60180
+        "time": 20
       }
     },
     {
@@ -26,16 +30,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "maxTargetNumber": 0,
+        "ship_tag_list": [
+          "RyzaBoost"
+        ],
+        "skill_id": 60181,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "skill_id": 60181,
-        "ship_tag_list": [
-          "RyzaBoost"
-        ],
-        "maxTargetNumber": 0,
         "time": 20
       }
     },
@@ -49,13 +53,9 @@
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 60180,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 60181,
-  "stack": 1,
-  "time": 25,
-  "last_effect": ""
+  "stack": 1
 }

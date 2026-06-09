@@ -1,4 +1,9 @@
 {
+  "name": "敌方指挥舰指挥技能——减伤",
+  "picture": "",
+  "desc": "指挥技能——减伤",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -1,
-        "attr": "injureRatio"
+        "attr": "injureRatio",
+        "number": -1
       }
     }
   ],
-  "desc": "指挥技能——减伤",
-  "picture": "",
+  "last_effect": "",
   "icon": 50310,
-  "name": "敌方指挥舰指挥技能——减伤",
-  "init_effect": "",
   "id": 50311,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

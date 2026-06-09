@@ -1,4 +1,9 @@
 {
+  "name": "南达科他伤害减免",
+  "picture": "",
+  "desc": "测试-伤害减免",
+  "time": 7,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,19 +13,14 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "group": 60024,
         "attr": "injureRatio",
-        "number": -0.15
+        "number": -0.15,
+        "group": 60024
       }
     }
   ],
-  "desc": "测试-伤害减免",
-  "picture": "",
+  "last_effect": "Shield",
   "icon": 60024,
-  "name": "南达科他伤害减免",
-  "init_effect": "",
   "id": 60024,
-  "stack": 3,
-  "time": 7,
-  "last_effect": "Shield"
+  "stack": 3
 }

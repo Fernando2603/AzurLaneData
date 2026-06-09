@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "尽职守护",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -24,29 +25,28 @@
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 12201,
-        "shipType": 4
+        "shipType": 4,
+        "target": "TargetPlayerByType"
       }
     },
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetPlayerByType",
         "buff_id": 12201,
-        "shipType": 5
+        "shipType": 5,
+        "target": "TargetPlayerByType"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 12200,
   "id": 12200,
-  "name": "尽职守护",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,7 +1,10 @@
 {
-  "color": "red",
-  "desc_get": "",
+  "name": "",
+  "picture": "",
   "desc": "",
+  "time": 0,
+  "init_effect": "",
+  "desc_get": "",
   "effect_list": [
     {
       "trigger": [
@@ -10,9 +13,9 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "inside": 1,
+        "countTarget": 4,
         "countType": 151830,
-        "countTarget": 4
+        "inside": 1
       }
     },
     {
@@ -22,8 +25,6 @@
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
         "target": "TargetSelf",
-        "quota": 1,
-        "countType": 151830,
         "range": [
           [
             0,
@@ -42,21 +43,20 @@
             1
           ]
         ],
+        "quota": 1,
         "skill_id_list": [
           151831,
           151832,
           151833,
           151834
-        ]
+        ],
+        "countType": 151830
       }
     }
   ],
-  "picture": "",
+  "last_effect": "",
   "icon": 151830,
-  "name": "",
-  "init_effect": "",
+  "color": "red",
   "id": 151832,
-  "stack": 5,
-  "time": 0,
-  "last_effect": ""
+  "stack": 5
 }

@@ -9,6 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
+  "name": "random",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,7 +18,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           11621,
           11622,
@@ -35,17 +36,16 @@
             0.66,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
-  "icon": 11620,
-  "name": "random",
+  "time": 6,
   "init_effect": "",
+  "last_effect": "",
+  "icon": 11620,
   "id": 11621,
   "stack": 1,
-  "time": 6,
-  "last_effect": ""
+  "desc": ""
 }

@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2023英系活动 信仰加护-Royal",
+  "picture": "",
+  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,14 +11,14 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "minTargetNumber": 1,
         "check_target": [
           "TargetSelf",
           "TargetNationalityFriendly"
         ],
-        "minTargetNumber": 1,
         "buff_id": 200339,
-        "nationality": 2,
-        "isBuffStackByCheckTarget": true
+        "isBuffStackByCheckTarget": true,
+        "nationality": 2
       }
     },
     {
@@ -23,16 +27,16 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 200339,
         "ship_tag_list": [
           "HunterMETA"
         ],
-        "isBuffStackByCheckTarget": true
+        "minTargetNumber": 1,
+        "buff_id": 200339,
+        "isBuffStackByCheckTarget": true,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
       }
     },
     {
@@ -41,26 +45,22 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "minTargetNumber": 1,
-        "buff_id": 200339,
         "ship_tag_list": [
           "Sheffield.META"
         ],
-        "isBuffStackByCheckTarget": true
+        "minTargetNumber": 1,
+        "buff_id": 200339,
+        "isBuffStackByCheckTarget": true,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ]
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200338,
-  "name": "2023英系活动 信仰加护-Royal",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200338,
-  "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "stack": 1
 }

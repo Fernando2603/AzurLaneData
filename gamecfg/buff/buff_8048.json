@@ -1,42 +1,42 @@
 {
+  "name": "正面装甲",
+  "picture": "",
+  "desc": "正面装甲",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "arg_list": {
-        "effect": "shield02",
+        "bulletType": 1,
+        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend",
         "count": 30,
         "do_when_hit": "intercept",
         "centerPosFun": "-- lua function:\ncenterPosFun = function(arg_1_0)\n\treturn Vector3(4, 1.15, 0.5)\nend,",
         "cld_list": [
           {
-            "offset": [
-              0,
-              0,
-              0
-            ],
             "box": [
               4,
               6,
               9
+            ],
+            "offset": [
+              0,
+              0,
+              0
             ]
           }
         ],
-        "bulletType": 1,
-        "rotationFun": "-- lua function:\nrotationFun = function(arg_2_0)\n\treturn Vector3(0, 192, 0)\nend"
+        "effect": "shield02"
       },
-      "id": 1,
-      "type": "BattleBuffShieldWall",
       "trigger": [
         "onUpdate"
-      ]
+      ],
+      "type": "BattleBuffShieldWall",
+      "id": 1
     }
   ],
-  "desc": "正面装甲",
-  "picture": "",
+  "last_effect": "",
   "icon": 8048,
-  "name": "正面装甲",
-  "init_effect": "",
   "id": 8048,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

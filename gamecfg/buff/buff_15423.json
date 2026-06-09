@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -17,8 +18,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 15422,
-        "quota": 1
+        "quota": 1,
+        "skill_id": 15422
       }
     },
     {
@@ -27,27 +28,26 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 15423,
+        "minTargetNumber": 1,
         "quota": 1,
         "check_target": [
           "TargetSelf",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
         "ship_tag_list": [
           "Seydlitz"
-        ],
-        "skill_id": 15423
+        ]
       }
     }
   ],
-  "desc": "",
+  "time": 3,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 15423,
   "id": 15423,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 1,
-  "time": 3,
-  "last_effect": ""
+  "desc": ""
 }

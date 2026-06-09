@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -29,8 +30,8 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 10,
-        "countType": 16720
+        "countType": 16720,
+        "countTarget": 10
       }
     },
     {
@@ -39,10 +40,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 16720,
         "quota": 1,
-        "skill_id": 16720
+        "skill_id": 16720,
+        "target": "TargetSelf"
       }
     },
     {
@@ -51,29 +52,28 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 16722,
+        "ship_tag_list": [
+          "leigensibao"
+        ],
+        "minTargetNumber": 1,
         "target": "TargetSelf",
         "quota": 1,
         "check_target": [
           "TargetAllHarm",
           "TargetShipTag"
         ],
-        "minTargetNumber": 1,
-        "countType": 16720,
-        "ship_tag_list": [
-          "leigensibao"
-        ],
-        "skill_id": 16722
+        "countType": 16720
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 16722,
   "id": 16722,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 10,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

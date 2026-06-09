@@ -1,4 +1,9 @@
 {
+  "name": "威压",
+  "picture": "",
+  "desc": "伤害降低",
+  "time": 5,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,18 +12,13 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.05,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.05
       }
     }
   ],
-  "desc": "伤害降低",
-  "picture": "",
+  "last_effect": "Darkness",
   "icon": 110370,
-  "name": "威压",
-  "init_effect": "",
   "id": 110371,
-  "stack": 1,
-  "time": 5,
-  "last_effect": "Darkness"
+  "stack": 1
 }

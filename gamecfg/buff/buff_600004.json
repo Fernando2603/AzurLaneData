@@ -9,7 +9,8 @@
   "8": [],
   "9": [],
   "10": [],
-  "color": "red",
+  "name": "",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,15 +19,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 600005,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "huifu3"
         ],
-        "skill_id": 600005
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -36,15 +37,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 600004,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "huifu2"
         ],
-        "skill_id": 600004
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     },
     {
@@ -54,26 +55,25 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetShipTag"
-        ],
+        "skill_id": 600003,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "huifu1"
         ],
-        "skill_id": 600003
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "desc_get": "",
+  "last_effect": "",
   "icon": 600004,
   "id": 600004,
-  "name": "",
-  "init_effect": "",
-  "picture": "",
+  "color": "red",
   "stack": 999,
-  "time": 0,
-  "last_effect": ""
+  "desc": ""
 }

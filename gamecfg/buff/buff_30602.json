@@ -1,6 +1,7 @@
 {
   "1": [],
-  "color": "red",
+  "name": "专属弹幕",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,18 +9,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 30602,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 30602
       }
     }
   ],
-  "desc": "氧气不足上浮时，触发专属弹幕",
-  "picture": "",
-  "icon": 30600,
-  "name": "专属弹幕",
-  "init_effect": "",
-  "id": 30602,
-  "stack": 1,
   "time": 0,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 30600,
+  "id": 30602,
+  "color": "red",
+  "stack": 1,
+  "desc": "氧气不足上浮时，触发专属弹幕"
 }

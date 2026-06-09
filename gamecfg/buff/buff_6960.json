@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "6CRH穿甲弹",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -7,23 +11,19 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "minTargetNumber": 1,
-        "buff_id": 6961,
         "nationality": 2,
+        "buff_id": 6961,
         "check_target": [
           "TargetSelf",
           "TargetNationality"
-        ]
+        ],
+        "minTargetNumber": 1
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 6960,
-  "name": "6CRH穿甲弹",
-  "init_effect": "",
+  "color": "yellow",
   "id": 6960,
-  "stack": 1,
-  "time": 0,
-  "last_effect": ""
+  "stack": 1
 }

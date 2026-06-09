@@ -1,23 +1,23 @@
 {
-  "color": "red",
+  "name": "敌方指挥舰指挥技能——伤害上升",
+  "picture": "",
+  "desc": "指挥技能——伤害上升",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [],
       "type": "BattleBuffField",
       "arg_list": {
-        "target": "TargetAllHelp",
         "buff_id": 50211,
+        "target": "TargetAllHelp",
         "exceptCaster": true
       }
     }
   ],
-  "desc": "指挥技能——伤害上升",
-  "picture": "",
+  "last_effect": "zhihuiRing02",
   "icon": 50210,
-  "name": "敌方指挥舰指挥技能——伤害上升",
-  "init_effect": "",
+  "color": "red",
   "id": 50210,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "zhihuiRing02"
+  "stack": 1
 }

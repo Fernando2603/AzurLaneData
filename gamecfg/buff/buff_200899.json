@@ -1,5 +1,9 @@
 {
-  "color": "yellow",
+  "name": "2024愚人节 自机锁血",
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -47,8 +51,8 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "skill_id": 200899,
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "skill_id": 200899
       }
     },
     {
@@ -57,19 +61,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
         "buff_id": 200901,
-        "time": 0.1
+        "time": 0.1,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "bossbomb",
   "icon": 200899,
-  "name": "2024愚人节 自机锁血",
-  "init_effect": "",
+  "color": "yellow",
   "id": 200899,
-  "stack": 1,
-  "time": 0,
-  "last_effect": "bossbomb"
+  "stack": 1
 }

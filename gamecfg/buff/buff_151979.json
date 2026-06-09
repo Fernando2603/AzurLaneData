@@ -1,4 +1,8 @@
 {
+  "id": 151979,
+  "name": "鱼雷连射失败计数buff",
+  "picture": "",
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -6,19 +10,15 @@
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
+        "buff_id": 151978,
+        "repeat_count": -1,
         "target": [
           "TargetSelf"
-        ],
-        "buff_id": 151978,
-        "repeat_count": -1
+        ]
       }
     }
   ],
-  "id": 151979,
-  "name": "鱼雷连射失败计数buff",
-  "init_effect": "",
-  "picture": "",
-  "stack": 3,
   "time": 0,
-  "last_effect": ""
+  "stack": 3,
+  "init_effect": ""
 }

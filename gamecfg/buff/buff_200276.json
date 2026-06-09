@@ -1,5 +1,9 @@
 {
-  "color": "blue",
+  "name": "2023英系活动 EX BOSS攻击百分比移除发射器血量",
+  "picture": "",
+  "desc": "",
+  "time": 1,
+  "init_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -8,26 +12,22 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
+        "skill_id": 200276,
         "minTargetNumber": 1,
         "ship_tag_list": [
           "sign"
         ],
-        "skill_id": 200276
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "",
-  "picture": "",
+  "last_effect": "",
   "icon": 200276,
-  "name": "2023英系活动 EX BOSS攻击百分比移除发射器血量",
-  "init_effect": "",
+  "color": "blue",
   "id": 200276,
-  "stack": 10,
-  "time": 1,
-  "last_effect": ""
+  "stack": 10
 }

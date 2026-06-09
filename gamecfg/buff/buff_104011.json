@@ -7,7 +7,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012
@@ -21,7 +20,8 @@
               0.2,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -34,7 +34,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -53,7 +52,8 @@
               0.8,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -66,7 +66,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -90,7 +89,8 @@
               0.8,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -103,7 +103,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -127,7 +126,8 @@
               0.8,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -140,7 +140,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -164,7 +163,8 @@
               0.8,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -177,7 +177,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -201,7 +200,8 @@
               0.75,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -214,7 +214,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -238,7 +237,8 @@
               0.75,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -251,7 +251,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -275,7 +274,8 @@
               0.7,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -288,7 +288,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -312,7 +311,8 @@
               0.7,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
@@ -325,7 +325,6 @@
         ],
         "type": "BattleBuffCastSkillRandom",
         "arg_list": {
-          "target": "TargetSelf",
           "skill_id_list": [
             104011,
             104012,
@@ -349,12 +348,14 @@
               0.65,
               1
             ]
-          ]
+          ],
+          "target": "TargetSelf"
         }
       }
     ]
   },
-  "color": "red",
+  "name": "爱碳光波",
+  "picture": "",
   "effect_list": [
     {
       "trigger": [
@@ -362,7 +363,6 @@
       ],
       "type": "BattleBuffCastSkillRandom",
       "arg_list": {
-        "target": "TargetSelf",
         "skill_id_list": [
           104011,
           104012
@@ -376,17 +376,17 @@
             0.2,
             1
           ]
-        ]
+        ],
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "战斗中，每20秒启用一个效果，效果随技能等级提高",
-  "picture": "",
-  "icon": 104010,
-  "name": "爱碳光波",
-  "init_effect": "",
-  "id": 104011,
-  "stack": 1,
   "time": 9,
-  "last_effect": ""
+  "init_effect": "",
+  "last_effect": "",
+  "icon": 104010,
+  "id": 104011,
+  "color": "red",
+  "stack": 1,
+  "desc": "战斗中，每20秒启用一个效果，效果随技能等级提高"
 }
