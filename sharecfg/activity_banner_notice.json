@@ -13,8 +13,8 @@
     "param": [
       "OTHERWORLD_MAP",
       {
-        "terminalPage": 2,
-        "openTerminal": true
+        "openTerminal": true,
+        "terminalPage": 2
       }
     ]
   },
@@ -261,8 +261,8 @@
     "param": [
       "scene activity",
       {
-        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT",
-        "data": []
+        "data": [],
+        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT"
       }
     ]
   },
@@ -335,6 +335,16 @@
       }
     ]
   },
+  "41": {
+    "id": 41,
+    "param": [
+      "scene equip",
+      {
+        "warp": "WARP_TO_DESIGN",
+        "designPage": 2
+      }
+    ]
+  },
   "all": [
     1,
     2,
@@ -375,6 +385,7 @@
     37,
     38,
     39,
-    40
+    40,
+    41
   ]
 }
