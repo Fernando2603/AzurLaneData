@@ -1,11 +1,5 @@
 {
   "1": {
-    "pic": "temp1",
-    "param": [
-      "scene skinshop",
-      []
-    ],
-    "id": 1,
     "time": [
       [
         [
@@ -32,9 +26,16 @@
         ]
       ]
     ],
-    "type": 2
+    "pic": "temp1",
+    "param": [
+      "scene skinshop",
+      []
+    ],
+    "type": 2,
+    "id": 1
   },
   "2": {
+    "time": "stop",
     "pic": "temp2",
     "param": [
       "scene get boat",
@@ -43,18 +44,43 @@
         "projectName": "new"
       }
     ],
-    "id": 2,
     "type": 2,
-    "time": "stop"
+    "id": 2
   },
   "3": {
+    "time": "stop",
     "pic": "temp3",
     "param": "51005",
-    "id": 3,
     "type": 3,
-    "time": "stop"
+    "id": 3
   },
   "4": {
+    "time": [
+      [
+        [
+          2026,
+          6,
+          12
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          6,
+          17
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "pic": "temp4",
     "param": [
       "scene charge",
@@ -62,36 +88,11 @@
         "wrap": 2
       }
     ],
-    "id": 4,
-    "time": [
-      [
-        [
-          2026,
-          6,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          6,
-          17
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
+    "type": 2,
+    "id": 4
   },
   "5": {
+    "time": "stop",
     "pic": "temp5",
     "param": [
       "scene shop",
@@ -99,11 +100,11 @@
         "warp": "shopstreet"
       }
     ],
-    "id": 5,
     "type": 2,
-    "time": "stop"
+    "id": 5
   },
   "6": {
+    "time": "stop",
     "pic": "temp6",
     "param": [
       "scene core activity",
@@ -111,52 +112,48 @@
         "coreName": "OutPostCoreActivityUI"
       }
     ],
-    "id": 6,
     "type": 2,
-    "time": "stop"
+    "id": 6
   },
   "7": {
+    "time": [
+      [
+        [
+          2026,
+          6,
+          12
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          6,
+          17
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "pic": "temp7",
     "param": [
       "scene equip",
       {
-        "warp": "WARP_TO_DESIGN",
-        "designPage": 2
+        "designPage": 2,
+        "warp": "WARP_TO_DESIGN"
       }
     ],
-    "id": 7,
-    "time": [
-      [
-        [
-          2026,
-          6,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          6,
-          17
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
+    "type": 2,
+    "id": 7
   },
   "8": {
-    "pic": "temp8",
-    "param": "51021",
-    "id": 8,
     "time": [
       [
         [
@@ -183,9 +180,38 @@
         ]
       ]
     ],
-    "type": 3
+    "pic": "temp8",
+    "param": "51021",
+    "type": 3,
+    "id": 8
   },
   "9": {
+    "time": [
+      [
+        [
+          2026,
+          6,
+          12
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          6,
+          17
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
     "pic": "temp9",
     "param": [
       "scene level",
@@ -194,104 +220,78 @@
         "isEX": true
       }
     ],
-    "id": 9,
-    "time": [
-      [
-        [
-          2026,
-          6,
-          12
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          6,
-          17
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2
+    "type": 2,
+    "id": 9
   },
   "90": {
+    "time": "stop",
     "pic": "temp99",
     "param": "",
-    "id": 90,
     "type": 9,
-    "time": "stop"
+    "id": 90
   },
   "91": {
+    "time": "stop",
     "pic": "temp98",
     "param": "",
-    "id": 91,
     "type": 9,
-    "time": "stop"
+    "id": 91
   },
   "95": {
+    "time": "stop",
     "pic": "temp100",
     "param": "",
-    "id": 95,
     "type": 11,
-    "time": "stop"
+    "id": 95
   },
   "99": {
+    "time": "stop",
     "pic": "limit_skin",
     "param": "",
-    "id": 99,
     "type": 12,
-    "time": "stop"
+    "id": 99
   },
   "100": {
+    "time": "stop",
     "pic": "dumpling",
     "param": "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
-    "id": 100,
     "type": 10,
-    "time": "stop"
+    "id": 100
   },
   "101": {
+    "time": "stop",
     "pic": "jingbing",
     "param": "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-    "id": 101,
     "type": 10,
-    "time": "stop"
+    "id": 101
   },
   "102": {
+    "time": "stop",
     "pic": "christmas",
     "param": "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-    "id": 102,
     "type": 10,
-    "time": "stop"
+    "id": 102
   },
   "200": {
+    "time": "stop",
     "pic": "autumn",
     "param": "",
-    "id": 200,
     "type": 13,
-    "time": "stop"
+    "id": 200
   },
   "201": {
+    "time": "always",
     "pic": "spring",
     "param": "",
-    "id": 201,
     "type": 13,
-    "time": "always"
+    "id": 201
   },
   "202": {
+    "time": "stop",
     "pic": "winter",
     "param": "",
-    "id": 202,
     "type": 13,
-    "time": "stop"
+    "id": 202
   },
   "all": [
     1,
