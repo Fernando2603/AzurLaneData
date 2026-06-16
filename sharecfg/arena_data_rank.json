@@ -1,27 +1,22 @@
 {
   "1": {
+    "name": "Seaman",
     "order": 0,
     "battle_award": 50,
-    "name": "Seaman",
     "k_value": 50,
+    "award_list": [],
+    "point": 0,
+    "refresh_limit": 5,
     "id": 1,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
-    "award_list": [],
-    "point": 0
+    ]
   },
   "2": {
+    "name": "Petty Officer",
     "order": 0,
     "battle_award": 60,
-    "name": "Petty Officer",
     "k_value": 45,
-    "id": 2,
-    "refresh_price": [
-      0
-    ],
-    "refresh_limit": 5,
     "award_list": [
       [
         1,
@@ -29,18 +24,37 @@
         200
       ]
     ],
-    "point": 100
+    "point": 100,
+    "refresh_limit": 5,
+    "id": 2,
+    "refresh_price": [
+      0
+    ]
   },
   "3": {
+    "name": "Ensign",
     "order": 0,
     "battle_award": 70,
-    "name": "Ensign",
     "k_value": 40,
+    "award_list": [
+      [
+        1,
+        3,
+        600
+      ]
+    ],
+    "point": 200,
+    "refresh_limit": 5,
     "id": 3,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "4": {
+    "name": "Lieutenant Junior Grade",
+    "order": 0,
+    "battle_award": 70,
+    "k_value": 35,
     "award_list": [
       [
         1,
@@ -48,18 +62,18 @@
         600
       ]
     ],
-    "point": 200
-  },
-  "4": {
-    "order": 0,
-    "battle_award": 70,
-    "name": "Lieutenant Junior Grade",
-    "k_value": 35,
+    "point": 300,
+    "refresh_limit": 5,
     "id": 4,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "5": {
+    "name": "Lieutenant",
+    "order": 0,
+    "battle_award": 70,
+    "k_value": 30,
     "award_list": [
       [
         1,
@@ -67,37 +81,37 @@
         600
       ]
     ],
-    "point": 300
-  },
-  "5": {
-    "order": 0,
-    "battle_award": 70,
-    "name": "Lieutenant",
-    "k_value": 30,
+    "point": 400,
+    "refresh_limit": 5,
     "id": 5,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "6": {
+    "name": "Lieutenant Commander",
+    "order": 0,
+    "battle_award": 80,
+    "k_value": 30,
     "award_list": [
       [
         1,
         3,
-        600
+        1000
       ]
     ],
-    "point": 400
-  },
-  "6": {
-    "order": 0,
-    "battle_award": 80,
-    "name": "Lieutenant Commander",
-    "k_value": 30,
+    "point": 550,
+    "refresh_limit": 5,
     "id": 6,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "7": {
+    "name": "Commander",
+    "order": 0,
+    "battle_award": 80,
+    "k_value": 30,
     "award_list": [
       [
         1,
@@ -105,18 +119,18 @@
         1000
       ]
     ],
-    "point": 550
-  },
-  "7": {
-    "order": 0,
-    "battle_award": 80,
-    "name": "Commander",
-    "k_value": 30,
+    "point": 700,
+    "refresh_limit": 5,
     "id": 7,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "8": {
+    "name": "Captain",
+    "order": 0,
+    "battle_award": 80,
+    "k_value": 25,
     "award_list": [
       [
         1,
@@ -124,37 +138,37 @@
         1000
       ]
     ],
-    "point": 700
-  },
-  "8": {
-    "order": 0,
-    "battle_award": 80,
-    "name": "Captain",
-    "k_value": 25,
+    "point": 850,
+    "refresh_limit": 5,
     "id": 8,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "9": {
+    "name": "Rear Admiral Lower Half",
+    "order": 1000,
+    "battle_award": 90,
+    "k_value": 20,
     "award_list": [
       [
         1,
         3,
-        1000
+        1500
       ]
     ],
-    "point": 850
-  },
-  "9": {
-    "order": 1000,
-    "battle_award": 90,
-    "name": "Rear Admiral Lower Half",
-    "k_value": 20,
+    "point": 1050,
+    "refresh_limit": 5,
     "id": 9,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "10": {
+    "name": "Rear Admiral",
+    "order": 600,
+    "battle_award": 90,
+    "k_value": 20,
     "award_list": [
       [
         1,
@@ -162,18 +176,18 @@
         1500
       ]
     ],
-    "point": 1050
-  },
-  "10": {
-    "order": 600,
-    "battle_award": 90,
-    "name": "Rear Admiral",
-    "k_value": 20,
+    "point": 1250,
+    "refresh_limit": 5,
     "id": 10,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "11": {
+    "name": "Vice Admiral",
+    "order": 300,
+    "battle_award": 90,
+    "k_value": 20,
     "award_list": [
       [
         1,
@@ -181,18 +195,18 @@
         1500
       ]
     ],
-    "point": 1250
-  },
-  "11": {
-    "order": 300,
-    "battle_award": 90,
-    "name": "Vice Admiral",
-    "k_value": 20,
+    "point": 1450,
+    "refresh_limit": 5,
     "id": 11,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "12": {
+    "name": "Admiral",
+    "order": 100,
+    "battle_award": 90,
+    "k_value": 20,
     "award_list": [
       [
         1,
@@ -200,18 +214,18 @@
         1500
       ]
     ],
-    "point": 1450
-  },
-  "12": {
-    "order": 100,
-    "battle_award": 90,
-    "name": "Admiral",
-    "k_value": 20,
+    "point": 1650,
+    "refresh_limit": 5,
     "id": 12,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
+    ]
+  },
+  "13": {
+    "name": "Fleet Admiral",
+    "order": 50,
+    "battle_award": 90,
+    "k_value": 20,
     "award_list": [
       [
         1,
@@ -219,37 +233,18 @@
         1500
       ]
     ],
-    "point": 1650
-  },
-  "13": {
-    "order": 50,
-    "battle_award": 90,
-    "name": "Fleet Admiral",
-    "k_value": 20,
+    "point": 1900,
+    "refresh_limit": 5,
     "id": 13,
     "refresh_price": [
       0
-    ],
-    "refresh_limit": 5,
-    "award_list": [
-      [
-        1,
-        3,
-        1500
-      ]
-    ],
-    "point": 1900
+    ]
   },
   "14": {
+    "name": "Admiral of the Navy",
     "order": 10,
     "battle_award": 100,
-    "name": "Admiral of the Navy",
     "k_value": 20,
-    "id": 14,
-    "refresh_price": [
-      0
-    ],
-    "refresh_limit": 5,
     "award_list": [
       [
         1,
@@ -257,7 +252,12 @@
         2500
       ]
     ],
-    "point": 2200
+    "point": 2200,
+    "refresh_limit": 5,
+    "id": 14,
+    "refresh_price": [
+      0
+    ]
   },
   "all": [
     1,
