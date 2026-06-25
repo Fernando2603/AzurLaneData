@@ -1,6 +1,6 @@
 {
   "1": {
-    "type": 4,
+    "param": "1005",
     "id": 1,
     "time": [
       [
@@ -28,11 +28,11 @@
         ]
       ]
     ],
-    "param": "1005",
+    "type": 4,
     "pic": "temp1"
   },
   "2": {
-    "type": 0,
+    "param": "",
     "id": 2,
     "time": [
       [
@@ -60,11 +60,18 @@
         ]
       ]
     ],
-    "param": "",
+    "type": 0,
     "pic": "temp2"
   },
   "3": {
-    "type": 4,
+    "param": [
+      "IslandSeasonPage",
+      [
+        {
+          "target_act_id": 7110
+        }
+      ]
+    ],
     "id": 3,
     "time": [
       [
@@ -92,18 +99,18 @@
         ]
       ]
     ],
+    "type": 4,
+    "pic": "temp4"
+  },
+  "4": {
     "param": [
       "IslandSeasonPage",
       [
         {
-          "target_act_id": 7110
+          "target_act_id": 990021
         }
       ]
     ],
-    "pic": "temp4"
-  },
-  "4": {
-    "type": 3,
     "id": 4,
     "time": [
       [
@@ -131,18 +138,32 @@
         ]
       ]
     ],
-    "param": [
-      "IslandSeasonPage",
-      [
-        {
-          "target_act_id": 990021
-        }
-      ]
-    ],
+    "type": 3,
     "pic": "temp5"
   },
   "5": {
-    "type": 3,
+    "param": [
+      "IslandShopPage",
+      [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          90001,
+          10019,
+          10109,
+          10130,
+          10031,
+          50111
+        ],
+        1
+      ]
+    ],
     "id": 5,
     "time": [
       [
@@ -170,28 +191,7 @@
         ]
       ]
     ],
-    "param": [
-      "IslandShopPage",
-      [
-        [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        [
-          90001,
-          10019,
-          10109,
-          10130,
-          10031,
-          50111
-        ],
-        1
-      ]
-    ],
+    "type": 3,
     "pic": "temp6"
   },
   "all": [

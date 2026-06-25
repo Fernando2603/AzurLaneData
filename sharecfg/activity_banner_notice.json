@@ -12,8 +12,8 @@
     "param": [
       "OTHERWORLD_MAP",
       {
-        "terminalPage": 2,
-        "openTerminal": true
+        "openTerminal": true,
+        "terminalPage": 2
       }
     ],
     "id": 2
@@ -22,8 +22,8 @@
     "param": [
       "scene get boat",
       {
-        "page": 1,
-        "projectName": "new"
+        "projectName": "new",
+        "page": 1
       }
     ],
     "id": 3
@@ -79,8 +79,8 @@
     "param": [
       "scene get boat",
       {
-        "page": 1,
-        "projectName": "light"
+        "projectName": "light",
+        "page": 1
       }
     ],
     "id": 11
@@ -260,8 +260,8 @@
     "param": [
       "scene activity",
       {
-        "data": [],
-        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT"
+        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT",
+        "data": []
       }
     ],
     "id": 32
@@ -345,6 +345,15 @@
     ],
     "id": 41
   },
+  "42": {
+    "param": [
+      "scene core activity",
+      {
+        "coreName": "DreamTourCoreActivityUI"
+      }
+    ],
+    "id": 42
+  },
   "all": [
     1,
     2,
@@ -386,6 +395,7 @@
     38,
     39,
     40,
-    41
+    41,
+    42
   ]
 }
