@@ -1,12 +1,12 @@
 {
   "1": {
     "type": 2,
-    "pic": "temp1",
     "id": 1,
     "param": [
       "scene skinshop",
       []
     ],
+    "pic": "temp1",
     "time": [
       [
         [
@@ -35,35 +35,34 @@
     ]
   },
   "2": {
-    "time": "stop",
-    "pic": "temp2",
+    "type": 3,
     "id": 2,
     "param": "51063",
-    "type": 3
+    "pic": "temp2",
+    "time": "stop"
   },
   "3": {
-    "time": "stop",
-    "pic": "temp3",
+    "type": 2,
     "id": 3,
     "param": [
       "scene get boat",
       {
-        "projectName": "new",
-        "page": 1
+        "page": 1,
+        "projectName": "new"
       }
     ],
-    "type": 2
+    "pic": "temp3",
+    "time": "stop"
   },
   "4": {
-    "time": "stop",
-    "pic": "temp4",
+    "type": 3,
     "id": 4,
     "param": "51033",
-    "type": 3
+    "pic": "temp4",
+    "time": "stop"
   },
   "5": {
-    "time": "stop",
-    "pic": "temp5",
+    "type": 2,
     "id": 5,
     "param": [
       "scene charge",
@@ -71,11 +70,11 @@
         "wrap": 2
       }
     ],
-    "type": 2
+    "pic": "temp5",
+    "time": "stop"
   },
   "6": {
     "type": 2,
-    "pic": "temp6",
     "id": 6,
     "param": [
       "shipblueprint",
@@ -83,6 +82,7 @@
         "shipGroupId": 29906
       }
     ],
+    "pic": "temp6",
     "time": [
       [
         [
@@ -112,7 +112,6 @@
   },
   "7": {
     "type": 2,
-    "pic": "temp7",
     "id": 7,
     "param": [
       "scene charge",
@@ -120,6 +119,7 @@
         "wrap": 4
       }
     ],
+    "pic": "temp7",
     "time": [
       [
         [
@@ -149,15 +149,15 @@
   },
   "8": {
     "type": 2,
-    "pic": "temp8",
     "id": 8,
     "param": [
       "scene equip",
       {
-        "warp": "WARP_TO_DESIGN",
-        "designPage": 2
+        "designPage": 2,
+        "warp": "WARP_TO_DESIGN"
       }
     ],
+    "pic": "temp8",
     "time": [
       [
         [
@@ -187,7 +187,6 @@
   },
   "9": {
     "type": 2,
-    "pic": "temp9",
     "id": 9,
     "param": [
       "scene level",
@@ -196,6 +195,7 @@
         "open_remaster": true
       }
     ],
+    "pic": "temp9",
     "time": [
       [
         [
@@ -224,74 +224,74 @@
     ]
   },
   "90": {
-    "time": "stop",
-    "pic": "temp99",
+    "type": 9,
     "id": 90,
     "param": "",
-    "type": 9
+    "pic": "temp99",
+    "time": "stop"
   },
   "91": {
-    "time": "stop",
-    "pic": "temp98",
+    "type": 9,
     "id": 91,
     "param": "",
-    "type": 9
+    "pic": "temp98",
+    "time": "stop"
   },
   "95": {
-    "time": "stop",
-    "pic": "temp100",
+    "type": 11,
     "id": 95,
     "param": "",
-    "type": 11
+    "pic": "temp100",
+    "time": "stop"
   },
   "99": {
-    "time": "stop",
-    "pic": "limit_skin",
+    "type": 12,
     "id": 99,
     "param": "",
-    "type": 12
+    "pic": "limit_skin",
+    "time": "stop"
   },
   "100": {
-    "time": "stop",
-    "pic": "dumpling",
+    "type": 10,
     "id": 100,
     "param": "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
-    "type": 10
+    "pic": "dumpling",
+    "time": "stop"
   },
   "101": {
-    "time": "stop",
-    "pic": "jingbing",
+    "type": 10,
     "id": 101,
     "param": "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-    "type": 10
+    "pic": "jingbing",
+    "time": "stop"
   },
   "102": {
-    "time": "stop",
-    "pic": "christmas",
+    "type": 10,
     "id": 102,
     "param": "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-    "type": 10
+    "pic": "christmas",
+    "time": "stop"
   },
   "200": {
-    "time": "stop",
-    "pic": "autumn",
+    "type": 13,
     "id": 200,
     "param": "",
-    "type": 13
+    "pic": "autumn",
+    "time": "stop"
   },
   "201": {
-    "time": "always",
-    "pic": "spring",
+    "type": 13,
     "id": 201,
     "param": "",
-    "type": 13
+    "pic": "spring",
+    "time": "always"
   },
   "202": {
-    "time": "stop",
-    "pic": "winter",
+    "type": 13,
     "id": 202,
     "param": "",
-    "type": 13
+    "pic": "winter",
+    "time": "stop"
   },
   "all": [
     1,

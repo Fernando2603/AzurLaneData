@@ -1,32 +1,24 @@
 {
   "101": {
+    "title": "Unavailable",
     "tips": "This stage is not available yet.",
-    "weekday": [],
-    "insert_daily": 1,
     "pic": "daily4",
+    "limit_type": 0,
+    "expedition_and_lv_limit_list": [],
+    "limit_period": "",
+    "sort": "7",
     "id": 101,
     "des": "This stage is not available yet.",
     "show_with_count": 0,
-    "title": "Unavailable",
-    "expedition_and_lv_limit_list": [],
-    "limit_type": 0,
-    "sort": "7",
-    "limit_time": 0,
-    "limit_period": ""
+    "weekday": [],
+    "insert_daily": 1,
+    "limit_time": 0
   },
   "201": {
-    "tips": "Escort Mission available on every Monday, Thursday and Sunday",
-    "weekday": [
-      1,
-      4,
-      7
-    ],
-    "insert_daily": 0,
-    "pic": "daily1",
-    "id": 201,
-    "des": "Our Cargo ship is damaged by enemy torpedoes! Escort it to get a large number of Equipment Materials",
-    "show_with_count": 0,
     "title": "Escort Mission",
+    "tips": "Escort Mission available on every Monday, Thursday and Sunday",
+    "pic": "daily1",
+    "limit_type": 1,
     "expedition_and_lv_limit_list": [
       [
         2000,
@@ -77,24 +69,24 @@
         95
       ]
     ],
-    "limit_type": 1,
+    "limit_period": "",
     "sort": "1",
-    "limit_time": 3,
-    "limit_period": ""
-  },
-  "301": {
-    "tips": "Advance Mission available on every Tuesday, Friday and Sunday",
+    "id": 201,
+    "des": "Our Cargo ship is damaged by enemy torpedoes! Escort it to get a large number of Equipment Materials",
+    "show_with_count": 0,
     "weekday": [
-      2,
-      5,
+      1,
+      4,
       7
     ],
     "insert_daily": 0,
-    "pic": "daily2",
-    "id": 301,
-    "des": "Enemy self-destruction boats are zerging around! Clear them will have a chance to get Tactical Materials",
-    "show_with_count": 0,
+    "limit_time": 3
+  },
+  "301": {
     "title": "Advance Mission",
+    "tips": "Advance Mission available on every Tuesday, Friday and Sunday",
+    "pic": "daily2",
+    "limit_type": 1,
     "expedition_and_lv_limit_list": [
       [
         3000,
@@ -121,24 +113,24 @@
         95
       ]
     ],
-    "limit_type": 1,
+    "limit_period": "",
     "sort": "2",
-    "limit_time": 3,
-    "limit_period": ""
-  },
-  "401": {
-    "tips": "Fierce Assault available on every Wednesday, Saturday and Sunday",
+    "id": 301,
+    "des": "Enemy self-destruction boats are zerging around! Clear them will have a chance to get Tactical Materials",
+    "show_with_count": 0,
     "weekday": [
-      3,
-      6,
+      2,
+      5,
       7
     ],
     "insert_daily": 0,
-    "pic": "daily3",
-    "id": 401,
-    "des": "Warning! Enemy Bosses on sight! Destroy them will have a chance to get Mystery Tech Packs",
-    "show_with_count": 0,
+    "limit_time": 3
+  },
+  "401": {
     "title": "Fierce Assault",
+    "tips": "Fierce Assault available on every Wednesday, Saturday and Sunday",
+    "pic": "daily3",
+    "limit_type": 1,
     "expedition_and_lv_limit_list": [
       [
         4000,
@@ -165,28 +157,24 @@
         95
       ]
     ],
-    "limit_type": 1,
+    "limit_period": "",
     "sort": "3",
-    "limit_time": 3,
-    "limit_period": ""
-  },
-  "501": {
-    "tips": "4 times per week",
+    "id": 401,
+    "des": "Warning! Enemy Bosses on sight! Destroy them will have a chance to get Mystery Tech Packs",
+    "show_with_count": 0,
     "weekday": [
-      1,
-      2,
       3,
-      4,
-      5,
       6,
       7
     ],
     "insert_daily": 0,
-    "pic": "daily5",
-    "id": 501,
-    "des": "Launch an operation to disrupt enemy supply lines with your Submarine Fleet! Success will grant you various Submarine gear blueprints!",
-    "show_with_count": 0,
+    "limit_time": 3
+  },
+  "501": {
     "title": "Supply Line Disruption",
+    "tips": "4 times per week",
+    "pic": "daily5",
+    "limit_type": 2,
     "expedition_and_lv_limit_list": [
       [
         1000,
@@ -213,13 +201,11 @@
         95
       ]
     ],
-    "limit_type": 2,
+    "limit_period": "",
     "sort": "5",
-    "limit_time": 4,
-    "limit_period": ""
-  },
-  "601": {
-    "tips": "Daily",
+    "id": 501,
+    "des": "Launch an operation to disrupt enemy supply lines with your Submarine Fleet! Success will grant you various Submarine gear blueprints!",
+    "show_with_count": 0,
     "weekday": [
       1,
       2,
@@ -230,11 +216,13 @@
       7
     ],
     "insert_daily": 0,
-    "pic": "daily6",
-    "id": 601,
-    "des": "Strong specialized enemies have appeared! Defeat them to get tactical materials.",
-    "show_with_count": 0,
+    "limit_time": 4
+  },
+  "601": {
     "title": "Tactical Training",
+    "tips": "Daily",
+    "pic": "daily6",
+    "limit_type": 1,
     "expedition_and_lv_limit_list": [
       [
         6000,
@@ -261,13 +249,11 @@
         100
       ]
     ],
-    "limit_type": 1,
+    "limit_period": "",
     "sort": "4",
-    "limit_time": 3,
-    "limit_period": ""
-  },
-  "701": {
-    "tips": "Twice per week",
+    "id": 601,
+    "des": "Strong specialized enemies have appeared! Defeat them to get tactical materials.",
+    "show_with_count": 0,
     "weekday": [
       1,
       2,
@@ -278,11 +264,13 @@
       7
     ],
     "insert_daily": 0,
-    "pic": "daily7",
-    "id": 701,
-    "des": "This stage pits your fleet against another fleet that uses Augment Modules. Complete it to receive Augment Modules or associated materials.",
-    "show_with_count": 0,
+    "limit_time": 3
+  },
+  "701": {
     "title": "Module Development",
+    "tips": "Twice per week",
+    "pic": "daily7",
+    "limit_type": 2,
     "expedition_and_lv_limit_list": [
       [
         7000,
@@ -293,13 +281,11 @@
         75
       ]
     ],
-    "limit_type": 2,
+    "limit_period": "",
     "sort": "6",
-    "limit_time": 2,
-    "limit_period": ""
-  },
-  "801": {
-    "tips": "Can be challenged once per day during the available period.",
+    "id": 701,
+    "des": "This stage pits your fleet against another fleet that uses Augment Modules. Complete it to receive Augment Modules or associated materials.",
+    "show_with_count": 0,
     "weekday": [
       1,
       2,
@@ -310,11 +296,13 @@
       7
     ],
     "insert_daily": 0,
-    "pic": "daily8",
-    "id": 801,
-    "des": "A limited-time module development challenge. Clear it to obtain materials for module crafting and upgrading.",
-    "show_with_count": 1,
+    "limit_time": 2
+  },
+  "801": {
     "title": "Emergency Module Development",
+    "tips": "Can be challenged once per day during the available period.",
+    "pic": "daily8",
+    "limit_type": 1,
     "expedition_and_lv_limit_list": [
       [
         7010,
@@ -325,7 +313,6 @@
         70
       ]
     ],
-    "limit_type": 1,
     "limit_period": [
       [
         [
@@ -352,8 +339,21 @@
         ]
       ]
     ],
-    "limit_time": 1,
-    "sort": "7"
+    "sort": "7",
+    "id": 801,
+    "des": "A limited-time module development challenge. Clear it to obtain materials for module crafting and upgrading.",
+    "show_with_count": 1,
+    "weekday": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "insert_daily": 0,
+    "limit_time": 1
   },
   "all": [
     101,
