@@ -1,22 +1,24 @@
 {
   "1": {
-    "anim_r": "XC1_idle_fb01_R",
     "anim_l": "XC1_idle_fb01_L",
+    "gun_type": [
+      3
+    ],
     "collider": [
       "Pelvis Collider",
       ""
     ],
     "id": 1,
-    "gun_type": [
-      3
-    ],
+    "mood_value_plus": 10,
     "anim": "",
     "hidden_reaction": "",
-    "mood_value_plus": 10
+    "anim_r": "XC1_idle_fb01_R"
   },
   "2": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [
+      1
+    ],
     "collider": [
       "RightChestAssistA01",
       "R UpperArm Collider",
@@ -25,16 +27,16 @@
       "Spine1 Collider"
     ],
     "id": 2,
-    "gun_type": [
-      1
-    ],
+    "mood_value_plus": 11,
     "anim": "XC1_idle_fb02",
     "hidden_reaction": "",
-    "mood_value_plus": 11
+    "anim_r": ""
   },
   "3": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [
+      2
+    ],
     "collider": [
       "L Thigh1 Collider",
       "L Thigh2 Collider",
@@ -42,36 +44,36 @@
       "R Thigh2 Collider"
     ],
     "id": 3,
-    "gun_type": [
-      2
-    ],
+    "mood_value_plus": 9,
     "anim": "XC1_idle_fb03",
     "hidden_reaction": "",
-    "mood_value_plus": 9
+    "anim_r": ""
   },
   "4": {
-    "anim_r": "",
     "anim_l": "",
-    "collider": [
-      "Head Collider"
-    ],
-    "id": 4,
     "gun_type": [
       1,
       2
     ],
+    "collider": [
+      "Head Collider"
+    ],
+    "id": 4,
+    "mood_value_plus": -10,
     "hidden_reaction": {
-      "sceneName": "XiChe_79902_TSZS-1",
-      "sceneAB": "dorm3d/character/naximofu_db/timeline/xiche_79902_tszs-1/xiche_79902_tszs-1_scene",
       "exit": "black",
-      "enter": "white"
+      "enter": "white",
+      "sceneAB": "dorm3d/character/naximofu_db/timeline/xiche_79902_tszs-1/xiche_79902_tszs-1_scene",
+      "sceneName": "XiChe_79902_TSZS-1"
     },
     "anim": "",
-    "mood_value_plus": -10
+    "anim_r": ""
   },
   "5": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [
+      1
+    ],
     "collider": [
       "Pelvis Collider",
       "LeftChestAssistA01",
@@ -80,16 +82,16 @@
       "Spine Collider"
     ],
     "id": 5,
-    "gun_type": [
-      1
-    ],
+    "mood_value_plus": 10,
     "anim": "XC2_idle_fb01",
     "hidden_reaction": "",
-    "mood_value_plus": 10
+    "anim_r": ""
   },
   "6": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [
+      2
+    ],
     "collider": [
       "Pelvis Collider",
       "Spine3 Collider",
@@ -99,16 +101,17 @@
       "L Thigh1 Collider"
     ],
     "id": 6,
-    "gun_type": [
-      2
-    ],
+    "mood_value_plus": 10,
     "anim": "XC2_idle_fb02",
     "hidden_reaction": "",
-    "mood_value_plus": 10
+    "anim_r": ""
   },
   "7": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [
+      1,
+      2
+    ],
     "collider": [
       "R Thigh1 Collider",
       "R Thigh2 Collider",
@@ -116,17 +119,16 @@
       "R Calf2 Collider"
     ],
     "id": 7,
-    "gun_type": [
-      1,
-      2
-    ],
+    "mood_value_plus": 10,
     "anim": "XC2_idle_fb03",
     "hidden_reaction": "",
-    "mood_value_plus": 10
+    "anim_r": ""
   },
   "8": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [
+      3
+    ],
     "collider": [
       "Pelvis Collider",
       "Spine3 Collider",
@@ -135,16 +137,18 @@
       "Spine Collider"
     ],
     "id": 8,
-    "gun_type": [
-      3
-    ],
+    "mood_value_plus": 11,
     "anim": "XC2_idle_fb04",
     "hidden_reaction": "",
-    "mood_value_plus": 11
+    "anim_r": ""
   },
   "9": {
-    "anim_r": "XC3_idle_CW_fb01_R",
     "anim_l": "XC3_idle_CW_fb01_L",
+    "gun_type": [
+      1,
+      2,
+      3
+    ],
     "collider": [
       "Pelvis Collider",
       "Spine Collider",
@@ -153,18 +157,18 @@
       "Spine1 Collider"
     ],
     "id": 9,
+    "mood_value_plus": 9,
+    "anim": "",
+    "hidden_reaction": "",
+    "anim_r": "XC3_idle_CW_fb01_R"
+  },
+  "12": {
+    "anim_l": "XC3_idle_CW_fb01_L",
     "gun_type": [
       1,
       2,
       3
     ],
-    "anim": "",
-    "hidden_reaction": "",
-    "mood_value_plus": 9
-  },
-  "12": {
-    "anim_r": "XC3_idle_CW_fb01_R",
-    "anim_l": "XC3_idle_CW_fb01_L",
     "collider": [
       "RightChestAssistA01",
       "LeftChestAssistA01",
@@ -174,58 +178,54 @@
       "L Thigh2 Collider"
     ],
     "id": 12,
-    "gun_type": [
-      1,
-      2,
-      3
-    ],
+    "mood_value_plus": 8,
     "anim": "",
     "hidden_reaction": "",
-    "mood_value_plus": 8
+    "anim_r": "XC3_idle_CW_fb01_R"
   },
   "10": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [],
     "collider": [
       "R Hand Collider"
     ],
     "id": 10,
-    "gun_type": [],
+    "mood_value_plus": 0,
     "anim": "XC3_idle_CN_fb01",
     "hidden_reaction": "",
-    "mood_value_plus": 0
+    "anim_r": ""
   },
   "11": {
-    "anim_r": "",
     "anim_l": "",
+    "gun_type": [],
     "collider": [
       "LeftChestAssistA01"
     ],
     "id": 11,
-    "gun_type": [],
+    "mood_value_plus": 0,
     "anim": "XC3_idle_CN_fb02",
     "hidden_reaction": "",
-    "mood_value_plus": 0
+    "anim_r": ""
   },
   "99": {
-    "anim_r": "",
     "anim_l": "",
-    "collider": [
-      "Head Collider"
-    ],
-    "id": 99,
     "gun_type": [
       1,
       2
     ],
+    "collider": [
+      "Head Collider"
+    ],
+    "id": 99,
+    "mood_value_plus": -10,
     "hidden_reaction": {
-      "sceneName": "XiChe_79902_TSZS-2",
-      "sceneAB": "dorm3d/character/naximofu_db/timeline/xiche_79902_tszs-2/xiche_79902_tszs-2_scene",
       "exit": "black",
-      "enter": "white"
+      "enter": "white",
+      "sceneAB": "dorm3d/character/naximofu_db/timeline/xiche_79902_tszs-2/xiche_79902_tszs-2_scene",
+      "sceneName": "XiChe_79902_TSZS-2"
     },
     "anim": "",
-    "mood_value_plus": -10
+    "anim_r": ""
   },
   "all": [
     1,

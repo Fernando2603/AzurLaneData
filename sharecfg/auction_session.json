@@ -1,6 +1,31 @@
 {
   "1": {
+    "rarity_probability": [
+      [
+        1,
+        3800
+      ],
+      [
+        2,
+        3100
+      ],
+      [
+        3,
+        2500
+      ],
+      [
+        4,
+        500
+      ],
+      [
+        5,
+        100
+      ]
+    ],
+    "auction_value": "Low",
     "ticket": 100,
+    "threshold": 5000,
+    "id": 1,
     "name": "B-Tier",
     "value_range": [
       [
@@ -32,9 +57,8 @@
         200
       ]
     ],
+    "game_type": 105,
     "bottom_price": 0,
-    "id": 1,
-    "threshold": 5000,
     "rarity_limit": [
       [
         1,
@@ -48,34 +72,35 @@
         3,
         2
       ]
-    ],
-    "auction_value": "Low",
+    ]
+  },
+  "2": {
     "rarity_probability": [
       [
         1,
-        3800
-      ],
-      [
-        2,
-        3100
-      ],
-      [
-        3,
         2500
       ],
       [
+        2,
+        2800
+      ],
+      [
+        3,
+        2700
+      ],
+      [
         4,
-        500
+        1500
       ],
       [
         5,
-        100
+        500
       ]
     ],
-    "game_type": 105
-  },
-  "2": {
+    "auction_value": "Medium",
     "ticket": 5000,
+    "threshold": 1000000,
+    "id": 2,
     "name": "A-Tier",
     "value_range": [
       [
@@ -107,9 +132,8 @@
         200
       ]
     ],
+    "game_type": 106,
     "bottom_price": 0,
-    "id": 2,
-    "threshold": 1000000,
     "rarity_limit": [
       [
         1,
@@ -127,34 +151,35 @@
         4,
         1
       ]
-    ],
-    "auction_value": "Medium",
+    ]
+  },
+  "3": {
     "rarity_probability": [
       [
         1,
-        2500
+        1000
       ],
       [
         2,
-        2800
+        2200
       ],
       [
         3,
-        2700
+        3100
       ],
       [
         4,
-        1500
+        3000
       ],
       [
         5,
-        500
+        700
       ]
     ],
-    "game_type": 106
-  },
-  "3": {
+    "auction_value": "High",
     "ticket": 20000,
+    "threshold": 3000000,
+    "id": 3,
     "name": "S-Tier",
     "value_range": [
       [
@@ -186,9 +211,8 @@
         300
       ]
     ],
+    "game_type": 107,
     "bottom_price": 0,
-    "id": 3,
-    "threshold": 3000000,
     "rarity_limit": [
       [
         1,
@@ -206,34 +230,35 @@
         4,
         3
       ]
-    ],
-    "auction_value": "High",
+    ]
+  },
+  "4": {
     "rarity_probability": [
       [
         1,
-        1000
+        4700
       ],
       [
         2,
-        2200
+        4000
       ],
       [
         3,
-        3100
+        900
       ],
       [
         4,
-        3000
+        300
       ],
       [
         5,
-        700
+        100
       ]
     ],
-    "game_type": 107
-  },
-  "4": {
+    "auction_value": "",
     "ticket": 0,
+    "threshold": 0,
+    "id": 4,
     "name": "Order Items",
     "value_range": [
       [
@@ -265,9 +290,8 @@
         200
       ]
     ],
+    "game_type": 0,
     "bottom_price": 0,
-    "id": 4,
-    "threshold": 0,
     "rarity_limit": [
       [
         1,
@@ -277,31 +301,7 @@
         3,
         1
       ]
-    ],
-    "auction_value": "",
-    "rarity_probability": [
-      [
-        1,
-        4700
-      ],
-      [
-        2,
-        4000
-      ],
-      [
-        3,
-        900
-      ],
-      [
-        4,
-        300
-      ],
-      [
-        5,
-        100
-      ]
-    ],
-    "game_type": 0
+    ]
   },
   "all": [
     1,
