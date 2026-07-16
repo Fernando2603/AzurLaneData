@@ -1,465 +1,493 @@
 {
   "1": {
-    "type": 3,
+    "name": "event_all",
     "param": "0",
+    "type": 3,
     "id": 1,
     "time": [
       "default",
       51033
     ],
     "order": 1,
-    "name": "event_all",
+    "group_id": 1,
     "pic": "event_all",
-    "text_pic": "text_event_all",
-    "group_id": 1
+    "text_pic": "text_event_all"
   },
   "2": {
-    "type": 3,
+    "name": "event_all",
     "param": "5871",
+    "type": 3,
     "id": 2,
     "order": 2,
-    "time": "stop",
-    "name": "event_all",
     "pic": "event_all",
+    "group_id": 1,
     "text_pic": "text_event_all",
-    "group_id": 1
+    "time": "stop"
   },
   "9": {
-    "type": 3,
+    "name": "event_all",
     "param": "0",
+    "type": 3,
     "id": 9,
     "order": 99,
-    "time": "always",
-    "name": "event_all",
     "pic": "event_all_default",
+    "group_id": 1,
     "text_pic": "text_event_all",
-    "group_id": 1
+    "time": "always"
   },
   "10": {
-    "type": 0,
+    "name": "event_map",
     "param": "",
+    "type": 0,
     "id": 10,
     "time": [
       "default",
       50651
     ],
     "order": 1,
-    "name": "event_map",
+    "group_id": 2,
     "pic": "event_map",
-    "text_pic": "text_event_map",
-    "group_id": 2
+    "text_pic": "text_event_map"
   },
   "11": {
+    "name": "event_map_sub",
+    "text_pic": "text_event_map_sub",
     "type": 2,
+    "id": 11,
     "param": [
       "LiquorFloor"
     ],
-    "id": 11,
     "order": 1,
+    "group_id": 3,
     "pic": "event_map_sub",
-    "name": "event_map_sub",
-    "time": "stop",
-    "text_pic": "text_event_map_sub",
-    "group_id": 3
+    "time": "stop"
   },
   "12": {
+    "name": "event_sub_act",
+    "text_pic": "text_event_map_sub",
     "type": 2,
+    "id": 12,
     "param": [
       "LiquorFloor"
     ],
-    "id": 12,
     "time": [
       "default",
       50434
     ],
+    "group_id": 3,
     "order": 1,
-    "name": "event_sub_act",
-    "pic": "event_map_sub",
-    "text_pic": "text_event_map_sub",
-    "group_id": 3
+    "pic": "event_map_sub"
   },
   "13": {
+    "name": "event_old_act",
+    "text_pic": "",
     "type": 2,
+    "id": 13,
     "param": [
       "LiquorFloor"
     ],
-    "id": 13,
     "time": [
       "default",
       50434
     ],
+    "group_id": 3,
     "order": 1,
-    "name": "event_old_act",
-    "pic": "",
-    "text_pic": "",
-    "group_id": 3
+    "pic": ""
   },
   "20": {
+    "name": "event_minigame",
+    "text_pic": "text_event_minigame",
     "type": 2,
+    "id": 20,
     "param": [
       "holiday villa map"
     ],
-    "id": 20,
     "order": 1,
+    "group_id": 5,
     "pic": "event_minigame",
-    "name": "event_minigame",
-    "time": "stop",
-    "text_pic": "text_event_minigame",
-    "group_id": 5
+    "time": "stop"
   },
   "21": {
+    "name": "event_holidayVilla",
+    "text_pic": "text_event_minigame",
     "type": 0,
+    "id": 21,
     "param": [
       "holiday villa map",
       5922
     ],
-    "id": 21,
     "order": 1,
+    "group_id": 5,
     "pic": "event_minigame",
-    "name": "event_holidayVilla",
-    "time": "stop",
-    "text_pic": "text_event_minigame",
-    "group_id": 5
+    "time": "stop"
   },
   "30": {
-    "type": 0,
+    "name": "event_boss",
     "param": "0",
+    "type": 0,
     "id": 30,
     "order": 1,
-    "time": "stop",
-    "name": "event_boss",
     "pic": "event_boss",
+    "group_id": 3,
     "text_pic": "text_event_boss",
-    "group_id": 3
+    "time": "stop"
   },
   "40": {
-    "type": 0,
+    "name": "event_escort",
     "param": "0",
+    "type": 0,
     "id": 40,
     "time": [
       "default"
     ],
     "order": 1,
-    "name": "event_escort",
+    "group_id": 6,
     "pic": "event_escort",
-    "text_pic": "text_event_escort",
-    "group_id": 6
+    "text_pic": "text_event_escort"
   },
   "60": {
-    "type": 0,
+    "name": "event_LanternFestival",
     "param": "0",
+    "type": 0,
     "id": 60,
     "time": [
       "default",
       5803
     ],
     "order": 1,
-    "name": "event_LanternFestival",
+    "group_id": 7,
     "pic": "event_LanternFestival",
-    "text_pic": "text_event_LanternFestival",
-    "group_id": 7
+    "text_pic": "text_event_LanternFestival"
   },
   "70": {
-    "type": 0,
+    "name": "event_aprilFool",
     "param": "0",
+    "type": 0,
     "id": 70,
     "time": [
       "default",
       5267
     ],
     "order": 1,
-    "name": "event_aprilFool",
+    "group_id": 8,
     "pic": "event_aprilFool",
-    "text_pic": "text_event_aprilFool",
-    "group_id": 8
+    "text_pic": "text_event_aprilFool"
   },
   "80": {
+    "name": "event_Atelier",
+    "text_pic": "text_event_Atelier",
     "type": 2,
+    "id": 80,
     "param": [
       "ATELIER_COMPOSITE"
     ],
-    "id": 80,
     "time": [
       "default",
       4581
     ],
+    "group_id": 9,
     "order": 1,
-    "name": "event_Atelier",
-    "pic": "event_Atelier",
-    "text_pic": "text_event_Atelier",
-    "group_id": 9
+    "pic": "event_Atelier"
   },
   "90": {
-    "type": 0,
+    "name": "event_series",
     "param": "0",
+    "type": 0,
     "id": 90,
     "order": 1,
-    "time": "stop",
-    "name": "event_series",
     "pic": "event_series",
+    "group_id": 4,
     "text_pic": "text_event_map",
-    "group_id": 4
+    "time": "stop"
   },
   "100": {
+    "name": "event_medal",
+    "text_pic": "text_event_medal",
     "type": 2,
+    "id": 100,
     "param": [
       "SENRANKAGURA_MEDAL"
     ],
-    "id": 100,
     "time": [
       "default",
       5093
     ],
+    "group_id": 10,
     "order": 1,
-    "name": "event_medal",
-    "pic": "event_medal",
-    "text_pic": "text_event_medal",
-    "group_id": 10
+    "pic": "event_medal"
   },
   "101": {
+    "name": "event_senran",
+    "text_pic": "text_event_senran",
     "type": 2,
+    "id": 101,
     "param": [
       "SENRANKAGURA_TRAIN"
     ],
-    "id": 101,
     "time": [
       "default",
       5099
     ],
+    "group_id": 100,
     "order": 1,
-    "name": "event_senran",
-    "pic": "event_senran",
-    "text_pic": "text_event_senran",
-    "group_id": 100
+    "pic": "event_senran"
   },
   "102": {
-    "type": 0,
+    "name": "event_boss_single",
     "param": "0",
+    "type": 0,
     "id": 102,
     "order": 1,
-    "time": "stop",
-    "name": "event_boss_single",
     "pic": "event_map",
+    "group_id": 4,
     "text_pic": "text_event_anotherWorld",
-    "group_id": 4
+    "time": "stop"
   },
   "103": {
+    "name": "event_dreamland",
+    "text_pic": "text_event_minigame",
     "type": 2,
+    "id": 103,
     "param": [
       "DREAMLAND"
     ],
-    "id": 103,
     "order": 1,
+    "group_id": 9,
     "pic": "event_minigame",
-    "name": "event_dreamland",
-    "time": "stop",
-    "text_pic": "text_event_minigame",
-    "group_id": 9
+    "time": "stop"
   },
   "104": {
+    "name": "event_layer",
+    "text_pic": "text_event_layer",
     "type": 14,
-    "param": {
-      "mediator": "ChildishnessSchoolPtMediator",
-      "view": "ChildishnessSchoolPtPage"
-    },
     "id": 104,
+    "param": {
+      "view": "ChildishnessSchoolPtPage",
+      "mediator": "ChildishnessSchoolPtMediator"
+    },
     "time": [
       "default",
       5404
     ],
+    "group_id": 1,
     "order": 1,
-    "name": "event_layer",
-    "pic": "event_layer",
-    "text_pic": "text_event_layer",
-    "group_id": 1
+    "pic": "event_layer"
   },
   "105": {
+    "name": "event_boat_ad_game",
+    "text_pic": "text_event_boat_ad_game",
     "type": 7,
+    "id": 105,
     "param": [
       68
     ],
-    "id": 105,
     "time": [
       "default",
       50204
     ],
+    "group_id": 10,
     "order": 1,
-    "name": "event_boat_ad_game",
-    "pic": "event_boat_ad_game",
-    "text_pic": "text_event_boat_ad_game",
-    "group_id": 10
+    "pic": "event_boat_ad_game"
   },
   "107": {
+    "name": "event_tolove",
+    "text_pic": "text_event_minigame",
     "type": 2,
+    "id": 107,
     "param": [
       "TOLOVE_COLLAB_BACKHILL"
     ],
-    "id": 107,
     "time": [
       "default",
       5686
     ],
+    "group_id": 12,
     "order": 1,
-    "name": "event_tolove",
-    "pic": "event_minigame",
-    "text_pic": "text_event_minigame",
-    "group_id": 12
+    "pic": "event_minigame"
   },
   "108": {
+    "name": "event_minigame",
+    "text_pic": "text_event_minigame",
     "type": 2,
+    "id": 108,
     "param": [
       "firework and spring"
     ],
-    "id": 108,
     "time": [
       "default",
       5785
     ],
+    "group_id": 13,
     "order": 1,
-    "name": "event_minigame",
-    "pic": "event_minigame",
-    "text_pic": "text_event_minigame",
-    "group_id": 13
+    "pic": "event_minigame"
   },
   "109": {
-    "type": 16,
+    "name": "event_core",
     "param": "DreamTourCoreActivityUI",
+    "type": 16,
     "id": 109,
     "time": [
       "default",
       50652
     ],
     "order": 1,
-    "name": "event_core",
+    "group_id": 1,
     "pic": "event_core",
-    "text_pic": "text_event_core",
-    "group_id": 1
+    "text_pic": "text_event_core"
   },
   "110": {
-    "type": 16,
+    "name": "event_core_2",
     "param": "AnniversaryNineCoreActivityUI",
+    "type": 16,
     "id": 110,
     "time": [
       "default",
       50611
     ],
     "order": 2,
-    "name": "event_core_2",
+    "group_id": 2,
     "pic": "event_core3",
-    "text_pic": "text_event_core3",
-    "group_id": 2
+    "text_pic": "text_event_core3"
   },
   "111": {
-    "type": 16,
+    "name": "event_map_2",
     "param": "ALYCoreActivityUI",
+    "type": 16,
     "id": 111,
     "time": [
       "default",
       50042
     ],
     "order": 1,
-    "name": "event_map_2",
+    "group_id": 1,
     "pic": "event_ryzaAtelierRe",
-    "text_pic": "text_event_ryzaAtelierRe",
-    "group_id": 1
+    "text_pic": "text_event_ryzaAtelierRe"
   },
   "112": {
-    "type": 0,
+    "name": "event_second_map",
     "param": "0",
+    "type": 0,
     "id": 112,
     "time": [
       "default",
       50042
     ],
     "order": 1,
-    "name": "event_second_map",
+    "group_id": 1,
     "pic": "event_ryza_map",
-    "text_pic": "text_event_ryza_map",
-    "group_id": 1
+    "text_pic": "text_event_ryza_map"
   },
   "113": {
-    "type": 16,
+    "name": "event_core_2",
     "param": "EighthAnniversaryJpCoreActivityUI",
+    "type": 16,
     "id": 113,
     "time": [
       "default",
       50118
     ],
     "order": 1,
-    "name": "event_core_2",
+    "group_id": 1,
     "pic": "event_special",
-    "text_pic": "text_event_special",
-    "group_id": 1
+    "text_pic": "text_event_special"
   },
   "114": {
-    "type": 16,
+    "name": "event_core",
     "param": "WinterFestival2025CoreActivityUI",
+    "type": 16,
     "id": 114,
     "time": [
       "default",
       50298
     ],
     "order": 1,
-    "name": "event_core",
+    "group_id": 1,
     "pic": "event_core3",
-    "text_pic": "text_event_core3",
-    "group_id": 1
+    "text_pic": "text_event_core3"
   },
   "115": {
-    "type": 16,
+    "name": "event_core_2",
     "param": "AnniversaryNineCoreActivityUI",
+    "type": 16,
     "id": 115,
     "time": [
       "default",
       50630
     ],
     "order": 1,
-    "name": "event_core_2",
+    "group_id": 1,
     "pic": "event_core2",
-    "text_pic": "text_event_core2",
-    "group_id": 1
+    "text_pic": "text_event_core2"
   },
   "117": {
-    "type": 16,
+    "name": "event_core",
     "param": "GeZiURCoreActivityUI",
+    "type": 16,
     "id": 117,
     "time": [
       "default",
       50608
     ],
     "order": 1,
-    "name": "event_core",
+    "group_id": 1,
     "pic": "event_core3",
-    "text_pic": "text_event_core3",
-    "group_id": 1
+    "text_pic": "text_event_core3"
   },
   "116": {
-    "type": 16,
+    "name": "event_core",
     "param": "HolidayCoreActivityUI",
+    "type": 16,
     "id": 116,
     "time": [
       "default",
       51001
     ],
     "order": 1,
-    "name": "event_core",
+    "group_id": 1,
     "pic": "event_core3",
-    "text_pic": "text_event_core3",
-    "group_id": 1
+    "text_pic": "text_event_core3"
   },
   "121": {
-    "type": 0,
+    "name": "event_map",
     "param": "",
+    "type": 0,
     "id": 121,
     "time": [
       "default",
       50825
     ],
     "order": 2,
-    "name": "event_map",
+    "group_id": 2,
     "pic": "event_map2",
-    "text_pic": "text_event_map",
-    "group_id": 2
+    "text_pic": "text_event_map"
+  },
+  "122": {
+    "name": "event_core",
+    "param": "NieRAutomataCoreActivityUI",
+    "type": 16,
+    "id": 122,
+    "time": [
+      "default",
+      50841
+    ],
+    "order": 1,
+    "group_id": 1,
+    "pic": "event_core3",
+    "text_pic": "text_event_core3"
+  },
+  "131": {
+    "name": "event_core_2",
+    "param": "AuctionGameCoreActivityUI",
+    "type": 16,
+    "id": 131,
+    "time": [
+      "default",
+      970002
+    ],
+    "order": 1,
+    "group_id": 1,
+    "pic": "event_auction",
+    "text_pic": "text_event_auction"
   },
   "all": [
     1,
@@ -494,6 +522,8 @@
     115,
     117,
     116,
-    121
+    121,
+    122,
+    131
   ]
 }

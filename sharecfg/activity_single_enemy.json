@@ -1,18 +1,20 @@
 {
   "1001": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 1,
+    "name": "",
     "expedition_id": 0,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
     "id": 1001,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
@@ -43,25 +45,25 @@
         ]
       ]
     ],
-    "count": 0,
-    "strategy_id": "",
-    "level": "",
-    "guardian_limit": 0
+    "enter_cost": 0,
+    "pre_chapter": 0
   },
   "1002": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 1001,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 2,
+    "name": "",
     "expedition_id": 0,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
+    "property_limitation": [],
+    "type": 2,
     "id": 1002,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
@@ -92,25 +94,25 @@
         ]
       ]
     ],
-    "count": 0,
-    "strategy_id": "",
-    "level": "",
-    "guardian_limit": 0
+    "enter_cost": 0,
+    "pre_chapter": 1001
   },
   "1003": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 1002,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 3,
+    "name": "",
     "expedition_id": 0,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
+    "property_limitation": [],
+    "type": 3,
     "id": 1003,
+    "guardian_limit": 0,
     "use_oil_limit": [
       25,
       15
@@ -141,14 +143,21 @@
         ]
       ]
     ],
-    "count": 0,
-    "strategy_id": "",
-    "level": "",
-    "guardian_limit": 0
+    "enter_cost": 0,
+    "pre_chapter": 1002
   },
   "1004": {
-    "extra_drop": "",
+    "strategy_num": 0,
+    "name": "",
+    "expedition_id": 0,
+    "count": 1,
     "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
     "property_limitation": [
       [
         "level",
@@ -156,16 +165,9 @@
         110
       ]
     ],
-    "pre_chapter": 1003,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
-    "strategy_num": 0,
-    "limitation": [],
     "type": 4,
-    "expedition_id": 0,
     "id": 1004,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
@@ -196,14 +198,21 @@
         ]
       ]
     ],
-    "count": 1,
-    "strategy_id": "",
-    "level": "",
-    "guardian_limit": 0
+    "enter_cost": 0,
+    "pre_chapter": 1003
   },
   "1005": {
-    "extra_drop": "",
+    "strategy_num": 0,
+    "name": "",
+    "expedition_id": 0,
+    "count": 0,
     "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
     "property_limitation": [
       [
         "level",
@@ -211,16 +220,9 @@
         105
       ]
     ],
-    "pre_chapter": 1003,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
-    "strategy_num": 0,
-    "limitation": [],
     "type": 5,
-    "expedition_id": 0,
     "id": 1005,
+    "guardian_limit": 1,
     "use_oil_limit": [
       40,
       16
@@ -251,12 +253,26 @@
         ]
       ]
     ],
-    "count": 0,
-    "strategy_id": "",
-    "level": "",
-    "guardian_limit": 1
+    "enter_cost": 0,
+    "pre_chapter": 1003
   },
   "2001": {
+    "strategy_num": 2,
+    "name": "T1 Inpatient Building",
+    "expedition_id": 1901001,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": [
+      201301,
+      201302,
+      201303,
+      201304,
+      201309,
+      201310,
+      201311
+    ],
     "extra_drop": [
       [
         1,
@@ -267,37 +283,36 @@
         905365
       ]
     ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
+    "level": "LV.20",
     "icon": "clue_5",
-    "enter_cost": 0,
-    "name": "T1 Inpatient Building",
-    "strategy_num": 2,
-    "limitation": [],
+    "property_limitation": [],
     "type": 1,
-    "expedition_id": 1901001,
     "id": 2001,
-    "strategy_id": [
-      201301,
-      201302,
-      201303,
-      201304,
-      201309,
-      201310,
-      201311
-    ],
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "count": 0,
-    "level": "LV.20",
+    "enter_cost": 0,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "2002": {
+    "strategy_num": 2,
+    "name": "T2 Recuperation Center",
+    "expedition_id": 1901002,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": [
+      201301,
+      201302,
+      201303,
+      201305,
+      201309,
+      201312
+    ],
     "extra_drop": [
       [
         1,
@@ -308,36 +323,36 @@
         905365
       ]
     ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
+    "level": "LV.20",
     "icon": "clue_2",
-    "enter_cost": 0,
-    "name": "T2 Recuperation Center",
-    "strategy_num": 2,
-    "limitation": [],
+    "property_limitation": [],
     "type": 1,
-    "expedition_id": 1901002,
     "id": 2002,
-    "strategy_id": [
-      201301,
-      201302,
-      201303,
-      201305,
-      201309,
-      201312
-    ],
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "count": 0,
-    "level": "LV.20",
+    "enter_cost": 0,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "2003": {
+    "strategy_num": 2,
+    "name": "T3 Logistics Center",
+    "expedition_id": 1901003,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": [
+      201301,
+      201302,
+      201303,
+      201306,
+      201309,
+      201313
+    ],
     "extra_drop": [
       [
         1,
@@ -348,36 +363,39 @@
         905365
       ]
     ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
+    "level": "LV.20",
     "icon": "clue_1",
-    "enter_cost": 0,
-    "name": "T3 Logistics Center",
-    "strategy_num": 2,
-    "limitation": [],
+    "property_limitation": [],
     "type": 1,
-    "expedition_id": 1901003,
     "id": 2003,
-    "strategy_id": [
-      201301,
-      201302,
-      201303,
-      201306,
-      201309,
-      201313
-    ],
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "count": 0,
-    "level": "LV.20",
+    "enter_cost": 0,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "2004": {
+    "strategy_num": 2,
+    "name": "T4 Research Center",
+    "expedition_id": 1901004,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": [
+      201301,
+      201302,
+      201303,
+      201307,
+      201314,
+      201315,
+      201316,
+      201317,
+      201318
+    ],
     "extra_drop": [
       [
         1,
@@ -388,39 +406,37 @@
         905365
       ]
     ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
+    "level": "LV.20",
     "icon": "clue_3",
-    "enter_cost": 0,
-    "name": "T4 Research Center",
-    "strategy_num": 2,
-    "limitation": [],
+    "property_limitation": [],
     "type": 1,
-    "expedition_id": 1901004,
     "id": 2004,
-    "strategy_id": [
-      201301,
-      201302,
-      201303,
-      201307,
-      201314,
-      201315,
-      201316,
-      201317,
-      201318
-    ],
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "count": 0,
-    "level": "LV.20",
+    "enter_cost": 0,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "2005": {
+    "strategy_num": 3,
+    "name": "T1 Inpatient Building",
+    "expedition_id": 1902001,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": [
+      201301,
+      201302,
+      201303,
+      201304,
+      201309,
+      201310,
+      201311
+    ],
     "extra_drop": [
       [
         1,
@@ -435,63 +451,28 @@
         905369
       ]
     ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
+    "level": "LV.50",
     "icon": "clue_5",
-    "enter_cost": 0,
-    "name": "T1 Inpatient Building",
-    "strategy_num": 3,
-    "limitation": [],
+    "property_limitation": [],
     "type": 2,
-    "expedition_id": 1902001,
     "id": 2005,
-    "strategy_id": [
-      201301,
-      201302,
-      201303,
-      201304,
-      201309,
-      201310,
-      201311
-    ],
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "count": 0,
-    "level": "LV.50",
+    "enter_cost": 0,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "2006": {
-    "extra_drop": [
-      [
-        1,
-        905367
-      ],
-      [
-        2,
-        905368
-      ],
-      [
-        3,
-        905369
-      ]
-    ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "clue_2",
-    "enter_cost": 0,
-    "name": "T2 Recuperation Center",
     "strategy_num": 3,
-    "limitation": [],
-    "type": 2,
+    "name": "T2 Recuperation Center",
     "expedition_id": 1902002,
-    "id": 2006,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
     "strategy_id": [
       201301,
       201302,
@@ -500,16 +481,6 @@
       201309,
       201312
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "count": 0,
-    "level": "LV.50",
-    "time": "always",
-    "guardian_limit": 0
-  },
-  "2007": {
     "extra_drop": [
       [
         1,
@@ -524,18 +495,28 @@
         905369
       ]
     ],
-    "activity_type": 2,
+    "level": "LV.50",
+    "icon": "clue_2",
     "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "clue_1",
-    "enter_cost": 0,
-    "name": "T3 Logistics Center",
-    "strategy_num": 3,
-    "limitation": [],
     "type": 2,
+    "id": 2006,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 0
+  },
+  "2007": {
+    "strategy_num": 3,
+    "name": "T3 Logistics Center",
     "expedition_id": 1902003,
-    "id": 2007,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
     "strategy_id": [
       201301,
       201302,
@@ -544,16 +525,6 @@
       201309,
       201313
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "count": 0,
-    "level": "LV.50",
-    "time": "always",
-    "guardian_limit": 0
-  },
-  "2008": {
     "extra_drop": [
       [
         1,
@@ -568,18 +539,28 @@
         905369
       ]
     ],
-    "activity_type": 2,
+    "level": "LV.50",
+    "icon": "clue_1",
     "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "clue_3",
-    "enter_cost": 0,
-    "name": "T4 Research Center",
-    "strategy_num": 3,
-    "limitation": [],
     "type": 2,
+    "id": 2007,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 0
+  },
+  "2008": {
+    "strategy_num": 3,
+    "name": "T4 Research Center",
     "expedition_id": 1902004,
-    "id": 2008,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
     "strategy_id": [
       201301,
       201302,
@@ -591,46 +572,42 @@
       201317,
       201318
     ],
+    "extra_drop": [
+      [
+        1,
+        905367
+      ],
+      [
+        2,
+        905368
+      ],
+      [
+        3,
+        905369
+      ]
+    ],
+    "level": "LV.50",
+    "icon": "clue_3",
+    "property_limitation": [],
+    "type": 2,
+    "id": 2008,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "count": 0,
-    "level": "LV.50",
+    "enter_cost": 0,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "2009": {
-    "extra_drop": [
-      [
-        1,
-        905371
-      ],
-      [
-        2,
-        905372
-      ],
-      [
-        3,
-        905373
-      ],
-      [
-        4,
-        905374
-      ]
-    ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "clue_5",
-    "enter_cost": 0,
-    "name": "T1 Inpatient Building",
     "strategy_num": 4,
-    "limitation": [],
-    "type": 3,
+    "name": "T1 Inpatient Building",
     "expedition_id": 1903001,
-    "id": 2009,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
     "strategy_id": [
       201301,
       201302,
@@ -640,16 +617,6 @@
       201310,
       201311
     ],
-    "use_oil_limit": [
-      25,
-      15
-    ],
-    "count": 0,
-    "level": "LV.90",
-    "time": "always",
-    "guardian_limit": 0
-  },
-  "2010": {
     "extra_drop": [
       [
         1,
@@ -668,18 +635,28 @@
         905374
       ]
     ],
-    "activity_type": 2,
+    "level": "LV.90",
+    "icon": "clue_5",
     "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "clue_2",
-    "enter_cost": 0,
-    "name": "T2 Recuperation Center",
-    "strategy_num": 4,
-    "limitation": [],
     "type": 3,
+    "id": 2009,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      25,
+      15
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 0
+  },
+  "2010": {
+    "strategy_num": 4,
+    "name": "T2 Recuperation Center",
     "expedition_id": 1903002,
-    "id": 2010,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
     "strategy_id": [
       201301,
       201302,
@@ -688,16 +665,6 @@
       201309,
       201312
     ],
-    "use_oil_limit": [
-      25,
-      15
-    ],
-    "count": 0,
-    "level": "LV.90",
-    "time": "always",
-    "guardian_limit": 0
-  },
-  "2011": {
     "extra_drop": [
       [
         1,
@@ -716,18 +683,28 @@
         905374
       ]
     ],
-    "activity_type": 2,
+    "level": "LV.90",
+    "icon": "clue_2",
     "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "clue_1",
-    "enter_cost": 0,
-    "name": "T3 Logistics Center",
-    "strategy_num": 4,
-    "limitation": [],
     "type": 3,
+    "id": 2010,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      25,
+      15
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 0
+  },
+  "2011": {
+    "strategy_num": 4,
+    "name": "T3 Logistics Center",
     "expedition_id": 1903003,
-    "id": 2011,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
     "strategy_id": [
       201301,
       201302,
@@ -736,16 +713,6 @@
       201309,
       201313
     ],
-    "use_oil_limit": [
-      25,
-      15
-    ],
-    "count": 0,
-    "level": "LV.90",
-    "time": "always",
-    "guardian_limit": 0
-  },
-  "2012": {
     "extra_drop": [
       [
         1,
@@ -764,18 +731,28 @@
         905374
       ]
     ],
-    "activity_type": 2,
+    "level": "LV.90",
+    "icon": "clue_1",
     "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "clue_3",
-    "enter_cost": 0,
-    "name": "T4 Research Center",
-    "strategy_num": 4,
-    "limitation": [],
     "type": 3,
+    "id": 2011,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      25,
+      15
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 0
+  },
+  "2012": {
+    "strategy_num": 4,
+    "name": "T4 Research Center",
     "expedition_id": 1903004,
-    "id": 2012,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 0,
     "strategy_id": [
       201301,
       201302,
@@ -787,16 +764,55 @@
       201317,
       201318
     ],
+    "extra_drop": [
+      [
+        1,
+        905371
+      ],
+      [
+        2,
+        905372
+      ],
+      [
+        3,
+        905373
+      ],
+      [
+        4,
+        905374
+      ]
+    ],
+    "level": "LV.90",
+    "icon": "clue_3",
+    "property_limitation": [],
+    "type": 3,
+    "id": 2012,
+    "guardian_limit": 0,
     "use_oil_limit": [
       25,
       15
     ],
-    "count": 0,
-    "level": "LV.90",
+    "enter_cost": 0,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "2013": {
+    "strategy_num": 4,
+    "name": "ESP Medical Center",
+    "expedition_id": 1904001,
+    "count": 0,
+    "activity_type": 2,
+    "limitation": [],
+    "enter_cost_drop": 905380,
+    "strategy_id": [
+      201301,
+      201302,
+      201303,
+      201308,
+      201309,
+      201319,
+      201320
+    ],
     "extra_drop": [
       [
         1,
@@ -815,183 +831,248 @@
         905379
       ]
     ],
-    "activity_type": 2,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 905380,
+    "level": "LV.110",
     "icon": "clue_4",
-    "enter_cost": 65561,
-    "name": "ESP Medical Center",
-    "strategy_num": 4,
-    "limitation": [],
+    "property_limitation": [],
     "type": 4,
-    "expedition_id": 1904001,
     "id": 2013,
-    "strategy_id": [
-      201301,
-      201302,
-      201303,
-      201308,
-      201309,
-      201319,
-      201320
-    ],
+    "guardian_limit": 0,
     "use_oil_limit": [
       40,
       16
     ],
-    "count": 0,
-    "level": "LV.110",
+    "enter_cost": 65561,
     "time": "always",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "3001": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "ABRS-1",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 1,
+    "name": "ABRS-1",
     "expedition_id": 1929001,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "30",
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
     "id": 3001,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "strategy_id": "",
-    "count": 0,
+    "enter_cost": 0,
     "time": "always",
-    "level": "30",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "3002": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 3001,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "ABRS-2",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 1,
+    "name": "ABRS-2",
     "expedition_id": 1929002,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "60",
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
     "id": 3002,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "strategy_id": "",
-    "count": 0,
+    "enter_cost": 0,
     "time": "always",
-    "level": "60",
-    "guardian_limit": 0
+    "pre_chapter": 3001
   },
   "3003": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 3002,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "ABRS-3",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 1,
+    "name": "ABRS-3",
     "expedition_id": 1929003,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "90",
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
     "id": 3003,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "strategy_id": "",
-    "count": 0,
+    "enter_cost": 0,
     "time": "always",
+    "pre_chapter": 3002
+  },
+  "4001": {
+    "strategy_num": 0,
+    "name": "BATTLE-1",
+    "expedition_id": 2049001,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "30",
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
+    "id": 4001,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 0
+  },
+  "4002": {
+    "strategy_num": 0,
+    "name": "BATTLE-2",
+    "expedition_id": 2049002,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "60",
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
+    "id": 4002,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 4001
+  },
+  "4003": {
+    "strategy_num": 0,
+    "name": "BATTLE-3",
+    "expedition_id": 2049003,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
     "level": "90",
-    "guardian_limit": 0
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
+    "id": 4003,
+    "guardian_limit": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "enter_cost": 0,
+    "time": "always",
+    "pre_chapter": 4002
   },
   "1000001": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 0,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 1,
+    "name": "",
     "expedition_id": 1799001,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
+    "property_limitation": [],
+    "type": 1,
     "id": 1000001,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "strategy_id": "",
-    "count": 0,
+    "enter_cost": 0,
     "time": "stop",
-    "level": "",
-    "guardian_limit": 0
+    "pre_chapter": 0
   },
   "1000002": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 1000001,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 2,
+    "name": "",
     "expedition_id": 1799002,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
+    "property_limitation": [],
+    "type": 2,
     "id": 1000002,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "strategy_id": "",
-    "count": 0,
+    "enter_cost": 0,
     "time": "stop",
-    "level": "",
-    "guardian_limit": 0
+    "pre_chapter": 1000001
   },
   "1000003": {
-    "extra_drop": "",
-    "activity_type": 1,
-    "property_limitation": [],
-    "pre_chapter": 1000002,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
     "strategy_num": 0,
-    "limitation": [],
-    "type": 3,
+    "name": "",
     "expedition_id": 1799003,
+    "count": 0,
+    "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
+    "property_limitation": [],
+    "type": 3,
     "id": 1000003,
+    "guardian_limit": 0,
     "use_oil_limit": [
       25,
       15
     ],
-    "strategy_id": "",
-    "count": 0,
+    "enter_cost": 0,
     "time": "stop",
-    "level": "",
-    "guardian_limit": 0
+    "pre_chapter": 1000002
   },
   "1000004": {
-    "extra_drop": "",
+    "strategy_num": 0,
+    "name": "",
+    "expedition_id": 1799004,
+    "count": 1,
     "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
     "property_limitation": [
       [
         "level",
@@ -999,29 +1080,29 @@
         110
       ]
     ],
-    "pre_chapter": 1000003,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
-    "strategy_num": 0,
-    "limitation": [],
     "type": 4,
-    "expedition_id": 1799004,
     "id": 1000004,
+    "guardian_limit": 0,
     "use_oil_limit": [
       0,
       0
     ],
-    "strategy_id": "",
-    "count": 1,
+    "enter_cost": 0,
     "time": "stop",
-    "level": "",
-    "guardian_limit": 0
+    "pre_chapter": 1000003
   },
   "1000005": {
-    "extra_drop": "",
+    "strategy_num": 0,
+    "name": "",
+    "expedition_id": 1799005,
+    "count": 0,
     "activity_type": 1,
+    "limitation": [],
+    "enter_cost_drop": 0,
+    "strategy_id": "",
+    "extra_drop": "",
+    "level": "",
+    "icon": "",
     "property_limitation": [
       [
         "level",
@@ -1029,25 +1110,16 @@
         105
       ]
     ],
-    "pre_chapter": 1000003,
-    "enter_cost_drop": 0,
-    "icon": "",
-    "enter_cost": 0,
-    "name": "",
-    "strategy_num": 0,
-    "limitation": [],
     "type": 5,
-    "expedition_id": 1799005,
     "id": 1000005,
+    "guardian_limit": 1,
     "use_oil_limit": [
       40,
       16
     ],
-    "strategy_id": "",
-    "count": 0,
+    "enter_cost": 0,
     "time": "stop",
-    "level": "",
-    "guardian_limit": 1
+    "pre_chapter": 1000003
   },
   "all": [
     1001,
@@ -1071,6 +1143,9 @@
     3001,
     3002,
     3003,
+    4001,
+    4002,
+    4003,
     1000001,
     1000002,
     1000003,
