@@ -2,22 +2,17 @@
   "10013": {
     "behaviour_list": [
       {
-        "hp_rate": 0.005,
         "reload_time": 1,
+        "hp_rate": 0.005,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 8660,
         "reload_time": 1,
-        "type": 3
+        "type": 3,
+        "buff_id": 8660
       },
       {
-        "type": 4,
-        "random_duration": [
-          3,
-          5
-        ],
         "random_speed": 10,
         "route": [
           [
@@ -309,10 +304,15 @@
             5
           ]
         ],
+        "random_duration": [
+          3,
+          5
+        ],
         "random_range": [
           32,
           10
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10013,
@@ -321,15 +321,15 @@
   "10014": {
     "behaviour_list": [
       {
-        "hp_rate": 0.01,
         "reload_time": 1,
+        "hp_rate": 0.01,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 8660,
         "reload_time": 1,
-        "type": 3
+        "type": 3,
+        "buff_id": 8660
       },
       {
         "random_duration": [
@@ -337,7 +337,6 @@
           5
         ],
         "random_speed": 7,
-        "type": 4,
         "route": [
           [
             -20,
@@ -375,7 +374,8 @@
             30,
             5
           ]
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10014,
@@ -384,15 +384,15 @@
   "10015": {
     "behaviour_list": [
       {
-        "hp_rate": 0.01,
         "reload_time": 1,
+        "hp_rate": 0.01,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 8660,
         "reload_time": 1,
-        "type": 3
+        "type": 3,
+        "buff_id": 8660
       },
       {
         "random_duration": [
@@ -400,7 +400,6 @@
           5
         ],
         "random_speed": 7,
-        "type": 4,
         "route": [
           [
             -70,
@@ -438,7 +437,8 @@
             80,
             5
           ]
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10015,
@@ -447,24 +447,24 @@
   "10110": {
     "behaviour_list": [
       {
-        "FX_ID": "shandian",
         "reload_time": 100,
-        "type": 1,
+        "FX_ID": "shandian",
         "offset": [
           0,
           0,
           34
-        ]
+        ],
+        "type": 1
       },
       {
+        "reload_time": 2,
+        "hp_rate": 0.01,
+        "offset": 30,
         "diveFilter": [
           2
         ],
         "type": 2,
-        "damage": 160,
-        "hp_rate": 0.01,
-        "reload_time": 2,
-        "offset": 30
+        "damage": 160
       }
     ],
     "id": 10110,
@@ -473,21 +473,21 @@
   "10020": {
     "behaviour_list": [
       {
-        "FX_ID": "yaosaizidan01",
         "reload_time": 100,
-        "type": 1,
+        "FX_ID": "yaosaizidan01",
         "offset": [
           -15,
           0,
           145
-        ]
+        ],
+        "type": 1
       },
       {
-        "type": 2,
-        "damage": 0,
-        "hp_rate": 0.03,
         "reload_time": 4,
-        "delay": 1
+        "hp_rate": 0.03,
+        "delay": 1,
+        "type": 2,
+        "damage": 0
       }
     ],
     "id": 10020,
@@ -496,23 +496,8 @@
   "10021": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10020,
-            "life_time": 3,
-            "cld_data": [
-              10
-            ]
-          },
-          "alert": {
-            "alert_fx": "AlertArea",
-            "range": 10
-          }
-        },
-        "offset_time": 0,
         "reload_time": 5,
+        "offset_time": 0,
         "route": [
           {
             "count": 3
@@ -524,7 +509,22 @@
             "count": 3
           }
         ],
-        "rounds": 3
+        "rounds": 3,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              10
+            ],
+            "behaviours": 10020,
+            "life_time": 3
+          },
+          "alert": {
+            "alert_fx": "AlertArea",
+            "range": 10
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10021,
@@ -533,23 +533,8 @@
   "10022": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10020,
-            "life_time": 3,
-            "cld_data": [
-              10
-            ]
-          },
-          "alert": {
-            "alert_fx": "AlertArea",
-            "range": 10
-          }
-        },
-        "offset_time": 0,
         "reload_time": 6,
+        "offset_time": 0,
         "route": [
           {
             "count": 3
@@ -561,7 +546,22 @@
             "count": 3
           }
         ],
-        "rounds": 3
+        "rounds": 3,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              10
+            ],
+            "behaviours": 10020,
+            "life_time": 3
+          },
+          "alert": {
+            "alert_fx": "AlertArea",
+            "range": 10
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10022,
@@ -570,23 +570,8 @@
   "10023": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10020,
-            "life_time": 3,
-            "cld_data": [
-              10
-            ]
-          },
-          "alert": {
-            "alert_fx": "AlertArea",
-            "range": 10
-          }
-        },
-        "offset_time": 0,
         "reload_time": 6,
+        "offset_time": 0,
         "route": [
           {
             "count": 3
@@ -598,7 +583,22 @@
             "count": 3
           }
         ],
-        "rounds": 3
+        "rounds": 3,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              10
+            ],
+            "behaviours": 10020,
+            "life_time": 3
+          },
+          "alert": {
+            "alert_fx": "AlertArea",
+            "range": 10
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10023,
@@ -607,9 +607,9 @@
   "10024": {
     "behaviour_list": [
       {
-        "buff_id": 9660,
         "reload_time": 0.1,
-        "type": 3
+        "type": 3,
+        "buff_id": 9660
       }
     ],
     "id": 10024,
@@ -618,31 +618,31 @@
   "105": {
     "behaviour_list": [
       {
-        "life_time": 3,
-        "damage": 20,
         "reload_time": 0.5,
-        "offset": 5,
-        "type": 2
-      },
-      {
-        "reload_time": 6,
-        "type": 8,
-        "shake_ID": 999
-      },
-      {
         "type": 2,
-        "damage": 100,
-        "hp_rate": 0.03,
-        "reload_time": 5,
-        "offset": 20,
-        "delay": 3.5
+        "offset": 5,
+        "life_time": 3,
+        "damage": 20
       },
       {
-        "FX_ID": "haidihuoshan_baofa",
-        "type": 1,
-        "reload_time": 4,
+        "shake_ID": 999,
+        "type": 8,
+        "reload_time": 6
+      },
+      {
+        "reload_time": 5,
+        "hp_rate": 0.03,
         "delay": 3.5,
-        "scaleRate": 1
+        "offset": 20,
+        "type": 2,
+        "damage": 100
+      },
+      {
+        "scaleRate": 1,
+        "FX_ID": "haidihuoshan_baofa",
+        "delay": 3.5,
+        "reload_time": 4,
+        "type": 1
       }
     ],
     "id": 105,
@@ -651,23 +651,8 @@
   "10026": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10025,
-            "life_time": 3,
-            "cld_data": [
-              20
-            ]
-          },
-          "alert": {
-            "alert_fx": "AlertArea",
-            "range": 20
-          }
-        },
-        "offset_time": 0,
         "reload_time": 8,
+        "offset_time": 0,
         "route": [
           {
             "count": 3
@@ -685,7 +670,22 @@
             "count": 3
           }
         ],
-        "rounds": 5
+        "rounds": 5,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              20
+            ],
+            "behaviours": 10025,
+            "life_time": 3
+          },
+          "alert": {
+            "alert_fx": "AlertArea",
+            "range": 20
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10026,
@@ -694,30 +694,30 @@
   "10102": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10110,
-            "life_time": 0.5,
-            "cld_data": [
-              15
-            ]
-          },
-          "alert": {
-            "range": 10,
-            "alert_fx": "AlertArea",
-            "delay": 2
-          }
-        },
-        "offset_time": 0,
         "reload_time": 2.5,
+        "offset_time": 0,
         "route": [
           {
             "count": 3
           }
         ],
-        "rounds": 1
+        "rounds": 1,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              15
+            ],
+            "behaviours": 10110,
+            "life_time": 0.5
+          },
+          "alert": {
+            "range": 10,
+            "alert_fx": "AlertArea",
+            "delay": 2
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10102,
@@ -726,30 +726,30 @@
   "10101": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10110,
-            "life_time": 0.5,
-            "cld_data": [
-              15
-            ]
-          },
-          "alert": {
-            "range": 10,
-            "alert_fx": "AlertArea",
-            "delay": 2
-          }
-        },
-        "offset_time": 0,
         "reload_time": 2.5,
+        "offset_time": 0,
         "route": [
           {
             "count": 2
           }
         ],
-        "rounds": 1
+        "rounds": 1,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              15
+            ],
+            "behaviours": 10110,
+            "life_time": 0.5
+          },
+          "alert": {
+            "range": 10,
+            "alert_fx": "AlertArea",
+            "delay": 2
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10101,
@@ -763,22 +763,17 @@
   "10001": {
     "behaviour_list": [
       {
-        "hp_rate": 0,
         "reload_time": 1,
+        "hp_rate": 0,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 10331,
         "reload_time": 1,
-        "type": 3
+        "type": 3,
+        "buff_id": 10331
       },
       {
-        "type": 4,
-        "random_duration": [
-          3,
-          5
-        ],
         "random_speed": 10,
         "route": [
           [
@@ -794,10 +789,15 @@
             30
           ]
         ],
+        "random_duration": [
+          3,
+          5
+        ],
         "random_range": [
           1,
           1
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10001,
@@ -806,25 +806,25 @@
   "10002": {
     "behaviour_list": [
       {
-        "FX_ID": "ShellMiss",
         "reload_time": 0.5,
+        "FX_ID": "ShellMiss",
         "type": 1
       },
       {
-        "hp_rate": 0,
         "reload_time": 0.5,
+        "hp_rate": 0,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 10331,
         "reload_time": 0.5,
-        "type": 3
+        "type": 3,
+        "buff_id": 10331
       },
       {
         "reload_time": 0.5,
-        "SFX_ID": "battle/cannon-356mm",
-        "type": 7
+        "type": 7,
+        "SFX_ID": "battle/cannon-356mm"
       }
     ],
     "id": 10002,
@@ -833,24 +833,8 @@
   "10003": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10007,
-            "life_time": 0.5,
-            "cld_data": [
-              15
-            ]
-          },
-          "alert": {
-            "range": 10,
-            "alert_fx": "AlertArea",
-            "delay": 0.8
-          }
-        },
-        "offset_time": 0,
         "reload_time": 1.2,
+        "offset_time": 0,
         "route": [
           {
             "count": 7
@@ -865,7 +849,23 @@
             "count": 7
           }
         ],
-        "rounds": 10
+        "rounds": 10,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              15
+            ],
+            "behaviours": 10007,
+            "life_time": 0.5
+          },
+          "alert": {
+            "range": 10,
+            "alert_fx": "AlertArea",
+            "delay": 0.8
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10003,
@@ -874,8 +874,8 @@
   "10004": {
     "behaviour_list": [
       {
-        "hp_rate": 0,
         "reload_time": 0.5,
+        "hp_rate": 0,
         "type": 2,
         "damage": 10
       }
@@ -886,15 +886,15 @@
   "10005": {
     "behaviour_list": [
       {
-        "type": 2,
-        "damage": 30,
-        "hp_rate": 0,
         "reload_time": 2,
-        "offset": 20
+        "hp_rate": 0,
+        "offset": 20,
+        "type": 2,
+        "damage": 30
       },
       {
-        "FX_ID": "haidihuoshan_baofa",
         "reload_time": 5,
+        "FX_ID": "haidihuoshan_baofa",
         "type": 1,
         "scaleRate": 0.05
       }
@@ -905,16 +905,16 @@
   "10006": {
     "behaviour_list": [
       {
-        "type": 2,
-        "damage": 15,
-        "hp_rate": 0.005,
         "reload_time": 0.2,
-        "offset": 5
+        "hp_rate": 0.005,
+        "offset": 5,
+        "type": 2,
+        "damage": 15
       },
       {
-        "buff_id": 79120,
         "reload_time": 0.5,
-        "type": 3
+        "type": 3,
+        "buff_id": 79120
       },
       {
         "random_duration": [
@@ -922,7 +922,6 @@
           30
         ],
         "random_speed": 12,
-        "type": 4,
         "route": [
           [
             -30,
@@ -930,7 +929,8 @@
             55,
             8
           ]
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10006,
@@ -939,21 +939,21 @@
   "10007": {
     "behaviour_list": [
       {
-        "FX_ID": "shandian",
         "reload_time": 100,
-        "type": 1,
+        "FX_ID": "shandian",
         "offset": [
           0,
           0,
           34
-        ]
+        ],
+        "type": 1
       },
       {
-        "type": 2,
-        "damage": 900,
-        "hp_rate": 0,
         "reload_time": 2,
-        "offset": 60
+        "hp_rate": 0,
+        "offset": 60,
+        "type": 2,
+        "damage": 900
       }
     ],
     "id": 10007,
@@ -962,18 +962,17 @@
   "10008": {
     "behaviour_list": [
       {
-        "hp_rate": 0,
         "reload_time": 0.5,
+        "hp_rate": 0,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 10331,
         "reload_time": 0.5,
-        "type": 3
+        "type": 3,
+        "buff_id": 10331
       },
       {
-        "type": 5,
         "route": [
           [
             1,
@@ -982,7 +981,8 @@
             2,
             0
           ]
-        ]
+        ],
+        "type": 5
       }
     ],
     "id": 10008,
@@ -991,13 +991,12 @@
   "10009": {
     "behaviour_list": [
       {
-        "hp_rate": 0,
         "reload_time": 1,
+        "hp_rate": 0,
         "type": 2,
         "damage": 100
       },
       {
-        "type": 4,
         "route": [
           [
             -170,
@@ -1005,7 +1004,8 @@
             55,
             3
           ]
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10009,
@@ -1014,24 +1014,8 @@
   "10100": {
     "behaviour_list": [
       {
-        "type": 6,
-        "content": {
-          "count": 1,
-          "child_prefab": {
-            "behaviours": 10110,
-            "life_time": 0.5,
-            "cld_data": [
-              15
-            ]
-          },
-          "alert": {
-            "range": 10,
-            "alert_fx": "AlertArea",
-            "delay": 2
-          }
-        },
-        "offset_time": 0,
         "reload_time": 3,
+        "offset_time": 0,
         "route": [
           {
             "count": 1
@@ -1040,7 +1024,23 @@
             "count": 2
           }
         ],
-        "rounds": 2
+        "rounds": 2,
+        "content": {
+          "child_prefab": {
+            "cld_data": [
+              15
+            ],
+            "behaviours": 10110,
+            "life_time": 0.5
+          },
+          "alert": {
+            "range": 10,
+            "alert_fx": "AlertArea",
+            "delay": 2
+          },
+          "count": 1
+        },
+        "type": 6
       }
     ],
     "id": 10100,
@@ -1049,22 +1049,17 @@
   "10011": {
     "behaviour_list": [
       {
-        "hp_rate": 0.005,
         "reload_time": 1,
+        "hp_rate": 0.005,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 8660,
         "reload_time": 1,
-        "type": 3
+        "type": 3,
+        "buff_id": 8660
       },
       {
-        "type": 4,
-        "random_duration": [
-          3,
-          5
-        ],
         "random_speed": 10,
         "route": [
           [
@@ -1356,10 +1351,15 @@
             3
           ]
         ],
+        "random_duration": [
+          3,
+          5
+        ],
         "random_range": [
           32,
           10
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10011,
@@ -1368,22 +1368,17 @@
   "10012": {
     "behaviour_list": [
       {
-        "hp_rate": 0.005,
         "reload_time": 1,
+        "hp_rate": 0.005,
         "type": 2,
         "damage": 1
       },
       {
-        "buff_id": 8660,
         "reload_time": 1,
-        "type": 3
+        "type": 3,
+        "buff_id": 8660
       },
       {
-        "type": 4,
-        "random_duration": [
-          3,
-          5
-        ],
         "random_speed": 10,
         "route": [
           [
@@ -1675,10 +1670,15 @@
             7
           ]
         ],
+        "random_duration": [
+          3,
+          5
+        ],
         "random_range": [
           32,
           10
-        ]
+        ],
+        "type": 4
       }
     ],
     "id": 10012,
@@ -1687,21 +1687,21 @@
   "10025": {
     "behaviour_list": [
       {
-        "FX_ID": "yaosaizidan02",
         "reload_time": 100,
-        "type": 1,
+        "FX_ID": "yaosaizidan02",
         "offset": [
           -15,
           0,
           145
-        ]
+        ],
+        "type": 1
       },
       {
-        "type": 2,
-        "damage": 0,
-        "hp_rate": 0.01,
         "reload_time": 4,
-        "delay": 1
+        "hp_rate": 0.01,
+        "delay": 1,
+        "type": 2,
+        "damage": 0
       }
     ],
     "id": 10025,
