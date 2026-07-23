@@ -1,16 +1,64 @@
 {
   "1": {
-    "bgm": [
+    "name": "Navi",
+    "id": 1,
+    "personality_bar_icon": "lingyangzhe_personality_bar",
+    "memory_group": 1003,
+    "child2_data_personality_icon": [
+      "personality_slider1",
+      "worry_btn1"
+    ],
+    "personality_type": 1,
+    "spine_char": {
+      "tag1": "lingyangzhe_1",
+      "boss": "lingyangzhe_boss",
+      "tag2": "lingyangzhe_2"
+    },
+    "personality_param": [
       [
         "tag1",
-        "qe-ova-3"
+        [
+          0,
+          149
+        ]
       ],
       [
         "tag2",
-        "qe-ova-4"
+        [
+          150,
+          300
+        ]
       ]
     ],
-    "name": "Navi",
+    "name2": "Oceana",
+    "unlock": [
+      [
+        "out",
+        2
+      ],
+      [
+        "shop",
+        8
+      ],
+      [
+        "rand_event",
+        3
+      ],
+      [
+        "char_event",
+        10
+      ],
+      [
+        "lesson_upgrade",
+        6
+      ]
+    ],
+    "favor_exp": [
+      100,
+      50,
+      50,
+      100
+    ],
     "exam_action": {
       "tag1": [
         [
@@ -41,57 +89,46 @@
         ]
       ]
     },
-    "personality_param": [
+    "name_background": "educate_oceana_1",
+    "personality_tag_icon": [
       [
         "tag1",
-        [
-          0,
-          149
-        ]
+        "lingyangzhe_tag1_bg",
+        "lingyangzhe_option_bg_center_type1"
       ],
       [
         "tag2",
-        [
-          150,
-          300
-        ]
+        "lingyangzhe_tag2_bg",
+        "lingyangzhe_option_bg_center_type2"
       ]
     ],
-    "favor_exp": [
-      100,
-      50,
-      50,
-      100
-    ],
-    "personality_type": 1,
-    "name2": "Oceana",
     "favor_level": 5,
-    "memory_group": 1003,
-    "unlock": [
+    "shop_disclaim_refund": [],
+    "event_disclaim_refund": [],
+    "bgm": [
       [
-        "out",
-        2
+        "tag1",
+        "qe-ova-3"
       ],
       [
-        "shop",
-        8
-      ],
-      [
-        "rand_event",
-        3
-      ],
-      [
-        "char_event",
-        10
-      ],
-      [
-        "lesson_upgrade",
-        6
+        "tag2",
+        "qe-ova-4"
       ]
     ],
-    "shop_disclaim_refund": [],
-    "name_background": "educate_oceana_1",
-    "event_disclaim_refund": [],
+    "special_memory": {
+      "after_name": [
+        "LINGYANGZHEYANGCHENGJIHUA5"
+      ],
+      "after_ending": "LINGYANGZHEYANGCHENGJIHUA47",
+      "pre_name": [
+        "LINGYANGZHEYANGCHENGJIHUA1",
+        "LINGYANGZHEYANGCHENGJIHUA2",
+        "LINGYANGZHEYANGCHENGJIHUA3",
+        "LINGYANGZHEYANGCHENGJIHUA4"
+      ],
+      "pre_ending": "LINGYANGZHEYANGCHENGJIHUA31"
+    },
+    "head": "lingyangzhe1_1",
     "favor_result_display": [
       [
         2,
@@ -113,57 +150,74 @@
         2,
         16
       ]
-    ],
-    "head": "lingyangzhe1_1",
-    "spine_char": {
-      "tag1": "lingyangzhe_1",
-      "boss": "lingyangzhe_boss",
-      "tag2": "lingyangzhe_2"
-    },
-    "special_memory": {
-      "pre_ending": "LINGYANGZHEYANGCHENGJIHUA31",
-      "after_name": [
-        "LINGYANGZHEYANGCHENGJIHUA5"
-      ],
-      "pre_name": [
-        "LINGYANGZHEYANGCHENGJIHUA1",
-        "LINGYANGZHEYANGCHENGJIHUA2",
-        "LINGYANGZHEYANGCHENGJIHUA3",
-        "LINGYANGZHEYANGCHENGJIHUA4"
-      ],
-      "after_ending": "LINGYANGZHEYANGCHENGJIHUA47"
-    },
-    "id": 1,
-    "child2_data_personality_icon": [
-      "personality_slider1",
-      "worry_btn1"
-    ],
-    "personality_bar_icon": "lingyangzhe_personality_bar",
-    "personality_tag_icon": [
-      [
-        "tag1",
-        "lingyangzhe_tag1_bg",
-        "lingyangzhe_option_bg_center_type1"
-      ],
-      [
-        "tag2",
-        "lingyangzhe_tag2_bg",
-        "lingyangzhe_option_bg_center_type2"
-      ]
     ]
   },
   "2": {
-    "bgm": [
+    "name": "Lora",
+    "id": 2,
+    "personality_bar_icon": "tansuozhe_personality_bar",
+    "memory_group": 1006,
+    "child2_data_personality_icon": [
+      "personality_slider_explorer",
+      "worry_btn_explorer"
+    ],
+    "personality_type": 1,
+    "spine_char": {
+      "tag1": "tansuozhe_1",
+      "minigame_face": "tansuozhe_gaming",
+      "boss": "lingyangzhe_boss",
+      "endless_boss": "tansuozhe_boss",
+      "tag2": "tansuozhe_2"
+    },
+    "personality_param": [
       [
         "tag1",
-        "qe-ova-3"
+        [
+          0,
+          149
+        ]
       ],
       [
         "tag2",
-        "qe-ova-13"
+        [
+          150,
+          300
+        ]
       ]
     ],
-    "name": "Lora",
+    "name2": "Explorer",
+    "unlock": [
+      [
+        "out",
+        2
+      ],
+      [
+        "shop",
+        8
+      ],
+      [
+        "tarot",
+        1
+      ],
+      [
+        "rand_event",
+        3
+      ],
+      [
+        "char_event",
+        6
+      ],
+      [
+        "lesson_upgrade",
+        6
+      ]
+    ],
+    "favor_exp": [
+      100,
+      50,
+      50,
+      100
+    ],
     "exam_action": {
       "tag1": [
         [
@@ -194,58 +248,20 @@
         ]
       ]
     },
-    "personality_param": [
+    "name_background": "educate_explorer_1",
+    "personality_tag_icon": [
       [
         "tag1",
-        [
-          0,
-          149
-        ]
+        "tansuozhe_tag1_bg",
+        "tansuozhe_option_bg_center_type1"
       ],
       [
         "tag2",
-        [
-          150,
-          300
-        ]
+        "tansuozhe_tag2_bg",
+        "tansuozhe_option_bg_center_type2"
       ]
     ],
-    "favor_exp": [
-      100,
-      50,
-      50,
-      100
-    ],
-    "personality_type": 1,
-    "name2": "Explorer",
     "favor_level": 5,
-    "memory_group": 1006,
-    "unlock": [
-      [
-        "out",
-        2
-      ],
-      [
-        "shop",
-        8
-      ],
-      [
-        "tarot",
-        1
-      ],
-      [
-        "rand_event",
-        3
-      ],
-      [
-        "char_event",
-        6
-      ],
-      [
-        "lesson_upgrade",
-        6
-      ]
-    ],
     "shop_disclaim_refund": [
       [
         2,
@@ -258,7 +274,6 @@
         100
       ]
     ],
-    "name_background": "educate_explorer_1",
     "event_disclaim_refund": [
       [
         2,
@@ -271,6 +286,28 @@
         100
       ]
     ],
+    "bgm": [
+      [
+        "tag1",
+        "qe-ova-3"
+      ],
+      [
+        "tag2",
+        "qe-ova-13"
+      ]
+    ],
+    "special_memory": {
+      "after_name": [
+        "TANSUOZHEYANGCHENGJIHUA2",
+        "TANSUOZHEYANGCHENGJIHUA3"
+      ],
+      "after_ending": "TANSUOZHEYANGCHENGJIHUA46",
+      "pre_name": [
+        "TANSUOZHEYANGCHENGJIHUA1"
+      ],
+      "pre_ending": "TANSUOZHEYANGCHENGJIHUA30"
+    },
+    "head": "tansuozhe1_1",
     "favor_result_display": [
       [
         2,
@@ -291,43 +328,6 @@
         2,
         302,
         16
-      ]
-    ],
-    "head": "tansuozhe1_1",
-    "spine_char": {
-      "endless_boss": "tansuozhe_boss",
-      "minigame_face": "tansuozhe_gaming",
-      "tag2": "tansuozhe_2",
-      "boss": "lingyangzhe_boss",
-      "tag1": "tansuozhe_1"
-    },
-    "special_memory": {
-      "pre_ending": "TANSUOZHEYANGCHENGJIHUA30",
-      "after_name": [
-        "TANSUOZHEYANGCHENGJIHUA2",
-        "TANSUOZHEYANGCHENGJIHUA3"
-      ],
-      "pre_name": [
-        "TANSUOZHEYANGCHENGJIHUA1"
-      ],
-      "after_ending": "TANSUOZHEYANGCHENGJIHUA46"
-    },
-    "id": 2,
-    "child2_data_personality_icon": [
-      "personality_slider_explorer",
-      "worry_btn_explorer"
-    ],
-    "personality_bar_icon": "tansuozhe_personality_bar",
-    "personality_tag_icon": [
-      [
-        "tag1",
-        "tansuozhe_tag1_bg",
-        "tansuozhe_option_bg_center_type1"
-      ],
-      [
-        "tag2",
-        "tansuozhe_tag2_bg",
-        "tansuozhe_option_bg_center_type2"
       ]
     ]
   },
