@@ -1,32 +1,35 @@
 {
   "1": {
     "character_action": "IK_sp01_idle01",
-    "r_trigger": [],
+    "character_position": "Pos500510",
     "skin_id": 307071,
-    "l_trigger": [
-      3
+    "r_tip_bone_path": [
+      "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf",
+      "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot"
     ],
-    "hide_scene_item": [
-      "no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+    "tip_show_path": [
+      "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/LeftCalfCollider",
+      ""
     ],
-    "id": 1,
+    "character_id": 30707,
+    "camera": "Cam500510",
     "l_tip_bone_path": [
       "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf",
       "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot"
+    ],
+    "l_trigger": [
+      3
     ],
     "scene_stocking_path": [
       "FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_l",
       "FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_r"
     ],
-    "enable_drag": [
-      1,
-      0
-    ],
-    "camera": "Cam500510",
-    "character_position": "Pos500510",
     "wear_initial_pos": [
       0.1,
       0
+    ],
+    "hide_scene_item": [
+      "no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
     ],
     "enter_extra_item": [
       [
@@ -46,44 +49,42 @@
       ]
     ],
     "enter_scene_anim": [],
-    "character_id": 30707,
+    "id": 1,
+    "r_trigger": [],
+    "enable_drag": [
+      1,
+      0
+    ]
+  },
+  "2": {
+    "character_action": "IK_sp01_idle03",
+    "character_position": "Pos500540",
+    "skin_id": 307071,
     "r_tip_bone_path": [
       "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf",
       "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot"
     ],
     "tip_show_path": [
-      "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/LeftCalfCollider",
-      ""
-    ]
-  },
-  "2": {
-    "character_action": "IK_sp01_idle03",
-    "r_trigger": [
-      2
+      "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/LeftThighCollider",
+      "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/RightThighCollider"
     ],
-    "skin_id": 307071,
-    "l_trigger": [],
-    "hide_scene_item": [
-      "FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
-    ],
-    "id": 2,
+    "character_id": 30707,
+    "camera": "Cam500540",
     "l_tip_bone_path": [
       "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf",
       "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot"
     ],
+    "l_trigger": [],
     "scene_stocking_path": [
       "FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_l",
       "FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_r"
     ],
-    "enable_drag": [
-      1,
-      1
-    ],
-    "camera": "Cam500540",
-    "character_position": "Pos500540",
     "wear_initial_pos": [
       0.1,
       0.1
+    ],
+    "hide_scene_item": [
+      "FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
     ],
     "enter_extra_item": [
       [
@@ -103,14 +104,13 @@
       ]
     ],
     "enter_scene_anim": [],
-    "character_id": 30707,
-    "r_tip_bone_path": [
-      "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf",
-      "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot"
+    "id": 2,
+    "r_trigger": [
+      2
     ],
-    "tip_show_path": [
-      "all/Bip001/Bip001 Pelvis/Bip001 L Thigh/LeftThighCollider",
-      "all/Bip001/Bip001 Pelvis/Bip001 R Thigh/RightThighCollider"
+    "enable_drag": [
+      1,
+      1
     ]
   },
   "all": [
