@@ -1,9 +1,15 @@
 {
   "10": {
     "id": 10,
-    "pic": "shopbanner/shop_skin",
     "order": 10,
     "name": "banner_big",
+    "relation_param": "",
+    "type": 2,
+    "pic": "shopbanner/shop_skin",
+    "param": [
+      "scene skinshop",
+      []
+    ],
     "time": [
       [
         [
@@ -30,19 +36,19 @@
         ]
       ]
     ],
+    "time_lable": 1
+  },
+  "11": {
+    "id": 11,
+    "order": 9,
+    "name": "banner_big",
+    "relation_param": "",
+    "type": 2,
+    "pic": "shopbanner/shop_skin2",
     "param": [
       "scene skinshop",
       []
     ],
-    "time_lable": 1,
-    "type": 2,
-    "relation_param": ""
-  },
-  "11": {
-    "id": 11,
-    "pic": "shopbanner/shop_skin2",
-    "order": 9,
-    "name": "banner_big",
     "time": [
       [
         [
@@ -69,19 +75,19 @@
         ]
       ]
     ],
+    "time_lable": 1
+  },
+  "12": {
+    "id": 12,
+    "order": 8,
+    "name": "banner_big",
+    "relation_param": "",
+    "type": 2,
+    "pic": "shopbanner/shop_skin3",
     "param": [
       "scene skinshop",
       []
     ],
-    "time_lable": 1,
-    "type": 2,
-    "relation_param": ""
-  },
-  "12": {
-    "id": 12,
-    "pic": "shopbanner/shop_skin3",
-    "order": 8,
-    "name": "banner_big",
     "time": [
       [
         [
@@ -108,92 +114,46 @@
         ]
       ]
     ],
-    "param": [
-      "scene skinshop",
-      []
-    ],
-    "time_lable": 1,
-    "type": 2,
-    "relation_param": ""
+    "time_lable": 1
   },
   "13": {
     "id": 13,
-    "pic": "shopbanner/shop_skin4",
     "order": 7,
     "name": "banner_big",
-    "time_lable": 1,
+    "relation_param": "",
+    "time": "stop",
+    "pic": "shopbanner/shop_skin4",
     "param": [
       "scene skinshop",
       []
     ],
-    "type": 2,
-    "time": "stop",
-    "relation_param": ""
+    "time_lable": 1,
+    "type": 2
   },
   "14": {
     "id": 14,
-    "pic": "shopbanner/shop_skin_default",
     "order": 1,
     "name": "banner_big",
-    "time_lable": 0,
+    "relation_param": "",
+    "time": "always",
+    "pic": "shopbanner/shop_skin_default",
     "param": [
       "scene skinshop",
       []
     ],
-    "type": 2,
-    "time": "always",
-    "relation_param": ""
+    "time_lable": 0,
+    "type": 2
   },
   "20": {
     "id": 20,
-    "pic": "shopbanner/shop_pack_bg",
     "order": 10,
     "name": "banner_middle",
-    "time_lable": 1,
-    "param": [
-      "scene charge",
-      {
-        "warp": 4
-      }
-    ],
-    "time": [
-      [
-        [
-          2026,
-          5,
-          28
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          6,
-          11
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2,
     "relation_param": [
       1,
       9018
-    ]
-  },
-  "21": {
-    "id": 21,
+    ],
+    "type": 2,
     "pic": "shopbanner/shop_pack_bg",
-    "order": 9,
-    "name": "banner_middle",
-    "time_lable": 1,
     "param": [
       "scene charge",
       {
@@ -226,122 +186,122 @@
         ]
       ]
     ],
-    "type": 2,
+    "time_lable": 1
+  },
+  "21": {
+    "id": 21,
+    "order": 9,
+    "name": "banner_middle",
     "relation_param": [
       1,
       9019
-    ]
+    ],
+    "type": 2,
+    "pic": "shopbanner/shop_pack_bg",
+    "param": [
+      "scene charge",
+      {
+        "warp": 4
+      }
+    ],
+    "time": [
+      [
+        [
+          2026,
+          5,
+          28
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          6,
+          11
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_lable": 1
   },
   "22": {
     "id": 22,
-    "pic": "shopbanner/shop_akashi_recommend",
     "order": 1,
     "name": "banner_middle",
-    "time_lable": 0,
+    "relation_param": "",
+    "time": "always",
+    "pic": "shopbanner/shop_akashi_recommend",
     "param": [
       "scene charge",
       {
         "warp": 4
       }
     ],
-    "type": 2,
-    "time": "always",
-    "relation_param": ""
+    "time_lable": 0,
+    "type": 2
   },
   "23": {
     "id": 23,
-    "pic": "shopbanner/shop_pack_bg",
     "order": 8,
     "name": "banner_middle",
-    "time_lable": 1,
-    "param": [
-      "scene charge",
-      {
-        "warp": 4
-      }
-    ],
-    "time": [
-      [
-        [
-          2026,
-          5,
-          20
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          6,
-          11
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2,
     "relation_param": [
       1,
       9016
-    ]
+    ],
+    "type": 2,
+    "pic": "shopbanner/shop_pack_bg",
+    "param": [
+      "scene charge",
+      {
+        "warp": 4
+      }
+    ],
+    "time": [
+      [
+        [
+          2026,
+          5,
+          20
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          6,
+          11
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_lable": 1
   },
   "24": {
     "id": 24,
-    "pic": "shopbanner/shop_pack_bg",
     "order": 96,
     "name": "banner_middle",
-    "time_lable": 1,
-    "param": [
-      "scene charge",
-      {
-        "warp": 4
-      }
-    ],
-    "time": [
-      [
-        [
-          2026,
-          5,
-          20
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          6,
-          11
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ],
-    "type": 2,
     "relation_param": [
       1,
       9017
-    ]
-  },
-  "25": {
-    "id": 25,
+    ],
+    "type": 2,
     "pic": "shopbanner/shop_pack_bg",
-    "order": 95,
-    "name": "banner_middle",
-    "time_lable": 1,
     "param": [
       "scene charge",
       {
@@ -374,61 +334,105 @@
         ]
       ]
     ],
-    "type": 2,
+    "time_lable": 1
+  },
+  "25": {
+    "id": 25,
+    "order": 95,
+    "name": "banner_middle",
     "relation_param": [
       1,
       2079
-    ]
+    ],
+    "type": 2,
+    "pic": "shopbanner/shop_pack_bg",
+    "param": [
+      "scene charge",
+      {
+        "warp": 4
+      }
+    ],
+    "time": [
+      [
+        [
+          2026,
+          5,
+          20
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          2026,
+          6,
+          11
+        ],
+        [
+          23,
+          59,
+          59
+        ]
+      ]
+    ],
+    "time_lable": 1
   },
   "30": {
     "id": 30,
-    "pic": "shopbanner/shop_diamond",
     "order": 10,
     "name": "banner_small1",
-    "time_lable": 0,
+    "relation_param": "",
+    "time": "always",
+    "pic": "shopbanner/shop_diamond",
     "param": [
       "scene charge",
       {
         "warp": 1
       }
     ],
-    "type": 2,
-    "time": "always",
-    "relation_param": ""
+    "time_lable": 0,
+    "type": 2
   },
   "31": {
     "id": 31,
-    "pic": "shopbanner/shop_props",
     "order": 1,
     "name": "banner_small1",
-    "time_lable": 0,
+    "relation_param": "",
+    "time": "always",
+    "pic": "shopbanner/shop_props",
     "param": [
       "scene charge",
       {
         "warp": 3
       }
     ],
-    "type": 2,
-    "time": "always",
-    "relation_param": ""
+    "time_lable": 0,
+    "type": 2
   },
   "40": {
     "id": 40,
-    "pic": "",
     "order": 10,
     "name": "banner_small2",
-    "time_lable": 0,
-    "param": "",
-    "type": 2,
+    "relation_param": "",
     "time": "stop",
-    "relation_param": ""
+    "pic": "",
+    "param": "",
+    "time_lable": 0,
+    "type": 2
   },
   "41": {
     "id": 41,
-    "pic": "shopbanner/shop_item_bg",
     "order": 1,
     "name": "banner_small2",
-    "type": 2,
+    "relation_param": [
+      1,
+      1
+    ],
+    "time": "always",
+    "pic": "shopbanner/shop_item_bg",
     "param": [
       "scene charge",
       {
@@ -436,17 +440,21 @@
       }
     ],
     "time_lable": 0,
-    "time": "always",
-    "relation_param": [
-      1,
-      1
-    ]
+    "type": 2
   },
   "50": {
     "id": 50,
-    "pic": "shopbanner/shop_event_pt",
     "order": 10,
     "name": "banner_small3",
+    "relation_param": "",
+    "type": 2,
+    "pic": "shopbanner/shop_event_pt",
+    "param": [
+      "scene shop",
+      {
+        "warp": "activity"
+      }
+    ],
     "time": [
       [
         [
@@ -473,31 +481,23 @@
         ]
       ]
     ],
-    "param": [
-      "scene shop",
-      {
-        "warp": "activity"
-      }
-    ],
-    "time_lable": 1,
-    "type": 2,
-    "relation_param": ""
+    "time_lable": 1
   },
   "51": {
     "id": 51,
-    "pic": "shopbanner/shop_shopstreet",
     "order": 1,
     "name": "banner_small3",
-    "time_lable": 0,
+    "relation_param": "",
+    "time": "always",
+    "pic": "shopbanner/shop_shopstreet",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "time": "always",
-    "relation_param": ""
+    "time_lable": 0,
+    "type": 2
   },
   "all": [
     10,
