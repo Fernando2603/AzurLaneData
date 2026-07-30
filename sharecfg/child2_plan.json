@@ -1,5 +1,9 @@
 {
   "1101": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1101,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -8,10 +12,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_rectangle_1",
-    "result_node": 20001,
-    "id": 1101,
-    "level": 1,
     "cost": [
       [
         2,
@@ -24,17 +24,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Play Ballgame",
-    "group_id": 1,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_1",
     "name_2": "Play Ballgame",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 1,
+    "level": 1,
     "icon_square": "plan_square_1",
-    "condition_desc": []
+    "result_node": 20001
   },
   "1102": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1102,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -43,10 +47,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_rectangle_2",
-    "result_node": 20003,
-    "id": 1102,
-    "level": 1,
     "cost": [
       [
         2,
@@ -59,17 +59,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Play with Wooden Blocks",
-    "group_id": 2,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_2",
     "name_2": "Play with Wooden Blocks",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 2,
+    "level": 1,
     "icon_square": "plan_square_2",
-    "condition_desc": []
+    "result_node": 20003
   },
   "1103": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1103,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -78,10 +82,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_rectangle_3",
-    "result_node": 20005,
-    "id": 1103,
-    "level": 1,
     "cost": [
       [
         2,
@@ -94,17 +94,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Read",
-    "group_id": 3,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_3",
     "name_2": "Read",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 3,
+    "level": 1,
     "icon_square": "plan_square_3",
-    "condition_desc": []
+    "result_node": 20005
   },
   "1104": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1104,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -113,10 +117,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_rectangle_4",
-    "result_node": 20007,
-    "id": 1104,
-    "level": 1,
     "cost": [
       [
         2,
@@ -129,17 +129,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Have a Think",
-    "group_id": 4,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_4",
     "name_2": "Have a Think",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 4,
+    "level": 1,
     "icon_square": "plan_square_4",
-    "condition_desc": []
+    "result_node": 20007
   },
   "1105": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1105,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -148,22 +152,22 @@
         3
       ]
     ],
-    "icon_rectangle": "plan_rectangle_5",
-    "result_node": 20009,
-    "id": 1105,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Dance Practice",
-    "group_id": 5,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_5",
     "name_2": "Dance Practice",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 5,
+    "level": 1,
     "icon_square": "plan_square_5",
-    "condition_desc": []
+    "result_node": 20009
   },
   "1106": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1106,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -172,22 +176,28 @@
         8
       ]
     ],
-    "icon_rectangle": "plan_rectangle_6",
-    "result_node": 20011,
-    "id": 1106,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Do Housework",
-    "group_id": 6,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_6",
     "name_2": "Do Housework",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 6,
+    "level": 1,
     "icon_square": "plan_square_6",
-    "condition_desc": []
+    "result_node": 20011
   },
   "1107": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1107,
+    "level_condition": [
+      "&&",
+      [
+        20010,
+        20050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -199,10 +209,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_7",
-    "result_node": 20013,
-    "id": 1107,
-    "level": 1,
     "cost": [
       [
         2,
@@ -215,20 +221,6 @@
         2
       ]
     ],
-    "name": "Fitness Work Lv. 1",
-    "group_id": 7,
-    "replace_type_show": 1,
-    "name_2": "Fitness Work",
-    "level_condition": [
-      "&&",
-      [
-        20010,
-        20050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_7",
     "condition_desc": [
       [
         [
@@ -242,9 +234,27 @@
         ],
         "Stats Total<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Fitness Work Lv. 1",
+    "icon_rectangle": "plan_rectangle_7",
+    "name_2": "Fitness Work",
+    "type": 1,
+    "group_id": 7,
+    "level": 1,
+    "icon_square": "plan_square_7",
+    "result_node": 20013
   },
   "1108": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1108,
+    "level_condition": [
+      "&&",
+      [
+        20011,
+        20051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -256,10 +266,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_7",
-    "result_node": 20015,
-    "id": 1108,
-    "level": 2,
     "cost": [
       [
         2,
@@ -272,20 +278,6 @@
         4
       ]
     ],
-    "name": "Fitness Work Lv. 2",
-    "group_id": 7,
-    "replace_type_show": 1,
-    "name_2": "Fitness Work",
-    "level_condition": [
-      "&&",
-      [
-        20011,
-        20051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_7",
     "condition_desc": [
       [
         [
@@ -299,9 +291,21 @@
         ],
         "Stats Total<color=#f7f7f7>>=1800</color>"
       ]
-    ]
+    ],
+    "name": "Fitness Work Lv. 2",
+    "icon_rectangle": "plan_rectangle_7",
+    "name_2": "Fitness Work",
+    "type": 1,
+    "group_id": 7,
+    "level": 2,
+    "icon_square": "plan_square_7",
+    "result_node": 20015
   },
   "1109": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1109,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -313,10 +317,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_7",
-    "result_node": 20017,
-    "id": 1109,
-    "level": 3,
     "cost": [
       [
         2,
@@ -329,17 +329,27 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Max Lv.",
-    "group_id": 7,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 7,
+    "level": 3,
     "icon_square": "plan_square_7",
-    "condition_desc": []
+    "result_node": 20017
   },
   "1110": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1110,
+    "level_condition": [
+      "&&",
+      [
+        20020,
+        20050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -351,10 +361,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_8",
-    "result_node": 20019,
-    "id": 1110,
-    "level": 1,
     "cost": [
       [
         2,
@@ -367,20 +373,6 @@
         2
       ]
     ],
-    "name": "Dexterity Work Lv. 1",
-    "group_id": 8,
-    "replace_type_show": 1,
-    "name_2": "Dexterity Work",
-    "level_condition": [
-      "&&",
-      [
-        20020,
-        20050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_8",
     "condition_desc": [
       [
         [
@@ -394,9 +386,27 @@
         ],
         "Stats Total<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Dexterity Work Lv. 1",
+    "icon_rectangle": "plan_rectangle_8",
+    "name_2": "Dexterity Work",
+    "type": 1,
+    "group_id": 8,
+    "level": 1,
+    "icon_square": "plan_square_8",
+    "result_node": 20019
   },
   "1111": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1111,
+    "level_condition": [
+      "&&",
+      [
+        20021,
+        20051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -408,10 +418,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_8",
-    "result_node": 20021,
-    "id": 1111,
-    "level": 2,
     "cost": [
       [
         2,
@@ -424,20 +430,6 @@
         4
       ]
     ],
-    "name": "Dexterity Work Lv. 2",
-    "group_id": 8,
-    "replace_type_show": 1,
-    "name_2": "Dexterity Work",
-    "level_condition": [
-      "&&",
-      [
-        20021,
-        20051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_8",
     "condition_desc": [
       [
         [
@@ -451,9 +443,21 @@
         ],
         "Stats Total<color=#f7f7f7>>=1800</color>"
       ]
-    ]
+    ],
+    "name": "Dexterity Work Lv. 2",
+    "icon_rectangle": "plan_rectangle_8",
+    "name_2": "Dexterity Work",
+    "type": 1,
+    "group_id": 8,
+    "level": 2,
+    "icon_square": "plan_square_8",
+    "result_node": 20021
   },
   "1112": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1112,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -465,10 +469,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_8",
-    "result_node": 20023,
-    "id": 1112,
-    "level": 3,
     "cost": [
       [
         2,
@@ -481,17 +481,27 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Max Lv.",
-    "group_id": 8,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 8,
+    "level": 3,
     "icon_square": "plan_square_8",
-    "condition_desc": []
+    "result_node": 20023
   },
   "1113": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1113,
+    "level_condition": [
+      "&&",
+      [
+        20040,
+        20050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -503,10 +513,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_9",
-    "result_node": 20025,
-    "id": 1113,
-    "level": 1,
     "cost": [
       [
         2,
@@ -519,20 +525,6 @@
         2
       ]
     ],
-    "name": "Knowledge Work Lv. 1",
-    "group_id": 9,
-    "replace_type_show": 1,
-    "name_2": "Knowledge Work",
-    "level_condition": [
-      "&&",
-      [
-        20040,
-        20050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_9",
     "condition_desc": [
       [
         [
@@ -546,9 +538,27 @@
         ],
         "Stats Total<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Knowledge Work Lv. 1",
+    "icon_rectangle": "plan_rectangle_9",
+    "name_2": "Knowledge Work",
+    "type": 1,
+    "group_id": 9,
+    "level": 1,
+    "icon_square": "plan_square_9",
+    "result_node": 20025
   },
   "1114": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1114,
+    "level_condition": [
+      "&&",
+      [
+        20041,
+        20051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -560,10 +570,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_9",
-    "result_node": 20027,
-    "id": 1114,
-    "level": 2,
     "cost": [
       [
         2,
@@ -576,20 +582,6 @@
         4
       ]
     ],
-    "name": "Knowledge Work Lv. 2",
-    "group_id": 9,
-    "replace_type_show": 1,
-    "name_2": "Knowledge Work",
-    "level_condition": [
-      "&&",
-      [
-        20041,
-        20051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_9",
     "condition_desc": [
       [
         [
@@ -603,9 +595,21 @@
         ],
         "Stats Total<color=#f7f7f7>>=1800</color>"
       ]
-    ]
+    ],
+    "name": "Knowledge Work Lv. 2",
+    "icon_rectangle": "plan_rectangle_9",
+    "name_2": "Knowledge Work",
+    "type": 1,
+    "group_id": 9,
+    "level": 2,
+    "icon_square": "plan_square_9",
+    "result_node": 20027
   },
   "1115": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1115,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -617,10 +621,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_9",
-    "result_node": 20029,
-    "id": 1115,
-    "level": 3,
     "cost": [
       [
         2,
@@ -633,17 +633,27 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Max Lv.",
-    "group_id": 9,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 9,
+    "level": 3,
     "icon_square": "plan_square_9",
-    "condition_desc": []
+    "result_node": 20029
   },
   "1116": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1116,
+    "level_condition": [
+      "&&",
+      [
+        20030,
+        20050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -655,10 +665,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_10",
-    "result_node": 20031,
-    "id": 1116,
-    "level": 1,
     "cost": [
       [
         2,
@@ -671,20 +677,6 @@
         2
       ]
     ],
-    "name": "Sensitivity Work Lv. 1",
-    "group_id": 10,
-    "replace_type_show": 1,
-    "name_2": "Sensitivity Work",
-    "level_condition": [
-      "&&",
-      [
-        20030,
-        20050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_10",
     "condition_desc": [
       [
         [
@@ -698,9 +690,27 @@
         ],
         "Stats Total<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Sensitivity Work Lv. 1",
+    "icon_rectangle": "plan_rectangle_10",
+    "name_2": "Sensitivity Work",
+    "type": 1,
+    "group_id": 10,
+    "level": 1,
+    "icon_square": "plan_square_10",
+    "result_node": 20031
   },
   "1117": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1117,
+    "level_condition": [
+      "&&",
+      [
+        20031,
+        20051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -712,10 +722,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_10",
-    "result_node": 20033,
-    "id": 1117,
-    "level": 2,
     "cost": [
       [
         2,
@@ -728,20 +734,6 @@
         4
       ]
     ],
-    "name": "Sensitivity Work Lv. 2",
-    "group_id": 10,
-    "replace_type_show": 1,
-    "name_2": "Sensitivity Work",
-    "level_condition": [
-      "&&",
-      [
-        20031,
-        20051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_square_10",
     "condition_desc": [
       [
         [
@@ -755,9 +747,21 @@
         ],
         "Stats Total<color=#f7f7f7>>=1800</color>"
       ]
-    ]
+    ],
+    "name": "Sensitivity Work Lv. 2",
+    "icon_rectangle": "plan_rectangle_10",
+    "name_2": "Sensitivity Work",
+    "type": 1,
+    "group_id": 10,
+    "level": 2,
+    "icon_square": "plan_square_10",
+    "result_node": 20033
   },
   "1118": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1118,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -769,10 +773,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_10",
-    "result_node": 20035,
-    "id": 1118,
-    "level": 3,
     "cost": [
       [
         2,
@@ -785,17 +785,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Max Lv.",
-    "group_id": 10,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 10,
+    "level": 3,
     "icon_square": "plan_square_10",
-    "condition_desc": []
+    "result_node": 20035
   },
   "1119": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1119,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -804,22 +808,22 @@
         6
       ]
     ],
-    "icon_rectangle": "plan_rectangle_12",
-    "result_node": 20037,
-    "id": 1119,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Cheerful Dance",
-    "group_id": 11,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_12",
     "name_2": "Cheerful Dance",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 11,
+    "level": 1,
     "icon_square": "plan_square_12",
-    "condition_desc": []
+    "result_node": 20037
   },
   "1122": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1122,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -828,22 +832,22 @@
         15
       ]
     ],
-    "icon_rectangle": "plan_rectangle_11",
-    "result_node": 20039,
-    "id": 1122,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Farmhand",
-    "group_id": 12,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_rectangle_11",
     "name_2": "Farmhand",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 12,
+    "level": 1,
     "icon_square": "plan_square_11",
-    "condition_desc": []
+    "result_node": 20039
   },
   "3001": {
+    "replace_type_show": 2,
+    "is_show": 1,
+    "id": 3001,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -852,22 +856,22 @@
         1
       ]
     ],
-    "icon_rectangle": "plan_rectangle_15",
-    "result_node": 20501,
-    "id": 3001,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Walk",
-    "group_id": 30,
-    "replace_type_show": 2,
+    "icon_rectangle": "plan_rectangle_15",
     "name_2": "Walk",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 30,
+    "level": 1,
     "icon_square": "plan_square_15",
-    "condition_desc": []
+    "result_node": 20501
   },
   "3002": {
+    "replace_type_show": 2,
+    "is_show": 1,
+    "id": 3002,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -876,22 +880,22 @@
         1
       ]
     ],
-    "icon_rectangle": "plan_rectangle_15",
-    "result_node": 20503,
-    "id": 3002,
-    "level": 2,
     "cost": [],
+    "condition_desc": [],
     "name": "Walk",
-    "group_id": 30,
-    "replace_type_show": 2,
+    "icon_rectangle": "plan_rectangle_15",
     "name_2": "Walk",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 30,
+    "level": 2,
     "icon_square": "plan_square_15",
-    "condition_desc": []
+    "result_node": 20503
   },
   "3003": {
+    "replace_type_show": 2,
+    "is_show": 1,
+    "id": 3003,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -900,22 +904,22 @@
         1
       ]
     ],
-    "icon_rectangle": "plan_rectangle_15",
-    "result_node": 20505,
-    "id": 3003,
-    "level": 3,
     "cost": [],
+    "condition_desc": [],
     "name": "Walk",
-    "group_id": 30,
-    "replace_type_show": 2,
+    "icon_rectangle": "plan_rectangle_15",
     "name_2": "Walk",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 30,
+    "level": 3,
     "icon_square": "plan_square_15",
-    "condition_desc": []
+    "result_node": 20505
   },
   "3107": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3107,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -924,10 +928,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_7",
-    "result_node": 20513,
-    "id": 3107,
-    "level": 1,
     "cost": [
       [
         2,
@@ -940,17 +940,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Lv. 1",
-    "group_id": 15,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 15,
+    "level": 1,
     "icon_square": "plan_square_7",
-    "condition_desc": []
+    "result_node": 20513
   },
   "3108": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3108,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -959,10 +963,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_7",
-    "result_node": 20515,
-    "id": 3108,
-    "level": 2,
     "cost": [
       [
         2,
@@ -975,17 +975,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Lv. 2",
-    "group_id": 15,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 15,
+    "level": 2,
     "icon_square": "plan_square_7",
-    "condition_desc": []
+    "result_node": 20515
   },
   "3109": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3109,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -994,10 +998,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_7",
-    "result_node": 20517,
-    "id": 3109,
-    "level": 3,
     "cost": [
       [
         2,
@@ -1010,17 +1010,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Max Lv.",
-    "group_id": 15,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 15,
+    "level": 3,
     "icon_square": "plan_square_7",
-    "condition_desc": []
+    "result_node": 20517
   },
   "3110": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3110,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1029,10 +1033,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_8",
-    "result_node": 20519,
-    "id": 3110,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1045,17 +1045,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Lv. 1",
-    "group_id": 16,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 16,
+    "level": 1,
     "icon_square": "plan_square_8",
-    "condition_desc": []
+    "result_node": 20519
   },
   "3111": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3111,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1064,10 +1068,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_8",
-    "result_node": 20521,
-    "id": 3111,
-    "level": 2,
     "cost": [
       [
         2,
@@ -1080,17 +1080,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Lv. 2",
-    "group_id": 16,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 16,
+    "level": 2,
     "icon_square": "plan_square_8",
-    "condition_desc": []
+    "result_node": 20521
   },
   "3112": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3112,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1099,10 +1103,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_8",
-    "result_node": 20523,
-    "id": 3112,
-    "level": 3,
     "cost": [
       [
         2,
@@ -1115,17 +1115,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Max Lv.",
-    "group_id": 16,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 16,
+    "level": 3,
     "icon_square": "plan_square_8",
-    "condition_desc": []
+    "result_node": 20523
   },
   "3113": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3113,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1134,10 +1138,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_9",
-    "result_node": 20525,
-    "id": 3113,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1150,17 +1150,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Lv. 1",
-    "group_id": 17,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 17,
+    "level": 1,
     "icon_square": "plan_square_9",
-    "condition_desc": []
+    "result_node": 20525
   },
   "3114": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3114,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1169,10 +1173,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_9",
-    "result_node": 20527,
-    "id": 3114,
-    "level": 2,
     "cost": [
       [
         2,
@@ -1185,17 +1185,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Lv. 2",
-    "group_id": 17,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 17,
+    "level": 2,
     "icon_square": "plan_square_9",
-    "condition_desc": []
+    "result_node": 20527
   },
   "3115": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3115,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1204,10 +1208,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_9",
-    "result_node": 20529,
-    "id": 3115,
-    "level": 3,
     "cost": [
       [
         2,
@@ -1220,17 +1220,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Max Lv.",
-    "group_id": 17,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 17,
+    "level": 3,
     "icon_square": "plan_square_9",
-    "condition_desc": []
+    "result_node": 20529
   },
   "3116": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3116,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1239,10 +1243,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_rectangle_10",
-    "result_node": 20531,
-    "id": 3116,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1255,17 +1255,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Lv. 1",
-    "group_id": 18,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 18,
+    "level": 1,
     "icon_square": "plan_square_10",
-    "condition_desc": []
+    "result_node": 20531
   },
   "3117": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3117,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1274,10 +1278,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_rectangle_10",
-    "result_node": 20533,
-    "id": 3117,
-    "level": 2,
     "cost": [
       [
         2,
@@ -1290,17 +1290,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Lv. 2",
-    "group_id": 18,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 18,
+    "level": 2,
     "icon_square": "plan_square_10",
-    "condition_desc": []
+    "result_node": 20533
   },
   "3118": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 3118,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1309,10 +1313,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_rectangle_10",
-    "result_node": 20535,
-    "id": 3118,
-    "level": 3,
     "cost": [
       [
         2,
@@ -1325,17 +1325,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Max Lv.",
-    "group_id": 18,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 18,
+    "level": 3,
     "icon_square": "plan_square_10",
-    "condition_desc": []
+    "result_node": 20535
   },
   "1201": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1201,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1344,10 +1348,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_1",
-    "result_node": 3700001,
-    "id": 1201,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1360,17 +1360,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Play Ballgame",
-    "group_id": 101,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_1",
     "name_2": "Play Ballgame",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 101,
+    "level": 1,
     "icon_square": "plan_explorer_square_1",
-    "condition_desc": []
+    "result_node": 3700001
   },
   "1202": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1202,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1379,10 +1383,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_2",
-    "result_node": 3700003,
-    "id": 1202,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1395,17 +1395,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Play with Wooden Blocks",
-    "group_id": 102,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_2",
     "name_2": "Play with Wooden Blocks",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 102,
+    "level": 1,
     "icon_square": "plan_explorer_square_2",
-    "condition_desc": []
+    "result_node": 3700003
   },
   "1203": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1203,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1414,10 +1418,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_3",
-    "result_node": 3700005,
-    "id": 1203,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1430,17 +1430,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Read",
-    "group_id": 103,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_3",
     "name_2": "Read",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 103,
+    "level": 1,
     "icon_square": "plan_explorer_square_3",
-    "condition_desc": []
+    "result_node": 3700005
   },
   "1204": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1204,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1449,10 +1453,6 @@
         5
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_4",
-    "result_node": 3700007,
-    "id": 1204,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1465,17 +1465,21 @@
         1
       ]
     ],
+    "condition_desc": [],
     "name": "Have a Think",
-    "group_id": 104,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_4",
     "name_2": "Have a Think",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 104,
+    "level": 1,
     "icon_square": "plan_explorer_square_4",
-    "condition_desc": []
+    "result_node": 3700007
   },
   "1205": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1205,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1484,22 +1488,22 @@
         3
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_5",
-    "result_node": 3700009,
-    "id": 1205,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Dance Practice",
-    "group_id": 105,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_5",
     "name_2": "Dance Practice",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 105,
+    "level": 1,
     "icon_square": "plan_explorer_square_5",
-    "condition_desc": []
+    "result_node": 3700009
   },
   "1206": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1206,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -1508,22 +1512,28 @@
         8
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_6",
-    "result_node": 3700011,
-    "id": 1206,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Do Housework",
-    "group_id": 106,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_6",
     "name_2": "Do Housework",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 106,
+    "level": 1,
     "icon_square": "plan_explorer_square_6",
-    "condition_desc": []
+    "result_node": 3700011
   },
   "1207": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1207,
+    "level_condition": [
+      "&&",
+      [
+        3700010,
+        3700050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -1535,10 +1545,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_7",
-    "result_node": 3700013,
-    "id": 1207,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1551,20 +1557,6 @@
         2
       ]
     ],
-    "name": "Fitness Work Lv. 1",
-    "group_id": 107,
-    "replace_type_show": 1,
-    "name_2": "Fitness Work",
-    "level_condition": [
-      "&&",
-      [
-        3700010,
-        3700050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_7",
     "condition_desc": [
       [
         [
@@ -1578,9 +1570,27 @@
         ],
         "Stat Total<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Fitness Work Lv. 1",
+    "icon_rectangle": "plan_explorer_rectangle_7",
+    "name_2": "Fitness Work",
+    "type": 1,
+    "group_id": 107,
+    "level": 1,
+    "icon_square": "plan_explorer_square_7",
+    "result_node": 3700013
   },
   "1208": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1208,
+    "level_condition": [
+      "&&",
+      [
+        3700011,
+        3700051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -1592,10 +1602,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_7",
-    "result_node": 3700015,
-    "id": 1208,
-    "level": 2,
     "cost": [
       [
         2,
@@ -1608,20 +1614,6 @@
         4
       ]
     ],
-    "name": "Fitness Work Lv. 2",
-    "group_id": 107,
-    "replace_type_show": 1,
-    "name_2": "Fitness Work",
-    "level_condition": [
-      "&&",
-      [
-        3700011,
-        3700051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_7",
     "condition_desc": [
       [
         [
@@ -1635,9 +1627,21 @@
         ],
         "Stat Total<color=#f7f7f7>>=1,800</color>"
       ]
-    ]
+    ],
+    "name": "Fitness Work Lv. 2",
+    "icon_rectangle": "plan_explorer_rectangle_7",
+    "name_2": "Fitness Work",
+    "type": 1,
+    "group_id": 107,
+    "level": 2,
+    "icon_square": "plan_explorer_square_7",
+    "result_node": 3700015
   },
   "1209": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1209,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -1649,10 +1653,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_7",
-    "result_node": 3700017,
-    "id": 1209,
-    "level": 3,
     "cost": [
       [
         2,
@@ -1665,17 +1665,27 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Max Lv.",
-    "group_id": 107,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 107,
+    "level": 3,
     "icon_square": "plan_explorer_square_7",
-    "condition_desc": []
+    "result_node": 3700017
   },
   "1210": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1210,
+    "level_condition": [
+      "&&",
+      [
+        3700020,
+        3700050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -1687,10 +1697,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_8",
-    "result_node": 3700019,
-    "id": 1210,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1703,20 +1709,6 @@
         2
       ]
     ],
-    "name": "Dexterity Work Lv. 1",
-    "group_id": 108,
-    "replace_type_show": 1,
-    "name_2": "Dexterity Work",
-    "level_condition": [
-      "&&",
-      [
-        3700020,
-        3700050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_8",
     "condition_desc": [
       [
         [
@@ -1730,9 +1722,27 @@
         ],
         "Stat All<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Dexterity Work Lv. 1",
+    "icon_rectangle": "plan_explorer_rectangle_8",
+    "name_2": "Dexterity Work",
+    "type": 1,
+    "group_id": 108,
+    "level": 1,
+    "icon_square": "plan_explorer_square_8",
+    "result_node": 3700019
   },
   "1211": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1211,
+    "level_condition": [
+      "&&",
+      [
+        3700021,
+        3700051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -1744,10 +1754,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_8",
-    "result_node": 3700021,
-    "id": 1211,
-    "level": 2,
     "cost": [
       [
         2,
@@ -1760,20 +1766,6 @@
         4
       ]
     ],
-    "name": "Dexterity Work Lv. 2",
-    "group_id": 108,
-    "replace_type_show": 1,
-    "name_2": "Dexterity Work",
-    "level_condition": [
-      "&&",
-      [
-        3700021,
-        3700051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_8",
     "condition_desc": [
       [
         [
@@ -1787,9 +1779,21 @@
         ],
         "Stat Total<color=#f7f7f7>>=1,800</color>"
       ]
-    ]
+    ],
+    "name": "Dexterity Work Lv. 2",
+    "icon_rectangle": "plan_explorer_rectangle_8",
+    "name_2": "Dexterity Work",
+    "type": 1,
+    "group_id": 108,
+    "level": 2,
+    "icon_square": "plan_explorer_square_8",
+    "result_node": 3700021
   },
   "1212": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1212,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -1801,10 +1805,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_8",
-    "result_node": 3700023,
-    "id": 1212,
-    "level": 3,
     "cost": [
       [
         2,
@@ -1817,17 +1817,27 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Max Lv.",
-    "group_id": 108,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 108,
+    "level": 3,
     "icon_square": "plan_explorer_square_8",
-    "condition_desc": []
+    "result_node": 3700023
   },
   "1213": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1213,
+    "level_condition": [
+      "&&",
+      [
+        3700040,
+        3700050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -1839,10 +1849,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_9",
-    "result_node": 3700025,
-    "id": 1213,
-    "level": 1,
     "cost": [
       [
         2,
@@ -1855,20 +1861,6 @@
         2
       ]
     ],
-    "name": "Knowledge Work Lv. 1",
-    "group_id": 109,
-    "replace_type_show": 1,
-    "name_2": "Knowledge Work",
-    "level_condition": [
-      "&&",
-      [
-        3700040,
-        3700050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_9",
     "condition_desc": [
       [
         [
@@ -1882,9 +1874,27 @@
         ],
         "Stat Total<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Knowledge Work Lv. 1",
+    "icon_rectangle": "plan_explorer_rectangle_9",
+    "name_2": "Knowledge Work",
+    "type": 1,
+    "group_id": 109,
+    "level": 1,
+    "icon_square": "plan_explorer_square_9",
+    "result_node": 3700025
   },
   "1214": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1214,
+    "level_condition": [
+      "&&",
+      [
+        3700041,
+        3700051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -1896,10 +1906,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_9",
-    "result_node": 3700027,
-    "id": 1214,
-    "level": 2,
     "cost": [
       [
         2,
@@ -1912,20 +1918,6 @@
         4
       ]
     ],
-    "name": "Knowledge Work Lv. 2",
-    "group_id": 109,
-    "replace_type_show": 1,
-    "name_2": "Knowledge Work",
-    "level_condition": [
-      "&&",
-      [
-        3700041,
-        3700051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_9",
     "condition_desc": [
       [
         [
@@ -1939,9 +1931,21 @@
         ],
         "Stat Total<color=#f7f7f7>>=1,800</color>"
       ]
-    ]
+    ],
+    "name": "Knowledge Work Lv. 2",
+    "icon_rectangle": "plan_explorer_rectangle_9",
+    "name_2": "Knowledge Work",
+    "type": 1,
+    "group_id": 109,
+    "level": 2,
+    "icon_square": "plan_explorer_square_9",
+    "result_node": 3700027
   },
   "1215": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1215,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -1953,10 +1957,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_9",
-    "result_node": 3700029,
-    "id": 1215,
-    "level": 3,
     "cost": [
       [
         2,
@@ -1969,17 +1969,27 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Max Lv.",
-    "group_id": 109,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 109,
+    "level": 3,
     "icon_square": "plan_explorer_square_9",
-    "condition_desc": []
+    "result_node": 3700029
   },
   "1216": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1216,
+    "level_condition": [
+      "&&",
+      [
+        3700030,
+        3700050
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -1991,10 +2001,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_10",
-    "result_node": 3700031,
-    "id": 1216,
-    "level": 1,
     "cost": [
       [
         2,
@@ -2007,20 +2013,6 @@
         2
       ]
     ],
-    "name": "Sensitivity Work Lv. 1",
-    "group_id": 110,
-    "replace_type_show": 1,
-    "name_2": "Sensitivity Work",
-    "level_condition": [
-      "&&",
-      [
-        3700030,
-        3700050
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_10",
     "condition_desc": [
       [
         [
@@ -2034,9 +2026,27 @@
         ],
         "Stat Total<color=#f7f7f7>>=600</color>"
       ]
-    ]
+    ],
+    "name": "Sensitivity Work Lv. 1",
+    "icon_rectangle": "plan_explorer_rectangle_10",
+    "name_2": "Sensitivity Work",
+    "type": 1,
+    "group_id": 110,
+    "level": 1,
+    "icon_square": "plan_explorer_square_10",
+    "result_node": 3700031
   },
   "1217": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1217,
+    "level_condition": [
+      "&&",
+      [
+        3700031,
+        3700051
+      ]
+    ],
     "replace_type": [
       1,
       2
@@ -2048,10 +2058,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_10",
-    "result_node": 3700033,
-    "id": 1217,
-    "level": 2,
     "cost": [
       [
         2,
@@ -2064,20 +2070,6 @@
         4
       ]
     ],
-    "name": "Sensitivity Work Lv. 2",
-    "group_id": 110,
-    "replace_type_show": 1,
-    "name_2": "Sensitivity Work",
-    "level_condition": [
-      "&&",
-      [
-        3700031,
-        3700051
-      ]
-    ],
-    "is_show": 1,
-    "type": 1,
-    "icon_square": "plan_explorer_square_10",
     "condition_desc": [
       [
         [
@@ -2091,9 +2083,21 @@
         ],
         "Stat Total<color=#f7f7f7>>=1,800</color>"
       ]
-    ]
+    ],
+    "name": "Sensitivity Work Lv. 2",
+    "icon_rectangle": "plan_explorer_rectangle_10",
+    "name_2": "Sensitivity Work",
+    "type": 1,
+    "group_id": 110,
+    "level": 2,
+    "icon_square": "plan_explorer_square_10",
+    "result_node": 3700033
   },
   "1218": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1218,
+    "level_condition": [],
     "replace_type": [
       1,
       2
@@ -2105,10 +2109,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_10",
-    "result_node": 3700035,
-    "id": 1218,
-    "level": 3,
     "cost": [
       [
         2,
@@ -2121,17 +2121,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Max Lv.",
-    "group_id": 110,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 110,
+    "level": 3,
     "icon_square": "plan_explorer_square_10",
-    "condition_desc": []
+    "result_node": 3700035
   },
   "1219": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1219,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2140,22 +2144,22 @@
         6
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_12",
-    "result_node": 3700037,
-    "id": 1219,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Cheerful Dance",
-    "group_id": 111,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_12",
     "name_2": "Cheerful Dance",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 111,
+    "level": 1,
     "icon_square": "plan_explorer_square_12",
-    "condition_desc": []
+    "result_node": 3700037
   },
   "1222": {
+    "replace_type_show": 1,
+    "is_show": 1,
+    "id": 1222,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2164,22 +2168,22 @@
         15
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_11",
-    "result_node": 3700039,
-    "id": 1222,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Farmhand",
-    "group_id": 112,
-    "replace_type_show": 1,
+    "icon_rectangle": "plan_explorer_rectangle_11",
     "name_2": "Farmhand",
-    "level_condition": [],
-    "is_show": 1,
     "type": 2,
+    "group_id": 112,
+    "level": 1,
     "icon_square": "plan_explorer_square_11",
-    "condition_desc": []
+    "result_node": 3700039
   },
   "1223": {
+    "replace_type_show": 2,
+    "is_show": 1,
+    "id": 1223,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2188,22 +2192,22 @@
         1
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_15",
-    "result_node": 3700501,
-    "id": 1223,
-    "level": 1,
     "cost": [],
+    "condition_desc": [],
     "name": "Free Exploration",
-    "group_id": 130,
-    "replace_type_show": 2,
+    "icon_rectangle": "plan_explorer_rectangle_15",
     "name_2": "Free Exploration",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 130,
+    "level": 1,
     "icon_square": "plan_explorer_square_15",
-    "condition_desc": []
+    "result_node": 3700501
   },
   "1224": {
+    "replace_type_show": 2,
+    "is_show": 1,
+    "id": 1224,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2212,22 +2216,22 @@
         1
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_15",
-    "result_node": 3700503,
-    "id": 1224,
-    "level": 2,
     "cost": [],
+    "condition_desc": [],
     "name": "Free Exploration",
-    "group_id": 130,
-    "replace_type_show": 2,
+    "icon_rectangle": "plan_explorer_rectangle_15",
     "name_2": "Free Exploration",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 130,
+    "level": 2,
     "icon_square": "plan_explorer_square_15",
-    "condition_desc": []
+    "result_node": 3700503
   },
   "1225": {
+    "replace_type_show": 2,
+    "is_show": 1,
+    "id": 1225,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2236,22 +2240,22 @@
         1
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_15",
-    "result_node": 3700505,
-    "id": 1225,
-    "level": 3,
     "cost": [],
+    "condition_desc": [],
     "name": "Free Exploration",
-    "group_id": 130,
-    "replace_type_show": 2,
+    "icon_rectangle": "plan_explorer_rectangle_15",
     "name_2": "Free Exploration",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 130,
+    "level": 3,
     "icon_square": "plan_explorer_square_15",
-    "condition_desc": []
+    "result_node": 3700505
   },
   "1226": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1226,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2260,10 +2264,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_7",
-    "result_node": 3700513,
-    "id": 1226,
-    "level": 1,
     "cost": [
       [
         2,
@@ -2276,17 +2276,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Lv. 1",
-    "group_id": 115,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 115,
+    "level": 1,
     "icon_square": "plan_explorer_square_7",
-    "condition_desc": []
+    "result_node": 3700513
   },
   "1227": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1227,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2295,10 +2299,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_7",
-    "result_node": 3700515,
-    "id": 1227,
-    "level": 2,
     "cost": [
       [
         2,
@@ -2311,17 +2311,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Lv. 2",
-    "group_id": 115,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 115,
+    "level": 2,
     "icon_square": "plan_explorer_square_7",
-    "condition_desc": []
+    "result_node": 3700515
   },
   "1228": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1228,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2330,10 +2334,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_7",
-    "result_node": 3700517,
-    "id": 1228,
-    "level": 3,
     "cost": [
       [
         2,
@@ -2346,17 +2346,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Fitness Work Max Lv.",
-    "group_id": 115,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_7",
     "name_2": "Fitness Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 115,
+    "level": 3,
     "icon_square": "plan_explorer_square_7",
-    "condition_desc": []
+    "result_node": 3700517
   },
   "1229": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1229,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2365,10 +2369,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_8",
-    "result_node": 3700519,
-    "id": 1229,
-    "level": 1,
     "cost": [
       [
         2,
@@ -2381,17 +2381,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Lv. 1",
-    "group_id": 116,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 116,
+    "level": 1,
     "icon_square": "plan_explorer_square_8",
-    "condition_desc": []
+    "result_node": 3700519
   },
   "1230": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1230,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2400,10 +2404,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_8",
-    "result_node": 3700521,
-    "id": 1230,
-    "level": 2,
     "cost": [
       [
         2,
@@ -2416,17 +2416,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Lv. 2",
-    "group_id": 116,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 116,
+    "level": 2,
     "icon_square": "plan_explorer_square_8",
-    "condition_desc": []
+    "result_node": 3700521
   },
   "1231": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1231,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2435,10 +2439,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_8",
-    "result_node": 3700523,
-    "id": 1231,
-    "level": 3,
     "cost": [
       [
         2,
@@ -2451,17 +2451,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Dexterity Work Max Lv.",
-    "group_id": 116,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_8",
     "name_2": "Dexterity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 116,
+    "level": 3,
     "icon_square": "plan_explorer_square_8",
-    "condition_desc": []
+    "result_node": 3700523
   },
   "1232": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1232,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2470,10 +2474,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_9",
-    "result_node": 3700525,
-    "id": 1232,
-    "level": 1,
     "cost": [
       [
         2,
@@ -2486,17 +2486,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Lv. 1",
-    "group_id": 117,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 117,
+    "level": 1,
     "icon_square": "plan_explorer_square_9",
-    "condition_desc": []
+    "result_node": 3700525
   },
   "1233": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1233,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2505,10 +2509,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_9",
-    "result_node": 3700527,
-    "id": 1233,
-    "level": 2,
     "cost": [
       [
         2,
@@ -2521,17 +2521,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Lv. 2",
-    "group_id": 117,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 117,
+    "level": 2,
     "icon_square": "plan_explorer_square_9",
-    "condition_desc": []
+    "result_node": 3700527
   },
   "1234": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1234,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2540,10 +2544,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_9",
-    "result_node": 3700529,
-    "id": 1234,
-    "level": 3,
     "cost": [
       [
         2,
@@ -2556,17 +2556,21 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Knowledge Work Max Lv.",
-    "group_id": 117,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_9",
     "name_2": "Knowledge Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 117,
+    "level": 3,
     "icon_square": "plan_explorer_square_9",
-    "condition_desc": []
+    "result_node": 3700529
   },
   "1235": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1235,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2575,10 +2579,6 @@
         10
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_10",
-    "result_node": 3700531,
-    "id": 1235,
-    "level": 1,
     "cost": [
       [
         2,
@@ -2591,17 +2591,21 @@
         2
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Lv. 1",
-    "group_id": 118,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 118,
+    "level": 1,
     "icon_square": "plan_explorer_square_10",
-    "condition_desc": []
+    "result_node": 3700531
   },
   "1236": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1236,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2610,10 +2614,6 @@
         20
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_10",
-    "result_node": 3700533,
-    "id": 1236,
-    "level": 2,
     "cost": [
       [
         2,
@@ -2626,17 +2626,21 @@
         4
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Lv. 2",
-    "group_id": 118,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 118,
+    "level": 2,
     "icon_square": "plan_explorer_square_10",
-    "condition_desc": []
+    "result_node": 3700533
   },
   "1237": {
+    "replace_type_show": 3,
+    "is_show": 1,
+    "id": 1237,
+    "level_condition": [],
     "replace_type": [],
     "result_display": [
       [
@@ -2645,10 +2649,6 @@
         40
       ]
     ],
-    "icon_rectangle": "plan_explorer_rectangle_10",
-    "result_node": 3700535,
-    "id": 1237,
-    "level": 3,
     "cost": [
       [
         2,
@@ -2661,15 +2661,15 @@
         8
       ]
     ],
+    "condition_desc": [],
     "name": "Sensitivity Work Max Lv.",
-    "group_id": 118,
-    "replace_type_show": 3,
+    "icon_rectangle": "plan_explorer_rectangle_10",
     "name_2": "Sensitivity Work",
-    "level_condition": [],
-    "is_show": 1,
     "type": 1,
+    "group_id": 118,
+    "level": 3,
     "icon_square": "plan_explorer_square_10",
-    "condition_desc": []
+    "result_node": 3700535
   },
   "all": [
     1101,
