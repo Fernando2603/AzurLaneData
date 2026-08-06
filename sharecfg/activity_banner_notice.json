@@ -12,8 +12,8 @@
     "param": [
       "OTHERWORLD_MAP",
       {
-        "terminalPage": 2,
-        "openTerminal": true
+        "openTerminal": true,
+        "terminalPage": 2
       }
     ],
     "id": 2
@@ -260,8 +260,8 @@
     "param": [
       "scene activity",
       {
-        "data": [],
-        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT"
+        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT",
+        "data": []
       }
     ],
     "id": 32
@@ -372,6 +372,15 @@
     ],
     "id": 44
   },
+  "46": {
+    "param": [
+      "scene core activity",
+      {
+        "coreName": "RapidSeasideCoreActivityUI"
+      }
+    ],
+    "id": 46
+  },
   "all": [
     1,
     2,
@@ -416,6 +425,7 @@
     41,
     42,
     43,
-    44
+    44,
+    46
   ]
 }

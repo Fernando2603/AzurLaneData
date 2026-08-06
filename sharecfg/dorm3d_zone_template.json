@@ -1,39 +1,44 @@
 {
   "1000": {
     "name": "List",
-    "special_action": "",
-    "id": 1000,
-    "is_global": 1,
-    "type_prioritys": "",
     "watch_camera": "",
+    "id": 1000,
     "touch_id": "",
-    "room_id": 1
+    "is_global": 1,
+    "room_id": 1,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "1001": {
-    "name": "Bedroom",
-    "special_action": [
-      [
-        20220,
-        [
-          "jinzhang",
-          "dianshouzhi"
-        ]
-      ]
-    ],
-    "id": 1001,
-    "is_global": 0,
+    "room_id": 1,
     "type_prioritys": [
       4,
       3,
       2,
       1
     ],
-    "watch_camera": "Bed",
+    "id": 1001,
+    "name": "Bedroom",
+    "is_global": 0,
     "touch_id": "",
-    "room_id": 1
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "watch_camera": "Bed"
   },
   "1002": {
     "name": "Dining Area",
+    "watch_camera": "Table",
+    "id": 1002,
+    "touch_id": "",
+    "is_global": 0,
+    "room_id": 1,
     "special_action": [
       [
         20220,
@@ -43,15 +48,15 @@
         ]
       ]
     ],
-    "id": 1002,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "Table",
-    "touch_id": "",
-    "room_id": 1
+    "type_prioritys": ""
   },
   "1003": {
     "name": "Living Area",
+    "watch_camera": "Chair",
+    "id": 1003,
+    "touch_id": "",
+    "is_global": 0,
+    "room_id": 1,
     "special_action": [
       [
         20220,
@@ -61,98 +66,80 @@
         ]
       ]
     ],
-    "id": 1003,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "Chair",
-    "touch_id": "",
-    "room_id": 1
+    "type_prioritys": ""
   },
   "2001": {
     "name": "Bedroom",
-    "special_action": "",
-    "id": 2001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Bed",
+    "id": 2001,
     "touch_id": "",
-    "room_id": 2
+    "is_global": 0,
+    "room_id": 2,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "2002": {
     "name": "Dining Area",
-    "special_action": "",
-    "id": 2002,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Table",
+    "id": 2002,
     "touch_id": "",
-    "room_id": 2
+    "is_global": 0,
+    "room_id": 2,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "2003": {
     "name": "Living Area",
-    "special_action": "",
-    "id": 2003,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Chair",
+    "id": 2003,
     "touch_id": "",
-    "room_id": 2
+    "is_global": 0,
+    "room_id": 2,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "3001": {
     "name": "Bedroom",
-    "special_action": "",
-    "id": 3001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Bed",
+    "id": 3001,
     "touch_id": "",
-    "room_id": 3
+    "is_global": 0,
+    "room_id": 3,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "3002": {
     "name": "Amusement Area",
-    "special_action": "",
-    "id": 3002,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Table",
+    "id": 3002,
     "touch_id": "",
-    "room_id": 3
+    "is_global": 0,
+    "room_id": 3,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "3003": {
     "name": "Living Area",
-    "special_action": "",
-    "id": 3003,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Chair",
+    "id": 3003,
     "touch_id": "",
-    "room_id": 3
+    "is_global": 0,
+    "room_id": 3,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "4001": {
     "name": "Entrance",
-    "special_action": [
+    "touch_id": [
       [
         20220,
-        [
-          "jinzhang",
-          "dianshouzhi"
-        ]
+        201
       ]
     ],
     "id": 4001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Default",
-    "touch_id": [
-      [
-        20220,
-        201
-      ]
-    ],
-    "room_id": 4
-  },
-  "4002": {
-    "name": "Beach Chair",
+    "is_global": 0,
+    "room_id": 4,
     "special_action": [
       [
         20220,
@@ -162,272 +149,285 @@
         ]
       ]
     ],
-    "id": 4002,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "Tianlangxing",
+    "type_prioritys": ""
+  },
+  "4002": {
+    "name": "Beach Chair",
     "touch_id": [
       [
         20220,
         201
       ]
     ],
-    "room_id": 4
+    "id": 4002,
+    "watch_camera": "Tianlangxing",
+    "is_global": 0,
+    "room_id": 4,
+    "special_action": [
+      [
+        20220,
+        [
+          "jinzhang",
+          "dianshouzhi"
+        ]
+      ]
+    ],
+    "type_prioritys": ""
   },
   "4003": {
     "name": "Beach Parasol",
-    "special_action": [],
-    "id": 4003,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "Nengdai",
     "touch_id": [
       [
         30221,
         2210110
       ]
     ],
-    "room_id": 4
+    "id": 4003,
+    "watch_camera": "Nengdai",
+    "is_global": 0,
+    "room_id": 4,
+    "special_action": [],
+    "type_prioritys": ""
   },
   "4004": {
     "name": "Beach",
-    "special_action": [],
-    "id": 4004,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "Ankeleiqi",
     "touch_id": [
       [
         19903,
         1990390
       ]
     ],
-    "room_id": 4
+    "id": 4004,
+    "watch_camera": "Ankeleiqi",
+    "is_global": 0,
+    "room_id": 4,
+    "special_action": [],
+    "type_prioritys": ""
   },
   "4005": {
     "name": "Slide",
-    "special_action": [],
-    "id": 4005,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "Slide",
     "touch_id": [
       [
         19903,
         1990390
       ]
     ],
-    "room_id": 4
+    "id": 4005,
+    "watch_camera": "Slide",
+    "is_global": 0,
+    "room_id": 4,
+    "special_action": [],
+    "type_prioritys": ""
   },
   "11001": {
     "name": "Bedroom",
-    "special_action": "",
-    "id": 11001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Bed",
+    "id": 11001,
     "touch_id": "",
-    "room_id": 11
+    "is_global": 0,
+    "room_id": 11,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "11002": {
     "name": "Dining Area",
-    "special_action": "",
-    "id": 11002,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Table",
+    "id": 11002,
     "touch_id": "",
-    "room_id": 11
+    "is_global": 0,
+    "room_id": 11,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "11003": {
     "name": "Living Area",
-    "special_action": "",
-    "id": 11003,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Chair",
+    "id": 11003,
     "touch_id": "",
-    "room_id": 11
+    "is_global": 0,
+    "room_id": 11,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "12001": {
     "name": "Bedroom",
-    "special_action": "",
-    "id": 12001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Bed",
+    "id": 12001,
     "touch_id": "",
-    "room_id": 12
+    "is_global": 0,
+    "room_id": 12,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "12002": {
     "name": "Dining Area",
-    "special_action": "",
-    "id": 12002,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Table",
+    "id": 12002,
     "touch_id": "",
-    "room_id": 12
+    "is_global": 0,
+    "room_id": 12,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "12003": {
     "name": "Living Area",
-    "special_action": "",
-    "id": 12003,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Chair",
+    "id": 12003,
     "touch_id": "",
-    "room_id": 12
+    "is_global": 0,
+    "room_id": 12,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "14001": {
     "name": "Bedroom",
-    "special_action": "",
-    "id": 14001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Bed",
+    "id": 14001,
     "touch_id": "",
-    "room_id": 14
+    "is_global": 0,
+    "room_id": 14,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "14002": {
     "name": "Study",
-    "special_action": "",
-    "id": 14002,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Table",
+    "id": 14002,
     "touch_id": "",
-    "room_id": 14
+    "is_global": 0,
+    "room_id": 14,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "14003": {
     "name": "Parlor",
-    "special_action": "",
-    "id": 14003,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Chair",
+    "id": 14003,
     "touch_id": "",
-    "room_id": 14
+    "is_global": 0,
+    "room_id": 14,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "16001": {
-    "name": "Stage",
-    "special_action": "",
-    "id": 16001,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "xinzexi",
     "touch_id": [
       [
         10517,
         1051790
       ]
     ],
-    "room_id": 16
+    "watch_camera": "xinzexi",
+    "id": 16001,
+    "room_id": 16,
+    "is_global": 0,
+    "name": "Stage",
+    "special_action": "",
+    "type_prioritys": ""
   },
   "16002": {
-    "name": "Counter",
-    "special_action": "",
-    "id": 16002,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "dafeng",
     "touch_id": [
       [
         30707,
         3070790
       ]
     ],
-    "room_id": 16
+    "watch_camera": "dafeng",
+    "id": 16002,
+    "room_id": 16,
+    "is_global": 0,
+    "name": "Counter",
+    "special_action": "",
+    "type_prioritys": ""
   },
   "16003": {
-    "name": "Box Seats",
-    "special_action": "",
-    "id": 16003,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "aijier",
     "touch_id": [
       [
         49905,
         4990590
       ]
     ],
-    "room_id": 16
+    "watch_camera": "aijier",
+    "id": 16003,
+    "room_id": 16,
+    "is_global": 0,
+    "name": "Box Seats",
+    "special_action": "",
+    "type_prioritys": ""
   },
   "16004": {
-    "name": "Recreational Space",
-    "special_action": "",
-    "id": 16004,
-    "is_global": 0,
-    "type_prioritys": "",
-    "watch_camera": "tianlangxing",
     "touch_id": [
       [
         20220,
         10100401
       ]
     ],
-    "room_id": 16
+    "watch_camera": "tianlangxing",
+    "id": 16004,
+    "room_id": 16,
+    "is_global": 0,
+    "name": "Recreational Space",
+    "special_action": "",
+    "type_prioritys": ""
   },
   "21001": {
     "name": "Bedroom",
-    "special_action": "",
-    "id": 21001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Bed",
+    "id": 21001,
     "touch_id": "",
-    "room_id": 21
+    "is_global": 0,
+    "room_id": 21,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "21002": {
     "name": "Workshop",
-    "special_action": "",
-    "id": 21002,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Table",
+    "id": 21002,
     "touch_id": "",
-    "room_id": 21
+    "is_global": 0,
+    "room_id": 21,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "21003": {
     "name": "Living Room",
-    "special_action": "",
-    "id": 21003,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Chair",
+    "id": 21003,
     "touch_id": "",
-    "room_id": 21
+    "is_global": 0,
+    "room_id": 21,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "26001": {
     "name": "Parking Area",
-    "special_action": "",
-    "id": 26001,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Parking",
+    "id": 26001,
     "touch_id": "",
-    "room_id": 26
+    "is_global": 0,
+    "room_id": 26,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "26002": {
     "name": "Rest Area",
-    "special_action": "",
-    "id": 26002,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Relax",
+    "id": 26002,
     "touch_id": "",
-    "room_id": 26
+    "is_global": 0,
+    "room_id": 26,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "26003": {
     "name": "Training Area",
-    "special_action": "",
-    "id": 26003,
-    "is_global": 0,
-    "type_prioritys": "",
     "watch_camera": "Train",
+    "id": 26003,
     "touch_id": "",
-    "room_id": 26
+    "is_global": 0,
+    "room_id": 26,
+    "special_action": "",
+    "type_prioritys": ""
   },
   "all": [
     1000,
