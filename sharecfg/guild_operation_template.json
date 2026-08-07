@@ -1,23 +1,10 @@
 {
   "1": {
-    "unlock_guild_level": 1,
-    "profile": "Sirens have been detected near Midway! Patrol the surrounding waters and prevent their offensive!",
+    "id": 1,
     "consume": 1000,
+    "theme": "midway",
+    "name": "Pacific Base Patrol",
     "scale": "Scale: Small (Rec. Participants: 1-5)",
-    "award_display": [
-      [
-        2,
-        59008
-      ],
-      [
-        2,
-        54018
-      ],
-      [
-        2,
-        54017
-      ]
-    ],
     "event_type_list": [
       1,
       3,
@@ -25,16 +12,9 @@
       7,
       8
     ],
-    "id": 1,
+    "unlock_guild_level": 1,
+    "profile": "Sirens have been detected near Midway! Patrol the surrounding waters and prevent their offensive!",
     "difficulty": 1,
-    "name": "Pacific Base Patrol",
-    "theme": "midway"
-  },
-  "2": {
-    "unlock_guild_level": 3,
-    "profile": "The Sirens are attacking a Northern shipping route! Dispatch a fleet and secure the safety of our merchant vessels!",
-    "consume": 2000,
-    "scale": "Scale: Medium (Rec. Participants: 3-8)",
     "award_display": [
       [
         2,
@@ -48,23 +28,23 @@
         2,
         54017
       ]
-    ],
+    ]
+  },
+  "2": {
+    "id": 2,
+    "consume": 2000,
+    "theme": "northern",
+    "name": "Northern Shipping Escort",
+    "scale": "Scale: Medium (Rec. Participants: 3-8)",
     "event_type_list": [
       1,
       3,
       6,
       7
     ],
-    "id": 2,
+    "unlock_guild_level": 3,
+    "profile": "The Sirens are attacking a Northern shipping route! Dispatch a fleet and secure the safety of our merchant vessels!",
     "difficulty": 2,
-    "name": "Northern Shipping Escort",
-    "theme": "northern"
-  },
-  "3": {
-    "unlock_guild_level": 5,
-    "profile": "Dispatch a fleet to escort a convoy of cargo ships through dangerous territory!",
-    "consume": 3000,
-    "scale": "Scale: Large (Rec. Participants: 6-14)",
     "award_display": [
       [
         2,
@@ -78,7 +58,14 @@
         2,
         54017
       ]
-    ],
+    ]
+  },
+  "3": {
+    "id": 3,
+    "consume": 3000,
+    "theme": "norskehavet",
+    "name": "Peninsular Raid",
+    "scale": "Scale: Large (Rec. Participants: 6-14)",
     "event_type_list": [
       1,
       3,
@@ -87,16 +74,9 @@
       7,
       8
     ],
-    "id": 3,
+    "unlock_guild_level": 5,
+    "profile": "Dispatch a fleet to escort a convoy of cargo ships through dangerous territory!",
     "difficulty": 3,
-    "name": "Peninsular Raid",
-    "theme": "norskehavet"
-  },
-  "4": {
-    "unlock_guild_level": 7,
-    "profile": "Send out a fleet to help secure the airspace over a remote Pacific island and eliminate the Siren presence!",
-    "consume": 5000,
-    "scale": "Scale: Very Large (Rec. Participants: 8-20)",
     "award_display": [
       [
         2,
@@ -110,7 +90,14 @@
         2,
         54017
       ]
-    ],
+    ]
+  },
+  "4": {
+    "id": 4,
+    "consume": 5000,
+    "theme": "guadalcanal",
+    "name": "Solomon Air-Sea Battle",
+    "scale": "Scale: Very Large (Rec. Participants: 8-20)",
     "event_type_list": [
       1,
       2,
@@ -119,10 +106,23 @@
       7,
       8
     ],
-    "id": 4,
+    "unlock_guild_level": 7,
+    "profile": "Send out a fleet to help secure the airspace over a remote Pacific island and eliminate the Siren presence!",
     "difficulty": 3,
-    "name": "Solomon Air-Sea Battle",
-    "theme": "guadalcanal"
+    "award_display": [
+      [
+        2,
+        59008
+      ],
+      [
+        2,
+        54018
+      ],
+      [
+        2,
+        54017
+      ]
+    ]
   },
   "all": [
     1,

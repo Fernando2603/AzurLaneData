@@ -1,24 +1,21 @@
 {
   "10013": {
     "id": 10013,
+    "name": "寒冰区域模板示例 伤害+减速+移动",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 1,
         "hp_rate": 0.005,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 1,
+        "type": 3,
         "buff_id": 8660
       },
       {
         "random_speed": 10,
-        "random_duration": [
-          3,
-          5
-        ],
         "type": 4,
         "route": [
           [
@@ -313,31 +310,36 @@
         "random_range": [
           32,
           10
+        ],
+        "random_duration": [
+          3,
+          5
         ]
       }
-    ],
-    "name": "寒冰区域模板示例 伤害+减速+移动"
+    ]
   },
   "10014": {
     "id": 10014,
+    "name": "寒冰区域模板示例 伤害+减速+移动EX",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 1,
         "hp_rate": 0.01,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 1,
+        "type": 3,
         "buff_id": 8660
       },
       {
-        "random_speed": 7,
         "random_duration": [
           3,
           5
         ],
+        "random_speed": 7,
+        "type": 4,
         "route": [
           [
             -20,
@@ -375,32 +377,32 @@
             30,
             5
           ]
-        ],
-        "type": 4
+        ]
       }
-    ],
-    "name": "寒冰区域模板示例 伤害+减速+移动EX"
+    ]
   },
   "10015": {
     "id": 10015,
+    "name": "寒冰区域模板示例 伤害+减速+移动EX",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 1,
         "hp_rate": 0.01,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 1,
+        "type": 3,
         "buff_id": 8660
       },
       {
-        "random_speed": 7,
         "random_duration": [
           3,
           5
         ],
+        "random_speed": 7,
+        "type": 4,
         "route": [
           [
             -70,
@@ -438,82 +440,65 @@
             80,
             5
           ]
-        ],
-        "type": 4
+        ]
       }
-    ],
-    "name": "寒冰区域模板示例 伤害+减速+移动EX"
+    ]
   },
   "10110": {
     "id": 10110,
+    "name": "闪电子行为",
     "behaviour_list": [
       {
-        "type": 1,
         "FX_ID": "shandian",
+        "reload_time": 100,
+        "type": 1,
         "offset": [
           0,
           0,
           34
-        ],
-        "reload_time": 100
+        ]
       },
       {
-        "type": 2,
         "damage": 160,
-        "offset": 30,
+        "hp_rate": 0.01,
         "diveFilter": [
           2
         ],
-        "hp_rate": 0.01,
-        "reload_time": 2
+        "reload_time": 2,
+        "offset": 30,
+        "type": 2
       }
-    ],
-    "name": "闪电子行为"
+    ]
   },
   "10020": {
     "id": 10020,
+    "name": "巨炮嵌套配置",
     "behaviour_list": [
       {
-        "type": 1,
         "FX_ID": "yaosaizidan01",
+        "reload_time": 100,
+        "type": 1,
         "offset": [
           -15,
           0,
           145
-        ],
-        "reload_time": 100
+        ]
       },
       {
-        "type": 2,
         "damage": 0,
-        "delay": 1,
         "hp_rate": 0.03,
-        "reload_time": 4
+        "reload_time": 4,
+        "delay": 1,
+        "type": 2
       }
-    ],
-    "name": "巨炮嵌套配置"
+    ]
   },
   "10021": {
     "id": 10021,
+    "name": "法系巨炮炮击1",
     "behaviour_list": [
       {
-        "offset_time": 0,
-        "reload_time": 5,
-        "rounds": 3,
-        "content": {
-          "count": 1,
-          "alert": {
-            "range": 10,
-            "alert_fx": "AlertArea"
-          },
-          "child_prefab": {
-            "behaviours": 10020,
-            "cld_data": [
-              10
-            ],
-            "life_time": 3
-          }
-        },
+        "type": 6,
         "route": [
           {
             "count": 3
@@ -525,32 +510,32 @@
             "count": 3
           }
         ],
-        "type": 6
+        "rounds": 3,
+        "reload_time": 5,
+        "content": {
+          "child_prefab": {
+            "life_time": 3,
+            "cld_data": [
+              10
+            ],
+            "behaviours": 10020
+          },
+          "alert": {
+            "range": 10,
+            "alert_fx": "AlertArea"
+          },
+          "count": 1
+        },
+        "offset_time": 0
       }
-    ],
-    "name": "法系巨炮炮击1"
+    ]
   },
   "10022": {
     "id": 10022,
+    "name": "法系巨炮炮击2",
     "behaviour_list": [
       {
-        "offset_time": 0,
-        "reload_time": 6,
-        "rounds": 3,
-        "content": {
-          "count": 1,
-          "alert": {
-            "range": 10,
-            "alert_fx": "AlertArea"
-          },
-          "child_prefab": {
-            "behaviours": 10020,
-            "cld_data": [
-              10
-            ],
-            "life_time": 3
-          }
-        },
+        "type": 6,
         "route": [
           {
             "count": 3
@@ -562,32 +547,32 @@
             "count": 3
           }
         ],
-        "type": 6
+        "rounds": 3,
+        "reload_time": 6,
+        "content": {
+          "child_prefab": {
+            "life_time": 3,
+            "cld_data": [
+              10
+            ],
+            "behaviours": 10020
+          },
+          "alert": {
+            "range": 10,
+            "alert_fx": "AlertArea"
+          },
+          "count": 1
+        },
+        "offset_time": 0
       }
-    ],
-    "name": "法系巨炮炮击2"
+    ]
   },
   "10023": {
     "id": 10023,
+    "name": "法系巨炮炮击3",
     "behaviour_list": [
       {
-        "offset_time": 0,
-        "reload_time": 6,
-        "rounds": 3,
-        "content": {
-          "count": 1,
-          "alert": {
-            "range": 10,
-            "alert_fx": "AlertArea"
-          },
-          "child_prefab": {
-            "behaviours": 10020,
-            "cld_data": [
-              10
-            ],
-            "life_time": 3
-          }
-        },
+        "type": 6,
         "route": [
           {
             "count": 3
@@ -599,187 +584,199 @@
             "count": 3
           }
         ],
-        "type": 6
+        "rounds": 3,
+        "reload_time": 6,
+        "content": {
+          "child_prefab": {
+            "life_time": 3,
+            "cld_data": [
+              10
+            ],
+            "behaviours": 10020
+          },
+          "alert": {
+            "range": 10,
+            "alert_fx": "AlertArea"
+          },
+          "count": 1
+        },
+        "offset_time": 0
       }
-    ],
-    "name": "法系巨炮炮击3"
+    ]
   },
   "10024": {
     "id": 10024,
+    "name": "十四章灯塔暴露DEBUFF",
     "behaviour_list": [
       {
-        "type": 3,
         "reload_time": 0.1,
+        "type": 3,
         "buff_id": 9660
       }
-    ],
-    "name": "十四章灯塔暴露DEBUFF"
+    ]
   },
   "105": {
     "id": 105,
+    "name": "火山示例",
     "behaviour_list": [
       {
-        "type": 2,
         "damage": 20,
+        "type": 2,
         "life_time": 3,
         "offset": 5,
         "reload_time": 0.5
       },
       {
-        "type": 8,
+        "reload_time": 6,
         "shake_ID": 999,
-        "reload_time": 6
+        "type": 8
       },
       {
-        "type": 2,
         "damage": 100,
-        "delay": 3.5,
-        "offset": 20,
         "hp_rate": 0.03,
-        "reload_time": 5
+        "offset": 20,
+        "reload_time": 5,
+        "delay": 3.5,
+        "type": 2
       },
       {
-        "type": 1,
-        "reload_time": 4,
         "scaleRate": 1,
+        "type": 1,
         "FX_ID": "haidihuoshan_baofa",
+        "reload_time": 4,
         "delay": 3.5
       }
-    ],
-    "name": "火山示例"
+    ]
   },
   "10026": {
     "id": 10026,
+    "name": "莱莎联动炮击",
     "behaviour_list": [
       {
-        "offset_time": 0,
-        "reload_time": 8,
+        "type": 6,
+        "route": [
+          {
+            "count": 3
+          },
+          {
+            "count": 3
+          },
+          {
+            "count": 3
+          },
+          {
+            "count": 3
+          },
+          {
+            "count": 3
+          }
+        ],
         "rounds": 5,
+        "reload_time": 8,
         "content": {
-          "count": 1,
+          "child_prefab": {
+            "life_time": 3,
+            "cld_data": [
+              20
+            ],
+            "behaviours": 10025
+          },
           "alert": {
             "range": 20,
             "alert_fx": "AlertArea"
           },
-          "child_prefab": {
-            "behaviours": 10025,
-            "cld_data": [
-              20
-            ],
-            "life_time": 3
-          }
+          "count": 1
         },
-        "route": [
-          {
-            "count": 3
-          },
-          {
-            "count": 3
-          },
-          {
-            "count": 3
-          },
-          {
-            "count": 3
-          },
-          {
-            "count": 3
-          }
-        ],
-        "type": 6
+        "offset_time": 0
       }
-    ],
-    "name": "莱莎联动炮击"
+    ]
   },
   "10102": {
     "id": 10102,
+    "name": "大世界仲裁者战斗_武器伴随雷电三发",
     "behaviour_list": [
       {
-        "offset_time": 0,
-        "reload_time": 2.5,
-        "rounds": 1,
-        "content": {
-          "count": 1,
-          "alert": {
-            "delay": 2,
-            "range": 10,
-            "alert_fx": "AlertArea"
-          },
-          "child_prefab": {
-            "behaviours": 10110,
-            "cld_data": [
-              15
-            ],
-            "life_time": 0.5
-          }
-        },
+        "type": 6,
         "route": [
           {
             "count": 3
           }
         ],
-        "type": 6
-      }
-    ],
-    "name": "大世界仲裁者战斗_武器伴随雷电三发"
-  },
-  "10101": {
-    "id": 10101,
-    "behaviour_list": [
-      {
-        "offset_time": 0,
-        "reload_time": 2.5,
         "rounds": 1,
+        "reload_time": 2.5,
         "content": {
-          "count": 1,
-          "alert": {
-            "delay": 2,
-            "range": 10,
-            "alert_fx": "AlertArea"
-          },
           "child_prefab": {
-            "behaviours": 10110,
+            "life_time": 0.5,
             "cld_data": [
               15
             ],
-            "life_time": 0.5
-          }
+            "behaviours": 10110
+          },
+          "alert": {
+            "range": 10,
+            "delay": 2,
+            "alert_fx": "AlertArea"
+          },
+          "count": 1
         },
+        "offset_time": 0
+      }
+    ]
+  },
+  "10101": {
+    "id": 10101,
+    "name": "大世界仲裁者战斗_武器伴随雷电两发",
+    "behaviour_list": [
+      {
+        "type": 6,
         "route": [
           {
             "count": 2
           }
         ],
-        "type": 6
+        "rounds": 1,
+        "reload_time": 2.5,
+        "content": {
+          "child_prefab": {
+            "life_time": 0.5,
+            "cld_data": [
+              15
+            ],
+            "behaviours": 10110
+          },
+          "alert": {
+            "range": 10,
+            "delay": 2,
+            "alert_fx": "AlertArea"
+          },
+          "count": 1
+        },
+        "offset_time": 0
       }
-    ],
-    "name": "大世界仲裁者战斗_武器伴随雷电两发"
+    ]
   },
   "10000": {
     "id": 10000,
-    "behaviour_list": [],
-    "name": "默认状态无"
+    "name": "默认状态无",
+    "behaviour_list": []
   },
   "10001": {
     "id": 10001,
+    "name": "寒冰区域模板示例 伤害+减速+移动",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 1,
         "hp_rate": 0,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 1,
+        "type": 3,
         "buff_id": 10331
       },
       {
         "random_speed": 10,
-        "random_duration": [
-          3,
-          5
-        ],
         "type": 4,
         "route": [
           [
@@ -798,60 +795,47 @@
         "random_range": [
           1,
           1
+        ],
+        "random_duration": [
+          3,
+          5
         ]
       }
-    ],
-    "name": "寒冰区域模板示例 伤害+减速+移动"
+    ]
   },
   "10002": {
     "id": 10002,
+    "name": "模板示例 伤害+减速+间隔播放特效+间隔播放音效",
     "behaviour_list": [
       {
-        "type": 1,
         "FX_ID": "ShellMiss",
-        "reload_time": 0.5
+        "reload_time": 0.5,
+        "type": 1
       },
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 0.5,
         "hp_rate": 0,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 0.5,
+        "type": 3,
         "buff_id": 10331
       },
       {
-        "type": 7,
+        "reload_time": 0.5,
         "SFX_ID": "battle/cannon-356mm",
-        "reload_time": 0.5
+        "type": 7
       }
-    ],
-    "name": "模板示例 伤害+减速+间隔播放特效+间隔播放音效"
+    ]
   },
   "10003": {
     "id": 10003,
+    "name": "闪电行为",
     "behaviour_list": [
       {
-        "offset_time": 0,
-        "reload_time": 1.2,
-        "rounds": 10,
-        "content": {
-          "count": 1,
-          "alert": {
-            "delay": 0.8,
-            "range": 10,
-            "alert_fx": "AlertArea"
-          },
-          "child_prefab": {
-            "behaviours": 10007,
-            "cld_data": [
-              15
-            ],
-            "life_time": 0.5
-          }
-        },
+        "type": 6,
         "route": [
           {
             "count": 7
@@ -866,63 +850,81 @@
             "count": 7
           }
         ],
-        "type": 6
+        "rounds": 10,
+        "reload_time": 1.2,
+        "content": {
+          "child_prefab": {
+            "life_time": 0.5,
+            "cld_data": [
+              15
+            ],
+            "behaviours": 10007
+          },
+          "alert": {
+            "range": 10,
+            "delay": 0.8,
+            "alert_fx": "AlertArea"
+          },
+          "count": 1
+        },
+        "offset_time": 0
       }
-    ],
-    "name": "闪电行为"
+    ]
   },
   "10004": {
     "id": 10004,
+    "name": "火山预警",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 10,
         "reload_time": 0.5,
         "hp_rate": 0,
-        "damage": 10
+        "type": 2
       }
-    ],
-    "name": "火山预警"
+    ]
   },
   "10005": {
     "id": 10005,
+    "name": "火山伤害",
     "behaviour_list": [
       {
-        "type": 2,
         "damage": 30,
-        "offset": 20,
         "hp_rate": 0,
-        "reload_time": 2
+        "reload_time": 2,
+        "offset": 20,
+        "type": 2
       },
       {
-        "type": 1,
         "FX_ID": "haidihuoshan_baofa",
         "reload_time": 5,
+        "type": 1,
         "scaleRate": 0.05
       }
-    ],
-    "name": "火山伤害"
+    ]
   },
   "10006": {
     "id": 10006,
+    "name": "龙卷风随机移动",
     "behaviour_list": [
       {
-        "type": 2,
         "damage": 15,
-        "offset": 5,
         "hp_rate": 0.005,
-        "reload_time": 0.2
+        "reload_time": 0.2,
+        "offset": 5,
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 0.5,
+        "type": 3,
         "buff_id": 79120
       },
       {
-        "random_speed": 12,
         "random_duration": [
           0,
           30
         ],
+        "random_speed": 12,
+        "type": 4,
         "route": [
           [
             -30,
@@ -930,47 +932,46 @@
             55,
             8
           ]
-        ],
-        "type": 4
+        ]
       }
-    ],
-    "name": "龙卷风随机移动"
+    ]
   },
   "10007": {
     "id": 10007,
+    "name": "闪电子行为",
     "behaviour_list": [
       {
-        "type": 1,
         "FX_ID": "shandian",
+        "reload_time": 100,
+        "type": 1,
         "offset": [
           0,
           0,
           34
-        ],
-        "reload_time": 100
+        ]
       },
       {
-        "type": 2,
         "damage": 900,
-        "offset": 60,
         "hp_rate": 0,
-        "reload_time": 2
+        "reload_time": 2,
+        "offset": 60,
+        "type": 2
       }
-    ],
-    "name": "闪电子行为"
+    ]
   },
   "10008": {
     "id": 10008,
+    "name": "球形闪电移动",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 0.5,
         "hp_rate": 0,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 0.5,
+        "type": 3,
         "buff_id": 10331
       },
       {
@@ -985,17 +986,17 @@
           ]
         ]
       }
-    ],
-    "name": "球形闪电移动"
+    ]
   },
   "10009": {
     "id": 10009,
+    "name": "巨浪移动",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 100,
         "reload_time": 1,
         "hp_rate": 0,
-        "damage": 100
+        "type": 2
       },
       {
         "type": 4,
@@ -1008,31 +1009,14 @@
           ]
         ]
       }
-    ],
-    "name": "巨浪移动"
+    ]
   },
   "10100": {
     "id": 10100,
+    "name": "大世界仲裁者战斗_开场随机雷电",
     "behaviour_list": [
       {
-        "offset_time": 0,
-        "reload_time": 3,
-        "rounds": 2,
-        "content": {
-          "count": 1,
-          "alert": {
-            "delay": 2,
-            "range": 10,
-            "alert_fx": "AlertArea"
-          },
-          "child_prefab": {
-            "behaviours": 10110,
-            "cld_data": [
-              15
-            ],
-            "life_time": 0.5
-          }
-        },
+        "type": 6,
         "route": [
           {
             "count": 1
@@ -1041,31 +1025,44 @@
             "count": 2
           }
         ],
-        "type": 6
+        "rounds": 2,
+        "reload_time": 3,
+        "content": {
+          "child_prefab": {
+            "life_time": 0.5,
+            "cld_data": [
+              15
+            ],
+            "behaviours": 10110
+          },
+          "alert": {
+            "range": 10,
+            "delay": 2,
+            "alert_fx": "AlertArea"
+          },
+          "count": 1
+        },
+        "offset_time": 0
       }
-    ],
-    "name": "大世界仲裁者战斗_开场随机雷电"
+    ]
   },
   "10011": {
     "id": 10011,
+    "name": "寒冰区域模板示例 伤害+减速+移动",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 1,
         "hp_rate": 0.005,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 1,
+        "type": 3,
         "buff_id": 8660
       },
       {
         "random_speed": 10,
-        "random_duration": [
-          3,
-          5
-        ],
         "type": 4,
         "route": [
           [
@@ -1360,31 +1357,31 @@
         "random_range": [
           32,
           10
+        ],
+        "random_duration": [
+          3,
+          5
         ]
       }
-    ],
-    "name": "寒冰区域模板示例 伤害+减速+移动"
+    ]
   },
   "10012": {
     "id": 10012,
+    "name": "寒冰区域模板示例 伤害+减速+移动",
     "behaviour_list": [
       {
-        "type": 2,
+        "damage": 1,
         "reload_time": 1,
         "hp_rate": 0.005,
-        "damage": 1
+        "type": 2
       },
       {
-        "type": 3,
         "reload_time": 1,
+        "type": 3,
         "buff_id": 8660
       },
       {
         "random_speed": 10,
-        "random_duration": [
-          3,
-          5
-        ],
         "type": 4,
         "route": [
           [
@@ -1679,32 +1676,35 @@
         "random_range": [
           32,
           10
+        ],
+        "random_duration": [
+          3,
+          5
         ]
       }
-    ],
-    "name": "寒冰区域模板示例 伤害+减速+移动"
+    ]
   },
   "10025": {
     "id": 10025,
+    "name": "巨炮嵌套配置2",
     "behaviour_list": [
       {
-        "type": 1,
         "FX_ID": "yaosaizidan02",
+        "reload_time": 100,
+        "type": 1,
         "offset": [
           -15,
           0,
           145
-        ],
-        "reload_time": 100
+        ]
       },
       {
-        "type": 2,
         "damage": 0,
-        "delay": 1,
         "hp_rate": 0.01,
-        "reload_time": 4
+        "reload_time": 4,
+        "delay": 1,
+        "type": 2
       }
-    ],
-    "name": "巨炮嵌套配置2"
+    ]
   }
 }
