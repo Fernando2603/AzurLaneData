@@ -1,23 +1,19 @@
 {
   "1": {
-    "unlock_time": [
-      [
-        2022,
-        4,
-        18
-      ],
-      [
-        0,
-        0,
-        0
-      ]
-    ],
+    "coin_max": 5,
+    "icon": "diediele",
     "game_help": [
       {
         "info": "- Minigame Overview -\nCollect the fallen blocks and stack them as high as you can to rack up points.\n\n- How to Play -\n· Tap the screen to release the block at the top and try to land it on the tower below.\n· If you land the block on the tower, you earn points. If you miss the tower 3 times, the game ends.\n· The tower has a balance gauge (seen on the right side of the screen) that needs to be managed. If the manjuu at the center of the gauge reaches either of the red areas, the tower will collapse and end the game.\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-5 points: 180 Game Tickets\n6-10 points: 200 Game Tickets\n11-20 points: 220 Game Tickets\n21-30 points: 240 Game Tickets\nOver 30 points: 260 Game Tickets\n"
       }
     ],
-    "game_id": 1002,
+    "add_base": 200,
+    "id": 1,
+    "type": 11,
+    "position": [
+      0,
+      20
+    ],
     "add_num": [
       [
         31,
@@ -40,19 +36,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      20
-    ],
-    "icon": "diediele",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 1,
-    "order": 1,
-    "type": 11
-  },
-  "2": {
     "unlock_time": [
       [
         2022,
@@ -65,6 +48,13 @@
         0
       ]
     ],
+    "order": 1,
+    "add_type": 12,
+    "game_id": 1002
+  },
+  "2": {
+    "coin_max": 5,
+    "icon": "sanxiao",
     "game_help": {
       "1": {
         "icon": {
@@ -84,23 +74,29 @@
           "atlas": "helpbg/3match_3"
         }
       },
-      "disableScroll": true,
-      "pageMode": true,
       "defaultpage": 1,
+      "ImageMode": true,
       "helpSize": {
-        "x": 1176,
-        "y": 1024
+        "y": 1024,
+        "x": 1176
       },
       "windowSize": {
-        "x": 1263,
-        "y": 873
+        "y": 873,
+        "x": 1263
       },
+      "pageMode": true,
       "windowPos": {
         "y": -70
       },
-      "ImageMode": true
+      "disableScroll": true
     },
-    "game_id": 1003,
+    "add_base": 200,
+    "id": 2,
+    "type": 11,
+    "position": [
+      157,
+      -153
+    ],
     "add_num": [
       [
         3001,
@@ -123,19 +119,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      157,
-      -153
-    ],
-    "icon": "sanxiao",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 2,
-    "order": 2,
-    "type": 11
-  },
-  "3": {
     "unlock_time": [
       [
         2022,
@@ -148,12 +131,25 @@
         0
       ]
     ],
+    "order": 2,
+    "add_type": 12,
+    "game_id": 1003
+  },
+  "3": {
+    "coin_max": 5,
+    "icon": "sheji",
     "game_help": [
       {
         "info": "- Minigame Overview -\nRack up points by destroying as many Siren targets as possible within the time limit.\n\n- How to Play -\n· When the game starts, 12 enemies will appear on the screen.\n· You can aim using the joypad at the bottom left side of the screen, and fire your weapon with the button at the bottom right side.\n· After firing your weapon, you won't be able to fire again for a period of time. When you hit a target, the rest of the targets will be randomly rearranged around the screen.\n· The game will end when the timer runs out, and your score will be tabulated depending on the number of targets hit.\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-5 points: 180 Game Tickets\n6-10 points: 200 Game Tickets\n11-20 points: 220 Game Tickets\n21-30 points: 240 Game Tickets\nOver 30 points: 260 Game Tickets\n"
       }
     ],
-    "game_id": 1004,
+    "add_base": 200,
+    "id": 3,
+    "type": 11,
+    "position": [
+      0,
+      0
+    ],
     "add_num": [
       [
         31,
@@ -176,19 +172,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      0
-    ],
-    "icon": "sheji",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 3,
-    "order": 3,
-    "type": 11
-  },
-  "4": {
     "unlock_time": [
       [
         2022,
@@ -201,12 +184,25 @@
         0
       ]
     ],
+    "order": 3,
+    "add_type": 12,
+    "game_id": 1004
+  },
+  "4": {
+    "coin_max": 5,
+    "icon": "xiaochi",
     "game_help": [
       {
         "info": "- Minigame Overview -\nYour shipgirls are hungry, and it's up to you to get them what they want! Buy as many correct food items as possible within the time limit!\nBuying the correct food will increase your remaining time, and increase your score.\n\nWhen the time limit expires or you exit the game, the game will be considered complete.\n\n- How to Play -\n· When the game starts, the character on the left side of the screen will display their desired items.\n· After 5 seconds, the displayed items will disappear, and you will have to select the correct items from the food vendor's menu from memory.\n· Select or deselect the food items by tapping on their icons. After selecting 3 types of foods, the results screen will be displayed.\n· You will earn points for purchasing food items corresponding to the items that the character wanted. This process repeats until you run out of time, or you end the game.\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-5 points: 180 Game Tickets\n6-10 points: 200 Game Tickets\n11-15 points: 220 Game Tickets\n16-20 points: 240 Game Tickets\nOver 20 points: 260 Game Tickets\n"
       }
     ],
-    "game_id": 1005,
+    "add_base": 200,
+    "id": 4,
+    "type": 11,
+    "position": [
+      320,
+      -310
+    ],
     "add_num": [
       [
         20,
@@ -229,19 +225,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      320,
-      -310
-    ],
-    "icon": "xiaochi",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 4,
-    "order": 4,
-    "type": 11
-  },
-  "5": {
     "unlock_time": [
       [
         2022,
@@ -254,6 +237,13 @@
         0
       ]
     ],
+    "order": 4,
+    "add_type": 12,
+    "game_id": 1005
+  },
+  "5": {
+    "coin_max": 5,
+    "icon": "xiuxing",
     "game_help": {
       "1": {
         "icon": {
@@ -267,23 +257,29 @@
           "atlas": "helpbg/guinu_help2"
         }
       },
-      "disableScroll": true,
-      "pageMode": true,
       "defaultpage": 1,
+      "ImageMode": true,
       "helpSize": {
-        "x": 1176,
-        "y": 1024
+        "y": 1024,
+        "x": 1176
       },
       "windowSize": {
-        "x": 1263,
-        "y": 873
+        "y": 873,
+        "x": 1263
       },
+      "pageMode": true,
       "windowPos": {
         "y": -70
       },
-      "ImageMode": true
+      "disableScroll": true
     },
-    "game_id": 1006,
+    "add_base": 200,
+    "id": 5,
+    "type": 11,
+    "position": [
+      -411,
+      -441
+    ],
     "add_num": [
       [
         601,
@@ -306,19 +302,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      -411,
-      -441
-    ],
-    "icon": "xiuxing",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 5,
-    "order": 5,
-    "type": 11
-  },
-  "6": {
     "unlock_time": [
       [
         2022,
@@ -331,12 +314,25 @@
         0
       ]
     ],
+    "order": 5,
+    "add_type": 12,
+    "game_id": 1006
+  },
+  "6": {
+    "coin_max": 5,
+    "icon": "dadishu",
     "game_help": [
       {
         "info": "- Overview -\nProtect the cake from being eaten by Manjuus and Meowfficers!\nThe minigame will end when the time runs out, or when the cake has been eaten three times.\n\n- How to Play -\n· When the game starts, Manjuus and Meowfficers will make their way towards the cake in the middle of the screen.\n· If a Manjuu or Meowfficer is allowed to reach the cake, they will eat the cake.\n· By tapping on a Manjuu or Meowfficer, a Specialized Bulin Custom MKIII will appear to whack it with her Kitty Kabam Hammer, protecting the cake.\n· The number of taps required to defeat each enemy depends on its type. The more difficult the enemy, the more points you will obtain.\n1) Phantom Thief Manjuu: 1 tap, 100 points.\n2) Ninjuu: 1 tap, 150 points.\n3) Kyoujuu: 2 taps, 200 points.\n4) Solid Sna-Kitty: 1 tap, 150 points.\n\n· You will fill your EX gauge upon defeating a Manjuu or Meowfficer. When your EX gauge is full, tap it to increase the attack power and range of your Bulin MKIII.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-800 points: 180 Game Tickets\n801-2000 points: 200 Game Tickets\n2001-4000 points: 220 Game Tickets\n4001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1007,
+    "add_base": 200,
+    "id": 6,
+    "type": 11,
+    "position": [
+      0,
+      -450
+    ],
     "add_num": [
       [
         6001,
@@ -359,19 +355,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -450
-    ],
-    "icon": "dadishu",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 6,
-    "order": 6,
-    "type": 11
-  },
-  "7": {
     "unlock_time": [
       [
         2022,
@@ -384,12 +367,25 @@
         0
       ]
     ],
+    "order": 6,
+    "add_type": 12,
+    "game_id": 1007
+  },
+  "7": {
+    "coin_max": 5,
+    "icon": "jiujiupata",
     "game_help": [
       {
         "info": "- Overview -\nTake control of Saratoga and jump up to reach as high as you can!\n\n- How to Play -\n· Use the arrow icons and the jump button to control the chibi Saratoga, and guide her up the platforms.\n· Running into a trap, thorns, or the Manjuu at the bottom of the screen will deplete 1 life. The game will end when you run out of lives.\n· Climb more floors to earn a higher score!\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-10 points: 180 Game Tickets\n11-20 points: 200 Game Tickets\n21-30 points: 220 Game Tickets\n31-40 points: 240 Game Tickets\nOver 40 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1008,
+    "add_base": 200,
+    "id": 7,
+    "type": 11,
+    "position": [
+      0,
+      -110
+    ],
     "add_num": [
       [
         41,
@@ -412,19 +408,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -110
-    ],
-    "icon": "jiujiupata",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 7,
-    "order": 7,
-    "type": 11
-  },
-  "8": {
     "unlock_time": [
       [
         2022,
@@ -437,12 +420,25 @@
         0
       ]
     ],
+    "order": 7,
+    "add_type": 12,
+    "game_id": 1008
+  },
+  "8": {
+    "coin_max": 5,
+    "icon": "fushun2",
     "game_help": [
       {
         "info": "- Overview -\nTake control of Fu Shun and defeat all the Nianjuus in your way!\n\n- How to Play -\n· Nianjuus move side-to-side across the screen. When an enemy is within attack range, you can attack it using the A and B buttons on the left and right.\n· The Nianjuus come in different sizes and take more or fewer attacks to defeat. The scores they grant are as follows:\nSmall Nianjuu: 10 pts\nMedium Nianjuu: 20 pts\nLarge Nianjuu: 30 pts\n· Defeating a Nianjuu charges the energy gauge at the bottom of the screen. When the gauge is full, you can gain a lot of score by quickly mashing the A and B buttons.\n· Fu Shun's HP will decrease if a Nianjuu gets too close to her. The game ends when her HP bar at the top of the screen reaches 0, or when you exit the minigame.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-500 points: 180 Game Tickets\n501-1000 points: 200 Game Tickets\n1001-2000 points: 220 Game Tickets\n2001-4000 points: 240 Game Tickets\nOver 4001 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1009,
+    "add_base": 200,
+    "id": 8,
+    "type": 11,
+    "position": [
+      0,
+      -200
+    ],
     "add_num": [
       [
         4001,
@@ -465,19 +461,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -200
-    ],
-    "icon": "fushun2",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 8,
-    "order": 8,
-    "type": 11
-  },
-  "9": {
     "unlock_time": [
       [
         2022,
@@ -490,12 +473,25 @@
         0
       ]
     ],
+    "order": 8,
+    "add_type": 12,
+    "game_id": 1009
+  },
+  "9": {
+    "coin_max": 5,
+    "icon": "zhuazhuale",
     "game_help": [
       {
         "info": "- Overview -\nLine up three of a kind as many times as you can to rack up points!\n\n- How to Play -\n· After selecting a jewel, you have up to 7 seconds to move it. During the 7 seconds, you can drag it up, down, left, or right an unlimited distance.\n· While moving, the jewel will exchange positions with any jewels on its path. After 7 seconds or upon letting go of the jewel, the game will settle the results of that move.\n· If 3 or more jewels of the same color are adjacent either horizontally or vertically, they will be cleared from the board.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-500 points: 180 Game Tickets\n501-1000 points: 200 Game Tickets\n1001-1500 points: 220 Game Tickets\n1501-2000 points: 240 Game Tickets\nOver 2001 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1010,
+    "add_base": 200,
+    "id": 9,
+    "type": 11,
+    "position": [
+      150,
+      -180
+    ],
     "add_num": [
       [
         2001,
@@ -518,19 +514,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      150,
-      -180
-    ],
-    "icon": "zhuazhuale",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 9,
-    "order": 9,
-    "type": 11
-  },
-  "10": {
     "unlock_time": [
       [
         2022,
@@ -543,12 +526,25 @@
         0
       ]
     ],
+    "order": 9,
+    "add_type": 12,
+    "game_id": 1010
+  },
+  "10": {
+    "coin_max": 5,
+    "icon": "wanshengjie",
     "game_help": [
       {
         "info": "Event Rules:\nControl Radford and help her catch the candy falling from above!\n\n- How to Play -\n· Tap either side of the screen to move Radford in that direction.\n· If Radford hits a falling bomb, or if she doesn't catch the candy before it hits the ground, she will lose 1 HP. The game is over when her HP reaches 0.\n· Radford will be slowed down if she bumps into one of the Ghost Manjuus appear on the screen.\n· You can scare the Ghost Manjuu away by tapping the flashlight on the right side of the screen.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-100 points: 180 Game Tickets\n101-400 points: 200 Game Tickets\n401-800 points: 220 Game Tickets\n801-1200 points: 240 Game Tickets\nOver 1200 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1011,
+    "add_base": 200,
+    "id": 10,
+    "type": 11,
+    "position": [
+      0,
+      -300
+    ],
     "add_num": [
       [
         1201,
@@ -571,19 +567,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -300
-    ],
-    "icon": "wanshengjie",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 10,
-    "order": 10,
-    "type": 11
-  },
-  "11": {
     "unlock_time": [
       [
         2022,
@@ -596,12 +579,25 @@
         0
       ]
     ],
+    "order": 10,
+    "add_type": 12,
+    "game_id": 1011
+  },
+  "11": {
+    "coin_max": 5,
+    "icon": "xueqiu",
     "game_help": [
       {
         "info": "- Overview -\nSnowball fiiight! Take control of Mutsu and hit the opponents with snowballs while dodging theirs!\n\n- How to Play -\n· Tap the button on the left to move Mutsu up and avoid your opponent’s snowballs. Getting hit by a snowball will deduct 1 HP.\n· Tap on the opponents to throw snowballs at them. Hitting different opponents will give different point values.\n· Warning: You will lose points if you hit innocent passersby that randomly enter the playing field!\n· The score values are as follows:\nKisaragi, Mutsuki, Uzuki, Fumizuki, Yuudachi, or Yukikaze: <color=#92fc63>+100 points</color>\nArk Royal: <color=#92fc63>+200 points</color>\nDigging Manjuu or Shiratsuyu: <color=#ff5c5c>-50 points</color>\n· The support gauge on the right side of the screen will fill up over time. When the gauge is full, tap on the gauge to call in snowfall support, peltering all opponents with snowballs while clearing theirs out of the air.\n· The minigame ends either when your HP reaches 0 or when you manually exit the minigame.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-300 points: 180 Game Tickets\n301-600 points: 200 Game Tickets\n601-1500 points: 220 Game Tickets\n1501-3000 points: 240 Game Tickets\nOver 3000 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1012,
+    "add_base": 200,
+    "id": 11,
+    "type": 11,
+    "position": [
+      0,
+      -280
+    ],
     "add_num": [
       [
         3001,
@@ -624,24 +620,11 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -280
-    ],
-    "icon": "xueqiu",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 11,
-    "order": 11,
-    "type": 11
-  },
-  "13": {
     "unlock_time": [
       [
-        2026,
-        6,
-        5
+        2022,
+        4,
+        18
       ],
       [
         0,
@@ -649,12 +632,25 @@
         0
       ]
     ],
+    "order": 11,
+    "add_type": 12,
+    "game_id": 1012
+  },
+  "13": {
+    "coin_max": 5,
+    "icon": "songdangao",
     "game_help": [
       {
         "info": "- Operation: Patisserie Overview -\nSee what the manjuus want to order, then pick out the correct dessert from the left side of the screen by tapping on it.\nCompleting orders correctly scores you points. Try to get as high a score as possible before the timer runs out.\n\n- How to Play -\n1. Before the game starts, you must select a Main and Sub shipgirl to bring over the desserts.\n2. Tap a dessert on the table on the left side of the screen to instruct your shipgirls to fetch it.\n3. After a shipgirl has picked up a dessert, tap one of the manjuus at the center of the screen to serve the dessert.\n4. Serving the correct dessert scores 1 point for your team. Serving the wrong dessert subtracts 1 point.\n5. The Sub shipgirl you select serves desserts on her own, just like the CPU team you're playing against (using the table on the right side).\n6. The minigame ends when the timer hits 0. The team with the most points wins.\n\nEvery Main and Sub shipgirl has a unique trait. Choose your team wisely!'\n\nPotential rewards (per 1 Credit used):\n0-4 points: Game Ticket x180\n5-9 points: Game Ticket x200\n10-14 points: Game Ticket x220\n15-19 points: Game Ticket x240\n20+ points: Game Ticket x260."
       }
     ],
-    "game_id": 1014,
+    "add_base": 200,
+    "id": 13,
+    "type": 11,
+    "position": [
+      0,
+      -120
+    ],
     "add_num": [
       [
         20,
@@ -677,22 +673,9 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -120
-    ],
-    "icon": "songdangao",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 13,
-    "order": 21,
-    "type": 11
-  },
-  "18": {
     "unlock_time": [
       [
-        2025,
+        2026,
         6,
         5
       ],
@@ -702,12 +685,25 @@
         0
       ]
     ],
+    "order": 21,
+    "add_type": 12,
+    "game_id": 1014
+  },
+  "18": {
+    "coin_max": 5,
+    "icon": "niuzai",
     "game_help": [
       {
         "info": "Minigame Rules:\n- In this minigame, you control a Manjuu Cowboy, and you'll earn points by lassoing Cowjuus.\n\nHow to Play:\n- When the game starts, Cowjuus will appear on the right side of the screen and start moving to the left.\n- Tap on the \"Lasso\" button on the right side of the screen to throw the lasso at the Cowjuu. You'll earn points when you successfully lasso a Cowjuu.\n- You'll earn points depending on the type of Cowjuu you lasso:\nCowjuu: 50 points\nAngusjuu: 100 points\nCape Bufflejuu: 200 points\nBisonjuu: 300 points\n\nThe game ends when the timer reaches 0 or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-300 points: 180 Game Tickets\n301-600 points: 200 Game Tickets\n601-1500 points: 220 Game Tickets\n1501-3000 points: 240 Game Tickets\nOver 3000 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1019,
+    "add_base": 200,
+    "id": 18,
+    "type": 11,
+    "position": [
+      0,
+      -150
+    ],
     "add_num": [
       [
         3001,
@@ -730,19 +726,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -150
-    ],
-    "icon": "niuzai",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 18,
-    "order": 18,
-    "type": 11
-  },
-  "19": {
     "unlock_time": [
       [
         2025,
@@ -755,12 +738,25 @@
         0
       ]
     ],
+    "order": 18,
+    "add_type": 12,
+    "game_id": 1019
+  },
+  "19": {
+    "coin_max": 5,
+    "icon": "binghu",
     "game_help": [
       {
         "info": "- Overview -\n· Strategically position the swole Meowfficer and slide the curling stone as close to the red circle as you can to score points.\n\n- How to Play -\n· Every round of Manjuu Curling consists of 3 curling stone slides.\n· Press and hold the Meowfficer to change the curling stone's launch speed. The longer you hold, the faster it will go. Let go when you wish to launch the curling stone.\n· While your finger is on the Meowfficer, move it up and down on the screen to change the curling stone's course.\n· The curling stone's course will change if it bumps into an object.\n· When the curling stone comes to a stop, you will score points based on which circle it stopped inside. Stopping in the blue circle gives you 1,000 points, the yellow circle gives you 2,000 points, and the red circle gives you 3,000 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1020,
+    "add_base": 200,
+    "id": 19,
+    "type": 11,
+    "position": [
+      0,
+      -200
+    ],
     "add_num": [
       [
         6001,
@@ -783,19 +779,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -200
-    ],
-    "icon": "binghu",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 19,
-    "order": 19,
-    "type": 11
-  },
-  "20": {
     "unlock_time": [
       [
         2025,
@@ -808,118 +791,25 @@
         0
       ]
     ],
-    "game_help": [
-      {
-        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
-      }
-    ],
-    "game_id": 1021,
-    "add_num": [
-      [
-        6001,
-        1.3
-      ],
-      [
-        3001,
-        1.2
-      ],
-      [
-        2001,
-        1.1
-      ],
-      [
-        1001,
-        1
-      ],
-      [
-        0,
-        0.9
-      ]
-    ],
-    "add_base": 200,
-    "position": [
-      0,
-      -200
-    ],
+    "order": 19,
+    "add_type": 12,
+    "game_id": 1020
+  },
+  "20": {
+    "coin_max": 5,
     "icon": "damaoxian3",
-    "add_type": 12,
-    "coin_max": 5,
+    "game_help": [
+      {
+        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
+      }
+    ],
+    "add_base": 200,
     "id": 20,
-    "order": 20,
-    "type": 11
-  },
-  "21": {
-    "unlock_time": [
-      [
-        2036,
-        4,
-        18
-      ],
-      [
-        0,
-        0,
-        0
-      ]
-    ],
-    "game_help": [
-      {
-        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
-      }
-    ],
-    "game_id": 1022,
-    "add_num": [
-      [
-        6001,
-        1.3
-      ],
-      [
-        3001,
-        1.2
-      ],
-      [
-        2001,
-        1.1
-      ],
-      [
-        1001,
-        1
-      ],
-      [
-        0,
-        0.9
-      ]
-    ],
-    "add_base": 200,
+    "type": 11,
     "position": [
       0,
       -200
     ],
-    "icon": "guanggao",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 21,
-    "order": 22,
-    "type": 11
-  },
-  "22": {
-    "unlock_time": [
-      [
-        2036,
-        4,
-        18
-      ],
-      [
-        0,
-        0,
-        0
-      ]
-    ],
-    "game_help": [
-      {
-        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
-      }
-    ],
-    "game_id": 1023,
     "add_num": [
       [
         6001,
@@ -942,75 +832,9 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -200
-    ],
-    "icon": "daxigua",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 22,
-    "order": 23,
-    "type": 11
-  },
-  "23": {
     "unlock_time": [
       [
-        2036,
-        4,
-        18
-      ],
-      [
-        0,
-        0,
-        0
-      ]
-    ],
-    "game_help": [
-      {
-        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
-      }
-    ],
-    "game_id": 1024,
-    "add_num": [
-      [
-        6001,
-        1.3
-      ],
-      [
-        3001,
-        1.2
-      ],
-      [
-        2001,
-        1.1
-      ],
-      [
-        1001,
-        1
-      ],
-      [
-        0,
-        0.9
-      ]
-    ],
-    "add_base": 200,
-    "position": [
-      -773,
-      -432
-    ],
-    "icon": "yinyue",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 23,
-    "order": 24,
-    "type": 11
-  },
-  "24": {
-    "unlock_time": [
-      [
-        2026,
+        2025,
         6,
         5
       ],
@@ -1020,12 +844,184 @@
         0
       ]
     ],
+    "order": 20,
+    "add_type": 12,
+    "game_id": 1021
+  },
+  "21": {
+    "coin_max": 5,
+    "icon": "guanggao",
+    "game_help": [
+      {
+        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
+      }
+    ],
+    "add_base": 200,
+    "id": 21,
+    "type": 11,
+    "position": [
+      0,
+      -200
+    ],
+    "add_num": [
+      [
+        6001,
+        1.3
+      ],
+      [
+        3001,
+        1.2
+      ],
+      [
+        2001,
+        1.1
+      ],
+      [
+        1001,
+        1
+      ],
+      [
+        0,
+        0.9
+      ]
+    ],
+    "unlock_time": [
+      [
+        2036,
+        4,
+        18
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "order": 22,
+    "add_type": 12,
+    "game_id": 1022
+  },
+  "22": {
+    "coin_max": 5,
+    "icon": "daxigua",
+    "game_help": [
+      {
+        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
+      }
+    ],
+    "add_base": 200,
+    "id": 22,
+    "type": 11,
+    "position": [
+      0,
+      -200
+    ],
+    "add_num": [
+      [
+        6001,
+        1.3
+      ],
+      [
+        3001,
+        1.2
+      ],
+      [
+        2001,
+        1.1
+      ],
+      [
+        1001,
+        1
+      ],
+      [
+        0,
+        0.9
+      ]
+    ],
+    "unlock_time": [
+      [
+        2036,
+        4,
+        18
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "order": 23,
+    "add_type": 12,
+    "game_id": 1023
+  },
+  "23": {
+    "coin_max": 5,
+    "icon": "yinyue",
+    "game_help": [
+      {
+        "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
+      }
+    ],
+    "add_base": 200,
+    "id": 23,
+    "type": 11,
+    "position": [
+      -773,
+      -432
+    ],
+    "add_num": [
+      [
+        6001,
+        1.3
+      ],
+      [
+        3001,
+        1.2
+      ],
+      [
+        2001,
+        1.1
+      ],
+      [
+        1001,
+        1
+      ],
+      [
+        0,
+        0.9
+      ]
+    ],
+    "unlock_time": [
+      [
+        2036,
+        4,
+        18
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "order": 24,
+    "add_type": 12,
+    "game_id": 1024
+  },
+  "24": {
+    "coin_max": 5,
+    "icon": "duomaomao",
     "game_help": [
       {
         "info": "- Manjuu Hide & Peep Overview -\nRack up points by calling out as many shipgirls as you can within the time limit.\n\n- How to Play -\n· Shipgirls will come out of hiding during the minigame. Gain points by tapping on them to call them out.\n· Calling out a shipgirl within 2 seconds of her appearing will yield bonus points, up to a maximum of 300.\n· Calling out a shipgirl who's running will yield an additional 400 bonus points.\n· The minigame concludes when the timer runs out or when you tap the button to end it early.'\n\nPotential rewards (per 1 Credit used):\n0-2000 points: Game Ticket x180\n2001-4000 points: Game Ticket x200\n4001-8000 points: Game Ticket x220\n8001-12000 points: Game Ticket x240\n12001+ points: Game Ticket x260."
       }
     ],
-    "game_id": 1025,
+    "add_base": 200,
+    "id": 24,
+    "type": 11,
+    "position": [
+      0,
+      -200
+    ],
     "add_num": [
       [
         12000,
@@ -1048,19 +1044,6 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -200
-    ],
-    "icon": "duomaomao",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 24,
-    "order": 22,
-    "type": 11
-  },
-  "25": {
     "unlock_time": [
       [
         2026,
@@ -1073,12 +1056,25 @@
         0
       ]
     ],
+    "order": 22,
+    "add_type": 12,
+    "game_id": 1025
+  },
+  "25": {
+    "coin_max": 5,
+    "icon": "bingjiling",
     "game_help": [
       {
         "info": "- Manjuu Ice Cream Overview -\nMatch the correct toppings and ice cream flavors with what the customers order by tapping on the ingredients. Matching correctly scores you points.\n\n- How to Play -\n1. Customers appear and ask for a particular combination of flavors and toppings.\n2. Tap the correct ingredients on the bottom of the screen to create their desired ice cream. The ice cream will be handed to them after you've chosen the same number of ingredients as they ask for, then you'll receive a new order.\n3. Your score and the customer's reaction depend on if you got their order correct or not. How long it took you to pick the toppings and flavors and if they were the right ones or not also influence your score.\n4. The minigame ends once the timer reaches 0 or when you quit the game early.\n\n- Combo Bonuses -\n· When you get a customer's order exactly right, there is a chance that the countdown timer for the next ice cream order will move slower for 4 seconds. This bonus cannot activate again until 5 seconds after it expires.\n· When you get 2 orders exactly right in a row, 2 seconds will be added to the next order countdown timer.\n· When you get 2 orders exactly right in a row from the same customer, you gain twice as many points from the next customer. This bonus can only activate once per unique customer.'\n\nPotential rewards (per 1 Credit used):\n0-2000 points: Game Ticket x180\n2001-4000 points: Game Ticket x200\n4001-6000 points: Game Ticket x220\n6001-8000 points: Game Ticket x240\n8001+ points: Game Ticket x260."
       }
     ],
-    "game_id": 1026,
+    "add_base": 200,
+    "id": 25,
+    "type": 11,
+    "position": [
+      0,
+      0
+    ],
     "add_num": [
       [
         8001,
@@ -1101,24 +1097,11 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      0
-    ],
-    "icon": "bingjiling",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 25,
-    "order": 23,
-    "type": 11
-  },
-  "26": {
     "unlock_time": [
       [
-        2036,
-        4,
-        18
+        2026,
+        6,
+        5
       ],
       [
         0,
@@ -1126,12 +1109,25 @@
         0
       ]
     ],
+    "order": 23,
+    "add_type": 12,
+    "game_id": 1026
+  },
+  "26": {
+    "coin_max": 5,
+    "icon": "shuishang",
     "game_help": [
       {
         "info": "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
       }
     ],
-    "game_id": 1027,
+    "add_base": 200,
+    "id": 26,
+    "type": 11,
+    "position": [
+      0,
+      -200
+    ],
     "add_num": [
       [
         6001,
@@ -1154,17 +1150,21 @@
         0.9
       ]
     ],
-    "add_base": 200,
-    "position": [
-      0,
-      -200
+    "unlock_time": [
+      [
+        2036,
+        4,
+        18
+      ],
+      [
+        0,
+        0,
+        0
+      ]
     ],
-    "icon": "shuishang",
-    "add_type": 12,
-    "coin_max": 5,
-    "id": 26,
     "order": 27,
-    "type": 11
+    "add_type": 12,
+    "game_id": 1027
   },
   "all": [
     1,
