@@ -1,7 +1,7 @@
 {
   "1": {
-    "name": "B-Tier",
-    "threshold": 5000,
+    "bottom_price": 0,
+    "auction_value": "Low",
     "value_range": [
       [
         [
@@ -33,8 +33,6 @@
       ]
     ],
     "ticket": 100,
-    "auction_value": "Low",
-    "id": 1,
     "rarity_limit": [
       [
         1,
@@ -49,8 +47,7 @@
         2
       ]
     ],
-    "bottom_price": 0,
-    "game_type": 105,
+    "name": "B-Tier",
     "rarity_probability": [
       [
         1,
@@ -72,11 +69,14 @@
         5,
         100
       ]
-    ]
+    ],
+    "id": 1,
+    "game_type": 105,
+    "threshold": 5000
   },
   "2": {
-    "name": "A-Tier",
-    "threshold": 1000000,
+    "bottom_price": 0,
+    "auction_value": "Medium",
     "value_range": [
       [
         [
@@ -108,8 +108,6 @@
       ]
     ],
     "ticket": 5000,
-    "auction_value": "Medium",
-    "id": 2,
     "rarity_limit": [
       [
         1,
@@ -128,8 +126,7 @@
         1
       ]
     ],
-    "bottom_price": 0,
-    "game_type": 106,
+    "name": "A-Tier",
     "rarity_probability": [
       [
         1,
@@ -151,11 +148,14 @@
         5,
         500
       ]
-    ]
+    ],
+    "id": 2,
+    "game_type": 106,
+    "threshold": 1000000
   },
   "3": {
-    "name": "S-Tier",
-    "threshold": 3000000,
+    "bottom_price": 0,
+    "auction_value": "High",
     "value_range": [
       [
         [
@@ -187,8 +187,6 @@
       ]
     ],
     "ticket": 20000,
-    "auction_value": "High",
-    "id": 3,
     "rarity_limit": [
       [
         1,
@@ -207,8 +205,7 @@
         3
       ]
     ],
-    "bottom_price": 0,
-    "game_type": 107,
+    "name": "S-Tier",
     "rarity_probability": [
       [
         1,
@@ -230,11 +227,14 @@
         5,
         700
       ]
-    ]
+    ],
+    "id": 3,
+    "game_type": 107,
+    "threshold": 3000000
   },
   "4": {
-    "name": "Order Items",
-    "threshold": 0,
+    "bottom_price": 0,
+    "auction_value": "",
     "value_range": [
       [
         [
@@ -266,8 +266,6 @@
       ]
     ],
     "ticket": 0,
-    "auction_value": "",
-    "id": 4,
     "rarity_limit": [
       [
         1,
@@ -278,8 +276,7 @@
         1
       ]
     ],
-    "bottom_price": 0,
-    "game_type": 0,
+    "name": "Order Items",
     "rarity_probability": [
       [
         1,
@@ -301,7 +298,10 @@
         5,
         100
       ]
-    ]
+    ],
+    "id": 4,
+    "game_type": 0,
+    "threshold": 0
   },
   "all": [
     1,
