@@ -1,12 +1,17 @@
 {
   "1": {
-    "is_common": 0,
-    "room_bgm": "story-room-sirius",
-    "resource_name": "Tianlangxing_DB",
+    "default_zone": [
+      [
+        20220,
+        "Chair"
+      ]
+    ],
     "invite_mark": "",
-    "type": 2,
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Tianlangxing_DB",
     "invite_icon": "",
-    "room": "Sirius",
+    "id": 1,
     "ar_anim": [
       [
         20220,
@@ -36,6 +41,7 @@
         ]
       ]
     ],
+    "is_common": 0,
     "recall_list": [
       1,
       2,
@@ -46,48 +52,47 @@
       7,
       8
     ],
-    "scene_info": "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
+    "assets_prefix": "Tianlangxing",
+    "character_range": [
+      1
+    ],
     "furniture_zones": [
       1001,
       1002,
       1003
     ],
+    "type": 2,
+    "room": "Sirius",
+    "scene_info": "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
     "invite_cost": "",
-    "character_range": [
-      1
-    ],
-    "assets_prefix": "Tianlangxing",
-    "character": [
-      20220
-    ],
-    "default_zone": [
-      [
-        20220,
-        "Chair"
-      ]
-    ],
+    "unlock_item": [],
     "character_welcome": [
       [
         20220,
         2000
       ]
     ],
-    "character_pay": [],
     "tag": "",
-    "unlock_item": [],
-    "room_des": "",
-    "id": 1,
+    "character": [
+      20220
+    ],
     "in_map": "floor_1",
+    "room_bgm": "story-room-sirius",
     "invite_banner": ""
   },
   "2": {
-    "is_common": 0,
-    "room_bgm": "story-room-noshiro",
-    "resource_name": "Nengdai_DB",
+    "default_zone": [
+      [
+        30221,
+        "Chair"
+      ]
+    ],
     "invite_mark": "",
-    "type": 2,
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Nengdai_DB",
     "invite_icon": "",
-    "room": "Noshiro",
+    "id": 2,
     "ar_anim": [
       [
         30221,
@@ -120,6 +125,7 @@
         ]
       ]
     ],
+    "is_common": 0,
     "recall_list": [
       21,
       22,
@@ -127,48 +133,47 @@
       31,
       32
     ],
-    "scene_info": "map_noshirohostel_01|Nengdai_DB/Noshirohostel",
+    "assets_prefix": "Nengdai",
+    "character_range": [
+      1
+    ],
     "furniture_zones": [
       2001,
       2002,
       2003
     ],
+    "type": 2,
+    "room": "Noshiro",
+    "scene_info": "map_noshirohostel_01|Nengdai_DB/Noshirohostel",
     "invite_cost": "",
-    "character_range": [
-      1
-    ],
-    "assets_prefix": "Nengdai",
-    "character": [
-      30221
-    ],
-    "default_zone": [
-      [
-        30221,
-        "Chair"
-      ]
-    ],
+    "unlock_item": [],
     "character_welcome": [
       [
         30221,
         0
       ]
     ],
-    "character_pay": [],
     "tag": "",
-    "unlock_item": [],
-    "room_des": "",
-    "id": 2,
+    "character": [
+      30221
+    ],
     "in_map": "floor_1",
+    "room_bgm": "story-room-noshiro",
     "invite_banner": ""
   },
   "3": {
-    "is_common": 0,
-    "room_bgm": "story-room-anchorage",
-    "resource_name": "Ankeleiqi_DB",
+    "default_zone": [
+      [
+        19903,
+        "Chair"
+      ]
+    ],
     "invite_mark": "",
-    "type": 2,
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Ankeleiqi_DB",
     "invite_icon": "",
-    "room": "Anchorage",
+    "id": 3,
     "ar_anim": [
       [
         19903,
@@ -192,6 +197,7 @@
         ]
       ]
     ],
+    "is_common": 0,
     "recall_list": [
       41,
       42,
@@ -199,44 +205,49 @@
       51,
       52
     ],
-    "scene_info": "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
+    "assets_prefix": "Ankeleiqi",
+    "character_range": [
+      1
+    ],
     "furniture_zones": [
       3001,
       3002,
       3003
     ],
+    "type": 2,
+    "room": "Anchorage",
+    "scene_info": "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
     "invite_cost": "",
-    "character_range": [
-      1
-    ],
-    "assets_prefix": "Ankeleiqi",
-    "character": [
-      19903
-    ],
-    "default_zone": [
-      [
-        19903,
-        "Chair"
-      ]
-    ],
+    "unlock_item": [],
     "character_welcome": [
       [
         19903,
         0
       ]
     ],
-    "character_pay": [],
     "tag": "",
-    "unlock_item": [],
-    "room_des": "",
-    "id": 3,
+    "character": [
+      19903
+    ],
     "in_map": "floor_1",
+    "room_bgm": "story-room-anchorage",
     "invite_banner": ""
   },
   "4": {
-    "is_common": 0,
-    "room_bgm": "story-room-sirius",
-    "resource_name": "Beach",
+    "default_zone": [
+      [
+        20220,
+        "Tianlangxing"
+      ],
+      [
+        30221,
+        "Nengdai"
+      ],
+      [
+        19903,
+        "Ankeleiqi"
+      ]
+    ],
     "invite_mark": [
       [
         20220,
@@ -263,9 +274,35 @@
         ]
       ]
     ],
-    "type": 1,
-    "in_map": "floor_1",
-    "room": "Beach",
+    "character_pay": [
+      20220,
+      30221,
+      19903
+    ],
+    "room_des": "The seaside, swimsuits, beach volleyball... Enjoy the beach sunshine!",
+    "resource_name": "Beach",
+    "invite_banner": [
+      [
+        20220,
+        [
+          "banner_beach1",
+          "banner_beach2"
+        ]
+      ],
+      [
+        30221,
+        [
+          "banner_beach3"
+        ]
+      ],
+      [
+        19903,
+        [
+          "banner_beach4"
+        ]
+      ]
+    ],
+    "id": 4,
     "ar_anim": [
       [
         20220,
@@ -298,6 +335,13 @@
         ]
       ]
     ],
+    "is_common": 0,
+    "recall_list": [],
+    "assets_prefix": "Beach",
+    "character_range": [
+      0,
+      3
+    ],
     "invite_icon": [
       [
         20220,
@@ -312,28 +356,10 @@
         "dorm3dicon/3Ddrom_invitation"
       ]
     ],
+    "type": 1,
+    "room": "Beach",
     "scene_info": "map_beach_01|Beach",
-    "invite_banner": [
-      [
-        20220,
-        [
-          "banner_beach1",
-          "banner_beach2"
-        ]
-      ],
-      [
-        30221,
-        [
-          "banner_beach3"
-        ]
-      ],
-      [
-        19903,
-        [
-          "banner_beach4"
-        ]
-      ]
-    ],
+    "room_bgm": "story-room-sirius",
     "invite_cost": [
       [
         20220,
@@ -348,42 +374,8 @@
         270112
       ]
     ],
-    "recall_list": [],
-    "assets_prefix": "Beach",
     "furniture_zones": [
       4005
-    ],
-    "default_zone": [
-      [
-        20220,
-        "Tianlangxing"
-      ],
-      [
-        30221,
-        "Nengdai"
-      ],
-      [
-        19903,
-        "Ankeleiqi"
-      ]
-    ],
-    "character_welcome": [
-      [
-        20220,
-        1000
-      ],
-      [
-        30221,
-        0
-      ],
-      [
-        19903,
-        0
-      ]
-    ],
-    "character_range": [
-      0,
-      3
     ],
     "tag": "beach",
     "unlock_item": [
@@ -393,23 +385,31 @@
         1
       ]
     ],
-    "character_pay": [
-      20220,
-      30221,
-      19903
+    "in_map": "floor_1",
+    "character_welcome": [
+      [
+        20220,
+        1000
+      ],
+      [
+        30221,
+        0
+      ],
+      [
+        19903,
+        0
+      ]
     ],
-    "character": [],
-    "id": 4,
-    "room_des": "The seaside, swimsuits, beach volleyball... Enjoy the beach sunshine!"
+    "character": []
   },
   "5": {
-    "is_common": 1,
-    "room_bgm": "story-room-sirius",
-    "resource_name": "Bathroom",
+    "default_zone": "",
     "invite_mark": "",
-    "type": 1,
-    "in_map": "floor_1",
-    "ar_anim": "",
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Bathroom",
+    "invite_icon": "",
+    "id": 5,
     "unlock_item": [
       [
         2,
@@ -417,41 +417,46 @@
         1
       ]
     ],
+    "is_common": 1,
+    "recall_list": "",
+    "assets_prefix": "Bathroom",
     "character_range": [
       0,
       0
     ],
-    "scene_info": "",
     "character_welcome": [
       [
         20220,
         1000
       ]
     ],
+    "type": 1,
+    "room": "Bath",
+    "scene_info": "",
     "invite_cost": "",
-    "character_pay": [],
-    "assets_prefix": "Bathroom",
     "character": [
       20220
     ],
-    "default_zone": "",
-    "id": 5,
     "invite_banner": "",
     "tag": "",
     "furniture_zones": "",
-    "invite_icon": "",
-    "room": "Bath",
-    "recall_list": "",
-    "room_des": ""
+    "in_map": "floor_1",
+    "room_bgm": "story-room-sirius",
+    "ar_anim": ""
   },
   "11": {
-    "is_common": 0,
-    "room_bgm": "Story-room-newjersey",
-    "resource_name": "Xinzexi_DB",
+    "default_zone": [
+      [
+        10517,
+        "Chair"
+      ]
+    ],
     "invite_mark": "",
-    "type": 2,
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Xinzexi_DB",
     "invite_icon": "",
-    "room": "New Jersey",
+    "id": 11,
     "ar_anim": [
       [
         10517,
@@ -473,6 +478,7 @@
         ]
       ]
     ],
+    "is_common": 0,
     "recall_list": [
       101,
       102,
@@ -480,48 +486,47 @@
       104,
       105
     ],
-    "scene_info": "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
+    "assets_prefix": "Xinzexi",
+    "character_range": [
+      1
+    ],
     "furniture_zones": [
       11001,
       11002,
       11003
     ],
+    "type": 2,
+    "room": "New Jersey",
+    "scene_info": "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
     "invite_cost": "",
-    "character_range": [
-      1
-    ],
-    "assets_prefix": "Xinzexi",
-    "character": [
-      10517
-    ],
-    "default_zone": [
-      [
-        10517,
-        "Chair"
-      ]
-    ],
+    "unlock_item": [],
     "character_welcome": [
       [
         10517,
         0
       ]
     ],
-    "character_pay": [],
     "tag": "",
-    "unlock_item": [],
-    "room_des": "",
-    "id": 11,
+    "character": [
+      10517
+    ],
     "in_map": "floor_2",
+    "room_bgm": "Story-room-newjersey",
     "invite_banner": ""
   },
   "12": {
-    "is_common": 0,
-    "room_bgm": "story-room-taiho",
-    "resource_name": "Dafeng_DB",
+    "default_zone": [
+      [
+        30707,
+        "Chair"
+      ]
+    ],
     "invite_mark": "",
-    "type": 2,
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Dafeng_DB",
     "invite_icon": "",
-    "room": "Taihou",
+    "id": 12,
     "ar_anim": [
       [
         30707,
@@ -548,6 +553,7 @@
         ]
       ]
     ],
+    "is_common": 0,
     "recall_list": [
       121,
       122,
@@ -555,48 +561,47 @@
       124,
       125
     ],
-    "scene_info": "map_dafeng_01|Dafeng_DB/Dafenghostel",
+    "assets_prefix": "Dafeng",
+    "character_range": [
+      1
+    ],
     "furniture_zones": [
       12001,
       12002,
       12003
     ],
+    "type": 2,
+    "room": "Taihou",
+    "scene_info": "map_dafeng_01|Dafeng_DB/Dafenghostel",
     "invite_cost": "",
-    "character_range": [
-      1
-    ],
-    "assets_prefix": "Dafeng",
-    "character": [
-      30707
-    ],
-    "default_zone": [
-      [
-        30707,
-        "Chair"
-      ]
-    ],
+    "unlock_item": [],
     "character_welcome": [
       [
         30707,
         0
       ]
     ],
-    "character_pay": [],
     "tag": "",
-    "unlock_item": [],
-    "room_des": "",
-    "id": 12,
+    "character": [
+      30707
+    ],
     "in_map": "floor_2",
+    "room_bgm": "story-room-taiho",
     "invite_banner": ""
   },
   "14": {
-    "is_common": 0,
-    "room_bgm": "story-room-agir",
-    "resource_name": "Aijier_DB",
+    "default_zone": [
+      [
+        49905,
+        "Chair"
+      ]
+    ],
     "invite_mark": "",
-    "type": 2,
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Aijier_DB",
     "invite_icon": "",
-    "room": "Ägir",
+    "id": 14,
     "ar_anim": [
       [
         49905,
@@ -619,50 +624,60 @@
         ]
       ]
     ],
+    "is_common": 0,
     "recall_list": [
       141,
       142,
       143,
       144
     ],
-    "scene_info": "map_aijier_01|Aijier_DB/Aijierhostel",
+    "assets_prefix": "Aijier",
+    "character_range": [
+      1
+    ],
     "furniture_zones": [
       14001,
       14002,
       14003
     ],
+    "type": 2,
+    "room": "Ägir",
+    "scene_info": "map_aijier_01|Aijier_DB/Aijierhostel",
     "invite_cost": "",
-    "character_range": [
-      1
-    ],
-    "assets_prefix": "Aijier",
-    "character": [
-      49905
-    ],
-    "default_zone": [
-      [
-        49905,
-        "Chair"
-      ]
-    ],
+    "unlock_item": [],
     "character_welcome": [
       [
         49905,
         0
       ]
     ],
-    "character_pay": [],
     "tag": "",
-    "unlock_item": [],
-    "room_des": "",
-    "id": 14,
+    "character": [
+      49905
+    ],
     "in_map": "floor_2",
+    "room_bgm": "story-room-agir",
     "invite_banner": ""
   },
   "16": {
-    "is_common": 0,
-    "room_bgm": "Story-room-bar",
-    "resource_name": "Publiccafe",
+    "default_zone": [
+      [
+        10517,
+        "xinzexi"
+      ],
+      [
+        30707,
+        "dafeng"
+      ],
+      [
+        49905,
+        "aijier"
+      ],
+      [
+        20220,
+        "tianlangxing"
+      ]
+    ],
     "invite_mark": [
       [
         10517,
@@ -697,9 +712,41 @@
         ]
       ]
     ],
-    "type": 1,
-    "in_map": "floor_2",
-    "room": "Café",
+    "character_pay": [
+      10517,
+      30707,
+      49905,
+      20220
+    ],
+    "room_des": "Elegant and delightful. Amidst golden radiance, embark on this dreamlike encounter.",
+    "resource_name": "Publiccafe",
+    "invite_banner": [
+      [
+        10517,
+        [
+          "banner_cafe1"
+        ]
+      ],
+      [
+        30707,
+        [
+          "banner_cafe2"
+        ]
+      ],
+      [
+        49905,
+        [
+          "banner_cafe3"
+        ]
+      ],
+      [
+        20220,
+        [
+          "banner_cafe4"
+        ]
+      ]
+    ],
+    "id": 16,
     "ar_anim": [
       [
         10517,
@@ -742,6 +789,13 @@
         ]
       ]
     ],
+    "is_common": 0,
+    "recall_list": [],
+    "assets_prefix": "Publiccafe",
+    "character_range": [
+      0,
+      3
+    ],
     "invite_icon": [
       [
         10517,
@@ -760,33 +814,10 @@
         "dorm3dicon/3Ddrom_invitation"
       ]
     ],
+    "type": 1,
+    "room": "Café",
     "scene_info": "map_publiccafe_01|Publiccafe",
-    "invite_banner": [
-      [
-        10517,
-        [
-          "banner_cafe1"
-        ]
-      ],
-      [
-        30707,
-        [
-          "banner_cafe2"
-        ]
-      ],
-      [
-        49905,
-        [
-          "banner_cafe3"
-        ]
-      ],
-      [
-        20220,
-        [
-          "banner_cafe4"
-        ]
-      ]
-    ],
+    "room_bgm": "Story-room-bar",
     "invite_cost": [
       [
         10517,
@@ -805,27 +836,16 @@
         270116
       ]
     ],
-    "recall_list": [],
-    "assets_prefix": "Publiccafe",
     "furniture_zones": [],
-    "default_zone": [
+    "tag": "cafe",
+    "unlock_item": [
       [
-        10517,
-        "xinzexi"
-      ],
-      [
-        30707,
-        "dafeng"
-      ],
-      [
-        49905,
-        "aijier"
-      ],
-      [
-        20220,
-        "tianlangxing"
+        2,
+        15023,
+        1
       ]
     ],
+    "in_map": "floor_2",
     "character_welcome": [
       [
         10517,
@@ -844,36 +864,21 @@
         0
       ]
     ],
-    "character_range": [
-      0,
-      3
-    ],
-    "tag": "cafe",
-    "unlock_item": [
-      [
-        2,
-        15023,
-        1
-      ]
-    ],
-    "character_pay": [
-      10517,
-      30707,
-      49905,
-      20220
-    ],
-    "character": [],
-    "id": 16,
-    "room_des": "Elegant and delightful. Amidst golden radiance, embark on this dreamlike encounter."
+    "character": []
   },
   "21": {
-    "is_common": 0,
-    "room_bgm": "story-room-nakhimov",
-    "resource_name": "Naximofu_DB",
+    "default_zone": [
+      [
+        79902,
+        "Chair"
+      ]
+    ],
     "invite_mark": "",
-    "type": 2,
+    "character_pay": [],
+    "room_des": "",
+    "resource_name": "Naximofu_DB",
     "invite_icon": "",
-    "room": "Admiral Nakhimov",
+    "id": 21,
     "ar_anim": [
       [
         79902,
@@ -896,50 +901,48 @@
         ]
       ]
     ],
+    "is_common": 0,
     "recall_list": [
       211,
       212,
       213,
       214
     ],
-    "scene_info": "map_naximofu_01|Naximofu_DB/Naximofuhostel",
+    "assets_prefix": "Naximofu",
+    "character_range": [
+      1
+    ],
     "furniture_zones": [
       21001,
       21002,
       21003
     ],
+    "type": 2,
+    "room": "Admiral Nakhimov",
+    "scene_info": "map_naximofu_01|Naximofu_DB/Naximofuhostel",
     "invite_cost": "",
-    "character_range": [
-      1
-    ],
-    "assets_prefix": "Naximofu",
-    "character": [
-      79902
-    ],
-    "default_zone": [
-      [
-        79902,
-        "Chair"
-      ]
-    ],
+    "unlock_item": [],
     "character_welcome": [
       [
         79902,
         0
       ]
     ],
-    "character_pay": [],
     "tag": "",
-    "unlock_item": [],
-    "room_des": "",
-    "id": 21,
+    "character": [
+      79902
+    ],
     "in_map": "floor_3",
+    "room_bgm": "story-room-nakhimov",
     "invite_banner": ""
   },
   "26": {
-    "is_common": 0,
-    "room_bgm": "story-room-pit",
-    "resource_name": "Carwash",
+    "default_zone": [
+      [
+        79902,
+        "Parking"
+      ]
+    ],
     "invite_mark": [
       [
         79902,
@@ -949,9 +952,20 @@
         ]
       ]
     ],
-    "type": 1,
-    "in_map": "floor_3",
-    "room": "Garage",
+    "character_pay": [
+      79902
+    ],
+    "room_des": "Gauges, parts, wrenches... Here she works diligently, yet leisurely, on precision jobs.",
+    "resource_name": "Carwash",
+    "invite_banner": [
+      [
+        79902,
+        [
+          "banner_carwash1"
+        ]
+      ]
+    ],
+    "id": 26,
     "ar_anim": [
       [
         79902,
@@ -964,46 +978,30 @@
         ]
       ]
     ],
+    "is_common": 0,
+    "recall_list": [],
+    "assets_prefix": "Carwash",
+    "character_range": [
+      0,
+      3
+    ],
     "invite_icon": [
       [
         79902,
         "dorm3dicon/3Ddrom_invitation"
       ]
     ],
+    "type": 1,
+    "room": "Garage",
     "scene_info": "map_carwash_01|Carwash",
-    "invite_banner": [
-      [
-        79902,
-        [
-          "banner_carwash1"
-        ]
-      ]
-    ],
+    "room_bgm": "story-room-pit",
     "invite_cost": [
       [
         79902,
         270121
       ]
     ],
-    "recall_list": [],
-    "assets_prefix": "Carwash",
     "furniture_zones": [],
-    "default_zone": [
-      [
-        79902,
-        "Parking"
-      ]
-    ],
-    "character_welcome": [
-      [
-        79902,
-        0
-      ]
-    ],
-    "character_range": [
-      0,
-      3
-    ],
     "tag": "carwash",
     "unlock_item": [
       [
@@ -1012,12 +1010,14 @@
         1
       ]
     ],
-    "character_pay": [
-      79902
+    "in_map": "floor_3",
+    "character_welcome": [
+      [
+        79902,
+        0
+      ]
     ],
-    "character": [],
-    "id": 26,
-    "room_des": "Gauges, parts, wrenches... Here she works diligently, yet leisurely, on precision jobs."
+    "character": []
   },
   "all": [
     1,
