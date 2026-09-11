@@ -1,10 +1,10 @@
 {
   "1": {
+    "view_name": "TestView",
+    "type": 1,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 1,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 1,
+    "config_data": "",
     "simple_config_data": {
       "test": [
         1,
@@ -12,50 +12,49 @@
         3
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "TestView",
+    "is_ranking": 0,
+    "hub_id": 1,
+    "id": 1,
     "name": "测试小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "2": {
+    "view_name": "SnackView",
+    "type": 1,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 2,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 1,
+    "config_data": "",
     "simple_config_data": {
+      "score_level": [
+        0,
+        5,
+        12,
+        20
+      ],
       "memory_time": 5,
-      "select_time": 10,
       "correct_value": {
         "1": 1,
         "2": 2,
         "3": 5,
         "0": 0
       },
-      "score_level": [
-        0,
-        5,
-        12,
-        20
-      ]
+      "select_time": 10
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "SnackView",
+    "is_ranking": 0,
+    "hub_id": 1,
+    "id": 2,
     "name": "小吃小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "3": {
+    "view_name": "ShrineView",
+    "type": 3,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 3,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 4,
     "simple_config_data": {
       "target": 100000
     },
@@ -68,19 +67,20 @@
       ],
       2
     ],
-    "request_data": 1,
-    "view_name": "ShrineView",
+    "is_ranking": 0,
+    "hub_id": 4,
+    "id": 3,
     "name": "神社小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 3
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "4": {
+    "view_name": "FireworkFactoryView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "FireworkFactoryMediator",
-    "id": 4,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 1,
+    "config_data": "",
     "simple_config_data": {
       "score_reference": [
         [
@@ -98,91 +98,53 @@
       ],
       "roundTime": 50
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "FireworkFactoryView",
+    "is_ranking": 0,
+    "hub_id": 1,
+    "id": 4,
     "name": "制作烟花",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "5": {
+    "view_name": "ShootingGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "ShootingGameMediator",
-    "id": 5,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 1,
+    "config_data": "",
     "simple_config_data": {
+      "moveSpeed": 4,
+      "targetScore": [
+        10,
+        5,
+        2
+      ],
       "fireCD": 1,
+      "baseTime": 12,
       "score_level": [
         0,
         10,
         25,
         35
       ],
-      "baseTime": 12,
-      "bonusTime": 0,
-      "targetScore": [
-        10,
-        5,
-        2
-      ],
-      "moveSpeed": 4
+      "bonusTime": 0
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "ShootingGameView",
+    "is_ranking": 0,
+    "hub_id": 1,
+    "id": 5,
     "name": "打靶游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "6": {
+    "view_name": "MusicGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 6,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 2,
+    "config_data": "",
     "simple_config_data": {
       "latergoodtime": 0.2,
-      "special_combo": 0,
-      "miss": 0,
-      "speed_min": 60,
-      "perfecttime": 0.1,
-      "good": 300,
-      "combo_interval": [
-        10,
-        20,
-        40,
-        60,
-        80,
-        100
-      ],
-      "combo": 100,
-      "Alist": [
-        [
-          55280,
-          111920
-        ],
-        [
-          32960,
-          46160
-        ],
-        [
-          33400,
-          104720
-        ],
-        [
-          49520,
-          110960
-        ],
-        [
-          48560,
-          87920
-        ]
-      ],
-      "misstime": 0.35,
-      "laterperfecttime": 0.1,
       "SSlist": [
         [
           110560,
@@ -205,7 +167,37 @@
           175840
         ]
       ],
-      "perfect": 600,
+      "misstime": 0.35,
+      "special_combo": 0,
+      "combo_interval": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "perfecttime": 0.1,
+      "special_score": 5000,
+      "combo": 100,
+      "good": 300,
+      "speed_min": 60,
+      "laterperfecttime": 0.1,
+      "story": [
+        [
+          "OUXIANGRICHANG1"
+        ],
+        [],
+        [],
+        [
+          "OUXIANGRICHANG2"
+        ],
+        [],
+        [],
+        [
+          "OUXIANGRICHANG3"
+        ]
+      ],
       "goodtime": 0.25,
       "Slist": [
         [
@@ -227,6 +219,28 @@
         [
           72840,
           131880
+        ]
+      ],
+      "Alist": [
+        [
+          55280,
+          111920
+        ],
+        [
+          32960,
+          46160
+        ],
+        [
+          33400,
+          104720
+        ],
+        [
+          49520,
+          110960
+        ],
+        [
+          48560,
+          87920
         ]
       ],
       "Blist": [
@@ -251,149 +265,135 @@
           43960
         ]
       ],
-      "story": [
-        [
-          "OUXIANGRICHANG1"
-        ],
-        [],
-        [],
-        [
-          "OUXIANGRICHANG2"
-        ],
-        [],
-        [],
-        [
-          "OUXIANGRICHANG3"
-        ]
-      ],
-      "special_score": 5000,
+      "perfect": 600,
+      "miss": 0,
       "speed_max": 100
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "MusicGameView",
+    "is_ranking": 0,
+    "hub_id": 2,
+    "id": 6,
     "name": "音乐小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "7": {
+    "view_name": "HoloLiveLinkGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "HoloLiveLinkGameMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 3,
-    "request_data": 1,
-    "config_data": "",
     "id": 7,
-    "view_name": "HoloLiveLinkGameView",
-    "name": "holo连连看",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 3,
     "config_csv": "activity_event_linkgame",
-    "type": 2
+    "name": "holo连连看",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "8": {
+    "view_name": "QTEGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 8,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 4,
+    "config_data": "",
     "simple_config_data": {
-      "targetComboScore": [
-        250,
-        500
-      ],
-      "targetCombo": [
-        25,
-        50
-      ],
-      "scorePerHit": 10,
-      "comboRange": [
-        5,
-        10
-      ],
       "comboAddScore": [
         5,
         10
       ],
-      "shrineGameId": 3,
       "gameTime": 60,
-      "roundTime": 4
+      "targetCombo": [
+        25,
+        50
+      ],
+      "roundTime": 4,
+      "targetComboScore": [
+        250,
+        500
+      ],
+      "comboRange": [
+        5,
+        10
+      ],
+      "scorePerHit": 10,
+      "shrineGameId": 3
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "QTEGameView",
+    "is_ranking": 0,
+    "hub_id": 4,
+    "id": 8,
     "name": "鬼怒修行QTE游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "9": {
+    "view_name": "StackGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 5,
-    "request_data": 1,
-    "config_data": "",
     "id": 9,
-    "view_name": "StackGameView",
-    "name": "春节叠叠乐",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 5,
     "config_csv": "",
-    "type": 2
+    "name": "春节叠叠乐",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "10": {
+    "view_name": "LanternFestivalView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 6,
-    "request_data": 1,
-    "config_data": "",
     "id": 10,
-    "view_name": "LanternFestivalView",
-    "name": "元宵答题",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 6,
     "config_csv": "activity_event_question",
-    "type": 2
+    "name": "元宵答题",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "11": {
+    "view_name": "DecodeMiniGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 7,
-    "request_data": 1,
-    "config_data": "",
     "id": 11,
-    "view_name": "DecodeMiniGameView",
-    "name": "解密游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 7,
     "config_csv": "",
-    "type": 2
+    "name": "解密游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "12": {
+    "view_name": "Match3GameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 8,
-    "request_data": 1,
-    "config_data": "",
     "id": 12,
-    "view_name": "Match3GameView",
-    "name": "消消乐",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 8,
     "config_csv": "",
-    "type": 2
+    "name": "消消乐",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "13": {
+    "view_name": "TowerClimbingGameView",
+    "type": 4,
+    "request_data": 1,
     "mediator_name": "TowerClimbingMediator",
-    "id": 13,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 9,
+    "config_data": "",
     "simple_config_data": [
       [
         [
@@ -449,65 +449,53 @@
         ]
       ]
     ],
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "TowerClimbingGameView",
+    "is_ranking": 0,
+    "hub_id": 9,
+    "id": 13,
     "name": "啾啾大冒险",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 4
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "14": {
+    "view_name": "RollingBallGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 10,
-    "request_data": 1,
-    "config_data": "",
     "id": 14,
-    "view_name": "RollingBallGameView",
-    "name": "啾啾转转乐",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 10,
     "config_csv": "",
-    "type": 2
+    "name": "啾啾转转乐",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "15": {
+    "view_name": "HalloweenGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 25,
-    "request_data": 1,
-    "config_data": "",
     "id": 15,
-    "view_name": "HalloweenGameView",
-    "name": "万圣节小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 25,
     "config_csv": "",
-    "type": 2
+    "name": "万圣节小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "16": {
+    "view_name": "MusicGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 16,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 12,
+    "config_data": "",
     "simple_config_data": {
-      "combo_interval": [
-        10,
-        20,
-        40,
-        60,
-        80,
-        100
-      ],
+      "latergoodtime": 0.2,
       "combo": 100,
-      "special_combo": 0,
-      "miss": 0,
-      "misstime": 0.35,
-      "laterperfecttime": 0.1,
-      "speed_min": 60,
       "story": [
         [],
         [],
@@ -517,47 +505,41 @@
         [],
         []
       ],
-      "perfect": 600,
-      "goodtime": 0.25,
-      "latergoodtime": 0.2,
+      "speed_min": 60,
+      "misstime": 0.35,
+      "special_combo": 0,
+      "combo_interval": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
       "perfecttime": 0.1,
+      "goodtime": 0.25,
       "special_score": 5000,
-      "speed_max": 100,
-      "good": 300
+      "laterperfecttime": 0.1,
+      "miss": 0,
+      "perfect": 600,
+      "good": 300,
+      "speed_max": 100
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "MusicGameView",
+    "is_ranking": 0,
+    "hub_id": 12,
+    "id": 16,
     "name": "音乐小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "17": {
+    "view_name": "VolleyballGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 17,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 13,
+    "config_data": "",
     "simple_config_data": {
-      "minorChar": [
-        2,
-        1,
-        2,
-        5,
-        6,
-        7,
-        4
-      ],
-      "endScore": [
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5
-      ],
       "mainChar": [
         1,
         6,
@@ -566,6 +548,15 @@
         5,
         2,
         7
+      ],
+      "minorChar": [
+        2,
+        1,
+        2,
+        5,
+        6,
+        7,
+        4
       ],
       "story": [
         [
@@ -583,68 +574,76 @@
         [
           "JIARIHANGXIANRICHANG4"
         ]
+      ],
+      "endScore": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "VolleyballGameView",
+    "is_ranking": 0,
+    "hub_id": 13,
+    "id": 17,
     "name": "沙排小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "18": {
+    "view_name": "SnowballGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 14,
-    "request_data": 1,
-    "config_data": "",
     "id": 18,
-    "view_name": "SnowballGameView",
-    "name": "2002啾啾雪合战小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 14,
     "config_csv": "",
-    "type": 2
+    "name": "2002啾啾雪合战小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "19": {
+    "view_name": "NewYearSnackView",
+    "type": 1,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 19,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 15,
+    "config_data": "",
     "simple_config_data": {
+      "score_level": [
+        0,
+        5,
+        12,
+        20
+      ],
       "memory_time": 5,
-      "select_time": 10,
       "correct_value": {
         "1": 1,
         "2": 2,
         "3": 5,
         "0": 0
       },
-      "score_level": [
-        0,
-        5,
-        12,
-        20
-      ]
+      "select_time": 10
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "NewYearSnackView",
+    "is_ranking": 0,
+    "hub_id": 15,
+    "id": 19,
     "name": "2020小吃街小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "20": {
+    "view_name": "NewYearShrineView",
+    "type": 3,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 14,
-    "request_data": 1,
     "config_data": [
       5,
       [
@@ -654,109 +653,110 @@
       ],
       2
     ],
+    "is_ranking": 0,
+    "hub_id": 14,
     "id": 20,
-    "view_name": "NewYearShrineView",
     "name": "2020敲钟小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 3
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "21": {
+    "view_name": "FushunAdventureView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 16,
-    "request_data": 1,
-    "config_data": "",
     "id": 21,
-    "view_name": "FushunAdventureView",
-    "name": "2021抚顺大冒险II",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 16,
     "config_csv": "",
-    "type": 2
+    "name": "2021抚顺大冒险II",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "22": {
+    "view_name": "LanternFestivalView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 17,
-    "request_data": 1,
-    "config_data": "",
     "id": 22,
-    "view_name": "LanternFestivalView",
-    "name": "元宵答题2",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 17,
     "config_csv": "activity_event_question",
-    "type": 2
+    "name": "元宵答题2",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "23": {
+    "view_name": "PokeMoleView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 18,
-    "request_data": 1,
-    "config_data": "",
     "id": 23,
-    "view_name": "PokeMoleView",
-    "name": "打地鼠",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 18,
     "config_csv": "",
-    "type": 2
+    "name": "打地鼠",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "24": {
+    "view_name": "IdolMasterView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 19,
-    "request_data": 0,
-    "config_data": "",
     "id": 24,
-    "view_name": "IdolMasterView",
-    "name": "啾啾握手会",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 19,
     "config_csv": "",
-    "type": 2
+    "name": "啾啾握手会",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "25": {
+    "view_name": "SnackView",
+    "type": 1,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 25,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 20,
+    "config_data": "",
     "simple_config_data": {
+      "score_level": [
+        0,
+        5,
+        12,
+        20
+      ],
       "memory_time": 5,
-      "select_time": 10,
       "correct_value": {
         "1": 1,
         "2": 2,
         "3": 5,
         "0": 0
       },
-      "score_level": [
-        0,
-        5,
-        12,
-        20
-      ]
+      "select_time": 10
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "SnackView",
+    "is_ranking": 0,
+    "hub_id": 20,
+    "id": 25,
     "name": "小吃小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "26": {
+    "view_name": "FireworkFactoryView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "FireworkFactoryMediator",
-    "id": 26,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 20,
+    "config_data": "",
     "simple_config_data": {
       "score_reference": [
         [
@@ -774,51 +774,51 @@
       ],
       "roundTime": 50
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "FireworkFactoryView",
+    "is_ranking": 0,
+    "hub_id": 20,
+    "id": 26,
     "name": "制作烟花",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "27": {
+    "view_name": "ShootingGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "ShootingGameMediator",
-    "id": 27,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 20,
+    "config_data": "",
     "simple_config_data": {
+      "moveSpeed": 4,
+      "targetScore": [
+        10,
+        5,
+        2
+      ],
       "fireCD": 1,
+      "baseTime": 12,
       "score_level": [
         0,
         10,
         25,
         35
       ],
-      "baseTime": 12,
-      "bonusTime": 0,
-      "targetScore": [
-        10,
-        5,
-        2
-      ],
-      "moveSpeed": 4
+      "bonusTime": 0
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "ShootingGameView",
+    "is_ranking": 0,
+    "hub_id": 20,
+    "id": 27,
     "name": "打靶游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "28": {
+    "view_name": "RopingCowGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 28,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 56,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -879,35 +879,35 @@
         []
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "RopingCowGameView",
+    "is_ranking": 0,
+    "hub_id": 56,
+    "id": 28,
     "name": "啾啾牛仔",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "29": {
+    "view_name": "GuessForkGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 22,
-    "request_data": 0,
-    "config_data": "",
     "id": 29,
-    "view_name": "GuessForkGameView",
-    "name": "猜叉子小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 22,
     "config_csv": "",
-    "type": 2
+    "name": "猜叉子小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "30": {
+    "view_name": "CatchTreasureGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 30,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 23,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -947,50 +947,50 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "CatchTreasureGameView",
+    "is_ranking": 0,
+    "hub_id": 23,
+    "id": 30,
     "name": "打捞团小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "31": {
+    "view_name": "EatFoodGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 35,
-    "request_data": 0,
-    "config_data": "",
     "id": 31,
-    "view_name": "EatFoodGameView",
-    "name": "夕立改造小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 35,
     "config_csv": "",
-    "type": 2
+    "name": "夕立改造小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "32": {
+    "view_name": "GridGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 26,
-    "request_data": 0,
-    "config_data": "",
     "id": 32,
-    "view_name": "GridGameView",
-    "name": "古立特小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 26,
     "config_csv": "",
-    "type": 2
+    "name": "古立特小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "33": {
+    "view_name": "CurlingGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 33,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 38,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -1031,20 +1031,19 @@
       ],
       "skin_shop_id": 2020772
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "CurlingGameView",
+    "is_ranking": 1,
+    "hub_id": 38,
+    "id": 33,
     "name": "冰壶小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "34": {
+    "view_name": "Shrine2022View",
+    "type": 3,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 34,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 27,
     "simple_config_data": {
       "target": 100000
     },
@@ -1057,19 +1056,19 @@
       ],
       2
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 27,
+    "id": 34,
     "name": "神社指挥官许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 3
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "35": {
+    "view_name": "Shrine2022View",
+    "type": 5,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 35,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 27,
     "simple_config_data": [
       8,
       59261,
@@ -1088,19 +1087,20 @@
       ],
       1
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 27,
+    "id": 35,
     "name": "神社舰娘许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 5
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "36": {
+    "view_name": "FireworkFactory2022View",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "FireworkFactoryMediator",
-    "id": 36,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 28,
+    "config_data": "",
     "simple_config_data": {
       "score_reference": [
         [
@@ -1118,80 +1118,80 @@
       ],
       "roundTime": 50
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "FireworkFactory2022View",
+    "is_ranking": 0,
+    "hub_id": 28,
+    "id": 36,
     "name": "新年烟花工坊",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "37": {
+    "view_name": "Fushun3GameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 53,
-    "request_data": 1,
-    "config_data": "",
     "id": 37,
-    "view_name": "Fushun3GameView",
-    "name": "2021抚顺大冒险III",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 53,
     "config_csv": "",
-    "type": 2
+    "name": "2021抚顺大冒险III",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "38": {
+    "view_name": "LanternFestivalView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 30,
-    "request_data": 1,
-    "config_data": "",
     "id": 38,
-    "view_name": "LanternFestivalView",
-    "name": "元宵答题3",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 30,
     "config_csv": "activity_event_question",
-    "type": 2
+    "name": "元宵答题3",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "39": {
-    "mediator_name": "MiniHubMediator",
-    "id": 39,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 31,
-    "simple_config_data": [],
-    "config_data": "",
-    "request_data": 1,
     "view_name": "DecodeMiniGameView",
+    "type": 2,
+    "request_data": 1,
+    "mediator_name": "MiniHubMediator",
+    "config_data": "",
+    "simple_config_data": [],
+    "is_ranking": 0,
+    "hub_id": 31,
+    "id": 39,
     "name": "解密游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "40": {
-    "mediator_name": "MiniHubMediator",
-    "id": 40,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 32,
-    "simple_config_data": [],
-    "config_data": "",
-    "request_data": 1,
     "view_name": "HideSeekGameView",
+    "type": 2,
+    "request_data": 1,
+    "mediator_name": "MiniHubMediator",
+    "config_data": "",
+    "simple_config_data": [],
+    "is_ranking": 0,
+    "hub_id": 32,
+    "id": 40,
     "name": "啾啾躲猫猫",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "41": {
+    "view_name": "IceCreamGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 41,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 33,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -1231,20 +1231,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "IceCreamGameView",
+    "is_ranking": 0,
+    "hub_id": 33,
+    "id": 41,
     "name": "冰淇淋小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "42": {
+    "view_name": "CookGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 42,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 34,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -1284,21 +1284,44 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "CookGameView",
+    "is_ranking": 0,
+    "hub_id": 34,
+    "id": 42,
     "name": "女仆蛋糕小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "43": {
+    "view_name": "RyzaMiniGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 43,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 36,
+    "config_data": "",
     "simple_config_data": {
+      "story": [
+        [
+          "LAISHARICHANG1"
+        ],
+        [
+          "LAISHARICHANG2"
+        ],
+        [
+          "LAISHARICHANG3"
+        ],
+        [
+          "LAISHARICHANG4"
+        ],
+        [
+          "LAISHARICHANG5"
+        ],
+        [
+          "LAISHARICHANG6"
+        ],
+        [
+          "LAISHARICHANG7"
+        ]
+      ],
       "drop_ids": [
         [
           2,
@@ -1335,45 +1358,22 @@
           95128,
           1
         ]
-      ],
-      "story": [
-        [
-          "LAISHARICHANG1"
-        ],
-        [
-          "LAISHARICHANG2"
-        ],
-        [
-          "LAISHARICHANG3"
-        ],
-        [
-          "LAISHARICHANG4"
-        ],
-        [
-          "LAISHARICHANG5"
-        ],
-        [
-          "LAISHARICHANG6"
-        ],
-        [
-          "LAISHARICHANG7"
-        ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "RyzaMiniGameView",
+    "is_ranking": 0,
+    "hub_id": 36,
+    "id": 43,
     "name": "莱莎炸弹小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "44": {
+    "view_name": "BeachGuardGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 44,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 37,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -1413,20 +1413,19 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "BeachGuardGameView",
+    "is_ranking": 0,
+    "hub_id": 37,
+    "id": 44,
     "name": "PVZ小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "45": {
+    "view_name": "Shrine2022View",
+    "type": 3,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 45,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 37,
     "simple_config_data": {
       "target": 100000,
       "shipGameID": 46
@@ -1440,19 +1439,19 @@
       ],
       2
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 37,
+    "id": 45,
     "name": "2023神社指挥官许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 3
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "46": {
+    "view_name": "Shrine2022View",
+    "type": 5,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 46,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 37,
     "simple_config_data": [
       8,
       59372,
@@ -1471,19 +1470,20 @@
       ],
       1
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 37,
+    "id": 46,
     "name": "2023神社舰娘许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 5
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "47": {
+    "view_name": "StackGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 47,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 39,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -1523,20 +1523,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "StackGameView",
+    "is_ranking": 0,
+    "hub_id": 39,
+    "id": 47,
     "name": "春节叠叠乐复刻",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "48": {
+    "view_name": "NenjuuMiniGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 48,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 40,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -1576,35 +1576,35 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "NenjuuMiniGameView",
+    "is_ranking": 0,
+    "hub_id": 40,
+    "id": 48,
     "name": "年兽小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "49": {
+    "view_name": "LanternFestivalView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 41,
-    "request_data": 1,
-    "config_data": "",
     "id": 49,
-    "view_name": "LanternFestivalView",
-    "name": "元宵答题4",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 41,
     "config_csv": "activity_event_question",
-    "type": 2
+    "name": "元宵答题4",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "50": {
+    "view_name": "ValentineQteGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 50,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 63,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -1644,20 +1644,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "ValentineQteGameView",
+    "is_ranking": 0,
+    "hub_id": 63,
+    "id": 50,
     "name": "2023情人节小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "51": {
+    "view_name": "DOAPPMiniGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 51,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 43,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -1697,50 +1697,50 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "DOAPPMiniGameView",
+    "is_ranking": 0,
+    "hub_id": 43,
+    "id": 51,
     "name": "Butt Battle",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "52": {
+    "view_name": "OreMiniGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 44,
-    "request_data": 0,
-    "config_data": "",
     "id": 52,
-    "view_name": "OreMiniGameView",
-    "name": "六周年搬矿石小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 44,
     "config_csv": "",
-    "type": 2
+    "name": "六周年搬矿石小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "53": {
+    "view_name": "IslandCatchTreasureGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 44,
-    "request_data": 0,
-    "config_data": "",
     "id": 53,
-    "view_name": "IslandCatchTreasureGameView",
-    "name": "(海岛)打捞团小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 44,
     "config_csv": "",
-    "type": 2
+    "name": "(海岛)打捞团小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "54": {
+    "view_name": "IslandTowerClimbingGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 54,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 44,
+    "config_data": "",
     "simple_config_data": [
       [
         [
@@ -1796,35 +1796,35 @@
         ]
       ]
     ],
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "IslandTowerClimbingGameView",
+    "is_ranking": 0,
+    "hub_id": 44,
+    "id": 54,
     "name": "(海岛)啾啾大冒险",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "55": {
+    "view_name": "GridGameReView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 46,
-    "request_data": 0,
-    "config_data": "",
     "id": 55,
-    "view_name": "GridGameReView",
-    "name": "古立特小游戏2",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 46,
     "config_csv": "",
-    "type": 2
+    "name": "古立特小游戏2",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "56": {
+    "view_name": "CastleGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 56,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 47,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -1864,20 +1864,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "CastleGameView",
+    "is_ranking": 0,
+    "hub_id": 47,
+    "id": 56,
     "name": "城堡挑战赛Q版小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "57": {
+    "view_name": "LaunchBallGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 57,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 48,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -1917,20 +1917,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "LaunchBallGameView",
+    "is_ranking": 0,
+    "hub_id": 48,
+    "id": 57,
     "name": "祖玛弹珠小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "58": {
+    "view_name": "RacingMiniGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 58,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 49,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -1970,20 +1970,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "RacingMiniGameView",
+    "is_ranking": 0,
+    "hub_id": 49,
+    "id": 58,
     "name": "赛车活跃小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "59": {
+    "view_name": "SailBoatGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 59,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 50,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2050,20 +2050,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "SailBoatGameView",
+    "is_ranking": 0,
+    "hub_id": 50,
+    "id": 59,
     "name": "帆船小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "60": {
+    "view_name": "CookGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 60,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 51,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2103,20 +2103,19 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "CookGameView",
+    "is_ranking": 0,
+    "hub_id": 51,
+    "id": 60,
     "name": "女仆蛋糕小游戏II",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "61": {
+    "view_name": "Shrine2022View",
+    "type": 5,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 61,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 51,
     "simple_config_data": [
       8,
       59850,
@@ -2135,19 +2134,19 @@
       ],
       1
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 51,
+    "id": 61,
     "name": "2024神社舰娘许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 5
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "62": {
+    "view_name": "Shrine2022View",
+    "type": 3,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 62,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 51,
     "simple_config_data": {
       "target": 100000,
       "shipGameID": 61
@@ -2161,19 +2160,20 @@
       ],
       2
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 51,
+    "id": 62,
     "name": "2024神社指挥官许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 3
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "63": {
+    "view_name": "BeachGuardGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 63,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 52,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -2213,35 +2213,35 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "BeachGuardGameView",
+    "is_ranking": 0,
+    "hub_id": 52,
+    "id": 63,
     "name": "PVZ小游戏复刻",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "64": {
+    "view_name": "LanternFestivalView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 54,
-    "request_data": 1,
-    "config_data": "",
     "id": 64,
-    "view_name": "LanternFestivalView",
-    "name": "元宵答题2024",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 54,
     "config_csv": "activity_event_question",
-    "type": 2
+    "name": "元宵答题2024",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "65": {
+    "view_name": "PipeGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 65,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 55,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2281,20 +2281,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "PipeGameView",
+    "is_ranking": 1,
+    "hub_id": 55,
+    "id": 65,
     "name": "水管工小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "66": {
+    "view_name": "TouchCakeGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 66,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 57,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2334,20 +2334,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "TouchCakeGameView",
+    "is_ranking": 1,
+    "hub_id": 57,
+    "id": 66,
     "name": "Manjuu Cake Tower",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "67": {
+    "view_name": "EatFoodGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 67,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2387,20 +2387,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "EatFoodGameView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 67,
     "name": "宿舍拍手小游戏(用于存分数",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "68": {
+    "view_name": "BoatAdGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 68,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 58,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2440,21 +2440,42 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "BoatAdGameView",
+    "is_ranking": 1,
+    "hub_id": 58,
+    "id": 68,
     "name": "海盗广告小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "69": {
+    "view_name": "ToLoveGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 69,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 59,
+    "config_data": "",
     "simple_config_data": {
+      "story": [
+        [
+          "WEIXIANFAMINGPOJINZHONGRICHANG1"
+        ],
+        [
+          "WEIXIANFAMINGPOJINZHONGRICHANG2"
+        ],
+        [
+          "WEIXIANFAMINGPOJINZHONGRICHANG3"
+        ],
+        [
+          "WEIXIANFAMINGPOJINZHONGRICHANG4"
+        ],
+        [
+          "WEIXIANFAMINGPOJINZHONGRICHANG5"
+        ],
+        [
+          "WEIXIANFAMINGPOJINZHONGRICHANG6"
+        ],
+        []
+      ],
       "drop_ids": [
         [
           5,
@@ -2491,43 +2512,21 @@
           316307,
           1
         ]
-      ],
-      "story": [
-        [
-          "WEIXIANFAMINGPOJINZHONGRICHANG1"
-        ],
-        [
-          "WEIXIANFAMINGPOJINZHONGRICHANG2"
-        ],
-        [
-          "WEIXIANFAMINGPOJINZHONGRICHANG3"
-        ],
-        [
-          "WEIXIANFAMINGPOJINZHONGRICHANG4"
-        ],
-        [
-          "WEIXIANFAMINGPOJINZHONGRICHANG5"
-        ],
-        [
-          "WEIXIANFAMINGPOJINZHONGRICHANG6"
-        ],
-        []
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "ToLoveGameView",
+    "is_ranking": 1,
+    "hub_id": 59,
+    "id": 69,
     "name": "tolove联动小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "70": {
+    "view_name": "Shrine2022View",
+    "type": 5,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 70,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 60,
     "simple_config_data": [
       8,
       65066,
@@ -2546,19 +2545,19 @@
       ],
       1
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 60,
+    "id": 70,
     "name": "2024神社舰娘许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 5
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "71": {
+    "view_name": "Shrine2022View",
+    "type": 3,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 71,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 60,
     "simple_config_data": {
       "target": 100000,
       "shipGameID": 70
@@ -2572,19 +2571,20 @@
       ],
       2
     ],
-    "request_data": 1,
-    "view_name": "Shrine2022View",
+    "is_ranking": 0,
+    "hub_id": 60,
+    "id": 71,
     "name": "2024神社指挥官许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 3
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "72": {
+    "view_name": "CurlingGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 72,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 60,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -2624,20 +2624,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "CurlingGameView",
+    "is_ranking": 0,
+    "hub_id": 60,
+    "id": 72,
     "name": "冰壶小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "73": {
+    "view_name": "NenjuuMiniGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 73,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 61,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -2677,50 +2677,50 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "NenjuuMiniGameView",
+    "is_ranking": 0,
+    "hub_id": 61,
+    "id": 73,
     "name": "年兽小游戏(抚顺大冒险4 IV 复刻)",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "74": {
+    "view_name": "LanternFestivalView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 62,
-    "request_data": 1,
-    "config_data": "",
     "id": 74,
-    "view_name": "LanternFestivalView",
-    "name": "元宵答题2025",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 62,
     "config_csv": "activity_event_question",
-    "type": 2
+    "name": "元宵答题2025",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "75": {
+    "view_name": "EatFoodGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 45,
-    "request_data": 0,
-    "config_data": "",
     "id": 75,
-    "view_name": "EatFoodGameView",
-    "name": "猜拳小游戏",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 2
+    "name": "猜拳小游戏",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "76": {
+    "view_name": "WatermelonGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 76,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 64,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2760,20 +2760,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "WatermelonGameView",
+    "is_ranking": 1,
+    "hub_id": 64,
+    "id": 76,
     "name": "Villa Resort Minigame - Shipgirl Game",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "77": {
+    "view_name": "CatchTreasureGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 77,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 65,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2813,20 +2813,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "CatchTreasureGameView",
+    "is_ranking": 0,
+    "hub_id": 65,
+    "id": 77,
     "name": "Villa Resort Minigame - Manjuu Salvaging Crew",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "78": {
+    "view_name": "MusicBeatGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 78,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 66,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2866,20 +2866,19 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "MusicBeatGameView",
+    "is_ranking": 1,
+    "hub_id": 66,
+    "id": 78,
     "name": "节奏游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "79": {
+    "view_name": "WinterFestival2025ShrineView",
+    "type": 5,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 79,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 67,
     "simple_config_data": [
       8,
       65794,
@@ -2898,19 +2897,19 @@
       ],
       1
     ],
-    "request_data": 1,
-    "view_name": "WinterFestival2025ShrineView",
+    "is_ranking": 0,
+    "hub_id": 67,
+    "id": 79,
     "name": "2025神社舰娘许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 5
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "80": {
+    "view_name": "WinterFestival2025ShrineView",
+    "type": 3,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 80,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 67,
     "simple_config_data": {
       "target": 100000,
       "shipGameID": 79
@@ -2924,19 +2923,19 @@
       ],
       2
     ],
-    "request_data": 1,
-    "view_name": "WinterFestival2025ShrineView",
+    "is_ranking": 0,
+    "hub_id": 67,
+    "id": 80,
     "name": "2025神社指挥官许愿",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 3
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "81": {
+    "view_name": "PacGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 81,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 68,
     "simple_config_data": {
       "drop_ids": [
         [
@@ -2977,34 +2976,34 @@
       ]
     },
     "config_data": [],
-    "request_data": 1,
-    "view_name": "PacGameView",
+    "is_ranking": 0,
+    "hub_id": 68,
+    "id": 81,
     "name": "Fei Yuen's Great Adventure",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "82": {
+    "view_name": "LanternFestivalView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 69,
-    "request_data": 1,
-    "config_data": "",
     "id": 82,
-    "view_name": "LanternFestivalView",
-    "name": "元宵答题2026",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 69,
     "config_csv": "activity_event_question",
-    "type": 2
+    "name": "元宵答题2026",
+    "config_data": "",
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "83": {
+    "view_name": "CutFruitGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 83,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 70,
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3045,19 +3044,20 @@
       ]
     },
     "config_data": [],
-    "request_data": 1,
-    "view_name": "CutFruitGameView",
+    "is_ranking": 0,
+    "hub_id": 70,
+    "id": 83,
     "name": "doa联动切西瓜",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "86": {
+    "view_name": "DOAPPMiniGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 86,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 75,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -3097,39 +3097,21 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "DOAPPMiniGameView",
+    "is_ranking": 0,
+    "hub_id": 75,
+    "id": 86,
     "name": "Butt Battle",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "87": {
+    "view_name": "VolleyballGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 87,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 76,
+    "config_data": "",
     "simple_config_data": {
-      "minorChar": [
-        2,
-        1,
-        2,
-        5,
-        6,
-        7,
-        4
-      ],
-      "endScore": [
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5
-      ],
       "mainChar": [
         1,
         6,
@@ -3138,6 +3120,15 @@
         5,
         2,
         7
+      ],
+      "minorChar": [
+        2,
+        1,
+        2,
+        5,
+        6,
+        7,
+        4
       ],
       "story": [
         [
@@ -3155,22 +3146,30 @@
         [
           "JIARIHANGXIANRICHANG4"
         ]
+      ],
+      "endScore": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "VolleyballGameView",
+    "is_ranking": 0,
+    "hub_id": 76,
+    "id": 87,
     "name": "Volleyball Scrimmage",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "84": {
+    "view_name": "SortGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 84,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 71,
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3211,19 +3210,20 @@
       ]
     },
     "config_data": [],
-    "request_data": 1,
-    "view_name": "SortGameView",
+    "is_ranking": 1,
+    "hub_id": 71,
+    "id": 84,
     "name": "Operation Vacation",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "88": {
+    "view_name": "MusicBeatGameView",
+    "type": 2,
+    "request_data": 0,
     "mediator_name": "MiniHubMediator",
-    "id": 88,
-    "is_ranking": 1,
-    "game_room": 0,
-    "hub_id": 77,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3263,20 +3263,19 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 0,
-    "view_name": "MusicBeatGameView",
+    "is_ranking": 1,
+    "hub_id": 77,
+    "id": 88,
     "name": "Rhythm Game Rerun",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "89": {
+    "view_name": "CrossRoadGameView",
+    "type": 2,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 89,
-    "is_ranking": 0,
-    "game_room": 0,
-    "hub_id": 78,
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3317,176 +3316,177 @@
       ]
     },
     "config_data": [],
-    "request_data": 1,
-    "view_name": "CrossRoadGameView",
+    "is_ranking": 0,
+    "hub_id": 78,
+    "id": 89,
     "name": "过马路小游戏",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 2
+    "game_room": 0,
+    "config_csv_key": ""
   },
   "1001": {
+    "view_name": "GameRoomFushun3View",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 1,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1001,
-    "view_name": "GameRoomFushun3View",
-    "name": "小游戏厅抚顺大冒险",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅抚顺大冒险",
+    "config_data": "",
+    "game_room": 1,
+    "config_csv_key": ""
   },
   "1002": {
+    "view_name": "GameRoomPileGameView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 1,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1002,
-    "view_name": "GameRoomPileGameView",
-    "name": "小游戏厅叠叠乐",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅叠叠乐",
+    "config_data": "",
+    "game_room": 1,
+    "config_csv_key": ""
   },
   "1003": {
+    "view_name": "GameRoomMatch3View",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 2,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1003,
-    "view_name": "GameRoomMatch3View",
-    "name": "小游戏厅三消",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅三消",
+    "config_data": "",
+    "game_room": 2,
+    "config_csv_key": ""
   },
   "1004": {
+    "view_name": "GameRoomShootingView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1004,
-    "is_ranking": 0,
-    "game_room": 3,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
+      "moveSpeed": 4,
+      "targetScore": [
+        10,
+        5,
+        2
+      ],
       "fireCD": 1,
+      "baseTime": 12,
       "score_level": [
         0,
         10,
         25,
         35
       ],
-      "baseTime": 12,
-      "bonusTime": 0,
-      "targetScore": [
-        10,
-        5,
-        2
-      ],
-      "moveSpeed": 4
+      "bonusTime": 0
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomShootingView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1004,
     "name": "小游戏厅打靶",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 3,
+    "config_csv_key": ""
   },
   "1005": {
+    "view_name": "GameRoomSnackView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1005,
-    "is_ranking": 0,
-    "game_room": 4,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
+      "score_level": [
+        0,
+        5,
+        12,
+        20
+      ],
       "memory_time": 5,
-      "select_time": 10,
       "correct_value": {
         "1": 1,
         "2": 2,
         "3": 5,
         "0": 0
       },
-      "score_level": [
-        0,
-        5,
-        12,
-        20
-      ]
+      "select_time": 10
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomSnackView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1005,
     "name": "小游戏厅小吃街",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 4,
+    "config_csv_key": ""
   },
   "1006": {
+    "view_name": "GameRoomQTEView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1006,
-    "is_ranking": 0,
-    "game_room": 5,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
-      "targetComboScore": [
-        250,
-        500
-      ],
-      "targetCombo": [
-        25,
-        50
-      ],
-      "scorePerHit": 10,
-      "comboRange": [
-        5,
-        10
-      ],
       "comboAddScore": [
         5,
         10
       ],
-      "shrineGameId": 3,
       "gameTime": 60,
-      "roundTime": 4
+      "targetCombo": [
+        25,
+        50
+      ],
+      "roundTime": 4,
+      "targetComboScore": [
+        250,
+        500
+      ],
+      "comboRange": [
+        5,
+        10
+      ],
+      "scorePerHit": 10,
+      "shrineGameId": 3
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomQTEView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1006,
     "name": "小游戏厅修行",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 5,
+    "config_csv_key": ""
   },
   "1007": {
+    "view_name": "GameRoomPokeView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 6,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1007,
-    "view_name": "GameRoomPokeView",
-    "name": "小游戏厅蛋糕保卫战",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅蛋糕保卫战",
+    "config_data": "",
+    "game_room": 6,
+    "config_csv_key": ""
   },
   "1008": {
+    "view_name": "GameRoomTowerView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1008,
-    "is_ranking": 0,
-    "game_room": 7,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": [
       [
         [
@@ -3542,80 +3542,80 @@
         ]
       ]
     ],
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomTowerView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1008,
     "name": "小游戏厅啾啾大冒险",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 7,
+    "config_csv_key": ""
   },
   "1009": {
+    "view_name": "GameRoomFushun2View",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 8,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1009,
-    "view_name": "GameRoomFushun2View",
-    "name": "小游戏厅大冒险2",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅大冒险2",
+    "config_data": "",
+    "game_room": 8,
+    "config_csv_key": ""
   },
   "1010": {
+    "view_name": "GameRoomRollingView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 9,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1010,
-    "view_name": "GameRoomRollingView",
-    "name": "小游戏厅转转乐",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅转转乐",
+    "config_data": "",
+    "game_room": 9,
+    "config_csv_key": ""
   },
   "1011": {
+    "view_name": "GameRoomHalloweenView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 10,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1011,
-    "view_name": "GameRoomHalloweenView",
-    "name": "小游戏厅万圣节",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅万圣节",
+    "config_data": "",
+    "game_room": 10,
+    "config_csv_key": ""
   },
   "1012": {
+    "view_name": "GameRoomSnowballView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 11,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1012,
-    "view_name": "GameRoomSnowballView",
-    "name": "小游戏厅雪合战",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅雪合战",
+    "config_data": "",
+    "game_room": 11,
+    "config_csv_key": ""
   },
   "1013": {
+    "view_name": "GameRoomPipeView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1013,
-    "is_ranking": 0,
-    "game_room": 12,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3655,20 +3655,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomPipeView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1013,
     "name": "小游戏厅水管工",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 12,
+    "config_csv_key": ""
   },
   "1014": {
+    "view_name": "GameRoomCookView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1014,
-    "is_ranking": 0,
-    "game_room": 13,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3708,20 +3708,20 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomCookView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1014,
     "name": "小游戏厅蛋糕",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 13,
+    "config_csv_key": ""
   },
   "1015": {
+    "view_name": "GameRoomLaunchView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1015,
-    "is_ranking": 0,
-    "game_room": 14,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3761,35 +3761,35 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomLaunchView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1015,
     "name": "小游戏厅祖玛",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 14,
+    "config_csv_key": ""
   },
   "1016": {
+    "view_name": "GameRoomTreasureView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 15,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1016,
-    "view_name": "GameRoomTreasureView",
-    "name": "小游戏厅打捞",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅打捞",
+    "config_data": "",
+    "game_room": 15,
+    "config_csv_key": ""
   },
   "1017": {
+    "view_name": "GameRoomGuardView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1017,
-    "is_ranking": 0,
-    "game_room": 16,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
       "drop": [
         [
@@ -3829,95 +3829,95 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomGuardView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1017,
     "name": "小游戏厅沙滩保卫",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 16,
+    "config_csv_key": ""
   },
   "1018": {
+    "view_name": "GameRoomOreView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 17,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1018,
-    "view_name": "GameRoomOreView",
-    "name": "小游戏厅搬矿石",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅搬矿石",
+    "config_data": "",
+    "game_room": 17,
+    "config_csv_key": ""
   },
   "1019": {
+    "view_name": "GameRoomRopingCowView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 18,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1019,
-    "view_name": "GameRoomRopingCowView",
-    "name": "小游戏厅啾啾牛仔",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅啾啾牛仔",
+    "config_data": "",
+    "game_room": 18,
+    "config_csv_key": ""
   },
   "1020": {
+    "view_name": "GameRoomCurlingView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 19,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1020,
-    "view_name": "GameRoomCurlingView",
-    "name": "小游戏厅啾啾冰壶战",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅啾啾冰壶战",
+    "config_data": "",
+    "game_room": 19,
+    "config_csv_key": ""
   },
   "1021": {
+    "view_name": "GameRoomFushun3View",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": "",
-    "is_ranking": 0,
-    "game_room": 20,
-    "hub_id": 45,
-    "request_data": 1,
-    "config_data": "",
     "id": 1021,
-    "view_name": "GameRoomFushun3View",
-    "name": "小游戏厅大冒险3",
-    "config_csv_key": "",
+    "is_ranking": 0,
+    "hub_id": 45,
     "config_csv": "",
-    "type": 1
+    "name": "小游戏厅大冒险3",
+    "config_data": "",
+    "game_room": 20,
+    "config_csv_key": ""
   },
   "1025": {
-    "mediator_name": "MiniHubMediator",
-    "id": 1025,
-    "is_ranking": 0,
-    "game_room": 24,
-    "hub_id": 45,
-    "simple_config_data": [],
-    "config_data": "",
-    "request_data": 1,
     "view_name": "GameRoomHideSeekView",
+    "type": 1,
+    "request_data": 1,
+    "mediator_name": "MiniHubMediator",
+    "config_data": "",
+    "simple_config_data": [],
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1025,
     "name": "小游戏厅躲猫猫",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 24,
+    "config_csv_key": ""
   },
   "1026": {
+    "view_name": "GameRoomIceCreamView",
+    "type": 1,
+    "request_data": 1,
     "mediator_name": "MiniHubMediator",
-    "id": 1026,
-    "is_ranking": 0,
-    "game_room": 25,
-    "hub_id": 45,
+    "config_data": "",
     "simple_config_data": {
       "drop_ids": [
         [
@@ -3957,13 +3957,13 @@
         ]
       ]
     },
-    "config_data": "",
-    "request_data": 1,
-    "view_name": "GameRoomIceCreamView",
+    "is_ranking": 0,
+    "hub_id": 45,
+    "id": 1026,
     "name": "小游戏厅冰激凌",
-    "config_csv_key": "",
     "config_csv": "",
-    "type": 1
+    "game_room": 25,
+    "config_csv_key": ""
   },
   "all": [
     1,
