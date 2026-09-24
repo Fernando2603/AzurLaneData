@@ -1,5 +1,25 @@
 {
   "3": {
+    "name": "Island/Timeline_scene/prologue_sc02_1",
+    "obj": [
+      [
+        "all_con/[actor]/zhihuiguan",
+        [
+          0,
+          0,
+          -1.222575e-08
+        ],
+        [
+          -1.798609e-05,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
     "id": 3,
     "tracks": [
       [
@@ -25,17 +45,20 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc02_1",
+    "sequence": "[sequence]"
+  },
+  "4": {
+    "name": "Island/Timeline_scene/prologue_sc02_2",
     "obj": [
       [
-        "all_con/[actor]/zhihuiguan",
+        "all_con/[actor]/zhihuiguan_1",
         [
           0,
           0,
-          -1.222575e-08
+          0
         ],
         [
-          -1.798609e-05,
+          0,
           0,
           0
         ],
@@ -45,9 +68,6 @@
         ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "4": {
     "id": 4,
     "tracks": [
       [
@@ -73,10 +93,13 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc02_2",
+    "sequence": "[sequence]"
+  },
+  "5": {
+    "name": "Island/Timeline_scene/prologue_sc03",
     "obj": [
       [
-        "all_con/[actor]/zhihuiguan_1",
+        "all_con/Char/zhihuiguan",
         [
           0,
           0,
@@ -93,9 +116,6 @@
         ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "5": {
     "id": 5,
     "tracks": [
       [
@@ -136,10 +156,13 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc03",
+    "sequence": "[sequence]"
+  },
+  "6": {
+    "name": "Island/Timeline_scene/prologue_sc04",
     "obj": [
       [
-        "all_con/Char/zhihuiguan",
+        "all_con/[actor]/zhihuiguan",
         [
           0,
           0,
@@ -156,9 +179,6 @@
         ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "6": {
     "id": 6,
     "tracks": [
       [
@@ -219,7 +239,17 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc04",
+    "sequence": "[sequence]"
+  },
+  "15": {
+    "name": "Island/Timeline_scene/prologue_sc05",
+    "obj": [],
+    "id": 15,
+    "tracks": [],
+    "sequence": "[sequence]"
+  },
+  "7": {
+    "name": "Island/Timeline_scene/prologue_sc06_1",
     "obj": [
       [
         "all_con/[actor]/zhihuiguan",
@@ -239,16 +269,6 @@
         ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "15": {
-    "id": 15,
-    "tracks": [],
-    "name": "Island/Timeline_scene/prologue_sc05",
-    "obj": [],
-    "sequence": "[sequence]"
-  },
-  "7": {
     "id": 7,
     "tracks": [
       [
@@ -289,7 +309,10 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc06_1",
+    "sequence": "[sequence]"
+  },
+  "9": {
+    "name": "Island/Timeline_scene/prologue_sc06_3",
     "obj": [
       [
         "all_con/[actor]/zhihuiguan",
@@ -307,11 +330,25 @@
           0,
           0
         ]
+      ],
+      [
+        "all_con/[props]",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          "[MainBlock]/[Model]/lightmap04/pre_laboratory_door2"
+        ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "9": {
     "id": 9,
     "tracks": [
       [
@@ -374,46 +411,29 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc06_3",
-    "obj": [
-      [
-        "all_con/[actor]/zhihuiguan",
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0
-        ]
-      ],
-      [
-        "all_con/[props]",
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          3,
-          "[MainBlock]/[Model]/lightmap04/pre_laboratory_door2"
-        ]
-      ]
-    ],
     "sequence": "[sequence]"
   },
   "10": {
+    "name": "Island/Timeline_scene/prologue_sc07_1",
+    "obj": [
+      [
+        "all_con/[actor]/ZHG",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
     "id": 10,
     "tracks": [
       [
@@ -499,49 +519,9 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc07_1",
-    "obj": [
-      [
-        "all_con/[actor]/ZHG",
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0
-        ]
-      ]
-    ],
     "sequence": "[sequence]"
   },
   "13": {
-    "id": 13,
-    "tracks": [
-      [
-        [
-          "[sequence]/shot01",
-          "6",
-          "Animator"
-        ],
-        [
-          "[sequence]/shot01",
-          "7",
-          "Animator"
-        ],
-        [
-          "[sequence]/shot01",
-          "8",
-          "Animator"
-        ]
-      ]
-    ],
     "name": "Island/Timeline_scene/sceneview_jhs_autumn",
     "obj": [
       [
@@ -562,9 +542,49 @@
         ]
       ]
     ],
+    "id": 13,
+    "tracks": [
+      [
+        [
+          "[sequence]/shot01",
+          "6",
+          "Animator"
+        ],
+        [
+          "[sequence]/shot01",
+          "7",
+          "Animator"
+        ],
+        [
+          "[sequence]/shot01",
+          "8",
+          "Animator"
+        ]
+      ]
+    ],
     "sequence": "[sequence]"
   },
   "11": {
+    "name": "Island/Timeline_scene/sceneview_commercial",
+    "obj": [
+      [
+        "all_con/[actor]/zhihuiguan",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
     "id": 11,
     "tracks": [
       [
@@ -590,49 +610,9 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/sceneview_commercial",
-    "obj": [
-      [
-        "all_con/[actor]/zhihuiguan",
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0
-        ]
-      ]
-    ],
     "sequence": "[sequence]"
   },
   "12": {
-    "id": 12,
-    "tracks": [
-      [
-        [
-          "[sequence]/shot01",
-          "6",
-          "Animator"
-        ],
-        [
-          "[sequence]/shot01",
-          "7",
-          "Animator"
-        ],
-        [
-          "[sequence]/shot01",
-          "8",
-          "Animator"
-        ]
-      ]
-    ],
     "name": "Island/Timeline_scene/sceneview_factory_01",
     "obj": [
       [
@@ -653,9 +633,49 @@
         ]
       ]
     ],
+    "id": 12,
+    "tracks": [
+      [
+        [
+          "[sequence]/shot01",
+          "6",
+          "Animator"
+        ],
+        [
+          "[sequence]/shot01",
+          "7",
+          "Animator"
+        ],
+        [
+          "[sequence]/shot01",
+          "8",
+          "Animator"
+        ]
+      ]
+    ],
     "sequence": "[sequence]"
   },
   "16": {
+    "name": "Island/Timeline_scene/func_signin",
+    "obj": [
+      [
+        "all_con/[actor]/ZHG",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
     "id": 16,
     "tracks": [
       [
@@ -721,10 +741,13 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/func_signin",
+    "sequence": "[sequence]"
+  },
+  "14": {
+    "name": "Island/Timeline_scene/sceneview_ranch",
     "obj": [
       [
-        "all_con/[actor]/ZHG",
+        "Assets/Char/zhihuiguan",
         [
           0,
           0,
@@ -741,9 +764,6 @@
         ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "14": {
     "id": 14,
     "tracks": [
       [
@@ -769,29 +789,29 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/sceneview_ranch",
-    "obj": [
-      [
-        "Assets/Char/zhihuiguan",
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0
-        ]
-      ]
-    ],
     "sequence": "Sequence"
   },
   "2": {
+    "name": "Island/Timeline_scene/prologue_sc07_2",
+    "obj": [
+      [
+        "all_con/[actor]/con/salatuojia",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          ""
+        ]
+      ]
+    ],
     "id": 2,
     "tracks": [
       [
@@ -817,29 +837,29 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc07_2",
-    "obj": [
-      [
-        "all_con/[actor]/con/salatuojia",
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          4,
-          ""
-        ]
-      ]
-    ],
     "sequence": "[sequence]"
   },
   "1": {
+    "name": "Island/Timeline_scene/prologue_sc01",
+    "obj": [
+      [
+        "all_con/[actor]/ZHG_con",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -1.798609e-05,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
     "id": 1,
     "tracks": [
       [
@@ -895,33 +915,9 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc01",
-    "obj": [
-      [
-        "all_con/[actor]/ZHG_con",
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          -1.798609e-05,
-          0,
-          0
-        ],
-        [
-          0,
-          0
-        ]
-      ]
-    ],
     "sequence": "[sequence]"
   },
   "19": {
-    "id": 19,
-    "tracks": [
-      []
-    ],
     "name": "Island/Timeline_scene/sceneview_orchard",
     "obj": [
       [
@@ -942,9 +938,33 @@
         ]
       ]
     ],
+    "id": 19,
+    "tracks": [
+      []
+    ],
     "sequence": "[sequence]"
   },
   "17": {
+    "name": "Island/Timeline_scene/prologue_sc09_1",
+    "obj": [
+      [
+        "All_Con/[assets]/ZHG_Control",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
     "id": 17,
     "tracks": [
       [
@@ -980,10 +1000,13 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc09_1",
+    "sequence": "[sequence]"
+  },
+  "8": {
+    "name": "Island/Timeline_scene/prologue_sc06_2",
     "obj": [
       [
-        "All_Con/[assets]/ZHG_Control",
+        "all_con/[actor]/ZHG",
         [
           0,
           0,
@@ -1000,9 +1023,6 @@
         ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "8": {
     "id": 8,
     "tracks": [
       [
@@ -1048,14 +1068,17 @@
         ]
       ]
     ],
-    "name": "Island/Timeline_scene/prologue_sc06_2",
+    "sequence": "[sequence]"
+  },
+  "18": {
+    "name": "Island/Timeline_scene/prologue_sc08_1",
     "obj": [
       [
-        "all_con/[actor]/ZHG",
+        "All_Con/[assets]/Character/Commander_Control",
         [
           0,
           0,
-          0
+          -1.222575e-08
         ],
         [
           0,
@@ -1068,9 +1091,6 @@
         ]
       ]
     ],
-    "sequence": "[sequence]"
-  },
-  "18": {
     "id": 18,
     "tracks": [
       [
@@ -1093,26 +1113,6 @@
           "[sequence]/[vfx]/Shot1",
           "9",
           "Animator"
-        ]
-      ]
-    ],
-    "name": "Island/Timeline_scene/prologue_sc08_1",
-    "obj": [
-      [
-        "All_Con/[assets]/Character/Commander_Control",
-        [
-          0,
-          0,
-          -1.222575e-08
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0
         ]
       ]
     ],
