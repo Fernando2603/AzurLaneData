@@ -1,22 +1,24 @@
 {
   "1": {
-    "id": 1,
+    "phase2_camera": "",
     "mood_value": 0,
-    "hit_reaction_layer": "idle1",
-    "pos": "nxmf_1",
     "fury_anim": [
       1,
       2,
       3,
       4
     ],
-    "idle_anim": "XC1_idle"
+    "car_idle_anim": "",
+    "car_touch_anim": "",
+    "id": 1,
+    "pos": "nxmf_1",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC1_idle",
+    "hit_reaction_layer": "idle1"
   },
   "2": {
-    "id": 2,
+    "phase2_camera": "",
     "mood_value": 30,
-    "hit_reaction_layer": "idle1",
-    "pos": "nxmf_2",
     "fury_anim": [
       5,
       6,
@@ -24,35 +26,117 @@
       8,
       99
     ],
-    "idle_anim": "XC2_idle"
+    "car_idle_anim": "",
+    "car_touch_anim": "",
+    "id": 2,
+    "pos": "nxmf_2",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC2_idle",
+    "hit_reaction_layer": "idle1"
   },
   "3": {
-    "id": 3,
+    "phase2_camera": "",
     "mood_value": 60,
-    "hit_reaction_layer": "idle1",
-    "pos": "nxmf_3",
     "fury_anim": [
       9,
       12,
       4
     ],
-    "idle_anim": "XC3_idle-CW"
+    "car_idle_anim": "",
+    "car_touch_anim": "",
+    "id": 3,
+    "pos": "nxmf_3",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC3_idle-CW",
+    "hit_reaction_layer": "idle1"
   },
   "4": {
-    "id": 4,
+    "phase2_camera": "InsideCarCamera_nx",
     "mood_value": 100,
-    "hit_reaction_layer": "",
-    "pos": "nxmf_3",
     "fury_anim": [
       10,
       11
     ],
-    "idle_anim": "XC3_idle-CN"
+    "car_idle_anim": "",
+    "car_touch_anim": "",
+    "id": 4,
+    "pos": "nxmf_3",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC3_idle-CN",
+    "hit_reaction_layer": ""
+  },
+  "5": {
+    "phase2_camera": "",
+    "mood_value": 0,
+    "fury_anim": [
+      101,
+      102,
+      104
+    ],
+    "car_idle_anim": "XC1_idle_car",
+    "car_touch_anim": "",
+    "id": 5,
+    "pos": "yc_1",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC1_idle",
+    "hit_reaction_layer": "idle1"
+  },
+  "6": {
+    "phase2_camera": "",
+    "mood_value": 30,
+    "fury_anim": [
+      105,
+      106,
+      107,
+      108,
+      199
+    ],
+    "car_idle_anim": "XC2_idle_car",
+    "car_touch_anim": "",
+    "id": 6,
+    "pos": "yc_2",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC2_idle",
+    "hit_reaction_layer": "idle1"
+  },
+  "7": {
+    "phase2_camera": "",
+    "mood_value": 60,
+    "fury_anim": [
+      111,
+      112,
+      104
+    ],
+    "car_idle_anim": "XC3_idle_car",
+    "car_touch_anim": "",
+    "id": 7,
+    "pos": "yc_3",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC3_idle",
+    "hit_reaction_layer": "idle2"
+  },
+  "8": {
+    "phase2_camera": "InsideCarCamera_yc",
+    "mood_value": 100,
+    "fury_anim": [
+      110
+    ],
+    "car_idle_anim": "XC4_idle_car",
+    "car_touch_anim": "",
+    "id": 8,
+    "pos": "yc_3",
+    "phase2_glass_effect": 0,
+    "idle_anim": "XC4_idle",
+    "hit_reaction_layer": ""
   },
   "all": [
     1,
     2,
     3,
-    4
+    4,
+    5,
+    6,
+    7,
+    8
   ]
 }

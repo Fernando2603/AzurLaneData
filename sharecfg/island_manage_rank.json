@@ -1,39 +1,88 @@
 {
   "1": {
-    "bonus_coefficient": 90,
-    "assistant_num": 1,
-    "icon": "rank_tong",
-    "random_range": [
-      -1,
-      0
+    "level_up_exp": [
+      [
+        601,
+        10000
+      ],
+      [
+        602,
+        10000
+      ],
+      [
+        603,
+        10000
+      ],
+      [
+        604,
+        10000
+      ],
+      [
+        901,
+        10000
+      ]
     ],
+    "name": "Bronze",
+    "assistant_num": 1,
+    "assistant_unlock": [
+      [
+        601,
+        0
+      ],
+      [
+        602,
+        0
+      ],
+      [
+        603,
+        0
+      ],
+      [
+        604,
+        0
+      ],
+      [
+        901,
+        0
+      ]
+    ],
+    "icon": "rank_tong",
     "id": 1,
     "slot_num": [
       2,
       5
     ],
+    "bonus_coefficient": 90,
+    "random_range": [
+      -1,
+      0
+    ]
+  },
+  "2": {
     "level_up_exp": [
       [
         601,
-        10000
+        100000
       ],
       [
         602,
-        10000
+        100000
       ],
       [
         603,
-        10000
+        100000
       ],
       [
         604,
-        10000
+        100000
       ],
       [
         901,
-        10000
+        100000
       ]
     ],
+    "name": "Silver",
+    "assistant_num": 1,
     "assistant_unlock": [
       [
         601,
@@ -56,83 +105,20 @@
         0
       ]
     ],
-    "name": "Bronze"
-  },
-  "2": {
-    "bonus_coefficient": 100,
-    "assistant_num": 1,
     "icon": "rank_yin",
-    "random_range": [
-      -1,
-      0,
-      1
-    ],
     "id": 2,
     "slot_num": [
       2,
       6
     ],
-    "level_up_exp": [
-      [
-        601,
-        100000
-      ],
-      [
-        602,
-        100000
-      ],
-      [
-        603,
-        100000
-      ],
-      [
-        604,
-        100000
-      ],
-      [
-        901,
-        100000
-      ]
-    ],
-    "assistant_unlock": [
-      [
-        601,
-        0
-      ],
-      [
-        602,
-        0
-      ],
-      [
-        603,
-        0
-      ],
-      [
-        604,
-        0
-      ],
-      [
-        901,
-        0
-      ]
-    ],
-    "name": "Silver"
-  },
-  "3": {
-    "bonus_coefficient": 110,
-    "assistant_num": 2,
-    "icon": "rank_jin",
+    "bonus_coefficient": 100,
     "random_range": [
       -1,
       0,
-      1,
-      2
-    ],
-    "id": 3,
-    "slot_num": [
-      3,
-      6
-    ],
+      1
+    ]
+  },
+  "3": {
     "level_up_exp": [
       [
         601,
@@ -155,6 +141,8 @@
         1000000
       ]
     ],
+    "name": "Gold",
+    "assistant_num": 2,
     "assistant_unlock": [
       [
         601,
@@ -177,23 +165,21 @@
         18002
       ]
     ],
-    "name": "Gold"
-  },
-  "4": {
-    "bonus_coefficient": 115,
-    "assistant_num": 2,
-    "icon": "rank_zuanshi",
+    "icon": "rank_jin",
+    "id": 3,
+    "slot_num": [
+      3,
+      6
+    ],
+    "bonus_coefficient": 110,
     "random_range": [
       -1,
       0,
       1,
       2
-    ],
-    "id": 4,
-    "slot_num": [
-      4,
-      6
-    ],
+    ]
+  },
+  "4": {
     "level_up_exp": [
       [
         601,
@@ -216,6 +202,8 @@
         0
       ]
     ],
+    "name": "Diamond",
+    "assistant_num": 2,
     "assistant_unlock": [
       [
         601,
@@ -238,7 +226,19 @@
         0
       ]
     ],
-    "name": "Diamond"
+    "icon": "rank_zuanshi",
+    "id": 4,
+    "slot_num": [
+      4,
+      6
+    ],
+    "bonus_coefficient": 115,
+    "random_range": [
+      -1,
+      0,
+      1,
+      2
+    ]
   },
   "all": [
     1,
