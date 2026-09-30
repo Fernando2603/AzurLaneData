@@ -1,7 +1,7 @@
 {
   "1": {
     "id": 1,
-    "effect_type": "move_speed",
+    "name": "技能模板",
     "condition": [
       [
         "count",
@@ -14,14 +14,14 @@
         6
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "move_speed",
     "args": [
       1
     ]
   },
   "2": {
     "id": 2,
-    "effect_type": "attack",
+    "name": "技能模板",
     "condition": [
       [
         "count",
@@ -34,7 +34,7 @@
         6
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "attack",
     "args": [
       "torpedo",
       10000,
@@ -43,7 +43,7 @@
   },
   "3": {
     "id": 3,
-    "effect_type": "strategy",
+    "name": "技能模板",
     "condition": [
       [
         "count",
@@ -60,7 +60,7 @@
         1
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "strategy",
     "args": [
       9,
       1
@@ -68,38 +68,38 @@
   },
   "4": {
     "id": 4,
-    "effect_type": "battle_buff",
+    "name": "技能模板",
     "condition": [
       [
         "dd_head"
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "battle_buff",
     "args": [
       20001
     ]
   },
   "5": {
     "id": 5,
-    "effect_type": "airfight_doge",
-    "condition": [],
     "name": "技能模板",
+    "condition": [],
+    "effect_type": "airfight_doge",
     "args": [
       5000
     ]
   },
   "6": {
     "id": 6,
-    "effect_type": "ambush_doge",
-    "condition": [],
     "name": "技能模板",
+    "condition": [],
+    "effect_type": "ambush_doge",
     "args": [
       5000
     ]
   },
   "7": {
     "id": 7,
-    "effect_type": "move_speed",
+    "name": "技能模板",
     "condition": [
       [
         "around_enemy",
@@ -107,30 +107,30 @@
         1
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "move_speed",
     "args": [
       1
     ]
   },
   "8": {
     "id": 8,
-    "effect_type": "battle_buff",
+    "name": "技能模板",
     "condition": [
       [
         "battle_buff_not_active",
         20003
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "battle_buff",
     "args": [
       20002
     ]
   },
   "9": {
     "id": 9,
-    "effect_type": "attack",
-    "condition": [],
     "name": "技能模板",
+    "condition": [],
+    "effect_type": "attack",
     "args": [
       "airfight",
       5000,
@@ -139,7 +139,7 @@
   },
   "10": {
     "id": 10,
-    "effect_type": "battle_buff",
+    "name": "技能模板",
     "condition": [
       [
         "count",
@@ -156,30 +156,30 @@
         1
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "battle_buff",
     "args": [
       20004
     ]
   },
   "11": {
     "id": 11,
-    "effect_type": "hunt_lv",
-    "condition": [],
     "name": "技能模板",
+    "condition": [],
+    "effect_type": "hunt_lv",
     "args": [
       1
     ]
   },
   "12": {
     "id": 12,
-    "effect_type": "torpedo_power_up",
+    "name": "技能模板",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "torpedo_power_up",
     "args": [
       0.01,
       2800
@@ -187,7 +187,7 @@
   },
   "13": {
     "id": 13,
-    "effect_type": "battle_buff",
+    "name": "技能模板",
     "condition": [
       [
         "around_enemy",
@@ -195,16 +195,16 @@
         2
       ]
     ],
-    "name": "技能模板",
+    "effect_type": "battle_buff",
     "args": [
       20005
     ]
   },
   "14": {
     "id": 14,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "技能模板",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40010,
       5000
@@ -212,7 +212,7 @@
   },
   "100111": {
     "id": 100111,
-    "effect_type": "move_speed",
+    "name": "31节的正义",
     "condition": [
       [
         "count",
@@ -225,14 +225,14 @@
         6
       ]
     ],
-    "name": "31节的正义",
+    "effect_type": "move_speed",
     "args": [
       1
     ]
   },
   "100112": {
     "id": 100112,
-    "effect_type": "attack",
+    "name": "31节的正义",
     "condition": [
       [
         "count",
@@ -249,7 +249,7 @@
         1
       ]
     ],
-    "name": "31节的正义",
+    "effect_type": "attack",
     "args": [
       "torpedo",
       102,
@@ -260,7 +260,7 @@
   },
   "100113": {
     "id": 100113,
-    "effect_type": "strategy",
+    "name": "31节的正义",
     "condition": [
       [
         "count",
@@ -281,7 +281,7 @@
         1
       ]
     ],
-    "name": "31节的正义",
+    "effect_type": "strategy",
     "args": [
       9,
       1
@@ -289,7 +289,7 @@
   },
   "100211": {
     "id": 100211,
-    "effect_type": "battle_buff",
+    "name": "王牌射手",
     "condition": [
       [
         "around_enemy",
@@ -304,32 +304,32 @@
         ]
       ]
     ],
-    "name": "王牌射手",
+    "effect_type": "battle_buff",
     "args": [
       40210
     ]
   },
   "100212": {
     "id": 100212,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "王牌射手",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40220
     ]
   },
   "100213": {
     "id": 100213,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "王牌射手",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40230
     ]
   },
   "110111": {
     "id": 110111,
-    "effect_type": "attack",
+    "name": "5英寸的勇气",
     "condition": [
       [
         "count",
@@ -346,7 +346,7 @@
         1
       ]
     ],
-    "name": "5英寸的勇气",
+    "effect_type": "attack",
     "args": [
       "torpedo",
       102,
@@ -357,49 +357,49 @@
   },
   "110112": {
     "id": 110112,
-    "effect_type": "battle_buff",
+    "name": "5英寸的勇气",
     "condition": [
       [
         "dd_head"
       ]
     ],
-    "name": "5英寸的勇气",
+    "effect_type": "battle_buff",
     "args": [
       40000
     ]
   },
   "110113": {
     "id": 110113,
-    "effect_type": "battle_buff",
+    "name": "5英寸的勇气",
     "condition": [
       [
         "dd_head"
       ]
     ],
-    "name": "5英寸的勇气",
+    "effect_type": "battle_buff",
     "args": [
       40002
     ]
   },
   "110211": {
     "id": 110211,
-    "effect_type": "battle_buff",
+    "name": "幸运之翼",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "幸运之翼",
+    "effect_type": "battle_buff",
     "args": [
       442610
     ]
   },
   "110212": {
     "id": 110212,
-    "effect_type": "airfight_doge",
-    "condition": [],
     "name": "幸运之翼",
+    "condition": [],
+    "effect_type": "airfight_doge",
     "args": [
       102,
       0.05,
@@ -409,65 +409,65 @@
   },
   "110213": {
     "id": 110213,
-    "effect_type": "battle_buff",
+    "name": "幸运之翼",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "幸运之翼",
+    "effect_type": "battle_buff",
     "args": [
       441320
     ]
   },
   "120111": {
     "id": 120111,
-    "effect_type": "battle_buff",
+    "name": "空母后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "空母后勤",
+    "effect_type": "battle_buff",
     "args": [
       443610
     ]
   },
   "120112": {
     "id": 120112,
-    "effect_type": "battle_buff",
+    "name": "空母后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "空母后勤",
+    "effect_type": "battle_buff",
     "args": [
       441310
     ]
   },
   "120113": {
     "id": 120113,
-    "effect_type": "battle_buff",
+    "name": "空母后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "空母后勤",
+    "effect_type": "battle_buff",
     "args": [
       442810
     ]
   },
   "120121": {
     "id": 120121,
-    "effect_type": "ambush_doge",
-    "condition": [],
     "name": "雷达侦察",
+    "condition": [],
+    "effect_type": "ambush_doge",
     "args": [
       101,
       0.05,
@@ -477,49 +477,49 @@
   },
   "120122": {
     "id": 120122,
-    "effect_type": "battle_buff",
+    "name": "雷达侦察",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "雷达侦察",
+    "effect_type": "battle_buff",
     "args": [
       422810
     ]
   },
   "120123": {
     "id": 120123,
-    "effect_type": "battle_buff",
+    "name": "雷达侦察",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "雷达侦察",
+    "effect_type": "battle_buff",
     "args": [
       421110
     ]
   },
   "200111": {
     "id": 200111,
-    "effect_type": "battle_buff",
+    "name": "尽忠职守",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "尽忠职守",
+    "effect_type": "battle_buff",
     "args": [
       40020
     ]
   },
   "200112": {
     "id": 200112,
-    "effect_type": "battle_buff",
+    "name": "尽忠职守",
     "condition": [
       [
         "pos",
@@ -530,79 +530,79 @@
         1
       ]
     ],
-    "name": "尽忠职守",
+    "effect_type": "battle_buff",
     "args": [
       40040
     ]
   },
   "200113": {
     "id": 200113,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "尽忠职守",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40030
     ]
   },
   "200211": {
     "id": 200211,
-    "effect_type": "battle_buff",
+    "name": "狡黠之灌",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "狡黠之灌",
+    "effect_type": "battle_buff",
     "args": [
       40240
     ]
   },
   "200212": {
     "id": 200212,
-    "effect_type": "battle_buff",
+    "name": "狡黠之灌",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "狡黠之灌",
+    "effect_type": "battle_buff",
     "args": [
       40250
     ]
   },
   "200213": {
     "id": 200213,
-    "effect_type": "battle_buff",
+    "name": "狡黠之灌",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "狡黠之灌",
+    "effect_type": "battle_buff",
     "args": [
       40260
     ]
   },
   "210111": {
     "id": 210111,
-    "effect_type": "battle_buff",
+    "name": "物资拦截者",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "物资拦截者",
+    "effect_type": "battle_buff",
     "args": [
       423910
     ]
   },
   "210112": {
     "id": 210112,
-    "effect_type": "battle_buff",
+    "name": "物资拦截者",
     "condition": [
       [
         "around_enemy",
@@ -618,28 +618,28 @@
         2
       ]
     ],
-    "name": "物资拦截者",
+    "effect_type": "battle_buff",
     "args": [
       422130
     ]
   },
   "210113": {
     "id": 210113,
-    "effect_type": "battle_buff",
+    "name": "物资拦截者",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "物资拦截者",
+    "effect_type": "battle_buff",
     "args": [
       421220
     ]
   },
   "210211": {
     "id": 210211,
-    "effect_type": "battle_buff",
+    "name": "斥候猎手",
     "condition": [
       [
         "around_enemy",
@@ -655,28 +655,28 @@
         2
       ]
     ],
-    "name": "斥候猎手",
+    "effect_type": "battle_buff",
     "args": [
       412820
     ]
   },
   "210212": {
     "id": 210212,
-    "effect_type": "battle_buff",
+    "name": "斥候猎手",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "斥候猎手",
+    "effect_type": "battle_buff",
     "args": [
       413920
     ]
   },
   "210213": {
     "id": 210213,
-    "effect_type": "move_speed",
+    "name": "斥候猎手",
     "condition": [
       [
         "around_enemy",
@@ -688,28 +688,28 @@
         ]
       ]
     ],
-    "name": "斥候猎手",
+    "effect_type": "move_speed",
     "args": [
       1
     ]
   },
   "210311": {
     "id": 210311,
-    "effect_type": "battle_buff",
+    "name": "守望者",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "守望者",
+    "effect_type": "battle_buff",
     "args": [
       442810
     ]
   },
   "210312": {
     "id": 210312,
-    "effect_type": "move_speed",
+    "name": "守望者",
     "condition": [
       [
         "around_enemy",
@@ -721,30 +721,30 @@
         ]
       ]
     ],
-    "name": "守望者",
+    "effect_type": "move_speed",
     "args": [
       1
     ]
   },
   "210313": {
     "id": 210313,
-    "effect_type": "battle_buff",
+    "name": "守望者",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "守望者",
+    "effect_type": "battle_buff",
     "args": [
       441320
     ]
   },
   "210411": {
     "id": 210411,
-    "effect_type": "ambush_doge",
-    "condition": [],
     "name": "无畏的骑士",
+    "condition": [],
+    "effect_type": "ambush_doge",
     "args": [
       102,
       0.05,
@@ -754,135 +754,135 @@
   },
   "210412": {
     "id": 210412,
-    "effect_type": "battle_buff",
+    "name": "无畏的骑士",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "无畏的骑士",
+    "effect_type": "battle_buff",
     "args": [
       432610
     ]
   },
   "210413": {
     "id": 210413,
-    "effect_type": "battle_buff",
+    "name": "无畏的骑士",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "无畏的骑士",
+    "effect_type": "battle_buff",
     "args": [
       40050
     ]
   },
   "220111": {
     "id": 220111,
-    "effect_type": "battle_buff",
+    "name": "战列后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "战列后勤",
+    "effect_type": "battle_buff",
     "args": [
       433610
     ]
   },
   "220112": {
     "id": 220112,
-    "effect_type": "battle_buff",
+    "name": "战列后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "战列后勤",
+    "effect_type": "battle_buff",
     "args": [
       433810
     ]
   },
   "220113": {
     "id": 220113,
-    "effect_type": "battle_buff",
+    "name": "战列后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "战列后勤",
+    "effect_type": "battle_buff",
     "args": [
       433110
     ]
   },
   "220211": {
     "id": 220211,
-    "effect_type": "battle_buff",
+    "name": "巡洋战术",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋战术",
+    "effect_type": "battle_buff",
     "args": [
       422110
     ]
   },
   "220212": {
     "id": 220212,
-    "effect_type": "battle_buff",
+    "name": "巡洋战术",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋战术",
+    "effect_type": "battle_buff",
     "args": [
       422810
     ]
   },
   "220213": {
     "id": 220213,
-    "effect_type": "battle_buff",
+    "name": "巡洋战术",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋战术",
+    "effect_type": "battle_buff",
     "args": [
       422910
     ]
   },
   "300111": {
     "id": 300111,
-    "effect_type": "battle_buff",
+    "name": "反击的一拳",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "反击的一拳",
+    "effect_type": "battle_buff",
     "args": [
       40110
     ]
   },
   "300112": {
     "id": 300112,
-    "effect_type": "ambush_doge",
-    "condition": [],
     "name": "反击的一拳",
+    "condition": [],
+    "effect_type": "ambush_doge",
     "args": [
       103,
       0.05,
@@ -892,7 +892,7 @@
   },
   "300113": {
     "id": 300113,
-    "effect_type": "battle_buff",
+    "name": "反击的一拳",
     "condition": [
       [
         "count",
@@ -904,28 +904,28 @@
         1
       ]
     ],
-    "name": "反击的一拳",
+    "effect_type": "battle_buff",
     "args": [
       40120
     ]
   },
   "300211": {
     "id": 300211,
-    "effect_type": "battle_buff",
+    "name": "敢勇当先",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "敢勇当先",
+    "effect_type": "battle_buff",
     "args": [
       40270
     ]
   },
   "300212": {
     "id": 300212,
-    "effect_type": "battle_buff",
+    "name": "敢勇当先",
     "condition": [
       [
         "around_enemy",
@@ -941,14 +941,14 @@
         1
       ]
     ],
-    "name": "敢勇当先",
+    "effect_type": "battle_buff",
     "args": [
       40280
     ]
   },
   "300213": {
     "id": 300213,
-    "effect_type": "battle_buff",
+    "name": "敢勇当先",
     "condition": [
       [
         "around_enemy",
@@ -964,42 +964,42 @@
         1
       ]
     ],
-    "name": "敢勇当先",
+    "effect_type": "battle_buff",
     "args": [
       40290
     ]
   },
   "310111": {
     "id": 310111,
-    "effect_type": "battle_buff",
+    "name": "必杀·三段击",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "必杀·三段击",
+    "effect_type": "battle_buff",
     "args": [
       442810
     ]
   },
   "310112": {
     "id": 310112,
-    "effect_type": "battle_buff",
+    "name": "必杀·三段击",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "必杀·三段击",
+    "effect_type": "battle_buff",
     "args": [
       441320
     ]
   },
   "310113": {
     "id": 310113,
-    "effect_type": "attack",
+    "name": "必杀·三段击",
     "condition": [
       [
         "count",
@@ -1011,7 +1011,7 @@
         3
       ]
     ],
-    "name": "必杀·三段击",
+    "effect_type": "attack",
     "args": [
       "airfight",
       102,
@@ -1022,35 +1022,35 @@
   },
   "310211": {
     "id": 310211,
-    "effect_type": "battle_buff",
+    "name": "野性的直觉",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "野性的直觉",
+    "effect_type": "battle_buff",
     "args": [
       411910
     ]
   },
   "310212": {
     "id": 310212,
-    "effect_type": "battle_buff",
+    "name": "野性的直觉",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "野性的直觉",
+    "effect_type": "battle_buff",
     "args": [
       413220
     ]
   },
   "310213": {
     "id": 310213,
-    "effect_type": "battle_buff",
+    "name": "野性的直觉",
     "condition": [
       [
         "count",
@@ -1071,133 +1071,133 @@
         2
       ]
     ],
-    "name": "野性的直觉",
+    "effect_type": "battle_buff",
     "args": [
       40150
     ]
   },
   "320111": {
     "id": 320111,
-    "effect_type": "battle_buff",
+    "name": "巡洋指挥",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋指挥",
+    "effect_type": "battle_buff",
     "args": [
       421110
     ]
   },
   "320112": {
     "id": 320112,
-    "effect_type": "battle_buff",
+    "name": "巡洋指挥",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋指挥",
+    "effect_type": "battle_buff",
     "args": [
       423210
     ]
   },
   "320113": {
     "id": 320113,
-    "effect_type": "battle_buff",
+    "name": "巡洋指挥",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋指挥",
+    "effect_type": "battle_buff",
     "args": [
       421210
     ]
   },
   "320211": {
     "id": 320211,
-    "effect_type": "battle_buff",
+    "name": "战列后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "战列后勤",
+    "effect_type": "battle_buff",
     "args": [
       433810
     ]
   },
   "320212": {
     "id": 320212,
-    "effect_type": "battle_buff",
+    "name": "战列后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "战列后勤",
+    "effect_type": "battle_buff",
     "args": [
       431410
     ]
   },
   "320213": {
     "id": 320213,
-    "effect_type": "battle_buff",
+    "name": "战列后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "战列后勤",
+    "effect_type": "battle_buff",
     "args": [
       432110
     ]
   },
   "400111": {
     "id": 400111,
-    "effect_type": "battle_buff",
+    "name": "静寂的狩猎者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "静寂的狩猎者",
+    "effect_type": "battle_buff",
     "args": [
       40180
     ]
   },
   "400112": {
     "id": 400112,
-    "effect_type": "hunt_lv",
+    "name": "静寂的狩猎者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "静寂的狩猎者",
+    "effect_type": "hunt_lv",
     "args": [
       1
     ]
   },
   "400113": {
     "id": 400113,
-    "effect_type": "torpedo_power_up",
+    "name": "静寂的狩猎者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "静寂的狩猎者",
+    "effect_type": "torpedo_power_up",
     "args": [
       102,
       0.1,
@@ -1207,21 +1207,21 @@
   },
   "400211": {
     "id": 400211,
-    "effect_type": "battle_buff",
+    "name": "不屈的意志",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "不屈的意志",
+    "effect_type": "battle_buff",
     "args": [
       40300
     ]
   },
   "400212": {
     "id": 400212,
-    "effect_type": "attack",
+    "name": "不屈的意志",
     "condition": [
       [
         "count",
@@ -1237,7 +1237,7 @@
         2
       ]
     ],
-    "name": "不屈的意志",
+    "effect_type": "attack",
     "args": [
       "cannon",
       102,
@@ -1248,7 +1248,7 @@
   },
   "400213": {
     "id": 400213,
-    "effect_type": "battle_buff",
+    "name": "不屈的意志",
     "condition": [
       [
         "around_enemy",
@@ -1264,42 +1264,42 @@
         2
       ]
     ],
-    "name": "不屈的意志",
+    "effect_type": "battle_buff",
     "args": [
       40310
     ]
   },
   "410111": {
     "id": 410111,
-    "effect_type": "battle_buff",
+    "name": "海之铁骑士",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "海之铁骑士",
+    "effect_type": "battle_buff",
     "args": [
       431910
     ]
   },
   "410112": {
     "id": 410112,
-    "effect_type": "battle_buff",
+    "name": "海之铁骑士",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "海之铁骑士",
+    "effect_type": "battle_buff",
     "args": [
       432820
     ]
   },
   "410113": {
     "id": 410113,
-    "effect_type": "battle_buff",
+    "name": "海之铁骑士",
     "condition": [
       [
         "around_enemy",
@@ -1311,14 +1311,14 @@
         ]
       ]
     ],
-    "name": "海之铁骑士",
+    "effect_type": "battle_buff",
     "args": [
       40200
     ]
   },
   "410211": {
     "id": 410211,
-    "effect_type": "battle_buff",
+    "name": "海之勇者",
     "condition": [
       [
         "pos",
@@ -1329,14 +1329,14 @@
         1
       ]
     ],
-    "name": "海之勇者",
+    "effect_type": "battle_buff",
     "args": [
       451210
     ]
   },
   "410212": {
     "id": 410212,
-    "effect_type": "battle_buff",
+    "name": "海之勇者",
     "condition": [
       [
         "pos",
@@ -1347,28 +1347,28 @@
         1
       ]
     ],
-    "name": "海之勇者",
+    "effect_type": "battle_buff",
     "args": [
       451820
     ]
   },
   "410213": {
     "id": 410213,
-    "effect_type": "hunt_lv",
+    "name": "海之勇者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "海之勇者",
+    "effect_type": "hunt_lv",
     "args": [
       1
     ]
   },
   "410311": {
     "id": 410311,
-    "effect_type": "battle_buff",
+    "name": "守护之心",
     "condition": [
       [
         "pos",
@@ -1379,14 +1379,14 @@
         1
       ]
     ],
-    "name": "守护之心",
+    "effect_type": "battle_buff",
     "args": [
       451210
     ]
   },
   "410312": {
     "id": 410312,
-    "effect_type": "battle_buff",
+    "name": "守护之心",
     "condition": [
       [
         "pos",
@@ -1397,14 +1397,14 @@
         1
       ]
     ],
-    "name": "守护之心",
+    "effect_type": "battle_buff",
     "args": [
       451920
     ]
   },
   "410313": {
     "id": 410313,
-    "effect_type": "battle_buff",
+    "name": "守护之心",
     "condition": [
       [
         "pos",
@@ -1415,107 +1415,107 @@
         1
       ]
     ],
-    "name": "守护之心",
+    "effect_type": "battle_buff",
     "args": [
       40060
     ]
   },
   "420111": {
     "id": 420111,
-    "effect_type": "battle_buff",
+    "name": "巡洋后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋后勤",
+    "effect_type": "battle_buff",
     "args": [
       423910
     ]
   },
   "420112": {
     "id": 420112,
-    "effect_type": "battle_buff",
+    "name": "巡洋后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋后勤",
+    "effect_type": "battle_buff",
     "args": [
       423110
     ]
   },
   "420113": {
     "id": 420113,
-    "effect_type": "battle_buff",
+    "name": "巡洋后勤",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "巡洋后勤",
+    "effect_type": "battle_buff",
     "args": [
       421110
     ]
   },
   "420211": {
     "id": 420211,
-    "effect_type": "battle_buff",
+    "name": "驱逐指挥",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "驱逐指挥",
+    "effect_type": "battle_buff",
     "args": [
       411910
     ]
   },
   "420212": {
     "id": 420212,
-    "effect_type": "battle_buff",
+    "name": "驱逐指挥",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "驱逐指挥",
+    "effect_type": "battle_buff",
     "args": [
       412810
     ]
   },
   "420213": {
     "id": 420213,
-    "effect_type": "battle_buff",
+    "name": "驱逐指挥",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "驱逐指挥",
+    "effect_type": "battle_buff",
     "args": [
       413210
     ]
   },
   "9600111": {
     "id": 9600111,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "环球航行",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40400
     ]
   },
   "9600112": {
     "id": 9600112,
-    "effect_type": "battle_buff",
+    "name": "环球航行",
     "condition": [
       [
         "count",
@@ -1528,32 +1528,32 @@
         6
       ]
     ],
-    "name": "环球航行",
+    "effect_type": "battle_buff",
     "args": [
       40410
     ]
   },
   "9600113": {
     "id": 9600113,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "环球航行",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40420
     ]
   },
   "9600211": {
     "id": 9600211,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "私掠者的是与非",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40430
     ]
   },
   "9600212": {
     "id": 9600212,
-    "effect_type": "move_speed",
+    "name": "私掠者的是与非",
     "condition": [
       [
         "around_enemy",
@@ -1565,14 +1565,14 @@
         ]
       ]
     ],
-    "name": "私掠者的是与非",
+    "effect_type": "move_speed",
     "args": [
       1
     ]
   },
   "9600213": {
     "id": 9600213,
-    "effect_type": "battle_buff",
+    "name": "私掠者的是与非",
     "condition": [
       [
         "count",
@@ -1585,56 +1585,56 @@
         6
       ]
     ],
-    "name": "私掠者的是与非",
+    "effect_type": "battle_buff",
     "args": [
       40450
     ]
   },
   "9600311": {
     "id": 9600311,
-    "effect_type": "hunt_lv",
+    "name": "“高速”的山姆",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "“高速”的山姆",
+    "effect_type": "hunt_lv",
     "args": [
       1
     ]
   },
   "9600312": {
     "id": 9600312,
-    "effect_type": "battle_buff",
+    "name": "“高速”的山姆",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "“高速”的山姆",
+    "effect_type": "battle_buff",
     "args": [
       40460
     ]
   },
   "9600313": {
     "id": 9600313,
-    "effect_type": "battle_buff",
+    "name": "“高速”的山姆",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "“高速”的山姆",
+    "effect_type": "battle_buff",
     "args": [
       40470
     ]
   },
   "9600411": {
     "id": 9600411,
-    "effect_type": "battle_buff",
+    "name": "攻夺与幻想",
     "condition": [
       [
         "count",
@@ -1647,102 +1647,102 @@
         6
       ]
     ],
-    "name": "攻夺与幻想",
+    "effect_type": "battle_buff",
     "args": [
       40490
     ]
   },
   "9600412": {
     "id": 9600412,
-    "effect_type": "battle_buff",
+    "name": "攻夺与幻想",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "攻夺与幻想",
+    "effect_type": "battle_buff",
     "args": [
       40500
     ]
   },
   "9600413": {
     "id": 9600413,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "攻夺与幻想",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40510
     ]
   },
   "9600414": {
     "id": 9600414,
-    "effect_type": "battle_buff",
+    "name": "攻夺与幻想",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "攻夺与幻想",
+    "effect_type": "battle_buff",
     "args": [
       40490
     ]
   },
   "9600511": {
     "id": 9600511,
-    "effect_type": "hunt_lv",
+    "name": "戒律的订立者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "戒律的订立者",
+    "effect_type": "hunt_lv",
     "args": [
       1
     ]
   },
   "9600512": {
     "id": 9600512,
-    "effect_type": "battle_buff",
+    "name": "戒律的订立者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "戒律的订立者",
+    "effect_type": "battle_buff",
     "args": [
       40520
     ]
   },
   "9600513": {
     "id": 9600513,
-    "effect_type": "battle_buff",
+    "name": "戒律的订立者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "戒律的订立者",
+    "effect_type": "battle_buff",
     "args": [
       40530
     ]
   },
   "9600611": {
     "id": 9600611,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "未了的传奇",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40550
     ]
   },
   "9600612": {
     "id": 9600612,
-    "effect_type": "battle_buff",
+    "name": "未了的传奇",
     "condition": [
       [
         "around_enemy",
@@ -1754,25 +1754,25 @@
         ]
       ]
     ],
-    "name": "未了的传奇",
+    "effect_type": "battle_buff",
     "args": [
       40560
     ]
   },
   "9600613": {
     "id": 9600613,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "未了的传奇",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40570
     ]
   },
   "9600711": {
     "id": 9600711,
-    "effect_type": "ambush_doge",
-    "condition": [],
     "name": "绅士海盗的传说",
+    "condition": [],
+    "effect_type": "ambush_doge",
     "args": [
       103,
       0.05,
@@ -1782,30 +1782,30 @@
   },
   "9600712": {
     "id": 9600712,
-    "effect_type": "battle_buff",
+    "name": "绅士海盗的传说",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "绅士海盗的传说",
+    "effect_type": "battle_buff",
     "args": [
       40590
     ]
   },
   "9600713": {
     "id": 9600713,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "绅士海盗的传说",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40600
     ]
   },
   "9100111": {
     "id": 9100111,
-    "effect_type": "battle_buff",
+    "name": "31节的正义",
     "condition": [
       [
         "count",
@@ -1818,98 +1818,98 @@
         6
       ]
     ],
-    "name": "31节的正义",
+    "effect_type": "battle_buff",
     "args": [
       412220
     ]
   },
   "9100112": {
     "id": 9100112,
-    "effect_type": "battle_buff",
+    "name": "31节的正义",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "31节的正义",
+    "effect_type": "battle_buff",
     "args": [
       40320
     ]
   },
   "9100113": {
     "id": 9100113,
-    "effect_type": "battle_buff",
+    "name": "31节的正义",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "31节的正义",
+    "effect_type": "battle_buff",
     "args": [
       40325
     ]
   },
   "9110111": {
     "id": 9110111,
-    "effect_type": "battle_buff",
+    "name": "5英寸的勇气",
     "condition": [
       [
         "pos",
         1
       ]
     ],
-    "name": "5英寸的勇气",
+    "effect_type": "battle_buff",
     "args": [
       411210
     ]
   },
   "9110212": {
     "id": 9110212,
-    "effect_type": "battle_buff",
+    "name": "幸运之翼",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "幸运之翼",
+    "effect_type": "battle_buff",
     "args": [
       40330
     ]
   },
   "9120121": {
     "id": 9120121,
-    "effect_type": "battle_buff",
+    "name": "雷达侦察",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "雷达侦察",
+    "effect_type": "battle_buff",
     "args": [
       423910
     ]
   },
   "9200112": {
     "id": 9200112,
-    "effect_type": "battle_buff",
+    "name": "尽忠职守",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "尽忠职守",
+    "effect_type": "battle_buff",
     "args": [
       40340
     ]
   },
   "9210213": {
     "id": 9210213,
-    "effect_type": "battle_buff",
+    "name": "斥候猎手",
     "condition": [
       [
         "around_enemy",
@@ -1921,14 +1921,14 @@
         ]
       ]
     ],
-    "name": "斥候猎手",
+    "effect_type": "battle_buff",
     "args": [
       411910
     ]
   },
   "9210312": {
     "id": 9210312,
-    "effect_type": "battle_buff",
+    "name": "守望者",
     "condition": [
       [
         "around_enemy",
@@ -1940,51 +1940,51 @@
         ]
       ]
     ],
-    "name": "守望者",
+    "effect_type": "battle_buff",
     "args": [
       411910
     ]
   },
   "9210411": {
     "id": 9210411,
-    "effect_type": "battle_buff",
+    "name": "无畏的骑士",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "无畏的骑士",
+    "effect_type": "battle_buff",
     "args": [
       433910
     ]
   },
   "9300112": {
     "id": 9300112,
-    "effect_type": "battle_buff",
+    "name": "反击的一拳",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "反击的一拳",
+    "effect_type": "battle_buff",
     "args": [
       443910
     ]
   },
   "9310113": {
     "id": 9310113,
-    "effect_type": "battle_buff",
-    "condition": [],
     "name": "必杀·三段击",
+    "condition": [],
+    "effect_type": "battle_buff",
     "args": [
       40350
     ]
   },
   "9400112": {
     "id": 9400112,
-    "effect_type": "battle_buff",
+    "name": "静寂的狩猎者",
     "condition": [
       [
         "pos",
@@ -1995,14 +1995,14 @@
         1
       ]
     ],
-    "name": "静寂的狩猎者",
+    "effect_type": "battle_buff",
     "args": [
       40360
     ]
   },
   "9400113": {
     "id": 9400113,
-    "effect_type": "battle_buff",
+    "name": "静寂的狩猎者",
     "condition": [
       [
         "pos",
@@ -2013,28 +2013,28 @@
         1
       ]
     ],
-    "name": "静寂的狩猎者",
+    "effect_type": "battle_buff",
     "args": [
       40370
     ]
   },
   "9400212": {
     "id": 9400212,
-    "effect_type": "battle_buff",
+    "name": "不屈的意志",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "不屈的意志",
+    "effect_type": "battle_buff",
     "args": [
       40380
     ]
   },
   "9410213": {
     "id": 9410213,
-    "effect_type": "battle_buff",
+    "name": "海之勇者",
     "condition": [
       [
         "pos",
@@ -2045,14 +2045,14 @@
         1
       ]
     ],
-    "name": "海之勇者",
+    "effect_type": "battle_buff",
     "args": [
       40390
     ]
   },
   "99600212": {
     "id": 99600212,
-    "effect_type": "battle_buff",
+    "name": "私掠者的是非",
     "condition": [
       [
         "around_enemy",
@@ -2064,49 +2064,49 @@
         ]
       ]
     ],
-    "name": "私掠者的是非",
+    "effect_type": "battle_buff",
     "args": [
       40440
     ]
   },
   "99600311": {
     "id": 99600311,
-    "effect_type": "battle_buff",
+    "name": "“高速”的山姆",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "“高速”的山姆",
+    "effect_type": "battle_buff",
     "args": [
       40480
     ]
   },
   "99600511": {
     "id": 99600511,
-    "effect_type": "battle_buff",
+    "name": "戒律的订立者",
     "condition": [
       [
         "insubteam",
         1
       ]
     ],
-    "name": "戒律的订立者",
+    "effect_type": "battle_buff",
     "args": [
       40540
     ]
   },
   "99600711": {
     "id": 99600711,
-    "effect_type": "battle_buff",
+    "name": "绅士海盗的传说",
     "condition": [
       [
         "pos",
         2
       ]
     ],
-    "name": "绅士海盗的传说",
+    "effect_type": "battle_buff",
     "args": [
       40580
     ]
