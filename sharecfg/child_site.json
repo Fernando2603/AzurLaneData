@@ -1,6 +1,6 @@
 {
   "110": {
-    "pic": "site_1",
+    "type": 1,
     "option": [
       1102,
       1103,
@@ -14,31 +14,31 @@
       11032,
       11033
     ],
-    "type": 1,
-    "id": 110,
-    "icon": "child_icon_food",
+    "coordinate": [
+      -201.6,
+      -96
+    ],
+    "name_pic": "child_icon_food_name",
     "ability": [],
+    "name": "Gastronomy District",
     "unlock_time_2": [
       4,
       1,
       7
     ],
-    "name_pic": "child_icon_food_name",
-    "coordinate": [
-      -201.6,
-      -96
-    ],
     "option_random": [],
-    "desc": "Welcome to the gastronomy district – where there's food to suit every taste and drinks to wet every whistle!",
-    "name": "Gastronomy District",
     "unlock_time_1": [
       4,
       1,
       7
-    ]
+    ],
+    "desc": "Welcome to the gastronomy district – where there's food to suit every taste and drinks to wet every whistle!",
+    "icon": "child_icon_food",
+    "pic": "site_1",
+    "id": 110
   },
   "111": {
-    "pic": "site_1",
+    "type": 2,
     "option": [
       1111,
       1112,
@@ -47,31 +47,31 @@
       11112,
       11113
     ],
-    "type": 2,
-    "id": 111,
-    "icon": "",
+    "coordinate": [
+      0,
+      0
+    ],
+    "name_pic": "",
     "ability": [],
+    "name": "Diner",
     "unlock_time_2": [
       4,
       1,
       7
     ],
-    "name_pic": "",
-    "coordinate": [
-      0,
-      0
-    ],
     "option_random": [],
-    "desc": "Our every flavor is a culinary expression. Spoil your tastebuds.",
-    "name": "Diner",
     "unlock_time_1": [
       4,
       1,
       7
-    ]
+    ],
+    "desc": "Our every flavor is a culinary expression. Spoil your tastebuds.",
+    "icon": "",
+    "pic": "site_1",
+    "id": 111
   },
   "120": {
-    "pic": "site_2",
+    "type": 1,
     "option": [
       1201,
       1203,
@@ -82,31 +82,31 @@
       12042,
       12043
     ],
-    "type": 1,
-    "id": 120,
-    "icon": "child_icon_manor",
+    "coordinate": [
+      554.4,
+      402.2
+    ],
+    "name_pic": "child_icon_manor_name",
     "ability": [],
+    "name": "Holiday Resort",
     "unlock_time_2": [
       4,
       3,
       7
     ],
-    "name_pic": "child_icon_manor_name",
-    "coordinate": [
-      554.4,
-      402.2
-    ],
     "option_random": [],
-    "desc": "No prep? No problem. A quick and easy stop to rest, relax, and recuperate.",
-    "name": "Holiday Resort",
     "unlock_time_1": [
       4,
       3,
       7
-    ]
+    ],
+    "desc": "No prep? No problem. A quick and easy stop to rest, relax, and recuperate.",
+    "icon": "child_icon_manor",
+    "pic": "site_2",
+    "id": 120
   },
   "121": {
-    "pic": "site_2",
+    "type": 2,
     "option": [
       1211,
       1212,
@@ -118,31 +118,31 @@
       12132,
       12133
     ],
-    "type": 2,
-    "id": 121,
-    "icon": "",
+    "coordinate": [
+      0,
+      0
+    ],
+    "name_pic": "",
     "ability": [],
+    "name": "Tranquil Summit",
     "unlock_time_2": [
       4,
       3,
       7
     ],
-    "name_pic": "",
-    "coordinate": [
-      0,
-      0
-    ],
     "option_random": [],
-    "desc": "A sublime place to wind down.",
-    "name": "Tranquil Summit",
     "unlock_time_1": [
       4,
       3,
       7
-    ]
+    ],
+    "desc": "A sublime place to wind down.",
+    "icon": "",
+    "pic": "site_2",
+    "id": 121
   },
   "130": {
-    "pic": "site_3",
+    "type": 1,
     "option": [
       1302,
       1303,
@@ -159,31 +159,31 @@
       13022,
       13023
     ],
-    "type": 1,
-    "id": 130,
-    "icon": "child_icon_shopping",
+    "coordinate": [
+      38.4,
+      -391.9
+    ],
+    "name_pic": "child_icon_shopping_name",
     "ability": [],
+    "name": "Commercial Area",
     "unlock_time_2": [
       6,
       1,
       7
     ],
-    "name_pic": "child_icon_shopping_name",
-    "coordinate": [
-      38.4,
-      -391.9
-    ],
     "option_random": [],
-    "desc": "Shopping, entertainment, work – you name it, we have it!",
-    "name": "Commercial Area",
     "unlock_time_1": [
       6,
       1,
       7
-    ]
+    ],
+    "desc": "Shopping, entertainment, work – you name it, we have it!",
+    "icon": "child_icon_shopping",
+    "pic": "site_3",
+    "id": 130
   },
   "131": {
-    "pic": "site_3",
+    "type": 2,
     "option": [
       1311,
       1312,
@@ -192,19 +192,17 @@
       13122,
       13132
     ],
-    "type": 2,
-    "id": 131,
-    "icon": "",
+    "coordinate": [
+      0,
+      0
+    ],
+    "name_pic": "",
     "ability": [],
+    "name": "Photo Studio",
     "unlock_time_2": [
       6,
       1,
       7
-    ],
-    "name_pic": "",
-    "coordinate": [
-      0,
-      0
     ],
     "option_random": [
       [
@@ -282,16 +280,18 @@
         ]
       ]
     ],
-    "desc": "Capture and immortalize those beautiful moments in time.",
-    "name": "Photo Studio",
     "unlock_time_1": [
       6,
       1,
       7
-    ]
+    ],
+    "desc": "Capture and immortalize those beautiful moments in time.",
+    "icon": "",
+    "pic": "site_3",
+    "id": 131
   },
   "140": {
-    "pic": "site_4",
+    "type": 1,
     "option": [
       1401,
       1402,
@@ -302,31 +302,31 @@
       14032,
       14033
     ],
-    "type": 1,
-    "id": 140,
-    "icon": "child_icon_park",
+    "coordinate": [
+      -627.5,
+      158.7
+    ],
+    "name_pic": "child_icon_park_name",
     "ability": [],
+    "name": "Seaside Park",
     "unlock_time_2": [
       6,
       1,
       7
     ],
-    "name_pic": "child_icon_park_name",
-    "coordinate": [
-      -627.5,
-      158.7
-    ],
     "option_random": [],
-    "desc": "A dreamy place to lie back and relax next to the beach and the waves.",
-    "name": "Seaside Park",
     "unlock_time_1": [
       6,
       1,
       7
-    ]
+    ],
+    "desc": "A dreamy place to lie back and relax next to the beach and the waves.",
+    "icon": "child_icon_park",
+    "pic": "site_4",
+    "id": 140
   },
   "141": {
-    "pic": "site_4",
+    "type": 2,
     "option": [
       1411,
       1412,
@@ -335,19 +335,17 @@
       14122,
       14132
     ],
-    "type": 2,
-    "id": 141,
-    "icon": "",
+    "coordinate": [
+      0,
+      0
+    ],
+    "name_pic": "",
     "ability": [],
+    "name": "Stellar Stage",
     "unlock_time_2": [
       6,
       1,
       7
-    ],
-    "name_pic": "",
-    "coordinate": [
-      0,
-      0
     ],
     "option_random": [
       [
@@ -425,47 +423,49 @@
         ]
       ]
     ],
-    "desc": "Every performance is a chance to immerse yourself in another world.",
-    "name": "Stellar Stage",
     "unlock_time_1": [
       6,
       1,
       7
-    ]
+    ],
+    "desc": "Every performance is a chance to immerse yourself in another world.",
+    "icon": "",
+    "pic": "site_4",
+    "id": 141
   },
   "150": {
-    "pic": "site_5",
+    "type": 1,
     "option": [
       1501,
       1502,
       1503,
       1504
     ],
-    "type": 1,
-    "id": 150,
-    "icon": "child_icon_amusement",
+    "coordinate": [
+      262.9,
+      -98.3
+    ],
+    "name_pic": "child_icon_amusement_name",
     "ability": [],
+    "name": "Amusement Park",
     "unlock_time_2": [
       4,
       1,
       7
     ],
-    "name_pic": "child_icon_amusement_name",
-    "coordinate": [
-      262.9,
-      -98.3
-    ],
     "option_random": [],
-    "desc": "Adios, troubles! Fun has come to town!",
-    "name": "Amusement Park",
     "unlock_time_1": [
       4,
       1,
       7
-    ]
+    ],
+    "desc": "Adios, troubles! Fun has come to town!",
+    "icon": "child_icon_amusement",
+    "pic": "site_5",
+    "id": 150
   },
   "160": {
-    "pic": "site_6",
+    "type": 1,
     "option": [
       1601,
       16012,
@@ -481,31 +481,31 @@
       16022,
       16023
     ],
-    "type": 1,
-    "id": 160,
-    "icon": "child_icon_gym",
+    "coordinate": [
+      107.7,
+      212.2
+    ],
+    "name_pic": "child_icon_gym_name",
     "ability": [],
+    "name": "Sports Ground",
     "unlock_time_2": [
       5,
       3,
       7
     ],
-    "name_pic": "child_icon_gym_name",
-    "coordinate": [
-      107.7,
-      212.2
-    ],
     "option_random": [],
-    "desc": "Push your limits and let your ardor flow.",
-    "name": "Sports Ground",
     "unlock_time_1": [
       5,
       3,
       7
-    ]
+    ],
+    "desc": "Push your limits and let your ardor flow.",
+    "icon": "child_icon_gym",
+    "pic": "site_6",
+    "id": 160
   },
   "170": {
-    "pic": "site_7",
+    "type": 1,
     "option": [
       1701,
       17012,
@@ -535,28 +535,28 @@
       17052,
       17053
     ],
-    "type": 1,
-    "id": 170,
-    "icon": "child_icon_school",
+    "coordinate": [
+      -282,
+      337.4
+    ],
+    "name_pic": "child_icon_school_name",
     "ability": [],
+    "name": "Academy",
     "unlock_time_2": [
       5,
       1,
       7
     ],
-    "name_pic": "child_icon_school_name",
-    "coordinate": [
-      -282,
-      337.4
-    ],
     "option_random": [],
-    "desc": "A school that accepts all entrants. No need to worry about entrance exams.",
-    "name": "Academy",
     "unlock_time_1": [
       5,
       1,
       7
-    ]
+    ],
+    "desc": "A school that accepts all entrants. No need to worry about entrance exams.",
+    "icon": "child_icon_school",
+    "pic": "site_7",
+    "id": 170
   },
   "all": [
     110,

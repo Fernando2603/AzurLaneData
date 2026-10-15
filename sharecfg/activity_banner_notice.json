@@ -260,8 +260,8 @@
     "param": [
       "scene activity",
       {
-        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT",
-        "data": []
+        "data": [],
+        "event": "ActivityMediator.OPEN_CULTIVATING_PLANT"
       }
     ],
     "id": 32
@@ -339,8 +339,8 @@
     "param": [
       "scene equip",
       {
-        "designPage": 2,
-        "warp": "WARP_TO_DESIGN"
+        "warp": "WARP_TO_DESIGN",
+        "designPage": 2
       }
     ],
     "id": 41
@@ -390,12 +390,6 @@
     ],
     "id": 46
   },
-  "49": {
-    "param": [
-      "act boss battle"
-    ],
-    "id": 49
-  },
   "47": {
     "param": [
       "scene core activity",
@@ -413,6 +407,21 @@
       }
     ],
     "id": 48
+  },
+  "49": {
+    "param": [
+      "act boss battle"
+    ],
+    "id": 49
+  },
+  "50": {
+    "param": [
+      "scene core activity",
+      {
+        "coreName": "WindFogCorridorCoreActivityUI"
+      }
+    ],
+    "id": 50
   },
   "all": [
     1,
@@ -461,8 +470,9 @@
     44,
     45,
     46,
-    49,
     47,
-    48
+    48,
+    49,
+    50
   ]
 }
