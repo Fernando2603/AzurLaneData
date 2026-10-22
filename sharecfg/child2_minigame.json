@@ -1,7 +1,9 @@
 {
   "1": {
     "view_name": "NewEducateScratchGame",
-    "id": 1,
+    "config_data": {
+      "finish_score": 1
+    },
     "result_data": [
       [
         [
@@ -13,13 +15,18 @@
         ]
       ]
     ],
-    "config_data": {
-      "finish_score": 1
-    }
+    "id": 1
   },
   "2": {
     "view_name": "NewEducateNailingGame",
-    "id": 2,
+    "config_data": {
+      "hammer_spd": 350,
+      "nail_count": 3,
+      "red_nail_count": 1,
+      "red_nail_score": -1,
+      "count": 3,
+      "nail_score": 1
+    },
     "result_data": [
       [
         [
@@ -49,59 +56,18 @@
         ]
       ]
     ],
-    "config_data": {
-      "hammer_spd": 350,
-      "nail_count": 3,
-      "red_nail_count": 1,
-      "red_nail_score": -1,
-      "nail_score": 1,
-      "count": 3
-    }
+    "id": 2
   },
   "3": {
     "view_name": "NewEducateNailingGame",
-    "id": 3,
-    "result_data": [
-      [
-        [
-          0,
-          1
-        ],
-        [
-          3209514
-        ]
-      ],
-      [
-        [
-          2,
-          3
-        ],
-        [
-          3209512
-        ]
-      ],
-      [
-        [
-          4,
-          99
-        ],
-        [
-          3209519
-        ]
-      ]
-    ],
     "config_data": {
       "hammer_spd": 350,
       "nail_count": 3,
       "red_nail_count": 1,
       "red_nail_score": -1,
-      "nail_score": 1,
-      "count": 6
-    }
-  },
-  "4": {
-    "view_name": "NewEducateNailingGame",
-    "id": 4,
+      "count": 6,
+      "nail_score": 1
+    },
     "result_data": [
       [
         [
@@ -131,14 +97,48 @@
         ]
       ]
     ],
+    "id": 3
+  },
+  "4": {
+    "view_name": "NewEducateNailingGame",
     "config_data": {
       "hammer_spd": 400,
       "nail_count": 3,
       "red_nail_count": 3,
       "red_nail_score": -1,
-      "nail_score": 1,
-      "count": 6
-    }
+      "count": 6,
+      "nail_score": 1
+    },
+    "result_data": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          3209514
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          3209512
+        ]
+      ],
+      [
+        [
+          4,
+          99
+        ],
+        [
+          3209519
+        ]
+      ]
+    ],
+    "id": 4
   },
   "all": [
     1,
