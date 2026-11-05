@@ -1,14 +1,20 @@
 {
   "1001": {
-    "additional_awards_display": "",
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 104,
+    "pos_x": "0.10703125",
+    "chapter_name": "TC1",
     "pos_y": "0.157291667",
-    "limitation": [],
     "name": "EASY: Jamming Breakthrough",
+    "oil": 0,
+    "collection_group_id": 104,
     "count": 0,
+    "profiles": "Objectives: Suppress the Greenland Siren stronghold, destroy the jamming device, and restore the main communication line.",
+    "pre_chapter": 0,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -33,48 +39,38 @@
         54012
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0.10703125",
-    "ex_count": "",
-    "profiles": "Objectives: Suppress the Greenland Siren stronghold, destroy the jamming device, and restore the main communication line.",
-    "chapter_name": "TC1",
-    "id": 1001,
     "expedition_id": [
       1719101
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 1001,
+    "limitation": [],
     "boss_icon": [
       [
         "qinraozhe",
         2
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "1002": {
-    "additional_awards_display": [
-      [
-        1,
-        488,
-        25
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 105,
+    "pos_x": "0.34609375",
+    "chapter_name": "TC2",
     "pos_y": "0.347916667",
-    "limitation": [],
     "name": "NORMAL: Anomaly Disruption",
+    "oil": 0,
+    "collection_group_id": 105,
     "count": 0,
+    "profiles": "Objectives: Break through the Siren defensive line in the Chukchi Sea, and remove the source of the anomalous weather.",
+    "pre_chapter": 1001,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -99,22 +95,10 @@
         54017
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 1001,
-    "pos_x": "0.34609375",
-    "ex_count": "",
-    "profiles": "Objectives: Break through the Siren defensive line in the Chukchi Sea, and remove the source of the anomalous weather.",
-    "chapter_name": "TC2",
-    "id": 1002,
     "expedition_id": [
       1719201,
       1719202
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe",
@@ -124,28 +108,40 @@
         "qingchuzhe",
         5
       ]
-    ]
-  },
-  "1003": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         488,
-        60
+        25
       ],
       [
         1,
         1
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 106,
+    "id": 1002
+  },
+  "1003": {
+    "pos_x": "0.50546875",
+    "chapter_name": "TC3",
     "pos_y": "0.080208333",
-    "limitation": [],
     "name": "HARD: Research Base Recapture",
+    "oil": 0,
+    "collection_group_id": 106,
     "count": 0,
+    "profiles": "Objectives: Recapture the research base in the Northern Islands, destroy the nearby Siren factory, and prevent the enemy from gaining more reinforcements.",
+    "pre_chapter": 1002,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -170,23 +166,11 @@
         54017
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 1002,
-    "pos_x": "0.50546875",
-    "ex_count": "",
-    "profiles": "Objectives: Recapture the research base in the Northern Islands, destroy the nearby Siren factory, and prevent the enemy from gaining more reinforcements.",
-    "chapter_name": "TC3",
-    "id": 1003,
     "expedition_id": [
       1719301,
       1719302,
       1719303
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -200,18 +184,40 @@
         "qingchuzhe",
         5
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": [
+      [
+        1,
+        488,
+        60
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "id": 1003
   },
   "1004": {
-    "additional_awards_display": "",
-    "type": 2,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 107,
+    "pos_x": "0.60546875",
+    "chapter_name": "SP",
     "pos_y": "0.446875",
-    "limitation": [],
     "name": "SP: Full-Scale Reconnaissance",
+    "oil": 0,
+    "collection_group_id": 107,
     "count": 1,
+    "profiles": "Objectives: Carry out full-scale reconnaissance of the Polar North Siren stronghold, and collect as much data as possible to determine strategic intentions.",
+    "pre_chapter": 1003,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      40,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -236,24 +242,14 @@
         54016
       ]
     ],
-    "use_oil_limit": [
-      40,
-      16
-    ],
-    "pre_chapter": 1003,
-    "pos_x": "0.60546875",
-    "ex_count": "",
-    "profiles": "Objectives: Carry out full-scale reconnaissance of the Polar North Siren stronghold, and collect as much data as possible to determine strategic intentions.",
-    "chapter_name": "SP",
-    "id": 1004,
     "expedition_id": [
       1719401,
       1719402,
       1719403,
       1719404
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 1004,
+    "limitation": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -271,25 +267,23 @@
         "qingchuzhe",
         5
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 2,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "1005": {
-    "additional_awards_display": "",
-    "type": 3,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 0,
-    "pos_y": "0.15625",
-    "limitation": [],
-    "name": "EX: Singularity Diversion Operation",
-    "count": 0,
-    "pass_awards_display": "",
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 1004,
     "pos_x": "0.6265625",
+    "chapter_name": "EX",
+    "pos_y": "0.15625",
+    "name": "EX: Singularity Diversion Operation",
+    "oil": 0,
+    "collection_group_id": 0,
+    "count": 0,
+    "profiles": "Objectives: Send a diversionary fleet to attract the attention of Omitter's main force, restrain the Siren fleets located in the 'Crown' Singularity, and reduce pressure on other fleets.",
+    "pre_chapter": 1004,
+    "whether_singlefight": 0,
     "ex_count": [
       8000,
       20,
@@ -297,9 +291,11 @@
       1000,
       0.8
     ],
-    "profiles": "Objectives: Send a diversionary fleet to attract the attention of Omitter's main force, restrain the Siren fleets located in the 'Crown' Singularity, and reduce pressure on other fleets.",
-    "chapter_name": "EX",
-    "id": 1005,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "pass_awards_display": "",
     "expedition_id": [
       1719501,
       1719502,
@@ -308,7 +304,7 @@
       1719505
     ],
     "defeat_story_count": [],
-    "defeat_story": [],
+    "limitation": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -330,18 +326,28 @@
         "qingchuzhe",
         5
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 3,
+    "additional_awards_display": "",
+    "id": 1005
   },
   "2001": {
-    "additional_awards_display": "",
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 104,
+    "pos_x": "0.10703125",
+    "chapter_name": "Easy",
     "pos_y": "0.157291667",
-    "limitation": [],
     "name": "Admin Building",
+    "oil": 0,
+    "collection_group_id": 104,
     "count": 0,
+    "profiles": "Welcome to the admin building.\nMay you have a productive day.\nMay you never feel pressed for time.\nMay your inner child always be with you.",
+    "pre_chapter": 0,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -364,49 +370,38 @@
         1
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0.10703125",
-    "ex_count": "",
-    "profiles": "Welcome to the admin building.\nMay you have a productive day.\nMay you never feel pressed for time.\nMay your inner child always be with you.",
-    "chapter_name": "Easy",
-    "id": 2001,
     "expedition_id": [
       1819101
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 2001,
+    "limitation": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
         5
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "2002": {
-    "additional_awards_display": [
-      [
-        1,
-        421,
-        1
-      ],
-      [
-        1,
-        1,
-        1
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 105,
+    "pos_x": "0.34609375",
+    "chapter_name": "Normal",
     "pos_y": "0.347916667",
-    "limitation": [],
     "name": "School Building",
+    "oil": 0,
+    "collection_group_id": 105,
     "count": 0,
+    "profiles": "Welcome to the school building.\nMay you have a stress-free day.\nMay you bask in the joy of learning. \nMay your inner child always be with you.",
+    "pre_chapter": 2001,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -429,22 +424,10 @@
         1
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 2001,
-    "pos_x": "0.34609375",
-    "ex_count": "",
-    "profiles": "Welcome to the school building.\nMay you have a stress-free day.\nMay you bask in the joy of learning. \nMay your inner child always be with you.",
-    "chapter_name": "Normal",
-    "id": 2002,
     "expedition_id": [
       1819201,
       1819202
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
@@ -454,9 +437,11 @@
         "youeryuan_boss03",
         7
       ]
-    ]
-  },
-  "2003": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
@@ -469,14 +454,24 @@
         1
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 106,
+    "id": 2002
+  },
+  "2003": {
+    "pos_x": "0.50546875",
+    "chapter_name": "Hard",
     "pos_y": "0.080208333",
-    "limitation": [],
     "name": "Arts Building",
+    "oil": 0,
+    "collection_group_id": 106,
     "count": 0,
+    "profiles": "Welcome to the arts building. \nMay you have a colorful day.\nMay you keep your innocence.\nMay your inner child always be with you.",
+    "pre_chapter": 2002,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -499,23 +494,11 @@
         1
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 2002,
-    "pos_x": "0.50546875",
-    "ex_count": "",
-    "profiles": "Welcome to the arts building. \nMay you have a colorful day.\nMay you keep your innocence.\nMay your inner child always be with you.",
-    "chapter_name": "Hard",
-    "id": 2003,
     "expedition_id": [
       1819301,
       1819302,
       1819303
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
@@ -529,9 +512,11 @@
         "youeryuan_boss04",
         3
       ]
-    ]
-  },
-  "2004": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
@@ -544,14 +529,24 @@
         1
       ]
     ],
-    "type": 2,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 107,
+    "id": 2003
+  },
+  "2004": {
+    "pos_x": "0.60546875",
+    "chapter_name": "SP",
     "pos_y": "0.446875",
-    "limitation": [],
     "name": "Athletic Field",
+    "oil": 0,
+    "collection_group_id": 107,
     "count": 1,
+    "profiles": "Welcome to the athletic field.\nMay you have an active day.\nMay you feel full of energy.\nMay your inner child always be with you.",
+    "pre_chapter": 2003,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      40,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -574,24 +569,12 @@
         1
       ]
     ],
-    "use_oil_limit": [
-      40,
-      16
-    ],
-    "pre_chapter": 2003,
-    "pos_x": "0.60546875",
-    "ex_count": "",
-    "profiles": "Welcome to the athletic field.\nMay you have an active day.\nMay you feel full of energy.\nMay your inner child always be with you.",
-    "chapter_name": "SP",
-    "id": 2004,
     "expedition_id": [
       1819401,
       1819402,
       1819403,
       1819404
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
@@ -609,25 +592,36 @@
         "youeryuan_boss01",
         1
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 2,
+    "additional_awards_display": [
+      [
+        1,
+        421,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "id": 2004
   },
   "2005": {
-    "additional_awards_display": "",
-    "type": 3,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 0,
-    "pos_y": "0.15625",
-    "limitation": [],
-    "name": "Academy Forest",
-    "count": 0,
-    "pass_awards_display": "",
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 2004,
     "pos_x": "0.6265625",
+    "chapter_name": "EX",
+    "pos_y": "0.15625",
+    "name": "Academy Forest",
+    "oil": 0,
+    "collection_group_id": 0,
+    "count": 0,
+    "profiles": "Welcome to the academy forest. \nMay you have a relaxing day. \nMay you relish the beautiful nature around you. \nMay your inner child always be with you.",
+    "pre_chapter": 2004,
+    "whether_singlefight": 0,
     "ex_count": [
       8000,
       20,
@@ -635,9 +629,11 @@
       1000,
       0.8
     ],
-    "profiles": "Welcome to the academy forest. \nMay you have a relaxing day. \nMay you relish the beautiful nature around you. \nMay your inner child always be with you.",
-    "chapter_name": "EX",
-    "id": 2005,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "pass_awards_display": "",
     "expedition_id": [
       1819501,
       1819502,
@@ -646,7 +642,7 @@
       1819505
     ],
     "defeat_story_count": [],
-    "defeat_story": [],
+    "limitation": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
@@ -668,18 +664,28 @@
         "youeryuan_boss02",
         2
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 3,
+    "additional_awards_display": "",
+    "id": 2005
   },
   "3001": {
-    "additional_awards_display": "",
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 104,
+    "pos_x": "0.10703125",
+    "chapter_name": "Easy",
     "pos_y": "0.157291667",
-    "limitation": [],
     "name": "Filming Location: Main Road",
+    "oil": 0,
+    "collection_group_id": 104,
     "count": 0,
+    "profiles": "[Filming Location: Main Road] / Mainly used for filming car chases and sometimes intense shootout scenes. / Long as your hand's on the throttle, the road goes on, baby.",
+    "pre_chapter": 0,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -702,49 +708,38 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0.10703125",
-    "ex_count": "",
-    "profiles": "[Filming Location: Main Road] / Mainly used for filming car chases and sometimes intense shootout scenes. / Long as your hand's on the throttle, the road goes on, baby.",
-    "chapter_name": "Easy",
-    "id": 3001,
     "expedition_id": [
       1930101
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 3001,
+    "limitation": [],
     "boss_icon": [
       [
         "u37_3",
         8
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "3002": {
-    "additional_awards_display": [
-      [
-        1,
-        516,
-        25
-      ],
-      [
-        1,
-        1,
-        0
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 105,
+    "pos_x": "0.34609375",
+    "chapter_name": "Normal",
     "pos_y": "0.347916667",
-    "limitation": [],
     "name": "Filming Location: Downtown",
+    "oil": 0,
+    "collection_group_id": 105,
     "count": 0,
+    "profiles": "[Filming Location: Downtown] / Mainly used for filming dining and shopping scenes, with the odd high-stakes murder scene every now and then. / Dining scenes are absolute cinema! Give us more!",
+    "pre_chapter": 3001,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -767,22 +762,10 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 3001,
-    "pos_x": "0.34609375",
-    "ex_count": "",
-    "profiles": "[Filming Location: Downtown] / Mainly used for filming dining and shopping scenes, with the odd high-stakes murder scene every now and then. / Dining scenes are absolute cinema! Give us more!",
-    "chapter_name": "Normal",
-    "id": 3002,
     "expedition_id": [
       1930201,
       1930202
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "u37_3",
@@ -792,14 +775,16 @@
         "wuqi_3",
         18
       ]
-    ]
-  },
-  "3003": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         516,
-        60
+        25
       ],
       [
         1,
@@ -807,14 +792,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 106,
+    "id": 3002
+  },
+  "3003": {
+    "pos_x": "0.50546875",
+    "chapter_name": "Hard",
     "pos_y": "0.080208333",
-    "limitation": [],
     "name": "Filming Location: Railcar",
+    "oil": 0,
+    "collection_group_id": 106,
     "count": 0,
+    "profiles": "[Filming Location: Railcar] / Mainly used for filming travel and panoramic scenes, and occasionally bomb disposal scenes. / One's red, one's blue. Pick a favorite and cut it.",
+    "pre_chapter": 3002,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -837,23 +832,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 3002,
-    "pos_x": "0.50546875",
-    "ex_count": "",
-    "profiles": "[Filming Location: Railcar] / Mainly used for filming travel and panoramic scenes, and occasionally bomb disposal scenes. / One's red, one's blue. Pick a favorite and cut it.",
-    "chapter_name": "Hard",
-    "id": 3003,
     "expedition_id": [
       1930301,
       1930302,
       1930303
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "u37_3",
@@ -867,18 +850,41 @@
         "zengkehaijunshangjiang_2",
         4
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": [
+      [
+        1,
+        516,
+        60
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "id": 3003
   },
   "3004": {
-    "additional_awards_display": "",
-    "type": 2,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 107,
+    "pos_x": "0.60546875",
+    "chapter_name": "S.P",
     "pos_y": "0.446875",
-    "limitation": [],
     "name": "Filming Location: Business District",
+    "oil": 0,
+    "collection_group_id": 107,
     "count": 1,
+    "profiles": "[Filming Location: Business District] / Mainly used for filming day-to-day scenes and, rarely, tense chase scenes. / Don't. There are tons of cops outside.",
+    "pre_chapter": 3003,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      40,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -901,24 +907,14 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      40,
-      16
-    ],
-    "pre_chapter": 3003,
-    "pos_x": "0.60546875",
-    "ex_count": "",
-    "profiles": "[Filming Location: Business District] / Mainly used for filming day-to-day scenes and, rarely, tense chase scenes. / Don't. There are tons of cops outside.",
-    "chapter_name": "S.P",
-    "id": 3004,
     "expedition_id": [
       1930401,
       1930402,
       1930403,
       1930404
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 3004,
+    "limitation": [],
     "boss_icon": [
       [
         "haiwangxing_4",
@@ -936,25 +932,23 @@
         "wuqi_3",
         18
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 2,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "3005": {
-    "additional_awards_display": "",
-    "type": 3,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 0,
-    "pos_y": "0.15625",
-    "limitation": [],
-    "name": "Filming Location: Police Station",
-    "count": 0,
-    "pass_awards_display": "",
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 3004,
     "pos_x": "0.6265625",
+    "chapter_name": "E.X",
+    "pos_y": "0.15625",
+    "name": "Filming Location: Police Station",
+    "oil": 0,
+    "collection_group_id": 0,
+    "count": 0,
+    "profiles": "[Filming Location: Police Station] / Mainly used for filming investigations and interrogations, with occasional intricate spy dramas to spice things up. / Are you the infiltrator?",
+    "pre_chapter": 3004,
+    "whether_singlefight": 0,
     "ex_count": [
       8000,
       20,
@@ -962,9 +956,11 @@
       1000,
       0.8
     ],
-    "profiles": "[Filming Location: Police Station] / Mainly used for filming investigations and interrogations, with occasional intricate spy dramas to spice things up. / Are you the infiltrator?",
-    "chapter_name": "E.X",
-    "id": 3005,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "pass_awards_display": "",
     "expedition_id": [
       1930501,
       1930502,
@@ -973,7 +969,7 @@
       1930505
     ],
     "defeat_story_count": [],
-    "defeat_story": [],
+    "limitation": [],
     "boss_icon": [
       [
         "z13_2",
@@ -995,29 +991,28 @@
         "diguo_3",
         7
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 3,
+    "additional_awards_display": "",
+    "id": 3005
   },
   "4001": {
-    "additional_awards_display": [
-      [
-        1,
-        588,
-        5
-      ],
-      [
-        1,
-        1,
-        0
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Normal (Lv. 20)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-1] An anomalous area has appeared around the Virtual Tower. Lead the Eagle Union fleet to conduct a recon mission.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1050,22 +1045,10 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-1] An anomalous area has appeared around the Virtual Tower. Lead the Eagle Union fleet to conduct a recon mission.",
-    "chapter_name": "无用",
-    "id": 4001,
     "expedition_id": [
       1980001,
       1980002
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1075,14 +1058,16 @@
         "weixu_baojian_2",
         2
       ]
-    ]
-  },
-  "4002": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        10
+        5
       ],
       [
         1,
@@ -1090,14 +1075,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4001
+  },
+  "4002": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Hard (Lv. 35)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-1] An anomalous area has appeared around the Virtual Tower. Lead the Eagle Union fleet to conduct a recon mission.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1130,22 +1125,10 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-1] An anomalous area has appeared around the Virtual Tower. Lead the Eagle Union fleet to conduct a recon mission.",
-    "chapter_name": "无用",
-    "id": 4002,
     "expedition_id": [
       1980101,
       1980102
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1155,14 +1138,16 @@
         "weixu_baojian_2",
         2
       ]
-    ]
-  },
-  "4011": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        15
+        10
       ],
       [
         1,
@@ -1170,14 +1155,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4002
+  },
+  "4011": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Normal (Lv. 50)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-2] The operation has begun. Sweep the sector together with the Iris Orthodoxy and Dragon Empery fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1210,23 +1205,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-2] The operation has begun. Sweep the sector together with the Iris Orthodoxy and Dragon Empery fleets.",
-    "chapter_name": "无用",
-    "id": 4011,
     "expedition_id": [
       1981007,
       1981011,
       1981003
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1240,14 +1223,16 @@
         "weixu_baojian_3",
         2
       ]
-    ]
-  },
-  "4012": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        20
+        15
       ],
       [
         1,
@@ -1255,14 +1240,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4011
+  },
+  "4012": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Hard (Lv. 65)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-2] The operation has begun. Sweep the sector together with the Iris Orthodoxy and Dragon Empery fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1295,23 +1290,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-2] The operation has begun. Sweep the sector together with the Iris Orthodoxy and Dragon Empery fleets.",
-    "chapter_name": "无用",
-    "id": 4012,
     "expedition_id": [
       1982007,
       1982011,
       1982003
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1325,14 +1308,16 @@
         "weixu_baojian_3",
         2
       ]
-    ]
-  },
-  "4021": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        15
+        20
       ],
       [
         1,
@@ -1340,14 +1325,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4012
+  },
+  "4021": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Normal (Lv. 50)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-3] The operation has begun. Sweep the sector together with the Iron Blood and Sardegna Empire fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1380,23 +1375,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-3] The operation has begun. Sweep the sector together with the Iron Blood and Sardegna Empire fleets.",
-    "chapter_name": "无用",
-    "id": 4021,
     "expedition_id": [
       1981008,
       1981012,
       1981004
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1410,14 +1393,16 @@
         "weixu_baojian_4",
         12
       ]
-    ]
-  },
-  "4022": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        20
+        15
       ],
       [
         1,
@@ -1425,14 +1410,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4021
+  },
+  "4022": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Hard (Lv. 65)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-3] The operation has begun. Sweep the sector together with the Iron Blood and Sardegna Empire fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1465,23 +1460,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-3] The operation has begun. Sweep the sector together with the Iron Blood and Sardegna Empire fleets.",
-    "chapter_name": "无用",
-    "id": 4022,
     "expedition_id": [
       1982008,
       1982012,
       1982004
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1495,14 +1478,16 @@
         "weixu_baojian_4",
         12
       ]
-    ]
-  },
-  "4031": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        15
+        20
       ],
       [
         1,
@@ -1510,14 +1495,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4022
+  },
+  "4031": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Normal (Lv. 50)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-4] The operation has begun. Sweep the sector together with the Royal Navy and Northern Parliament fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1550,23 +1545,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-4] The operation has begun. Sweep the sector together with the Royal Navy and Northern Parliament fleets.",
-    "chapter_name": "无用",
-    "id": 4031,
     "expedition_id": [
       1981009,
       1981013,
       1981005
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1580,14 +1563,16 @@
         "weixu_baojian_5",
         3
       ]
-    ]
-  },
-  "4032": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        20
+        15
       ],
       [
         1,
@@ -1595,14 +1580,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4031
+  },
+  "4032": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Hard (Lv. 65)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-4] The operation has begun. Sweep the sector together with the Royal Navy and Northern Parliament fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1635,23 +1630,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-4] The operation has begun. Sweep the sector together with the Royal Navy and Northern Parliament fleets.",
-    "chapter_name": "无用",
-    "id": 4032,
     "expedition_id": [
       1982009,
       1982013,
       1982005
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1665,14 +1648,16 @@
         "weixu_baojian_5",
         3
       ]
-    ]
-  },
-  "4041": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        15
+        20
       ],
       [
         1,
@@ -1680,14 +1665,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4032
+  },
+  "4041": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Normal (Lv. 50)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-5] The operation has begun. Sweep the sector together with the Sakura Empire and Kingdom of Tulipa fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1720,23 +1715,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-5] The operation has begun. Sweep the sector together with the Sakura Empire and Kingdom of Tulipa fleets.",
-    "chapter_name": "无用",
-    "id": 4041,
     "expedition_id": [
       1981010,
       1981014,
       1981006
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1750,14 +1733,16 @@
         "weixu_baojian_6",
         13
       ]
-    ]
-  },
-  "4042": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        20
+        15
       ],
       [
         1,
@@ -1765,14 +1750,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4041
+  },
+  "4042": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Hard (Lv. 65)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-5] The operation has begun. Sweep the sector together with the Sakura Empire and Kingdom of Tulipa fleets.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1805,23 +1800,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-5] The operation has begun. Sweep the sector together with the Sakura Empire and Kingdom of Tulipa fleets.",
-    "chapter_name": "无用",
-    "id": 4042,
     "expedition_id": [
       1982010,
       1982014,
       1982006
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -1835,14 +1818,16 @@
         "weixu_baojian_6",
         13
       ]
-    ]
-  },
-  "4051": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        25
+        20
       ],
       [
         1,
@@ -1850,14 +1835,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4042
+  },
+  "4051": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Normal (Lv. 80)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-6] The final battle approaches. Muster the might of the port's combined fleet and break free of the nightmare labyrinth.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      22,
+      15
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1890,24 +1885,12 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      22,
-      15
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-6] The final battle approaches. Muster the might of the port's combined fleet and break free of the nightmare labyrinth.",
-    "chapter_name": "无用",
-    "id": 4051,
     "expedition_id": [
       1983001,
       1983002,
       1983003,
       1983004
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "weixu_baojian_3",
@@ -1925,14 +1908,16 @@
         "weixu_baojian_7",
         6
       ]
-    ]
-  },
-  "4052": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         588,
-        30
+        25
       ],
       [
         1,
@@ -1940,14 +1925,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 0,
+    "id": 4051
+  },
+  "4052": {
+    "pos_x": "0",
+    "chapter_name": "无用",
     "pos_y": "0",
-    "limitation": [],
     "name": "Hard (Lv. 100)",
+    "oil": 0,
+    "collection_group_id": 0,
     "count": 0,
+    "profiles": "[SECTOR-6] The final battle approaches. Muster the might of the port's combined fleet and break free of the nightmare labyrinth.",
+    "pre_chapter": 0,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -1980,24 +1975,12 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "[SECTOR-6] The final battle approaches. Muster the might of the port's combined fleet and break free of the nightmare labyrinth.",
-    "chapter_name": "无用",
-    "id": 4052,
     "expedition_id": [
       1984001,
       1984002,
       1984003,
       1984004
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "weixu_baojian_3",
@@ -2015,18 +1998,41 @@
         "weixu_baojian_7",
         6
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": [
+      [
+        1,
+        588,
+        30
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "id": 4052
   },
   "5001": {
-    "additional_awards_display": "",
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 104,
+    "pos_x": "0",
+    "chapter_name": "Easy",
     "pos_y": "0",
-    "limitation": [],
     "name": "Butterfly Dance's Promise",
+    "oil": 0,
+    "collection_group_id": 104,
     "count": 0,
+    "profiles": "Tulle's airy romance,\na honey-sweet invitation.\nBetween constraint and freedom,\nthe butterfly dances.",
+    "pre_chapter": 0,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2049,49 +2055,38 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "Tulle's airy romance,\na honey-sweet invitation.\nBetween constraint and freedom,\nthe butterfly dances.",
-    "chapter_name": "Easy",
-    "id": 5001,
     "expedition_id": [
       1999101
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 5001,
+    "limitation": [],
     "boss_icon": [
       [
         "aerbeituo_2",
         2
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "5002": {
-    "additional_awards_display": [
-      [
-        1,
-        616,
-        25
-      ],
-      [
-        1,
-        1,
-        0
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 105,
+    "pos_x": "0",
+    "chapter_name": "Normal",
     "pos_y": "0",
-    "limitation": [],
     "name": "Warm Velvet's Wonderland",
+    "oil": 0,
+    "collection_group_id": 105,
     "count": 0,
+    "profiles": "Velvet drapes fall;\nIn this warm, wondrous realm,\na gentle beauty unfolds,\ncreating its own realm.",
+    "pre_chapter": 5001,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2114,22 +2109,10 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 5001,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "Velvet drapes fall;\nIn this warm, wondrous realm,\na gentle beauty unfolds,\ncreating its own realm.",
-    "chapter_name": "Normal",
-    "id": 5002,
     "expedition_id": [
       1999201,
       1999202
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "alabama_3",
@@ -2139,14 +2122,16 @@
         "wugelini_2",
         1
       ]
-    ]
-  },
-  "5003": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         616,
-        60
+        25
       ],
       [
         1,
@@ -2154,14 +2139,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 106,
+    "id": 5002
+  },
+  "5003": {
+    "pos_x": "0",
+    "chapter_name": "Hard",
     "pos_y": "0",
-    "limitation": [],
     "name": "Window of the Heart",
+    "oil": 0,
+    "collection_group_id": 106,
     "count": 0,
+    "profiles": "Black, flowing lines\ncut through white curtains,\nbecoming a window\nthrough which light shines.",
+    "pre_chapter": 5002,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2184,23 +2179,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 5002,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "Black, flowing lines\ncut through white curtains,\nbecoming a window\nthrough which light shines.",
-    "chapter_name": "Hard",
-    "id": 5003,
     "expedition_id": [
       1999301,
       1999302,
       1999303
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "aerbeituo_2",
@@ -2214,18 +2197,41 @@
         "fulangxisike_2",
         5
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": [
+      [
+        1,
+        616,
+        60
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "id": 5003
   },
   "5004": {
-    "additional_awards_display": "",
-    "type": 2,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 107,
+    "pos_x": "0",
+    "chapter_name": "S.P",
     "pos_y": "0",
-    "limitation": [],
     "name": "Pure White Heart",
+    "oil": 0,
+    "collection_group_id": 107,
     "count": 1,
+    "profiles": "In the interstices\nbetween concealment and revelation,\na melody of purity and enchantment resounds.",
+    "pre_chapter": 5003,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      40,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2248,24 +2254,14 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      40,
-      16
-    ],
-    "pre_chapter": 5003,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "In the interstices\nbetween concealment and revelation,\na melody of purity and enchantment resounds.",
-    "chapter_name": "S.P",
-    "id": 5004,
     "expedition_id": [
       1999401,
       1999402,
       1999403,
       1999404
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 5004,
+    "limitation": [],
     "boss_icon": [
       [
         "aerbeituo_2",
@@ -2283,25 +2279,23 @@
         "alabama_3",
         5
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 2,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "5005": {
-    "additional_awards_display": "",
-    "type": 3,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 0,
-    "pos_y": "0",
-    "limitation": [],
-    "name": "Whispers in the Dead of Night",
-    "count": 0,
-    "pass_awards_display": "",
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 5004,
     "pos_x": "0",
+    "chapter_name": "E.X",
+    "pos_y": "0",
+    "name": "Whispers in the Dead of Night",
+    "oil": 0,
+    "collection_group_id": 0,
+    "count": 0,
+    "profiles": "In the silence of the night,\nsatin burns and interweaves,\nwavering between restraint and abandon.",
+    "pre_chapter": 5004,
+    "whether_singlefight": 0,
     "ex_count": [
       8000,
       20,
@@ -2309,9 +2303,11 @@
       1000,
       0.8
     ],
-    "profiles": "In the silence of the night,\nsatin burns and interweaves,\nwavering between restraint and abandon.",
-    "chapter_name": "E.X",
-    "id": 5005,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "pass_awards_display": "",
     "expedition_id": [
       1999501,
       1999502,
@@ -2320,7 +2316,7 @@
       1999505
     ],
     "defeat_story_count": [],
-    "defeat_story": [],
+    "limitation": [],
     "boss_icon": [
       [
         "aerbeituo_2",
@@ -2342,18 +2338,28 @@
         "gaoxiong_7",
         3
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 3,
+    "additional_awards_display": "",
+    "id": 5005
   },
   "6001": {
-    "additional_awards_display": "",
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 104,
+    "pos_x": "0",
+    "chapter_name": "Easy",
     "pos_y": "0",
-    "limitation": [],
     "name": "Private Hospital Room",
+    "oil": 0,
+    "collection_group_id": 104,
     "count": 0,
+    "profiles": "An ordinary private hospital room. The lighting is soft, and the bed is neat and clean. Yet the door remains locked.",
+    "pre_chapter": 0,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2376,49 +2382,38 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "An ordinary private hospital room. The lighting is soft, and the bed is neat and clean. Yet the door remains locked.",
-    "chapter_name": "Easy",
-    "id": 6001,
     "expedition_id": [
       2049101
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 6001,
+    "limitation": [],
     "boss_icon": [
       [
         "sali_2",
         3
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "6002": {
-    "additional_awards_display": [
-      [
-        1,
-        736,
-        25
-      ],
-      [
-        1,
-        1,
-        0
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 105,
+    "pos_x": "0",
+    "chapter_name": "Normal",
     "pos_y": "0",
-    "limitation": [],
     "name": "ICU Ward",
+    "oil": 0,
+    "collection_group_id": 105,
     "count": 0,
+    "profiles": "A treatment area for critically ill patients. Unauthorized entry is prohibited.",
+    "pre_chapter": 6001,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2441,22 +2436,10 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 6001,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "A treatment area for critically ill patients. Unauthorized entry is prohibited.",
-    "chapter_name": "Normal",
-    "id": 6002,
     "expedition_id": [
       2049201,
       2049202
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "sali_2",
@@ -2466,14 +2449,16 @@
         "gelifen_2",
         1
       ]
-    ]
-  },
-  "6003": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         736,
-        60
+        25
       ],
       [
         1,
@@ -2481,14 +2466,24 @@
         0
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 106,
+    "id": 6002
+  },
+  "6003": {
+    "pos_x": "0",
+    "chapter_name": "Hard",
     "pos_y": "0",
-    "limitation": [],
     "name": "Nurses' Station",
+    "oil": 0,
+    "collection_group_id": 106,
     "count": 0,
+    "profiles": "The place where nurses spend their day. Extremely dangerous.",
+    "pre_chapter": 6002,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2511,23 +2506,11 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 6002,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "The place where nurses spend their day. Extremely dangerous.",
-    "chapter_name": "Hard",
-    "id": 6003,
     "expedition_id": [
       2049301,
       2049302,
       2049303
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "gelifen_2",
@@ -2541,18 +2524,41 @@
         "pulimaosi_3",
         2
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": [
+      [
+        1,
+        736,
+        60
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "id": 6003
   },
   "6004": {
-    "additional_awards_display": "",
-    "type": 2,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 107,
+    "pos_x": "0",
+    "chapter_name": "S.P",
     "pos_y": "0",
-    "limitation": [],
     "name": "Underground Area",
+    "oil": 0,
+    "collection_group_id": 107,
     "count": 1,
+    "profiles": "The underground section of the White Night Manor. Many secrets are buried directly beneath the main ward.",
+    "pre_chapter": 6003,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      40,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         1,
@@ -2575,24 +2581,14 @@
         0
       ]
     ],
-    "use_oil_limit": [
-      40,
-      16
-    ],
-    "pre_chapter": 6003,
-    "pos_x": "0",
-    "ex_count": "",
-    "profiles": "The underground section of the White Night Manor. Many secrets are buried directly beneath the main ward.",
-    "chapter_name": "S.P",
-    "id": 6004,
     "expedition_id": [
       2049401,
       2049402,
       2049403,
       2049404
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 6004,
+    "limitation": [],
     "boss_icon": [
       [
         "z11_3",
@@ -2610,25 +2606,23 @@
         "gangyishawa_3",
         24
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 2,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "6005": {
-    "additional_awards_display": "",
-    "type": 3,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 0,
-    "pos_y": "0",
-    "limitation": [],
-    "name": "Heliport",
-    "count": 0,
-    "pass_awards_display": "",
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 6004,
     "pos_x": "0",
+    "chapter_name": "E.X",
+    "pos_y": "0",
+    "name": "Heliport",
+    "oil": 0,
+    "collection_group_id": 0,
+    "count": 0,
+    "profiles": "The White Night Manor is located in a remote area with very few transportation options. As such, helicopters are the obvious choice.",
+    "pre_chapter": 6004,
+    "whether_singlefight": 0,
     "ex_count": [
       8000,
       20,
@@ -2636,9 +2630,11 @@
       1000,
       0.8
     ],
-    "profiles": "The White Night Manor is located in a remote area with very few transportation options. As such, helicopters are the obvious choice.",
-    "chapter_name": "E.X",
-    "id": 6005,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "pass_awards_display": "",
     "expedition_id": [
       2049501,
       2049502,
@@ -2647,7 +2643,7 @@
       2049505
     ],
     "defeat_story_count": [],
-    "defeat_story": [],
+    "limitation": [],
     "boss_icon": [
       [
         "z11_3",
@@ -2669,18 +2665,28 @@
         "huali_2",
         2
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 3,
+    "additional_awards_display": "",
+    "id": 6005
   },
   "1001001": {
-    "additional_awards_display": "",
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 104,
+    "pos_x": "0.10703125",
+    "chapter_name": "TC1",
     "pos_y": "0.157291667",
-    "limitation": [],
     "name": "EASY: Jamming Breakthrough",
+    "oil": 0,
+    "collection_group_id": 104,
     "count": 0,
+    "profiles": "Objectives: Suppress the Greenland Siren stronghold, destroy the jamming device, and restore the main communication line.",
+    "pre_chapter": 0,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         2,
@@ -2695,43 +2701,38 @@
         54012
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0.10703125",
-    "ex_count": "",
-    "profiles": "Objectives: Suppress the Greenland Siren stronghold, destroy the jamming device, and restore the main communication line.",
-    "chapter_name": "TC1",
-    "id": 1001001,
     "expedition_id": [
       1719101
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 1001001,
+    "limitation": [],
     "boss_icon": [
       [
         "qinraozhe",
         2
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "1001002": {
-    "additional_awards_display": [
-      [
-        1,
-        1
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 105,
+    "pos_x": "0.34609375",
+    "chapter_name": "TC2",
     "pos_y": "0.347916667",
-    "limitation": [],
     "name": "NORMAL: Anomaly Disruption",
+    "oil": 0,
+    "collection_group_id": 105,
     "count": 0,
+    "profiles": "Objectives: Break through the Siren defensive line in the Chukchi Sea, and remove the source of the anomalous weather.",
+    "pre_chapter": 1001001,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         2,
@@ -2746,22 +2747,10 @@
         54017
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 1001001,
-    "pos_x": "0.34609375",
-    "ex_count": "",
-    "profiles": "Objectives: Break through the Siren defensive line in the Chukchi Sea, and remove the source of the anomalous weather.",
-    "chapter_name": "TC2",
-    "id": 1001002,
     "expedition_id": [
       1719201,
       1719202
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe",
@@ -2771,23 +2760,35 @@
         "qingchuzhe",
         5
       ]
-    ]
-  },
-  "1001003": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         1
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 106,
+    "id": 1001002
+  },
+  "1001003": {
+    "pos_x": "0.50546875",
+    "chapter_name": "TC3",
     "pos_y": "0.080208333",
-    "limitation": [],
     "name": "HARD: Research Base Recapture",
+    "oil": 0,
+    "collection_group_id": 106,
     "count": 0,
+    "profiles": "Objectives: Recapture the research base in the Northern Islands, destroy the nearby Siren factory, and prevent the enemy from gaining more reinforcements.",
+    "pre_chapter": 1001002,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         2,
@@ -2802,23 +2803,11 @@
         54017
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 1001002,
-    "pos_x": "0.50546875",
-    "ex_count": "",
-    "profiles": "Objectives: Recapture the research base in the Northern Islands, destroy the nearby Siren factory, and prevent the enemy from gaining more reinforcements.",
-    "chapter_name": "TC3",
-    "id": 1001003,
     "expedition_id": [
       1719301,
       1719302,
       1719303
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "qinraozhe_IV",
@@ -2832,18 +2821,35 @@
         "qingchuzhe",
         5
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": [
+      [
+        1,
+        1
+      ]
+    ],
+    "id": 1001003
   },
   "1002001": {
-    "additional_awards_display": "",
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 0,
-    "collection_group_id": 104,
+    "pos_x": "0.10703125",
+    "chapter_name": "Easy",
     "pos_y": "0.157291667",
-    "limitation": [],
     "name": "Admin Building",
+    "oil": 0,
+    "collection_group_id": 104,
     "count": 0,
+    "profiles": "Welcome to the admin building.\nMay you have a productive day.\nMay you never feel pressed for time.\nMay your inner child always be with you.",
+    "pre_chapter": 0,
+    "whether_singlefight": 0,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         2,
@@ -2858,43 +2864,38 @@
         54012
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 0,
-    "pos_x": "0.10703125",
-    "ex_count": "",
-    "profiles": "Welcome to the admin building.\nMay you have a productive day.\nMay you never feel pressed for time.\nMay your inner child always be with you.",
-    "chapter_name": "Easy",
-    "id": 1002001,
     "expedition_id": [
       1819101
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
+    "id": 1002001,
+    "limitation": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
         5
       ]
-    ]
+    ],
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": "",
+    "ex_count": ""
   },
   "1002002": {
-    "additional_awards_display": [
-      [
-        1,
-        1
-      ]
-    ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 105,
+    "pos_x": "0.34609375",
+    "chapter_name": "Normal",
     "pos_y": "0.347916667",
-    "limitation": [],
     "name": "School Building",
+    "oil": 0,
+    "collection_group_id": 105,
     "count": 0,
+    "profiles": "Welcome to the school building.\nMay you have a stress-free day.\nMay you bask in the joy of learning. \nMay your inner child always be with you.",
+    "pre_chapter": 1002001,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      0,
+      0
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         2,
@@ -2909,22 +2910,10 @@
         54017
       ]
     ],
-    "use_oil_limit": [
-      0,
-      0
-    ],
-    "pre_chapter": 1002001,
-    "pos_x": "0.34609375",
-    "ex_count": "",
-    "profiles": "Welcome to the school building.\nMay you have a stress-free day.\nMay you bask in the joy of learning. \nMay your inner child always be with you.",
-    "chapter_name": "Normal",
-    "id": 1002002,
     "expedition_id": [
       1819201,
       1819202
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
@@ -2934,23 +2923,35 @@
         "youeryuan_boss03",
         7
       ]
-    ]
-  },
-  "1002003": {
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
     "additional_awards_display": [
       [
         1,
         1
       ]
     ],
-    "type": 1,
-    "oil": 0,
-    "whether_singlefight": 1,
-    "collection_group_id": 106,
+    "id": 1002002
+  },
+  "1002003": {
+    "pos_x": "0.50546875",
+    "chapter_name": "Hard",
     "pos_y": "0.080208333",
-    "limitation": [],
     "name": "Arts Building",
+    "oil": 0,
+    "collection_group_id": 106,
     "count": 0,
+    "profiles": "Welcome to the arts building. \nMay you have a colorful day.\nMay you keep your innocence.\nMay your inner child always be with you.",
+    "pre_chapter": 1002002,
+    "whether_singlefight": 1,
+    "use_oil_limit": [
+      25,
+      16
+    ],
+    "defeat_story_count": [],
     "pass_awards_display": [
       [
         2,
@@ -2965,23 +2966,11 @@
         54017
       ]
     ],
-    "use_oil_limit": [
-      25,
-      16
-    ],
-    "pre_chapter": 1002002,
-    "pos_x": "0.50546875",
-    "ex_count": "",
-    "profiles": "Welcome to the arts building. \nMay you have a colorful day.\nMay you keep your innocence.\nMay your inner child always be with you.",
-    "chapter_name": "Hard",
-    "id": 1002003,
     "expedition_id": [
       1819301,
       1819302,
       1819303
     ],
-    "defeat_story_count": [],
-    "defeat_story": [],
     "boss_icon": [
       [
         "youeryuan_boss05",
@@ -2995,7 +2984,18 @@
         "youeryuan_boss04",
         3
       ]
-    ]
+    ],
+    "limitation": [],
+    "ex_count": "",
+    "defeat_story": [],
+    "type": 1,
+    "additional_awards_display": [
+      [
+        1,
+        1
+      ]
+    ],
+    "id": 1002003
   },
   "all": [
     1001,

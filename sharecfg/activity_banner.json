@@ -1,18 +1,11 @@
 {
   "1": {
-    "id": 1,
-    "param": [
-      "scene skinshop",
-      []
-    ],
-    "type": 2,
-    "pic": "temp1",
     "time": [
       [
         [
           2026,
-          10,
-          22
+          11,
+          5
         ],
         [
           0,
@@ -24,7 +17,7 @@
         [
           2026,
           11,
-          4
+          11
         ],
         [
           23,
@@ -32,10 +25,19 @@
           59
         ]
       ]
-    ]
+    ],
+    "id": 1,
+    "pic": "temp1",
+    "param": [
+      "scene skinshop",
+      []
+    ],
+    "type": 2
   },
   "2": {
+    "time": "stop",
     "id": 2,
+    "pic": "temp2",
     "param": [
       "scene get boat",
       {
@@ -43,46 +45,15 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp2",
-    "time": [
-      [
-        [
-          2026,
-          10,
-          22
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          11,
-          4
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ]
+    "type": 2
   },
   "3": {
-    "id": 3,
-    "param": "51616",
-    "type": 3,
-    "pic": "temp3",
     "time": [
       [
         [
           2026,
-          10,
-          22
+          11,
+          5
         ],
         [
           0,
@@ -94,7 +65,7 @@
         [
           2026,
           11,
-          4
+          11
         ],
         [
           23,
@@ -102,167 +73,61 @@
           59
         ]
       ]
-    ]
+    ],
+    "id": 3,
+    "pic": "temp3",
+    "param": "51688",
+    "type": 3
   },
   "4": {
+    "time": "stop",
     "id": 4,
+    "pic": "temp4",
     "param": [
       "scene core activity",
       {
         "coreName": "WindFogCorridorCoreActivityUI"
       }
     ],
-    "type": 2,
-    "pic": "temp4",
-    "time": [
-      [
-        [
-          2026,
-          10,
-          22
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          11,
-          4
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ]
+    "type": 2
   },
   "5": {
+    "time": "stop",
     "id": 5,
+    "pic": "temp5",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp5",
-    "time": [
-      [
-        [
-          2026,
-          10,
-          22
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          11,
-          4
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ]
+    "type": 2
   },
   "6": {
+    "time": "stop",
     "id": 6,
-    "param": [
-      "scene Cryptolalia",
-      []
-    ],
-    "type": 2,
     "pic": "temp6",
-    "time": [
-      [
-        [
-          2026,
-          10,
-          22
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          10,
-          28
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ]
+    "param": [
+      "dorm 3d select"
+    ],
+    "type": 2
   },
   "7": {
+    "time": "stop",
     "id": 7,
+    "pic": "temp7",
     "param": [
       "scene court yard"
     ],
-    "type": 2,
-    "pic": "temp7",
-    "time": [
-      [
-        [
-          2026,
-          10,
-          22
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          11,
-          4
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ]
+    "type": 2
   },
   "8": {
-    "id": 8,
-    "param": [
-      "scene shop",
-      {
-        "warp": "shopstreet"
-      }
-    ],
-    "type": 2,
-    "pic": "temp8",
     "time": [
       [
         [
           2026,
-          10,
-          22
+          11,
+          5
         ],
         [
           0,
@@ -274,7 +139,7 @@
         [
           2026,
           11,
-          4
+          11
         ],
         [
           23,
@@ -282,25 +147,25 @@
           59
         ]
       ]
-    ]
-  },
-  "9": {
-    "id": 9,
+    ],
+    "id": 8,
+    "pic": "temp8",
     "param": [
       "scene equip",
       {
-        "designPage": 2,
-        "warp": "WARP_TO_DESIGN"
+        "warp": "WARP_TO_DESIGN",
+        "designPage": 2
       }
     ],
-    "type": 2,
-    "pic": "temp9",
+    "type": 2
+  },
+  "9": {
     "time": [
       [
         [
           2026,
-          10,
-          22
+          11,
+          5
         ],
         [
           0,
@@ -312,7 +177,7 @@
         [
           2026,
           11,
-          4
+          11
         ],
         [
           23,
@@ -320,73 +185,54 @@
           59
         ]
       ]
-    ]
+    ],
+    "id": 9,
+    "pic": "temp9",
+    "param": [
+      "scene level",
+      {
+        "open_remaster": true,
+        "isEX": true
+      }
+    ],
+    "type": 2
   },
   "90": {
+    "time": "stop",
     "id": 90,
-    "param": "",
-    "type": 9,
     "pic": "temp99",
-    "time": "stop"
+    "param": "",
+    "type": 9
   },
   "91": {
+    "time": "stop",
     "id": 91,
-    "param": "",
-    "type": 9,
     "pic": "temp98",
-    "time": "stop"
+    "param": "",
+    "type": 9
   },
   "95": {
+    "time": "stop",
     "id": 95,
-    "param": "",
-    "type": 11,
     "pic": "temp100",
-    "time": "stop"
+    "param": "",
+    "type": 11
   },
   "99": {
+    "time": "stop",
     "id": 99,
-    "param": "",
-    "type": 12,
     "pic": "limit_skin",
-    "time": [
-      [
-        [
-          2026,
-          10,
-          22
-        ],
-        [
-          0,
-          0,
-          0
-        ]
-      ],
-      [
-        [
-          2026,
-          11,
-          4
-        ],
-        [
-          23,
-          59,
-          59
-        ]
-      ]
-    ]
+    "param": "",
+    "type": 12
   },
   "100": {
+    "time": "stop",
     "id": 100,
-    "param": "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
-    "type": 10,
     "pic": "dumpling",
-    "time": "stop"
+    "param": "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
+    "type": 10
   },
   "101": {
-    "id": 101,
-    "param": "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious!<color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
-    "type": 10,
-    "pic": "guihuagao",
     "time": [
       [
         [
@@ -412,38 +258,44 @@
           0
         ]
       ]
-    ]
+    ],
+    "id": 101,
+    "pic": "guihuagao",
+    "param": "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious!<color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
+    "type": 10
   },
   "102": {
+    "time": "stop",
     "id": 102,
-    "param": "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-    "type": 10,
     "pic": "christmas",
-    "time": "stop"
+    "param": "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
+    "type": 10
   },
   "200": {
+    "time": "always",
     "id": 200,
-    "param": "",
-    "type": 13,
     "pic": "autumn",
-    "time": "always"
+    "param": "",
+    "type": 13
   },
   "201": {
+    "time": "stop",
     "id": 201,
-    "param": "",
-    "type": 13,
     "pic": "spring",
-    "time": "stop"
+    "param": "",
+    "type": 13
   },
   "202": {
+    "time": "stop",
     "id": 202,
-    "param": "",
-    "type": 13,
     "pic": "winter",
-    "time": "stop"
+    "param": "",
+    "type": 13
   },
   "1001": {
+    "time": "stop",
     "id": 1001,
+    "pic": "temp1001",
     "param": [
       "scene get boat",
       {
@@ -451,48 +303,48 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp1001",
-    "time": "stop"
+    "type": 2
   },
   "1002": {
+    "time": "stop",
     "id": 1002,
+    "pic": "temp998",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp998",
-    "time": "stop"
+    "type": 2
   },
   "1003": {
+    "time": "stop",
     "id": 1003,
+    "pic": "temp1002",
     "param": [
       "scene core activity",
       {
         "coreName": "ActivityRemasterCoreActivityAdaptUI"
       }
     ],
-    "type": 2,
-    "pic": "temp1002",
-    "time": "stop"
+    "type": 2
   },
   "1004": {
+    "time": "stop",
     "id": 1004,
+    "pic": "temp1003",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "pic": "temp1003",
-    "time": "stop"
+    "type": 2
   },
   "1011": {
+    "time": "stop",
     "id": 1011,
+    "pic": "temp1011",
     "param": [
       "scene get boat",
       {
@@ -500,48 +352,48 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp1011",
-    "time": "stop"
+    "type": 2
   },
   "1012": {
+    "time": "stop",
     "id": 1012,
+    "pic": "temp998",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp998",
-    "time": "stop"
+    "type": 2
   },
   "1013": {
+    "time": "stop",
     "id": 1013,
+    "pic": "temp1012",
     "param": [
       "scene core activity",
       {
         "coreName": "ActivityRemasterCoreActivityAdaptUI"
       }
     ],
-    "type": 2,
-    "pic": "temp1012",
-    "time": "stop"
+    "type": 2
   },
   "1014": {
+    "time": "stop",
     "id": 1014,
+    "pic": "temp1013",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "pic": "temp1013",
-    "time": "stop"
+    "type": 2
   },
   "1021": {
+    "time": "stop",
     "id": 1021,
+    "pic": "temp1021",
     "param": [
       "scene get boat",
       {
@@ -549,48 +401,48 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp1021",
-    "time": "stop"
+    "type": 2
   },
   "1022": {
+    "time": "stop",
     "id": 1022,
+    "pic": "temp998",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp998",
-    "time": "stop"
+    "type": 2
   },
   "1023": {
+    "time": "stop",
     "id": 1023,
+    "pic": "temp1022",
     "param": [
       "scene core activity",
       {
         "coreName": "ActivityRemasterCoreActivityAdaptUI"
       }
     ],
-    "type": 2,
-    "pic": "temp1022",
-    "time": "stop"
+    "type": 2
   },
   "1024": {
+    "time": "stop",
     "id": 1024,
+    "pic": "temp1023",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "pic": "temp1023",
-    "time": "stop"
+    "type": 2
   },
   "1031": {
+    "time": "stop",
     "id": 1031,
+    "pic": "temp1031",
     "param": [
       "scene get boat",
       {
@@ -598,48 +450,48 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp1031",
-    "time": "stop"
+    "type": 2
   },
   "1032": {
+    "time": "stop",
     "id": 1032,
+    "pic": "temp998",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp998",
-    "time": "stop"
+    "type": 2
   },
   "1033": {
+    "time": "stop",
     "id": 1033,
+    "pic": "temp1032",
     "param": [
       "scene core activity",
       {
         "coreName": "ActivityRemasterCoreActivityAdaptUI"
       }
     ],
-    "type": 2,
-    "pic": "temp1032",
-    "time": "stop"
+    "type": 2
   },
   "1034": {
+    "time": "stop",
     "id": 1034,
+    "pic": "temp1033",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "pic": "temp1033",
-    "time": "stop"
+    "type": 2
   },
   "1041": {
+    "time": "stop",
     "id": 1041,
+    "pic": "temp1041",
     "param": [
       "scene get boat",
       {
@@ -647,48 +499,48 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp1041",
-    "time": "stop"
+    "type": 2
   },
   "1042": {
+    "time": "stop",
     "id": 1042,
+    "pic": "temp998",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp998",
-    "time": "stop"
+    "type": 2
   },
   "1043": {
+    "time": "stop",
     "id": 1043,
+    "pic": "temp1042",
     "param": [
       "scene core activity",
       {
         "coreName": "ActivityRemasterCoreActivityAdaptUI"
       }
     ],
-    "type": 2,
-    "pic": "temp1042",
-    "time": "stop"
+    "type": 2
   },
   "1044": {
+    "time": "stop",
     "id": 1044,
+    "pic": "temp1043",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "pic": "temp1043",
-    "time": "stop"
+    "type": 2
   },
   "1051": {
+    "time": "stop",
     "id": 1051,
+    "pic": "temp1051",
     "param": [
       "scene get boat",
       {
@@ -696,48 +548,48 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp1051",
-    "time": "stop"
+    "type": 2
   },
   "1052": {
+    "time": "stop",
     "id": 1052,
+    "pic": "temp998",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp998",
-    "time": "stop"
+    "type": 2
   },
   "1053": {
+    "time": "stop",
     "id": 1053,
+    "pic": "temp1052",
     "param": [
       "scene core activity",
       {
         "coreName": "SecretsAbyssCoreActivityReUI"
       }
     ],
-    "type": 2,
-    "pic": "temp1052",
-    "time": "stop"
+    "type": 2
   },
   "1054": {
+    "time": "stop",
     "id": 1054,
+    "pic": "temp1053",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "pic": "temp1053",
-    "time": "stop"
+    "type": 2
   },
   "1061": {
+    "time": "stop",
     "id": 1061,
+    "pic": "temp1061",
     "param": [
       "scene get boat",
       {
@@ -745,45 +597,43 @@
         "page": 1
       }
     ],
-    "type": 2,
-    "pic": "temp1061",
-    "time": "stop"
+    "type": 2
   },
   "1062": {
+    "time": "stop",
     "id": 1062,
+    "pic": "temp998",
     "param": [
       "scene charge",
       {
         "wrap": 2
       }
     ],
-    "type": 2,
-    "pic": "temp998",
-    "time": "stop"
+    "type": 2
   },
   "1063": {
+    "time": "stop",
     "id": 1063,
+    "pic": "temp1062",
     "param": [
       "scene core activity",
       {
         "coreName": "TianYuTianYuanCoreActivityReUI"
       }
     ],
-    "type": 2,
-    "pic": "temp1062",
-    "time": "stop"
+    "type": 2
   },
   "1064": {
+    "time": "stop",
     "id": 1064,
+    "pic": "temp1063",
     "param": [
       "scene shop",
       {
         "warp": "shopstreet"
       }
     ],
-    "type": 2,
-    "pic": "temp1063",
-    "time": "stop"
+    "type": 2
   },
   "all": [
     1,
