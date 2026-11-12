@@ -1,13 +1,10 @@
 {
   "1": {
-    "boss_id": [
-      13
-    ],
-    "activity_series_enemy_id": [
-      4001,
-      4002
-    ],
     "id": 1,
+    "damage_resource": 586,
+    "chapter_name2": "Anomalous Area - Sector 1",
+    "pre_chapter": [],
+    "pos_x": 0,
     "story_worldboss": [
       [
         "DATEALANEGUANQIA2",
@@ -22,12 +19,11 @@
         0
       ]
     ],
-    "chapter_name2": "Anomalous Area - Sector 1",
     "aid_buff": [
       0.5,
       201602
     ],
-    "damage_resource": 586,
+    "chapter_name": "SECTOR-1",
     "profile_pre": [
       [
         [
@@ -69,19 +65,22 @@
         ]
       ]
     ],
-    "pre_chapter": [],
-    "pos_x": 0,
-    "chapter_name": "SECTOR-1"
-  },
-  "2": {
     "boss_id": [
-      14
+      13
     ],
     "activity_series_enemy_id": [
-      4011,
-      4012
-    ],
+      4001,
+      4002
+    ]
+  },
+  "2": {
     "id": 2,
+    "damage_resource": 586,
+    "chapter_name2": "Anomalous Area - Sector 2",
+    "pre_chapter": [
+      1
+    ],
+    "pos_x": 0,
     "story_worldboss": [
       [
         "DATEALANEGUANQIA5",
@@ -100,12 +99,11 @@
         0
       ]
     ],
-    "chapter_name2": "Anomalous Area - Sector 2",
     "aid_buff": [
       0.25,
       201605
     ],
-    "damage_resource": 586,
+    "chapter_name": "SECTOR-2",
     "profile_pre": [
       [
         [
@@ -147,21 +145,22 @@
         ]
       ]
     ],
+    "boss_id": [
+      14
+    ],
+    "activity_series_enemy_id": [
+      4011,
+      4012
+    ]
+  },
+  "3": {
+    "id": 3,
+    "damage_resource": 586,
+    "chapter_name2": "Anomalous Area - Sector 3",
     "pre_chapter": [
       1
     ],
     "pos_x": 0,
-    "chapter_name": "SECTOR-2"
-  },
-  "3": {
-    "boss_id": [
-      15
-    ],
-    "activity_series_enemy_id": [
-      4021,
-      4022
-    ],
-    "id": 3,
     "story_worldboss": [
       [
         "DATEALANEGUANQIA9",
@@ -180,12 +179,11 @@
         0
       ]
     ],
-    "chapter_name2": "Anomalous Area - Sector 3",
     "aid_buff": [
       0.25,
       201610
     ],
-    "damage_resource": 586,
+    "chapter_name": "SECTOR-3",
     "profile_pre": [
       [
         [
@@ -227,21 +225,22 @@
         ]
       ]
     ],
+    "boss_id": [
+      15
+    ],
+    "activity_series_enemy_id": [
+      4021,
+      4022
+    ]
+  },
+  "4": {
+    "id": 4,
+    "damage_resource": 586,
+    "chapter_name2": "Anomalous Area - Sector 4",
     "pre_chapter": [
       1
     ],
     "pos_x": 0,
-    "chapter_name": "SECTOR-3"
-  },
-  "4": {
-    "boss_id": [
-      16
-    ],
-    "activity_series_enemy_id": [
-      4031,
-      4032
-    ],
-    "id": 4,
     "story_worldboss": [
       [
         "DATEALANEGUANQIA13",
@@ -260,12 +259,11 @@
         0
       ]
     ],
-    "chapter_name2": "Anomalous Area - Sector 4",
     "aid_buff": [
       0.25,
       201614
     ],
-    "damage_resource": 586,
+    "chapter_name": "SECTOR-4",
     "profile_pre": [
       [
         [
@@ -307,21 +305,22 @@
         ]
       ]
     ],
+    "boss_id": [
+      16
+    ],
+    "activity_series_enemy_id": [
+      4031,
+      4032
+    ]
+  },
+  "5": {
+    "id": 5,
+    "damage_resource": 586,
+    "chapter_name2": "Anomalous Area - Sector 5",
     "pre_chapter": [
       1
     ],
     "pos_x": 0,
-    "chapter_name": "SECTOR-4"
-  },
-  "5": {
-    "boss_id": [
-      17
-    ],
-    "activity_series_enemy_id": [
-      4041,
-      4042
-    ],
-    "id": 5,
     "story_worldboss": [
       [
         "DATEALANEGUANQIA17",
@@ -340,12 +339,11 @@
         0
       ]
     ],
-    "chapter_name2": "Anomalous Area - Sector 5",
     "aid_buff": [
       0.25,
       201618
     ],
-    "damage_resource": 586,
+    "chapter_name": "SECTOR-5",
     "profile_pre": [
       [
         [
@@ -387,21 +385,25 @@
         ]
       ]
     ],
-    "pre_chapter": [
-      1
-    ],
-    "pos_x": 0,
-    "chapter_name": "SECTOR-5"
-  },
-  "6": {
     "boss_id": [
-      18
+      17
     ],
     "activity_series_enemy_id": [
-      4051,
-      4052
-    ],
+      4041,
+      4042
+    ]
+  },
+  "6": {
     "id": 6,
+    "damage_resource": 586,
+    "chapter_name2": "Anomalous Area - Sector 6",
+    "pre_chapter": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "pos_x": 0,
     "story_worldboss": [
       [
         "DATEALANEGUANQIA22",
@@ -448,12 +450,11 @@
         0
       ]
     ],
-    "chapter_name2": "Anomalous Area - Sector 6",
     "aid_buff": [
       0.7,
       201621
     ],
-    "damage_resource": 586,
+    "chapter_name": "SECTOR-6",
     "profile_pre": [
       [
         [
@@ -508,14 +509,13 @@
         ]
       ]
     ],
-    "pre_chapter": [
-      2,
-      3,
-      4,
-      5
+    "boss_id": [
+      18
     ],
-    "pos_x": 0,
-    "chapter_name": "SECTOR-6"
+    "activity_series_enemy_id": [
+      4051,
+      4052
+    ]
   },
   "all": [
     1,
